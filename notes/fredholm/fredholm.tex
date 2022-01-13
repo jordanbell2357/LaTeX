@@ -1,0 +1,299 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,graphicx,subfig,mathrsfs,amsthm,siunitx}
+%\usepackage{tikz-cd}
+\usepackage{hyperref}
+\newcommand{\inner}[2]{\left\langle #1, #2 \right\rangle}
+\newcommand{\tr}{\ensuremath\mathrm{tr}\,} 
+\newcommand{\Span}{\ensuremath\mathrm{span}} 
+\def\Re{\ensuremath{\mathrm{Re}}\,}
+\def\Im{\ensuremath{\mathrm{Im}}\,}
+\newcommand{\id}{\ensuremath\mathrm{id}} 
+\newcommand{\sgn}{\ensuremath\mathrm{sgn}\,} 
+\newcommand{\rank}{\ensuremath\mathrm{rank\,}} 
+\newcommand{\co}{\ensuremath\mathrm{co}\,} 
+\newcommand{\cco}{\ensuremath\overline{\mathrm{co}}\,}
+\newcommand{\supp}{\ensuremath\mathrm{supp}\,}
+\newcommand{\epi}{\ensuremath\mathrm{epi}\,}
+\newcommand{\lsc}{\ensuremath\mathrm{lsc}\,}
+\newcommand{\ext}{\ensuremath\mathrm{ext}\,}
+\newcommand{\cl}{\ensuremath\mathrm{cl}\,}
+\newcommand{\dom}{\ensuremath\mathrm{dom}\,}
+\newcommand{\LSC}{\ensuremath\mathrm{LSC}}
+\newcommand{\USC}{\ensuremath\mathrm{USC}}
+\newcommand{\Cyl}{\ensuremath\mathrm{Cyl}\,}
+\newcommand{\extreals}{\overline{\mathbb{R}}}
+\newcommand{\upto}{\nearrow}
+\newcommand{\downto}{\searrow}
+\newcommand{\norm}[1]{\left\Vert #1 \right\Vert}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\begin{document}
+\title{The Fredholm determinant}
+\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
+\date{\today}
+
+\maketitle
+
+\section{Introduction}
+By $\mathbb{N}$ we mean the set of positive integers. In this note we write inner products as conjugate linear in the first variable, following the notation of Reed and Simon.
+The purpose of this note is to make sense of $\det(I+A)$ for bounded trace class operators on a Hilbert space. This definition is consistent with the definition of the determinant for
+a finite dimensional Hilbert space.
+
+
+\section{Singular value decomposition}
+Let $H$ be a Hilbert space with an inner product that is conjugate linear in the first variable. We do not presume unless we say
+so that $H$ is separable.\footnote{Often one assumes separability not because statements are false
+for nonseparable Hilbert spaces but because it is notationally easier to talk about separable Hilbert spaces, and this
+indolence hides where separability matters. Moreover, whether or not $H$ is separable, it does not take long to prove that the image
+of a compact linear operator is separable.}
+
+We denote by $\mathscr{B}(H)$ the set of bounded linear operators $H \to H$.
+For any $A \in \mathscr{B}(H)$, $A^*A$ is positive and one proves that it has a unique positive square root $|A| \in \mathscr{B}(H)$. 
+We call $|A|$ the {\em absolute value of $A$}.
+
+We say that $U \in \mathscr{B}(H)$ is a {\em partial isometry} if there is a closed subspace $X$ of $H$ such that the restriction
+of $U$ to $X$ is an isometry $X \to U(X)$ and $\ker U = X^\perp$. One proves that for any $A \in \mathscr{B}(H)$, there is a unique partial
+isometry $U$ satisfying both $\ker U=\ker A$ and $A=U|A|$, and $A=U|A|$ is called the {\em polar decomposition of $A$}. Some useful identities that
+the polar decomposition satisfies are
+\[
+U^*U|A|=|A|, \quad U^*A=|A|, \quad UU^*A=A.
+\]
+
+
+If $A \in \mathscr{B}(H)$ is compact and self-adjoint, the spectral theorem tells us that there is an orthonormal set $\{e_n: n \in \mathbb{N}\}$
+in $H$ and $\lambda_n \in \mathbb{R}$, $|\lambda_1| \geq |\lambda_2| \geq \cdots$, such that 
+\[
+Ax = \sum_{n \in \mathbb{N}} \lambda_n \inner{e_n}{x}e_n, \qquad x \in H.
+\]
+If $A \in \mathscr{B}(H)$ is compact, then $|A|$ is compact (the compact operators are an ideal and $|A|=U^*A$), so the spectral theorem tells us that there is an orthonormal set
+$\{e_n: n \in \mathbb{N}\}$ in $H$ and $\lambda_n \in \mathbb{R}$, $\lambda_1 \geq \lambda_2 \geq \cdots \geq 0$, such that
+\[
+|A|x = \sum_{n \in \mathbb{N}} \lambda_n \inner{e_n}{x}e_n, \qquad x\in H.
+\]
+Write $\sigma(A)=\lambda_n(|A|)$. $\sigma_n(A)$ are called the {\em singular values of $A$}.
+
+Using the spectral theorem and the polar decomposition, one proves that for any compact $A \in \mathscr{B}(H)$, there are orthonormal
+sets $\{e_n: n \in \mathbb{N}\}$ and $\{f_n: n \in \mathbb{N}\}$ in $H$ such that
+\[
+Ax = \sum_{n \in \mathbb{N}} \sigma_n(A) \inner{f_n}{x}e_n, \qquad x \in H.
+\]
+This is called the {\em singular value decomposition of $A$}. 
+
+
+\section{Trace class operators}
+We denote by $\mathscr{B}_1(H)$ the set of those  $A \in \mathscr{B}(H)$ that are compact and such that
+\[
+\norm{A}_1 = \sum_{n \in \mathbb{N}} \sigma_n(A) < \infty.
+\]
+Elements of $\mathscr{B}_1(H)$ are called {\em trace class operators}.
+It can be proved that 
+$\mathscr{B}_1(H)$ with the norm $\norm{\cdot}_1$ is a Banach space. 
+
+Let $\mathscr{E}$ be an orthonormal basis for $H$.
+We define $\tr: \mathscr{B}_1(H) \to \mathbb{C}$ by
+\[
+\tr A = \sum_{e \in \mathscr{E}} \inner{e}{Ae}, \qquad A \in \mathscr{B}_1(H).
+\]
+One proves that the value of this sum is the same for any orthonormal basis of $H$, and that $\tr$ is a bounded linear operator.
+
+It is a fact that if $A \in \mathscr{B}_1(H)$ then $A^* \in \mathscr{B}_1(H)$, $\tr A^* = \overline{\tr A}$, and $\norm{A^*}_1 =\norm{A}_1$. Another fact is that
+if $A \in \mathscr{B}_1(H)$ and $B \in \mathscr{B}(H)$, then $AB,BA \in \mathscr{B}_1(H)$, $\tr(AB)=\tr(BA)$,  $|\tr(BA)| \leq 
+\norm{B}\norm{A}_1$, and $\norm{AB}_1 \leq \norm{A}_1 \norm{B}$, $\norm{BA}_1 \leq \norm{B}\norm{A}_1$.  Finally,
+if $A \in \mathscr{B}_1(H)$ then $\norm{A} \leq \norm{A}_1$. 
+
+
+
+\section{Logarithms}
+We say that $A \in \mathscr{B}(H)$ is {\em invertible} if $A^{-1} \in \mathscr{B}(H)$.  
+If $A \in \mathscr{B}(H)$ and $\norm{A}<1$, one checks that  $I-A$ is invertible: $(I-A)^{-1}= \sum_{n=0}^\infty A^n$. Furthermore, suppose that $A \in \mathscr{B}_1(H)$ and $\norm{A}<1$. Then,
+\[
+\log(I-A)=\sum_{n=1}^\infty -\frac{A^n}{n},
+\]
+hence
+\[
+\tr \log(I-A) = \sum_{n=1}^\infty -\frac{\tr(A^n)}{n},
+\]
+and
+\begin{equation}
+\exp \tr \log(I-A) = \prod_{n=1}^\infty \exp\left(-\frac{\tr(A^n)}{n}\right).
+\label{explicitdet}
+\end{equation}
+Because $\det \exp B=\exp \tr B$ for any $B \in \mathscr{B}(\mathbb{R}^N)$, if $A \in \mathscr{B}(\mathbb{R}^N)$ satisfies $\norm{A}<1$ then
+$\det (I-A)= \exp \tr \log (I-A)$.
+The above expression makes
+sense for any $A \in \mathscr{B}_1(H)$ with $\norm{A}<1$, so it makes sense to define
+\[
+\det (I-A)=\exp \tr \log (I-A)
+\]
+ in this case, for which we have the explicit formula \eqref{explicitdet}.
+We have not shown that
+$\det$ has the properties we might expect it to have, but at least in the case $H=\mathbb{R}^N$ it is equal to the ordinary
+determinant, which is
+the least we could demand of a function which we denote by $\det$.
+
+
+
+\section{Tensor products} 
+Suppose that $H$ is a Hilbert space over $K$ with inner product
+$\inner{\cdot}{\cdot}$  that is conjugate linear in the first variable.
+For each $n \in \mathbb{N}$ and $x_1,\ldots,x_n \in H$, let $x_1 \otimes \cdots \otimes x_n$  be the  multilinear function
+on $H^n$ defined by 
+\[
+(x_1 \otimes \cdots \otimes x_n)(y_1,\ldots,y_n) = \prod_{k=1}^n \inner{x_k}{y_k}, \qquad (y_1,\ldots,y_n) \in H^n.
+\]
+The set of all finite linear combinations of such  multilinear functions is a vector  space for which there is a unique inner product that satisfies
+\[
+\inner{x_1 \otimes \cdots \otimes x_n}{y_1 \otimes \cdots \otimes y_n} = \prod_{k=1}^n \inner{x_k}{y_k}, \qquad
+x_1,\ldots,x_n,y_1,\ldots,y_n \in H.
+\]
+We denote by $\bigotimes^n H$ the completion of this vector space using this inner product.\footnote{See
+Michael Reed and Barry Simon, {\em Methods of Modern Mathematical Physics, volume I: Functional Analysis}, revised and enlarged
+ed., p. 50.}
+Thus,
+$\bigotimes^n H$ is a Hilbert space.
+We call this a {\em tensor product}, but it does not have the universal
+property of tensor products, so is not a categorical tensor product.\footnote{Paul Garrett, \url{http://www.math.umn.edu/~garrett/m/v/nonexistence_tensors.pdf}} 
+
+If $A \in \mathscr{B}(H)$, one proves that there is a unique $T \in \mathscr{B}(\bigotimes^n H)$ that satisfies
+\[
+T(x_1 \otimes \cdots \otimes x_n)=Ax_1 \otimes \cdots \otimes Ax_n, \qquad
+x_1\otimes \cdots \otimes x_n \in \textstyle{\bigotimes^n H},
+\]
+and we write $T=\bigotimes^n A$. For $A,B \in \mathscr{B}(H)$
+and $x_1 \otimes \cdots \otimes x_n \in \bigotimes^n H$,
+it is straightforward to check that 
+\[
+\textstyle{(\bigotimes^n (AB))(x_1 \otimes \cdots \otimes x_n) = (\bigotimes^n A)(\bigotimes^n B)(x_1 \otimes \cdots \otimes x_n)},
+\]
+from which it follows that $\bigotimes^n (AB) = \bigotimes^n A \bigotimes^n B$.
+
+\section{Exterior powers}
+Let $S_n$ denote the group of permutations on $n$ symbols and let $\sgn(\pi)$ denote the sign of the permutation $\pi$. 
+For $x_1,\ldots,x_n \in H$, we define $x_1 \wedge \cdots \wedge x_n \in \bigotimes^n H$ by
+\[
+x_1 \wedge \cdots \wedge x_n = (n!)^{-1/2} \sum_{\pi \in S_n} \sgn(\pi) x_{\pi(1)} \otimes \cdots \otimes x_{\pi(n)}.
+\]
+We define $\bigwedge^n H$ to be the closure in $\bigotimes^n H$ of the set
+of all finite linear combinations of elements of $\bigotimes^n H$ of the form $x_1 \wedge \cdots \wedge x_n$.\footnote{cf. Paul Garrett, \url{http://www.math.umn.edu/~garrett/m/algebra/notes/28.pdf}}
+Thus, $\bigwedge^n H$ is a Hilbert space.
+
+For $x_1 \wedge \cdots \wedge x_n, y_1 \wedge \cdots \wedge y_n \in \bigwedge^n H$, one proves that\footnote{Michael
+Reed and Barry Simon, {\em Methods of Modern Mathematical Physics, volume IV: Analysis of Operators}, p.~321.}
+\[
+\inner{x_1 \wedge \cdots \wedge x_n}{y_1 \wedge \cdots \wedge y_n}= \det(\inner{x_i}{y_j}),
+\]
+where
+\[
+\det(a_{i,j}) = \sum_{\pi \in S_n} \sgn(\pi) a_{1,\pi(1)} \cdots a_{n,\pi(n)}.
+\]
+In particular,
+if $\{x_1,\ldots,x_n\}$ is an orthonormal set in $H$, then $\norm{x_1 \wedge \cdots \wedge x_n}=1$.
+
+
+For $A \in \mathscr{B}(H)$ and $x_1 \wedge \cdots \wedge x_n \in \bigwedge^n H$, it is apparent that
+\[
+\textstyle{(\bigotimes^n A)x_1 \wedge \cdots \wedge x_n = Ax_1 \wedge \cdots \wedge Ax_n.}
+\]
+ It follows that $\bigotimes^n A$ sends
+an element of $\bigwedge^n H$ to an element $\bigwedge^n H$, and hence that the restriction of $\bigotimes^n A$ to
+$\bigwedge^n H$ belongs to $\mathscr{B}(\bigwedge^n H)$. We denote this restriction by $\bigwedge^n A$. 
+Because $\bigotimes^n (AB) = \bigotimes^n A \bigotimes^n B$, we also have
+$\bigwedge^n (AB) = \bigwedge^n A \bigwedge^n B$. 
+
+\section{Finite dimensional Hilbert spaces}
+Suppose that $H$ is an $n$-dimensional Hilbert space and that $A \in \mathscr{B}(H)$.
+If $H$ has dimension $n$ and $\{e_1,\ldots,e_n\}$ is an orthonormal basis for $H$, one proves that
+\[
+\{e_{i_1} \wedge \cdots \wedge e_{i_k}: 1 \leq i_1 < \cdots <i_k \leq n\}
+\]
+is an orthonormal basis for $\bigwedge^k H$, and hence that 
+$\bigwedge^k H$ has dimension $\binom{n}{k}$. So $\bigwedge^n H$ has dimension 1, and
+as $\bigwedge^n A \in \mathscr{B}(\bigwedge^n H)$, there is some scalar $\alpha$ such that
+$(\bigwedge^n A) v = \alpha v$ for all $v \in \bigwedge^n H$. (A linear map from a one dimensional vector space to itself
+is multiplication by a scalar.)  On the one hand,
+\begin{eqnarray*}
+\inner{e_1 \wedge \cdots \wedge e_n}{\textstyle{(\bigwedge^n A)}(e_1 \wedge \cdots \wedge e_n)}&=&\inner{e_1 \wedge \cdots \wedge e_n}{\alpha e_1 \wedge \cdots \wedge e_n}\\
+&=&\alpha \inner{e_1 \wedge \cdots \wedge e_n}{e_1 \wedge \cdots \wedge e_n}\\
+&=&\alpha.
+\end{eqnarray*}
+On the other hand,
+\begin{eqnarray*}
+\inner{e_1 \wedge \cdots \wedge e_n}{\textstyle{(\bigwedge^n A)}(e_1 \wedge \cdots \wedge e_n)}&=&\inner{e_1 \wedge \cdots \wedge e_n}{Ae_1 \wedge \cdots \wedge Ae_n}\\
+&=&\det A.
+\end{eqnarray*}
+Thus, $\bigwedge^n A$ is the map $v \mapsto \det(A)v$.\footnote{Michael
+Reed and Barry Simon, {\em Methods of Modern Mathematical Physics, volume IV: Analysis of Operators}, p.~321, Lemma 2.}
+
+Still taking $H$ to be $n$-dimensional, take $A \in \mathscr{B}(H)$, and let
+$e_1,\ldots,e_n$ be an orthonormal basis for $H$ such that $V_k=\Span\{e_1,\ldots,e_k\}$ and such that
+$A(V_k)=V_k$ for $k=1,\ldots,n$; such a basis is obtained using the {\em Schur decomposition} of $A$.
+
+
+The equality
+\begin{eqnarray*}
+\tr(\textstyle{\bigwedge^k A})&=&\sum_{1 \leq i_1 < \cdots < i_k \leq n} \inner{e_{i_1} \wedge \cdots \wedge e_{i_k}}{(\textstyle{\bigwedge^k A})(e_{i_1} \wedge \cdots \wedge e_{i_k})}\\
+&=&\sum_{1 \leq i_1 < \cdots i_k \leq n} \inner{e_{i_1} \wedge \cdots \wedge e_{i_k}}{Ae_{i_1} \wedge \cdots \wedge Ae_{i_k}}\\
+&=&\sum_{1 \leq i_1 < \cdots < i_k \leq n} \det(\inner{e_{i_i}}{Ae_{i_j}})\\
+&=&\sum_{1 \leq i_1 < \cdots < i_k \leq n} \lambda_{i_1} \cdots \lambda_{i_k}
+\end{eqnarray*}
+and the equality
+\begin{eqnarray*}
+\det(I+A)&=&\inner{e_1\wedge \cdots \wedge e_n}{(I+A)e_1 \wedge \cdots \wedge (I+A)e_n}\\
+&=&\det(\inner{e_i}{(I+A)e_j})\\
+&=&\prod_{j=1}^n (1+\lambda_j)
+\end{eqnarray*}
+together give
+\[
+\det(I+A)=\sum_{j=0}^n \tr(\textstyle{\bigwedge^j}A).
+\]
+
+If $H$ is infinite dimensional we define $\det(I+A)$ for $A \in \mathscr{B}_1(H)$ following the above formula.
+For this definition to make sense we use the following lemma.\footnote{Michael
+Reed and Barry Simon, {\em Methods of Modern Mathematical Physics, volume IV: Analysis of Operators}, p.~323, Lemma 3.} It is stated in Reed and Simon for separable
+Hilbert spaces. In reading the proof I don't see how separability is essential to proving the result, but without carefully working out the proof and refreshing myself about the
+singular value decomposition, it would be dishonest to assert that the result  is true for nonseparable Hilbert spaces.
+
+\begin{lemma}
+Let $H$ be a separable Hilbert space and let $A \in \mathscr{B}_1(H)$. For any $k \in \mathbb{N}$ we have
+$\bigwedge^k A \in \mathscr{B}_1(\bigwedge^k H)$, and
+\[
+\norm{\textstyle{\bigwedge^k A}}_1 = \sum_{i_1<\cdots < i_k} \mu_{i_1} \cdots \mu_{i_k},
+\]
+and
+\[
+\norm{\textstyle{\bigwedge^k A}}_1 \leq \frac{\norm{A}_1^k}{k!}.
+\]
+\end{lemma}
+
+
+
+\begin{definition}
+If $H$ is a separable Hilbert space and
+$A \in \mathscr{B}_1(H)$, we define
+\[
+\det(I+A) = \sum_{k=0}^\infty \tr(\textstyle{\bigwedge^k A}).
+\]
+We call  $\det$ the {\em Fredholm determinant on $H$}.
+\end{definition}
+
+For a separable Hilbert space,
+Reed and Simon also prove that\footnote{Michael
+Reed and Barry Simon, {\em Methods of Modern Mathematical Physics, volume IV: Analysis of Operators}, p.~323, Lemma 4.}
+\[
+|\det(I+A)| \leq \exp(\norm{A}_1), \qquad A \in \mathscr{B}_1(H),
+\]
+that
+\[
+\det(I+A)\det(I+B) = \det(I+A+B+AB), \qquad A,B \in \mathscr{B}_1(H),
+\]
+and that for $A \in \mathscr{B}_1(H)$,
+$I+A$ is invertible if and only if $\det (I+A) \neq 0$.\footnote{Michael
+Reed and Barry Simon, {\em Methods of Modern Mathematical Physics, volume IV: Analysis of Operators}, p.~325, Theorem XIII.105.}
+
+
+\end{document}

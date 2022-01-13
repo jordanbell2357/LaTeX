@@ -1,0 +1,96 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,graphicx,subfig,mathrsfs,amsthm}
+\usepackage{tikz-cd}
+\newcommand{\HSnorm}[1]{\left\Vert #1 \right\Vert_{\textrm{HS}}}
+\newcommand{\HSinner}[2]{\left\langle #1, #2 \right\rangle_{\textrm{HS}}}
+\newcommand{\inner}[2]{\langle #1, #2 \rangle}
+\newcommand{\tr}{\textrm{tr}} 
+\newcommand{\norm}[1]{\left\Vert #1 \right\Vert}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\begin{document}
+\title{Categorical tensor products of Hilbert spaces}
+\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
+\date{\today}
+
+\maketitle
+
+These notes are my writing down some material for reference from Paul Garrett's (University of Minnesota) functional analysis notes, which are wonderful and present material in an extraordinarily clear way.
+
+
+\section{Hilbert-Schmidt operators}
+Let $V,W$ be Hilbert spaces. A  linear operator $T:V \to W$ that maps any bounded sequence to a sequence with a convergent subsequence is called {\em compact}.
+We say that $T:V \to V$ is {\em self-adjoint} if for all $x,y \in V$ we have $\inner{Tx}{y}=\inner{x}{Ty}$.
+If $T:V \to V$ is self-adjoint, then we can show that
+\[
+\norm{T}=\sup_{\norm{x} \leq 1} |\inner{Tx}{x}|.
+\]
+It is a fact that if $T:V \to V$ is a self-adjoint compact operator then at least one of $\norm{T}$ or $-\norm{T}$ is an eigenvalue of $T$.
+
+
+Fact: If $T_n:V \to W$ are compact and $T_n \to T$ in the operator norm, $T:V \to W$, then $T$ is compact.
+
+$T:V \to W$ is called a {\em finite-rank operator} if $T(X)$ is finite dimensional. Fact: $T:V \to W$ is compact if and only if there is a sequence $T_n:V \to W$ of finite-rank operators that
+converge to $T$ in the operator norm. 
+
+If $T:V \to W$ is a finite-rank operator, we define its {\em trace} by
+\[
+\tr(T)=\sum_i \inner{Te_i}{e_i},
+\]
+where $e_i$ is an orthonormal basis for $V$, and one shows that this definition is independent of the choice of basis.
+An operator $T:V \to W$ is said to be {\em trace class} if
+\[
+\sum_i \inner{(T^* T)^{1/2} e_i}{e_i}<\infty,
+\]
+in which case the series $\sum_i \inner{Te_i}{e_i}$ is absolutely convergent, and we define $\tr(T)=\sum_i \inner{Te_i}{e_i}$.
+We define $\norm{T}_1 = \tr|T|=
+\sum_i \inner{(T^* T)^{1/2} e_i}{e_i}$.
+
+If $T: V \to W$ is a finite-rank operator, we define its {\em Hilbert-Schmidt norm} by
+\[
+\HSnorm{T}^2=\tr(T^*T)=\tr(|T|^2).
+\]
+The space of {\em Hilbert-Schmidt operators} $V \to W$ is the completion of
+the finite-rank operators $V \to W$ under the Hilbert-Schmidt norm. If
+$S$ and $T$ are Hilbert-Schmidt operators, then their {\em Hilbert-Schmidt inner product}
+is defined by
+\[
+\HSinner{S}{T}=\tr(T^*S).
+\]
+The space of Hilbert-Schmidt operators $V \to W$ is a Hilbert space. 
+Let $T:V \to W$ be Hilbert-Schmidt. Fact: $\norm{T} \leq \HSnorm{T}$. It follows from this
+that a Hilbert-Schmidt operator is compact. 
+
+\section{Tensor products of Hilbert spaces}
+If $V$ and $W$ are Hilbert spaces,
+one can use the inner product on each Hilbert
+space to define an inner product on simple tensors that can be extended by linearity to finite linear combinations of simple tensors. The vector space of finite linear combinations of simple
+tensors is the algebraic tensor product $V \otimes_{\textrm{alg}} W$.
+Fact: 
+The completion $V \otimes_{\textrm{HS}} W$ of the algebraic tensor product $V \otimes_{\textrm{alg}} W$ is isomorphic to the Hilbert space of Hilbert-Schmidt
+operators $V \to W^*$. 
+
+
+
+Let $j(v,\lambda)=v \otimes \lambda$, $j:V \times V^* \to V \otimes_{\textrm{HS}} V^*$. 
+
+\begin{tikzcd}
+V \otimes_{\textrm{HS}} V^* \arrow[dashed]{rd} &  \\
+V \times V^* \arrow{r} \arrow{u}{j} & \mathbb{C}
+\end{tikzcd}
+
+For $V \otimes_{\textrm{HS}} V^*$  to be the categorical tensor product of the Hilbert spaces $V$ and $V^*$, we must have that for every continuous bilinear $g:V \times V^* \to \mathbb{C}$, there is a unique
+continuous linear $h: V \otimes_{\textrm{HS}} V^* \to \mathbb{C}$ such that $h \circ j = g$.  Define $g:V \times V^* \to \mathbb{C}$ by $g(v,\lambda)=\lambda(v)$. 
+Let $e_n$ be an orthonormal basis for $V$ and let $\lambda_n$ be the dual basis for $V^*$, namely, $\lambda_n(v_m)=\delta_{m,n}$. $V \otimes_{\textrm{HS}} V^*$ is isomorphic
+to the Hilbert space of Hilbert-Schmidt operators $V \to V$. We have $\sum_n \frac{1}{n} e_n \otimes \lambda_n \in V \otimes_{\textrm{HS}} V^*$. But
+what $h$ would have to do to this element of the tensor product is send it to $\sum_n \frac{1}{n}$. Thus there is no $h$ that makes the above diagram commute,
+and thus $V \otimes_{\textrm{HS}} V^*$ is not a categorical tensor product. 
+
+Perhaps there is a Hilbert space that is the categorical tensor product of $V$ and $V^*$, and it is merely not $V \otimes_{\textrm{HS}} V^*$. This turns out not to be the case.
+Garrett shows in his online notes that for any two infinite dimensional Hilbert spaces $V$ and $W$, there is no Hilbert space that is the categorical tensor
+product of $V$ and $W$. Since there is indeed no categorical tensor product of Hilbert spaces, when we say the tensor product of $V$ and $W$ we mean $V \otimes_{\textrm{HS}} W$, as
+it is the best tensor product we have.
+
+
+\end{document}

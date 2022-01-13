@@ -1,0 +1,278 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,graphicx,subfig,mathrsfs,amsthm}
+%\usepackage{tikz-cd}
+\newcommand{\HSnorm}[1]{\left\Vert #1 \right\Vert_{\textrm{HS}}}
+\newcommand{\HSinner}[2]{\left\langle #1, #2 \right\rangle_{\textrm{HS}}}
+\newcommand{\inner}[2]{\langle #1, #2 \rangle}
+\newcommand{\jap}[1]{\left\langle #1 \right\rangle}
+\newcommand{\alg}{\otimes_{\textrm{alg}}} 
+\newcommand{\HS}{\otimes_{\textrm{HS}}} 
+\newcommand{\tr}{\textrm{tr}} 
+\newcommand{\Span}{\textrm{span}} 
+\newcommand{\id}{\textrm{id}} 
+\newcommand{\Hom}{\textrm{Hom}} 
+\newcommand{\norm}[1]{\left\Vert #1 \right\Vert}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\begin{document}
+\title{Hilbert-Schmidt operators and tensor products of Hilbert spaces}
+\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
+\date{\today}
+
+\maketitle
+
+Here I'm working through  the notes {\em Hilbert-Schmidt operators, nuclear spaces, kernel theorem I} of Paul Garrett, University of
+Minnesota (it's easier for me just to give their title here rather than a link in case the link changes, so just Google it).
+
+\section{Tensor products of vector spaces and their completion}
+For $k$-vector spaces $A,B$ let $\Hom_k(A,B)$ be the set of $k$-linear maps $A \to B$. 
+One checks that $\Hom_k(A,B)$ is itself a $k$-vector space.
+For $k$-vector spaces $A,B,C$,
+\[
+\Hom_k(A,\Hom_k(B,C)) \approx \Hom_k(A \otimes_k B, C), 
+\]
+where $\phi \in \Hom_k(A \to \Hom_k(B,C))$ is sent to the map $A \otimes_k B \to C$ that sends
+$a \otimes b$ to $\phi(a)b$.
+In particular with $C=k$,
+\[
+\Hom_k(A,B^*) \approx (A \otimes_k B)^*.
+\]
+
+If $V,W$ are Hilbert spaces they are in particular vector spaces, and let $V \alg W$ be their vector space tensor product. We  define an inner product on 
+ $V \alg W$ by defining it on the basis elements:
+\[
+\HSinner{x \otimes y}{x' \otimes y'}=\inner{x}{x'} \inner{y}{y'}.
+\]
+Let $V \HS W$ be the completion of $V \alg W$ in the norm defined by this inner product. 
+$V \HS W$ is a Hilbert space; however, as Garrett shows it is not
+a categorical tensor product, and in fact if $V$ and $W$ are Hilbert spaces there is no Hilbert space that is their categorical tensor product.
+(We use the subscript HS because soon we will show that $V \HS W$ is isomorphic as a Hilbert space to 
+the Hilbert space of Hilbert-Schmidt operators $V \to W$.)
+
+\section{Finite-rank operators}
+If $V,W$ are Hilbert spaces,
+let $F(V,W)$ be the set of bounded linear operators $V \to W$ whose range is finite dimensional.
+Define
+\[
+\Phi:V^* \alg W \to F(V,W)
+\] 
+by
+\[
+\Phi(\lambda \otimes w)(v)=(\lambda v)w.
+\] 
+Let $\{w_1,\ldots\}$ be an orthonormal basis of $W$. Let $I$ be finite. Then,
+\[
+\Phi\left( \sum_{i \in I} \lambda_i \otimes w_i \right)(v)=\sum_{i \in I} \Phi(\lambda_i \otimes w_i)(v)
+=\sum_{i \in I} (\lambda_i v)w_i \in \Span\{w_i: i \in I\}.
+\]
+Thus $\Phi$ indeed sends an arbitrary element of $V^* \alg W$ to a bounded finite-rank operator $V \to W$. 
+On the one hand, it is straightforward to check that $\Phi$ is injective (if it sends something to $0$ that thing must be $0$).
+On the other hand, let $T\in F(V,W)$. Since $T(V)$ is finite dimensional, it follows that $(\ker T)^\perp$ 
+is finite dimensional. Let $v_1,\ldots,v_n$ be an orthonormal basis for $(\ker T)^\perp$. Define
+$\lambda_i \in V^*$ by $\lambda_i(v)=\inner{v}{v_i}$. Then
+\[
+\sum_{i=1}^n \lambda_i \otimes Tv_i \in V^* \alg W,
+\]
+and
+\[
+\Phi\left(\sum_{i=1}^n \lambda_i \otimes Tv_i \right)=T.
+\]
+Thus $\Phi$ is surjective. So $\Phi$ is a linear isomorphism.
+Therefore it is equivalent for us to speak about bounded finite-rank operators $V \to W$ or about the vector space tensor product $V^* \alg W$.
+But when we talk about the completion of these spaces in the Hilbert-Schmidt norm, we can talk about the completion of $F(V,W)$ in $\Hom(V,W)$, while we don't have a concrete space in which
+to talk about the completion of $V^* \alg W$.
+
+\section{Hilbert-Schmidt operators}
+We define an inner product on bounded finite-rank operators $V \to W$
+using the inner product we have already defined on $V^* \alg W$ (and using the subscript HS for both):
+If $S,T \in F(V,W)$, define
+\[
+\HSinner{S}{T}=\HSinner{\Phi^{-1}(S)}{\Phi^{-1}(T)}.
+\]
+Then, if $\{v_1,\ldots\}$ is an orthonormal basis for $V$ and $\lambda_n(v)=\inner{v}{v_n}$. When we showed that $\Phi$ is surjective we explicitly wrote the inverse of $T$ under $\Phi$ and we use that here:
+\begin{eqnarray*}
+\HSinner{S}{T} &=& \HSinner{ \sum_n \lambda_n \otimes S v_n}{\sum_m \lambda_m \otimes T v_m}\\
+&=&\sum_n \sum_m \inner{\lambda_n}{\lambda_n} \inner{Sv_n}{Tv_m}\\
+&=&\sum_n \inner{Sv_n}{Tv_m}.
+\end{eqnarray*}
+For $T \in F(V,W)$, we define $\HSnorm{T}^2=\HSinner{T}{T}=\sum_n |Tv_n|^2$.
+
+We define $\Hom_{\textrm{HS}}(V,W)$ to be the completion in $\Hom(V,W)$ of $F(V,W)$ in the above norm. $\Hom_{\textrm{HS}}$ is a Hilbert space, since it's the completion of an inner product space. 
+
+If $S,T \in \Hom_{\textrm{HS}}(V,W)$ and $\{v_1,\ldots\}$ is an orthonormal basis of $V$, then
+\[
+\HSinner{S}{T}=\sum_n \inner{Sv_n}{Tv_n}.
+\]
+($\HSinner{S}{T}$ was originally defined only for finite rank $S$ and $T$, and thus the above is not merely by definition but something one checks.)
+
+Let $\epsilon>0$ and let $v_1$ be a unit vector such that $|Tv_1|^2+\epsilon>\norm{T}^2$, where $\norm{T}$ is the operator norm of $T$. 
+Then let $v_2,\ldots$ be such that $v_1,v_2,\ldots$ is an orthonormal basis of $V$. We have
+\[
+\norm{T}^2 < |Tv_1|^2 +\epsilon \leq \epsilon+ \sum_n |Tv_n|^2 = \epsilon + \HSnorm{T}^2.
+\]
+This is true for all $\epsilon>0$, so
+\[
+\norm{T}^2 \leq  \HSnorm{T}^2.
+\]
+Since a limit of finite-rank operators in the operator norm is a compact operator, a Hilbert-Schmidt operator is compact (because a sequence of finite-rank
+operators that converges to an operator in the Hilbert-Schmidt norm will converge to it in the operator norm, and hence their limit will be a compact operator).
+
+The adjoint of a Hilbert-Schmidt operator $V \to W$ is a Hilbert-Schmidt operator $W^* \to V^*$, i.e. $W \to V$ (Hilbert spaces). 
+
+Let $T:V \to W$ be a bounded linear operator and let $\{v_1,\ldots\}$ be an orthonormal basis for $V$. 
+If
+\[
+\sum_n |Tv_n|^2<\infty,
+\]
+then $T$ is a Hilbert-Schmidt operator, and this is the Hilbert-Schmidt norm of $T$. (This is a standard idea; if you want to show that a function is in
+$L^2$, then just determine its $L^2$ norm and see if this is finite.)
+
+It is straightforward to show that if $S:W \to X$ is a bounded linear operator and $T:V \to W$ is a Hilbert-Schmidt operator, then $S \circ T:V \to X$
+is a Hilbert-Schmidt operator. Likewise, using the fact that the adjoint of a Hilbert-Schmidt operator is Hilbert-Schmidt we can check that if
+$S:X \to V$ is a bounded linear operator then $T \circ S$ is a Hilbert-Schmidt operator.
+
+\section{Limits and tensor products}
+Let $V,W,V_1,W_1$ be Hilbert spaces and let $S:V_1 \to V$ and $T:W_1 \to W$ be Hilbert-Schmidt operators. 
+Let $\beta: V \times W \to X$ be a bilinear map that is continuous (I don't say bounded here because $\beta$ is not necessarily linear.)
+Let $v_i$ be an orthonormal basis for $V_1$ and let $w_j$ be an orthonormal basis for $W_1$. 
+Define $B:V_1 \HS W_1 \to X$ by
+\[
+B\left( \sum_{i,j} c_{i,j} v_i \otimes w_j \right) = \sum_{i,j} c_{i,j} \beta(Sv_i,Tw_j).
+\]
+This is a continuous bilinear map such that the composition
+$V_1 \times W_1 \to V_1 \HS W_1 \to X$ is equal to the composition $V_1 \times W_1 \to V \times W \to X$.
+We can check that $B$ is a Hilbert-Schmidt operator.
+
+Let $V_0,V_1,\ldots$ be Hilbert spaces and let $\phi:V_i \to V_{i-1}$ be Hilbert-Schmidt operators.
+Let $V=\varprojlim_i V_i$, the projective limit in the category
+of topological vector spaces; so $V$ has the coarsest topology such that the maps from it to each $V_i$ are continuous. (One has actually to prove that there is a 
+$V$ that is the projective limit of the system of $V_i$ and $\phi_i$.) 
+Garrett shows that if $V = \varprojlim_i V_i$ and $W=\varprojlim_j W_i$, then $\varprojlim_i V_w \HS W_i$ is a categorical tensor product of
+$V$ and $W$, in the category whose objects are Hilbert spaces and the above projective limits of Hilbert spaces. 
+
+\section{Sobolev spaces}
+In this section I have referred to the notes {\em MAT218: Lecture Notes on Partial Differential Equations} of
+Steve Shkoller, UC Davis.
+
+For $u \in L^1(\mathbb{T}^m)$,
+\[
+\hat{u}(k)=\frac{1}{(2\pi)^m} \int_{\mathbb{T}^m} e^{-ik\cdot x} u(x) dx, \qquad k \in \mathbb{Z}^m.
+\]
+$u:\mathbb{T}^m \to \mathbb{C}$ and $\hat{u}:\mathbb{Z}^m \to \mathbb{C}$. 
+
+For $u,v \in L^2(\mathbb{T}^m)$,
+\[
+\inner{u}{v}_{L^2(\mathbb{T}^m)} = \left( \frac{1}{(2\pi)^m} \int_{\mathbb{T}^m} u(x) \overline{v(x)} dx \right)^{1/2}
+\]
+and
+\[
+\inner{\hat{u}}{\hat{v}}_{\ell^2(\mathbb{Z}^m)} = \sum_{k \in \mathbb{Z}^m} \hat{u}(k) \overline{\hat{v}(k)}.
+\]
+Parseval's identity: $\norm{u}_{L^2(\mathbb{T}^m)}= \norm{\hat{u}}_{\ell^2(\mathbb{Z}^m)}$.
+
+Let $\mathcal{D}'(\mathbb{T}^m)=(C^\infty(\mathbb{T}^m)'$, the dual space of $C^\infty(\mathbb{T}^m)$. These are the continuous linear functionals on $C^\infty(\mathbb{T}^m)$. We call elements of $\mathcal{D}'(\mathbb{T}^m)$ distributions. Distributions are not
+necessarily functions on $\mathbb{T}^m$, but their Fourier transforms are indeed functions on $\mathbb{Z}^m$. 
+
+Let $\jap{k}=\sqrt{1+|k|^2}$.
+For $s \in \mathbb{R}$, let
+\[
+\inner{u}{v}_{H^s(\mathbb{T}^m)}=\sum_{k \in \mathbb{Z}^m} \hat{u}(k) \overline{\hat{v}(k)} \jap{k}^{2s},
+\]
+and let
+\[
+H^s(\mathbb{T}^m)=\{ u \in \mathcal{D}'(\mathbb{T}^m): \norm{u}^2_{H^s(\mathbb{T}^m)} < \infty\}.
+\]
+These are called Sobolev spaces. I claim that $H^{-s}(\mathbb{T}^m)=(H^s(\mathbb{T}^m))'$. Let $\phi \in H^{-s}(\mathbb{T}^m)$. I'll show that $\phi$ does what an element of the dual
+space of $H^s(\mathbb{T}^m)$ is supposed to do.  I am making no assumption about whether $s$ is positive, 0, or negative here. For $u \in H^s(\mathbb{T}^m)$,
+\begin{eqnarray*}
+|\inner{\phi}{u}|&=&\left|\sum_{k \in \mathbb{Z}^m} \hat{\phi}(k) \overline{\hat{u}(k)} \right|\\
+&=&\left| \sum_{k \in \mathbb{Z}^m} \hat{\phi}(k) \hat{k}^{-s} \overline{\hat{u}(k)} \hat{k}^{s} \right|\\
+&\leq&\norm{\phi}_{H^{-s}(\mathbb{T}^m)} \cdot \norm{u}_{H^s(\mathbb{T}^m)}.
+\end{eqnarray*}
+Thus $\phi$ is a continuous linear functional on $H^s(\mathbb{T}^m)$. 
+
+Here we give an example of a function that belongs to certain Sobolev spaces but not others. 
+Define $H$ on $\mathbb{T}$ by
+\[
+H(t)=\begin{cases}1&0 \leq t < \pi,\\
+0&\pi \leq t < 2\pi.
+\end{cases}
+\]
+Then, for $k \neq 0$,
+\[
+\hat{H}(k)=\frac{1}{2\pi} \int_0^{2\pi} H(t) e^{-ikt} dt
+=\frac{1}{2\pi}\int_0^\pi e^{-ikt} dt\\
+\frac{1}{2\pi} \cdot \frac{i}{k}(e^{-i\pi k}-1).
+\]
+If $k$ is odd, then $\hat{H}(k)=-\frac{i}{2\pi k}$. If $k \neq 0$ is even then $\hat{H}(k)=0$. And
+$\hat{H}(0)=\frac{1}{2}$. Hence
+\[
+\norm{H}_{H^s(\mathbb{T})}^2=\sum_{k \in \mathbb{Z}} |\hat{H}(k)|^2 \jap{k}^{2s}
+=\frac{1}{4}+ \frac{1}{4\pi^2} \sum_{\textrm{$k$ odd}} \frac{1}{k^2} \jap{k}^{2s}.
+\]
+This is finite iff $2-2s>1$, i.e. $s<\frac{1}{2}$. So if $s < \frac{1}{2}$ then
+$H \in H^s(\mathbb{T})$ and if $s \geq \frac{1}{2}$ then $H \not  \in H^s(\mathbb{T})$. 
+
+For $s$, define $\Lambda^s:\mathcal{D}'(\mathbb{T}^m) \to \mathcal{D}'(\mathbb{T}^m)$ by
+\[
+(\Lambda^s u)(x)=\sum_{k \in \mathbb{Z}^m} |\hat{u}(k)|\jap{k}e^{ik\cdot x}.
+\]
+(Think of this as defining the Fourier coefficients of a distribution.)
+We have 
+\[
+H^s(\mathbb{T}^m)=\Lambda^{-s} L^2(\mathbb{T}^m).
+\]
+For any $r,s \in \mathbb{R}$,
+\[
+\Lambda^s:H^r(\mathbb{T}^m) \to H^{r-s}(\mathbb{T}^m)
+\]
+is an isomorphism of Hilbert spaces. 
+
+If $\epsilon>0$, then I claim that $\Lambda^{-\epsilon}: H^s(\mathbb{T}^m) \to H^s(\mathbb{T}^m)$ is a compact operator. 
+Define $\Lambda_N^{-\epsilon}$ by
+\[
+(\Lambda_N^{-\epsilon} u)(x)=\sum_{|k| \leq N} |\hat{u}(k)| \jap{k}^{-\epsilon} e^{ik \cdot x}.
+\]
+For each $N$, $\Lambda_N^{-\epsilon}$ is a finite-rank operator. And
+\begin{eqnarray*}
+\norm{\Lambda^{-\epsilon} u - \Lambda_N^{-\epsilon}u}_{H^s(\mathbb{T}^m}&=&\norm{\sum_{|k|>N} |\hat{u}(k)|\jap{k}^{-\epsilon} e^{ik\cdot x}}_{H^s(\mathbb{T}^m)}\\
+&=&\sum_{|k|>N} |\hat{u}(k)|^2 \jap{k}^{-2\epsilon} \jap{k}^{2s}\\
+&<&\jap{N}^{-2\epsilon} \norm{u}^2_{H^s(\mathbb{T}^m}.
+\end{eqnarray*}
+Thus $\Lambda_N^{-\epsilon} \to \Lambda^{-\epsilon}$ in the operator norm, so $\Lambda^{-\epsilon}:H^s(\mathbb{T}^m) \to H^s(\mathbb{T}^m)$ is a compact operator.
+It follows that the inclusion map $\iota:H^{s+\epsilon}(\mathbb{T}^m) \to H^s(\mathbb{T}^m)$ is compact. This is Rellich's theorem.
+
+Fix $s$, and
+for $k \in \mathbb{Z}^m$ let
+\[
+e_k = \frac{e^{ik\cdot x}}{\jap{k}^s}.
+\]
+This is an orthonormal basis of $H^s(\mathbb{T}^m)$. For $t >0$, I would like to know when the inclusion map $\iota:H^{s+t}(\mathbb{T}^m) \to H^s(\mathbb{T}^m)$ is
+a Hilbert-Schmidt operator. We have just seen that for all $t>0$ it is a compact operator, and being Hilbert-Schmidt implies being compact. We have
+\begin{eqnarray*}
+\sum_{k \in \mathbb{Z}^m} \norm{\iota(e_k)}^2_{H^s(\mathbb{T}^m)}&=&\sum_{k \in \mathbb{Z}^m} \norm{\frac{e^{ik\cdot x}}{\jap{k}^{s+t}}}^2_{H^s(\mathbb{T}^m)}\\
+&=&\sum_{k \in \mathbb{Z}^m} \frac{1}{\jap{k}^{2s+2t}} \cdot \jap{k}^{2s}\\
+&=&\sum_{k \in \mathbb{Z}^m} \frac{1}{\jap{k}^{2t}}.
+\end{eqnarray*}
+This is finite if and only if $2t>m$, i.e. $t>\frac{m}{2}$. That is, the inclusion map $H^{s+t}(\mathbb{T}^m) \to H^s(\mathbb{T}^m)$ is Hilbert-Schmidt if and only if
+$t>\frac{m}{2}$. In particular this gives us an example of a map that is compact but not Hilbert-Schmidt, because for all $t>0$ the inclusion map is compact.
+
+For all positive integers $m$, $m>\frac{m}{2}$. So for any $s$ the inclusion map $H^{s+m}(\mathbb{T}^m) \to H^s(\mathbb{T}^m)$ is Hilbert-Schmidt. 
+Thus we can take the projective limit of the Hilbert spaces $\ldots, H^{2m}(\mathbb{T}^m), H^m(\mathbb{T}^m), H^0(\mathbb{T}^m)$, with their inclusion
+maps. Call this limit $H^\infty(\mathbb{T}^m)$. Taking the projective limit of only the Sobolev spaces $H^{jm}(\mathbb{T}^m)$ for $j \geq 0$, rather than of all 
+$H^j(\mathbb{T}^m)$,  is fair because the multiples of $m$ are a cofinal set in the nonnegative integers: for every nonnegative integer there is a multiple
+of $m$ that is larger than it. See Garrett's notes {\em Basic categorical constructions}. 
+
+Returning to Garrett's {\em Hilbert-Schmidt operators, nuclear spaces, kernel theorem I}, 
+Garrett shows in them that
+\[
+H^\infty(\mathbb{T}^m) \otimes  H^\infty (\mathbb{T}^n) \approx H^\infty(\mathbb{T}^{m+n}).
+\]
+
+The final fact that Garrett proves in his notes is the Schwartz kernel theorem for Sobolev spaces:
+\[
+\Hom(H^\infty(\mathbb{T}^m),H^{-\infty}(\mathbb{T}^n)) \approx H^{-\infty}(\mathbb{T}^{m+n}).
+\]
+
+\end{document}

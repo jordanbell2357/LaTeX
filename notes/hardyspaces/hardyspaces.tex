@@ -1,0 +1,134 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,mathrsfs,amsthm}
+%\usepackage{tikz-cd}
+%\usepackage{hyperref}
+\newcommand{\inner}[2]{\left\langle #1, #2 \right\rangle}
+\newcommand{\tr}{\ensuremath\mathrm{tr}\,} 
+\newcommand{\Span}{\ensuremath\mathrm{span}} 
+\def\Re{\ensuremath{\mathrm{Re}}\,}
+\def\Im{\ensuremath{\mathrm{Im}}\,}
+\newcommand{\id}{\ensuremath\mathrm{id}} 
+\newcommand{\var}{\ensuremath\mathrm{var}} 
+\newcommand{\Lip}{\ensuremath\mathrm{Lip}} 
+\newcommand{\GL}{\ensuremath\mathrm{GL}}
+\newcommand{\diam}{\ensuremath\mathrm{diam}} 
+\newcommand{\sgn}{\ensuremath\mathrm{sgn}\,} 
+\newcommand{\lcm}{\ensuremath\mathrm{lcm}} 
+\newcommand{\supp}{\ensuremath\mathrm{supp}\,}
+\newcommand{\dom}{\ensuremath\mathrm{dom}\,}
+\newcommand{\upto}{\nearrow}
+\newcommand{\downto}{\searrow}
+\newcommand{\norm}[1]{\left\Vert #1 \right\Vert}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\begin{document}
+\title{Hardy spaces}
+\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
+\date{\today}
+
+\maketitle
+
+\section{Hardy spaces}
+Let $D_r=\{z:|z|<r\}$. For a continuous function $f:D_1 \to \mathbb{C}$,
+let
+\[
+M_p(r,f) = \left( \frac{1}{2\pi} \int_0^{2\pi} |f(re^{i\theta})|^p d\theta \right)^{1/p},
+\qquad 0<p<\infty,
+\]
+and
+\[
+M_\infty(r,f) = \sup_{0 \leq \theta \leq 2\pi} |f(r^{i\theta})|.
+\]
+Let $H^p$ be the collection of analytic functions $f:D_1 \to \mathbb{C}$ 
+such that $\norm{f}_{H^p}<\infty$, where
+\[
+\norm{f}_{H^p} = \sup_{0<r<1} M_p(r,f).
+\]
+Let $h^p$ be the collection of harmonic functions $u:D_1 \to \mathbb{R}$ such that $\norm{u}_{H^p} <\infty$.
+
+\begin{lemma}
+For $0<p \leq \infty$,
+$H^p$ and $h^p$ are linear spaces.
+If $p<q$ then $H^q \subset H^p$ and $h^q \subset h^p$. 
+For an analytic function $f:D_1 \to \mathbb{C}$, $f \in H^p$ if and only if $\Re f, \Im f \in h^p$. 
+\end{lemma}
+\begin{proof}
+For $a \geq 0$, $b \geq 0$,
+\[
+(a+b)^p \leq \begin{cases}
+a^p+b^p&0<p<1\\
+2^{p-1}(a^p+b^p)&p>1.
+\end{cases}
+\]
+\begin{align*}
+\norm{f+g}_{H^p}^p &= \sup_{0<r<1}  \frac{1}{2\pi} \int_0^{2\pi} |(f+g)(re^{i\theta})|^p d\theta\\
+&\leq 2^p (\norm{f}_{H^p}^p+\norm{g}_{H^p}^p)\\
+&\leq 2^p \cdot 2 (\norm{f}_{H^p}+\norm{g}_{H^p})^p,
+\end{align*}
+hence $\norm{f+g}_{H^p} \leq 2^{1+1/p} (\norm{f}_{H^p}+\norm{g}_{H^p})$. 
+It follows that $H^p$ and $h^p$ are linear spaces.
+\end{proof}
+
+
+\section{Subharmonic functions}
+Let $D$ be a domain,  namely, a nonempty connected open set in $\mathbb{C}$. 
+A function $g:D \to \mathbb{R}$ is called \textbf{subharmonic} if it is continuous, 
+and for any domain $B$ with $\overline{B} \subset D$ and continuous function
+$U:\overline{B} \to \mathbb{R}$ such that $U|B$ is harmonic and such that
+$g(z) \leq U(z)$ for all $z \in \partial B$, 
+it follows that $g(z) \leq U(z)$ for all $z \in B$.\footnote{Peter L. Duren,
+{\em Theory of $H^p$ Spaces}, p.~7, Theorem 1.4.}
+
+\begin{theorem}
+Let $g:D \to \mathbb{R}$ be continuous. $g$ is subharmonic if and only if
+for any $a \in D$ there is some $r_a>0$ such that $D_{r_a}(a) \subset D$ and for each
+$0<r<r_a$,
+\[
+g(a) \leq \frac{1}{2\pi} \int_0^{2\pi} g(a+ r e^{i\theta}) d\theta.
+\]
+\end{theorem}
+
+
+\begin{lemma}
+If $f:D \to \mathbb{C}$ is analytic and $0<p<\infty$ then $g(z)=|f(z)|^p$ is subharmonic.
+\end{lemma}
+
+
+\begin{theorem}
+Let $g:D_1 \to \mathbb{R}$ be subharmonic and define
+\[
+m(r) = \frac{1}{2\pi} \int_0^{2\pi} g(re^{i\theta}) d\theta,\qquad 0 \leq r < 1.
+\]
+$m$ is increasing and $r \mapsto m(e^r)$ is convex.
+\end{theorem}
+
+
+\footnote{Peter L. Duren,
+{\em Theory of $H^p$ Spaces}, p.~46, Theorem 3.13.}
+
+\begin{theorem}[Fej\'er-Riesz inequality]
+If $f \in H^p$, then
+\[
+\int_{-1}^1 |f(x)|^p dx \leq \frac{1}{2} \int_0^{2\pi} |f(e^{i\theta})|^p d\theta.
+\]
+\end{theorem}
+
+
+\footnote{Peter L. Duren,
+{\em Theory of $H^p$ Spaces}, p.~54, Theorem 4.1.}
+
+\begin{theorem}
+If $1<p<\infty$ there is some $A_p$ such that
+if $u \in h^p$ and $v$ is the harmonic conjugate of $u$, $v(0)=0$, then 
+\[
+M_p(r,v) \leq A_p M_p(r,u),\qquad 0 \leq r <1.
+\]
+\end{theorem}
+
+
+\end{document}

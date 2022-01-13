@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Lp.aux
+The style file: amsplain.bst
+Database file #1: Lp.bib
+Warning--missing year in oh
+Warning--missing pages in oh
+You've used 35 entries,
+            2213 wiz_defined-function locations,
+            732 strings with 8607 characters,
+and the built_in function-call counts, 10193 in all, are:
+= -- 908
+> -- 349
+< -- 13
++ -- 151
+- -- 104
+* -- 848
+:= -- 1614
+add.period$ -- 35
+call.type$ -- 35
+change.case$ -- 161
+chr.to.int$ -- 0
+cite$ -- 37
+duplicate$ -- 444
+empty$ -- 971
+format.name$ -- 104
+if$ -- 2141
+int.to.chr$ -- 0
+int.to.str$ -- 35
+missing$ -- 87
+newline$ -- 115
+num.names$ -- 71
+pop$ -- 215
+preamble$ -- 1
+purify$ -- 122
+quote$ -- 0
+skip$ -- 225
+stack$ -- 0
+substring$ -- 735
+swap$ -- 76
+text.length$ -- 13
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 106
+warning$ -- 2
+while$ -- 106
+width$ -- 37
+write$ -- 332
+(There were 2 warnings)

@@ -1,0 +1,97 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,graphicx,subfig,mathrsfs,amsthm}
+%\usepackage{tikz-cd}
+\newcommand{\HSnorm}[1]{\left\Vert #1 \right\Vert_{\textrm{HS}}}
+\newcommand{\HSinner}[2]{\left\langle #1, #2 \right\rangle_{\textrm{HS}}}
+\newcommand{\inner}[2]{\langle #1, #2 \rangle}
+\newcommand{\jap}[1]{\left\langle #1 \right\rangle}
+\newcommand{\alg}{\otimes_{\textrm{alg}}} 
+\newcommand{\HS}{\otimes_{\textrm{HS}}} 
+\newcommand{\tr}{\textrm{tr}} 
+\newcommand{\Span}{\textrm{span}} 
+\newcommand{\id}{\textrm{id}} 
+\newcommand{\Hom}{\textrm{Hom}} 
+\newcommand{\norm}[1]{\left\Vert #1 \right\Vert}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\begin{document}
+\title{Self-adjoint linear operators on a finite dimensional complex vector space}
+\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
+\date{\today}
+
+\maketitle
+
+Let $V$ be a finite dimensional vector space over $\mathbb{C}$ with an inner product $(\cdot,\cdot):V \times V \to \mathbb{C}$. For $x \in V$, $|x|^2=(x,x)$. 
+
+Let $A:V \times V \to \mathbb{C}$ be linear in its first argument and conjugate linear in its second argument. Then we check that for
+all $x,y \in V$,
+\begin{eqnarray*}
+A(x,y)&=&\frac{1}{4}\Big( A(x+y,x+y)+iA(x+iy,x+iy)\\
+&&-A(x-y,x-y)-iA(x-iy,x-iy) \Big).
+\end{eqnarray*}
+This is called the {\em polarization identity}, or the parallelogram law. A useful instance  is for $A(x,y)=(x,y)$. Then,
+\[
+(x,y)=\frac{1}{4}\Big( |x+y|^2+i|x+iy|^2-|x-y|^2-i|x-iy|^2 \Big).
+\]
+This can be useful for proving a statement about an inner product that one has only verified for a norm. 
+
+If $T:V \to V$ is linear, one checks that there is a unique linear $T^*:V \to V$ such that if $x,y \in V$ then
+\[
+(Tx,y)=(x,T^*y).
+\]
+$T^*$ is called the {\em adjoint} of $T$. If $T=T^*$ then we say that $T$ is {\em self-adjoint}.
+
+An operator being self-adjoint is similar to a complex number being real. 
+Let $T:V \to V$ be linear and define $T_1=\frac{T+T^*}{2}$ and $T_2=\frac{T-T^*}{2i}$. Then $T_1,T_2$ are self-adjoint. This resembles writing a complex number as a sum of
+a real number and $i$ times a real number.
+
+We say that a self-adjoint operator $T:V \to V$ is {\em positive} if for all $x \in V$ we have $(Tx,x) \geq 0$. 
+Like for complex numbers, for any linear $T:V \to V$, $TT^*$ is positive (in particular it is self-adjoint).
+
+We say that a linear $U:V \to V$ is {\em unitary} if $UU^*=U^*U=\id_V$. If $z \in \mathbb{C}$ and $z\overline{z}=1$ then $|z|=1$. An operator being unitary is similar to a complex number have absolute value $1$, in other words a complex
+number being on the unit circle. For linear $T:V \to V$, the exponential $\exp(T):V \to V$ is defined by
+\[
+\exp(T)x=\sum_{k=0}^\infty \frac{T^k x}{k!}.
+\]
+If $T$ is self-adjoint then $\exp(iT)$ is unitary:
+\[
+(\exp(iT))^*=\left( \sum_{k=0}^\infty \frac{(iT)^k}{k!} \right)^*=\sum_{k=0}^\infty \frac{(-i)^k T^k}{k!}=\sum_{k=0}^\infty \frac{(-iT)^k}{k!}=\exp(-iT),
+\]
+hence
+\[
+\exp(iT)^*=(\exp(iT))^{-1},
+\]
+which shows that $\exp(iT)$ is unitary.
+
+The eigenvalues of a self-adjoint operator are all real, and the eigenvalues of a unitary operator all have absolute value $1$.
+
+\textbf{Fact:} If $H$ is positive then its eigenvalues are nonnegative, and if $H$ is self-adjoint and has nonnegative eigenvalues then it is positive. Say $V$ has
+dimension $n$. On the one hand,
+if $H$ is positive, suppose that $Hv=\lambda v$. Then $(Hv,v)=(\lambda v,v)=\lambda (v,v)$. Since $H$ is positive this is nonnegative, and $(v,v)$ is nonnegative so it follows that
+$\lambda$ is nonnegative too. On the other hand, let $H$ be self-adjoint and let all the eigenvalues of $H$ be nonnegative. Since $H$ is self-adjoint it has an orthonormal eigenbasis
+with real eigenvalues
+(this is the spectral theorem), $He_j=\lambda_j e_j$ for $1 \leq j \leq n$. Let $x \in V$. We can write $x$ as $x=a_1e_1+ \cdots+ a_ne_n$. We have, using that $e_1,\ldots,e_n$ is an
+orthonormal eigenbasis for $H$<
+\begin{eqnarray*}
+(Hx,x)&=&(a_1He_1+\cdots+a_nHe_n,a_1e_1+\cdots+a_ne_n)\\
+&=&(a_1He_1,a_1e_1)+\cdots+(a_nHe_n,a_ne_n)\\
+&=&|a_1|^2(He_1,e_1)+\cdots+|a_n|^2(He_n,e_n)\\
+&=&\lambda_1 |a_1|^2+\cdots+\lambda_n |a_n|^2\\
+&=&\geq 0.
+\end{eqnarray*}
+Thus $H$ is positive.
+
+\textbf{Fact:} If $T$ is positive then there is a positive $H$ such that $H^2=T$. Let $Te_j=\lambda_j e_j$, $1 \leq j \leq n$. $T$ has an eigenbasis with real eigenvalues because
+$T$ is self-adjoint, and by the above fact the eigenvalues are nonnegative since $T$ is positive. Define $H$ by $He_j=\sqrt{\lambda_j} e_j$. Then $H$ is positive, and
+$H^2=T$. Thus, if an operator is positive then it has a positive square root. 
+
+Now, let $T:V \to V$ be linear and invertible. $TT^*$ is positive so it has a positive square root $H$. Since $T$ is invertible, so is $T^*$ and thus so is $TT^*$ and so is $H$. Define
+$U=H^{-1}T$. 
+\[
+UU^*=H^{-1}T(H^{-1}T)^*=H^{-1}TT^* (H^{-1})^*=H^{-1}TT^* (H^*)^{-1}=H^{-1}H^2 H^{-1}=\id_V.
+\]
+Hence $U$ is unitary. Thus we can write any invertible linear $T:V \to V$ as a $HU$ where $H$ is positive and $U$ is unitary, like how we can write a nonzero complex
+number as the product of a positive real number and a complex number that has absolute value $1$.
+
+\end{document}

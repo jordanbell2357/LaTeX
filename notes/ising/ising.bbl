@@ -1,0 +1,35 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{1}
+
+\bibitem{MR936054}
+Barry~A. Cipra, \emph{An introduction to the {I}sing model}, Amer. Math.
+  Monthly \textbf{94} (1987), no.~10, 937--959.
+
+\bibitem{kadanoff}
+Leo~P. Kadanoff, \emph{More is the same; phase transitions and mean field
+  theories}, J. Stat. Phys. \textbf{137} (2009), 777--797.
+
+\bibitem{ny}
+Arnaud {Le Ny}, \emph{{Introduction to (generalized) Gibbs measures}}, 2007,
+  arXiv:0712.1171.
+
+\bibitem{minlos}
+R.~A Minlos, \emph{Introduction to mathematical statistical physics},
+  University Lecture Series, vol.~19, American Mathematical Society,
+  Providence, R.I., 2000.
+
+\bibitem{simon}
+Barry Simon, \emph{The statistical mechanics of lattice gases}, vol.~I,
+  Princeton University Press, 1993.
+
+\bibitem{MR691854}
+Ya.~G. Sinai, \emph{Theory of phase transitions: rigorous results}, Pergamon
+  Press, Oxford, 1982, Translated from the Russian.
+
+\end{thebibliography}

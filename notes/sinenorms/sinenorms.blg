@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: sinenorms.aux
+The style file: amsplain.bst
+Database file #1: sinenorms.bib
+You've used 13 entries,
+            2213 wiz_defined-function locations,
+            590 strings with 5673 characters,
+and the built_in function-call counts, 3461 in all, are:
+= -- 290
+> -- 132
+< -- 6
++ -- 55
+- -- 40
+* -- 288
+:= -- 572
+add.period$ -- 13
+call.type$ -- 13
+change.case$ -- 63
+chr.to.int$ -- 0
+cite$ -- 13
+duplicate$ -- 158
+empty$ -- 328
+format.name$ -- 40
+if$ -- 716
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 33
+newline$ -- 49
+num.names$ -- 26
+pop$ -- 80
+preamble$ -- 1
+purify$ -- 47
+quote$ -- 0
+skip$ -- 71
+stack$ -- 0
+substring$ -- 167
+swap$ -- 25
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 36
+warning$ -- 0
+while$ -- 34
+width$ -- 15
+write$ -- 131

@@ -1,0 +1,269 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,graphicx,subfig,mathrsfs,amsthm,siunitx}
+%\usepackage{tikz-cd}
+\usepackage{hyperref}
+\newcommand{\inner}[2]{\left\langle #1, #2 \right\rangle}
+\newcommand{\vect}[1]{\left\langle #1 \right\rangle}
+\newcommand{\tr}{\ensuremath\mathrm{tr}\,} 
+\newcommand{\Span}{\ensuremath\mathrm{span}} 
+\def\Re{\ensuremath{\mathrm{Re}}\,}
+\def\Im{\ensuremath{\mathrm{Im}}\,}
+\newcommand{\id}{\ensuremath\mathrm{id}} 
+\newcommand{\sgn}{\ensuremath\mathrm{sgn}} 
+\newcommand{\rank}{\ensuremath\mathrm{rank\,}} 
+\newcommand{\diam}{\ensuremath\mathrm{diam}} 
+\newcommand{\osc}{\ensuremath\mathrm{osc}} 
+\newcommand{\co}{\ensuremath\mathrm{co}\,} 
+\newcommand{\cco}{\ensuremath\overline{\mathrm{co}}\,}
+\newcommand{\supp}{\ensuremath\mathrm{supp}\,}
+\newcommand{\ext}{\ensuremath\mathrm{ext}\,}
+\newcommand{\ba}{\ensuremath\mathrm{ba}\,}
+\newcommand{\cl}{\ensuremath\mathrm{cl}\,}
+\newcommand{\dom}{\ensuremath\mathrm{dom}\,}
+\newcommand{\Cyl}{\ensuremath\mathrm{Cyl}\,}
+\newcommand{\extreals}{\overline{\mathbb{R}}}
+\newcommand{\upto}{\nearrow}
+\newcommand{\downto}{\searrow}
+\newcommand{\norm}[1]{\left\Vert #1 \right\Vert}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\begin{document}
+\title{The inverse function theorem for Banach spaces}
+\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
+\date{\today}
+
+\maketitle
+
+\section{$\mathscr{L}(E;F)$ and $GL(E;F)$}
+Let $E$ and $F$ be Banach spaces.
+It is a fact that a linear map $f:E \to F$ is continuous if and only if\footnote{Henri Cartan, {\em Differential Calculus}, p.~13, Theorem 1.4.1.} 
+\[
+\norm{f} = \sup_{\norm{x} \leq 1} \norm{f(x)}<\infty.
+\]
+Denote by
+\[
+\mathscr{L}(E;F)
+\]
+the set of continuous linear maps $E \to F$. It is a fact that $\mathscr{L}(E;F)$ is a Banach
+space.\footnote{Henri Cartan, {\em Differential Calculus}, p.~14, Theorem 1.4.2.} 
+
+Let $E,F,G$ be Banach spaces and let $f \in \mathscr{L}(E;F), g \in \mathscr{L}(F;G)$. One checks that $g \circ f \in \mathscr{L}(E;G)$ and
+\[
+\norm{g \circ f} \leq \norm{g} \norm{f}.
+\]
+
+Let $\id_E$ be the identity map $\id_E x = x$.
+We write 
+\[
+I=I_E=\id_E.
+\]
+
+For $f,g \in \mathscr{L}(E;E)$, write
+\[
+gf = g \circ f.
+\]
+$\mathscr{L}(E;E)$ is a Banach algebra.
+
+
+
+Let $GL(E,F)$ be the set of those $f \in \mathscr{L}(E;F)$ for which there is some $g \in \mathscr{L}(F;E)$
+such that $g \circ  f = \id_E$ and $f \circ  g = \id_F$. 
+By the open mapping theorem, for $f \in \mathscr{L}(E;F)$, $f \in GL(E;F)$ if and only if $f$ is a bijection.
+
+
+
+We now define the \textbf{exponential map} on $\mathscr{L}(E;E)$.\footnote{Henri Cartan, {\em Differential Calculus}, p.~19, Theorem 1.7.1.}
+
+\begin{lemma}
+If $f \in \mathscr{L}(E;E)$, then $\sum_{k=0}^n \frac{1}{k!} f^k$ is a Cauchy sequence in $\mathscr{L}(E;E)$. Define
+\[
+\exp f = \sum_{k=0}^\infty \frac{1}{k!} f^k.
+\] 
+\[
+\exp 0_E=\id_E.
+\]
+If $fg=gf$ then
+\[
+\exp(f+g)=(\exp f)(\exp g).
+\]
+In particular, $\exp f \in GL(E;E)$. 
+\end{lemma}
+\begin{proof}
+\[
+\norm{\sum_{k=0}^n \frac{1}{k!} f^k-\sum_{k=m}^n \frac{1}{k!} f^k}
+=\norm{\sum_{k=m+1}^n \frac{1}{k!} f^k}
+\leq \sum_{k=m+1}^n \frac{1}{k!} \norm{f}^k.
+\]
+Because $e^{\norm{f}}<\infty$, $\sum_{k=m+1}^n \frac{1}{k!} \norm{f}^k \to 0$ as $m \to \infty$. 
+Thus 
+$\sum_{k=0}^n \frac{1}{k!} f^k$ is a Cauchy sequence in $\mathscr{L}(E;E)$.
+Then define $\exp f = \sum_{k=0}^\infty \frac{1}{k!} f^k \in \mathscr{L}(E;E)$.
+
+If $fg=gf$ then applying the binomial theorem,
+\begin{align*}
+\sum_{k=0}^\infty \frac{1}{k!} (f+g)^k&=\sum_{k=0}^\infty \frac{1}{k!} \sum_{j=0}^k \frac{k!}{j!(k-j)!} f^j g^{k-j}\\
+&=\sum_{k=0}^\infty \sum_{j=0}^k \frac{1}{j!} f^j \frac{1}{(k-j)!} g^{k-j}\\
+&=\sum_{j=0}^\infty \sum_{k=j}^\infty \frac{1}{j!} f^j \frac{1}{(k-j)!} g^{k-j}\\
+&=\sum_{j=0}^\infty \sum_{k=0}^\infty \frac{1}{j!} f^j  \frac{1}{k!} g^k \\
+&=\left(\sum_{j=0}^\infty  \frac{1}{j!} f^j\right) \left( \sum_{k=0}^\infty \frac{1}{k!} g^k\right),
+\end{align*}
+i.e.
+\[
+\exp(f+g) = (\exp f)(\exp g).
+\]
+Finally, $f(-f)=(-f)f$ so $\exp(f-f)=(\exp f)(\exp (-f))$. But $\exp(f-f)=\exp 0_E=\id_E$, so $\exp f \in GL(E;E)$, and
+$(\exp f)^{-1} = \exp(-f)$. 
+\end{proof}
+
+
+
+
+
+\begin{lemma}
+If $f \in \mathscr{L}(E;E)$ and $\norm{f}<1$ then $I-f \in GL(E;E)$, and
+\[
+(I-f)^{-1} = \sum_{k=0}^\infty f^k.
+\]
+\label{neumann}
+\end{lemma}
+\begin{proof}
+Let 
+$g_n=\sum_{k=0}^n f^k$. 
+For $n>m$, $g_n-g_m = \sum_{k=m+1}^n f^k$ and hence
+\[
+\norm{g_n-g_m} \leq \sum_{k=m+1}^n \norm{f^k} 
+\leq \sum_{k=m+1}^n \norm{f}^k.
+\]
+Because $\norm{f}<1$, the above inequality shows that $g_n$ is a Cauchy sequence in $\mathscr{L}(E;E)$,   hence there is some
+$g \in \mathscr{L}(E;E)$ such that $g_n \to g$. On the one hand,
+\begin{align*}
+g_n(I-f) &= \sum_{k=0}^n f^k(I-f)\\
+&= \sum_{k=0}^n f^k - \sum_{k=0}^n f^{k+1}\\
+&=f^0 - f^{n+1}\\
+&=I - f^{n+1},
+\end{align*}
+and because $\norm{f}<1$ this shows that $g_n(I-f) \to I$ as $n \to \infty$. 
+On the other hand, because $g_n \to g$ we get $g_n(I-f) \to g(I-f)$. Therefore
+$g(I-f)=I$, which shows that $I-f \in GL(E;E)$ and
+\[
+(I-f)^{-1}=g=\lim_{n \to \infty} g_n = \lim_{n \to \infty} \sum_{k=0}^n f^k = \sum_{k=0}^\infty f^k.
+\]
+\end{proof}
+
+We now prove that $GL(E;F)$ is open in $\mathscr{L}(E;F)$ and that
+$u \mapsto u^{-1}$ is continuous $GL(E;F) \to \mathscr{L}(F;E)$.\footnote{Henri Cartan, {\em Differential Calculus}, p.~20, Theorem 1.7.3.}
+
+\begin{lemma}
+$GL(E,F)$ is  open  in $\mathscr{L}(E,F)$.
+
+If $GL(E;F) \neq \emptyset$ then
+$\phi:GL(E;F) \to \mathscr{L}(F;E)$ defined by $\phi(u) = u^{-1}$ is continuous. 
+\end{lemma}
+\begin{proof}
+If $GL(E;F)$ is empty then it is open. Otherwise, take $u_0 \in GL(E;F)$. 
+For $u \in \mathscr{L}(E;F)$, $u \in GL(E;F)$ if and only if $u_0^{-1} \circ u \in GL(E;E)$. 
+Define $I_E-v=u_0^{-1}u$, i.e.
+\[
+v=I_E-u_0^{-1}  u = u_0^{-1}  u_0 - u_0^{-1}  u = u_0^{-1} (u_0-u).
+\]
+By Lemma \ref{neumann}, if $\norm{v}<1$ then $I_E-v \in GL(E;E)$. That is,
+if $\norm{u_0^{-1}(u_0-u)}<1$ then $u_0^{-1} \circ u \in GL(E;E)$ and then
+$u \in GL(E;F)$. 
+But $\norm{u_0^{-1}(u_0-u)} \leq \norm{u_0^{-1}} \norm{u_0-u}$, so if 
+$\norm{u-u_0}<\norm{u_0^{-1}}^{-1}$ then $u \in GL(E;F)$. 
+This shows that $GL(E;F)$ is open in $\mathscr{L}(E;F)$. 
+
+Let $u_0 \in GL(E;F)$. For $\norm{u-u_0} < \norm{u_0^{-1}}^{-1}$,
+let $v=I_E-u_0^{-1}  u =  u_0^{-1}  (u_0-u)$. Then $\norm{v} \leq \norm{u_0^{-1}} \norm{u-u_0}
+<1$, so by Lemma \ref{neumann} we have
+$I_E-v \in GL(E;E)$. That is,
+$u_0^{-1} u \in GL(E;E)$. 
+Now, $u_0^{-1}u=I_E-v$, so $u_0^{-1} = (I_E-v)u^{-1}$ and then
+$u^{-1}=(I_E-v)^{-1}u_0^{-1}$. Hence
+\begin{align*}
+\phi(u)-\phi(u_0) &= u^{-1} - u_0^{-1}\\
+&= (I_E-v)^{-1}u_0^{-1} - u_0^{-1}\\
+&=[(I_E-v)^{-1} - I_E] u_0^{-1}\\
+&=\left[ \sum_{k=1}^\infty v^k \right] u_0^{-1},
+\end{align*}
+so
+\begin{align*}
+\norm{\phi(u)-\phi(u_0)} &\leq \left[\sum_{k=1}^\infty \norm{v}^k \right] \norm{u_0^{-1}}\\
+&=\norm{u_0^{-1}} \frac{\norm{v}}{1-\norm{v}}\\
+&=\norm{u_0^{-1}} \frac{\norm{u_0^{-1}  (u_0-u)}}{1-\norm{u_0^{-1}  (u_0-u)}}\\
+&\leq \norm{u_0^{-1}}^2 \frac{\norm{u-u_0}}{1-\norm{u_0^{-1}(u-u_0)}}\\
+&\leq \norm{u_0^{-1}}^2 \frac{\norm{u-u_0}}{1-\norm{u_0^{-1}} \norm{u-u_0}}.
+\end{align*}
+This shows that $\phi$ is continuous at $u_0$. 
+\end{proof}
+
+Let $E_1,\ldots,E_n$ and $F$ be Banach spaces. Let 
+\[
+\mathscr{L}(E_1,\ldots,E_n;F)
+\]
+be the set of continuous multilinear maps $E_1 \times \cdots \times E_n \to F$. 
+It is a fact that a multilinear map $f:E_1 \times \cdots \times E_n \to F$ is continuous if and only
+if\footnote{Henri Cartan, {\em Differential Calculus}, p.~22, Theorem 1.8.1.} 
+\[
+\norm{f} = \sup_{\norm{x_1} \leq 1,\ldots,\norm{x_n} \leq 1} \norm{f(x_1,\ldots,x_n)} < \infty.
+\]
+This is a norm with which $\mathscr{L}(E_1,\ldots,E_n;F)$ is a Banach space.\footnote{Henri Cartan, {\em Differential Calculus}, p.~23, Exercise 2.}
+
+
+
+
+
+
+
+\section{Differentiable functions}
+Let $U$ be an open set in $E$. We say that functions
+$f_1:U \to F$ and $f_2:U \to F$ are \textbf{tangential at $a$} if 
+\[
+m(r) = \sup_{\norm{x-a} \leq r} \norm{f_1(x)-f_2(x)} = o(r).
+\]
+
+
+
+
+
+For $a \in U$,
+we say that $f$ is \textbf{differentiable at $a$}
+if there is some $L_a \in \mathscr{L}(E;F)$ such that\footnote{Henri Cartan, {\em Differential Calculus},
+pp.~24--26.}
+\[
+f(x)-f(a) - L_a  (x-a) = o(\norm{x-a}),\qquad x \to a.
+\]
+Write
+\[
+ f'(a) =df(a) = L_a.
+\]
+We say that $f$ is differentiable if $f$ is differentiable at each point in $U$.
+We say that $f:U \to F$ is $C^1$ if $f$ is differentiable and $f':U \to \mathscr{L}(E;F)$ is continuous.
+
+
+We now state the \textbf{chain rule}.\footnote{Henri Cartan, {\em Differential Calculus},
+p.~27, Theorem 2.2.1.}
+
+\begin{theorem}[Chain rule]
+Let $E,F,G$ be Banach spaces, let $U$ be open in $E$, let $V$ be open in $F$, and let
+$f:U \to F, g:V \to G$ be continuous. Suppose that $a \in U$, $f(a) \in V$,  $f$ is differentiable
+at $a \in U$, and $g$ is differentiable at $f(a) \in V$. Then $g \circ f$ is differentiable at $a$ and 
+\[
+(g \circ f)'(a) = g'(f(a)) \circ f'(a).
+\]
+\end{theorem}
+
+
+
+
+
+
+
+
+
+\end{document}

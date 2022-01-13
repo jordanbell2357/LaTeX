@@ -1,0 +1,223 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{10}
+
+\bibitem{bachman}
+Gennady Bachman, \emph{On the coefficients of cyclotomic polynomials}, Memoirs
+  of the American Mathematical Society \textbf{106} (1993), no.~510, 1--80.
+
+\bibitem{bang}
+Alfred~Sophus Bang, \emph{Om {L}igningen {$\Phi_m(X)=0$}}, Nyt Tidsskrift for
+  Mathematik, Afdeling B \textbf{6} (1895), 6--12.
+
+\bibitem{bateman}
+P.~T. Bateman, \emph{Note on the coefficient of the cyclotomic polynomial},
+  Bull. Amer. Math. Soc. \textbf{55} (1949), no.~12, 1180--1181.
+
+\bibitem{beiter1964}
+Marion Beiter, \emph{The midterm coefficient of the cyclotomic polynomial
+  {$F_{pq}(x)$}}, Amer. Math. Monthly \textbf{71} (1964), no.~7, 769--770.
+
+\bibitem{beiter1968}
+\bysame, \emph{Magnitude of the coefficients of the cyclotomic polynomial
+  {$F_{pqr}(x)$}}, Amer. Math. Monthly \textbf{75} (1968), no.~4, 370--372.
+
+\bibitem{bloom}
+D.~M. Bloom, \emph{On the coefficients of the cyclotomic polynomials}, Amer.
+  Math. Monthly \textbf{75} (1968), 372--377.
+
+\bibitem{commutative}
+Nicolas Bourbaki, \emph{Elements of mathematics. {C}ommutative algebra},
+  Addison-Wesley, 1972.
+
+\bibitem{bourbaki}
+\bysame, \emph{Elements of mathematics. {A}lgebra {II}, chapters 4--7},
+  Springer, 1990, Translated by P. M. Cohn and J. Howie.
+
+\bibitem{bzdega}
+Bart{\l}omiej Bzd{\k{e}}ga, \emph{On the height of cyclotomic polynomials},
+  Acta Arith. \textbf{152} (2012), no.~4, 349--359.
+
+\bibitem{carlitz1966}
+L.~Carlitz, \emph{The number of terms in the cyclotomic polynomial
+  {$F_{pq}(x)$}}, Amer. Math. Monthly \textbf{73} (1966), no.~9, 979--981.
+
+\bibitem{carlitz1967}
+\bysame, \emph{The sum of the squares of the coefficients of the cyclotomic
+  polynomial}, Acta Math. Acad. Sci. Hungar. \textbf{18} (1967), 295--302.
+
+\bibitem{chandra}
+K.~Chandrasekharan, \emph{Arithmetical functions}, Die Grundlehren der
+  mathematischen Wissenschaften, vol. 167, Springer, 1970.
+
+\bibitem{cobeli}
+Cristian Cobeli, Yves Gallot, Pieter Moree, and Alexandru Zaharescu,
+  \emph{{Sister Beiter and Kloosterman}: A tale of cyclotomic coefficients and
+  modular inverses}, Indagationes Mathematicae \textbf{24} (2013), 915--929.
+
+\bibitem{devore}
+Ronald~A. DeVore and George~G. Lorentz, \emph{Constructive approximation}, Die
+  Grundlehren der mathematischen Wissenschaften, vol. 303, Springer, 1993.
+
+\bibitem{dirichlet}
+P.~G.~L. Dirichlet, \emph{Lectures on number theory}, History of Mathematics,
+  vol.~16, American Mathematical Society, Providence, RI, 1999, Supplements by
+  R. Dedekind, translated from the German by John Stillwell.
+
+\bibitem{dummit}
+David~S. Dummit and Richard~M. Foote, \emph{Abstract algebra}, third ed., John
+  Wiley \& Sons, 2004.
+
+\bibitem{erdos1956}
+P.~Erd\H{o}s, \emph{On the growth of the cyclotomic polynomial in the interval
+  $(0,1)$}, Proceedings of the Glasgow Mathematical Association \textbf{3}
+  (1957), no.~2, 102--104.
+
+\bibitem{erdos1974}
+P.~Erd\H{o}s and R.~C. Vaughan, \emph{Bounds for the $r$-th coefficients of
+  cyclotomic polynomials}, J. London Math. Soc. (2) \textbf{8} (1974), no.~3,
+  393--400.
+
+\bibitem{escofier}
+Jean-Pierre Escofier, \emph{Galois theory}, Graduate Texts in Mathematics, vol.
+  204, Springer, 2001, Translated by Leila Schneps.
+
+\bibitem{everest}
+Graham Everest and Thomas Ward, \emph{An introduction to number theory},
+  Graduate Texts in Mathematics, vol. 232, Springer, 2005.
+
+\bibitem{ternary}
+Yves Gallot and Pieter Moree, \emph{Ternary cyclotomic polynomials having a
+  large coefficient}, J. reine angew. Math. \textbf{632} (2009), 105--125.
+
+\bibitem{gaussII}
+Carl~Friedrich Gauss, \emph{{Carl Friedrich Gauss. Werke. Zweiter Band}},
+  K\"oniglichen Gesellschaft der Wissenschaften zu G\"ottingen, 1876.
+
+\bibitem{kato2}
+Kazuya Kato, Nobushige Kurokawa, and Takeshi Saito, \emph{Number theory 2:
+  Introduction to class field theory}, Translations of Mathematical Monographs,
+  vol. 240, American Mathematical Society, Providence, RI, 2011, Translated by
+  Masato Kuwata and Katsumi Nomizu.
+
+\bibitem{konyagin}
+Sergei Konyagin, Helmut Maier, and Eduard Wirsing, \emph{Cyclotomic polynomials
+  with many primes dividing their orders}, Period. Math. Hungar. \textbf{49}
+  (2004), no.~2, 99--106.
+
+\bibitem{kurshan}
+R.~P. Kurshan and A.~M. Odlyzko, \emph{Values of cyclotomic polynomials at
+  roots of unity}, Math. Scand. \textbf{49} (1981), 15--35.
+
+\bibitem{lam1996}
+T.~Y. Lam and K.~H. Leung, \emph{On the cyclotomic polynomial
+  {$\Phi_{pq}(X)$}}, Amer. Math. Monthly \textbf{103} (1996), no.~7, 562--564.
+
+\bibitem{lehmer}
+Emma Lehmer, \emph{On the magnitude of the coefficients of the cyclotomic
+  polynomial}, Bull. Amer. Math. Soc. \textbf{42} (1936), no.~6, 389--392.
+
+\bibitem{lidl}
+Rudolf Lidl and Harald Niederreiter, \emph{Finite fields}, Encyclopedia of
+  Mathematics and Its Applications, vol.~20, Cambridge University Press, 1997.
+
+\bibitem{maier1990}
+Helmut Maier, \emph{The coefficients of cyclotomic polynomials}, Analytic
+  Number Theory. Proceedings of a Conference in Honor of Paul T. Bateman
+  (Bruce~C. Berndt, Harold~G. Diamond, Heini Halberstam, and Adolf Hildebrand,
+  eds.), Progress in Mathematics, vol.~85, Birkh\"auser, 1990, pp.~349--366.
+
+\bibitem{maier1995}
+\bysame, \emph{The size of the coefficients of cyclotomic polynomials},
+  Analytic Number Theory. Proceedings of a Conference in Honor of Heini
+  Halberstam, Volume 2 (Bruce~C. Berndt, Harold~G. Diamond, and Adolf~J.
+  Hildebrand, eds.), Progress in Mathematics, vol. 139, Birkh\"auser, 1996,
+  pp.~633--639.
+
+\bibitem{maier2006}
+\bysame, \emph{The distribution of the {$L^2$}-norm of cyclotomic polynomials
+  on the unit circle}, Elementare und analytische {Z}ahlentheorie (Wolfgang
+  Schwarz and J\"orn Steuding, eds.), Schriften der Wissenschaftlichen
+  Gesellschaft an der Johann Wolfgang Goethe-Universit\"at Frankfurt am Main,
+  vol.~20, Franz Steiner Verlag, Stuttgart, 2006, pp.~164--179.
+
+\bibitem{maier2008}
+\bysame, \emph{Anatomy of integers and cyclotomic polynomials}, Anatomy of
+  Integers (Jean-Marie De~Koninck, Andrew Granville, and Florian Luca, eds.),
+  CRM Proceedings \& Lecture Notes, vol.~46, American Mathematical Society,
+  Providence, RI, 2008, pp.~89--95.
+
+\bibitem{mcgehee}
+O.~Carruth McGehee, Louis Pigno, and Brent Smith, \emph{Hardy's inequality and
+  the {$L^{1}$} norm of exponential sums}, Ann. of Math. (2) \textbf{113}
+  (1981), no.~3, 613--618.
+
+\bibitem{meshulam}
+Roy Meshulam, \emph{Homology of balanaced complexes via the {F}ourier
+  transform}, J. Algebraic Combin. \textbf{35} (2012), 565--571.
+
+\bibitem{migotti}
+Adolf Migotti, \emph{{Zur Theorie der Kreistheilungsgleichung}},
+  Sitzungsberichte der Mathematisch-Naturwissenschaftlichen Classe der
+  Kaiserlichen Akademie der Wissenschaften \textbf{87} (1883), 7--14, Heft I,
+  Abt. II.
+
+\bibitem{montgomery}
+Hugh~L. Montgomery and Robert~C. Vaughan, \emph{Multiplicative number theory
+  {I}: Classical theory}, Cambridge Studies in Advanced Mathematics, vol.~97,
+  Cambridge University Press, 2006.
+
+\bibitem{moree2009}
+Pieter Moree, \emph{Inverse cyclotomic polynomials}, J. Number Theory
+  \textbf{129} (2009), 667--680.
+
+\bibitem{reiner}
+Gregg Musiker and Victor Reiner, \emph{The cyclotomic polynomial
+  topologically}, J. reine angew. Math. \textbf{687} (2014), 113--132.
+
+\bibitem{neukirch}
+J\"urgen Neukirch, \emph{Algebraic number theory}, Grundlehren der
+  mathematischen Wissenschaften, vol. 322, Springer, 1999, Translated from the
+  German by Norbert Schappacher.
+
+\bibitem{neumannDA}
+Olaf Neumann, \emph{The {{\em Disquisitiones Arithmeticae}} and the theory of
+  equations}, The Shaping of Arithmetic after C. F. Gauss's Disquisitiones
+  Arithmeticae (Catherine Goldstein, Norbert Schappacher, and Joachim
+  Schwermer, eds.), Springer, 2007, pp.~107--127.
+
+\bibitem{nicolas}
+Jean-Louis Nicolas and Guy Terjanian, \emph{Une majoration de la longueur des
+  polyn\^omes cyclotomiques}, Enseign. Math. (2) \textbf{45} (1999), no.~3-4,
+  301--309.
+
+\bibitem{thangadurai}
+R.~Thangadurai and A.~Vatwani, \emph{The least prime congruent to one modulo
+  $n$}, Amer. Math. Monthly \textbf{118} (2011), no.~8, 737--742.
+
+\bibitem{vaughan}
+R.~C. Vaughan, \emph{Bounds for the coefficients of cyclotomic polynomials},
+  Michigan Math. J. \textbf{21} (1974), 289--295 (1975).
+
+\bibitem{washington}
+Lawrence~C. Washington, \emph{Introduction to cyclotomic fields}, second ed.,
+  Graduate Texts in Mathematics, vol.~83, Springer, 1997.
+
+\bibitem{weil}
+Andr\'e Weil, \emph{Number theory: An approach through history from {H}ammurapi
+  to {L}egendre}, Birkh{\" a}user, 1984.
+
+\bibitem{wirsing}
+Eduard Wirsing, \emph{The third logarithmic momentum of the cyclotomic
+  polynomial on the unit circle and factorizations with a linear side
+  condition}, Elementare und analytische {Z}ahlentheorie (Wolfgang Schwarz and
+  J\"orn Steuding, eds.), Schriften der Wissenschaftlichen Gesellschaft an der
+  Johann Wolfgang Goethe-Universit\"at Frankfurt am Main, vol.~20, Franz
+  Steiner Verlag, Stuttgart, 2006, pp.~297--312.
+
+\end{thebibliography}

@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,graphicx,subfig,mathrsfs,amsthm}
+\newcommand{\norm}[1]{\left\Vert #1 \right\Vert}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\begin{document}
+\title{Estimating a product of sines using Diophantine approximation}
+\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
+\date{\today}
+
+\maketitle
+
+For $\sigma >0$ and $A>0$, let
+\[
+D(A,\sigma)=\left\{\alpha \in [0,1]: \textrm{if} \, \, p,q \in \mathbb{Z} \, \, \textrm{and} \, \, q \neq 0 \, \, \textrm{then} \, \, \left| \alpha-\frac{p}{q} \right| \geq A |q|^{-\sigma} \right\}.
+\]
+
+
+Let $D_\sigma=\bigcup_{A>0} D(A,\sigma)$. We can check that $\alpha$ has bounded partial quotients if and only if $\alpha \in D_2$.
+Elements of $D_2$ are also called {\em badly approximable numbers}. $\mu(D_2)=0$. Dodson and Kristensen \cite[\S \S 3--4]{MR2112110} survey results on the measure and Hausdorff dimension
+of the sets $D_\sigma$. A result of Jarn\'ik \cite[Theorem 4.3]{MR2112110} shows that $D_2$ has Hausdorff dimension $1$, and a result of Jarn\'ik and Besicovitch \cite[Theorem 4.4]{MR2112110} shows that if $\sigma>2$ then $[0,1] \setminus D_\sigma$ has Hausdorff dimension $<1$. And while $\mu(D_2)=0$, it is not difficult to show that if $\sigma>2$ then $\mu(D_\sigma)=1$.
+
+
+
+\begin{theorem}
+If $\alpha \in D(A,\sigma)$ then 
+\[
+\prod_{k=1}^n |\sin \pi k \alpha| \geq (2A)^n (n!)^{-\sigma+1}.
+\]
+\end{theorem}
+\begin{proof}
+If $\alpha \in D(A,\sigma)$ then
+for all $q \neq0$ we have
+\[
+|e^{2\pi iq\alpha}-1| \geq 4A|q|^{-\sigma+1}.
+\]
+Therefore if $\alpha \in D(A,\sigma)$ then 
+\begin{eqnarray*}
+\prod_{k=1}^n |\sin \pi k \alpha|&=&\prod_{k=1}^n \frac{1}{2}\left| 1-e^{2\pi ik\alpha}   \right|\\
+&\geq&\prod_{k=1}^n \frac{1}{2} 4A k^{-\sigma+1}\\
+&=&(2A)^n (n!)^{-\sigma+1}.
+\end{eqnarray*}
+\end{proof}
+
+
+The measure theoretic notion of a small set is a set with measure $0$, and  the topological notion of a small set is {\em meager set}, also called a set {\em of first category}, defined as follows. (The set theoretic notion of a small set is a set in bijection with a subset of the integers, namely, a finite or countable set.)
+A set $E \subset [0,1]$ is {\em nowhere dense} if for all $a$ and $b$ with $0 \leq a<b \leq 1$ there exist $c$ and $d$ with $0 \leq a \leq c < d \leq b \leq 1$ such that $E \cap (c,d)=\emptyset$. A meager set is a countable union of nowhere dense sets. We have
+\[
+[0,1] \setminus D(A,\sigma)=\bigcup_{q=2}^\infty \bigcup_{p=-\infty}^\infty \left(\frac{p}{q}-\frac{A}{q^\sigma},\frac{p}{q}+\frac{A}{q^\sigma}\right).
+\]
+Since $\frac{p}{q} \in [0,1] \setminus D(A,\sigma)$, it follows that $[0,1] \setminus D(A,\sigma)$ is dense in $[0,1]$. But $[0,1] \setminus D(A,\sigma)$ is a union of open sets so it is an open set and the complement of an open dense set is nowhere dense. Hence, each set $D(A,\sigma)$ is nowhere dense, and so $D_\sigma$, which can be written as a countable union of
+the sets $D(A,\sigma)$, is a meager set. For $\sigma>2$, this gives us an example of sets that are topologically small (they are meager) which have measure $1$; cf. 
+Oxtoby \cite[Chapter 2]{oxtoby}.
+
+Let
+\[
+\mathscr{D}=\bigcup_{\sigma \geq 2} D_\sigma.
+\]
+The elements of $\mathscr{D}$ are called {\em Diophantine numbers}. Since each $D_\sigma$ is meager, it follows that $\mathscr{D}$ is meager.
+
+A theorem of Liouville states that if $\alpha$ is an algebraic number of degree $n \geq 1$, then there is some $A$ such that $\alpha
+\in D(A,n)$. Therefore, the irrational algebraic numbers are a subset of the Diophantine numbers. The complement of $\mathscr{D} \cup \mathbb{Q}$ in $\mathbb{R}$ is called
+the {\em Liouville numbers}, and since the irrational algebraic numbers are a subset of the Diophantine numbers, the Liouville numbers are a subset of the transcendental numbers. 
+
+Mahler proves that $\pi \in D(1,42)$. Feldman and Nesterenko show relations of Diophantine numbers to transcendence theory.
+
+
+Diophantine numbers in dynamics: Ghys \cite{MR2376785}, Milnor \cite{milnor}
+
+\bibliographystyle{amsplain}
+\bibliography{diophapprox}
+
+\end{document}

@@ -1,0 +1,94 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{10}
+
+\bibitem{MR3155456}
+Mich{\`e}le Audin and Mihai Damian, \emph{Morse theory and {F}loer homology},
+  Universitext, Springer, London; EDP Sciences, Les Ulis, 2014, Translated from
+  the 2010 French original by Reinie Ern{\'e}.
+
+\bibitem{MR2170995}
+Kung-Ching Chang, \emph{Methods in nonlinear analysis}, Springer Monographs in
+  Mathematics, Springer, 2005.
+
+\bibitem{chipot}
+Michel Chipot, \emph{Elliptic equations: An introductory course}, Springer,
+  2009.
+
+\bibitem{MR2754279}
+James Colliander and Tristan Roy, \emph{Bootstrapped {M}orawetz estimates and
+  resonant decomposition for low regularity global solutions of cubic {NLS} on
+  {$\Bbb R^2$}}, Commun. Pure Appl. Anal. \textbf{10} (2011), no.~2, 397--414.
+  \MR{2754279 (2011m:35348)}
+
+\bibitem{courant}
+Richard Courant and David Hilbert, \emph{Methods of mathematical physics,
+  volume {II}}, Interscience Publishers, 1966.
+
+\bibitem{MR0162531}
+R.~E. Cutkosky, \emph{Self-consistency of superglobal multiplet assignments},
+  Phys. Rev. Lett. 12 (1964), 530-531; erratum, ibid. \textbf{12} (1964), 572.
+  \MR{0162531 (28 \#5729)}
+
+\bibitem{folland}
+Gerald~B. Folland, \emph{Advanced calculus}, Prentice Hall, Upper Saddle River,
+  NJ, 2002.
+
+\bibitem{MR0181836}
+Avner Friedman, \emph{Partial differential equations of parabolic type},
+  Prentice-Hall Inc., Englewood Cliffs, N.J., 1964. \MR{0181836 (31 \#6062)}
+
+\bibitem{MR1814364}
+David Gilbarg and Neil~S. Trudinger, \emph{Elliptic partial differential
+  equations of second order}, Classics in Mathematics, Springer-Verlag, Berlin,
+  2001, Reprint of the 1998 edition. \MR{1814364 (2001k:35004)}
+
+\bibitem{grubb}
+Gerd Grubb, \emph{Distributions and operators}, Springer, 2009.
+
+\bibitem{princeton}
+Sergiu Klainerman, \emph{{IV}.12, {P}artial differential equations}, The
+  {P}rinceton Companion to Mathematics (Timothy Gowers, June Barrow-Green, and
+  Imre Leader, eds.), Princeton University Press, 2008, pp.~455--483.
+
+\bibitem{MR2435520}
+N.~V. Krylov, \emph{Lectures on elliptic and parabolic equations in {S}obolev
+  spaces}, Graduate Studies in Mathematics, vol.~96, American Mathematical
+  Society, Providence, RI, 2008. \MR{2435520 (2009k:35001)}
+
+\bibitem{MR0284700}
+Carlo Miranda, \emph{Partial differential equations of elliptic type},
+  Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 2, Springer-Verlag,
+  New York, 1970, Second revised edition. Translated from the Italian by Zane
+  C. Motteler. \MR{0284700 (44 \#1924)}
+
+\bibitem{MR1603811}
+Dragi{\v{s}}a Mitrovi{\'c} and Darko {\v{Z}}ubrini{\'c}, \emph{Fundamentals of
+  applied functional analysis}, Pitman Monographs and Surveys in Pure and
+  Applied Mathematics, vol.~91, Longman, Harlow, 1998, Distributions---Sobolev
+  spaces---nonlinear elliptic equations.
+
+\bibitem{MR2028503}
+Michael Renardy and Robert~C. Rogers, \emph{An introduction to partial
+  differential equations}, second ed., Texts in Applied Mathematics, vol.~13,
+  Springer-Verlag, New York, 2004, p. 12. \MR{2028503 (2004j:35001)}
+
+\bibitem{rendall}
+Alan~D. Rendall, \emph{Partial differential equations in general relativity},
+  Oxford Graduate Texts in Mathematics, vol.~16, Oxford University Press, 2008.
+
+\bibitem{tao}
+Terence Tao, \emph{Nonlinear dispersive equations: local and global analysis},
+  CBMS Regional Conference Series in Mathematics, no. 106, American
+  Mathematical Society, Providence, RI, 2006.
+
+\bibitem{compactness}
+\bysame, \emph{Compactness and contradiction}, American Mathematical Society,
+  Providence, RI, 2013.
+
+\end{thebibliography}

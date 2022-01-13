@@ -1,0 +1,216 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,mathrsfs,amsthm}
+%\usepackage{tikz-cd}
+%\usepackage{hyperref}
+\newcommand{\inner}[2]{\left\langle #1, #2 \right\rangle}
+\newcommand{\tr}{\ensuremath\mathrm{tr}\,} 
+\newcommand{\Span}{\ensuremath\mathrm{span}} 
+\def\Re{\ensuremath{\mathrm{Re}}\,}
+\def\Im{\ensuremath{\mathrm{Im}}\,}
+\newcommand{\id}{\ensuremath\mathrm{id}} 
+\newcommand{\var}{\ensuremath\mathrm{var}} 
+\newcommand{\Lip}{\ensuremath\mathrm{Lip}} 
+\newcommand{\GL}{\ensuremath\mathrm{GL}}
+\newcommand{\diam}{\ensuremath\mathrm{diam}} 
+\newcommand{\Fix}{\ensuremath\mathrm{Fix}\,} 
+\newcommand{\sgn}{\ensuremath\mathrm{sgn}\,} 
+\newcommand{\lcm}{\ensuremath\mathrm{lcm}} 
+\newcommand{\supp}{\ensuremath\mathrm{supp}\,}
+\newcommand{\dom}{\ensuremath\mathrm{dom}\,}
+\newcommand{\upto}{\nearrow}
+\newcommand{\downto}{\searrow}
+\newcommand{\norm}[1]{\left\Vert #1 \right\Vert}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\begin{document}
+\title{The Gauss map}
+\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
+\date{\today}
+
+\maketitle
+
+
+\section{Koopman operator}
+For a function $T:X \to X$ and for a function $f:X \to \mathbb{C}$, define
+\[
+C_T f = f \circ T.
+\]
+We call $C_T$ the \textbf{Koopman operator of $T$}.
+For $x \in X$ and $j \geq 0$, $(C_T^j f)(x) = (f \circ T^j)(x)$.
+
+Let $\mathscr{A}$ be a $\sigma$-algebra on a set $X$ and let
+$\mu$ be a probability measure on $\mathscr{A}$. 
+For a measurable function $T:X \to X$, let $T_*\mu$ be the pushforward of
+$\mu$ by $T$:
+\[
+(T_* \mu)(E) = \mu(T^{-1}(E)).
+\]
+
+
+
+
+
+\section{Transfer operator}
+Let $(X,\mathscr{A},\mu)$ be a probability space and let $T:X \to X$ be measurable.
+Denote by $T_* \mu$ the pushforward of $\mu$ by $T$. We call $T$ \textbf{nonsingular} if 
+$T_*\mu$ be absolutely continuous with respect to $\mu$. 
+For $f \in L^1(\mu)$ let $\mu_f$ be the measure on $\mathscr{A}$ whose Radon-Nikodym derivative with respect
+to $\mu$ is $f$: $d\mu_f = f d\mu$. 
+The \textbf{transfer operator of $T$} is $L_T : L^1(\mu) \to L^1(\mu)$ defined by
+$L_T f = \frac{d(T_* \mu_f)}{d\mu}$.
+Thus for $g \in L^\infty(\mu)$,
+\begin{align*}
+\int_X g \cdot L_Tf d\mu &= \int_X g d(T_*\mu_f)\\
+&=\int_X g \circ T d\mu_f\\
+&=\int_X (g \circ T) \cdot f d\mu\\
+&=\int_X f \cdot C_T g  d\mu.
+\end{align*}
+We remark that we merely suppose  $T$ be nonsingular, not that $T$ be measure preserving.
+
+
+
+
+
+
+\section{Gauss map}
+Let $\mathscr{B}$ be the Borel $\sigma$-algebra of the compact metric space $[0,1]$ and let $\mu$ be Lebesgue measure
+on $\mathscr{B}$. For $x \in \mathbb{R}$ let $[x]$ be the greatest integer $\leq x$ and let
+$\{x\}=x-[x]$, for which $\{x\} \in [0,1)$. Define $T:[0,1] \to [0,1]$ by
+\[
+T(x) = \begin{cases}
+0&x=0,\\
+\{1/x\}&x \neq 0,
+\end{cases}
+\]
+called the \textbf{Gauss map}. Let 
+\[
+ I_k= \left(\frac{1}{k+1},\frac{1}{k}\right),\qquad k \geq 1.
+\]
+For $k \geq 1$, if $x \in I_k$  then
+$[1/x]=k$ so $\{1/x\} = \frac{1}{x}-k$. Thus
+\[
+T(x) = \sum_{k=1}^\infty 1_{I_k}(x) (x^{-1}-k).
+\]
+For
+\[
+F=\{0\} \cup \{k^{-1}: k \geq 1\},\qquad U= [0,1] \setminus F = \bigcup_{k \geq 1} I_k,
+\]
+and for $x \in U$,
+\[
+T'(x) = - \sum_{k=1}^\infty 1_{I_k}(x) x^{-2}.
+\]
+It is apparent that $T \in C^\infty(U)$. 
+Now, for $x \in I_k$, $k^2 < |T'(x)| < (k+1)^2$.  
+Define $\phi_k:(0,1) \to I_k$ by
+\[
+\phi_k(x) = \frac{1}{x+k},
+\] 
+which is a diffeomorphism.
+For $x \in (0,1)$ and $k \geq 1$,
+\[
+(T \circ \phi_k)(x) = \frac{1}{\phi_k(x)} - k = x+k-k=x.
+\]
+For $f:[0,1] \to \mathbb{C}$ and $\mu_f(A) = \int_A f d\mu$, and for $A$ an open subset of $[0,1]$,
+\[
+\mu_f(T^{-1}A) = \int_{T^{-1}(A)} f d\mu = \sum_{k = 1}^\infty  \int_{\phi_k(A)} f d\mu.
+\]
+But for $k \geq 1$, using the change of variables formula and
+$\phi_k'(x) = -\frac{1}{(x+k)^2}$,
+\[
+\int_{\phi_k(A)} f d\mu = \int_A (f \circ \phi_k)(x) \cdot |\phi_k'(x)| dx
+=\int_A f\left(\frac{1}{x+k}\right) \frac{1}{(x+k)^2} dx;
+\]
+we will impose some conditions on $f$ after we play around with things.
+Then
+\[
+\mu_f(T^{-1}A)  = \sum_{k=1}^\infty \int_A f\left(\frac{1}{x+k}\right) \frac{1}{(x+k)^2} dx
+=\int_A  \sum_{k=1}^\infty  f\left(\frac{1}{x+k}\right) \frac{1}{(x+k)^2} dx.
+\]
+Define $\mathscr{G}f:[0,1] \to \mathbb{C}$ by
+\[
+(\mathscr{G}f)(x) = \sum_{k=1}^\infty  f\left(\frac{1}{x+k}\right) \frac{1}{(x+k)^2}.
+\]
+We call $\mathscr{G}$ the \textbf{Gauss-Kuzmin-Wirsing operator}.
+If we want $T$ to preserve the measure $\mu_f$ then it must be the case that
+$\mathscr{G}f=f$ almost everywhere.
+In fact, for $f(x)= c(1+x)^{-1}$, $c>0$,
+\begin{align*}
+(\mathscr{G}f)(x)&=c \sum_{k=1}^\infty \frac{1}{1+\frac{1}{x+k}} \frac{1}{(x+k)^2}\\
+&=c\sum_{k=1}^\infty \frac{1}{(x+k+1)(x+k)}\\
+&=c\sum_{k=1}^\infty \left( \frac{1}{x+k} - \frac{1}{x+k+1}\right)\\
+&=c\frac{1}{x+1}\\
+&=f(x).
+\end{align*}
+Now,  $\mu_f$ being a  probability measure is equivalent with 
+$\mu_f([0,1])=1$, i.e.
+\[
+1=\mu_f([0,1]) = c \int_0^1 \frac{1}{x+1} dx = c \log 2.
+\]
+Thus take $c=\frac{1}{\log 2}$, $f(x) = \frac{1}{(1+x)\log 2}$. 
+Then $d\nu(x)=\frac{1}{(1+x)\log 2 } d\mu(x)$ is a probability measure for which the Gauss map
+$T$ is measure preserving. We call $\nu$ the \textbf{Gauss measure}. 
+
+
+
+
+\section{Dynamical zeta function}
+Let $M$ be a set, let $f:M \to M$ be a function, and 
+\[
+\Fix f = \{x \in M : fx=x\}.
+\]
+Let $M_d(\mathbb{C})$ be the set of  $n \times n$ matrices over $\mathbb{C}$. 
+For $m \geq 1$, if $\Fix f^m$ is finite let
+\[
+a_m = \sum_{x \in \Fix f^m} \tr \prod_{k=0}^{m-1} \phi(f^k x).
+\]
+If each $\Fix f^m$ is finite, then define
+\[
+\zeta(f,\phi,z) = \sum_{m=1}^\infty \frac{a_m}{m} z^m,
+\]
+where the series converges.
+
+
+
+
+\section{Continued fractions}
+For irrational $x \in [0,1]$ let $a_n(x)$ be the $n$th partial quotient of its continued fraction. It satisfies
+\[
+a_n(x) = \left[ \frac{1}{T^{n-1}x}\right],\qquad n \geq 1.
+\]
+
+For positive integers $a_1,\ldots,a_m$, let $x=[a_1,\ldots,a_m]$ satisfy
+$a_1(x)=a_1,\ldots,a_m(x)=a_m$ and $a_{j+m}(x)=a_j(x)$. 
+Namely, $[a_1,\ldots,a_m]$ is a \textbf{purely periodic continued fraction}.
+For $m \geq 1$,
+\[
+\Fix(T^m) = \{0\} \cup \{[a_1,\ldots,a_m]: a_1,\ldots,a_m \geq 1\}.
+\]
+We remark that a nonzero element of $\Fix(T^m)$ is a quadratic irrational.
+
+For $m \geq 1$ and
+for positive integers $a_1,\ldots,a_m$ define
+\[
+w [a_1,\ldots,a_m] = \prod_{k=1}^m ([a_k,\ldots,a_m,a_1,\ldots,a_{k-1}])^{-2}.
+\]
+Define
+\[
+Z_m(s) =  \sum_{(a_1,\ldots,a_m) \in \mathbb{Z}_{\geq 1}^m} (w[a_1,\ldots,a_m])^{-s}.
+\]
+When it converges, define
+\[
+\zeta_{CF}(z,s) = \exp\left( \sum_{m=1}^\infty \frac{z^m}{m} Z_m(s) \right).
+\]
+
+
+
+
+Let $\Delta=\{z \in \mathbb{C}: |z-1| < \frac{3}{2}\}$.
+Let $X$ be the collection of continuous functions $\phi:\overline{\Delta} \to \mathbb{C}$ whose
+restriction to $\Delta$ is holomorphic. 
+
+\end{document}

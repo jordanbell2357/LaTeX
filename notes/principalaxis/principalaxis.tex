@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage{amssymb,mathrsfs,amsthm,amsmath}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newcommand{\norm}[1]{\Vert #1 \Vert}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\Der}{\operatorname{Der}}
+\newcommand{\ad}{\operatorname{ad}}
+\begin{document}
+\title{The principal axis theorem and Sylvester's law of inertia}
+\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
+\date{\today}              
+
+\maketitle
+
+ The {\em principal axis theorem} is the statement that for any quadratic form on $\mathbb{R}^n$ there
+ are coordinates in which the quadratic form is diagonal.
+
+Let $Q(x)$ be a quadratic form on $\mathbb{R}^n$. Then for some $n \times n$ real symmetric matrix $A$ we have 
+\[
+Q(x)=x^T Ax
+\]
+for all $x \in \mathbb{R}^n$. 
+
+If $A$ is an $n \times n$ real symmetric matrix then by the spectral theorem there is an orthonormal basis of $\mathbb{R}^n$ each element of which is an eigenvector of $A$. Let $\lambda_1,\ldots,\lambda_n$ be
+the eigenvalues of $A$ and let $p_1,\ldots,p_n$ be the corresponding basis. Take $P$ to be a matrix whose $j$th column is $p_j$. Since the eigenvectors are orthonormal, it follows that $P^{-1}=P^T$. Letting $D=\diag(\lambda_1,\ldots,\lambda_n)$, we see that $A=PDP^T$.
+
+We now apply the result of the spectral theorem to the quadratic form $Q(x)$, getting
+\[
+Q(x)=x^T PDP^T x = (P^T x)^T D (P^T x),
+\]
+which can be written as
+\[
+Q(Py)=y^T D y = \sum_{j=1}^n \lambda_j y_j^2.
+\]
+The coordinate vector of $x$ with respect to the basis $p_1,\ldots,p_n$ is
+$y=P^T x$, and we can write $Q(x)$ in terms of $y$ as $\sum_{j=1}^n \lambda_j y_j^2$.
+
+{\em Sylvester's law of inertia} tells us that if
+\[
+Q(x)=(R^T x)^T \diag(\mu_1,\ldots,\mu_n) (R^T x)
+\] 
+for some matrix $R$ then
+$|\{\mu_j: \mu_j >0\}|=|\{\lambda_j:\lambda_j>0\}|$,
+$|\{\mu_j: \mu_j =0\}|=|\{\lambda_j:\lambda_j=0\}|$, and 
+$|\{\mu_j: \mu_j <0\}|=|\{\lambda_j:\lambda_j<0\}|$.
+That is, regardless of how we diagonalize a quadratic form, it will have the same number of positive coefficients, zero coefficients, and negative coefficients.
+
+Here ``inertia'' just means something not changing. Sylvester writes that the invariance of the number of positive, zero and negative coefficients in the diagonalization of a quadratic form is ``a law to which my view of the physical meaning of quantity of matter inclines me, upon the ground of analogy, to give the name of the Law of Inertia for Quadratic Forms, as expressing the fact of the existence of an invariable number inseparably attached to such forms.'' \cite[p. 142]{sylvester1852} In a later paper he defines inertia as ``The unchangeable number of integers in the excess of positive over negative signs which adheres to a quadratic form expressed as the sum of positive and negative squares, notwithstanding any real linear transformations impressed upon such form.'' \cite[p. 545]{sylvester1853}.
+
+\bibliographystyle{amsplain}
+\bibliography{principalaxis}
+
+\end{document}

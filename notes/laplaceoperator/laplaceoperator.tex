@@ -1,0 +1,442 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,mathrsfs,amsthm}
+%\usepackage{tikz-cd}
+\usepackage{hyperref}
+\newcommand{\inner}[2]{\left\langle #1, #2 \right\rangle}
+\newcommand{\tr}{\ensuremath\mathrm{tr}\,} 
+\newcommand{\Span}{\ensuremath\mathrm{span}} 
+\def\Re{\ensuremath{\mathrm{Re}}\,}
+\def\Im{\ensuremath{\mathrm{Im}}\,}
+\newcommand{\id}{\ensuremath\mathrm{id}} 
+\newcommand{\var}{\ensuremath\mathrm{var}} 
+\newcommand{\Lip}{\ensuremath\mathrm{Lip}} 
+\newcommand{\GL}{\ensuremath\mathrm{GL}} 
+\newcommand{\diam}{\ensuremath\mathrm{diam}} 
+\newcommand{\sgn}{\ensuremath\mathrm{sgn}\,} 
+\newcommand{\lcm}{\ensuremath\mathrm{lcm}} 
+\newcommand{\supp}{\ensuremath\mathrm{supp}\,}
+\newcommand{\dom}{\ensuremath\mathrm{dom}\,}
+\newcommand{\upto}{\nearrow}
+\newcommand{\downto}{\searrow}
+\newcommand{\norm}[1]{\left\Vert #1 \right\Vert}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\begin{document}
+\title{The Laplace operator is essentially self-adjoint}
+\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
+\date{\today}
+
+\maketitle
+
+
+\section{Operators in $L^2(\mathbb{R}^d)$}
+\label{section1}
+Write
+$H=L^2(\mathbb{R}^d)$, which is a Hilbert space with inner product
+\[
+\inner{f}{g} = \int_{\mathbb{R}^d} f \overline{g}, \qquad f,g \in H.
+\]
+An \textbf{operator in $H$} is a linear subspace $\mathscr{D}(T)$ of $H$ and  a linear map $T:\mathscr{D}(T) \to H$. 
+We write
+\[
+\mathscr{R}(T) = T(\mathscr{D}(T)).
+\]
+The \textbf{graph of $T$} is
+\[
+\mathscr{G}(T)=\{(f,Tf): f \in \mathscr{D}(T)\},
+\]
+ which is a linear subspace of $H \times H$. 
+For operators $S$ and $T$ in $H$, when $\mathscr{G}(S) \subset \mathscr{G}(T)$ we write
+\[
+S \subset T.
+\]
+$S=T$ is equivalent with $S \subset T$ and $T \subset S$. 
+
+ We call $T$ \textbf{densely defined} if $\mathscr{D}(T)$ is dense in $H$. 
+When $T$ is densely defined, we define $\mathscr{D}(T^*)$ to be the set of those $g \in H$ such that
+\[
+f \mapsto \inner{Tf}{g}
+\]
+is continuous $\mathscr{D}(T) \to \mathbb{C}$. 
+Because $T$ is densely defined, for each $g \in \mathscr{D}(T^*)$ there is a unique $T^*g \in H$ such that\footnote{\url{http://individual.utoronto.ca/jordanbell/notes/trotter.pdf},
+\S 1.}
+\[
+\inner{Tf}{g} = \inner{f}{T^*g}, \qquad f \in \mathscr{D}(T).
+\]
+$\mathscr{D}(T^*)$ is a linear subspace of $H$ and $T^*:\mathscr{D}(T^*) \to H$ is linear, and thus $T^*$ is an operator
+in $H$, called the \textbf{adjoint of $T$}.
+
+
+
+We say that an operator $T$ in $H$ is \textbf{symmetric} if
+\[
+\inner{Tf}{g} = \inner{f}{Tg}, \qquad f,g \in \mathscr{D}(T).
+\]
+When $T$ is densely defined,
+this implies that $T^*g=Tg$ for all $g \in \mathscr{D}(T)$,
+which means that
+\[
+T \subset T^*.
+\]
+An operator $T$ in $H$ is called
+ \textbf{positive} when it is symmetric and satisfies
+\[
+\inner{Tf}{f} \geq 0,\qquad v \in \mathscr{D}(T).
+\]
+If $T$ is densely defined and $T=T^*$, then $T$ is called \textbf{self-adjoint}.
+The \textbf{Friedrichs extension theorem} states that if  $T$ is a densely defined positive 
+operator in $H$, then there is a positive self-adjoint  operator $S$ in $H$ such that
+$T \subset S$, that is, that a densely defined positive operator has a positive 
+self-adjoint extension.\footnote{\url{http://www.math.umn.edu/~garrett/m/v/friedrichs.pdf}; \url{https://people.math.ethz.ch/~kowalski/spectral-theory.pdf}}
+
+An operator $T$ in $H$ is called \textbf{closed} if $\mathscr{G}(T)$ is closed in $H \times H$. 
+This is equivalent with $\mathscr{D}(T)$ when assigned the inner product
+\begin{equation}
+\inner{f}{g}_T = \inner{f}{g}+\inner{Tf}{Tg}, \qquad f,g \in \mathscr{D}(T).
+\label{subspace}
+\end{equation}
+being itself a Hilbert space. 
+An operator $T$ in $H$ is called \textbf{closable} if there is some operator $S$ in
+$H$ such that 
+\[
+\overline{\mathscr{G}(T)} = \mathscr{G}(S),
+\]
+namely $\overline{\mathscr{G}(T)}$ is a graph.
+If $T$ is closable, we define
+\[
+\mathscr{D}(\overline{T}) = \{f \in H: \textrm{there is some $g \in H$ such that $(f,g) \in \overline{\mathscr{G}(T)}$}\}. 
+\]
+Because $\overline{\mathscr{G}(T)}$ is a graph, for each $f \in \mathscr{D}(\overline{T})$ there is a unique
+$\overline{T}f \in H$ such that $(f,\overline{T}f) \in \overline{\mathscr{G}(T)}$. 
+It is straightforward to check that $\overline{T}$ is linear, and thus is an operator in $H$.
+Then
+\[
+\mathscr{G}(\overline{T}) = \overline{\mathscr{G}(T)},
+\]
+and so $\overline{T}$ is a closed operator, called the \textbf{closure of $T$}.
+Now, if $f \in \mathscr{D}(\overline{T})$ then $(f,\overline{T}f) \in \overline{\mathscr{G}(T)}$ and so is a sequence
+$(f_k,Tf_k) \in \mathscr{G}(T)$ that tends to $(f,\overline{T}f)$ in $H \times H$, and in particular
+$\overline{T}f = \lim_{k \to \infty} Tf_k$. 
+
+An operator $T$ in $H$ is called \textbf{essentially self-adjoint} if it is densely defined, symmetric, and there is a unique
+self-adjoint operator $S$ in $H$ such that $T \subset S$. This is equivalent with $T$ being densely defined, symmetric, and 
+its closure $\overline{T}$ being self-adjoint.\footnote{Michael Reed and Barry Simon, {\em Methods of Modern Mathematical Physics,
+volume I: Functional Analysis}, revised and enlarged edition, p.~256, \S VIII.2.}
+For a densely defined symmetric operator $T$, it is further proved that $T$ is essentially self-adjoint if and only if
+$\mathscr{R}(T+i)$ is dense in $H$ and $\mathscr{R}(T-i)$ is dense in $H$.\footnote{Michael Reed and Barry Simon, {\em Methods of Modern Mathematical Physics,
+volume I: Functional Analysis}, revised and enlarged edition, p.~257, Corollary to Theorem VIII.3;
+\url{http://www.math.umn.edu/~garrett/m/fun/adjointness_crit.pdf}}
+
+
+
+\section{Schwartz functions}
+Let $\mathscr{S}=\mathscr{S}(\mathbb{R}^d)$ be the Fr\'echet space of Schwartz functions $\mathbb{R}^d \to \mathbb{C}$ and
+let $\mathscr{D}(T)=\mathscr{S}$, which is a dense linear subspace of $H$.
+Define $T:\mathscr{D}(T) \to H$ for $\phi \in \mathscr{D}(T)$ by
+\[
+(T f)(x) = -\sum_{j=1}^d (\partial_j^2 f)(x),\qquad x \in \mathbb{R}^d.
+\]
+$T$ is a densely defined operator in $H$, and thus we may also speak about its adjoint $T^*$.
+
+
+For $f,g \in \mathscr{D}(T)$, integrating by parts and because a Schwartz function tends to $0$ at $\infty$,
+\begin{align*}
+\inner{T f}{g}&=\int_{\mathbb{R}^d} \left( -\sum_{j=1}^d \partial_j^2 f \right) \overline{g} \\
+&=\sum_{j=1}^d \int_{\mathbb{R}^d} (\partial_j f)\overline{(\partial_j g)}\\
+&=\sum_{j=1}^d -\int_{\mathbb{R}^d} f \overline{\partial_j^2 g}\\
+&=\inner{f}{T g},
+\end{align*}
+which shows that $T$ is symmetric. Because $T$ is densely defined,
+\[
+T \subset T^*.
+\]
+For $f \in \mathscr{D}(T)$,
+\[
+\inner{Tf}{f} = \sum_{j=1}^d \int_{\mathbb{R}^d} (\partial_j f)\overline{(\partial_j f)}
+=\sum_{j=1}^d \int_{\mathbb{R}^d} |\partial_j f|^2 \geq 0,
+\]
+showing that $T$ is positive. Thus,  the Friedrichs extension theorem tells us that there is a positive self-adjoint extension of $T$. 
+
+
+\section{Fourier transform}
+For $f \in \mathscr{S}$ we define
+\[
+\hat{f}(\xi) = \int_{\mathbb{R}^d} e^{-2\pi i\xi \cdot x} f(x) dx, \qquad \xi \in \mathbb{R}^d,
+\]
+and $\hat{f} \in \mathscr{S}$. 
+Then there is a unique \textbf{unitary operator} $\mathscr{F}:H \to H$ such that $\mathscr{F}(f) = \hat{f}$ for $f \in \mathscr{S}$.\footnote{John
+B. Conway, {\em A Course in Functional Analysis}, second ed., p.~341, Theorem 6.17.}
+That $\mathscr{F}$ is a unitary operator means that $\mathscr{F} \circ \mathscr{F}^*=I$ and $\mathscr{F}^* \circ \mathscr{F}=I$.
+
+For $f \in \mathscr{D}(T)$ and $\xi \in \mathbb{R}^d$, integrating by parts,
+\begin{align*}
+(\mathscr{F} (Tf))(\xi) &=\sum_{j=1}^d -\int_{\mathbb{R}^d} e^{-2\pi i\xi\cdot x} (\partial_j^2 f)(x) dx\\
+&=\sum_{j=1}^d \int_{\mathbb{R}^d} (2\pi i\xi_j) e^{-2\pi i\xi\cdot x} (\partial_j f)(x) dx\\
+&=\sum_{j=1}^d -\int_{\mathbb{R}^d} (2\pi i\xi_j)^2 e^{-2\pi i\xi\cdot x} f(x) dx\\
+&=\mathscr{F}(f)(\xi) \cdot \sum_{j=1}^d -(2\pi i \xi_j)^2,
+\end{align*}
+so
+\begin{equation}
+(\mathscr{F} (Tf))(\xi)=\mathscr{F}(f)(\xi) \cdot |2\pi \xi|^2.
+\label{FT}
+\end{equation}
+We define\footnote{Michael Loss, {\em The Laplace operator as a self adjoint operator}, \url{http://people.math.gatech.edu/~loss/14SPRINGTEA/laplacian.pdf}}
+\[
+\mathscr{D}(A) = \left\{f \in H: \int_{\mathbb{R}^d} |2\pi x|^4 |f(x)|^2 dx < \infty\right\}
+\]
+and for $f \in \mathscr{D}(A)$ we define
+\[
+(Af)(x) = |2\pi x|^2 f(x), \qquad x \in \mathbb{R}^d.
+\]
+$A:\mathscr{D}(A) \to H$ is a linear map. It is apparent that
+$\mathscr{S} \subset \mathscr{D}(A)$, so $A$ is densely defined.
+We have established above in \eqref{FT} that
+\[
+(\mathscr{F} \circ T)(f) = (A \circ \mathscr{F})(f), \qquad f \in \mathscr{D}(T),
+\]
+which we can write as
+\begin{equation}
+T(f) = (\mathscr{F}^* \circ A \circ \mathscr{F})(f),\qquad f \in \mathscr{D}(T).
+\label{conjugate}
+\end{equation}
+
+ 
+
+\begin{theorem}
+$A$ is self-adjoint.
+\label{selfadjoint}
+\end{theorem}
+\begin{proof}
+For $f,g \in \mathscr{D}(A)$,
+\[
+\inner{Af}{g} = \int_{\mathbb{R}^d} (Af)(x) \overline{g(x)} dx
+=\int_{\mathbb{R}^d} |2\pi x|^2 f(x) \overline{g(x)} dx
+=\int_{\mathbb{R}^d} f(x) \overline{|2\pi x|^2 g(x)} dx,
+\]
+so $\inner{Af}{g}=\inner{f}{Ag}$, namely $A$ is symmetric:
+$A \subset A^*$. 
+
+
+Let
+ $g \in \mathscr{D}(A^*)$.  That is, $g \in H$ and there is some $C_g$ such that 
+\[
+|\inner{Af}{g}| \leq C_g \norm{f}, \qquad f \in \mathscr{D}(A). 
+\]
+Let $B_r$ be the open ball of radius $r$ with center $0$, and
+define 
+\[
+f_r(x) = |2\pi x|^2 g(x) 1_{B_r}(x) 1_{B_r}(g(x)).
+\]
+Because $f_r$ has compact  support and is  bounded, it belongs to $H$ and further to $\mathscr{D}(A)$. 
+On the one hand,
+\[
+|\inner{f_r}{Ag}| = |\inner{Af_r}{g}| \leq C_g \norm{f_r}.
+\]
+On the other hand,
+\begin{align*}
+\inner{f_r}{Ag}&=\int_{\mathbb{R}^d}  |2\pi x|^2 g(x) 1_{B_r}(x) 1_{B_r}(g(x)) \overline{|2\pi x|^2 g(x)} dx\\
+&=\int_{\mathbb{R}^d} |2\pi x|^4 |g(x)|^2 1_{B_r}(x) 1_{B_r}(g(x)) dx\\
+&=\norm{f_r}^2.
+\end{align*}
+Hence $\norm{f_r} \leq C_g$. 
+Now, for $x \in \mathbb{R}^d$, 
+\[
+|f_r(x)|^2 = |2\pi x|^4 |g(x)|^2 1_{B_r}(x) 1_{B_r}(g(x)) \to |2\pi x|^4 |g(x)|^2
+\]
+as $r \to \infty$, and therefore applying the monotone convergence theorem gives
+\[
+\norm{f_r}^2=\int_{\mathbb{R}^d} |f_r(x)|^2 dx \to \int_{\mathbb{R}^d}  |2\pi x|^4 |g(x)|^2 dx.
+\]
+Because $\norm{f_r} \leq C_g$ for each $r$, 
+\[
+\int_{\mathbb{R}^d}  |2\pi x|^4 |g(x)|^2 dx \leq C_g^2,
+\]
+which shows that $g \in \mathscr{D}(A)$ and thus establishes that $A^* \subset A$.
+\end{proof}
+
+
+
+Let 
+\[
+\mathscr{D}(L) = \mathscr{F}^{-1}(\mathscr{D}(A)),
+\]
+and because $\mathscr{F}$ is a unitary operator and $\mathscr{D}(A)$ is dense in $H$,
+$\mathscr{D}(L)$ is dense in $H$. Define
+\[
+L(f) =  (\mathscr{F}^* \circ A \circ \mathscr{F})(f),\qquad f \in \mathscr{D}(A),
+\]
+which by \eqref{conjugate} satisfies
+\[
+L(f) = T(f), \qquad \mathscr{D}(T),
+\]
+namely
+\[
+T \subset L.
+\]
+By Theorem \ref{selfadjoint}, $A$ is self-adjoint, and because $\mathscr{F} \in \mathscr{L}(H;H)$,\footnote{Walter Rudin, {\em Functional Analysis},
+second ed., p.~348, Theorem 13.2.}
+\[
+((\mathscr{F}^* \circ A) \circ \mathscr{F}))^*
+=\mathscr{F}^* \circ (\mathscr{F}^* \circ A)^*
+=\mathscr{F}^* \circ A^* \circ \mathscr{F}
+=\mathscr{F}^* \circ A \circ \mathscr{F},
+\]
+and thus $L$ is self-adjoint. Because $L$ is self-adjoint, $L$ is closed,\footnote{Walter
+Rudin, {\em Functional Analysis}, second ed., p.~352, Theorem 13.9.}
+and so by \eqref{subspace}, with the inner product
+\[
+\inner{f}{g}_L = \inner{f}{g}+\inner{Lf}{Lg},\qquad f,g \in \mathscr{D}(L),
+\]
+$\mathscr{D}(L)$ is a Hilbert space. We remind ourselves that
+\[
+\mathscr{D}(L) = \{f \in H: \mathscr{F}(f) \in \mathscr{D}(A)\}
+=\{f \in H: \int_{\mathbb{R}^d} |2\pi \xi|^4 |(\mathscr{F}f)(\xi)|^2 d\xi<\infty\}.
+\]
+More explicitly, let $L^0(\mathbb{R}^d)$ be the collection of equvialence classes of Borel measurable functions
+$\mathbb{R}^d \to \mathbb{C}$, where two functions are deemed equivalent if the set of points on which they are not equal
+has Lebesgue measure $0$. Then $H=L^2(\mathbb{R}^d)$ is equal to the set of those $f \in L^0(\mathbb{R}^d)$ such
+that 
+\[
+\int_{\mathbb{R}^d} |f|^2 < \infty.
+\]
+Thus
+\[
+\mathscr{D}(L) = \{f \in L^0(\mathbb{R}^d): \textrm{$\int_{\mathbb{R}^d} |f|^2 < \infty$ and
+$\int_{\mathbb{R}^d}  |2\pi \xi|^4 |(\mathscr{F}f)(\xi)|^2 d\xi<\infty$}\}.
+\]
+
+
+We have established that $L$ is a self-adjoint extension of $T$. We now prove that $T$ is essentially self-adjoint, which means
+that $L$ is the only self-adjoint extension of $T$ and also that $L$ is the closure of $T$. Moreover, 
+because $T$ is densely defined and positive its Friedrichs extension $S$ is positive and self-adjoint,
+and if $T$ is essentially self-adjoint then $L=S$, showing that $L$ is positive. (This can be showed directly.)
+  As we stated in \S \ref{section1}, for $T$ to be essentially self-adjoint
+it is equivalent that $\mathscr{R}(T+i)$ and $\mathscr{R}(T-i)$ each be dense in $H$. 
+
+\begin{theorem}
+$T$ is essentially self-adjoint.
+\end{theorem}
+\begin{proof}
+If $V$ is a linear subspace of $H$, then $V^{\perp \perp}=\overline{V}$, hence for $V$ to be dense is equivalent to
+$V^\perp = \{0\}$.\footnote{See \url{http://individual.utoronto.ca/jordanbell/notes/pvm.pdf}} 
+Let $j \in \{-i,i\}$ and let $g \in \mathscr{R}(T+j)^\perp$, that is, $g \in H$ and 
+\[
+\inner{(T+j)f}{g}=0,\qquad f \in \mathscr{D}(T).
+\]
+Then for any $f \in \mathscr{D}(T)$, because $\mathscr{F}$ is unitary and using \eqref{FT},
+\begin{align*}
+0&=\inner{\mathscr{F}^{-1} \circ \mathscr{F}((T+j)f)}{g}\\
+&=\inner{\mathscr{F}(Tf)+j\mathscr{F}f}{\mathscr{F}g}\\
+&=\inner{(|2\pi \cdot|^2+j) \mathscr{F}f}{\mathscr{F}g}\\
+&=\inner{\mathscr{F}f}{(|2\pi \cdot|^2-j)\mathscr{F}g}.
+\end{align*}
+Because $\mathscr{D}(T)$ is dense in $H$ and $U$ is unitary, $U(\mathscr{D}(T))$ is dense in $H$, and therefore
+the above implies that
+\[
+(|2\pi \cdot|^2-j)\mathscr{F}g = 0.
+\]
+Because $||2\pi \cdot|^2-j| \geq 1$, this implies that
+\[
+\mathscr{F}g=0,
+\]
+and $\mathscr{F}$ being unitary yields in particular that it is one-to-one, so $g=0$. Therefore
+$\mathscr{R}(T+j)^\perp = \{0\}$ and so
+$\mathscr{R}(T+j)$ is dense in $H$, which implies that $T$ is essentially self-adjoint.
+\end{proof}
+
+For people who work on partial differential equations, the games they play seem to value showing that solutions exist rather than showing that they are unique. But in fact, in any
+area of mathematics it is usually better to know that at most one thing exists than that at least one thing exists. If I know that a function can be extended from one set to a larger set
+in several ways, then I ought only to think about what those extensions have in common. Thus it is probably more important to know that the Laplace operator
+defined on the Schwartz functions is essentially self-adjoint than to have explicitly constructed a self-adjoint extension, since if there could be other self-adjoint extensions we would
+have no reason to care about our extension except where it is equal to the originally defined Laplace operator. 
+
+
+\section{Spectral theorem}
+If $T$ is an operator in $H$, the \textbf{resolvent set of $T$} is the set of those $\lambda \in \mathbb{C}$ such that there is some $S \in \mathscr{L}(H;H)$
+satisfying
+\[
+S \circ (T-\lambda I) \subset (T-\lambda I)\circ S = I.
+\]
+The \textbf{spectrum of $T$}, denoted $\sigma(T)$, is the complement in $\mathbb{C}$ of the resolvent set of $T$. 
+
+If $A$ is a self-adjoint operator in $H$, then the \textbf{spectral theorem}\footnote{Walter Rudin, {\em Functional Analysis},
+second ed., p.~368, Theorem 13.30.} says that there is a unique \textbf{resolution of the identity}\footnote{\url{http://individual.utoronto.ca/jordanbell/notes/trotter.pdf}, \S 5.} 
+$E:\mathscr{B}_{\mathbb{R}} \to \mathscr{L}(H;H)$ such that 
+\[
+\inner{Af}{g} = \int_{\mathbb{R}} \lambda dE_{f,g}(\lambda),\qquad f \in \mathscr{D}(A), \quad g \in H.
+\]
+$E_{f,g}(B) = \inner{E(B)f}{g}$ for $B \in \mathscr{B}_{\mathbb{R}}$, and for each $f \in \mathscr{D}(A)$ and
+$g \in H$, $E_{f,g}$ is a complex measure on $\mathscr{B}_{\mathbb{R}}$. Furthermore,
+$E(\sigma(A))=I$. 
+
+Suppose that $A$ is a self-adjoint operator in $H$. Let $\{D_i\}$ be a countable collection of open discs that are a base
+ for the topology of $\mathbb{C}$.
+For a Borel measurable function $h:\mathbb{R} \to \mathbb{C}$, let $V_h$ be the union of those $D_i$ for which
+$Ehf^{-1}(D_i))=0$. Then $E(h^{-1}(V_f))=0$. We define the \textbf{essential range of $h$} to be the complement of $V_h$ in $\mathbb{C}$,
+\[
+R_h =V_h^c= \bigcap_i D_i^c. 
+\]
+For $\lambda \in \mathbb{R}$, if $h(\lambda) \not \in R_h$ then there is some $i$ for which $h(\lambda) \in D_i$, i.e. $\lambda \in h^{-1}(D_i) \subset h^{-1}(V_f)$. Therefore,
+\[
+E(\{\lambda \in \mathbb{R}: h(\lambda) \not \in R_h\}) = 0.
+\]
+We say that $h$ is \textbf{essentially bounded} if $R_h$ is a bounded subset of $\mathbb{C}$, and we write
+\[
+\norm{h}_\infty = \sup_{\lambda \in R_h} |\lambda|,
+\]
+the \textbf{essential supremum of $h$}.
+Now, let $B$ be the Banach algebra of bounded Borel measurable functions $\mathbb{R} \to \mathbb{C}$, with the supremum norm
+\[
+\norm{h} = \sup_{\lambda \in \mathbb{R}} |h(\lambda)|.
+\]
+Any element of $B$ is essentially bounded, and we take
+\[
+N = \{h \in B: \norm{h}_\infty = 0\}.
+\]
+This is a closed ideal of $B$, and
+\[
+L^\infty(E)=B/N=\{h+N: h \in B\}
+\]
+is a Banach algebra, with norm
+\[
+\norm{h+N} =\inf_{g \in N} \norm{h-g} =  \norm{h}_\infty,
+\]
+which makes sense because for $h+N=g+N$, $\norm{h}_\infty = \norm{g}_\infty$. 
+Because $L^\infty(E)$ is a Banach algebra, it makes sense to talk about  the spectrum of an element of it, and for
+$h+N \in L^\infty(E)$, 
+$\sigma(h+N)$ is equal to the essential range of $h$. 
+There is an isometric $^*$-isomorphism $\Psi$ from $L^\infty(E)$ to a closed normal subalgebra of
+$\mathscr{L}(H;H)$ such that\footnote{Walter Rudin, {\em Functional Analysis}, second ed., p.~319, Theorem 12.21.}
+\[
+\inner{\Psi(h)f}{g} = \int_{\mathbb{R}} h(\lambda) dE_{f,g}(\lambda), \qquad f,g \in H, \quad h \in L^\infty(E).
+\]
+
+It is a fact that if $A$ is a self-adjoint operator in $H$ then $A$ is positive if and only if $\sigma(A) \subset [0,\infty)$.\footnote{Walter
+Rudin, {\em Functional Analysis}, second ed., p.~369, Theorem 13.31.}
+Thus for the the positive self-adjoint extension $L$ of the Laplace operator that we have constructed,
+$\sigma(L) \subset [0,\infty)$. 
+For $t \geq 0$,
+define $h_t:\mathbb{R} \to \mathbb{R}$ by $h_t(\lambda) = e^{-t\lambda}$ for $\lambda \geq 0$ and $h_t(\lambda)=0$ otherwise. Then
+$h_t \in L^\infty(E)$, where $E$ is the resolution of the identity corresponding to $L$. 
+Thus $\Psi(h_t)$ satisfies
+\[
+\inner{\Psi(h_t)f}{g} = \int_{\mathbb{R}} e^{-t\lambda} dE_{f,g}(\lambda)
+=\int_{[0,\infty)}  e^{-t\lambda} dE_{f,g}(\lambda), \qquad f,g \in H,
+\]
+because $E(\sigma(L))=I$, i.e. $E([0,\infty))=I$, i.e. $E((-\infty,0))=0$.
+Moreover,
+\[
+\Psi(h_0)=I.
+\]
+We write
+\[
+e^{t \Delta} = e^{-t L} = \Psi(h_t), \qquad t \geq 0.
+\]
+Because $\Psi$ is an algebra homomorphism, $(e^{t \Delta})_{t \geq 0}$ is a semigroup on $H$.
+
+\end{document}

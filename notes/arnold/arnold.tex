@@ -1,0 +1,394 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,graphicx,subfig,mathrsfs,amsthm}
+\newtheorem{theorem}{Theorem}
+\newcommand{\norm}[1]{\Vert #1 \Vert}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\begin{document}
+\title{Arnold's theorem on analytic circle diffeomorphisms}
+\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
+
+\date{\today}
+
+\maketitle
+
+We are reorganizing and expanding on the presentation in \cite{wayne}. Arnold's paper: \cite{malye}. Other sources that present the theorem, as I come across them: \cite{MR947141}, \cite{MR1230383}. 
+
+Let $S_\sigma=\{z \in \mathbb{C}: |\Im z |< \sigma\}$,
+let $\norm{\eta}_\sigma=\sup_{|\Im z|<\sigma} |\eta(z)|$, 
+and let \[
+B_\sigma=\{\eta: \eta \ \text{is holomorphic on} \ S_\sigma, \ \eta(x+1)=\eta(x), \ \text{and} \ \norm{\eta}_\sigma<\infty\}.
+\]
+For each $\sigma>0$, the set $B_\sigma$ is a Banach space with the norm $\norm{\cdot}_\sigma$.
+
+We say that $\rho \in \mathbb{R}$ is of type $(K,\nu)$ if $|\rho-\frac{m}{n}|>K|n|^{-\nu}$ for all
+$(m,n) \in \mathbb{Z}^2$ with $n \neq 0$.
+If $\rho$ is of type $(K,\nu)$ with $K >1$ then $\rho$ is also of type $(1,\nu)$,  and thus we can assume that $\rho$ is of type $(K,\nu)$ with $K \leq 1$.
+Suppose that $\rho \in \mathbb{R} \setminus \mathbb{Q}$. Let $\epsilon>0$, and let $K>0$. It follows from Dirichlet's approximation theorem \cite[p. 155, Theorem 185]{MR2445243} that there is some $(m,n) \in \mathbb{Z}^2$ with $n \geq \frac{1}{K^{1/\epsilon}}$ such that $|\rho - \frac{m}{n}| < \frac{1}{n^2}$. Then
+\[
+|\rho-\frac{m}{n}|<\frac{1}{n^2}=\frac{1}{n^{2-\epsilon}} \frac{1}{n^\epsilon}
+\leq \frac{1}{n^{2-\epsilon}} K.
+\]
+Hence $\rho$ is not of type $(K,2-\epsilon)$. Therefore if $\rho \in \mathbb{R} \setminus \mathbb{Q}$ is of type $(K,\nu)$ then $\nu \geq 2$.
+
+Let $F:\mathbb{R} \to \mathbb{R}$ be an increasing homeomorphism that satisfies $F(x+1)=F(x)+1$ for all $x \in \mathbb{R}$. The {\em rotation number} of $F$ is defined to be
+\[
+\lim_{n \to \infty} \frac{F^n(x)-x}{n}.
+\]
+This limit exists for all $x \in \mathbb{R}$ and is the same for all $x \in \mathbb{R}$ \cite[p. 387, Proposition 11.1.1]{katok}. If $H:\mathbb{R} \to \mathbb{R}$ is an increasing homeomorphism that satisfies $H(x+1)=H(x)+1$ for all $x \in \mathbb{R}$, then $H^{-1} \circ F \circ H$ has the same rotation number as $F$ \cite[p. 388, Proposition 11.1.3]{katok}.
+
+\begin{prop}
+\label{hestimate}
+Let $\eta \in B_\sigma$, let $\rho \in \mathbb{R} \setminus \mathbb{Q}$ be of type $(K,\nu)$ and define $h$ by
+$\widehat{h}(k)=\frac{\widehat{\eta}(k)}{e^{2\pi i k\rho}-1}$ for $k \neq 0$ and $\widehat{h}(0)=0$.
+Then for any $0<\delta<\frac{1}{2\pi}$ we have
+ $h \in B_{\sigma-\delta}$ and
+\[
+\norm{h}_{\sigma-\delta} < \frac{\Gamma(\nu)}{K(2\pi \delta)^\nu}\norm{\eta}_\sigma.
+\]
+\end{prop}
+\begin{proof}
+
+We first show that $|\widehat{\eta}(n)| \leq \norm{\eta}_\sigma e^{-2\pi \sigma|n|}$ for all $k$. Say $k>0$.
+For any $\epsilon>0$ by the residue theorem we have
+\[
+\widehat{\eta}(k)=\int_0^1 e^{-2\pi i kz} \eta(z) dz = 
+\int_0^{-i(\sigma-\epsilon)}+\int_{-i(\sigma-\epsilon)}^{1-i(\sigma-\epsilon)}
++\int_{1-i(\sigma-\epsilon)}^1.
+\]
+
+Since $\eta(z+1)=\eta(z)$,
+\[
+\int_{1-i(\sigma-\epsilon)}^1 e^{-2\pi i kz} \eta(z) dz
+= \int_{-i(\sigma-\epsilon)}^0 e^{-2\pi ikz}\eta(z)dz
+=-\int_0^{-i(\sigma-\epsilon)} e^{-2\pi ikz}\eta(z)dz,
+\]
+so
+\[
+\widehat{\eta}(k)=\int_{-i(\sigma-\epsilon)}^{1-i(\sigma-\epsilon)}  e^{-2\pi i kz} \eta(z) dz
+= e^{-2\pi  k(\sigma-\epsilon)} \int_0^1 e^{-2\pi i kx} \eta(x-i(\sigma-\epsilon)) dx,
+\]
+and hence
+\[
+|\widehat{\eta}(k)| \leq e^{-2\pi  k(\sigma-\epsilon)} \norm{\eta}_\sigma.
+\]
+This is true for all $\epsilon>0$, so we have
+\[
+|\widehat{\eta}(k)| \leq e^{-2\pi  k\sigma} \norm{\eta}_\sigma.
+\]
+
+For $k<0$ we use a contour in the upper half-plane rather than a contour in the lower half-plane and
+get $|\widehat{\eta}(k)| \leq e^{2\pi  k\sigma} \norm{\eta}_\sigma$, proving that $|\widehat{\eta}(k)| \leq \norm{\eta}_\sigma e^{-2\pi \sigma|k|}$ for all $k$.
+
+Let $k \neq 0$, and let $m$ be such that $|\rho k-m|\leq \frac{1}{2}$. We have
+\[
+|e^{2\pi i \rho k}-1|
+=|e^{2\pi i\rho k}-e^{2\pi im}|
+=|e^{2\pi i(\rho k-m)}-1|
+=2|\sin \pi(\rho k-m)|.
+\]
+For $|x| \leq \frac{\pi}{2}$ we have $|\sin x| \geq \frac{2}{\pi}|x|$, so
+\[
+2|\sin \pi(\rho k-m)| \geq 2 \frac{2}{\pi} |\pi(\rho k-m)|
+=4|n||\rho-\frac{m}{k}|.
+\]
+But $\rho$ is of type $(K,\nu)$ so we get for all $k \neq 0$ that
+\[
+|e^{2\pi i \rho k}-1| \geq 4K|k|^{-(\nu-1)}.
+\]
+
+Let $\delta>0$.
+If $|\Im z| \leq \sigma-\delta$ then 
+\begin{eqnarray*}
+|h(z)|&=&\Big| \sum_{k \neq 0}  e^{2\pi ikz} \frac{\widehat{\eta}(k)}{e^{2\pi i k\rho}-1} \Big|\\
+&\leq&\sum_{k \neq 0} e^{2\pi |k|(\sigma-\delta)} \frac{e^{-2\pi  k\sigma} \norm{\eta}_\sigma}{4K|k|^{-(\nu-1)}}\\
+&=&\frac{\norm{\eta}_\sigma}{4K} \sum_{k \neq 0} e^{-2\pi |k|\delta} |k|^{\nu-1}.
+\end{eqnarray*}
+
+One can check that $\frac{\Gamma(\nu)}{(2\pi \delta)^\nu}= \int_0^\infty y^{\nu-1} e^{-2\pi \delta y} dy$,
+and because $2\pi\delta<\nu-1$ we have that for $y \geq 1$ the integrand is decreasing.
+ Therefore, since $\nu \geq 2$,
+ \[
+\sum_{k \geq 1} e^{-2\pi k\delta} k^{\nu-1} \leq e^{-2\pi \delta} +\frac{\Gamma(\nu)}{(2\pi \delta)^\nu}
+<2\frac{\Gamma(\nu)}{(2\pi \delta)^\nu},
+ \]
+ and so
+ \[
+  \sum_{k \neq 0} e^{-2\pi |k|\delta} |k|^{\nu-1} < 4\frac{\Gamma(\nu)}{(2\pi \delta)^\nu}.
+ \]
+ \end{proof}
+ 
+ \begin{prop}
+ \label{gestimate}
+ Let $\eta \in B_\sigma$, let $\rho \in \mathbb{R} \setminus \mathbb{Q}$ be of type $(K,\nu)$, define $h$ by
+$\widehat{h}(k)=\frac{\widehat{\eta}(k)}{e^{2\pi i k\rho}-1}$ for $k \neq 0$ and $\widehat{h}(0)=0$,
+and let $H(z)=z+h(z)$.
+If $0<\delta<\frac{1}{2\pi}$ and $\frac{2\pi \Gamma(\nu)}{K(2\pi \delta)^{\nu+1}}\norm{\eta}_{\sigma}<1$, then there is a holomorphic $H^{-1}:
+S_{\sigma-3\delta} \to S_{\sigma-2\delta}$,
+and $H^{-1}(z)=z-h(z)+g(z)$ with $g \in B_{\sigma-4\delta}$ and
+\[
+\norm{g}_{\sigma-4\delta} < \frac{2\pi \Gamma(\nu)^2}{K^2(2\pi \delta)^{2\nu+1}}\norm{\eta}_\sigma^2.
+\]
+  \end{prop}
+ \begin{proof}
+ By Proposition \ref{hestimate} we have $h \in B_{\sigma-\delta}$. 
+ Using the maximum modulus principle and Cauchy's integral formula we get that
+$\norm{h'}_{\sigma-2\delta} \leq \frac{\norm{h}_{\sigma-\delta}}{\delta}$, and by Proposition \ref{hestimate} this is $< \frac{2\pi \Gamma(\nu)}{K(2\pi \delta)^{\nu+1}}\norm{\eta}_{\sigma}$, which by hypothesis is $<1$ (and so $\norm{h}_{\sigma-\delta} <\delta$).
+Then for $z \in
+ S_{\sigma-2\delta}$ we have $|H'(z)|=|1+h'(z)|>0$, so by the inverse function theorem there is a holomorphic
+ $H^{-1}:H( S_{\sigma-2\delta}) \to  S_{\sigma-2\delta}$.
+
+Let $a \in S_{\sigma-3\delta}$, let $K \subset S_{\sigma-2\delta}$ be the circle about $a$ of radius $\delta$, and let $f(z)=z-a$. Then for $z \in K$ we have $|h(z)| <\delta=|f(z)|$, so by Rouch\'e's theorem $f$ and $f+h$ have the same number of zeros in the interior of $K$. Of course $f$ has one zero in the interior of $K$ so too $f+h=H-a$ has one zero in the interior of $K$. Thus $a \in H(S_{\sigma-2\delta})$, and we conclude $S_{\sigma-3\delta} \subseteq H(S_{\sigma-2\delta})$. Therefore $H^{-1}:
+S_{\sigma-3\delta} \to S_{\sigma-2\delta}$.
+
+Now define $g:S_{\sigma-3\delta} \to \mathbb{C}$ by $g(z)=H^{-1}(z)-z+h(z)$. For 
+$z \in B_{\sigma-3\delta}$ we have
+\begin{eqnarray*}
+z+1&=&H(H^{-1}(z))+1\\
+&=&H^{-1}(z)+1+h(H^{-1}(z))\\
+&=&H^{-1}(z)+1+h(H^{-1}(z)+1)\\
+&=&H(H^{-1}(z)+1),
+\end{eqnarray*}
+so $H^{-1}(z+1)=H^{-1}(z)+1$, from which it follows that $g(z+1)=g(z)$.
+
+Let $a \in S_{\sigma-4\delta}$, and again using Rouch\'e's theorem we get $a \in H(S_{\sigma-3\delta})$. Hence $S_{\sigma-4\delta} \subseteq H(S_{\sigma-3\delta})$. Therefore if
+$\xi \in S_{\sigma-4\delta}$ then $H^{-1}(\xi) \in S_{\sigma-3\delta}$.
+Let $\xi \in S_{\sigma-4\delta}$ and let $z=H^{-1}(\xi) \in S_{\sigma-3\delta}$.
+We have
+\begin{eqnarray*}
+z&=&H^{-1}(H(z))\\
+&=&H(z)-h(H(z))+g(H(z))\\
+&=&z+h(z)-h(z+h(z))+g(H(z)),
+\end{eqnarray*}
+and so
+\[
+g(\xi)=\int_0^1 h'(H^{-1}(\xi)+sh(H^{-1}(\xi))) h(H^{-1}(\xi)) ds.
+\]
+Because $\norm{h}_{\sigma-\delta} < \delta$, for $0 \leq s \leq 1$ we have $H^{-1}(\xi)+sh(H^{-1}(\xi)) \in B_{\sigma-2\delta}$. Then since
+$\norm{h}_{\sigma-\delta} < \frac{\Gamma(\nu)}{K(2\pi \delta)^\nu}\norm{\eta}_\sigma$
+and
+$\norm{h'}_{\sigma-2\delta} < \frac{2\pi \Gamma(\nu)}{K(2\pi \delta)^{\nu+1}}\norm{\eta}_{\sigma}$, we get
+\[
+|g(\xi)| <  \frac{2\pi \Gamma(\nu)^2}{K^2(2\pi \delta)^{2\nu+1}}\norm{\eta}_\sigma^2,
+\]
+and so
+\[
+\norm{g}_{\sigma-4\delta} < \frac{2\pi \Gamma(\nu)^2}{K^2(2\pi \delta)^{2\nu+1}}\norm{\eta}_\sigma^2.
+\]
+ \end{proof}
+
+\begin{prop}
+\label{muestimate}
+Let $\eta \in B_\sigma$, let $\rho \in \mathbb{R} \setminus \mathbb{Q}$ be of type $(K,\nu)$,  
+let $\phi(z)=z+\rho+\eta(z)$, 
+define $h$ by
+$\widehat{h}(k)=\frac{\widehat{\eta}(k)}{e^{2\pi i k\rho}-1}$ for $k \neq 0$ and $\widehat{h}(0)=0$,
+define $H(z)=z+h(z)$,
+define $\psi(z)=H^{-1} \circ \phi \circ H(z)$, and define $\mu$ by $\psi(z)=z+\rho+\mu(z)$. If $\phi$ has rotation number $\rho$,
+$0<\delta<\frac{1}{2\pi}$,
+and
+$\frac{2\pi \Gamma(\nu)}{K(2\pi \delta)^{\nu+1}}\norm{\eta}_{\sigma}<1$,
+then $\mu \in B_{\sigma-6\delta}$ and
+\[
+\norm{\mu}_{\sigma-6\delta} < \frac{16\pi \Gamma(\nu)^2}{K^2(2\pi \delta)^{2\nu+1}} \norm{\eta}_\sigma^2.
+\]
+\end{prop}
+\begin{proof}
+For $z$ we have 
+\begin{eqnarray*}
+\psi(z)&=&H^{-1} \circ \phi (z+h(z))\\
+&=&H^{-1}(z+h(z)+\rho+\eta(z+h(z)))\\
+&=&z+h(z)+\rho+\eta(z+h(z))-h(z+h(z)+\rho+\eta(z+h(z)))\\
+&&+g(z+h(z)+\rho+\eta(z+h(z)))\\
+&=&z+\rho+\Big(h(z)-h(z+\rho)+\eta(z)\Big)+\Big(\eta(z+h(z))-\eta(z)\Big)\\
+&&+\Big(h(z+\rho)-h(z+h(z)+\rho+\eta(z+h(z)))\Big)\\
+&&+g(z+h(z)+\rho+\eta(z+h(z)))\\
+&=&z+\rho+A(z)+B(z)+C(z)+D(z).
+\end{eqnarray*}
+
+We have
+\[
+\mu(z)=A(z)+B(z)+C(z)+D(z).
+\]
+
+First, $h(x+\rho)-h(x)=\eta(x)-\widehat{\eta}(0)$, so $A(z)=\widehat{\eta}(0)$.
+Second,
+\[
+B(z)=\int_0^1 \eta'(z+sh(z))h(z)ds.
+\]
+Since $\frac{2\pi \Gamma(\nu)}{K(2\pi \delta)^{\nu+1}}\norm{\eta}_{\sigma}<1$ we have by Proposition \ref{hestimate}
+that $\norm{h}_{\sigma-\delta}<\delta$, so for $z \in S_{\sigma-2\delta}$ and $0 \leq s \leq 1$ we get
+$z+sh(z) \in S_{\sigma-\delta}$.  Using the maximum modulus principle and Cauchy's integral formula we get that $\norm{\eta'}_{\sigma-\delta} \leq \frac{\norm{\eta}_\sigma}{\delta}$. 
+Therefore
+\[
+\norm{B}_{\sigma-2\delta}< \frac{\norm{\eta}_\sigma}{\delta} \frac{\Gamma(\nu)}{K(2\pi \delta)^\nu}\norm{\eta}_\sigma=\frac{2\pi \Gamma(\nu)}{K(2\pi\delta)^{\nu+1}}\norm{\eta}_\sigma^2.
+\]
+
+Third,
+\[
+C(z)=\int_0^1 h'(z+\rho+s(h(z)+\eta(z+h(z))))(h(z)+\eta(z+h(z))ds.
+\]
+We have that
+\[
+\norm{\eta}_\sigma < \frac{K(2\pi \delta)^{\nu+1}}{2\pi \Gamma(\nu)}
+\leq \frac{K \cdot \delta}{\Gamma(\nu)}
+\leq K\delta \leq\delta.
+\]
+For $z \in S_{\sigma-4\delta}$ and $0 \leq s \leq 1$ we have 
+\[
+z+\rho+s(h(z)+\eta(z+h(z))) \in S_{\sigma-2\delta}.
+\]
+We have
+$\norm{h'}_{\sigma-2\delta} \leq \frac{\norm{h}_{\sigma-\delta}}{\delta}$, and so by Proposition \ref{hestimate} we get $\norm{h'}_{\sigma-2\delta}< \frac{2\pi \Gamma(\nu)}{K(2\pi \delta)^{\nu+1}}\norm{\eta}_{\sigma}$. Therefore for $z \in S_{\sigma-4\delta}$ we get
+\[
+|C(z)| <  \frac{2\pi \Gamma(\nu)}{K(2\pi \delta)^{\nu+1}}\norm{\eta}_{\sigma}
+\Big(\frac{\Gamma(\nu)}{K(2\pi \delta)^\nu}\norm{\eta}_\sigma
++\norm{\eta}_\sigma \Big)
+< \frac{4\pi \Gamma(\nu)^2 }{K^2 (2\pi \delta)^{2\nu+1}} \norm{\eta}_\sigma^2.
+\]
+
+Fourth, if $z \in S_{\sigma-6\delta}$ then $z+h(z)+\rho+\eta(z+h(z)) \in S_{\sigma-4\delta}$. Thus
+by Proposition \ref{gestimate} we get
+\[
+\norm{D}_{\sigma-6\delta} <
+\frac{2\pi \Gamma(\nu)^2}{K^2(2\pi \delta)^{2\nu+1}}\norm{\eta}_\sigma^2.
+\]
+
+Since $\psi$ is conjugate to $\phi$ it has rotation number $\rho$, so there is some $x_0 \in \mathbb{R}$ such that $\psi(x_0)=x_0+\rho$. Thus 
+\[
+x_0+\rho=x_0+\rho+\widehat{\eta}(0)+B(x_0)+C(x_0)+D(x_0),
+\]
+so
+\[
+\widehat{\eta}(0)=-B(x_0)-C(x_0)-D(x_0).
+\]
+Of course $x_0 \in S_{\sigma-6\delta}$, so by what we've done so far in this proof,
+\[
+|\widehat{\eta}(0)| <
+\frac{2\pi \Gamma(\nu)}{K(2\pi\delta)^{\nu+1}}\norm{\eta}_\sigma^2
++
+\frac{4\pi}{K^2 (2\pi \delta)^{2\nu+1}} \Gamma(\nu)^2 \norm{\eta}_\sigma^2
++
+\frac{2\pi \Gamma(\nu)^2}{K^2(2\pi \delta)^{2\nu+1}}\norm{\eta}_\sigma^2.
+\]
+Therefore
+\begin{eqnarray*}
+\norm{\mu}_{\sigma-6\delta}
+&<&2\cdot\Big(\frac{2\pi \Gamma(\nu)}{K(2\pi\delta)^{\nu+1}}\norm{\eta}_\sigma^2
++
+\frac{4\pi \Gamma(\nu)^2 }{K^2 (2\pi \delta)^{2\nu+1}} \norm{\eta}_\sigma^2\\
+&&+
+\frac{2\pi \Gamma(\nu)^2}{K^2(2\pi \delta)^{2\nu+1}}\norm{\eta}_\sigma^2\Big)\\
+&\leq&2\cdot\Big( \frac{2\pi \Gamma(\nu)^2}{K^2 (2\pi \delta)^{2\nu+1}} \norm{\eta}_\sigma^2
++\frac{4\pi \Gamma(\nu)^2}{K^2(2\pi \delta)^{2\nu+1}}\norm{\eta}_\sigma^2\\
+&&+\frac{2\pi \Gamma(\nu)^2}{K^2(2\pi \delta)^{2\nu+1}}\norm{\eta}_\sigma^2\Big)\\
+&=&\frac{16\pi \Gamma(\nu)^2}{K^2(2\pi \delta)^{2\nu+1}} \norm{\eta}_\sigma^2.
+\end{eqnarray*}
+\end{proof}
+
+\begin{lemma}
+\label{induction}
+Let $\rho \in \mathbb{R} \setminus \mathbb{Q}$ be of type $(K,\nu)$.
+Let $\eta_0 \in B_{\sigma_0}$ and let $\epsilon_0=\norm{\eta_0}_{\sigma_0}$.
+Suppose that 
+\begin{equation}
+\label{epsilon0}
+\epsilon_0 < \Big( \frac{K}{16\pi \Gamma(\nu)} \Big( \frac{\sigma_0}{36} \Big)^{\nu+1} \Big)^8,
+\end{equation}
+and that $\frac{\sigma_0}{36}<\frac{1}{2\pi}$.
+
+Let $\phi_0(z)=z+\rho+\eta_0(z)$, and suppose that $\phi_0$ has rotation number $\rho$. For $n \geq 0$ let
+\begin{itemize}
+\item $\widehat{h_n}(k)=\frac{\widehat{\eta_n}(k)}{e^{2\pi i k\rho}-1}$ for $k \neq 0$ and $\widehat{h_n}(0)=0$
+\item $H_n(z)=z+h_n(z)$, and $g_n(z)=H_n^{-1}(z)-z+h_n(z)$
+\item $\phi_{n+1}=H_n^{-1} \circ \phi_n \circ H_n$
+\item $\eta_{n+1}(z)=\phi_{n+1}(z)-z-\rho$
+\item $\delta_n=\frac{\sigma_0}{36(1+n^2)}$
+\item $\sigma_{n+1}=\sigma_n-6\delta_n$
+\item $\epsilon_{n+1}=\epsilon_0^{(3/2)^{n+1}}$
+\end{itemize}
+
+Then for $n \geq 0$ we have that
+\begin{itemize}
+\item $\norm{\eta_{n+1}}_{\sigma_{n+1}} \leq \epsilon_{n+1}$
+\item $\norm{h_n}_{\sigma_n-\delta_n} < \frac{\Gamma(\nu)\epsilon_n}{K(2\pi \delta_n)^\nu}$
+\item $\norm{g_n}_{\sigma_n-4\delta_n} < \frac{2\pi\Gamma(\nu)^2\epsilon_n^2}{K^2(2\pi \delta_n)^{2\nu+1}}$
+\end{itemize}
+\end{lemma}
+\begin{proof}
+We first verify the claim for $n=0$. 
+First,
+$\delta_0=\frac{\sigma_0}{36}<\frac{1}{2\pi}$, and we have
+\[
+\epsilon_0 < \Big( \frac{K}{16\pi \Gamma(\nu)} \Big( \frac{\sigma_0}{36} \Big)^{\nu+1} \Big)^8
+\leq \frac{K}{16\pi \Gamma(\nu)} \Big( \frac{\sigma_0}{36} \Big)^{\nu+1} 
+=\frac{K \delta_0^{\nu+1}}{2\pi \Gamma(\nu)} \frac{1}{8}
+<\frac{K(2\pi \delta_0)^{\nu+1}}{2\pi\Gamma(\nu)},
+\]
+which gives us that
+$\frac{2\pi \Gamma(\nu)}{K(2\pi \delta_0)^{\nu+1}}\norm{\eta_0}_{\sigma_0}<1$.  
+Thus by Proposition \ref{muestimate} we have
+\[
+\norm{\eta_1}_{\sigma_1}=\norm{\eta_1}_{\sigma_0-6\delta_0}
+< \frac{16\pi \Gamma(\nu)^2}{K^2(2\pi \delta_0)^{2\nu+1}} \norm{\eta_0}_{\sigma_0}^2
+=\frac{16\pi \Gamma(\nu)^2 \epsilon_0^2 }{K^2(2\pi \delta_0)^{2\nu+1}}.
+\]
+By \eqref{epsilon0} it follows that
+$\frac{16\pi \Gamma(\nu)^2 \epsilon_0^2 }{K^2(2\pi \delta_0)^{2\nu+1}} \leq \epsilon_0^{3/2}$,
+and so we get
+$\norm{\eta_1}_{\sigma_1} \leq \epsilon_1$.
+
+By Proposition \ref{hestimate} we get
+\[
+\norm{h_0}_{\sigma_0-\delta_0} < \frac{\Gamma(\nu)}{K(2\pi \delta_0)^\nu}\norm{\eta_0}_{\sigma_0}
+= \frac{\Gamma(\nu)\epsilon_0}{K(2\pi \delta_0)^\nu},
+\]
+and by Proposition \ref{gestimate} we get
+\[
+\norm{g}_{\sigma_0-4\delta_0} < \frac{2\pi \Gamma(\nu)^2}{K^2(2\pi \delta_0)^{2\nu+1}}\norm{\eta_0}_{\sigma_0}^2
+=\frac{2\pi\Gamma(\nu)^2\epsilon_0^2}{K^2(2\pi \delta_0)^{2\nu+1}}.
+\]
+This verifies the claim for $n=0$. Now we suppose that the claim is true for $n \leq N$, and we shall show that the claim is true for $n=N+1$. 
+
+By assumption we have $\norm{\eta_{N+1}}_{\sigma_{N+1}} \leq \epsilon_{N+1}$.
+Then by
+Proposition \ref{hestimate} we have
+\[
+\norm{h_{N+1}}_{\sigma_{N+1}-\delta_{N+1}} <
+\frac{\Gamma(\nu)}{K(2\pi \delta_{N+1})^\nu}\norm{\eta_{N+1}}_{\sigma_{N+1}}
+\leq \frac{\Gamma(\nu)  \epsilon_{N+1}}{K(2\pi \delta_{N+1})^\nu}.
+\]
+\end{proof}
+One can prove by induction that $\epsilon_n<\frac{K(2\pi \delta_n)^{\nu+1}}{2\pi\Gamma(\nu)}$ for all
+$n \geq 0$, from which we have $\frac{2\pi \Gamma(\nu)}{K(2\pi \delta_{N+1})^{\nu+1}}\norm{\eta_{N+1}}_{\sigma_{N+1}}<1$. Therefore by Proposition \ref{gestimate} we get
+\[
+\norm{g_{N+1}}_{\sigma_{N+1}-4\delta_{N+1}} < \frac{2\pi \Gamma(\nu)^2}{K^2(2\pi \delta_{N+1})^{2\nu+1}}\norm{\eta_{N+1}}_{\sigma_{N+1}}^2 \leq
+\frac{2\pi\Gamma(\nu)^2\epsilon_{N+1}^2}{K^2(2\pi \delta_{N+1})^{2\nu+1}}.
+\]
+
+Finally, we have by Proposition \ref{muestimate} and by assumption that
+\[
+\norm{\eta_{N+2}}_{\sigma_{N+1}-6\delta_{N+1}} < \frac{16\pi \Gamma(\nu)^2}{K^2(2\pi \delta_{N+1})^{2\nu+1}} \norm{\eta_{N+1}}_{\sigma_{N+1}}^2
+\leq \frac{16\pi \Gamma(\nu)^2 \epsilon_{N+1}^2}{K^2(2\pi \delta_{N+1})^{2\nu+1}}.
+\]
+By \eqref{epsilon0} it follows that $\frac{16\pi \Gamma(\nu)^2 \epsilon_{N+1}^2}{K^2(2\pi \delta_{N+1})^{2\nu+1}} < \epsilon_{N+1}^{3/2}$, and so we get $\norm{\eta_{N+2}}_{\sigma_{N+2}}
+\leq \epsilon_{N+2}$, completing the induction.
+
+\begin{theorem}
+Arnold's theorem
+\end{theorem}
+\begin{proof}
+Let $\mathcal{H}_N=H_0 \circ H_1 \circ \cdots H_N$. By Lemma \ref{induction}, $\mathcal{H}_N$ is
+holomorphic on $S_{\sigma_N-2\delta_N}$. And for $z \in S_{\sigma_N-2\delta_N}$,
+\[
+|\mathcal{H}_N(z)-z| = |h_N(z)+\cdots+h_0(\cdots)| \leq \sum_{n=0}^N \norm{h_n}_{\sigma_n-\delta_n}
+<\sum_{n=0}^N \frac{\Gamma(\nu)\epsilon_n}{K(2\pi\delta_n)^\nu}.
+\]
+Let $\Delta=\sum_{n=0}^\infty \frac{\Gamma(nu)\epsilon_n}{K(2\pi\delta_n)^\nu}$.
+\end{proof}
+
+\bibliographystyle{amsplain}
+\bibliography{arnold}
+
+\end{document}

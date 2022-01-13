@@ -1,0 +1,937 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,mathrsfs,amsthm,graphicx}
+%\usepackage{tikz-cd}
+\usepackage{hyperref}
+\newcommand{\inner}[2]{\left\langle #1, #2 \right\rangle}
+\newcommand{\tr}{\ensuremath\mathrm{tr}\,} 
+\newcommand{\Span}{\ensuremath\mathrm{span}} 
+\def\Re{\ensuremath{\mathrm{Re}}\,}
+\def\Im{\ensuremath{\mathrm{Im}}\,}
+\newcommand{\id}{\ensuremath\mathrm{id}} 
+\newcommand{\var}{\ensuremath\mathrm{var}} 
+\newcommand{\Lip}{\ensuremath\mathrm{Lip}} 
+\newcommand{\GL}{\ensuremath\mathrm{GL}} 
+\newcommand{\diam}{\ensuremath\mathrm{diam}} 
+\newcommand{\sgn}{\ensuremath\mathrm{sgn}\,} 
+\newcommand{\lcm}{\ensuremath\mathrm{lcm}} 
+\newcommand{\supp}{\ensuremath\mathrm{supp}\,}
+\newcommand{\dom}{\ensuremath\mathrm{dom}\,}
+\newcommand{\graph}{\ensuremath\mathrm{graph}\;}
+\newcommand{\upto}{\nearrow}
+\newcommand{\downto}{\searrow}
+\newcommand{\norm}[1]{\left\Vert #1 \right\Vert}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\begin{document}
+\title{Unbounded operators, resolvents, the Friedrichs extension, and  the Laplacian on $L^2(\mathbb{T}^d)$}
+\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
+\date{\today}
+
+\maketitle
+
+
+\section{Unbounded operators}
+\label{unbounded}
+Let $V$ be a complex Hilbert space with inner product $\inner{\cdot}{\cdot}$, linear in the first argument. We write
+$|v|^2 = \inner{v}{v}$ and for a bounded operator $A$ on $V$ we write
+\[
+\norm{A} = \sup_{|v| \leq 1} |Av|.
+\]
+By an \textbf{operator $T,D_T$ in $V$} we mean that $D_T$ is a linear subspace of $V$ and $T:D_T \to V$ is a linear map.
+For operators $T,D_T$ and $T',D_{T'}$, by $T \subset T'$ we mean that $D_T \subset D_{T'}$ and
+the restriction of $T'$ to $D_T$ is equal to $T$, and we say that $T'$ is an \textbf{extension}
+of $T$.
+
+\begin{lemma}
+If $X$ and $Y$ are Banach spaces, $X_0$ is a dense linear subspace of $X$, and $T_0:X_0 \to Y$ is a bounded
+operator, then there is a unique bounded operator $T:X \to Y$ whose restriction to $X_0$ is equal to $T_0$ and which
+satisfies $\norm{T}=\norm{T_0}$.
+\label{extension}
+\end{lemma}
+\begin{proof}
+For $x \in X$,
+let $x_n,x_n'$ be sequences in $X_0$ tending to $x$, and thus
+$|x_n-x_n'| \leq |x_n-x|+|x_n'-x| \to 0$.
+ $|T_0x_n-T_0x_m| \leq \norm{T_0} |x_n-x_m|$, so 
+$T_0x_n$ is a Cauchy sequence in $Y$ and hence converges to some 
+$y \in Y$, and likewise $T_0x_n'$ converges to some $y' \in Y$.
+ Then
+ \[
+ |y-y'|  \leq |y-T_0x_n| + \norm{T_0}|x_n-x_n'| + |T_0x_n'-y'| \to 0,
+ \]
+ showing that $y=y'$. Therefore it makes sense to define $Tx=y$. 
+Check that $T:X \to Y$ is linear. For $x \in X$, because $T_0x_n \to Tx$ and $|x_n| \to |x|$,
+\[
+|Tx| \leq |Tx-T_0x_n| + |T_0x_n| \leq |Tx-T_0x_n| + \norm{T_0} |x_n|
+\to \norm{T_0} |x|,
+\]
+showing that $\norm{T} \leq \norm{T_0}$, and so $T:X \to Y$ is a bounded operator.
+
+For $x \in X_0$, $Tx=T_0x$, which means that the restriction of $T$ to $X_0$ is equal to $T_0$. Furthermore,
+$|T_0x| = |Tx| \leq \norm{T} |x|$, which shows that $\norm{T_0} \leq \norm{T}$, and so with $\norm{T} \leq \norm{T_0}$
+we have $\norm{T}=\norm{T_0}$, completing the proof. 
+\end{proof}
+
+For a densely defined operator $T,D_T$, let $D_{T^*}$ be the set of those
+$w \in V$ such that $v \mapsto \inner{Tv}{w}$ is continuous $D_T \to \mathbb{C}$. It is apparent that
+$D_{T^*}$ is a linear subspace of $V$.
+For $w \in D_{T^*}$, by Lemma \ref{extension}  there is 
+some $\Lambda_w \in V^*$ whose restriction to $D_T$ is equal to 
+$v \mapsto \inner{Tv}{w}$, and then by the Riesz representation theorem there is a unique
+$v_w \in V$ such that $\Lambda_w v = \inner{v}{v_w}$ for all $v \in V$. Thus for $v \in D_T$ it holds that
+$\inner{Tv}{w} = \inner{v}{v_w}$, and  if $u \in V$ also satisfies 
+$\inner{Tv}{w} = \inner{v}{u}$ for all $v \in D_T$ then
+$\inner{v}{v_w}=\inner{v}{u}$ for all $v \in D_T$, which means that
+$v_w-u \in D_T^\perp$ and because $D_T$ is dense it follows
+that $u=v_w$.
+Therefore it makes sense to define $T^*:D_{T^*} \to V$, called the \textbf{adjoint} of $T$,  by 
+\[
+\inner{Tv}{w} = \inner{v}{T^*w}, \qquad v \in D_T,\quad w \in D_{T^*}.
+\] 
+$T^*:D_{T^*} \to V$ is a linear map.
+We shall only speak about the adjoint of a densely defined operator.
+
+
+We call a densely
+defined operator $T$ \textbf{self-adjoint} when $T=T^*$.
+An operator $T,D_T$ is called \textbf{symmetric} when
+\[
+\inner{Tv}{w} = \inner{v}{Tw},\qquad v,w \in D_T,
+\]
+and called \textbf{positive} if it is symmetric and satisfies
+\[
+\inner{Tv}{v} \geq 0,\qquad v D_T.
+\]
+If $T,D_T$ is symmetric then $\inner{Tv}{v} \in \mathbb{R}$ for $v \in D_T$.
+
+\begin{lemma}
+Let $T,D_T$ be densely defined. $T$ is symmetric if and only if $T \subset T^*$.
+\end{lemma}
+\begin{proof}
+If $T$ is symmetric then
+for $w \in D_T$ the map $v \mapsto \inner{Tv}{w}=\inner{v}{Tw}$ is continuous $D_T \to \mathbb{C}$, hence
+$D_T \subset D_{T^*}$.
+Furthermore, for $w \in D_T \subset D_{T^*}$ it is the case that $\inner{v}{Tw} = \inner{Tv}{w} = \inner{v}{T^*w}$ for all $v \in D_T$,
+hence $Tw - T^*w \in D_T^\perp$, and as $D_T$ is dense this means that
+$Tw=T^*w$. 
+Therefore, when $T$ is densely defined and symmetric,
+\[
+T \subset T^*.
+\]
+
+On the other hand, if $T$ is densely defined and $T \subset T^*$, then for $v,w \in D_T$,
+as $w \in D_{T^*}$ we have $\inner{Tv}{w} = \inner{v}{T^*w}=\inner{v}{Tw}$, showing that $T$ is symmetric.
+\end{proof}
+
+
+For an operator $T,D_T$, for $v,w \in D_T$ define the inner product $\inner{\cdot}{\cdot}_T$ on the linear space $D_T$ by
+\[
+\inner{v}{w}_T = \inner{v}{w} + \inner{Tv}{Tw},
+\]
+and write $|v|_T^2 = \inner{v}{v}_T = |v|^2+|Tv|^2$.
+An operator $T,D_T$ is called \textbf{closed} if
+\[
+\graph T = \{(v,Tv): v \in D_T\}
+\]
+is a closed linear subspace of $V \times V$.
+
+\begin{lemma}
+An operator $T,D_T$ is closed if and only if $D_T$ with the inner product $\inner{\cdot}{\cdot}_T$ is a Hilbert space.
+\label{graphIP}
+\end{lemma}
+\begin{proof}
+Suppose that $T$ is closed and let 
+ $v_n$ be a Cauchy sequence in the norm $|\cdot|_T$.
+Then $v_n$ and $Tv_n$ are Cauchy sequences in the norm $|\cdot|$, and hence
+there are $v,w \in V$ such that $|v_n -v| \to 0$ and $|Tv_n - w| \to 0$. 
+Thus $|(v_n,Tv_n) - (v,w)|^2 = |v_n-v|^2 + |Tv_n - w|^2 \to 0$, and because $\graph T$ is closed this means that
+$(v,w) \in \graph T$, i.e. $v \in D_T$ and $w=Tv$.
+Therefore $|v_n-v|_T^2 = |v_n-v|^2 + |Tv_n - Tv|^2 = |v_n-v|^2 + |Tv_n-w|^2 \to 0$, showing that the Cauchy
+sequence $v_n$ converges to $v$ in the norm $|\cdot|_T$. 
+
+Suppose that $(D_T,\inner{\cdot}{\cdot}_T)$ is a Hilbert space and let 
+$(v_n,Tv_n)$ be a sequence in $\graph T$ that converges to some $(v,w) \in V \times V$. This means
+that $v_n$ converges to $v$ in the norm $|\cdot|$ and $Tv_n$ converges to $w$ in the norm $|\cdot|$.
+Therefore
+$v_n$ is a Cauchy sequence in the norm $|\cdot|_T$, and because $(D_T,\inner{\cdot}{\cdot}_T)$ is  a Hilbert
+space, there is some $u \in D_T$ to which $v_n$ converges in the norm $|\cdot|_T$.
+That is, $v_n \to u$ in the norm $|\cdot|$ and 
+$Tv_n \to Tu$ in the norm $|\cdot|$.
+But we already have that $v_n \to v$ and $Tv_n \to w$ in the norm $|\cdot|$, which implies that
+$u=v$ and $Tu=w$, so $v \in D_T$ and $w=Tv$, which means that
+$(v,w) \in \graph T$. 
+\end{proof}
+
+
+
+
+Define $J:V \times V \to V \times V$ by
+\[
+J(v,w) = (-w,v).
+\]
+$J^2=I$, and $J$ is a unitary operator:
+\begin{align*}
+\inner{J(v_1,v_2)}{J(w_1,w_2)}
+&=\inner{(-v_2,v_1)}{(-w_2,w_1)}\\
+&=\inner{-v_2}{-w_2}+\inner{v_1}{w_1}\\
+&=\inner{v_1}{w_1}+\inner{v_2}{w_2}\\
+&=\inner{(v_1,v_2)}{(w_1,w_2)}.
+\end{align*}
+
+\begin{lemma}
+If $T$ is a densely defined  operator then 
+\[
+\graph T^* = (J \graph T)^\perp.
+\]
+\label{adjointgraph}
+\end{lemma}
+\begin{proof}
+$(x,y) \in \graph T^*$ is equivalent to $x \in D_{T^*}$ and $y=T^*x$ is equivalent to
+$\inner{Tv}{x} = \inner{v}{y}$ for all $v \in D_T$  is equivalent to
+$\inner{(-Tv,v)}{(x,y)}=0$ for all $v \in D_T$ is equivalent to
+$\inner{J(v,w)}{(x,y)}=0$ for all $(v,w) \in \graph T$ is equivalent to 
+$(x,y) \in (J(\graph T))^\perp$.
+\end{proof}
+
+The above lemma shows that an adjoint $T^*$ is a closed operator.
+
+\begin{lemma}
+If  $T$ is a closed densely defined  operator, then
+\[
+V \times V = (J\graph T) \oplus \graph T^*
+\]
+is an  orthogonal direct sum.
+\label{directsum}
+\end{lemma}
+\begin{proof}
+Generally, if $M$ is a linear subspace of $V \times V$,
+\[
+V \times V = \overline{M} \oplus M^\perp
+\]
+is an orthogonal direct sum. For $M = J \graph T$, because $\graph T$ is a closed linear subspace of $V \times V$, so
+is $M$. Thus
+\[
+V \times V = (J\graph T) \oplus (J \graph T)^\perp.
+\]
+By Lemma \ref{adjointgraph} this is
+\[
+V \times V =  (J\graph T) \oplus \graph T^*.
+\] 
+\end{proof}
+
+An operator $T,D_T$ is called \textbf{closable} if there exists a closed extension of it. 
+If $T,D_T$ is closable with
+closed extensions $T_1,D_{T_1}$ and
+$T_2,D_{T_2}$ and $(v,w) \in \overline{\graph T}$,
+then $(v,w) \in \graph T_1 \cap \graph T_2$, so
+$T_1v=w$ and $T_2v=w$, showing that the restriction of $T_1$ to $D_T$ is equal to the restriction of $T_2$ to $D_T$.
+Therefore it makes sense to define $\overline{T}$ to be the intersection of all
+closed extensions of $T$. We call $\overline{T},D_{\overline{T}}$ the \textbf{closure of $T$}. For
+$\pi_1(v,w)=v$,  $D_{\overline{T}} = \pi_1 (\overline{\graph T})$, and
+$\overline{T}$ is the restriction of any closed extension of $T$ to $D_{\overline{T}}$.
+In other words, if an operator is closable then there exists a minimal
+closed extension of it, called its closure and denoted $\overline{T}$. 
+For a densely defined symmetric operator $T$ it holds that $T \subset T^*$. 
+But $T^*$ is closed, showing that a densely defined symmetric operator is closable.
+
+
+\begin{lemma}
+An operator $T,D_T$ is closable if and only if whenever $v_n$ is a sequence in $D_T$ with
+$v_n \to 0$ and $Tv_n \to v$, it follows that $v=0$.
+\end{lemma}
+\begin{proof}
+Suppose that $T$ is closable, with a closed extension $T',D_{T'}$. As $v_n \to 0$ and $T'v_n = Tv_n \to v$
+it holds that $(v_n,T'v_n) \to (0,v)$, and because $T'$ is closed, $v=T'0=0$.
+
+Now let $D$ be the set of those $v \in V$ for which there is a sequence
+$v_n \in D_T$ such that $v_n \to v$ and $Tv_n$ converges to something in $V$.
+This is a linear subspace of $V$. If $v_n \to v, Tv_n \to x$
+and $w_n \to v, Tw_n \to y$, then $v_n-w_n \to 0$ and 
+$T(v_n-w_n)=Tv_n-Tw_n \to x-y$, so by hypothesis $x-y=0$, i.e. $x=y$. 
+Therefore it makes sense to define $T':D \to V$ by: for $v \in D$ there is a sequence 
+$v_n \in D_T$ that tends to $v$, and $T'v$ is the limit of $Tv_n$. 
+Check that $T'$ is linear. If $(v_n,T'v_n) \in \graph T'$ tends to $(x,y) \in V \times V$,
+then for each $n$ there is some $w_n \in D_T$ with 
+$|w_n-v_n|+|Tw_n-T'v_n| \leq \frac{1}{n}$. Then $|x-w_n|
+\leq |x-v_n| + |w_n-v_n| \to 0$ and
+$|y-Tw_n| \leq |y-T'v_n| + |Tw_n - T'v_n| \to 0$, meaning that
+$w_n \to x$ and $Tw_n \to y$. By the definition of $D$ this means that
+$x \in D$. Moreover, $T'x$ is the limit of $Tw_n$, i.e. $T'x=y$, showing that
+$(x,y) \in \graph T'$. Hence $T'$ is a closed operator. 
+It is immediate that $D_T \subset D$ and that for
+$v \in D_T$, $T'v$ is the limit of the constant sequence
+$Tv$, namely $T'v=Tv$, showing that $T \subset T'$. Therefore
+$T',D$ is a closed extension of $T,D_T$. 
+\end{proof}
+
+
+
+
+
+\begin{lemma}
+If $S$ and $T$ are densely defined operators with $S \subset T$, then
+$T^* \subset S^*$.
+
+If $T$ is a densely defined closable operator then $\overline{T}^* = T^*$.
+\end{lemma}
+\begin{proof}
+$S \subset T$ implies $J \graph S \subset J \graph T$ implies $(J \graph T)^\perp \subset (J \graph S)^\perp$ implies by
+Lemma \ref{adjointgraph}
+\[
+\graph T^* \subset \graph S^*.
+\]
+
+If $T$ is densely defined and closable, then $T \subset \overline{T}$ so
+by the above $\overline{T}^* \subset T^*$. 
+We now prove that $T^* \subset \overline{T}^*$.
+Take
+$w \in D_{T^*}$. For all $v \in D_T$ it holds that $\inner{Tv}{w}=\inner{v}{T^*w}$. 
+For $x \in D_{\overline{T}}$, because $(x,\overline{T}x) \in \graph \overline{T}
+=\overline{\graph T}$,  there is a sequence
+$v_n \in D_T$ such that $(v_n,Tv_n) \to (x,\overline{T}x)$. 
+Since $Tv_n \to \overline{T}x$ and $v_n \to x$,
+\[
+\inner{\overline{T}x}{w} = \lim_{n \to \infty} \inner{Tv_n}{w}
+=\lim_{n \to \infty} \inner{v_n}{T^*w}
+=\inner{x}{T^*w},
+\]
+which shows that $x \mapsto \inner{\overline{T}x}{w} = \overline{x}{T^*w}$ is continuous
+$D_{\overline{T}} \to \mathbb{C}$. This means that $w \in D_{\overline{T}^*}$. 
+Moreover, $\inner{\overline{T}x}{w} = \inner{x}{\overline{T}^*w}$ for all
+$x \in D_{\overline{T}}$ and 
+$\inner{\overline{T}x}{w} = \inner{x}{T^*w}$ for all $x \in D_{\overline{T}}$, hence
+$\inner{x}{\overline{T}^*w-T^*w}=0$ for all $x \in D_{\overline{T}}$, and because
+$D_{\overline{T}}$ is dense this implies that $\overline{T}^*w = T^*w$. Therefore
+$T^* \subset \overline{T}^*$. 
+\end{proof}
+
+
+
+\begin{lemma}
+Let $T,D_T$ be a densely defined operator. $T$ is closable if and only if $T^*$
+is densely defined, and in this case $\overline{T} = T^{**}$.
+\end{lemma}
+\begin{proof}
+Suppose that $T^*$ is densely defined, and then $T^{**}$ makes sense and is a closed operator.
+For $v \in D_T$ and $w \in D_{T^*}$,
+\[
+\inner{T^*w}{v} = \overline{\inner{v}{T^*w}} = \overline{\inner{Tv}{w}} = \inner{w}{Tv},
+\]
+which shows that $w \mapsto \inner{T^*w}{v}$ is continuous $D_{T^*} \to \mathbb{C}$ and hence that
+$v \in D_{T^{**}}$. Furthermore, $\inner{w}{T^{**}v} = \inner{T^*w}{v} = \inner{w}{Tv}$ and so
+$\inner{w}{T^{**}v-Tv}$ for all $w \in D_{T^*}$, and because $D_{T^*}$ is dense in $V$ this implies that
+$T^{**}v=Tv$. Therefore $T \subset T^{**}$, and $T^{**}$ is closed so $T$ is closable.
+
+Suppose that $T$ is closable and let
+$w \in D_{T^*}^\perp$; showing that $w=0$ will prove that $T^*$ is densely defined. 
+For $(x,y) \in \graph T^*$ it then holds that
+$\inner{(x,y)}{(w,0)}=\inner{x}{w}+\inner{y}{0}=\inner{x}{w}=0$, meaning
+$(w,0) \in (\graph T^*)^\perp$. Applying Lemma \ref{adjointgraph},
+\[
+(w,0) \in (J \graph T)^{\perp \perp} = \overline{J \graph T} = J \overline{\graph T}.
+\] 
+Because $T$ is closable, $\overline{\graph T} = \graph \overline{T}$ is a linear space, so
+$-\graph \overline{T} = \graph \overline{T}$.
+Then
+\[
+(0,w) = (-0,w) = J(w,0) \in J^2 \graph \overline{T} = -\graph \overline{T} = \graph \overline{T}.
+\]
+ $(0,w) \in \graph \overline{T}$ means that $\overline{T}0=w$, so $w=0$. Therefore $T^*$ is densely defined.
+ 
+If $T$ is densely defined and closable, then because $T^*$ is densely defined, Lemma \ref{adjointgraph} says
+$\graph T^{**} = (J \graph T^*)^\perp$. But also by applying Lemma \ref{adjointgraph},
+$(J \graph T^*)^\perp = (J   (J \graph T)^\perp)^\perp$; check that $(JM)^\perp = JM^\perp$ for $M$ a linear subspace
+of $V \times V$, and thus
+\[
+\graph T^{**} = (J^2 (\graph T)^\perp)^\perp
+=(-(\graph T)^\perp)^\perp = (\graph T)^{\perp \perp}
+=\overline{\graph T}.
+\]
+Because $T$ is closable this means that $T^{**}=\overline{T}$. 
+\end{proof}
+
+
+
+
+
+
+\section{Resolvents}
+For an operator $T,D_T$ in $V$ and for $\lambda \in \mathbb{C}$, we  write
+\[
+T_\lambda = T-\lambda,\qquad \mathscr{R}_\lambda = T_\lambda D_T.
+\]
+We define the \textbf{resolvent set} $\rho(T)$ of $T$ as the set of those $\lambda \in \mathbb{C}$
+such that (i) $T_\lambda:D_T \to $ is injective,
+(ii) $\mathscr{R}_\lambda$ is dense in $V$, and (iii) $T_\lambda^{-1}:\mathscr{R}_\lambda \to D_T$ is a bounded operator.
+For $\lambda \in \rho(T)$, because $ \mathscr{R}_\lambda$ is a dense linear subspace of $V$ and
+$T_\lambda^{-1}: \mathscr{R}_\lambda \to V$ is bounded, by Lemma \ref{extension}
+there is a unique bounded operator $R_\lambda:V \to V$ whose restriction to
+$ \mathscr{R}_\lambda$ is equal to $T_\lambda^{-1}$, and $\norm{R_\lambda}  = \norm{T_\lambda^{-1}}$. 
+We call $R_\lambda$ a \textbf{resolvent} of $T$.
+
+
+We will use the following theorem to prove that the resolvent set is open.\footnote{Angus E. Taylor, {\em Introduction to Functional Analysis}, p.~256, Theorem 5.1-A.}
+
+\begin{theorem}
+Let $T,D_T$ be an operator in $V$ and let $\lambda \in \mathbb{C}$. If $T_\lambda:D_T \to V$ is injective and
+$T_\lambda^{-1}:\mathscr{R}_\lambda \to D_T$ is bounded, 
+then $\norm{T_\lambda^{-1}} |\mu - \lambda| < 1$ implies that $T_\mu:D_T \to V$ is injective and 
+$T_\mu^{-1}:\mathscr{R}_\mu \to D_T$ is bounded, and $\overline{\mathscr{R}_\mu}$ is not a proper subset of
+$\overline{\mathscr{R}_\lambda}$.
+\label{resolventtheorem}
+\end{theorem}
+\begin{proof}
+For $x \in D_T$,
+\[
+T_\mu x = Tx - \mu x = T_\lambda x + \lambda x - \mu x = T_\lambda x + (\lambda-\mu)x.
+\]
+Hence $|T_\mu x| \geq |T_\lambda x| - |\lambda-\mu| |x|$. But
+\[
+|x|=
+|T_\lambda^{-1} T_\lambda x| \leq \norm{T_\lambda^{-1}} |T_\lambda x|,
+\]
+so 
+\[
+\norm{T_\lambda^{-1}} |T_\mu x| \geq \norm{T_\lambda^{-1}}  |T_\lambda x| - \norm{T_\lambda^{-1}} |\lambda-\mu| |x|
+\geq |x| -  \norm{T_\lambda^{-1}} |\lambda-\mu| |x|,
+\]
+i.e.
+\begin{equation}
+\norm{T_\lambda^{-1}} |T_\mu x| \geq |x|(1- \norm{T_\lambda^{-1}} |\lambda-\mu|).
+\label{Tmu}
+\end{equation}
+Therefore, if $T_\mu x=0$ then $x=0$, showing that $T_\mu:D_T \to V$ is injective.
+For $y=T_\mu x \in \mathscr{R}_\mu$, applying \eqref{Tmu} with $x=T_\mu^{-1}y$,
+\[
+|T_\mu^{-1} y| \leq (1- \norm{T_\lambda^{-1}} |\lambda-\mu|)^{-1} \norm{T_\lambda^{-1}} |T_\mu T_\mu^{-1}y| 
+=(1- \norm{T_\lambda^{-1}} |\lambda-\mu|)^{-1} \norm{T_\lambda^{-1}} |y|,
+\]
+showing that $T_\mu^{-1}:\mathscr{R}_\mu \to D_T$ is bounded.
+
+Riesz's lemma states that if $X$ is a normed  space and $X_0$ is a closed linear subspace of $X$ with $X_0 \neq X$,
+then for each $0<\theta<1$ there is some $x_\theta \in X$ with $|x_\theta|=1$ and $|x-x_\theta| \geq \theta$ for all
+$x \in X_0$.\footnote{Angus E. Taylor, {\em Introduction to Functional Analysis}, p.~96, Theorem 3.12-E.}
+Assume by contradiction that $\overline{\mathscr{R}_\mu}$ is a proper subset of $\overline{\mathscr{R}_\lambda}$. 
+Take
+\[
+\norm{T_\lambda^{-1}} |\mu - \lambda| < \theta < 1,
+\]
+and applying Riesz's lemma there is some
+$y_\theta \in \overline{\mathscr{R}_\lambda}$ such that $|y_\theta|=1$ and such that
+$|y-y_\theta| \geq \theta$ for all $y \in \overline{\mathscr{R}_\mu}$. 
+Take $x_n \in D_T$ with $T_\lambda x_n \to y_\theta$. As $T_\mu x_n = T_\lambda x_n + (\lambda-\mu)x_n$,
+we have 
+\[
+|T_\mu x_n - T_\lambda x_n| = |\lambda-\mu| |T_\lambda^{-1} T_\lambda x_n| \leq |\lambda-\mu| 
+\norm{T_\lambda^{-1}} |T_\lambda x_n|.
+\]
+Now, $T_\mu x_n \in \mathscr{R}_\mu$ so $|T_\mu x_n - y_\theta| \geq \theta|$, and hence 
+\[
+\theta \leq |T_\mu x_n - T_\lambda x_n| + |T_\lambda x_n - y_\theta|
+\leq |\lambda-\mu| 
+\norm{T_\lambda^{-1}} |T_\lambda x_n|+|T_\lambda x_n - y_\theta|.
+\]
+As $n \to \infty$, $T_\lambda x_n \to y_\theta$, so the above right-hand side tends to 
+$|\lambda-\mu| 
+\norm{T_\lambda^{-1}} |y_\theta|$. Hence
+\[
+\theta \leq |\lambda-\mu| 
+\norm{T_\lambda^{-1}} |y_\theta| = |\lambda-\mu| 
+\norm{T_\lambda^{-1}},
+\]
+a contradiction. Therefore $\overline{\mathscr{R}_\mu}$ is not a proper subset of $\overline{\mathscr{R}_\lambda}$. 
+\end{proof}
+
+
+
+\begin{corollary}
+For an operator $T,D_T$ in $V$, 
+if $\lambda \in \rho(T)$ then $\norm{T_\lambda^{-1}} |\mu - \lambda| < 1$ implies that $\mu \in \rho(T)$. 
+In particular,  $\rho(T)$ is an open subset of $\mathbb{C}$. 
+\label{resolventopen}
+\end{corollary}
+\begin{proof}
+If $\lambda \in \rho(T)$, then $T_\lambda:D_T \to V$ is injective and $T_\lambda^{-1}:\mathscr{R}_\lambda \to D_T$ is bounded,
+so
+by Theorem \ref{resolventtheorem},  
+$|\mu - \lambda| < \norm{T_\lambda^{-1}}^{-1}$ implies that $T_\mu:D_T \to V$ is injective,
+$T_\mu^{-1}:\mathscr{R}_\mu \to D_T$ is bounded, and $\overline{\mathscr{R}_\mu}$ is not a proper subset of $\overline{\mathscr{R}_\lambda}$.
+But because $\lambda \in \rho(T)$ it is the case that $\overline{\mathscr{R}_\lambda}=V$, so
+$\overline{\mathscr{R}_\mu}$ is not a proper subset of $V$, i.e. $\overline{\mathscr{R}_\mu}=V$. This shows that
+$\mu \in \rho(T)$. 
+\end{proof}
+
+
+
+We characterize the resolvent sets of closed operators in the following lemma.\footnote{Gilles Royer,
+{\em An Initiation to Logarithmic Sobolev Inequalities}, p.~2, Proposition 1.1.4.}
+
+\begin{lemma}
+Let $T,D_T$ be a closed operator. For $\lambda \in \mathbb{C}$, the following are equivalent:
+\begin{enumerate}
+\item $\lambda \in \rho(T)$.
+\item $T-\lambda:D_T \to V$ is a bijection.
+\item There is a bounded operator $R$ on $V$ such that
+\[
+R  (T-\lambda) = I_{D_T},\qquad (T-\lambda) R = I_V.
+\]
+\end{enumerate}
+\end{lemma}
+\begin{proof}
+Suppose $\lambda \in \rho(T)$ and take $x \in V$. Because $(T-\lambda)D_T$ is dense in $V$ there
+is a sequence $y_n$ in $D_T$ such that $(T-\lambda)y_n \to x$. Furthermore,
+$R_\lambda:V \to V$ is continuous, so $R_\lambda(T-\lambda)y_n \to R_\lambda x$. But
+$R_\lambda(T-\lambda)y_n=y_n$, so
+$y_n \to R_\lambda x$. $y_n \to R_\lambda x$ and $(T-\lambda)y_n \to x$ yield
+$Ty_n \to x+\lambda R_\lambda x$, and thence
+$(y_n,Ty_n) \to (R_\lambda x,x+ \lambda R_\lambda x)$. But
+$y_n \in D_T$ and $\graph T$ is closed, which means that
+$R_\lambda x \in D_T$ and 
+$T R_\lambda x = x+\lambda R_\lambda x$. That is, 
+$R_\lambda x \in D_T$ and $(T-\lambda)R_\lambda x = x$, which implies that
+$x=(T-\lambda) R_\lambda x \in (T-\lambda)D_T$, showing that $T-\lambda$ is surjective. We already
+know that $T-\lambda$ is injective, so we have proved that $T-\lambda:D_T \to V$ is a bijection.
+
+Suppose that $T-\lambda:D_T \to V$ is a bijection. Because $T$ is closed, Lemma \ref{graphIP} states
+that the linear space $D_T$
+with the inner product $\inner{v}{w}_T = \inner{v}{w}+\inner{Tv}{Tw}$ is a Hilbert space. 
+But $|Tv|^2 = \inner{Tv}{Tv} \leq \inner{v}{v}_T = |v|^2$, so $T$ is bounded $(D_T,\inner{\cdot}{\cdot}_T) \to V$,
+and $|\lambda v|^2 = \inner{\lambda v}{\lambda v}
+=|\lambda|^2 \inner{v}{v} \leq |\lambda|^2 |v|_T^2$, so $v \mapsto \lambda v$ is bounded $(D_T,\inner{\cdot}{\cdot}_T) \to V$.
+Because $T-\lambda$ is a bijective bounded operator
+$(D_T,\inner{\cdot}{\cdot}_T) \to V$, the open mapping theorem tells us that
+$(T-\lambda)^{-1}:V \to (D_T,\inner{\cdot}{\cdot}_T)$ is bounded.
+Because $|\cdot| \leq |\cdot|_T$, a fortiori
+$(T-\lambda)^{-1}:V \to (D_T,\inner{\cdot}{\cdot})$ is bounded. 
+
+Suppose that there is a bounded operator $R$ in $V$ such that 
+\[
+R  (T-\lambda) = I_{D_T},\qquad (T-\lambda) R = I_V.
+\]
+The first equality implies that $T-\lambda:D_T \to V$ is injective. The second equality implies that $T-\lambda:D_T \to V$
+is surjective, and a fortiori that $(T-\lambda)D_T$ is dense in $V$. 
+For $w \in (T-\lambda)D_T$, as $(T-\lambda)^{-1}w = Rw$ and
+as
+$R$ is a bounded operator,  $|(T-\lambda)^{-1}w| = |Rw| \leq \norm{R} |w|$,
+showing that $(T-\lambda)^{-1}:(T-\lambda)D_T \to V$ is a bounded operator. This establishes that $\lambda \in \rho(T)$.
+\end{proof}
+
+The hypothesis of the following theorem is satisfied if $T,D_T$ is a closed
+operator.\footnote{Angus E. Taylor, {\em Introduction to Functional Analysis}, p.~257, Theorem 5.1-C.}
+We denote by $\mathscr{L}(V)$ the complex Banach algebra of bounded linear operators $V \to V$
+
+
+\begin{theorem}[Resolvent identity]
+Suppose that $T,D_T$ is an operator in $V$
+such that $\mathscr{R}_\lambda = V$ for each $\lambda \in \rho(T)$. 
+If $\lambda,\mu \in \rho(T)$, then 
+\[
+R_\lambda - R_\mu = (\lambda-\mu)R_\lambda R_\mu.
+\]
+For $\lambda,\mu \in \rho(T)$ and $n \geq 0$,
+\begin{equation}
+R_\lambda = \sum_{k=0}^n (\lambda-\mu)^k R_\mu^{k+1}+(\lambda-\mu)^{n+1}R_\mu^{n+1}R_\lambda.
+\label{resolventsum}
+\end{equation}
+If $|\lambda-\mu| \norm{R_\mu}<1$, then
+\[
+\sum_{k=0}^n (\lambda-\mu)^k R_\mu^{k+1} \to R_\lambda
+\]
+in the operator norm.
+The function $\lambda \mapsto R_\lambda$ is holomorphic $\rho(T) \to \mathscr{L}(V)$,
+and
+\[
+\frac{d}{d\lambda} R_\lambda = R_\lambda^2.
+\]
+\label{resolventidentity}
+\end{theorem}
+\begin{proof}
+For $y \in V$, by hypothesis there is some $x \in D_T$ with $y=T_\mu x$, $x=R_\mu y$. 
+Because
+$T_\mu x - T_\lambda x = (\lambda - \mu)x$,
+\[
+y - T_\lambda R_\mu y = (\lambda - \mu)R_\mu y.
+\]
+Applying $R_\lambda$ on the left,
+\[
+R_\lambda y - R_\lambda T_\lambda R_\mu y = R_\lambda (\lambda-\mu)R_\mu y,
+\]
+i.e.
+\[
+R_\lambda y - R_\mu y = (\lambda-\mu)R_\lambda R_\mu y.
+\]
+This shows that $R_\lambda - R_\mu = (\lambda-\mu)R_\lambda R_\mu$. 
+
+The resolvent identity provides $R_\lambda = R_\mu + (\lambda-\mu) R_\mu R_\lambda$. Assume by induction that for some $n$,
+\eqref{resolventsum} is true. Then, using the resolvent identity $R_\lambda-R_\mu=(\lambda-\mu)R_\lambda R_\mu$ and $R_\lambda R_\mu = R_\mu R_\lambda$ (which
+is immediate from the resolvent identity),
+\begin{align*}
+R_\lambda &= \sum_{k=0}^{n+1} (\lambda-\mu)^k R_\mu^{k+1}-(\lambda-\mu)^{n+1} R_\mu^{n+2}+(\lambda-\mu)^{n+1}R_\mu^{n+1}R_\lambda\\
+&=\sum_{k=0}^{n+1} (\lambda-\mu)^k R_\mu^{k+1} + (\lambda-\mu)^{n+1}R_\mu^{n+1} (-R_\mu+R_\lambda)\\
+&=\sum_{k=0}^{n+1} (\lambda-\mu)^k R_\mu^{k+1} + (\lambda-\mu)^{n+1}R_\mu^{n+1} \cdot (\lambda-\mu)R_\lambda R_\mu\\
+&=\sum_{k=0}^{n+1} (\lambda-\mu)^k R_\mu^{k+1} + (\lambda-\mu)^{n+2} R_\mu^{n+2} R_\lambda,
+\end{align*}
+showing that \eqref{resolventsum} is true for $n+1$. 
+
+If $r=|\mu-\lambda| \norm{R_\lambda}<1$, then 
+\[
+\norm{ (\lambda-\mu)^{n+2} R_\mu^{n+2} R_\lambda}
+\leq |\lambda-\mu|^{n+2} \norm{R_\mu}^{n+2} \norm{R_\lambda}
+=\norm{R_\lambda} r^{n+2}, 
+\]
+which tends to $0$ as $n \to \infty$, and thus \eqref{resolventsum} implies $\sum_{k=0}^n (\lambda-\mu)^k R_\mu^{k+1} \to R_\lambda$ in 
+$\mathscr{L}(V)$. 
+
+Take $\lambda \in \rho(T)$. For $\mu \in \rho(T)$ with 
+ $\mu \neq \lambda$, applying the resolvent identity twice yields
+\[
+\frac{R_\mu-R_\lambda}{\mu-\lambda} - R_\lambda^2
+=R_\mu R_\lambda - R_\lambda^2 = 
+(R_\mu-R_\lambda)R_\lambda = (\mu-\lambda)R_\mu R_\lambda R_\lambda.
+\]
+Suppose that $\mu$ satisfies 
+$\norm{R_\lambda} |\mu - \lambda| \leq \frac{1}{2}$.
+Then $\mu \in \rho(T)$ by Corollary \ref{resolventopen}. From the resolvent identity,
+$\norm{R_\lambda-R_\mu} \leq |\lambda-\mu| \norm{R_\lambda} \norm{R_\mu}$, and using this with
+$\norm{R_\mu-R_\lambda} \geq \norm{R_\mu}-\norm{R_\lambda}$ gives
+\begin{equation}
+\norm{R_\mu} (1-|\lambda-\mu| \norm{R_\lambda}) \leq \norm{R_\lambda}.
+\label{normRmu}
+\end{equation}
+Because $\norm{T_\lambda^{-1}} |\mu - \lambda| \leq \frac{1}{2}$, 
+\[
+\norm{R_\mu} \leq 2\norm{R_\lambda},
+\]
+and using this with \eqref{normRmu} yields
+\[
+\norm{R_\lambda-R_\mu} \leq 2|\lambda-\mu| \norm{R_\lambda}^2.
+\]
+This shows that $\mu \mapsto R_\mu$ is a continuous function from the closed disc with radius $\frac{1}{2} \norm{R_\lambda}^{-1}$
+and center $\lambda$ to $\mathscr{L}(V)$. Let $\norm{R_\mu} \leq M$ for all $\mu$ in this compact disc. 
+Hence
+\[
+\norm{\frac{R_\mu-R_\lambda}{\mu-\lambda} - R_\lambda^2} \leq |\mu-\lambda| \norm{R_\mu} \norm{R_\lambda}^2
+\leq M\norm{R_\lambda}^2 |\mu-\lambda|,
+\]
+which tends to $0$ as $\mu \to \lambda$. Therefore $\frac{R_\mu-R_\lambda}{\mu-\lambda}$ tends
+to $R_\lambda^2$ in $\mathscr{L}(V)$ as $\mu \to \lambda$, showing that $R_\lambda$
+is holomorphic $\rho(T) \to \mathscr{L}(V)$. 
+\end{proof}
+
+
+
+
+\begin{lemma}
+If $T,D_T$ is a  self-adjoint operator in $V$ and $\lambda=x+iy$, then
+for $y \neq 0$ it is the case that
+$\lambda \in \rho(T)$ and $\norm{R_\lambda} \leq 1/|y|$.
+If furthermore $T$ is positive, then for $y=0$ and $x<0$, it is the case that
+$\lambda \in \rho(T)$ and
+ $\norm{R_\lambda} \leq 
+1/|x|$.
+\end{lemma}
+\begin{proof}
+Write $\lambda = x+iy$. If $y \neq 0$, then for $v \in D_T$, using that $T-x$ is symmetric,
+\begin{align*}
+|(T-\lambda)v|^2&=\inner{(T-x)v-iyv}{(T-x)v-iyv}\\
+&=|(T-x)v|^2 +iy \inner{(T-x)v}{v} -iy \inner{v}{(T-x)v}+y^2 |v|^2\\
+&=|(T-x)v|^2 +y^2 |v|^2\\
+&\geq y^2 |v|^2.
+\end{align*}
+Since $y \neq 0$, if $v \neq 0$ then $(T-\lambda)v \neq 0$, showing that $T-\lambda$ is injective.
+If $w \in ((T-\lambda)D_T)^\perp$, then
+for $v \in D_T$ it holds that $\inner{(T-\lambda)v}{w}=0=\inner{v}{0}$, so
+$v \mapsto \inner{(T-\lambda)v}{w}$ is continuous $D_T \to \mathbb{C}$, meaning
+that $w \in D_{T^*}=D_T$. 
+Furthermore, $(T-\lambda)^*w = 0$, meaning $Tw = T^*w = \overline{\lambda} w$.  
+Then $\inner{Tw}{w} = \inner{\overline{\lambda}w}{w} = \overline{\lambda} \inner{w}{w}$,
+and because $T$ is symmetric $\inner{Tw}{w} \in \mathbb{R}$, implying that $w=0$.
+This establishes that $(T-\lambda)D_T$ is dense in $V$.
+Define $F:\graph (T-\lambda) \to (T-\lambda)D_T$ by $F(v,w)=w$.
+For $v \in D_T$,
+\[
+|(T-\lambda)v|^2 \leq |(T-\lambda)v|^2 + |v|^2 \leq (1+y^{-2})|(T-\lambda)v|^2,
+\]
+and because $F$ is surjective this implies that $F:\graph (T-\lambda) \to (T-\lambda)D_T$ 
+and $F^{-1}:(T-\lambda)D_T \to \graph (T-\lambda)$ are Lipschitz, meaning that
+$\graph (T-\lambda)$ and $(T-\lambda)D_T$ are \textbf{Lipschitz equivalent}.
+Because $T$ is self-adjoint it is closed, and then $T-\lambda$ is a closed operator,
+because $\lambda I$ is a bounded operator, and therefore $\graph (T-\lambda)$ is a complete metric,
+being a closed set in the complete metric space $V \times V$. Since
+$\graph (T-\lambda)$ and $(T-\lambda)D_T$ are Lipschitz equivalent,
+it follows that $(T-\lambda)D_T$ is a complete metric space.
+Because $(T-\lambda)D_T$ is a complete subspace of the metric space
+$V$, it is a closed set in $V$. But we have proved that $(T-\lambda)D_T$ is dense in $V$,
+so $(T-\lambda)D_T= V$, meaning that $T-\lambda:D_T \to V$ is surjective.
+
+For $w \in V$, let $v$ be the unique element of $D_T$ for which
+$(T-\lambda)v = w$. 
+$|(T-\lambda)v|^2 \geq y^2 |v|^2$ means that
+$|v| \leq |y|^{-1} |w|$, i.e.
+ $|(T-\lambda)^{-1}w| \leq |y|^{-1} |w|$. This shows that $\lambda \in \rho(T)$ and that
+$\norm{R_\lambda} \leq 1/|\Im \lambda|$.
+\end{proof}
+
+
+
+
+
+
+
+\section{The Friedrichs extension}
+If $T,D_T$ is a positive densely defined operator,
+for $v,w \in D_T$ define
+\[
+(v,w)_T = \inner{v}{w}+\inner{Tv}{w},
+\]
+and write  $(v)_T^2 = (v,v)_T$. 
+As $T$ is symmetric, $(w,v)_T = \inner{w}{v}+\inner{w}{Tv}
+=\overline{\inner{v}{w}}+\overline{\inner{Tv}{w}}=\overline{(v,w)_T}$.
+As $T$ is positive, $(v,v)_T = \inner{v}{v}+\inner{Tv}{v} \geq 0$. 
+Therefore $(\cdot,\cdot)_T$ is an inner product on $D_T$. 
+
+Let $V_T$ be the completion of $D_T$ with respect to the inner product $(\cdot,\cdot)_T$. 
+For $f \in V_T$, if $v_n,w_n \in D_T$ are Cauchy sequences that each tend to $f$ in the norm
+$(\cdot)_T$ then on the one hand,
+$v_n$ and $w_n$ are Cauchy sequences in the norm
+$|\cdot|$ and hence converge in $|\cdot|$ respectively to some $v,w \in V$.
+On the other hand, $v_n-w_m$ converges to $0$ in the norm $(\cdot)_T$ so
+$|v-w| \leq |v-v_n| + |v_n-w_n| + |w_n-w| \to 0$, showing that $v=w$. Thus for $f \in V_T$, which is the $(\cdot)_T$ limit
+of some Cauchy sequence $v_n \in D_T$, it makes sense to
+define $i_T f$ to be the $|\cdot|$ limit of $v_n$ in $V$. Check that
+\[
+i_T:V_T \to V
+\]
+ is a linear map. 
+For $f \in V_T$, where $v_n \in D_T$ tends to $f$ in the norm $(\cdot)_T$, 
+\[
+|i_T f| = |i_T f - v_n| + |v_n| \leq |i_T f -v_n| + (v_n)_T \to  (f)_T, 
+\]
+which means that $\norm{i_T} \leq 1$.
+ If $i_T f = 0$, where $v_n \in D_T$ tends to $f$ in the norm $(\cdot)_T$,
+ then $v_n$ tends to $0$ in the norm $|\cdot|$, and  for each $v \in D_T$ we have
+ \[
+ (v,f)_T = \lim_{n \to \infty} (v,v_n)_T= \lim_{n \to \infty} (\inner{v}{v_n}+\inner{Tv}{v_n})
+ =0.
+ \]
+ Because $D_T$ is dense in $V_T$, this implies that $f=0$, showing that $i_T$ is an injection.\footnote{Peter D.
+ Lax, {\em Functional Analysis}, p.~403, \S 33.3.}
+ 
+For $v \in V$ define $\lambda_v:V_T \to \mathbb{C}$ by
+$\lambda_v f = \inner{i_T f}{v}$. This satisfies $|\lambda_v f| \leq |i_T f| |v| \leq (f)_T |v|$, so
+$\norm{\lambda_v} \leq |v|$. By the Riesz representation theorem there is a unique 
+$Bv \in V_T$ satisfying
+\[
+\inner{i_T f}{v} = \lambda_v f = (f,Bv)_T
+\]
+ for $f \in V_T$, and $(Bv)_T = \norm{\lambda_v} \leq 
+|v|$.
+Check that the map
+\[
+B:V \to V_T
+\]
+ is linear, and  has operator norm $\norm{B} \leq 1$. 
+For $v,w \in V$,
+\[
+\inner{i_T Bv}{w} = \lambda_w Bv = (Bv,Bw)_T = \overline{(Bw,Bv)_T}
+=\overline{\lambda_v Bw}
+=\inner{v}{i_T Bw},
+\]
+showing that $i_T B:V \to V$ is symmetric. For $v \in V$,
+\[
+\inner{i_T Bv}{v}
+=\lambda_v Bv = (Bv,Bv)_T \geq 0,
+\]
+showing that $i_T B$ is positive. If $Bv=0$ then 
+for $f \in V_T$,
+\[
+\inner{i_T f}{v} = \lambda_v f = (f,Bv)_T = (f,0)_T = 0,
+\]
+and because $D_T \subset i_T V_T$ and $D_T$ is dense in $V$ this implies that
+$v=0$. This shows that $B:V \to V_T$ is injective, and because $i_T:V_T \to V$ is injective we get
+that $i_T B:V \to V$ is  injective. 
+If $w \in (i_T B V)^\perp$ then
+\[
+0=\inner{i_T B w}{w} = \lambda_w Bw = (Bw,Bw)_T,
+\]
+which implies that $Bw=0$, and because $B$ is injective this implies $w=0$. 
+Therefore $(i_T BV)^\perp= \{0\}$, which means that $i_T BV$ is dense in $V$.
+We have so far established that $i_T B:V \to V$ has $\norm{i_T B} \leq 1$,
+is positive, is an injection, and has dense image. Furthermore, $i_T B$ is bounded and symmetric it is self-adjoint.
+
+
+Let $D_A = i_TBV$ and  define $A:D_A \to V$ by
+\[
+Ax=(i_TB)^{-1}x,\qquad x\in D_A = i_TBV,
+\]
+ which is a linear isomorphism
+$D_A \to V$.
+ For $x=i_TBv, y = i_TBw$,  because $i_TB$ is symmetric we get
+$\inner{Ax}{y}=\inner{v}{i_T Bw}=\inner{i_T Bv}{w} = \inner{x}{Ay}$, which means that $A$ is symmetric.
+For $x = i_TBv$, 
+\[
+\inner{Ax}{x} =\inner{x}{Ax} = \inner{i_TBv}{v} =(Bv,Bv)_T,
+\]
+which shows a fortiori that $A$ is positive. 
+Define $S:V \times V \to V \times V$ by $S(v,w)=(w,v)$, and $A=(i_T B)^{-1}$ means
+\[
+\graph A = S(\graph i_T B).
+\]
+$J \circ S = -S \circ J$:
+\[
+J(S(v,w)) = (-v,w),\qquad S(J(v,w)) = S(-w,v) = (v,-w).
+\]
+$A$ is densely defined, since $i_TB$ has dense image, so it makes sense to talk about the adjoint of
+$A$.
+Then
+\begin{align*}
+\graph A^* &= (J (\graph A))^\perp\\
+&= (J S (\graph i_T B))^\perp\\
+&= (-SJ (\graph i_T B))^\perp\\
+&=  (SJ (\graph i_T B))^\perp\\
+&= S((J (\graph i_T B))^\perp)\\
+&= S(\graph (i_TB)^*)\\
+&= S(\graph i_TB)\\
+&= \graph A,
+\end{align*}
+showing that $A$ is self-adjoint. 
+
+
+
+
+
+
+Now define $S=1+T$, which is symmetric because $T$ is.
+For $v,w \in D_T$, as $i_Tv=v$,
+\[
+\inner{v}{Sw} =\inner{i_Tv}{Sw} = (v,BSw)_T,
+\]
+and 
+\[
+\inner{v}{Sw} = \inner{Sv}{w} = \inner{v}{w}+\inner{Tv}{w} = (v,w)_T,
+\]
+and therefore $(v,w-BSw)_T=0$ for $v \in D_T$. Because 
+$D_T$ is $(\cdot)_T$ dense in $V_T$ this implies $BSw=w$ for $w \in D_T$. This shows
+that $D_T$ is contained in the image of $B$ and as $i_TD_T=D_T$, implies that
+$D_S = D_T \subset D_A$. 
+For $w \in D_S$, as $i_Tw=w$ and $BSw=w$,
+\[
+Aw = A(i_Tw) = A(i_T BSw) = Sw,
+\]
+showing that $S \subset A$. 
+
+Define $D_{\widetilde{T}}=D_A=i_TBV$ and $\widetilde{T} = A-1$. Then $\widetilde{T}$ is self-adjoint,
+and for $w \in D_T$,
+\[
+\widetilde{T}w = Aw-w = Sw-w = Tw, 
+\]
+showing that $T \subset \widetilde{T}$. 
+For $x = i_TBv$ we have obtained $\inner{Ax}{x} \geq (Bv,Bv)_T$, and using this with
+$\norm{i_T} \leq 1$ yields
+\[
+\inner{Ax}{x} \geq (Bv,Bv)_T =
+(i_T^{-1}x)_T^2
+\geq |x|^2,
+\]
+hence
+\[
+\inner{\widetilde{T}x}{x} = \inner{Ax-x}{x} = \inner{Ax}{x}-\inner{x}{x} \geq 0,
+\]
+showing that $\widetilde{T}$ is positive. 
+
+For $v \in D_T$ and $w \in V$,
+\begin{align*}
+\inner{(1+T)v}{(1+\widetilde{T})^{-1}w}&=\inner{Sv}{A^{-1}w}\\
+&=\inner{Sv}{i_TBw}\\
+&=\inner{Av}{i_TBw}\\
+&=\inner{v}{A^{-1} i_TBw}\\
+&=\inner{v}{w}.
+\end{align*}
+
+We call the positive self-adjoint operator $\widetilde{T},D_{\widetilde{T}}$ the \textbf{Friedrichs extension} of
+the positive densely defined operator $T,D_T$.\footnote{\url{http://www.math.umn.edu/~garrett/m/v/friedrichs.pdf}}
+
+
+\begin{theorem}[Friedrichs extension theorem]
+If $T,D_T$ is a positive densely defined operator then there is a positive self-adjoint
+extension $\widetilde{T},D_{\widetilde{T}}$ of $T$ that satisfies
+\[
+\inner{(1+T)v}{(1+\widetilde{T})^{-1}w} = \inner{v}{w},\qquad v \in D_T,\quad w \in V.
+\]
+\end{theorem}
+
+
+\begin{corollary}
+If $i_T:V_T \to V$ is a compact operator, then $(1+\widetilde{T})^{-1}:V \to V$ is a compact operator.
+\end{corollary}
+\begin{proof}
+$\widetilde{T}=A-1$ and $A=(i_TB)^{-1}$, so $(1+\widetilde{T})^{-1} = A^{-1}= i_TB$. 
+Because $B:V \to V_T$ is continuous and $i_T:V_T \to V$ is compact, 
+the composition $i_TB:V \to V$ is compact.
+\end{proof}
+
+
+
+
+
+
+
+\section{The Laplacian on $L^2(\mathbb{T}^d)$}
+Let $\mathbb{T} = \mathbb{R} / 2\pi\mathbb{Z}$ and let
+$m$ be the Haar probability measure on $\mathbb{T}^d$,
+\[
+dm(x) = (2\pi)^{-d} dx.
+\]
+Let $V=L^2(\mathbb{T}^d)$,  let
+$D_T = C^\infty(\mathbb{T}^d)$, and let
+ $T=-\Delta$. For
+$f,g \in D_T$,
+\[
+\inner{\Delta f}{g} = \int_{\mathbb{T}^d}  \Delta f \cdot \overline{g} dm
+=- \int_{\mathbb{T}^d} \sum_{j=1}^d  \partial_j f \cdot \overline{\partial_j g} dm
+= \inner{f}{\Delta g},
+\]
+showing that the densely defined operator $T,D_T$ is symmetric, and 
+\[
+\inner{Tf}{f} = -\inner{\Delta f}{f} \geq 0,
+\]
+showing that $T$ is positive. 
+
+We follow the construction of the Friedrichs extension. For $f,g \in D_T$,
+\begin{align*}
+(f,g)_T &= \inner{f}{g}+\inner{Tf}{g}\\
+& =\inner{f}{g} - 
+\int_{\mathbb{T}^d} \Delta  \cdot \overline{g} dm\\
+&=\inner{f}{g}+ \int_{\mathbb{T}^d} \sum_{j=1}^d \partial_j f \cdot \overline{\partial_j g} dm\\
+&= \inner{f}{g} + \sum_{j=1}^d \inner{\partial_j f}{\partial_j g}.
+\end{align*}
+Then
+\[
+(f)_T^2 = |f|^2 + \sum_{j=1}^d |\partial_j f|^2.
+\]
+$V_T$ is the completion of  the inner product space $(D_T,(\cdot,\cdot)_T)$, and $i_T:V_T \to V$ is defined as follows: 
+for $\phi \in V_T$ there is a  $(\cdot)_T$ Cauchy sequence $f_n$ in $D_T$ that converges to $\phi$ in the norm
+$(\cdot)_T$. Then $f_n$ is a $|\cdot|$ Cauchy sequence,
+and converges to $i_T \phi \in V$ in the norm $|\cdot|$. 
+
+
+
+By the Friedrichs extension theorem, there is a positive self-adjoint extension $\widetilde{T},D_{\widetilde{T}}$ 
+of $T,D_T$ such that
+\[
+\inner{(1+T)f}{(1+\widetilde{T})^{-1}g} = \inner{f}{g},\qquad f \in C^\infty(\mathbb{T}^d),
+\quad g \in L^2(\mathbb{T}^d).
+\]
+
+
+
+
+
+
+
+\end{document}

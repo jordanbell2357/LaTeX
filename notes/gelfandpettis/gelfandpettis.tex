@@ -1,0 +1,383 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,graphicx,subfig,mathrsfs,amsthm}
+%\usepackage{tikz-cd}
+\usepackage{hyperref}
+\newcommand{\innerL}[2]{\langle #1, #2 \rangle_{L^2}}
+\newcommand{\inner}[2]{\left\langle #1, #2 \right\rangle}
+\newcommand{\HSinner}[2]{\left\langle #1, #2 \right\rangle_{\ensuremath\mathrm{HS}}}
+\newcommand{\tr}{\ensuremath\mathrm{tr}\,} 
+\newcommand{\Span}{\ensuremath\mathrm{span}} 
+\def\Re{\ensuremath{\mathrm{Re}}\,}
+\def\Im{\ensuremath{\mathrm{Im}}\,}
+\newcommand{\id}{\ensuremath\mathrm{id}} 
+\newcommand{\GL}{\ensuremath\mathrm{GL}} 
+\newcommand{\rank}{\ensuremath\mathrm{rank\,}} 
+\newcommand{\co}{\ensuremath\mathrm{co}}
+\newcommand{\ext}{\ensuremath\mathrm{ext}\,}
+\newcommand{\Ind}{\ensuremath\mathrm{Ind}}
+\newcommand{\cco}{\overline{\ensuremath\mathrm{co}}}
+\newcommand{\point}{\ensuremath\sigma_{\mathrm{point}}} 
+\newcommand{\supp}{\ensuremath\mathrm{supp}}
+\newcommand{\Hom}{\ensuremath\mathrm{Hom}}
+\newcommand{\norm}[1]{\left\Vert #1 \right\Vert}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\begin{document}
+\title{Gelfand-Pettis integrals and weak holomorphy}
+\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
+\date{\today}
+
+\maketitle
+
+
+
+\section{Convexity}
+The Hahn-Banach separation theorem\footnote{Walter Rudin, {\em Functional Analysis}, second ed., p.~59,
+Theorem 3.4} states that if $A$ and $B$ are disjoint nonempty closed convex subsets of a  locally convex space
+$X$ and $A$ is compact, then there is some $\lambda \in X^*$ and some $\gamma_1,\gamma_2 \in \mathbb{R}$ such that
+\[
+\Re \lambda  a < \gamma_1 < \gamma_2< \Re \lambda b, \qquad a \in A,  b\in B.
+\]
+
+If $X$ is a vector space and $E$ is a subset of $X$, the {\em convex hull of $E$} is defined to be the intersection of all
+convex sets containing $E$, and is denoted  by $\co(E)$. One checks that the convex hull of $E$ is equal to the set of all finite convex combinations of elements
+of $E$. 
+If $X$ is a topological vector space, 
+the {\em closed convex hull of $E$} is the intersection of all
+closed convex sets containing $E$, and is denoted by $\cco(E)$. The closed convex hull of $E$ is equal to the closure of the convex hull of $E$.\footnote{John
+B. Conway, {\em A Course in Functional Analysis}, second ed., p.~102, Corollary 1.13.}
+
+
+\section{The Gelfand-Pettis integral}
+If $X$ is a topological vector space over $F$, where $F$ is either $\mathbb{C}$ or $\mathbb{R}$,
+ and $\mathscr{F}$ is a set of
+functions $X \to F$, we say that $\mathscr{F}$ {\em separates} $X$ if $x,y \in X$ being distinct implies that there is some
+$f \in \mathscr{F}$ satisfying $f(x) \neq f(y)$. 
+It follows from the Hahn-Banach separation theorem
+that if $X$ is a locally convex space then its dual space $X^*$ separates $X$: if $a,b \in X$ are distinct then apply the Hahn-Banach separation to the sets
+$\{a\}$ and $\{b\}$.
+
+Let  $\mu$ be a positive measure on a measure space $Q$ and let $X$ be a topological vector space over $F$, where
+$F$ is either $\mathbb{C}$ or $\mathbb{R}$,
+such that $X^*$ separates $X$.
+If $f:Q \to X$ is a function and $\lambda \in X^*$, we define $\lambda f:Q \to F$
+by $(\lambda f)(q)=\lambda f(q)$. If $\lambda f$ is integrable with respect to $\mu$ for each $\lambda \in X^*$
+ and there is some $I_f \in X$ such that
+ \begin{equation}
+ \lambda I_f=\int_Q \lambda f d\mu, \qquad \lambda \in X^*,
+ \label{weakintegral}
+ \end{equation}
+ then we define 
+ \[
+ \int_Q f d\mu =I_f,
+ \]
+ which we call the {\em Gelfand-Pettis integral of $f$}.
+Because $X^*$ separates $X$, there is at most one $I_f \in X$ satisfing \eqref{weakintegral}, so if the Gelfand-Pettis integral
+of $f$ exists it is unique. If the Gelfand-Pettis integrals of $f$ and $g$ exist and $\alpha \in F$, then
+$\lambda(\alpha f +g)$ is integrable with respect to $\mu$ for each $\lambda \in X^*$, and 
+\begin{align*}
+\lambda(\alpha I_f+I_g)&=\alpha \lambda I_f + \lambda I_g\\
+&=\alpha\int_Q \lambda f d\mu + \int_Q \lambda g d\mu\\
+&=\int_Q \alpha \lambda f + \lambda g d\mu\\
+&=\int_Q \lambda (\alpha f + g) d\mu,
+\end{align*}
+ therefore the Gelfand-Pettis integral of $\alpha f +g$ exists and satisfies
+\[
+\int_Q \alpha f +g d\mu = \alpha \int_Q f d\mu + \int_Q g d\mu,
+\]
+namely, Gelfand-Pettis integration is linear.
+
+The following theorem gives conditions under which the Gelfand-Pettis integral  of a function taking values in a real topological
+vector space exists.\footnote{Walter Rudin, {\em Functional Analysis}, second ed., p.~78, Theorem 3.27. cf. Paul Garrett, {\em Vector-valued integrals},
+\url{http://www.math.umn.edu/~garrett/m/fun/notes_2012-13/07e_vv_integrals.pdf}} 
+
+
+\begin{theorem}
+Suppose that
+\begin{itemize} 
+\item $X$ is a real topological vector space such that $X^*$ separates $X$
+\item $\mu$ is a Borel probability measure on a compact Hausdorff space $Q$
+\end{itemize}
+If $f:Q \to X$ is continuous and $\cco(f(Q))$ is a compact subset of $X$, then the Gelfand-Pettis integral 
+\[
+\int_Q f d\mu
+\]
+exists, and $\int_Q f d\mu \in \cco(f(Q))$.
+\label{VVI}
+\end{theorem}
+\begin{proof}
+If  $L$ is a finite subset of $X^*$, let $E_L$ be those
+$y \in \cco(f(Q))$ such that
+\[
+\lambda y =\int_Q \lambda f d\mu, \qquad \lambda \in L.
+\]
+If $y_\alpha \in E_L$ is a net that converges to some $y \in \cco(f(Q))$ and $\lambda \in L$, then, because $\lambda$
+is continuous,
+\[
+\lambda y = \lambda y_\alpha = \int_Q \lambda f d\mu,
+\]
+showing that $y \in E_L$ and thus that $E_L$ is closed. By hypothesis $\cco(f(Q))$ is compact, hence $E_L$ is compact. 
+With $L=\{\lambda_1,\ldots,\lambda_n\}$, define $F_L \in \mathscr{B}(X, \mathbb{R}^n)$ by
+\[
+F_L x=(\lambda_1 x,\ldots,\lambda_n x),
+\]
+ write $K=F_L f(Q)$, and define 
+ \[
+ m_i = \int_Q \lambda_i f d\mu,\qquad 1 \leq i \leq n.
+ \]
+ Since $Q$ is compact and $f$ and $F_L$ are continuous, the set $K \subset \mathbb{R}^n$ is compact, and hence its convex hull
+ $\co(K)$ is compact.\footnote{Walter
+Rudin, {\em Functional Analysis}, second ed., p.~72, Theorem 3.20.} 
+ If $t=(t_1,\ldots,t_n) \in \mathbb{R}^n \setminus \co(K)$, then applying the Hahn-Banach separation theorem to 
+ $\co(K)$ and $\{t\}$, we get that there is some $c \in (\mathbb{R}^n)^*$ and some $\gamma \in \mathbb{R}$ such that
+ \[
+ c a < \gamma  < c t, \qquad a \in \co(K),
+ \]
+ i.e. there is some $(c_1,\ldots,c_n) \in \mathbb{R}^n$ and some $\gamma \in \mathbb{R}$ such that
+ \[
+ \sum_{i=1}^n c_i a_i < \gamma < \sum_{i=1}^n c_i t_i, \qquad a \in \co(K).
+ \]
+If $q \in Q$ then $F_L f(q) \in K \subseteq \co(K)$, hence
+\[
+\sum_{i=1}^n c_i \lambda_i f(q) < \gamma <\sum_{i=1}^n c_i t_i, \qquad q \in Q.
+\]
+Because $\mu$ is a probability measure, integrating the above inequality gives
+\[
+\int_Q \sum_{i=1}^n c_i \lambda_i f(q) d\mu < \sum_{i=1}^n c_i t_i,
+\]
+hence
+\[
+\sum_{i=1}^n c_i m_i < \sum_{i=1}^n c_i t_i,
+\]
+and it follows that $m \neq t$. Therefore $m \in \co(K)$, and as $K=F_L f(Q)$, it follows that $m$ is a convex combination of finitely
+many points of the form $F_L f(q)$, i.e., $m$ is of the form $F_L y$ for some $y \in \co(f(Q))$. 
+To say that $m=F_L y$ means that
+\[
+\lambda_i y=m_i=\int_Q \lambda_i f d\mu, \qquad 1 \leq i \leq n,
+\]
+and thus $y \in E_L$. Therefore, if $L$ is a finite subset of $X^*$ then $E_L \neq \emptyset$.
+
+If $\mathscr{S}$ is a set of sets, we say that $\mathscr{S}$ has the {\em finite intersection property} if 
+ $\mathscr{S}_0$ being a finite  subset of $\mathscr{S}$ implies that
+$\bigcap_{S \in \mathscr{S}_0} S \neq \emptyset$.
+It is a fact that a topological space is compact if and only if  every collection $\mathscr{S}$ of closed subsets with the finite intersection
+property satisfies $\bigcap_{C \in \mathscr{C}} C \neq \emptyset$.\footnote{James Munkres, {\em Topology}, second ed., p.~169, Theorem 26.9.}
+It follows from this that if $\mathscr{C}$ is a collection of compact subsets of a Hausdorff space and $\mathscr{C}$ has
+the finite intersection property, then $\bigcap_{C \in \mathscr{C}} C \neq \emptyset$. 
+If $L,M$ are finite subsets of $X^*$, then $E_L \cap E_M = E_{L \cup M}$.
+We have shown that if $L$ is a finite subset of $X^*$ then $E_L \neq \emptyset$, and therefore
+the collection of all $E_L$, where $L$ is a finite subset of $X^*$, has the finite intersection property. As each $E_L$
+is a compact set, we obtain
+\[
+\bigcap_{L \subset X^*, |L|<\infty} E_L \neq \emptyset,
+\]
+i.e. there is some $y \in \cco(f(Q))$ such that 
+\[
+\lambda y = \int_Q \lambda f d\mu, \qquad \lambda \in X^*.
+\]
+This satisfies \eqref{weakintegral}, so
+\[
+y=\int_Q f d\mu,
+\]
+which proves the claim.
+\end{proof}
+
+In a Fr\'echet space, the closed convex hull of a compact set is itself compact.\footnote{Walter Rudin,
+{\em Functional Analysis}, second ed., p.~72, Theorem 3.20.} Thus, if $X$ is a Fr\'echet space then the set $\cco(f(Q))$ in the above theorem will
+be compact.
+
+The following is the triangle inequality for Gelfand-Pettis integrals.\footnote{Walter Rudin,
+{\em Functional Analysis}, second ed., p.~81, Theorem 3.29.}
+
+\begin{corollary}
+If $Q$ is a compact Hausdorff space, $X$ is a real Banach space, $f:Q \to X$ is continuous, and $\mu$ is a   Borel probability
+measure on $Q$, then 
+\[
+\norm{\int_Q  fd\mu} \leq \int_Q \norm{f} d\mu.
+\]
+\end{corollary}
+\begin{proof}
+The Hahn-Banach extension theorem\footnote{Walter Rudin, {\em Functional Analysis}, second ed., p.~59,
+Corollary to Theorem 3.3.} states that if $X$ is a normed space and $x_0 \in X$, then there is some $\lambda \in
+X^*$ such that $\lambda x_0= \norm{x_0}$ and
+\[
+|\lambda x| \leq \norm{x}, \qquad x \in X.
+\]
+Let $y = \int_Q fd\mu \in X$, and applying the Hahn-Banach extension theorem we get that there is some $\lambda \in X^*$ such that 
+$\lambda y= \norm{y}$
+ and $|\lambda x| \leq \norm{x}$ for all $x \in X$.
+If $q \in Q$ then $f(q) \in X$, and so $|\lambda f(q)| \leq \norm{f(q)}$ for all $q \in Q$, and integrating
+this inequality gives us
+\[
+ \int_Q |\lambda f(q)| d\mu \leq \int_Q \norm{f(q)} d\mu.
+\]
+Therefore,
+\[
+\norm{ \int_Q fd\mu} = \norm{y} = \lambda y = \int_Q \lambda f d\mu \leq
+\int_Q |\lambda f(q)| d\mu 
+\leq
+ \int_Q \norm{f(q)} d\mu,
+\]
+proving the claim.
+\end{proof}
+
+
+
+
+
+\section{Holomorphy}
+A {\em path in $\mathbb{C}$} is a continuous piecewise $C^1$ function from a compact interval to $\mathbb{C}$, and a {\em closed path} is a path whose
+initial point is equal to its final point. We denote by $\gamma^*$ the image of a path. 
+If $\gamma:[\alpha,\beta] \to \mathbb{C}$ and
+ $f:\gamma^* \to \mathbb{C}$ is a continuous function  (where $\gamma^*$ has the subspace
+ topology inherited from $\mathbb{C}$), the {\em contour integral of $f$ along $\gamma$} 
+is defined to be 
+\[
+\int_\gamma f(z) dz = \int_\alpha^\beta f(\gamma(t)) \gamma'(t) dt.
+\]
+The {\em length of $\gamma$}, denoted $|\gamma|$, is defined to be $\int_\alpha^\beta |\gamma'(t)| dt$, and we have
+\[
+\left| \int_\gamma f(z) dz \right| \leq \sup_{z \in \gamma^*} |f(z)| \cdot \int_{\alpha}^\beta |\gamma'(t)| dt.
+\]
+If $\gamma$ is a closed path in $\mathbb{C}$ and $\Omega=\mathbb{C} \setminus \gamma^*$, we define
+\[
+\Ind_\gamma(z)=\frac{1}{2\pi i} \int_\gamma \frac{d\zeta}{\zeta-z}, \qquad z\in \Omega.
+\]
+We call $\Ind_\gamma(z)$ the {\em index of $z$ with respect to $\gamma$}. It is a fact that
+$\Ind_\gamma$ takes integer values, is constant on each connected component of $\Omega$, and
+is $0$ on the unique unbounded component of $\Omega$.\footnote{Walter Rudin, {\em Real and Complex Analysis},
+third ed., p.~203, Theorem 10.10; cf. Paul Garrett, {\em Holomorphic vector-valued functions}, \url{http://www.math.umn.edu/~garrett/m/fun/Notes/09_vv_holo.pdf}}
+
+Let $X$ is a complex topological vector space and let $\Omega$ be an open subset of $\mathbb{C}$. A function
+$f:\Omega \to X$ is said to be {\em weakly holomorphic in $\Omega$} if $\lambda f:\Omega \to \mathbb{C}$ is holomorphic
+for every $\lambda \in X^*$, i.e., for every $\lambda \in X^*$ and $z \in \Omega$, the limit
+\[
+\lim_{w \to z} \frac{(\lambda f)(w)-(\lambda f)(z)}{w-z}
+\]
+exists.
+A function $f:\Omega \to X$ is said to be {\em strongly holomorphic} if for every $z \in \Omega$ the limit
+\[
+\lim_{w \to z} \frac{f(w)-f(z)}{w-z}
+\]
+exists. Check that a strongly holomorphic function is weakly holomorphic.
+
+
+ In the following theorem we show that if a function taking
+values in a complex locally convex topological vector space
+is weakly holomorphic then it is continuous.\footnote{Walter Rudin, {\em Functional Analysis},
+second ed., p.~82, Theorem 3.31(a).}
+
+\begin{theorem}
+If $\Omega$ is an open subset of $\mathbb{C}$, $X$ is a complex locally convex topological vector
+space space, and $f:\Omega \to X$ is weakly
+holomorphic, then  $f:\Omega \to X$ is continuous.
+\label{weakcontinuous}
+\end{theorem}
+\begin{proof}
+Let $\lambda \in X^*$.
+I assert that it suffices to prove the claim in the case that $0 \in \Omega$, and in this case just to prove that $f$ is continuous at $0$. 
+
+Since $\Omega$ is an open set containing $0$, there is some closed disc $\Delta_R$ of radius $R>0$ with $0\in \Delta_R \subset \Omega$.
+Define $\gamma_r=re^{it}$, $t \in [0,2\pi]$, with  $0<r \leq R$. By assumption $\lambda f:\Omega \to \mathbb{C}$ is holomorphic,
+and applying Cauchy's integral formula,\footnote{Walter Rudin,
+ {\em Real and Complex Analysis}, third ed., p.~207, Theorem 10.15.} if $z \in \Delta_r$ then
+ \[
+ (\lambda f)(z)  \Ind_{\gamma_r}(z)=\frac{1}{2\pi i} \int_{\gamma_r} \frac{(\lambda f)(\zeta)}{\zeta-z} d\zeta.
+ \]
+ As $\Ind_{\gamma_r}(z)=1$ for $z \in \Delta_r$, we have for every $z$ with $0<|z| \leq r$  that
+ \begin{align*}
+ \frac{(\lambda f)(z)-(\lambda f)(0)}{z} &= \frac{1}{z}\cdot \frac{1}{2\pi i} \int_{\gamma_r} \frac{(\lambda f)(\zeta)}{\zeta-z} d\zeta
+ -\frac{1}{z}\cdot \frac{1}{2\pi i} \int_{\gamma_r} \frac{(\lambda f)(\zeta)}{\zeta} d\zeta\\
+ &=\frac{1}{2\pi i} \int_{\gamma_r} \frac{(\lambda f)(\zeta)}{(\zeta-z)\zeta} d\zeta.
+\end{align*}
+Setting $M(\lambda)=\sup_{z \in \Delta_R} |(\lambda f)(z)|$, applying the above with $r=\frac{R}{2}$ we get that if $0<|z| \leq \frac{R}{2}$ then 
+\[
+\left|  \frac{(\lambda f)(z)-(\lambda f)(0)}{z} \right| \leq \frac{1}{2\pi} \cdot |\gamma_{\frac{R}{2}}| \cdot M(\lambda) \cdot \frac{1}{\inf_{|\zeta|=\frac{R}{2}} |\zeta-z| |\zeta|}
+=\frac{2M(\lambda)}{r}.
+\]
+Define
+\[
+Y=\left\{ \frac{f(z)-f(0)}{z}: 0<|z| \leq \frac{R}{2} \right\} \subseteq X.
+\]
+We have shown that if $y \in Y$ and $\lambda \in X^*$, then
+\[
+\lambda y = \lambda \frac{f(z)-f(0)}{z} = \frac{\lambda f(z)-\lambda f(0)}{z}=\frac{(\lambda f)(z)-(\lambda f)(0)}{z},
+\]
+for some $0<|z| \leq \frac{R}{2}$,
+hence 
+\[
+|\lambda y| \leq \frac{2M(\lambda)}{r}, \qquad y \in Y, \lambda \in X^*.
+\]
+To say that a subset $E$ of $X$ is {\em weakly bounded} means that it is a bounded set in the weak topology on $X$, i.e. for every weak neighborhood $N$ of $0$
+there is some $c$ such that $E \subseteq cN$. $E$ is weakly bounded if and only if
+for every $\lambda \in X^*$ there is some constant $\gamma(\lambda)$ such that $x \in E$ implies that 
+$|\lambda x| \leq \gamma(\lambda)$.\footnote{cf. Walter Rudin, {\em Functional Analysis}, second ed., p.~66, \S 3.11.}
+We have thus established that $Y$ is a weakly bounded subset of $X$. It is a fact that a subset of a locally convex topological vector space is bounded if and only if it is weakly
+bounded,\footnote{Walter Rudin, {\em Functional Analysis}, second ed., p.~70, Theorem 3.18.} so
+$Y$ is a bounded subset of $X$: if $N$ is a neighborhood of $0$, then there is some  $c$ such that
+$0<|z| \leq r$ implies that
+\[
+\frac{f(z)-f(0)}{z} \in cN.
+\]
+Therefore if $0<|z| \leq r \wedge \frac{1}{|c|}$ then
+\[
+f(z)-f(0) \in N,
+\]
+showing that $f$ is continuous at $0$.
+\end{proof}
+
+
+\begin{theorem}[Cauchy integral formula]
+If $\Omega$ is an open subset of $\mathbb{C}$, $X$ is a complex Fr\'echet space, 
+$f:\Omega \to X$ is weakly holomorphic,  $\gamma:[0,1] \to \Omega$ is a closed $C^1$ path, $z \not \in
+\gamma^*$, and  $\Ind_\gamma(z)=1$,
+then the Gelfand-Pettis integral of $\frac{f \circ \gamma}{\gamma-z}\cdot \gamma':[0,1] \to X$ exists and satisfies
+\[
+f(z) =
+ \frac{1}{2\pi i} \int_\gamma \frac{f(\zeta)}{\zeta-z} d\zeta
+=
+\frac{1}{2\pi i} \int_{[0,1]} \frac{f(\gamma(t))}{\gamma(t)-z} \gamma'(t) dt.
+\]
+\end{theorem}
+\begin{proof}
+By Theorem \ref{weakcontinuous}, $f:\Omega \to X$ is continuous. Because $\gamma^*$ is compact and $z \not \in
+\gamma^*$, the function $t \mapsto \frac{1}{\gamma(t)-z}$ is continuous $[0,1] \to \mathbb{C}$. As $\gamma$ is $C^1$, 
+the function $\gamma':[0,1] \to \mathbb{C}$ is continuous. Thus
+$F(t)= \frac{f(\gamma(t))}{\gamma(t)-z} \gamma'(t)$
+ continuous $[0,1] \to X$. We apply 
+Theorem \ref{VVI}, which tells us that the Gelfand-Pettis integral of $F$ exists. Let
+\[
+I = 
+ \frac{1}{2\pi i} \int_\gamma \frac{f(\zeta)}{\zeta-z} d\zeta
+ =
+\frac{1}{2\pi i} \int_{[0,1]} \frac{f(\gamma(t))}{\gamma(t)-z} \gamma'(t) dt.
+\]
+
+If $\lambda \in X^*$, then 
+\[
+\lambda I= \int_{[0,1]} \lambda\left( \frac{1}{2\pi i} F\right) dt
+=\frac{1}{2\pi i} \int_{[0,1]} \frac{\lambda f(\gamma(t))}{\gamma(t)-z} \gamma'(t) dt.
+\]
+We apply the Cauchy integral formula for holomorphic functions on $\mathbb{C}$ to $\lambda f$:
+\[
+(\lambda f)(z) = \frac{1}{2\pi i} \int_\gamma \frac{(\lambda f)(\zeta)}{\zeta-z} d\zeta.
+\]
+Therefore $\lambda I =(\lambda f)(z)= \lambda (f(z))$. As this is true for all $\lambda \in X^*$, we have $I = f(z)$. 
+\end{proof}
+
+
+One can use the above statement of the Cauchy integral formula to prove that a weakly holomorphic function that takes
+values in a complex Fr\'echet space is strongly holomorphic.\footnote{Walter Rudin, {\em Functional Analysis}, second ed., p.~82,
+Theorem 3.31(c);  Paul Garrett, {\em Holomorphic vector-valued functions}, \url{http://www.math.umn.edu/~garrett/m/fun/notes_2012-13/08b_vv_holo.pdf}}
+
+\begin{theorem}
+If $\Omega$ is an open subset of $\mathbb{C}$, $X$ is a complex Fr\'echet space, and
+$f:\Omega \to X$ is weakly holomorphic,  then $f$ is strongly holomorphic.
+\end{theorem}
+
+\end{document}

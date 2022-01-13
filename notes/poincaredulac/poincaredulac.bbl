@@ -1,0 +1,44 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{1}
+
+\bibitem{encyclopedia}
+D.~V. Anosov, S.~Kh. Aranson, V.~I. Arnold, I.~U. Bronshtein, V.~Z. Grines, and
+  Yu.~S. Ilyashenko, \emph{Ordinary differential equations and smooth dynamical
+  systems}, Springer, 1997, Translated from the Russian by E. R. Dawson and D.
+  O'Shea.
+
+\bibitem{arnold1988}
+V.~I. Arnold, \emph{Geometrical methods in the theory of ordinary differential
+  equations}, second ed., Grundlehren der mathematischen Wissenschaften, vol.
+  250, Springer, 1988, Translated from the Russian by Joseph Sz\"ucs.
+
+\bibitem{poisson}
+Jean-Paul Dufour and Nguyen~Tien Zung, \emph{Poisson structures and their
+  normal forms}, Progress in Mathematics, vol. 242, Birkh\"auser, 2005.
+
+\bibitem{unconditional}
+Zihua Guo, Soonsik Kwon, and Tadahiro Oh, \emph{{P}oincar\'e-{D}ulac normal
+  form reduction for unconditional well-posedness of the periodic cubic {NLS}},
+  arXiv:1103.5271.
+
+\bibitem{analytic}
+Yulij Ilyashenko and Sergei Yakovenko, \emph{Lectures on analytic differential
+  equations}, Graduate Studies in Mathematics, vol.~86, American Mathematical
+  Society, Providence, Rhode Island, 2007.
+
+\bibitem{scheurle}
+J\"urgen Scheurle and Sebastian Walcher, \emph{On normal form computations},
+  Geometry, Mechanics, and Dynamics (Paul Newton, Philip Holmes, and Alan
+  Weinstein, eds.), Springer, 2002, pp.~309--325.
+
+\bibitem{wiggins}
+Stephen Wiggins, \emph{Introduction to applied nonlinear dynamical systems and
+  chaos}, second ed., Texts in Applied Mathematics, vol.~2, Springer, 2003.
+
+\end{thebibliography}

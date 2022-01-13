@@ -1,0 +1,236 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,mathrsfs,amsthm}
+%\usepackage{tikz-cd}
+%\usepackage{hyperref}
+\newcommand{\inner}[2]{\left\langle #1, #2 \right\rangle}
+\newcommand{\tr}{\ensuremath\mathrm{tr}\,} 
+\newcommand{\Span}{\ensuremath\mathrm{span}} 
+\def\Re{\ensuremath{\mathrm{Re}}\,}
+\def\Im{\ensuremath{\mathrm{Im}}\,}
+\newcommand{\id}{\ensuremath\mathrm{id}} 
+\newcommand{\var}{\ensuremath\mathrm{var}} 
+\newcommand{\Lip}{\ensuremath\mathrm{Lip}} 
+\newcommand{\GL}{\ensuremath\mathrm{GL}} 
+\newcommand{\diam}{\ensuremath\mathrm{diam}} 
+\newcommand{\sgn}{\ensuremath\mathrm{sgn}\,} 
+\newcommand{\lcm}{\ensuremath\mathrm{lcm}} 
+\newcommand{\supp}{\ensuremath\mathrm{supp}\,}
+\newcommand{\dom}{\ensuremath\mathrm{dom}\,}
+\newcommand{\upto}{\nearrow}
+\newcommand{\downto}{\searrow}
+\newcommand{\norm}[1]{\left\Vert #1 \right\Vert}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\begin{document}
+\title{Diophantine numbers}
+\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
+\date{\today}
+
+\maketitle
+
+\section{Baire category}
+For real $\tau,\gamma>0$,
+let $\mathcal{D}(\tau,\gamma)$ be the set of those $\xi \in \mathbb{R}$ such that for all $q \in \mathbb{Z}_{\geq 1}$
+and $p \in \mathbb{Z}$,
+\[
+\left|\xi-\frac{p}{q}\right| \geq \gamma q^{-\tau}.
+\]
+In other words, 
+\[
+\mathcal{D}(\tau,\gamma) =  \bigcap_{q \in \mathbb{Z}_{\geq 1}, p \in \mathbb{Z}} \left\{\xi \in \mathbb{R}:
+\left|\xi-\frac{p}{q}\right| \geq \gamma q^{-\tau}\right\}
+= \bigcap_{q \in \mathbb{Z}_{\geq 1}, p \in \mathbb{Z}} \mathcal{D}(\tau,\gamma,q,p).
+\]
+Each set $\mathcal{D}(\tau,\gamma,q,p)$ is closed, so $\mathcal{D}(\tau,\gamma)$ is closed.
+Let
+\[
+\mathcal{D}(\tau) = \bigcup_{\gamma>0} \mathcal{D}(\tau,\gamma).
+\]
+Now, if $\gamma_1 \geq \gamma_2$ and $\xi \in \mathcal{D}(\tau,\gamma_1)$, take $q \in \mathbb{Z}_{\geq 1}$ and
+$p \in \mathbb{Z}$, and then
+\[
+\left|\xi-\frac{p}{q}\right| \geq \gamma_1 q^{-\tau} \geq  \gamma_2 q^{-\tau}.
+\]
+Hence
+\[
+\mathcal{D}(\tau,\gamma_1) \subset \mathcal{D}(\tau,\gamma_2),\qquad \gamma_1 \geq \gamma_2,
+\]
+and thus
+$\mathcal{D}(\tau) = \bigcup_{n \geq 1} \mathcal{D}(\tau,n^{-1})$,
+which means that $\mathcal{D}(\tau)$ is an $F_\sigma$ set. 
+Let
+\[
+\mathcal{D} = \bigcup_{\tau>0} \mathcal{D}(\tau)
+=\bigcup_{\tau>0} \bigcup_{\gamma>0} \bigcap_{q \in \mathbb{Z}_{\geq 1}, p \in \mathbb{Z}} \mathcal{D}(\tau,
+\gamma,q,p),
+\]
+whose elements are called \textbf{Diophantine numbers}.
+If $\tau_1 \leq \tau_2$ and $\xi \in \mathcal{D}(\tau_1)$, then 
+for some $\gamma>0$, $\xi \in \mathcal{D}(\tau_1,\gamma)$. 
+Take $q \in \mathbb{Z}_{\geq 1}$ and
+$p \in \mathbb{Z}$. Then
+\[
+\left|\xi-\frac{p}{q}\right| \geq \gamma q^{-\tau_1} \geq \gamma q^{-\tau_2},
+\]
+so $\xi \in \mathcal{D}(\tau_2,\gamma)$, i.e.
+\[
+\mathcal{D}(\tau_1) \subset \mathcal{D}(\tau_2),\qquad \tau_1 \leq \tau_2.
+\]
+Thus
+$\mathcal{D} = \bigcup_{m \geq 1} \mathcal{D}(m) = \lim_{m \to \infty} \mathcal{D}(m)$,
+which means that $\mathcal{D}$ is an $F_{\sigma}$ set.
+
+
+Now,
+\[
+\mathcal{D}^c = \bigcap_{m \geq 1} \bigcap_{n \geq 1} \bigcup_{q \in \mathbb{Z}_{\geq 1},
+p \in \mathbb{Z}} \mathcal{D}(m,n^{-1},q,p)^c,
+\]
+and
+\[
+\mathcal{D}(m,n^{-1},q,p)^c = \left\{\xi \in \mathbb{R}:
+\left| \xi - \frac{p}{q}\right| < n^{-1} q^{-m}\right\}.
+\]
+For $\xi = \frac{p}{q} \in \mathbb{Q}$ with $q \geq 1$,
+$\xi \in \mathcal{D}(m,n^{-1},q,p)^c$, so for each $m,n \geq 1$, 
+\[
+\mathbb{Q} \subset  \bigcup_{q \in \mathbb{Z}_{\geq 1},
+p \in \mathbb{Z}} \mathcal{D}(m,n^{-1},q,p)^c.
+\]
+This means that each set $\bigcup_{q \in \mathbb{Z}_{\geq 1},
+p \in \mathbb{Z}} \mathcal{D}(m,n^{-1},q,p)^c$ is dense. It is a union of open sets hence open, so it
+is an open dense set. Therefore $\mathcal{D}^c$ is a comeager set and $\mathcal{D}$ is a meager set. 
+Because $\mathbb{R}$ is a complete metric space, by the Baire category theorem $\mathcal{D}^c$ is dense. 
+
+
+
+
+
+\section{Algebraic numbers}
+Suppose that $\xi \in \mathbb{R} \setminus \mathbb{Q}$ and that $f(\xi)=0$ for a nonzero irreducible  polynomial
+$f \in \mathbb{Z}[x]$ of degree $d$. 
+Let
+\[
+M = \sup \{|f'(x)|: x \in [\xi-1,\xi+1]\},\qquad A = \min(1,M^{-1}),
+\]
+and suppose
+by contradiction that there are $q \in \mathbb{Z}_{\geq 1}$ and $p \in \mathbb{Z}$ such that
+\[
+\left|\xi - \frac{p}{q} \right| < Aq^{-d}.
+\]
+By the mean-value theorem there is some $c$ between $\xi$ and $\frac{p}{q}$
+such that
+\[
+f(\xi)-f(p/q) = f'(c) \left(\xi-\frac{p}{q}\right),
+\]
+and as $f(\xi)=0$,
+\[
+|f'(c)| \left| \xi - \frac{p}{q} \right| = |f(p/q)|.
+\]
+As $f$ is irreducible, $f(p/q) \neq 0$. But then $f(p/q)$ is a rational number which in lowest
+terms has denominator $\leq q^d$, 
+therefore $|f(p/q)| \geq q^{-d}$, giving
+\[
+\left| \xi - \frac{p}{q} \right| \geq \frac{1}{|f'(c)|} q^{-d}.
+\]
+Furthermore, $\left| \xi - \frac{p}{q} \right| < A \leq 1$ so
+$\frac{p}{q} \in [\xi-1,\xi+1]$, and as $c$ is between $\xi$ and $\frac{p}{q}$
+it holds that $c \in [\xi-1,\xi+1]$ and thus $|f'(c)| \leq M$. Therefore
+\[
+\left| \xi - \frac{p}{q} \right| \geq M^{-1} q^{-d} \geq Aq^{-d},
+\] 
+a contradiction. Therefore for all $q \in \mathbb{Z}_{\geq 1}$ and
+$p \in \mathbb{Z}$,
+\[
+\left|\xi - \frac{p}{q} \right| \geq Aq^{-d}.
+\]
+This means that $\xi \in \mathcal{D}(d,A)$.
+
+\begin{theorem}[Liouville approximation theorem]
+If $\xi \in \mathbb{R} \setminus \mathbb{Q}$ and  $f(\xi)=0$ for a nonzero irreducible polynomial
+$f \in \mathbb{Z}[x]$ of degree $d$, then $\xi \in \mathcal{D}(d)$.
+\end{theorem}
+
+We remark for the above theorem that because $\xi$ is irrational, $d \geq 2$. Also, the above theorem shows that
+the set of  real irrational algebraic numbers is contained in $\mathcal{D}$, which implies that if
+$\xi \in \mathbb{R} \setminus \mathbb{Q}$ and $\xi \in \mathcal{D}^c$ then $\xi$ is transcendental. 
+Elements of $(\mathbb{R}  \setminus \mathbb{Q}) \cap \mathcal{D}^c$ are called \textbf{Liouville numbers}.
+\textbf{Roth's theorem} states that the  set of real irrational algebraic numbers is contained in
+\[
+\mathcal{D}(2+) = \bigcap_{\tau>2} \mathcal{D}(\tau).
+\]
+
+
+
+
+
+\section{Measure theory}
+Take $\tau>2$ and $\gamma>0$.
+\[
+\mathcal{D}(\tau,\gamma)^c = \bigcup_{q \in \mathbb{Z}_{\geq 1}} \bigcup_{p \in \mathbb{Z}} \left\{\xi \in \mathbb{R}:
+\left| \xi - \frac{p}{q} \right| < \gamma q^{-\tau}\right\}.
+\]
+For $m \in \mathbb{Z}_{\geq 1}$, 
+\[
+\mathcal{D}(\tau,\gamma)^c  \cap (-m,m)
+=\bigcup_{q \in \mathbb{Z}_{\geq 1}} \bigcup_{|p| \leq mq+\gamma q^{-\tau+1}} \left\{ -m<\xi<m: \left| \xi - \frac{p}{q} \right| < \gamma q^{-\tau} \right\}.
+\]
+Hence
+\begin{align*}
+\lambda(\mathcal{D}(\tau,\gamma)^c  \cap (-m,m))&\leq \sum_{q \geq 1} (2mq+2\gamma q^{-\tau+1}+1) \cdot 2\gamma q^{-\tau}\\
+&=\sum_{q \geq 1} 4m\gamma q^{-\tau+1} + \sum_{q \geq 1} 4\gamma^2 q^{-2\tau+1} + \sum_{q \geq 1} 2\gamma q^{-\tau}\\
+&=4m\gamma \zeta(\tau-1) + 4\gamma^2 \zeta(2\tau-1) + 2\gamma \zeta(\tau).
+\end{align*}
+Therefore for each $\gamma>0$,
+\[
+\lambda(\mathcal{D}(\tau)^c \cap (-m,m)) \leq 4m\gamma \zeta(\tau-1) + 4\gamma^2 \zeta(2\tau-1) + 2\gamma \zeta(\tau),
+\]
+hence $\lambda(\mathcal{D}(\tau)^c \cap (-m,m))=0$. This is true for each $m \in \mathbb{Z}_{\geq 1}$, therefore
+$\lambda(\mathcal{D}(\tau)^c)=0$. 
+
+
+
+\section{Exponentials}
+Let $\xi \in \mathbb{R} \setminus \mathbb{Q}$ and $\lambda = e^{2\pi i\xi}$. For $q \in \mathbb{Z}_{\geq 1}$ and 
+$p_q \in \mathbb{Z}$ closest to $q\xi$, 
+\[
+|\lambda^q-1| = |e^{2\pi iq\xi}-e^{2\pi ip_q}| \leq |2\pi q\xi - 2\pi p_q| = 2\pi |q\xi-p_q|,
+\]
+and, as $|q\xi-p_q| \leq \frac{1}{2}$ and since
+$|\sin x| \geq \frac{2}{\pi}|x|$ for $|x| \leq \frac{\pi}{2}$,
+\begin{align*}
+|\lambda^q-1| &= |e^{2\pi i(q\xi-p_q)}-1|\\
+&= |e^{\pi i(q\xi-p_q)}-e^{-\pi i(q\xi-p_q)}|\\
+&= 2 |\sin \pi (q\xi-p_q)|\\
+&\geq 2 \cdot \frac{2}{\pi} |\pi(q\xi-p_q)|\\
+&=4|q\xi-p_q|.
+\end{align*}
+Thus
+\[
+4|q\xi-p_q| \leq |\lambda^q-1| \leq 2\pi |q\xi-p_q|.
+\]
+If $\xi \in \mathcal{D}(\tau,\gamma)$, then, for $q \in \mathbb{Z}_{\geq 1}$,
+\[
+|\lambda^q-1|^{-1} \leq  \frac{1}{4|q\xi-p_q|} 
+=\frac{1}{4q} \left|\xi-\frac{p_q}{q}\right|^{-1}
+\leq \frac{1}{4q} \gamma^{-1} q^\tau
+=\frac{\gamma^{-1}}{4} q^{\tau-1}.
+\]
+
+Siegel's linearization theorem states that for
+$\xi \in \mathbb{R} \setminus \mathbb{Q}$, $\lambda=e^{2\pi i\xi}$, 
+if $|\lambda^q-1|$ is majorized by a power of $q$, then
+if $f$ is holomorphic on a neighborhood of $0$ and $f'(0)=\lambda$ then
+$f$ is linearizable at $0$.\footnote{John Milnor, {\em Dynamics in One Complex Variable},
+third ed., p.~127, Theorem 11.4.}
+Thus if $\xi \in \mathcal{D}$ and $f'(0)=\lambda=e^{2\pi i\xi}$, then $f$ is linearizable at $0$.
+
+
+
+
+\end{document}

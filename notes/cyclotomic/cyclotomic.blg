@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: cyclotomic.aux
+The style file: amsplain.bst
+Database file #1: cyclotomic.bib
+You've used 46 entries,
+            2213 wiz_defined-function locations,
+            791 strings with 10122 characters,
+and the built_in function-call counts, 13987 in all, are:
+= -- 1274
+> -- 488
+< -- 15
++ -- 202
+- -- 145
+* -- 1180
+:= -- 2194
+add.period$ -- 46
+call.type$ -- 46
+change.case$ -- 207
+chr.to.int$ -- 0
+cite$ -- 46
+duplicate$ -- 612
+empty$ -- 1307
+format.name$ -- 145
+if$ -- 2959
+int.to.chr$ -- 0
+int.to.str$ -- 46
+missing$ -- 107
+newline$ -- 148
+num.names$ -- 98
+pop$ -- 266
+preamble$ -- 1
+purify$ -- 159
+quote$ -- 0
+skip$ -- 330
+stack$ -- 0
+substring$ -- 1037
+swap$ -- 122
+text.length$ -- 15
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 154
+warning$ -- 0
+while$ -- 159
+width$ -- 48
+write$ -- 431

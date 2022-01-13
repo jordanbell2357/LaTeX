@@ -1,0 +1,250 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,graphicx,subfig,amsthm}
+\usepackage{hyperref}
+\newcommand{\norm}[1]{\Vert #1 \Vert}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\begin{document}
+\title{Proof by bootstrapping}
+\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
+\date{\today}
+\maketitle
+
+The {\em Oxford English Dictionary} defines ``to bootstrap'' as the following:
+\begin{quote}
+To make use of existing resources or capabilities to raise (oneself) to a new situation or state; to
+modify or improve by making use of what is already present.
+\end{quote}
+
+The Picard theorem \cite[p.~14, Theorem 1.17]{tao}:
+
+\begin{theorem}
+Let $M$ be a finite dimensional Hilbert space. Let $F:M \to M$ be locally Lipschitz. Let $t_0 \in \mathbb{R}$ and let $u_0 \in M$. Then there exist
+\[
+-\infty \leq T_- < t_0 < T_+ \leq +\infty
+\]
+such that, for $I=(T_-,T_+)$, there exists a unique $u:I \to M$ satisfying  $u(t_0)=u_0$ and
+\[
+\partial_t u(t)=F(u(t)), \qquad t \in I.
+\]
+If $T_+$ is finite then $\norm{u(t)}_M \to \infty$ as $t \to T_+$, and if $T_-$ is finite then $\norm{u(t)}_M \to \infty$ as $t \to T_-$. 
+\end{theorem}
+
+
+
+
+Taylor's formula:
+\begin{theorem}
+If $f \in C^k(B_r(0))$, then for all $x \in B_r(0)$ we have
+\[
+f(x)=\sum_{|\alpha| \leq k} \frac{(\partial^\alpha f)(0)}{\alpha!}x^\alpha+R_k(x),
+\]
+where
+\[
+R_k(x)=k\sum_{|\alpha|=k} \frac{x^\alpha}{\alpha!}  \int_0^1 (1-t)^{k-1} ((\partial^\alpha f)(tx)-(\partial^\alpha f)(0))dt.
+\]
+\end{theorem}
+
+For $x \in B_r(0)$ we have 
+\[
+|R_k(x)| \leq \sum_{|\alpha|=k} \frac{|x^\alpha|}{\alpha!} \sup_{0 \leq t \leq 1}  |(\partial^\alpha f)(tx)-(\partial^\alpha f)(0)|.
+\]
+
+For $k=2$ we can write Taylor's formula as:
+
+\begin{corollary}
+If $f \in C^2(B_r(0))$, then for all $x \in B_r(0)$ we have
+\[
+f(x)=f(0)+Df(0)(x)+\frac{1}{2}D^2f(0)(x,x)+R_2(x),
+\]
+where
+\[
+|R_2(x)| \leq \frac{n^2}{2} |x|^2 \sup_{|\alpha|=2, 0 \leq t \leq 1} |(\partial^\alpha f)(tx)-(\partial^\alpha f)(0)|.
+\]
+\end{corollary}
+
+Thus, for any $\epsilon>0$ there is some $r>0$ such that if $x \in B_r(0)$ then $|R_2(x)| \leq \epsilon |x|^2$.
+
+
+\section{Potential well example}
+
+\begin{theorem}
+Let $M$ be a finite dimensional Hilbert space and let $V \in C^2_{\textrm{loc}}(M)$ be such that $V(0)=0$,
+$DV(0)=0$, and $D^2 V(0)$ is positive definite. Let $N=M \times M$.
+There is some $\delta>0$ such that if $\norm{(m_1,m_2)}_N<\delta$ then there is a unique $u \in C^1_{\textrm{loc}} (\mathbb{R},N)$ such that
+\[
+\partial_t \begin{pmatrix} u_1\\u_2 \end{pmatrix}=\begin{pmatrix} u_2\\ -V(u_1) \end{pmatrix},
+\qquad u(0)=\begin{pmatrix}m_1\\m_2 \end{pmatrix}.
+\]
+And $u$ is bounded.
+\end{theorem}
+\begin{proof}
+Define $F:N \to N$ by 
+\[
+F(x,y)=\begin{pmatrix} y\\-V(x) \end{pmatrix}.
+\]
+$F$ is locally Lipschitz, so by Picard's theorem there exist 
+\[
+-\infty \leq T_- < 0 < T_+ \leq +\infty
+\]
+such that, for $I=(T_-,T_+)$, there exists a unique $u:I \to N$ satisfying  $u(0)=(m_1,m_2)$ and
+\[
+\partial_t u(t)=F(u(t)), \qquad t \in I.
+\]
+If $T_+$ is finite then $\norm{u(t)}_N \to \infty$ as $t \to T_+$, and if $T_-$ is finite then $\norm{u(t)}_N \to \infty$ as $t \to T_-$. 
+We shall show that $\norm{u(t)}_N$ is bounded on $I$, which will show that $T_+=+\infty$ and $T_-=-\infty$.
+
+Define $E:I \to \mathbb{R}$ by
+\[
+E(t)=\frac{1}{2}\norm{u_2(t)}_M^2+V(u_1(t)).
+\]
+We have
+\begin{eqnarray*}
+\frac{dE}{dt}(t)&=&\langle u_2(t),\partial_t u_2(t) \rangle+\langle \partial_t u_1(t), DV(u_1(t)) \rangle\\
+&=&\langle u_2(t),-DV(u_1(t)) \rangle + \langle u_2(t), DV(u_1(t)) \rangle\\
+&=&0.
+\end{eqnarray*}
+This gives us the following conservation law: for all $t \in I$ we have
+\[
+E(t)=E(0)=\frac{1}{2}\norm{m_2}_M^2+V(m_1).
+\]
+
+
+Since $D^2 V(0)$ is a symmetric positive definite matrix, there is an orthonormal basis of $\mathbb{R}^n$ whose
+elements are eigenvectors for $D^2 V(0)$ with positive eigenvalues. It follows that $D^2 V(0)(v,v) \geq \lambda |v|^2$ for all $v \in
+\mathbb{R}^n$, where $\lambda$ is the smallest eigenvalue of $D^2 V(0)$. 
+
+Let $\epsilon=\frac{\lambda}{4}$ and let $r>0$ be such that if $\norm{x}_M < r$ then $|R_2(x)| \leq \epsilon |x|^2$. For such $x$ we have
+\begin{eqnarray*}
+V(x)&=&V(0)+DV(0)(x)+\frac{1}{2}D^2 V(0)(x,x)+R_2(x)\\
+&\geq&0+0+\frac{1}{2} \lambda |x|^2-\epsilon|x|^2\\
+&=&\frac{1}{4}\lambda |x|^2.
+\end{eqnarray*}
+
+
+Let $\mathbf{H}(t)$ be the statement
+\[
+\norm{u(t)}_N \leq \frac{r}{2},
+\]
+and let $\mathbf{C}(t)$ be the statement
+\[
+\norm{u(t)}_N \leq \frac{r}{4}.
+\]
+
+Let  $L=\max\{2,\frac{4}{\lambda}\}$, and let $\delta>0$ be small enough such that both $E(0) \leq \frac{r^2}{16L}$ and $\delta \leq \frac{r}{2}$.
+ We have that $\mathbf{H}(0)$ is true.
+
+If $\mathbf{H}(t)$ is true, then $\norm{u_1(t)}_M \leq \frac{r}{2}<r$ and hence
+\begin{eqnarray*}
+\norm{u(t)}_N^2&=&\norm{u_1(t)}_M^2+\norm{u_2(t)}_M^2\\
+&\leq&\frac{4}{\lambda}V(u_1(t))+\norm{u_2(t)}_M^2\\
+&\leq&L\left(V(u_1(t))+\frac{1}{2}\norm{u_2(t)}_M^2\right)\\
+&=&LE(t)\\
+&=&LE(0)\\
+&\leq&\frac{r^2}{16},
+\end{eqnarray*}
+and hence $\mathbf{C}(t)$ is true.
+
+If $\mathbf{C}(t)$ is true, then for all $t'$ in a neighborhood of $t$, $\mathbf{H}(t')$ is true. And if $t_k \in I$ converges to $t \in I$ and $\mathbf{C}(t_k)$ is true for each $k$, then 
+$\mathbf{C}(t)$ is true.
+
+Then by the bootstrap argument, $\mathbf{C}(t)$ is true for all $t \in I$. Thus,
+\[
+\lim_{t \to T_+} \norm{u(t)}_N \leq \frac{r}{2}<\infty,
+\]
+and it follows that $T_+=+\infty$. It likewise  follows that $T_-=-\infty$.
+\end{proof}
+
+
+\section{Hamiltonian}
+
+
+The following is from \cite[p.~32, Exercise 1.29]{tao}. Coercive Hamiltonian implies global existence.
+
+\begin{theorem}
+Let $M$ be a finite dimensional symplectic vector space and let $H \in C^2_{\textrm{loc}}(M)$ be such that $H(0)=0,
+DH(0)=0$, and $D^2H(0)$ is positive definite. There is some $\delta>0$ such that if
+$\norm{u_0}_M<\delta$ then there is a unique $u \in C^1_{\text{loc}}(\mathbb{R},M)$ such that
+\[
+\partial_t u = X_H(u), \qquad u(0)=u_0.
+\]
+And $u$ is bounded.
+\end{theorem}
+\begin{proof}
+$X_H:M \to M$ is locally Lipschitz, so by Picard's theorem 
+\[
+-\infty \leq T_- < 0 < T_+ \leq +\infty
+\]
+such that, for $I=(T_-,T_+)$, there exists a unique $u:I \to M$ satisfying  $u(0)=u_0$ and
+\[
+\partial_t u(t)=X_H(u(t)), \qquad t \in I.
+\]
+If $T_+$ is finite then $\norm{u(t)}_M \to \infty$ as $t \to T_+$, and if $T_-$ is finite then $\norm{u(t)}_M \to \infty$ as $t \to T_-$. 
+We shall show that $\norm{u(t)}_M$ is bounded on $I$, which will show that $T_+=+\infty$ and $T_-=-\infty$.
+
+Since $D^2 V(0)$ is a symmetric positive definite matrix, it follows that $D^2 V(0)(v,v) \geq \lambda |v|^2$ for all $v \in
+\mathbb{R}^{2n}$, where $\lambda$ is the smallest eigenvalue of $D^2 V(0)$. 
+
+Let $\epsilon=\frac{\lambda}{4}$ and let $r>0$ be such that if $\norm{x}_M < r$ then $|R_2(x)| \leq \epsilon |x|^2$. For such $x$ we have
+\begin{eqnarray*}
+H(x)&=&H(0)+DH(0)x+\frac{1}{2}D^2H(0)(x,x)+R_2(x)\\
+&\geq&0+0+\frac{1}{2} \lambda |x|^2-\epsilon|x|^2\\
+&=&\frac{1}{4}\lambda |x|^2.
+\end{eqnarray*}
+
+Let $\mathbf{H}(t)$ be the statement
+\[
+\norm{u(t)}_N \leq \frac{r}{2},
+\]
+and let $\mathbf{C}(t)$ be the statement
+\[
+\norm{u(t)}_N \leq \frac{r}{4}.
+\]
+
+Let $\delta>0$ be small enough that both $H(u_0) \leq \frac{\lambda r^2}{64}$ and $\delta \leq \frac{r}{2}$. 
+We have that $\mathbf{H}(0)$ is true.
+
+If $\mathbf{H}(t)$ is true, then $\norm{u(t)}_M \leq \frac{r}{2}<r$ and hence
+\begin{eqnarray*}
+\norm{u(t)}_M^2&\leq&\frac{4}{\lambda}H(u(t))\\
+&=&\frac{4}{\lambda}H(u_0)\\
+&\leq&\frac{r^2}{16},
+\end{eqnarray*}
+and hence $\mathbf{C}(t)$ is true.
+
+If $\mathbf{C}(t)$ is true, then for all $t'$ in a neighborhood of $t$, $\mathbf{H}(t')$ is true. And if $t_k \in I$ converges to $t \in I$ and $\mathbf{C}(t_k)$ is true for each $k$, then 
+$\mathbf{C}(t)$ is true.
+
+Then by the bootstrap argument, $\mathbf{C}(t)$ is true for all $t \in I$. Thus,
+\[
+\lim_{t \to T_+} \norm{u(t)}_M \leq \frac{r}{2}<\infty,
+\]
+and it follows that $T_+=+\infty$. It likewise  follows that $T_-=-\infty$.
+\end{proof}
+
+
+Chipot \cite[p.~227, \S 16.4]{chipot}.
+
+Anh.\footnote{\url{https://anhngq.wordpress.com/2010/05/08/achieving-regularity-results-via-bootstrap-argument/}}
+
+Grubb \cite{grubb}
+
+\cite[p.~231]{MR1603811}
+
+\cite{MR3155456}: ellliptic regularity.
+
+Rendall \cite[\S 10.3]{rendall}. ``proof of the stability of Minkowski space by Christodoulou and Klainerman and the theorem on formation of trapped surfaces by Christodoulou''
+
+\cite[p.~475]{princeton}
+
+\cite[p.~11, \S 1.7]{compactness}
+
+Let $\phi:[0,T] \to [0,\infty)$. If $\phi(0) \leq \alpha$ and for $t$ such that $\phi(t) \leq \alpha$ we have $\phi(t) \leq \alpha/2$, then $\phi(t) \leq \alpha/2$ for all $t \in [0,T]$. 
+
+\nocite{*}
+
+\bibliographystyle{amsplain}
+\bibliography{bootstrap}
+
+\end{document}

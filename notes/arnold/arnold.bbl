@@ -1,0 +1,41 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{1}
+
+\bibitem{malye}
+V.~I. Arnold, \emph{Malye znamenateli. i. ob otobrazhenijah okruzhnosti na
+  sebja}, Izv. Akad. Nauk SSSR Ser. Mat. \textbf{25} (1961), no.~1, 21--86.
+
+\bibitem{MR947141}
+\bysame, \emph{Geometrical methods in the theory of ordinary differential
+  equations}, second ed., Grundlehren der Mathematischen Wissenschaften, vol.
+  250, Springer, 1988, Translated from the Russian by Joseph Sz{\"u}cs.
+
+\bibitem{MR1230383}
+Lennart Carleson and Theodore~W. Gamelin, \emph{Complex dynamics},
+  Universitext: Tracts in Mathematics, Springer, 1993.
+
+\bibitem{MR2445243}
+G.~H. Hardy and E.~M. Wright, \emph{An introduction to the theory of numbers},
+  sixth ed., Oxford University Press, Oxford, 2008, Revised by D. R.
+  Heath-Brown and J. H. Silverman, With a foreword by Andrew Wiles.
+
+\bibitem{katok}
+Anatole Katok and Boris Hasselblatt, \emph{Introduction to the modern theory of
+  dynamical systems}, Encyclopedia of Mathematics and its Applications,
+  vol.~54, Cambridge University Press, 1995.
+
+\bibitem{wayne}
+C.~Eugene Wayne, \emph{An introduction to {KAM} theory}, Dynamical systems and
+  probabilistic methods in partial differential equations: 1994 Summer Seminar
+  on Dynamical Systems and Probabilistic Methods for Nonlinear Waves, June
+  20--July 1, 1994, MSRI, Berkeley, CA (Percy Deift, C.~David Levermore, and
+  C.~Eugene Wayne, eds.), Lectures in Applied Mathematics, vol.~31, American
+  Mathematical Society, Providence, RI, 1996, pp.~3--29.
+
+\end{thebibliography}

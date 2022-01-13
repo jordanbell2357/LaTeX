@@ -1,0 +1,68 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{10}
+
+\bibitem{MR1654470}
+J.~P. Bell, P.~B. Borwein, and L.~B. Richmond, \emph{Growth of the product
+  {$\prod^n_{j=1}(1-x^{a_j})$}}, Acta Arith. \textbf{86} (1998), no.~2,
+  155--170.
+
+\bibitem{MR3061031}
+Jordan Bell, \emph{Estimates for the norms of products of sines and cosines},
+  J. Math. Anal. Appl. \textbf{405} (2013), no.~2, 530--545.
+
+\bibitem{einsiedler}
+Manfred Einsiedler and Thomas Ward, \emph{Ergodic theory: with a view towards
+  number theory}, Graduate Texts in Mathematics, vol. 259, Springer, 2010.
+
+\bibitem{E393}
+Leonhard Euler, \emph{De summis serierum numeros {B}ernoullianos involventium},
+  Novi Commentarii Academiae Scientiarum Imperialis Petropolitanae \textbf{14}
+  (1770), 129--167, E393, Opera omnia I.15, pp. 91--130.
+
+\bibitem{katznelson}
+Yitzhak Katznelson, \emph{An introduction to harmonic analysis}, third ed.,
+  Cambridge Mathematical Library, Cambridge University Press, 2004.
+
+\bibitem{MR1204601}
+I.~Kleiner and A.~Shenitzer, \emph{Mathematical building blocks}, Math. Mag.
+  \textbf{66} (1993), no.~1, 3--13.
+
+\bibitem{lieb}
+Elliott~H. Lieb and Michael Loss, \emph{Analysis}, second ed., Graduate Studies
+  in Mathematics, vol.~14, American Mathematical Society, Providence, RI, 2001.
+
+\bibitem{polya}
+George P\'olya and G\'abor Szeg{\H o}, \emph{Problems and theorems in analysis,
+  volume {II}}, Die Grundlehren der mathematischen Wissenschaften, vol. 216,
+  Springer, 1976, Translated from the German by C. E. Billigheimer.
+
+\bibitem{EMS}
+Ya.~G. Sinai (ed.), \emph{Dynamical systems, ergodic theory and applications},
+  second ed., Encyclopaedia of Mathematical Sciences, vol. 100, Springer, 2000.
+
+\bibitem{master}
+J.~Michael Steele, \emph{The {C}auchy-{S}chwarz master class: an introduction
+  to the art of mathematical inequalities}, MAA Problem Books Series, Cambridge
+  University Press, 2004.
+
+\bibitem{steinI}
+Elias~M. Stein and Rami Shakarchi, \emph{Fourier analysis: an introduction},
+  Princeton Lectures in Analysis, vol.~I, Princeton University Press, 2003.
+
+\bibitem{steinIII}
+\bysame, \emph{Real analysis: measure theory, integration, and {H}ilbert
+  spaces}, Princeton Lectures in Analysis, vol. III, Princeton University
+  Press, 2005.
+
+\bibitem{yuefeng}
+Feng Yuefeng, \emph{Proof without words: {J}ordan's inequality $\frac{2x}{\pi}
+  \leq \sin x \leq x$, $0 \leq x \leq \frac{\pi}{2}$}, Math. Mag. \textbf{69}
+  (1996), no.~2, 126.
+
+\end{thebibliography}

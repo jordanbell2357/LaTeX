@@ -1,0 +1,90 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{10}
+
+\bibitem{bettin}
+Sandro Bettin and Brian Conrey, \emph{Period functions and cotangent sums},
+  Algebra Number Theory \textbf{7} (2013), no.~1, 215--242.
+
+\bibitem{chandra}
+K.~Chandrasekharan, \emph{Arithmetical functions}, Die Grundlehren der
+  mathematischen Wissenschaften, vol. 167, Springer, 1970.
+
+\bibitem{hecke}
+K.~Chandrasekharan and Raghavan Narasimhan, \emph{Hecke's functional equation
+  and arithmetical identities}, Ann. of Math. (2) \textbf{74} (1961), 1--23.
+
+\bibitem{cohen}
+Henri Cohen, \emph{Number theory, volume {II}: Analytic and modern tools},
+  Graduate Texts in Mathematics, vol. 240, Springer, 2007.
+
+\bibitem{flajolet}
+Philippe Flajolet, Xavier Gourdon, and Philippe Dumas, \emph{Mellin transforms
+  and asymptotics: harmonic sums}, Theoret. Comput. Sci. \textbf{144} (1995),
+  no.~1-2, 3--58.
+
+\bibitem{hejhal}
+Dennis~A. Hejhal, \emph{A note on the {V}orono\u\i\ summation formula},
+  Monatsh. Math. \textbf{87} (1979), no.~1, 1--14.
+
+\bibitem{laplace}
+Aleksandar Ivi{\'c}, \emph{The {V}oronoi identity via the {L}aplace transform},
+  Ramanujan J. \textbf{2} (1998), no.~1-2, 39--45.
+
+\bibitem{ivic}
+Aleksandar Ivi\'c, \emph{The {R}iemann zeta-function: Theory and applications},
+  Dover Publications, 2003.
+
+\bibitem{iwaniec}
+Henryk Iwaniec and Emmanuel Kowalski, \emph{Analytic number theory}, American
+  Mathematical Society Colloquium Publications, vol.~53, American Mathematical
+  Society, Providence, RI, 2004.
+
+\bibitem{landau}
+Edmund Landau, \emph{{\"Uber die Wigertsche asymptotische Funktionalgleichung
+  f\"ur die Lambertsche Reihe}}, Archiv der Mathematik und Physik, 3. Reihe
+  \textbf{27} (1918), 144--146, Collected Works, volume 7, pp.~135--137.
+
+\bibitem{miller}
+Stephen~D. Miller and Wilfried Schmid, \emph{Summation formulas, from {P}oisson
+  and {V}oronoi to the present}, Noncommutative Harmonic Analysis: In Honor of
+  Jacques Carmona (Patrick Delorme and Mich\`ele Vergne, eds.), Progress in
+  Mathematics, vol. 220, Birkh\"auser, 2004, pp.~419--440.
+
+\bibitem{stein}
+Elias~M. Stein and Rami Shakarchi, \emph{Functional analysis}, Princeton
+  Lectures in Analysis, vol.~IV, Princeton University Press, 2011.
+
+\bibitem{zeta}
+E.~C. Titchmarsh, \emph{The theory of the {R}iemann zeta-function}, second ed.,
+  Clarendon Press, Oxford, 1986.
+
+\bibitem{functions}
+\bysame, \emph{The theory of functions}, second ed., Oxford University Press,
+  2002.
+
+\bibitem{voronoi1903}
+Georges Vorono\"i, \emph{Sur un probl\`eme du calcul des fonctions
+  asymptotiques}, J. Reine Angew. Math. \textbf{126} (1903), no.~4, 241--282.
+
+\bibitem{voronoiI}
+\bysame, \emph{Sur une fonction transcendante et ses applications \`a la
+  sommation de quelques s\'eries}, Annales Scientifiques de l'\'Ecole Normale
+  Sup\'erieure, troisi\`eme s\'erie \textbf{21} (1904), 207--267.
+
+\bibitem{voronoiII}
+\bysame, \emph{Sur une fonction transcendante et ses applications \`a la
+  sommation de quelques s\'eries, seconde partie}, Annales Scientifiques de
+  l'\'Ecole Normale Sup\'erieure, troisi\`eme s\'erie \textbf{21} (1904),
+  459--533.
+
+\bibitem{wigert}
+S.~Wigert, \emph{Sur la s\'erie de {L}ambert et son application \`a la
+  th\'eorie des nombres}, Acta Math. \textbf{41} (1916), 197--218.
+
+\end{thebibliography}

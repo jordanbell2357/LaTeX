@@ -1,0 +1,136 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,graphicx,subfig,mathrsfs,amsthm}
+\newcommand{\norm}[1]{\left\Vert #1 \right\Vert}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\begin{document}
+\title{Liouville's theorem and Gibbs measures}
+\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
+\date{\today}
+
+\maketitle
+
+
+Let $M$ be a symplectic manifold with symplectic form $\omega$. Define $\omega^\sharp:TM \to T^*M$
+by
+\[
+\omega^\sharp(X)Y=\omega(X,Y), \qquad Y \in C^\infty(M,TM),
+\]
+in other words,
+\[
+(\omega^\sharp(X))_x v=\omega_x(X_x,v),\qquad x\in M, v \in T_x M.
+\]
+$\omega^\sharp:TM \to T^*M$ is a vector bundle isomorphism.
+
+Let $H \in C^\infty(M,\mathbb{R})$. We define
+\[
+X_H=(\omega^\sharp)^{-1}(dH),
+\]
+i.e.,
+\[
+X_H(x)=(\omega^\sharp)^{-1}(dH(x)), \qquad x \in M.
+\]
+Thus, $X_H$ is the unique element of $C^\infty(M,TM)$ such that
+\[
+\omega(X_H,Y)=dH(Y), \qquad Y \in C^\infty(M,TM).
+\]
+We call $X_H \in C^\infty (M,TM)$ the Hamiltonian vector field of $H$, or the symplectic gradient $\nabla_\omega H$ of $H$.
+
+If $\omega=\sum_{i=1}^n dq^i \wedge dp_i$, define $X \in C^\infty(M,TM)$ by
+\[
+X=\sum_{i=1}^n \frac{\partial H}{dp_i} \frac{\partial}{\partial q^i } -\frac{\partial H}{dq^i} \frac{\partial}{\partial p_i}.
+\]
+We have
+\[
+i_X dq^i=\frac{\partial H}{\partial dp_i}
+\]
+and
+\[
+i_X dp_i=-\frac{\partial H}{dq^i},
+\]
+hence, as $i_X(\alpha \wedge \beta)=(i_X \alpha) \wedge \beta + (-1)^k \alpha \wedge (i_X \beta)$ for $\alpha \in \Omega^k$ \cite[p.~115, Theorem 2.4.13]{foundations},
+\begin{eqnarray*}
+i_X \omega&=&\sum_{i=1}^n i_X ( dq^i \wedge dp_i)\\
+&=&\sum_{i=1}^n (i_X dq^i) \wedge dp_i - dq^i \wedge (i_X dp_i)\\
+&=&\sum_{i=1}^n \frac{\partial H}{\partial p_i} dp_i +\frac{\partial H}{\partial q^i} dq^i\\
+&=&dH.
+\end{eqnarray*}
+Hence $X=X_H$.
+
+For a vector field $X$, the Lie derivative $L_X \omega$ of $\omega$ is defined by, 
+\[
+L_X \omega= (F_t^*)^{-1} \frac{d}{dt} F_t^* \omega,
+\]
+which one checks is independent of $t$, where $F_t^* \omega$ is the pull-back of $\omega$ by $F_t$.
+
+Let $F_t$ be the flow of $X_H$, for $t \in I$ where $I$ is some open interval with $0 \in I$. For $t \in I$, we have by \cite[p.~115, Theorem 2.3.13]{foundations},
+\begin{eqnarray*}
+\frac{d}{dt} \left( F_t^* \omega \right)&=&F_t^*\left( L_{X_H} \omega\right)\\
+&=&F_t^* \left( i_X d\omega + d(i_{X_H} \omega) \right)\\
+&=&F_t^*(i_X 0 + ddH)\\
+&=&F_t^*(0+0)\\
+&=&0.
+\end{eqnarray*}
+Thus, for $t \in I$ we have $F_t^* \omega=F_0^* \omega=\omega$. So for each $t \in I$,  the map $F_t:M \to M$ is a symplectomorphism.
+
+Let
+\[
+\mu=\frac{\omega^n}{n!}=\frac{1}{n!} \underbrace{\omega \wedge \cdots \wedge \omega}_{n}.
+\]
+$\mu$ is equal to the degree $2n$ term in
+\[
+\exp(\omega).
+\]
+
+We have, as $F_t^*$ is a homomorphism of differential algebras \cite[p.~113, Theorem 2.4.9]{foundations} and as $F_t$ is a symplectomorphism,
+\begin{eqnarray*}
+F_t^* \mu&=&\frac{1}{n!} (F_t^* \omega) \wedge \cdots (F_t^* \omega)\\
+&=&\frac{1}{n!} \omega \wedge \cdots \wedge \omega\\
+&=&\mu.
+\end{eqnarray*}
+
+
+If $\omega=\sum_{i=1}^n dq^i \wedge dp_i$ then
+\[
+\omega^n=(-1)^{\frac{n(n-1)}{2}}n! dq^1 \wedge \cdots dq^n \wedge dp_1 \wedge \cdots \wedge dp_n;
+\]
+the sign comes up getting all the $q^i$'s together; since we have to reorder both the $q^i$'s and the $p_i$'s the signs we get from doing those cancel.
+
+
+If $f \in C^\infty(\mathbb{R},\mathbb{R})$, then, as $H \circ F_t = H$ for all $t \in I$,
+\begin{eqnarray*}
+F_t^* ((f\circ H) \mu)&=&(f\circ H \circ F_t) F_t^* \mu\\
+&=&(f \circ H) \mu.
+\end{eqnarray*}
+Let $\mu_\beta=e^{-\beta H}\mu$. We call $\mu_\beta \in \Omega^{2n}(M)$ a Gibbs measure on $M$.
+
+One can motivate the choice of $e^{-\beta H}$ as a function  by which to multiply $\mu$ (rather than any other function invariant under the Hamiltonian flow $F_t$) through 
+equivariant cohomology. See \cite[pp.~197--198]{MR1853077}. Let $z$ be a formal variable. An equivariant differential form (for the Hamiltonian flow of $H$) is a finite sum
+$\alpha=\sum_n \alpha_n z^n$, where $\alpha_n$ is a differential form on $M$ such that $L_{X_H} \alpha_n=0$. We define the equivariant differential $D$ (for the Hamiltonian flow of $H$)
+by
+\[
+D \alpha = d\alpha-zi_{X_H} \alpha=\sum_n d(\alpha_n)z^n-z\sum_n i_X (\alpha_n) z^n.
+\]
+But
+\begin{eqnarray*}
+D^2 \alpha&=&d^2 \alpha-z di_{X_H}\alpha-zi_{X_H} d\alpha   + z^2 i_{X_H} i_{X_H} \alpha\\
+&=&-z\sum_n \left(d(i_{X_H} \alpha_n) +i_{X_H} (d\alpha_n) \right)z^n+z^2 \sum_n i_{X_H} i_{X_H} \alpha_n z^n\\
+&=&-z\sum_n L_{X_H} \alpha_n z^n+0\\
+&=&0.
+\end{eqnarray*}
+Thus $D^2=0$. If $L_{X_H} \alpha=0$, then $L_{X_H} (D\alpha)=0$, while the differential of a regular differential form that is invariant
+under a Hamiltonian flow is not necessarily itself invariant under the Hamiltonian flow. 
+
+$D\omega=d\omega-zi_{X_H} \omega=-(dH) z$. As $i_{X_H} f=0$ for a function $f$, we have
+$D(\omega+zH)=0$; thus while $\omega$ is closed under the usual differential $d$,
+$\omega+zH$ is closed under the equivariant differential $D$. The degree $2n$ term of $\exp(\omega+zH)$ is
+\[
+e^{zH} \frac{\omega^n}{n!}=e^{zH} \mu.
+\]
+Taking $z=-\beta$ gives us the Gibbs measure $\mu_\beta$.
+
+\bibliographystyle{amsplain}
+\bibliography{equivariant}
+
+\end{document}

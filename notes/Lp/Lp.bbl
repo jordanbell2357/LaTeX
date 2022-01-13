@@ -1,0 +1,170 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{10}
+
+\bibitem{MR1458861}
+J.~Marshall Ash and Michael Ganzburg, \emph{An extremal problem for
+  trigonometric polynomials}, Proc. Amer. Math. Soc. \textbf{127} (1999),
+  no.~1, 211--216.
+
+\bibitem{MR0023366}
+R.~P. Boas, Jr., \emph{Inequalities for the coefficients of trigonometric
+  polynomials. {II}}, Nederl. Akad. Wetensch., Proc. \textbf{50} (1947),
+  759--762 = Indagationes Math. 9, 369--372 (1947).
+
+\bibitem{MR2301609}
+S.~V. Bochkarev, \emph{Multiplicative inequalities for the {$L_1$}-norm:
+  applications to analysis and number theory}, Proc. Steklov Inst. Math.
+  \textbf{255} (2006), 49--64.
+
+\bibitem{MR1814174}
+Peter Borwein and Richard Lockhart, \emph{The expected {$L_p$} norm of random
+  polynomials}, Proc. Amer. Math. Soc. \textbf{129} (2001), no.~5, 1463--1472.
+
+\bibitem{bourgain}
+Jean Bourgain, \emph{{$\Lambda_p$}-sets in analysis: results, problems and
+  related aspects}, Handbook of the Geometry of {B}anach Spaces, volume {I}
+  (W.~B. Johnson and J.~Lindenstrauss, eds.), North-Holland, Amsterdam, 2001,
+  pp.~195--232.
+
+\bibitem{MR1348739}
+P.~L. Butzer, \emph{The {H}ausdorff-{Y}oung theorems of {F}ourier analysis and
+  their impact}, J. Fourier Anal. Appl. \textbf{1} (1994), no.~2, 113--130.
+
+\bibitem{devore}
+Ronald~A. DeVore and George~G. Lorentz, \emph{Constructive approximation}, Die
+  Grundlehren der mathematischen Wissenschaften, vol. 303, Springer, 1993.
+
+\bibitem{MR2899817}
+Tam{\'a}s Erd{\'e}lyi, \emph{Upper bounds for the {$L_q$} norm of {F}ekete
+  polynomials on subarcs}, Acta Arith. \textbf{153} (2012), no.~1, 81--91.
+
+\bibitem{MR1448337}
+Gerald~B. Folland and Alladi Sitaram, \emph{The uncertainty principle: a
+  mathematical survey}, J. Fourier Anal. Appl. \textbf{3} (1997), no.~3,
+  207--238.
+
+\bibitem{MR0028445}
+G.~H. Hardy and J.~E. Littlewood, \emph{A new proof of a theorem on
+  rearrangements}, J. London Math. Soc. \textbf{23} (1948), no.~3, 163--168.
+
+\bibitem{havin}
+Victor Havin and Burglind J\"oricke, \emph{The uncertainty principle in
+  harmonic analysis}, Ergebnisse der Mathematik und ihrer Grenzgebiete, 3.
+  Folge, vol.~28, Springer, 1994.
+
+\bibitem{hua}
+Loo~Keng Hua, \emph{Introduction to number theory}, Springer, 1982, Translated
+  from the Chinese by Peter Shiu.
+
+\bibitem{kahane}
+Jean-Pierre Kahane, \emph{Some random series of functions}, second ed.,
+  Cambridge University Press, 1985.
+
+\bibitem{katznelson}
+Yitzhak Katznelson, \emph{An introduction to harmonic analysis}, third ed.,
+  Cambridge Mathematical Library, Cambridge University Press, 2004.
+
+\bibitem{MR0340916}
+G.~K. Kristiansen, \emph{Proof of an inequality for trigonometric polynomials},
+  Proc. Amer. Math. Soc. \textbf{44} (1974), 49--57.
+
+\bibitem{lieb}
+Elliott~H. Lieb and Michael Loss, \emph{Analysis}, second ed., Graduate Studies
+  in Mathematics, vol.~14, American Mathematical Society, Providence, RI, 2001.
+
+\bibitem{MR558399}
+Attila M{\'a}t{\'e} and Paul~G. Nevai, \emph{Bernstein's inequality in
+  {$L^{p}$} for {$0<p<1$} and {$(C,\,1)$}\ bounds for orthogonal polynomials},
+  Ann. of Math. (2) \textbf{111} (1980), no.~1, 145--154.
+
+\bibitem{MR621019}
+O.~Carruth McGehee, Louis Pigno, and Brent Smith, \emph{Hardy's inequality and
+  the {$L^{1}$} norm of exponential sums}, Ann. of Math. (2) \textbf{113}
+  (1981), no.~3, 613--618.
+
+\bibitem{sieve}
+Hugh~L. Montgomery, \emph{The analytic principle of the large sieve}, Bull.
+  Amer. Math. Soc \textbf{84} (1978), no.~4, 547--567.
+
+\bibitem{montgomery}
+\bysame, \emph{Ten lectures on the interface between analytic number theory and
+  harmonic analysis}, CBMS Regional Conference Series in Mathematics, no.~84,
+  American Mathematical Society, Providence, RI, 1994.
+
+\bibitem{schlag}
+Camil Muscalu and Wilhelm Schlag, \emph{Classical and multilinear harmonic
+  analysis, volume 1}, Cambridge Studies in Advanced Mathematics, no. 137,
+  Cambridge University Press, 2013.
+
+\bibitem{nathanson}
+Melvyn~B. Nathanson, \emph{Additive number theory: the classical bases},
+  Graduate Texts in Mathematics, vol. 164, Springer, 1996.
+
+\bibitem{MR1771766}
+Fedor~L. Nazarov, \emph{Complete version of {T}uran's lemma for trigonometric
+  polynomials on the unit circumference}, Complex analysis, operators, and
+  related topics: the {S. A. Vinogradov} memorial volume (Victor~P. Havin and
+  Nikolai~K. Nikolski, eds.), Operator Theory: Advances and Applications, vol.
+  113, Birkh\"auser, Basel, 2000, pp.~239--246.
+
+\bibitem{newman}
+D.~J. Newman, \emph{Norms of polynomials}, Amer. Math. Monthly \textbf{67}
+  (1960), 778--779.
+
+\bibitem{MR3078275}
+E.~Nursultanov and S.~Tikhonov, \emph{A {S}harp {R}emez {I}nequality for
+  {T}rigonometric {P}olynomials}, Constr. Approx. \textbf{38} (2013), no.~1,
+  101--132.
+
+\bibitem{oh}
+Tadahiro Oh and \'Arp\'ad B\'enyi, \emph{The {S}obolev inequality on the torus
+  revisited}, Publ. Math. Debrecen.
+
+\bibitem{polya}
+George P\'olya and G\'abor Szeg{\H o}, \emph{Problems and theorems in analysis,
+  volume {II}}, Die Grundlehren der mathematischen Wissenschaften, vol. 216,
+  Springer, 1976, Translated from the German by C. E. Billigheimer.
+
+\bibitem{groups}
+Walter Rudin, \emph{Fourier analysis on groups}, Interscience Tracts in Pure
+  and Applied Mathematics, no.~12, Interscience Publishers, 1962.
+
+\bibitem{MR1413303}
+\bysame, \emph{The way {I} remember it}, History of Mathematics, vol.~12,
+  American Mathematical Society, Providence, RI, 1997.
+
+\bibitem{master}
+J.~Michael Steele, \emph{The {C}auchy-{S}chwarz master class: an introduction
+  to the art of mathematical inequalities}, MAA Problem Books Series, Cambridge
+  University Press, 2004.
+
+\bibitem{steinI}
+Elias~M. Stein and Rami Shakarchi, \emph{Fourier analysis: an introduction},
+  Princeton Lectures in Analysis, vol.~I, Princeton University Press, 2003.
+
+\bibitem{steinIV}
+\bysame, \emph{Functional analysis: introduction to further topics in
+  analysis}, Princeton Lectures in Analysis, vol.~IV, Princeton University
+  Press, 2011.
+
+\bibitem{timan}
+A.~F. Timan, \emph{Theory of approximation of functions of a real variable},
+  International Series of Monographs on Pure and Applied Mathematics, vol.~34,
+  Pergamon Press, Oxford, 1963, Translated from the Russian by J. Berry.
+
+\bibitem{MR1016168}
+M.~von Golitschek and G.~G. Lorentz, \emph{Bernstein inequalities in
+  {$L_p,\;0\leq p\leq +\infty$}}, Rocky Mountain J. Math. \textbf{19} (1989),
+  no.~1, 145--156.
+
+\bibitem{zygmund}
+Antoni Zygmund, \emph{Trigonometric series, volumes {I} \& {II} combined},
+  third ed., Cambridge Mathematical Library, Cambridge University Press, 2002.
+
+\end{thebibliography}
