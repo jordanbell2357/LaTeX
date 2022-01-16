@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/jorda/OneDrive/Documents/GitHub/latex/notes/Qdual"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/latex/notes/Qdual"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
 <?latexml package="hyperref" options="draft"?>
@@ -7,19 +7,7 @@
 <document xmlns="http://dlmf.nist.gov/LaTeXML" class="ltx_authors_1line">
   <resource src="LaTeXML.css" type="text/css"/>
   <resource src="ltx-article.css" type="text/css"/>
-  <title>The Pontryagin duals of <Math mode="inline" tex="\mathbb{Q}/\mathbb{Z}" text="Q / Z" xml:id="m1">
-      <XMath>
-        <XMApp>
-          <XMTok meaning="divide" role="MULOP">/</XMTok>
-          <XMTok font="blackboard" role="UNKNOWN">Q</XMTok>
-          <XMTok font="blackboard" role="UNKNOWN">Z</XMTok>
-        </XMApp>
-      </XMath>
-    </Math> and <Math mode="inline" tex="\mathbb{Q}" text="Q" xml:id="m2">
-      <XMath>
-        <XMTok font="blackboard" role="UNKNOWN">Q</XMTok>
-      </XMath>
-    </Math></title>
+  <title>The Pontryagin duals of <text font="bold">Q</text>/<text font="bold">Z</text> and <text font="bold">Q</text></title>
   <creator role="author">
     <personname>Jordan Bell</personname>
   </creator>
@@ -389,11 +377,7 @@ dual <Math mode="inline" tex="\widehat{\mathbb{Q}}" text="widehat@(Q)" xml:id="S
       <tag role="refnum">2</tag>
       <tag role="typerefnum">§2</tag>
     </tags>
-    <title><tag close=" ">2</tag>The <Math mode="inline" tex="p" text="p" xml:id="S2.m1">
-        <XMath>
-          <XMTok font="italic" role="UNKNOWN">p</XMTok>
-        </XMath>
-      </Math>-adic integers</title>
+    <title><tag close=" ">2</tag>The <text font="italic">p</text>-adic integers</title>
     <para xml:id="S2.p1">
       <p>For a prime <Math mode="inline" tex="p" text="p" xml:id="S2.p1.m1">
           <XMath>
@@ -528,26 +512,7 @@ The inverse limit is a compact abelian group denoted by <Math mode="inline" tex=
       <tag role="refnum">3</tag>
       <tag role="typerefnum">§3</tag>
     </tags>
-    <title><tag close=" ">3</tag><Math mode="inline" tex="\mathbb{Q}/\mathbb{Z}" text="Q / Z" xml:id="S3.m1">
-        <XMath>
-          <XMApp>
-            <XMTok meaning="divide" role="MULOP">/</XMTok>
-            <XMTok font="blackboard" role="UNKNOWN">Q</XMTok>
-            <XMTok font="blackboard" role="UNKNOWN">Z</XMTok>
-          </XMApp>
-        </XMath>
-      </Math> and <Math mode="inline" tex="\widehat{\mathbb{Q}/\mathbb{Z}}" text="widehat@(Q / Z)" xml:id="S3.m2">
-        <XMath>
-          <XMApp>
-            <XMTok name="widehat" role="OVERACCENT">^</XMTok>
-            <XMApp>
-              <XMTok meaning="divide" role="MULOP">/</XMTok>
-              <XMTok font="blackboard" role="UNKNOWN">Q</XMTok>
-              <XMTok font="blackboard" role="UNKNOWN">Z</XMTok>
-            </XMApp>
-          </XMApp>
-        </XMath>
-      </Math></title>
+    <title><tag close=" ">3</tag><text font="bold">Q</text>/<text font="bold">Z</text> and its Pontryagin dual</title>
     <para xml:id="S3.p1">
       <p>Let <Math mode="inline" tex="G" text="G" xml:id="S3.p1.m1">
           <XMath>
@@ -2615,11 +2580,7 @@ of groups <Math mode="inline" tex="\mathbb{Z}/n" text="Z / n" xml:id="S3.p6.m16"
       <tag role="refnum">4</tag>
       <tag role="typerefnum">§4</tag>
     </tags>
-    <title><tag close=" ">4</tag>The <Math mode="inline" tex="p" text="p" xml:id="S4.m1">
-        <XMath>
-          <XMTok font="italic" role="UNKNOWN">p</XMTok>
-        </XMath>
-      </Math>-adic integers</title>
+    <title><tag close=" ">4</tag>The <text font="italic">p</text>-adic integers</title>
     <para xml:id="S4.p1">
       <p>In this section we give a construction of the ring <Math mode="inline" tex="\mathbb{Z}_{p}" text="Z _ p" xml:id="S4.p1.m1">
           <XMath>
@@ -6396,11 +6357,7 @@ we have that <Math mode="inline" tex="c_{v_{p}(a)+v_{p}(b)}\neq 0" text="c _ (v 
       <tag role="refnum">5</tag>
       <tag role="typerefnum">§5</tag>
     </tags>
-    <title><tag close=" ">5</tag>Reduction modulo <Math mode="inline" tex="p" text="p" xml:id="S5.m1">
-        <XMath>
-          <XMTok font="italic" role="UNKNOWN">p</XMTok>
-        </XMath>
-      </Math>, maximal ideals, and local rings</title>
+    <title><tag close=" ">5</tag>Reduction modulo <text font="italic">p</text>, maximal ideals, and local rings</title>
     <para xml:id="S5.p1">
       <p>Define <Math mode="inline" tex="\epsilon:\mathbb{Z}_{p}\to\mathbb{Z}/p" text="epsilon colon Z _ p to Z / p" xml:id="S5.p1.m1">
           <XMath>
@@ -7388,15 +7345,7 @@ This shows that <Math mode="inline" tex="I\subset p^{k}\mathbb{Z}_{p}" text="I s
       <tag role="refnum">6</tag>
       <tag role="typerefnum">§6</tag>
     </tags>
-    <title><tag close=" ">6</tag>Topology of <Math mode="inline" tex="\mathbb{Z}_{p}" text="Z _ p" xml:id="S6.m1">
-        <XMath>
-          <XMApp>
-            <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-            <XMTok font="blackboard" role="UNKNOWN">Z</XMTok>
-            <XMTok font="italic" fontsize="70%" role="UNKNOWN">p</XMTok>
-          </XMApp>
-        </XMath>
-      </Math></title>
+    <title><tag close=" ">6</tag>Topology of the <text font="italic">p</text>-adic integers</title>
     <para xml:id="S6.p1">
       <p>As sets,
 <!--  %**** Qdual.tex Line 325 **** --></p>
@@ -14347,15 +14296,7 @@ For example, for <Math mode="inline" tex="a\in\mathbb{Z}" text="a element-of Z" 
       <tag role="refnum">8</tag>
       <tag role="typerefnum">§8</tag>
     </tags>
-    <title><tag close=" ">8</tag><Math mode="inline" tex="\mathbb{Q}_{p}" text="Q _ p" xml:id="S8.m1">
-        <XMath>
-          <XMApp>
-            <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-            <XMTok font="blackboard" role="UNKNOWN">Q</XMTok>
-            <XMTok font="italic" fontsize="70%" role="UNKNOWN">p</XMTok>
-          </XMApp>
-        </XMath>
-      </Math></title>
+    <title><tag close=" ">8</tag>The field of <text font="italic">p</text>-adic numbers</title>
     <para xml:id="S8.p1">
       <p>We now construct <Math mode="inline" tex="\mathbb{Q}_{p}" text="Q _ p" xml:id="S8.p1.m1">
           <XMath>
@@ -16183,11 +16124,7 @@ each point in <Math mode="inline" tex="\mathbb{Q}_{p}" text="Q _ p" xml:id="S8.p
       <tag role="refnum">9</tag>
       <tag role="typerefnum">§9</tag>
     </tags>
-    <title><tag close=" ">9</tag><Math mode="inline" tex="p" text="p" xml:id="S9.m1">
-        <XMath>
-          <XMTok font="italic" role="UNKNOWN">p</XMTok>
-        </XMath>
-      </Math>-adic fractional parts</title>
+    <title><tag close=" ">9</tag><text font="italic">p</text>-adic fractional parts</title>
     <para xml:id="S9.p1">
       <p>We identify the localization of <Math mode="inline" tex="\mathbb{Z}" text="Z" xml:id="S9.p1.m1">
           <XMath>

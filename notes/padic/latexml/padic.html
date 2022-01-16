@@ -1,17 +1,31 @@
 <!DOCTYPE html><html>
 <head>
 <title>Hensel’s lemma, valuations, and p-adic numbers</title>
-<!--Generated on Sun Jan 16 03:35:34 2022 by LaTeXML (version 0.8.4) http://dlmf.nist.gov/LaTeXML/.-->
+<!--Generated on Sun Jan 16 09:47:51 2022 by LaTeXML (version 0.8.4) http://dlmf.nist.gov/LaTeXML/.-->
 <!--Document created on November 2, 2014.-->
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="LaTeXML.css" type="text/css">
 <link rel="stylesheet" href="ltx-article.css" type="text/css">
 <link rel="stylesheet" href="LaTeXML-navbar-left.css" type="text/css">
-<link rel="stylesheet" href="LaTeXML-blue.css" type="text/css">
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" type="text/javascript"></script>
 </head>
 <body>
+<nav class="ltx_page_navbar">
+<div class="ltx_TOC">
+<ul class="ltx_toclist">
+<li class="ltx_tocentry ltx_tocentry_section"><a href="#S1" title="1 Hensel’s lemma ‣ Hensel’s lemma, valuations, and p -adic numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1 </span>Hensel’s lemma</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="#S2" title="2 Absolute values on fields ‣ Hensel’s lemma, valuations, and p -adic numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2 </span>Absolute values on fields</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="#S3" title="3 Valuations ‣ Hensel’s lemma, valuations, and p -adic numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3 </span>Valuations</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="#S4" title="4 Valuation rings ‣ Hensel’s lemma, valuations, and p -adic numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4 </span>Valuation rings</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="#S5" title="5 p-adic valuations ‣ Hensel’s lemma, valuations, and p -adic numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">5 </span><span class="ltx_text ltx_font_italic">p</span>-adic valuations</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="#S6" title="6 p-adic absolute values and metrics ‣ Hensel’s lemma, valuations, and p -adic numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">6 </span><span class="ltx_text ltx_font_italic">p</span>-adic absolute values and metrics</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="#S7" title="7 Completions of metric spaces ‣ Hensel’s lemma, valuations, and p -adic numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">7 </span>Completions of metric spaces</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="#S8" title="8 The exponential function ‣ Hensel’s lemma, valuations, and p -adic numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">8 </span>The exponential function</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="#S9" title="9 Topology ‣ Hensel’s lemma, valuations, and p -adic numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">9 </span>Topology</span></a></li>
+</ul>
+</div>
+</nav>
 <div class="ltx_page_main">
 <div class="ltx_page_content">
 <article class="ltx_document ltx_authors_1line">
@@ -82,7 +96,8 @@ Suppose that <math id="S1.p1.m3" class="ltx_Math" alttext="0\leq a_{0}&lt;p" dis
 </tr>
 </table>
 <p class="ltx_p">Because <math id="S1.p1.m5" class="ltx_Math" alttext="f(a_{0})\equiv 0\pmod{p}" display="inline"><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>a</mi><mn>0</mn></msub><mo stretchy="false">)</mo></mrow></mrow><mo>≡</mo><mrow><mn>0</mn><mspace width="veryverythickmathspace"></mspace><mrow><mo lspace="8.1pt" stretchy="false">(</mo><mrow><mo>mod</mo><mi>p</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math>, each term on the right-hand side is an integer.
-Then, <math id="S1.p1.m6" class="ltx_Math" alttext="f(a_{0}+py)\equiv 0\pmod{p^{2}}" display="inline"><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>a</mi><mn>0</mn></msub><mo>+</mo><mrow><mi>p</mi><mo>⁢</mo><mi>y</mi></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>≡</mo><mrow><mn>0</mn><mspace width="veryverythickmathspace"></mspace><mrow><mo lspace="8.1pt" stretchy="false">(</mo><mrow><mo>mod</mo><msup><mi>p</mi><mn>2</mn></msup></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math> is equivalent to</p>
+Then, <math id="S1.p1.m6" class="ltx_Math" alttext="f(a_{0}+py)\equiv 0\pmod{p^{2}}" display="inline"><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>a</mi><mn>0</mn></msub><mo>+</mo><mrow><mi>p</mi><mo>⁢</mo><mi>y</mi></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>≡</mo><mrow><mn>0</mn><mspace width="veryverythickmathspace"></mspace><mrow><mo lspace="8.1pt" stretchy="false">(</mo><mrow><mo>mod</mo><msup><mi>p</mi><mn>2</mn></msup></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math> is equivalent to
+</p>
 <table id="S1.Ex6" class="ltx_equation ltx_eqn_table">
 
 <tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
@@ -133,7 +148,8 @@ This <math id="S1.p1.m11" class="ltx_Math" alttext="y" display="inline"><mi>y</m
 <td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
 </tr>
 </table>
-<p class="ltx_p">and</p>
+<p class="ltx_p">and
+</p>
 <table id="S1.Ex11" class="ltx_equation ltx_eqn_table">
 
 <tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
@@ -253,8 +269,7 @@ are satisfied both by <math id="Thmtheorem1.p1.m6" class="ltx_Math" alttext="a_{
 </tr>
 </table>
 <p class="ltx_p">So <math id="Thmtheorem1.p1.m10" class="ltx_Math" alttext="a_{2}=1" display="inline"><mrow><msub><mi>a</mi><mn>2</mn></msub><mo>=</mo><mn>1</mn></mrow></math>.
-Then,
-</p>
+Then,</p>
 <table id="S1.Ex22" class="ltx_equation ltx_eqn_table">
 
 <tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
@@ -299,8 +314,7 @@ they induce the same topology on <math id="S2.p2.m7" class="ltx_Math" alttext="K
             
             
             
-          <span class="ltx_text ltx_font_italic">Absolute values, valuations and completion</span>, <a href="https://www.math.ethz.ch/education/bachelor/seminars/fs2008/algebra/Crivelli.pdf" title="" class="ltx_ref ltx_url ltx_font_typewriter">https://www.math.ethz.ch/education/bachelor/seminars/fs2008/algebra/Crivelli.pdf</a></span></span></span>
-</p>
+          <span class="ltx_text ltx_font_italic">Absolute values, valuations and completion</span>, <a href="https://www.math.ethz.ch/education/bachelor/seminars/fs2008/algebra/Crivelli.pdf" title="" class="ltx_ref ltx_url ltx_font_typewriter">https://www.math.ethz.ch/education/bachelor/seminars/fs2008/algebra/Crivelli.pdf</a></span></span></span></p>
 </div>
 <div id="Thmtheorem2" class="ltx_theorem ltx_theorem_theorem">
 <h6 class="ltx_title ltx_runin ltx_title_theorem">
@@ -357,8 +371,7 @@ topology on <math id="S2.p4.m7" class="ltx_Math" alttext="K" display="inline"><m
 If <math id="S2.p5.m2" class="ltx_Math" alttext="|x|_{1}&lt;1" display="inline"><mrow><msub><mrow><mo stretchy="false">|</mo><mi>x</mi><mo stretchy="false">|</mo></mrow><mn>1</mn></msub><mo>&lt;</mo><mn>1</mn></mrow></math> then <math id="S2.p5.m3" class="ltx_Math" alttext="d_{1}(x^{n},0)=|x^{n}|_{1}=|x|_{1}^{n}\to 0" display="inline"><mrow><mrow><msub><mi>d</mi><mn>1</mn></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msup><mi>x</mi><mi>n</mi></msup><mo>,</mo><mn>0</mn><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><msub><mrow><mo stretchy="false">|</mo><msup><mi>x</mi><mi>n</mi></msup><mo stretchy="false">|</mo></mrow><mn>1</mn></msub><mo>=</mo><msubsup><mrow><mo stretchy="false">|</mo><mi>x</mi><mo stretchy="false">|</mo></mrow><mn>1</mn><mi>n</mi></msubsup><mo>→</mo><mn>0</mn></mrow></math> as <math id="S2.p5.m4" class="ltx_Math" alttext="n\to\infty" display="inline"><mrow><mi>n</mi><mo>→</mo><mi mathvariant="normal">∞</mi></mrow></math>. Thus <math id="S2.p5.m5" class="ltx_Math" alttext="x^{n}\to 0" display="inline"><mrow><msup><mi>x</mi><mi>n</mi></msup><mo>→</mo><mn>0</mn></mrow></math> in <math id="S2.p5.m6" class="ltx_Math" alttext="d_{1}" display="inline"><msub><mi>d</mi><mn>1</mn></msub></math> and
 hence, because the topologies induced by <math id="S2.p5.m7" class="ltx_Math" alttext="|\cdot|_{1}" display="inline"><mrow><mo stretchy="false">|</mo><mo>⋅</mo><msub><mo stretchy="false">|</mo><mn>1</mn></msub></mrow></math> and <math id="S2.p5.m8" class="ltx_Math" alttext="|\cdot|_{2}" display="inline"><mrow><mo stretchy="false">|</mo><mo>⋅</mo><msub><mo stretchy="false">|</mo><mn>2</mn></msub></mrow></math> are equal,
 <math id="S2.p5.m9" class="ltx_Math" alttext="x^{n}\to 0" display="inline"><mrow><msup><mi>x</mi><mi>n</mi></msup><mo>→</mo><mn>0</mn></mrow></math> in <math id="S2.p5.m10" class="ltx_Math" alttext="d_{2}" display="inline"><msub><mi>d</mi><mn>2</mn></msub></math>, i.e. <math id="S2.p5.m11" class="ltx_Math" alttext="|x|_{2}^{n}=|x^{n}|_{2}=d_{2}(x^{n},0)\to 0" display="inline"><mrow><msubsup><mrow><mo stretchy="false">|</mo><mi>x</mi><mo stretchy="false">|</mo></mrow><mn>2</mn><mi>n</mi></msubsup><mo>=</mo><msub><mrow><mo stretchy="false">|</mo><msup><mi>x</mi><mi>n</mi></msup><mo stretchy="false">|</mo></mrow><mn>2</mn></msub><mo>=</mo><mrow><msub><mi>d</mi><mn>2</mn></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msup><mi>x</mi><mi>n</mi></msup><mo>,</mo><mn>0</mn><mo stretchy="false">)</mo></mrow></mrow><mo>→</mo><mn>0</mn></mrow></math>. Therefore <math id="S2.p5.m12" class="ltx_Math" alttext="|x|_{2}&lt;1" display="inline"><mrow><msub><mrow><mo stretchy="false">|</mo><mi>x</mi><mo stretchy="false">|</mo></mrow><mn>2</mn></msub><mo>&lt;</mo><mn>1</mn></mrow></math>. Thus, <math id="S2.p5.m13" class="ltx_Math" alttext="|x|_{1}&lt;1" display="inline"><mrow><msub><mrow><mo stretchy="false">|</mo><mi>x</mi><mo stretchy="false">|</mo></mrow><mn>1</mn></msub><mo>&lt;</mo><mn>1</mn></mrow></math> if and only if
-<math id="S2.p5.m14" class="ltx_Math" alttext="|x|_{2}&lt;1" display="inline"><mrow><msub><mrow><mo stretchy="false">|</mo><mi>x</mi><mo stretchy="false">|</mo></mrow><mn>2</mn></msub><mo>&lt;</mo><mn>1</mn></mrow></math>.
-</p>
+<math id="S2.p5.m14" class="ltx_Math" alttext="|x|_{2}&lt;1" display="inline"><mrow><msub><mrow><mo stretchy="false">|</mo><mi>x</mi><mo stretchy="false">|</mo></mrow><mn>2</mn></msub><mo>&lt;</mo><mn>1</mn></mrow></math>.</p>
 </div>
 <div id="S2.p6" class="ltx_para">
 <p class="ltx_p">Let <math id="S2.p6.m1" class="ltx_Math" alttext="y\in K" display="inline"><mrow><mi>y</mi><mo>∈</mo><mi>K</mi></mrow></math> such that <math id="S2.p6.m2" class="ltx_Math" alttext="|y|_{1}&gt;1" display="inline"><mrow><msub><mrow><mo stretchy="false">|</mo><mi>y</mi><mo stretchy="false">|</mo></mrow><mn>1</mn></msub><mo>&gt;</mo><mn>1</mn></mrow></math> (there is such an element because <math id="S2.p6.m3" class="ltx_Math" alttext="|\cdot|_{1}" display="inline"><mrow><mo stretchy="false">|</mo><mo>⋅</mo><msub><mo stretchy="false">|</mo><mn>1</mn></msub></mrow></math> is nontrivial and
@@ -487,8 +500,7 @@ we have <math id="S2.p6.m13" class="ltx_Math" alttext="|x|_{1}=|y|_{1}^{\alpha}&
 
 <div id="S3.p1" class="ltx_para">
 <p class="ltx_p">A <span class="ltx_text ltx_font_bold">valuation</span> on a field <math id="S3.p1.m1" class="ltx_Math" alttext="K" display="inline"><mi>K</mi></math> is a function <math id="S3.p1.m2" class="ltx_Math" alttext="v:K\to\mathbb{R}\cup\{\infty\}" display="inline"><mrow><mi>v</mi><mo>:</mo><mrow><mi>K</mi><mo>→</mo><mrow><mi>ℝ</mi><mo>∪</mo><mrow><mo stretchy="false">{</mo><mi mathvariant="normal">∞</mi><mo stretchy="false">}</mo></mrow></mrow></mrow></mrow></math>
-satisfying <math id="S3.p1.m3" class="ltx_Math" alttext="v(x)=\infty" display="inline"><mrow><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mi mathvariant="normal">∞</mi></mrow></math> if and only if <math id="S3.p1.m4" class="ltx_Math" alttext="x=0" display="inline"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>, <math id="S3.p1.m5" class="ltx_Math" alttext="v(xy)=v(x)+v(y)" display="inline"><mrow><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>⁢</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow></math>, and
-</p>
+satisfying <math id="S3.p1.m3" class="ltx_Math" alttext="v(x)=\infty" display="inline"><mrow><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mi mathvariant="normal">∞</mi></mrow></math> if and only if <math id="S3.p1.m4" class="ltx_Math" alttext="x=0" display="inline"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>, <math id="S3.p1.m5" class="ltx_Math" alttext="v(xy)=v(x)+v(y)" display="inline"><mrow><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>⁢</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow></math>, and</p>
 <table id="S3.Ex39" class="ltx_equation ltx_eqn_table">
 
 <tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
@@ -518,7 +530,8 @@ satisfying <math id="S3.p1.m3" class="ltx_Math" alttext="v(x)=\infty" display="i
 <td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
 </tr>
 </table>
-<p class="ltx_p">For <math id="S3.p2.m3" class="ltx_Math" alttext="x\neq 0" display="inline"><mrow><mi>x</mi><mo>≠</mo><mn>0</mn></mrow></math>, assume by contradiction that <math id="S3.p2.m4" class="ltx_Math" alttext="\min\{v(x+y),v(x)\}=v(x)" display="inline"><mrow><mrow><mi>min</mi><mo>⁡</mo><mrow><mo stretchy="false">{</mo><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>,</mo><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">}</mo></mrow></mrow><mo>=</mo><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math>. Then, since <math id="S3.p2.m5" class="ltx_Math" alttext="v(-x)=v(-1\cdot x)=v(-1)+v(x)=v(x)" display="inline"><mrow><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo>-</mo><mi>x</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo>-</mo><mrow><mn>1</mn><mo>⋅</mo><mi>x</mi></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo>-</mo><mn>1</mn></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>=</mo><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math>,</p>
+<p class="ltx_p">For <math id="S3.p2.m3" class="ltx_Math" alttext="x\neq 0" display="inline"><mrow><mi>x</mi><mo>≠</mo><mn>0</mn></mrow></math>, assume by contradiction that <math id="S3.p2.m4" class="ltx_Math" alttext="\min\{v(x+y),v(x)\}=v(x)" display="inline"><mrow><mrow><mi>min</mi><mo>⁡</mo><mrow><mo stretchy="false">{</mo><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>,</mo><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">}</mo></mrow></mrow><mo>=</mo><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math>. Then, since <math id="S3.p2.m5" class="ltx_Math" alttext="v(-x)=v(-1\cdot x)=v(-1)+v(x)=v(x)" display="inline"><mrow><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo>-</mo><mi>x</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo>-</mo><mrow><mn>1</mn><mo>⋅</mo><mi>x</mi></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mo>-</mo><mn>1</mn></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>+</mo><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>=</mo><mrow><mi>v</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></math>,
+</p>
 <table id="S3.Ex41" class="ltx_equation ltx_eqn_table">
 
 <tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
@@ -575,7 +588,8 @@ and <math id="Thmtheorem5.p1.m4" class="ltx_Math" alttext="s&gt;0" display="inli
 </div>
 <div id="Thmtheorem5.p2" class="ltx_para">
 <p class="ltx_p"><span class="ltx_text ltx_font_italic">If <math id="Thmtheorem5.p2.m1" class="ltx_Math" alttext="v" display="inline"><mi>v</mi></math> is a valuation on <math id="Thmtheorem5.p2.m2" class="ltx_Math" alttext="K" display="inline"><mi>K</mi></math> and <math id="Thmtheorem5.p2.m3" class="ltx_Math" alttext="q&gt;1" display="inline"><mrow><mi>q</mi><mo mathvariant="normal">&gt;</mo><mn mathvariant="normal">1</mn></mrow></math>, then the function <math id="Thmtheorem5.p2.m4" class="ltx_Math" alttext="|\cdot|_{q}:K\to\mathbb{R}_{\geq 0}" display="inline"><mrow><mo mathvariant="normal" stretchy="false">|</mo><mo mathvariant="normal">⋅</mo><msub><mo mathvariant="normal" stretchy="false">|</mo><mi>q</mi></msub><mo mathvariant="normal">:</mo><mi>K</mi><mo mathvariant="normal">→</mo><msub><mi mathvariant="normal">R</mi><mrow><mi></mi><mo mathvariant="normal">≥</mo><mn mathvariant="normal">0</mn></mrow></msub></mrow></math> defined by
-<math id="Thmtheorem5.p2.m5" class="ltx_Math" alttext="|x|_{q}=q^{-v(x)}" display="inline"><mrow><msub><mrow><mo mathvariant="normal" stretchy="false">|</mo><mi>x</mi><mo mathvariant="normal" stretchy="false">|</mo></mrow><mi>q</mi></msub><mo mathvariant="normal">=</mo><msup><mi>q</mi><mrow><mo mathvariant="normal">-</mo><mrow><mi>v</mi><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">(</mo><mi>x</mi><mo mathvariant="normal" stretchy="false">)</mo></mrow></mrow></mrow></msup></mrow></math> for <math id="Thmtheorem5.p2.m6" class="ltx_Math" alttext="x\neq 0" display="inline"><mrow><mi>x</mi><mo mathvariant="normal">≠</mo><mn mathvariant="normal">0</mn></mrow></math> and <math id="Thmtheorem5.p2.m7" class="ltx_Math" alttext="|0|_{q}=0" display="inline"><mrow><msub><mrow><mo mathvariant="normal" stretchy="false">|</mo><mn mathvariant="normal">0</mn><mo mathvariant="normal" stretchy="false">|</mo></mrow><mi>q</mi></msub><mo mathvariant="normal">=</mo><mn mathvariant="normal">0</mn></mrow></math> is a non-Archimedean absolute value on <math id="Thmtheorem5.p2.m8" class="ltx_Math" alttext="K" display="inline"><mi>K</mi></math>.</span></p>
+<math id="Thmtheorem5.p2.m5" class="ltx_Math" alttext="|x|_{q}=q^{-v(x)}" display="inline"><mrow><msub><mrow><mo mathvariant="normal" stretchy="false">|</mo><mi>x</mi><mo mathvariant="normal" stretchy="false">|</mo></mrow><mi>q</mi></msub><mo mathvariant="normal">=</mo><msup><mi>q</mi><mrow><mo mathvariant="normal">-</mo><mrow><mi>v</mi><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">(</mo><mi>x</mi><mo mathvariant="normal" stretchy="false">)</mo></mrow></mrow></mrow></msup></mrow></math> for <math id="Thmtheorem5.p2.m6" class="ltx_Math" alttext="x\neq 0" display="inline"><mrow><mi>x</mi><mo mathvariant="normal">≠</mo><mn mathvariant="normal">0</mn></mrow></math> and <math id="Thmtheorem5.p2.m7" class="ltx_Math" alttext="|0|_{q}=0" display="inline"><mrow><msub><mrow><mo mathvariant="normal" stretchy="false">|</mo><mn mathvariant="normal">0</mn><mo mathvariant="normal" stretchy="false">|</mo></mrow><mi>q</mi></msub><mo mathvariant="normal">=</mo><mn mathvariant="normal">0</mn></mrow></math> is a non-Archimedean absolute value on <math id="Thmtheorem5.p2.m8" class="ltx_Math" alttext="K" display="inline"><mi>K</mi></math>.
+</span></p>
 </div>
 </div>
 <div class="ltx_proof">
@@ -772,9 +786,7 @@ real <math id="S3.p5.m3" class="ltx_Math" alttext="s&gt;0" display="inline"><mro
 <td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
 </tr>
 </table>
-<p class="ltx_p"><span class="ltx_text ltx_font_italic">is the unique maximal ideal of <math id="Thmtheorem6.p1.m9" class="ltx_Math" alttext="\mathcal{O}_{v}" display="inline"><msub><mi class="ltx_font_mathcaligraphic" mathvariant="normal">O</mi><mi>v</mi></msub></math>.
-
-</span></p>
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">is the unique maximal ideal of <math id="Thmtheorem6.p1.m9" class="ltx_Math" alttext="\mathcal{O}_{v}" display="inline"><msub><mi class="ltx_font_mathcaligraphic" mathvariant="normal">O</mi><mi>v</mi></msub></math>.</span></p>
 </div>
 </div>
 <div class="ltx_proof">
@@ -859,7 +871,8 @@ We call the quotient <math id="S4.p7.m2" class="ltx_Math" alttext="\mathcal{O}_{
 <div id="Thmtheorem7.p1" class="ltx_para">
 <p class="ltx_p"><span class="ltx_text ltx_font_italic">If <math id="Thmtheorem7.p1.m1" class="ltx_Math" alttext="v" display="inline"><mi>v</mi></math> is a normalized valuation on a field <math id="Thmtheorem7.p1.m2" class="ltx_Math" alttext="K" display="inline"><mi>K</mi></math> then for all nonzero <math id="Thmtheorem7.p1.m3" class="ltx_Math" alttext="x\in K" display="inline"><mrow><mi>x</mi><mo mathvariant="normal">∈</mo><mi>K</mi></mrow></math>
 and <math id="Thmtheorem7.p1.m4" class="ltx_Math" alttext="t\in\mathfrak{p}_{v}" display="inline"><mrow><mi>t</mi><mo mathvariant="normal">∈</mo><msub><mi mathvariant="normal">p</mi><mi>v</mi></msub></mrow></math>, <math id="Thmtheorem7.p1.m5" class="ltx_Math" alttext="v(t)=1" display="inline"><mrow><mrow><mi>v</mi><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">(</mo><mi>t</mi><mo mathvariant="normal" stretchy="false">)</mo></mrow></mrow><mo mathvariant="normal">=</mo><mn mathvariant="normal">1</mn></mrow></math>,
-there is some <math id="Thmtheorem7.p1.m6" class="ltx_Math" alttext="u\in\mathcal{O}_{v}^{*}" display="inline"><mrow><mi>u</mi><mo mathvariant="normal">∈</mo><msubsup><mi class="ltx_font_mathcaligraphic" mathvariant="normal">O</mi><mi>v</mi><mo mathvariant="normal">*</mo></msubsup></mrow></math> such that</span></p>
+there is some <math id="Thmtheorem7.p1.m6" class="ltx_Math" alttext="u\in\mathcal{O}_{v}^{*}" display="inline"><mrow><mi>u</mi><mo mathvariant="normal">∈</mo><msubsup><mi class="ltx_font_mathcaligraphic" mathvariant="normal">O</mi><mi>v</mi><mo mathvariant="normal">*</mo></msubsup></mrow></math> such that
+</span></p>
 <table id="S4.Ex69" class="ltx_equation ltx_eqn_table">
 
 <tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
@@ -894,7 +907,8 @@ ideal domain. If <math id="Thmtheorem8.p1.m4" class="ltx_Math" alttext="A" displ
 <td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
 </tr>
 </table>
-<p class="ltx_p"><span class="ltx_text ltx_font_italic">and</span></p>
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">and
+</span></p>
 <table id="S4.Ex71" class="ltx_equation ltx_eqn_table">
 
 <tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
@@ -953,14 +967,13 @@ define <math id="S4.p10.m3" class="ltx_Math" alttext="\phi:\mathfrak{p}_{v}^{n}\
 <span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Lemma 9</span></span>.</h6>
 <div id="Thmtheorem9.p1" class="ltx_para">
 <p class="ltx_p"><span class="ltx_text ltx_font_italic">If <math id="Thmtheorem9.p1.m1" class="ltx_Math" alttext="v_{1},v_{2}" display="inline"><mrow><msub><mi>v</mi><mn mathvariant="normal">1</mn></msub><mo mathvariant="normal">,</mo><msub><mi>v</mi><mn mathvariant="normal">2</mn></msub></mrow></math> are discrete valuations on a field <math id="Thmtheorem9.p1.m2" class="ltx_Math" alttext="K" display="inline"><mi>K</mi></math> such that <math id="Thmtheorem9.p1.m3" class="ltx_Math" alttext="\mathcal{O}_{v_{1}}=\mathcal{O}_{v_{2}}" display="inline"><mrow><msub><mi class="ltx_font_mathcaligraphic" mathvariant="normal">O</mi><msub><mi>v</mi><mn mathvariant="normal">1</mn></msub></msub><mo mathvariant="normal">=</mo><msub><mi class="ltx_font_mathcaligraphic" mathvariant="normal">O</mi><msub><mi>v</mi><mn mathvariant="normal">2</mn></msub></msub></mrow></math>, then
-<math id="Thmtheorem9.p1.m4" class="ltx_Math" alttext="v_{1}" display="inline"><msub><mi>v</mi><mn mathvariant="normal">1</mn></msub></math> and <math id="Thmtheorem9.p1.m5" class="ltx_Math" alttext="v_{2}" display="inline"><msub><mi>v</mi><mn mathvariant="normal">2</mn></msub></math> are equivalent.
-</span></p>
+<math id="Thmtheorem9.p1.m4" class="ltx_Math" alttext="v_{1}" display="inline"><msub><mi>v</mi><mn mathvariant="normal">1</mn></msub></math> and <math id="Thmtheorem9.p1.m5" class="ltx_Math" alttext="v_{2}" display="inline"><msub><mi>v</mi><mn mathvariant="normal">2</mn></msub></math> are equivalent.</span></p>
 </div>
 </div>
 </section>
 <section id="S5" class="ltx_section">
 <h2 class="ltx_title ltx_title_section">
-<span class="ltx_tag ltx_tag_section">5 </span><math id="S5.m1" class="ltx_Math" alttext="p" display="inline"><mi>p</mi></math>-adic valuations</h2>
+<span class="ltx_tag ltx_tag_section">5 </span><span class="ltx_text ltx_font_italic">p</span>-adic valuations</h2>
 
 <div id="S5.p1" class="ltx_para">
 <p class="ltx_p">Fix a prime number <math id="S5.p1.m1" class="ltx_Math" alttext="p" display="inline"><mi>p</mi></math>. For nonzero <math id="S5.p1.m2" class="ltx_Math" alttext="a\in\mathbb{Q}" display="inline"><mrow><mi>a</mi><mo>∈</mo><mi>ℚ</mi></mrow></math>, there are unique integers <math id="S5.p1.m3" class="ltx_Math" alttext="n,r,s" display="inline"><mrow><mi>n</mi><mo>,</mo><mi>r</mi><mo>,</mo><mi>s</mi></mrow></math> satisfying</p>
@@ -1087,7 +1100,7 @@ We see that <math id="S5.p4.m12" class="ltx_Math" alttext="p\in\mathfrak{p}_{p}"
 </section>
 <section id="S6" class="ltx_section">
 <h2 class="ltx_title ltx_title_section">
-<span class="ltx_tag ltx_tag_section">6 </span><math id="S6.m1" class="ltx_Math" alttext="p" display="inline"><mi>p</mi></math>-adic absolute values and metrics</h2>
+<span class="ltx_tag ltx_tag_section">6 </span><span class="ltx_text ltx_font_italic">p</span>-adic absolute values and metrics</h2>
 
 <div id="S6.p1" class="ltx_para">
 <p class="ltx_p">We define <math id="S6.p1.m1" class="ltx_Math" alttext="|\cdot|_{p}:\mathbb{Q}\to\mathbb{R}_{\geq 0}" display="inline"><mrow><mo stretchy="false">|</mo><mo>⋅</mo><msub><mo stretchy="false">|</mo><mi>p</mi></msub><mo>:</mo><mi>ℚ</mi><mo>→</mo><msub><mi>ℝ</mi><mrow><mi></mi><mo>≥</mo><mn>0</mn></mrow></msub></mrow></math> by <math id="S6.p1.m2" class="ltx_Math" alttext="|a|_{p}=p^{-v_{p}(n)}" display="inline"><mrow><msub><mrow><mo stretchy="false">|</mo><mi>a</mi><mo stretchy="false">|</mo></mrow><mi>p</mi></msub><mo>=</mo><msup><mi>p</mi><mrow><mo>-</mo><mrow><msub><mi>v</mi><mi>p</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></msup></mrow></math> for <math id="S6.p1.m3" class="ltx_Math" alttext="a\neq 0" display="inline"><mrow><mi>a</mi><mo>≠</mo><mn>0</mn></mrow></math> and <math id="S6.p1.m4" class="ltx_Math" alttext="|0|_{p}=0" display="inline"><mrow><msub><mrow><mo stretchy="false">|</mo><mn>0</mn><mo stretchy="false">|</mo></mrow><mi>p</mi></msub><mo>=</mo><mn>0</mn></mrow></math>.
@@ -1130,8 +1143,7 @@ lemma satisfy, for <math id="S6.p2.m3" class="ltx_Math" alttext="m&lt;n" display
 <td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
 </tr>
 </table>
-<p class="ltx_p">and
-</p>
+<p class="ltx_p">and</p>
 <table id="S6.Ex84" class="ltx_equation ltx_eqn_table">
 
 <tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
@@ -1158,7 +1170,8 @@ lemma satisfy, for <math id="S6.p2.m3" class="ltx_Math" alttext="m&lt;n" display
 <div id="Thmtheorem13.p1" class="ltx_para">
 <p class="ltx_p"><span class="ltx_text ltx_font_italic">If <math id="Thmtheorem13.p1.m1" class="ltx_Math" alttext="x_{n}" display="inline"><msub><mi>x</mi><mi>n</mi></msub></math> and <math id="Thmtheorem13.p1.m2" class="ltx_Math" alttext="y_{n}" display="inline"><msub><mi>y</mi><mi>n</mi></msub></math> are Cauchy sequences
 in <math id="Thmtheorem13.p1.m3" class="ltx_Math" alttext="(\mathbb{Q},d_{p})" display="inline"><mrow><mo mathvariant="normal" stretchy="false">(</mo><mi mathvariant="normal">Q</mi><mo mathvariant="normal">,</mo><msub><mi>d</mi><mi>p</mi></msub><mo mathvariant="normal" stretchy="false">)</mo></mrow></math>, then <math id="Thmtheorem13.p1.m4" class="ltx_Math" alttext="x_{n}+y_{n}" display="inline"><mrow><msub><mi>x</mi><mi>n</mi></msub><mo mathvariant="normal">+</mo><msub><mi>y</mi><mi>n</mi></msub></mrow></math> and <math id="Thmtheorem13.p1.m5" class="ltx_Math" alttext="x_{n}\cdot y_{n}" display="inline"><mrow><msub><mi>x</mi><mi>n</mi></msub><mo mathvariant="normal">⋅</mo><msub><mi>y</mi><mi>n</mi></msub></mrow></math> are Cauchy sequences in
-<math id="Thmtheorem13.p1.m6" class="ltx_Math" alttext="(\mathbb{Q},d_{p})" display="inline"><mrow><mo mathvariant="normal" stretchy="false">(</mo><mi mathvariant="normal">Q</mi><mo mathvariant="normal">,</mo><msub><mi>d</mi><mi>p</mi></msub><mo mathvariant="normal" stretchy="false">)</mo></mrow></math>.</span></p>
+<math id="Thmtheorem13.p1.m6" class="ltx_Math" alttext="(\mathbb{Q},d_{p})" display="inline"><mrow><mo mathvariant="normal" stretchy="false">(</mo><mi mathvariant="normal">Q</mi><mo mathvariant="normal">,</mo><msub><mi>d</mi><mi>p</mi></msub><mo mathvariant="normal" stretchy="false">)</mo></mrow></math>.
+</span></p>
 </div>
 </div>
 <div class="ltx_proof">
@@ -1220,7 +1233,7 @@ We define addition and multiplication on the set <math id="S7.p2.m12" class="ltx
 <td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
 </tr>
 </table>
-<p class="ltx_p">that these limits exists follows from Lemma <a href="#Thmtheorem13" title="Lemma 13. ‣ 6 p -adic absolute values and metrics ‣ Hensel’s lemma, valuations, and p -adic numbers" class="ltx_ref"><span class="ltx_text ltx_ref_tag">13</span></a>.
+<p class="ltx_p">that these limits exists follows from Lemma <a href="#Thmtheorem13" title="Lemma 13. ‣ 6 p-adic absolute values and metrics ‣ Hensel’s lemma, valuations, and p -adic numbers" class="ltx_ref"><span class="ltx_text ltx_ref_tag">13</span></a>.
 If <math id="S7.p2.m13" class="ltx_Math" alttext="x\in\mathbb{Q}_{p}" display="inline"><mrow><mi>x</mi><mo>∈</mo><msub><mi>ℚ</mi><mi>p</mi></msub></mrow></math>, <math id="S7.p2.m14" class="ltx_Math" alttext="x\neq 0" display="inline"><mrow><mi>x</mi><mo>≠</mo><mn>0</mn></mrow></math>, then there is a sequence <math id="S7.p2.m15" class="ltx_Math" alttext="x_{n}\in\mathbb{Q}" display="inline"><mrow><msub><mi>x</mi><mi>n</mi></msub><mo>∈</mo><mi>ℚ</mi></mrow></math>, each term of which is <math id="S7.p2.m16" class="ltx_Math" alttext="\neq 0" display="inline"><mrow><mi></mi><mo>≠</mo><mn>0</mn></mrow></math>,
 such that <math id="S7.p2.m17" class="ltx_Math" alttext="x_{n}\to x" display="inline"><mrow><msub><mi>x</mi><mi>n</mi></msub><mo>→</mo><mi>x</mi></mrow></math> in <math id="S7.p2.m18" class="ltx_Math" alttext="(\mathbb{Q}_{p},d_{p})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi>ℚ</mi><mi>p</mi></msub><mo>,</mo><msub><mi>d</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></math>.
 Then <math id="S7.p2.m19" class="ltx_Math" alttext="x_{n}^{-1}" display="inline"><msubsup><mi>x</mi><mi>n</mi><mrow><mo>-</mo><mn>1</mn></mrow></msubsup></math> is a Cauchy sequence in <math id="S7.p2.m20" class="ltx_Math" alttext="(\mathbb{Q},d_{p})" display="inline"><mrow><mo stretchy="false">(</mo><mi>ℚ</mi><mo>,</mo><msub><mi>d</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></math> hence converges to some <math id="S7.p2.m21" class="ltx_Math" alttext="y\in\mathbb{Q}_{p}" display="inline"><mrow><mi>y</mi><mo>∈</mo><msub><mi>ℚ</mi><mi>p</mi></msub></mrow></math> which
@@ -1271,8 +1284,7 @@ define <math id="S7.p3.m4" class="ltx_Math" alttext="|\cdot|_{p}:\mathbb{Q}_{p}\
 <h6 class="ltx_title ltx_runin ltx_title_theorem">
 <span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Lemma 15</span></span>.</h6>
 <div id="Thmtheorem15.p1" class="ltx_para">
-<p class="ltx_p"><span class="ltx_text ltx_font_italic">A sequence <math id="Thmtheorem15.p1.m1" class="ltx_Math" alttext="a_{i}\in\mathbb{Q}_{p}" display="inline"><mrow><msub><mi>a</mi><mi>i</mi></msub><mo mathvariant="normal">∈</mo><msub><mi mathvariant="normal">Q</mi><mi>p</mi></msub></mrow></math> is Cauchy if and only if <math id="Thmtheorem15.p1.m2" class="ltx_Math" alttext="a_{i+1}-a_{i}\to 0" display="inline"><mrow><mrow><msub><mi>a</mi><mrow><mi>i</mi><mo mathvariant="normal">+</mo><mn mathvariant="normal">1</mn></mrow></msub><mo mathvariant="normal">-</mo><msub><mi>a</mi><mi>i</mi></msub></mrow><mo mathvariant="normal">→</mo><mn mathvariant="normal">0</mn></mrow></math> as <math id="Thmtheorem15.p1.m3" class="ltx_Math" alttext="i\to\infty" display="inline"><mrow><mi>i</mi><mo mathvariant="normal">→</mo><mi mathvariant="normal">∞</mi></mrow></math>.
-</span></p>
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">A sequence <math id="Thmtheorem15.p1.m1" class="ltx_Math" alttext="a_{i}\in\mathbb{Q}_{p}" display="inline"><mrow><msub><mi>a</mi><mi>i</mi></msub><mo mathvariant="normal">∈</mo><msub><mi mathvariant="normal">Q</mi><mi>p</mi></msub></mrow></math> is Cauchy if and only if <math id="Thmtheorem15.p1.m2" class="ltx_Math" alttext="a_{i+1}-a_{i}\to 0" display="inline"><mrow><mrow><msub><mi>a</mi><mrow><mi>i</mi><mo mathvariant="normal">+</mo><mn mathvariant="normal">1</mn></mrow></msub><mo mathvariant="normal">-</mo><msub><mi>a</mi><mi>i</mi></msub></mrow><mo mathvariant="normal">→</mo><mn mathvariant="normal">0</mn></mrow></math> as <math id="Thmtheorem15.p1.m3" class="ltx_Math" alttext="i\to\infty" display="inline"><mrow><mi>i</mi><mo mathvariant="normal">→</mo><mi mathvariant="normal">∞</mi></mrow></math>.</span></p>
 </div>
 </div>
 <div class="ltx_proof">
@@ -1312,7 +1324,8 @@ define <math id="S7.p3.m4" class="ltx_Math" alttext="|\cdot|_{p}:\mathbb{Q}_{p}\
 </div>
 <div id="S8.p2" class="ltx_para">
 <p class="ltx_p">The above shows that if <math id="S8.p2.m1" class="ltx_Math" alttext="a_{i}\to 0" display="inline"><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>→</mo><mn>0</mn></mrow></math> in <math id="S8.p2.m2" class="ltx_Math" alttext="(\mathbb{Q}_{p},d_{p})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi>ℚ</mi><mi>p</mi></msub><mo>,</mo><msub><mi>d</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></math> then the series <math id="S8.p2.m3" class="ltx_Math" alttext="\sum a_{i}" display="inline"><mrow><mo largeop="true" symmetric="true">∑</mo><msub><mi>a</mi><mi>i</mi></msub></mrow></math> converges in
-<math id="S8.p2.m4" class="ltx_Math" alttext="(\mathbb{Q}_{p},d_{p})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi>ℚ</mi><mi>p</mi></msub><mo>,</mo><msub><mi>d</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></math>.</p>
+<math id="S8.p2.m4" class="ltx_Math" alttext="(\mathbb{Q}_{p},d_{p})" display="inline"><mrow><mo stretchy="false">(</mo><msub><mi>ℚ</mi><mi>p</mi></msub><mo>,</mo><msub><mi>d</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></math>.
+</p>
 </div>
 <div id="Thmtheorem16" class="ltx_theorem ltx_theorem_lemma">
 <h6 class="ltx_title ltx_runin ltx_title_theorem">
@@ -1424,8 +1437,7 @@ For <math id="S9.p1.m5" class="ltx_Math" alttext="x\in\mathbb{Q}_{p}" display="i
 <td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
 </tr>
 </table>
-<p class="ltx_p">Because <math id="S9.p1.m7" class="ltx_Math" alttext="v_{p}" display="inline"><msub><mi>v</mi><mi>p</mi></msub></math> is discrete, there is some <math id="S9.p1.m8" class="ltx_Math" alttext="\epsilon&gt;0" display="inline"><mrow><mi>ϵ</mi><mo>&gt;</mo><mn>0</mn></mrow></math> such that
-</p>
+<p class="ltx_p">Because <math id="S9.p1.m7" class="ltx_Math" alttext="v_{p}" display="inline"><msub><mi>v</mi><mi>p</mi></msub></math> is discrete, there is some <math id="S9.p1.m8" class="ltx_Math" alttext="\epsilon&gt;0" display="inline"><mrow><mi>ϵ</mi><mo>&gt;</mo><mn>0</mn></mrow></math> such that</p>
 <table id="S9.Ex104" class="ltx_equation ltx_eqn_table">
 
 <tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
@@ -1477,7 +1489,7 @@ satisfying <math id="S9.p3.m2" class="ltx_Math" alttext="\mu(\mathbb{Z}_{p})=1" 
 </article>
 </div>
 <footer class="ltx_page_footer">
-<div class="ltx_page_logo">Generated  on Sun Jan 16 03:35:34 2022 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></a>
+<div class="ltx_page_logo">Generated  on Sun Jan 16 09:47:51 2022 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></a>
 </div></footer>
 </div>
 </body>
