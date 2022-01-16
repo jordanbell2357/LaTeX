@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/latex/notes/padic"?>
+<?latexml searchpaths="/mnt/c/Users/jorda/OneDrive/Documents/GitHub/latex/notes/padic"?>
 <?latexml class="article"?>
-<?latexml package="amsmath,amssymb,mathrsfs,amsthm,hyperref"?>
+<?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
+<?latexml package="hyperref" options="draft"?>
 <!--  %**** padic.tex Line 25 **** --><?latexml RelaxNGSchema="LaTeXML"?>
 <document xmlns="http://dlmf.nist.gov/LaTeXML" class="ltx_authors_1line">
   <resource src="LaTeXML.css" type="text/css"/>
@@ -184,8 +185,7 @@ Suppose that <Math mode="inline" tex="0\leq a_{0}&lt;p" text="0 less= a _ 0 less
           </XMath>
         </Math>
       </equation>
-      <p>Using the power series expansion
-<!--  %**** padic.tex Line 50 **** --></p>
+<!--  %**** padic.tex Line 50 **** -->      <p>Using the power series expansion</p>
       <equation xml:id="S1.Ex3">
         <Math mode="display" tex="f(a_{0}+h)=f(a_{0})+f^{\prime}(a_{0})h+\frac{f^{\prime\prime}(a_{0})}{2}h^{2}+\cdots," text="f * (a _ 0 + h) = f * a _ 0 + f ^ prime * a _ 0 * h + ((f ^ prime2 * a _ 0) / 2) * h ^ 2 + cdots" xml:id="S1.Ex3.m1">
           <XMath>
@@ -972,7 +972,7 @@ This <Math mode="inline" tex="y" text="y" xml:id="S1.p1.m11">
               <XMWrap>
                 <XMApp xml:id="S1.Ex8.m1.4">
                   <XMTok meaning="equivalent-to" name="equiv" role="RELOP">≡</XMTok>
-                  <XMTok font="italic" role="UNKNOWN">y</XMTok>
+<!--  %**** padic.tex Line 75 **** -->                  <XMTok font="italic" role="UNKNOWN">y</XMTok>
                   <XMApp>
                     <XMTok meaning="annotated"/>
                     <XMApp>
@@ -1052,7 +1052,7 @@ This <Math mode="inline" tex="y" text="y" xml:id="S1.p1.m11">
                   </XMApp>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-<!--  %**** padic.tex Line 75 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -1521,8 +1521,7 @@ This <Math mode="inline" tex="y" text="y" xml:id="S1.p1.m11">
           </XMath>
         </Math>
       </equation>
-      <p>i.e.
-<!--  %**** padic.tex Line 100 **** --></p>
+<!--  %**** padic.tex Line 100 **** -->      <p>i.e.</p>
       <equation xml:id="S1.Ex14">
         <Math mode="display" tex="\frac{f(x+p^{l-1}y)}{p^{l-1}}=\frac{f(x)}{p^{l-1}}+f^{\prime}(x)y+\frac{f^{%&#10;\prime\prime}(x)}{2}p^{l-1}y^{2}+\cdots." text="(f * (x + p ^ (l - 1) * y)) / p ^ (l - 1) = (f * x) / p ^ (l - 1) + f ^ prime * x * y + ((f ^ prime2 * x) / 2) * p ^ (l - 1) * y ^ 2 + cdots" xml:id="S1.Ex14.m1">
           <XMath>
@@ -2387,8 +2386,8 @@ is a unique <Math mode="inline" tex="y\pmod{p}" text="annotated@(y, pmod@(p))" x
           </XMath>
         </Math>
       </equation>
-    </para>
-<!--  %**** padic.tex Line 125 **** -->    <para xml:id="S1.p4">
+<!--  %**** padic.tex Line 125 **** -->    </para>
+    <para xml:id="S1.p4">
       <p>We wish to make sense of the infinite expression</p>
       <equation xml:id="S1.Ex19">
         <Math mode="display" tex="a_{0}+a_{1}p+a_{2}p^{2}+a_{3}p^{3}+\cdots" text="a _ 0 + a _ 1 * p + a _ 2 * p ^ 2 + a _ 3 * p ^ 3 + cdots" xml:id="S1.Ex19.m1">
@@ -3039,7 +3038,8 @@ are satisfied both by <Math mode="inline" tex="a_{0}=1" text="a _ 0 = 1" xml:id=
               </XMApp>
             </XMath>
           </Math>.
-Then,</p>
+Then,
+<!--  %**** padic.tex Line 150 **** --></p>
         <equation xml:id="S1.Ex22">
           <Math mode="display" tex="a_{3}\equiv-\frac{f(1+1\cdot 3+1\cdot 3^{2})}{3^{3}}(f^{\prime}(1+1\cdot 3+1%&#10;\cdot 3^{2}))^{-1}\equiv-6\cdot 2\equiv 0\pmod{3}." text="a _ 3 equivalent-to - ((f * (1 + 1 cdot 3 + 1 cdot 3 ^ 2)) / 3 ^ 3) * (f ^ prime * (1 + 1 cdot 3 + 1 cdot 3 ^ 2)) ^ (- 1) equivalent-to - 6 cdot 2 equivalent-to annotated@(0, pmod@(3))" xml:id="S1.Ex22.m1">
             <XMath>
@@ -3050,7 +3050,7 @@ Then,</p>
                     <XMTok meaning="multirelation"/>
                     <XMApp>
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-<!--  %**** padic.tex Line 150 **** -->                      <XMTok font="italic" role="UNKNOWN">a</XMTok>
+                      <XMTok font="italic" role="UNKNOWN">a</XMTok>
                       <XMTok fontsize="70%" meaning="3" role="NUMBER">3</XMTok>
                     </XMApp>
                     <XMTok meaning="equivalent-to" name="equiv" role="RELOP">≡</XMTok>
@@ -3661,9 +3661,10 @@ they induce the same topology on <Math mode="inline" tex="K" text="K" xml:id="S2
             <tag role="autoref">footnote 2</tag>
             <tag role="refnum">2</tag>
             <tag role="typerefnum">footnote 2</tag>
-          </tags><text font="italic">Absolute values, valuations and completion</text>, <ref class="ltx_url" font="typewriter" href="https://www.math.ethz.ch/education/bachelor/seminars/fs2008/algebra/Crivelli.pdf">https://www.math.ethz.ch/education/bachelor/seminars/fs2008/algebra/Crivelli.pdf</ref></note></p>
+          </tags><text font="italic">Absolute values, valuations and completion</text>, <ref class="ltx_url" font="typewriter" href="https://www.math.ethz.ch/education/bachelor/seminars/fs2008/algebra/Crivelli.pdf">https://www.math.ethz.ch/education/bachelor/seminars/fs2008/algebra/Crivelli.pdf</ref></note>
+<!--  %**** padic.tex Line 175 **** --></p>
     </para>
-<!--  %**** padic.tex Line 175 **** -->    <theorem class="ltx_theorem_theorem" inlist="thm theorem:theorem" labels="LABEL:equivalent" xml:id="Thmtheorem2">
+    <theorem class="ltx_theorem_theorem" inlist="thm theorem:theorem" labels="LABEL:equivalent" xml:id="Thmtheorem2">
       <tags>
         <tag>Theorem 2</tag>
         <tag role="autoref">Theorem 2</tag>
@@ -4686,9 +4687,10 @@ hence, because the topologies induced by <Math mode="inline" tex="|\cdot|_{1}" x
                 <XMTok meaning="1" role="NUMBER">1</XMTok>
               </XMApp>
             </XMath>
-          </Math>.</p>
+          </Math>.
+<!--  %**** padic.tex Line 200 **** --></p>
       </para>
-<!--  %**** padic.tex Line 200 **** -->      <para xml:id="S2.p6">
+      <para xml:id="S2.p6">
         <p>Let <Math mode="inline" tex="y\in K" text="y element-of K" xml:id="S2.p6.m1">
             <XMath>
               <XMApp>
@@ -5436,12 +5438,12 @@ we have <Math mode="inline" tex="|x|_{1}=|y|_{1}^{\alpha}&lt;|y|_{1}^{\frac{m_{i
                     </XMApp>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-                </XMWrap>
+<!--  %**** padic.tex Line 225 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** padic.tex Line 225 **** -->        <p>Therefore,</p>
+        <p>Therefore,</p>
         <equation xml:id="S2.Ex33">
           <Math mode="display" tex="|x|_{2}=|y|_{2}^{\alpha}." text="(absolute-value@(x)) _ 2 = ((absolute-value@(y)) _ 2) ^ alpha" xml:id="S2.Ex33.m1">
             <XMath>
@@ -6686,7 +6688,8 @@ satisfying <Math mode="inline" tex="v(x)=\infty" text="v * x = infinity" xml:id=
               </XMApp>
             </XMApp>
           </XMath>
-        </Math>, and</p>
+        </Math>, and
+<!--  %**** padic.tex Line 275 **** --></p>
       <equation xml:id="S3.Ex39">
         <Math mode="display" tex="v(x+y)\geq\min\{v(x),v(y)\}." text="v * (x + y) &gt;= minimum@(v * x, v * y)" xml:id="S3.Ex39.m1">
           <XMath>
@@ -6697,7 +6700,7 @@ satisfying <Math mode="inline" tex="v(x)=\infty" text="v * x = infinity" xml:id=
                   <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
                   <XMApp>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
-<!--  %**** padic.tex Line 275 **** -->                    <XMTok font="italic" role="UNKNOWN">v</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">v</XMTok>
                     <XMDual>
                       <XMRef idref="S3.Ex39.m1.4.1"/>
                       <XMWrap>
@@ -8500,7 +8503,7 @@ If neither is <Math mode="inline" tex="0" text="0" xml:id="S3.p3.m7">
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
                       <XMApp>
                         <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok font="italic" role="UNKNOWN">v</XMTok>
+<!--  %**** padic.tex Line 325 **** -->                        <XMTok font="italic" role="UNKNOWN">v</XMTok>
                         <XMTok font="italic" fontsize="70%" role="UNKNOWN">s</XMTok>
                       </XMApp>
                       <XMDual>
@@ -8603,7 +8606,7 @@ If neither is <Math mode="inline" tex="0" text="0" xml:id="S3.p3.m7">
                     </XMDual>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-<!--  %**** padic.tex Line 325 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -9850,7 +9853,7 @@ If neither is <Math mode="inline" tex="0" text="0" xml:id="S3.p3.m7">
               </XMApp>
             </XMath>
           </Math> is an absolute value and furthermore
-that <Math mode="inline" tex="|\cdot|_{q}" xml:id="S3.p4.m9">
+<!--  %**** padic.tex Line 350 **** -->that <Math mode="inline" tex="|\cdot|_{q}" xml:id="S3.p4.m9">
             <XMath>
               <XMTok role="VERTBAR" stretchy="false">|</XMTok>
               <XMTok name="cdot" role="MULOP">⋅</XMTok>
@@ -9880,7 +9883,7 @@ that <Math mode="inline" tex="|\cdot|_{q}" xml:id="S3.p4.m9">
               <XMTok meaning="0" role="NUMBER">0</XMTok>
             </XMath>
           </Math>, then
-<!--  %**** padic.tex Line 350 **** --><Math mode="inline" tex="|x+y|_{q}=|0|_{q}=0=\max\{0,0\}=\max\{|x|_{q},|y|_{q}\}" text="(absolute-value@(x + y)) _ q = (absolute-value@(0)) _ q = 0 = maximum@(0, 0) = maximum@((absolute-value@(x)) _ q, (absolute-value@(y)) _ q)" xml:id="S3.p4.m12">
+<Math mode="inline" tex="|x+y|_{q}=|0|_{q}=0=\max\{0,0\}=\max\{|x|_{q},|y|_{q}\}" text="(absolute-value@(x + y)) _ q = (absolute-value@(0)) _ q = 0 = maximum@(0, 0) = maximum@((absolute-value@(x)) _ q, (absolute-value@(y)) _ q)" xml:id="S3.p4.m12">
             <XMath>
               <XMApp>
                 <XMTok meaning="multirelation"/>
@@ -10887,7 +10890,7 @@ real <Math mode="inline" tex="s&gt;0" text="s &gt; 0" xml:id="S3.p5.m3">
                   <XMTok meaning="equals" role="RELOP">=</XMTok>
                   <XMApp>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok font="italic" role="UNKNOWN">v</XMTok>
+<!--  %**** padic.tex Line 375 **** -->                    <XMTok font="italic" role="UNKNOWN">v</XMTok>
                     <XMDual>
                       <XMRef idref="S3.Ex62.m1.1.1"/>
                       <XMWrap>
@@ -10908,7 +10911,7 @@ real <Math mode="inline" tex="s&gt;0" text="s &gt; 0" xml:id="S3.p5.m3">
                   </XMApp>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-<!--  %**** padic.tex Line 375 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -11172,10 +11175,12 @@ real <Math mode="inline" tex="s&gt;0" text="s &gt; 0" xml:id="S3.p5.m3">
                   <XMTok fontsize="70%" role="UNKNOWN">v</XMTok>
                 </XMApp>
               </XMath>
-            </Math>.</text></p>
+            </Math>.
+
+<!--  %**** padic.tex Line 400 **** --></text></p>
       </para>
     </theorem>
-<!--  %**** padic.tex Line 400 **** -->    <proof>
+    <proof>
       <title class="ltx_runin" font="italic">Proof.</title>
       <para xml:id="S4.p1">
         <p>It is immediate that <Math mode="inline" tex="0,1\in\mathcal{O}_{v}" text="list@(0, 1) element-of O _ v" xml:id="S4.p1.m1">
@@ -12072,7 +12077,7 @@ Let <Math mode="inline" tex="y\in K" text="y element-of K" xml:id="S4.p3.m9">
           </Math> is a maximal
 proper subring.</p>
       </para>
-      <para xml:id="S4.p4">
+<!--  %**** padic.tex Line 425 **** -->      <para xml:id="S4.p4">
         <p>Suppose that <Math mode="inline" tex="x\in\mathcal{O}_{v}" text="x element-of O _ v" xml:id="S4.p4.m1">
             <XMath>
               <XMApp>
@@ -12124,7 +12129,7 @@ proper subring.</p>
               </XMApp>
             </XMath>
           </Math>, then
-<!--  %**** padic.tex Line 425 **** --><Math mode="inline" tex="v(x^{-1}=-v(x)&lt;0" xml:id="S4.p4.m4">
+<Math mode="inline" tex="v(x^{-1}=-v(x)&lt;0" xml:id="S4.p4.m4">
             <XMath>
               <XMTok font="italic" role="UNKNOWN">v</XMTok>
               <XMWrap>
@@ -12806,7 +12811,7 @@ elements of <Math mode="inline" tex="\mathcal{O}_{v}" text="O _ v" xml:id="S4.p6
               </XMApp>
             </XMath>
           </Math>.
-Therefore, any maximal ideal of <Math mode="inline" tex="\mathcal{O}_{v}" text="O _ v" xml:id="S4.p6.m11">
+<!--  %**** padic.tex Line 450 **** -->Therefore, any maximal ideal of <Math mode="inline" tex="\mathcal{O}_{v}" text="O _ v" xml:id="S4.p6.m11">
             <XMath>
               <XMApp>
                 <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -12823,7 +12828,7 @@ Therefore, any maximal ideal of <Math mode="inline" tex="\mathcal{O}_{v}" text="
               </XMApp>
             </XMath>
           </Math>, showing that
-<!--  %**** padic.tex Line 450 **** --><Math mode="inline" tex="\mathfrak{p}_{v}" text="p _ v" xml:id="S4.p6.m13">
+<Math mode="inline" tex="\mathfrak{p}_{v}" text="p _ v" xml:id="S4.p6.m13">
             <XMath>
               <XMApp>
                 <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -13515,12 +13520,12 @@ ideal domain. If <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem8.p1.m4"
                     </XMDual>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-                </XMWrap>
+<!--  %**** padic.tex Line 500 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** padic.tex Line 500 **** -->        <p>Since
+        <p>Since
 <Math mode="inline" tex="v(K^{*})=\mathbb{Z}" text="v * K ^ * = Z" xml:id="S4.p9.m6">
             <XMath>
               <XMApp>
@@ -14208,10 +14213,11 @@ define <Math mode="inline" tex="\phi:\mathfrak{p}_{v}^{n}\to\mathcal{O}_{v}/\mat
                   <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
                 </XMApp>
               </XMath>
-            </Math> are equivalent.</text></p>
+            </Math> are equivalent.
+<!--  %**** padic.tex Line 525 **** --></text></p>
       </para>
     </theorem>
-<!--  %**** padic.tex Line 525 **** -->  </section>
+  </section>
   <section inlist="toc" xml:id="S5">
     <tags>
       <tag>5</tag>
@@ -14652,7 +14658,7 @@ write</p>
                     <XMTok meaning="equals" role="RELOP">=</XMTok>
                     <XMApp>
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                      <XMTok font="italic" role="UNKNOWN">a</XMTok>
+<!--  %**** padic.tex Line 550 **** -->                      <XMTok font="italic" role="UNKNOWN">a</XMTok>
                       <XMTok font="italic" role="UNKNOWN">b</XMTok>
                     </XMApp>
                     <XMApp>
@@ -14698,7 +14704,7 @@ write</p>
                     </XMApp>
                   </XMApp>
                   <XMTok role="PUNCT">,</XMTok>
-<!--  %**** padic.tex Line 550 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -15333,7 +15339,7 @@ The valuation ring of <Math mode="inline" tex="\mathbb{Q}" text="Q" xml:id="S5.p
             </XMApp>
           </XMath>
         </Math>.
-By Theorem <ref labelref="LABEL:valring"/>, the group of units of the valuation ring <Math mode="inline" tex="\mathcal{O}_{p}" text="O _ p" xml:id="S5.p4.m8">
+<!--  %**** padic.tex Line 575 **** -->By Theorem <ref labelref="LABEL:valring"/>, the group of units of the valuation ring <Math mode="inline" tex="\mathcal{O}_{p}" text="O _ p" xml:id="S5.p4.m8">
           <XMath>
             <XMApp>
               <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -15341,8 +15347,7 @@ By Theorem <ref labelref="LABEL:valring"/>, the group of units of the valuation 
               <XMTok font="italic" fontsize="70%" role="UNKNOWN">p</XMTok>
             </XMApp>
           </XMath>
-        </Math> is
-<!--  %**** padic.tex Line 575 **** --></p>
+        </Math> is</p>
       <equation xml:id="S5.Ex79">
         <Math mode="display" tex="\mathcal{O}_{p}^{*}=\{x\in\mathbb{Q}:v_{p}(x)=0\}," text="(O _ p) ^ * = conditional-set@(x element-of Q, v _ p * x = 0)" xml:id="S5.Ex79.m1">
           <XMath>
@@ -15707,12 +15712,11 @@ This is a non-Archimedean absolute value on <Math mode="inline" tex="\mathbb{Q}"
             <XMTok font="blackboard" role="UNKNOWN">Q</XMTok>
           </XMath>
         </Math>, which we call
-the <Math mode="inline" tex="p" text="p" xml:id="S6.p1.m6">
+<!--  %**** padic.tex Line 600 **** -->the <Math mode="inline" tex="p" text="p" xml:id="S6.p1.m6">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">p</XMTok>
           </XMath>
-        </Math><text font="bold">-adic absolute value</text>.
-<!--  %**** padic.tex Line 600 **** --></p>
+        </Math><text font="bold">-adic absolute value</text>.</p>
     </para>
     <theorem class="ltx_theorem_example" inlist="thm theorem:example" xml:id="Thmtheorem12">
       <tags>
@@ -16209,7 +16213,8 @@ lemma satisfy, for <Math mode="inline" tex="m&lt;n" text="m less n" xml:id="S6.p
           </XMath>
         </Math>
       </equation>
-      <p>and</p>
+      <p>and
+<!--  %**** padic.tex Line 625 **** --></p>
       <equation xml:id="S6.Ex84">
         <Math mode="display" tex="f(x_{n})\equiv 0\pmod{p^{n}}," text="f * x _ n equivalent-to annotated@(0, pmod@(p ^ n))" xml:id="S6.Ex84.m1">
           <XMath>
@@ -16220,7 +16225,7 @@ lemma satisfy, for <Math mode="inline" tex="m&lt;n" text="m less n" xml:id="S6.p
                   <XMTok meaning="equivalent-to" name="equiv" role="RELOP">≡</XMTok>
                   <XMApp>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
-<!--  %**** padic.tex Line 625 **** -->                    <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">f</XMTok>
                     <XMDual>
                       <XMRef idref="S6.Ex84.m1.3.1"/>
                       <XMWrap>
@@ -17758,7 +17763,7 @@ such that <Math mode="inline" tex="x_{n}\to x" text="x _ n to x" xml:id="S7.p2.m
             </XMDual>
           </XMath>
         </Math>.
-Then <Math mode="inline" tex="x_{n}^{-1}" text="(x _ n) ^ (- 1)" xml:id="S7.p2.m19">
+<!--  %**** padic.tex Line 675 **** -->Then <Math mode="inline" tex="x_{n}^{-1}" text="(x _ n) ^ (- 1)" xml:id="S7.p2.m19">
           <XMath>
             <XMApp>
               <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
@@ -17807,7 +17812,7 @@ Then <Math mode="inline" tex="x_{n}^{-1}" text="(x _ n) ^ (- 1)" xml:id="S7.p2.m
             </XMApp>
           </XMath>
         </Math> which
-<!--  %**** padic.tex Line 675 **** -->satisfies <Math mode="inline" tex="x\cdot y=1" text="x cdot y = 1" xml:id="S7.p2.m22">
+satisfies <Math mode="inline" tex="x\cdot y=1" text="x cdot y = 1" xml:id="S7.p2.m22">
           <XMath>
             <XMApp>
               <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -18280,10 +18285,11 @@ define <Math mode="inline" tex="|\cdot|_{p}:\mathbb{Q}_{p}\to\mathbb{R}_{\geq 0}
                   <XMTok font="upright" meaning="infinity" name="infty" role="ID">∞</XMTok>
                 </XMApp>
               </XMath>
-            </Math>.</text></p>
+            </Math>.
+<!--  %**** padic.tex Line 700 **** --></text></p>
       </para>
     </theorem>
-<!--  %**** padic.tex Line 700 **** -->    <proof>
+    <proof>
       <title class="ltx_runin" font="italic">Proof.</title>
       <para xml:id="S8.p1">
         <p>Assume that <Math mode="inline" tex="a_{i+1}-a_{i}\to 0" text="a _ (i + 1) - a _ i to 0" xml:id="S8.p1.m1">
@@ -19229,7 +19235,7 @@ define <Math mode="inline" tex="|\cdot|_{p}:\mathbb{Q}_{p}\to\mathbb{R}_{\geq 0}
                             </XMApp>
                           </XMApp>
                           <XMTok role="CLOSE" stretchy="true">]</XMTok>
-                        </XMWrap>
+<!--  %**** padic.tex Line 725 **** -->                        </XMWrap>
                       </XMDual>
                     </XMApp>
                     <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
@@ -19256,7 +19262,7 @@ define <Math mode="inline" tex="|\cdot|_{p}:\mathbb{Q}_{p}\to\mathbb{R}_{\geq 0}
                           <XMTok font="italic" fontsize="70%" role="UNKNOWN">j</XMTok>
                         </XMApp>
                       </XMApp>
-<!--  %**** padic.tex Line 725 **** -->                    </XMApp>
+                    </XMApp>
                     <XMTok meaning="equals" role="RELOP">=</XMTok>
                     <XMApp>
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
@@ -19694,8 +19700,8 @@ define <Math mode="inline" tex="|\cdot|_{p}:\mathbb{Q}_{p}\to\mathbb{R}_{\geq 0}
             </Math>.</text></p>
       </para>
     </theorem>
-    <proof>
-      <title class="ltx_runin" font="italic"><!--  %**** padic.tex Line 750 **** -->Proof.</title>
+<!--  %**** padic.tex Line 750 **** -->    <proof>
+      <title class="ltx_runin" font="italic">Proof.</title>
       <para xml:id="S8.p4">
         <p>For <Math mode="inline" tex="n" text="n" xml:id="S8.p4.m1">
             <XMath>
@@ -20143,7 +20149,8 @@ For <Math mode="inline" tex="x\in\mathbb{Q}_{p}" text="x element-of Q _ p" xml:i
               <XMTok meaning="0" role="NUMBER">0</XMTok>
             </XMApp>
           </XMath>
-        </Math> such that</p>
+        </Math> such that
+<!--  %**** padic.tex Line 775 **** --></p>
       <equation xml:id="S9.Ex104">
         <Math mode="display" tex="\{y\in\mathbb{Q}_{p}:|x-y|_{p}\leq r\}=\{y\in\mathbb{Q}_{p}:|x-y|_{p}&lt;r+%&#10;\epsilon\}." text="conditional-set@(y element-of Q _ p, (absolute-value@(x - y)) _ p less= r) = conditional-set@(y element-of Q _ p, (absolute-value@(x - y)) _ p less r + epsilon)" xml:id="S9.Ex104.m1">
           <XMath>
@@ -20159,7 +20166,7 @@ For <Math mode="inline" tex="x\in\mathbb{Q}_{p}" text="x element-of Q _ p" xml:i
                       <XMRef idref="S9.Ex104.m1.1.2"/>
                     </XMApp>
                     <XMWrap>
-<!--  %**** padic.tex Line 775 **** -->                      <XMTok role="OPEN" stretchy="false">{</XMTok>
+                      <XMTok role="OPEN" stretchy="false">{</XMTok>
                       <XMApp xml:id="S9.Ex104.m1.1.1">
                         <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
                         <XMTok font="italic" role="UNKNOWN">y</XMTok>
@@ -20561,5 +20568,5 @@ satisfying <Math mode="inline" tex="\mu(\mathbb{Z}_{p})=1" text="mu * Z _ p = 1"
               </XMath>
             </Math></text>, <ref class="ltx_url" font="typewriter" href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/characterQ.pdf">http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/characterQ.pdf</ref></note></p>
     </para>
-  </section>
+<!--  %**** padic.tex Line 800 **** -->  </section>
 </document>

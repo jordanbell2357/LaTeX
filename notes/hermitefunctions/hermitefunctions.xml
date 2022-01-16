@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/latex/latexml/hermitefunctions"?>
+<?latexml searchpaths="/mnt/c/Users/jorda/OneDrive/Documents/GitHub/latex/notes/hermitefunctions"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
-<?latexml package="hyperref"?>
+<?latexml package="hyperref" options="draft"?>
 <?latexml RelaxNGSchema="LaTeXML"?>
 <document xmlns="http://dlmf.nist.gov/LaTeXML" class="ltx_authors_1line">
   <resource src="LaTeXML.css" type="text/css"/>
@@ -189,7 +189,7 @@ If <Math mode="inline" tex="\{p_{n}:n\geq 0\}" text="conditional-set@(p _ n, n &
                       <XMTok meaning="equals" role="RELOP">=</XMTok>
                       <XMApp>
                         <XMTok meaning="times" role="MULOP">⁢</XMTok>
-<!--  %**** hermitefunctions.tex Line 50 **** -->                        <XMTok font="italic" role="UNKNOWN">d</XMTok>
+                        <XMTok font="italic" role="UNKNOWN">d</XMTok>
                         <XMDual>
                           <XMApp>
                             <XMTok meaning="open-interval"/>
@@ -299,7 +299,7 @@ If <Math mode="inline" tex="\{p_{n}:n\geq 0\}" text="conditional-set@(p _ n, n &
                   </XMWrap>
                 </XMDual>
                 <XMTok role="PUNCT">,</XMTok>
-              </XMWrap>
+<!--  %**** hermitefunctions.tex Line 50 **** -->              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -685,8 +685,8 @@ As well, <Math mode="inline" tex="D:\mathscr{S}\to\mathscr{S}" text="D colon S t
           </XMath>
         </Math>
       </equation>
-<!--  %**** hermitefunctions.tex Line 75 **** -->      <p>and
-<Math mode="inline" tex="M:\mathscr{S}\to\mathscr{S}" text="M colon S to S" xml:id="S2.p1.m13">
+      <p>and
+<!--  %**** hermitefunctions.tex Line 75 **** --><Math mode="inline" tex="M:\mathscr{S}\to\mathscr{S}" text="M colon S to S" xml:id="S2.p1.m13">
           <XMath>
             <XMApp>
               <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -1063,7 +1063,8 @@ As well, <Math mode="inline" tex="D:\mathscr{S}\to\mathscr{S}" text="D colon S t
           </XMath>
         </Math> are called <text font="bold">Hermite
 polynomials</text>.
-<!--  %**** hermitefunctions.tex Line 100 **** -->It can be shown that</p>
+It can be shown that
+<!--  %**** hermitefunctions.tex Line 100 **** --></p>
       <equation labels="LABEL:generating" xml:id="S3.E1">
         <tags>
           <tag>(1)</tag>
@@ -1743,8 +1744,9 @@ Theorem 8.</note></p>
             <tag role="autoref">footnote 4</tag>
             <tag role="refnum">4</tag>
             <tag role="typerefnum">footnote 4</tag>
-          </tags><!--  %**** hermitefunctions.tex Line 125 **** --><ref class="ltx_url" font="typewriter" href="http://individual.utoronto.ca/jordanbell/notes/completelymonotone.pdf">http://individual.utoronto.ca/jordanbell/notes/completelymonotone.pdf</ref>,
-Lemma 5.</note></p>
+          </tags><ref class="ltx_url" font="typewriter" href="http://individual.utoronto.ca/jordanbell/notes/completelymonotone.pdf">http://individual.utoronto.ca/jordanbell/notes/completelymonotone.pdf</ref>,
+Lemma 5.</note>
+<!--  %**** hermitefunctions.tex Line 125 **** --></p>
       <equation xml:id="S3.Ex12">
         <Math mode="display" tex="e^{-x^{2}}=2^{-1}\pi^{-1/2}\int_{\mathbb{R}}e^{-y^{2}/4}e^{-ixy}dy," text="e ^ (- x ^ 2) = 2 ^ (- 1) * pi ^ (- 1 / 2) * (integral _ R)@(e ^ (- y ^ 2 / 4) * e ^ (- i * x * y) * differential-d@(y))" xml:id="S3.Ex12.m1">
           <XMath>
@@ -2405,9 +2407,9 @@ Uncertainty Principle: Hardy’s Theorem on Lie Groups</text>, p. 8, Propositio
             </XMath>
           </Math>
         </equation>
-<!--  %**** hermitefunctions.tex Line 150 **** -->      </para>
+      </para>
     </theorem>
-    <proof>
+<!--  %**** hermitefunctions.tex Line 150 **** -->    <proof>
       <title class="ltx_runin" font="italic">Proof.</title>
       <para xml:id="S4.p2">
         <p>Using (<ref labelref="LABEL:gaussian"/>),</p>
@@ -5070,7 +5072,7 @@ Uncertainty Principle: Hardy’s Theorem on Lie Groups</text>, p. 8, Propositio
             </XMApp>
           </XMath>
         </Math>, which we call the <text font="bold">Hermite operator</text>.
-<!--  %**** hermitefunctions.tex Line 200 **** --><Math mode="inline" tex="\mathscr{S}" text="S" xml:id="S5.p1.m3">
+<Math mode="inline" tex="\mathscr{S}" text="S" xml:id="S5.p1.m3">
           <XMath>
             <XMTok font="script" role="UNKNOWN">S</XMTok>
           </XMath>
@@ -5106,7 +5108,7 @@ Uncertainty Principle: Hardy’s Theorem on Lie Groups</text>, p. 8, Propositio
             </XMApp>
           </XMath>
         </Math> is a linear map, so
-<Math mode="inline" tex="A" text="A" xml:id="S5.p1.m6">
+<!--  %**** hermitefunctions.tex Line 200 **** --><Math mode="inline" tex="A" text="A" xml:id="S5.p1.m6">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">A</XMTok>
           </XMath>
@@ -6282,7 +6284,8 @@ For <Math mode="inline" tex="n\geq 0" text="n &gt;= 0" xml:id="S5.p2.m3">
           </XMath>
         </Math>
       </equation>
-<!--  %**** hermitefunctions.tex Line 225 **** -->      <p>and hence</p>
+      <p>and hence
+<!--  %**** hermitefunctions.tex Line 225 **** --></p>
       <equation xml:id="S5.Ex28">
         <Math mode="display" tex="(Ah_{n})(x)=(2n+1-x^{2})h_{n}(x)+x^{2}h_{n}(x)+h_{n}(x)=(2n+2)h_{n}(x)," text="A * h _ n * x = ((2 * n + 1) - x ^ 2) * h _ n * x + x ^ 2 * h _ n * x + h _ n * x = (2 * n + 2) * h _ n * x" xml:id="S5.Ex28.m1">
           <XMath>
@@ -6850,12 +6853,12 @@ Theorem 11.</note></p>
                   </XMApp>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-<!--  %**** hermitefunctions.tex Line 250 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
       </equation>
-      <p>For <Math mode="inline" tex="f,g\in L^{2}(\lambda)" text="list@(f, g) element-of L ^ 2 * lambda" xml:id="S5.p2.m10">
+<!--  %**** hermitefunctions.tex Line 250 **** -->      <p>For <Math mode="inline" tex="f,g\in L^{2}(\lambda)" text="list@(f, g) element-of L ^ 2 * lambda" xml:id="S5.p2.m10">
           <XMath>
             <XMApp>
               <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -8173,7 +8176,7 @@ Theorem 11.</note></p>
                         <XMRef idref="S5.Ex37.m1.2.1"/>
                       </XMApp>
                       <XMWrap>
-<!--  %**** hermitefunctions.tex Line 275 **** -->                        <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
+                        <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
                         <XMApp xml:id="S5.Ex37.m1.2.1">
                           <XMTok role="SUPERSCRIPTOP" scriptpos="post2"/>
                           <XMTok font="italic" role="UNKNOWN">T</XMTok>
@@ -8216,7 +8219,7 @@ Theorem 11.</note></p>
                   </XMApp>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-              </XMWrap>
+<!--  %**** hermitefunctions.tex Line 275 **** -->              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -8749,12 +8752,12 @@ Theorem 11.</note></p>
                   </XMApp>
                 </XMApp>
                 <XMTok role="PUNCT">,</XMTok>
-<!--  %**** hermitefunctions.tex Line 300 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
       </equation>
-      <p>i.e.</p>
+<!--  %**** hermitefunctions.tex Line 300 **** -->      <p>i.e.</p>
       <equation xml:id="S6.Ex43">
         <Math mode="display" tex="Dh_{n}=Mh_{n}-(2n+2)^{1/2}h_{n+1}." text="D * h _ n = M * h _ n - (2 * n + 2) ^ (1 / 2) * h _ (n + 1)" xml:id="S6.Ex43.m1">
           <XMath>
@@ -9107,8 +9110,7 @@ For <Math mode="inline" tex="n\geq 1" text="n &gt;= 1" xml:id="S6.p2.m3">
               </XMApp>
             </XMApp>
           </XMath>
-        </Math>, called the <text font="bold">creation operator</text>, by
-<!--  %**** hermitefunctions.tex Line 325 **** --></p>
+        </Math>, called the <text font="bold">creation operator</text>, by</p>
       <equation xml:id="S6.Ex47">
         <Math mode="display" tex="(C\phi)(x)=-\phi^{\prime}(x)+x\phi(x),\qquad x\in\mathbb{R}," text="formulae@(C * phi * x = (- phi ^ prime * x) + x * phi * x, x element-of R)" xml:id="S6.Ex47.m1">
           <XMath>
@@ -9129,7 +9131,7 @@ For <Math mode="inline" tex="n\geq 1" text="n &gt;= 1" xml:id="S6.p2.m3">
                         <XMDual>
                           <XMRef idref="S6.Ex47.m1.4.1.1"/>
                           <XMWrap>
-                            <XMTok role="OPEN" stretchy="false">(</XMTok>
+<!--  %**** hermitefunctions.tex Line 325 **** -->                            <XMTok role="OPEN" stretchy="false">(</XMTok>
                             <XMApp xml:id="S6.Ex47.m1.4.1.1">
                               <XMTok meaning="times" role="MULOP">⁢</XMTok>
                               <XMTok font="italic" role="UNKNOWN">C</XMTok>
@@ -9511,11 +9513,11 @@ For <Math mode="inline" tex="n\geq 0" text="n &gt;= 0" xml:id="S6.p3.m3">
               </XMApp>
               <XMTok meaning="equals" role="RELOP">=</XMTok>
               <XMTok font="italic" role="UNKNOWN">A</XMTok>
-<!--  %**** hermitefunctions.tex Line 350 **** -->            </XMApp>
+            </XMApp>
           </XMath>
         </Math>
       </equation>
-      <p>and</p>
+<!--  %**** hermitefunctions.tex Line 350 **** -->      <p>and</p>
       <equation xml:id="S6.Ex52">
         <Math mode="display" tex="CB=-D^{2}+M^{2}-1=A-2." text="C * B = ((- D ^ 2) + M ^ 2) - 1 = A - 2" xml:id="S6.Ex52.m1">
           <XMath>
@@ -12129,8 +12131,7 @@ Using (<ref labelref="LABEL:inversion"/>) and the Cauchy-Schwarz inequality</p>
           </XMath>
         </Math>
       </equation>
-      <p>we get
-<!--  %**** hermitefunctions.tex Line 425 **** --></p>
+      <p>we get</p>
       <equationgroup class="ltx_eqn_align" xml:id="S8.EGx6">
         <equation xml:id="S7.Ex65">
           <MathFork>
@@ -12752,8 +12753,8 @@ Using (<ref labelref="LABEL:inversion"/>) and the Cauchy-Schwarz inequality</p>
         </equation>
       </para>
     </theorem>
-<!--  %**** hermitefunctions.tex Line 450 **** -->    <proof>
-      <title class="ltx_runin" font="italic">Proof.</title>
+    <proof>
+      <title class="ltx_runin" font="italic"><!--  %**** hermitefunctions.tex Line 450 **** -->Proof.</title>
       <para xml:id="S7.p4">
         <p>For <Math mode="inline" tex="n\geq 0" text="n &gt;= 0" xml:id="S7.p4.m1">
             <XMath>
@@ -13760,7 +13761,7 @@ Using (<ref labelref="LABEL:inversion"/>) and the Cauchy-Schwarz inequality</p>
         <p>∎</p>
       </para>
     </proof>
-<!--  %**** hermitefunctions.tex Line 475 **** -->    <para xml:id="S7.p5">
+    <para xml:id="S7.p5">
       <p>There is a unique Hilbert space isomorphism <Math mode="inline" tex="\mathscr{F}:L^{2}(\lambda)\to L^{2}(\lambda)" text="F colon L ^ 2 * lambda to L ^ 2 * lambda" xml:id="S7.p5.m1">
           <XMath>
             <XMApp>
@@ -13804,7 +13805,7 @@ Using (<ref labelref="LABEL:inversion"/>) and the Cauchy-Schwarz inequality</p>
             </XMApp>
           </XMath>
         </Math>
-such that <Math mode="inline" tex="\mathscr{F}f=\hat{f}" text="F * f = hat@(f)" xml:id="S7.p5.m2">
+<!--  %**** hermitefunctions.tex Line 475 **** -->such that <Math mode="inline" tex="\mathscr{F}f=\hat{f}" text="F * f = hat@(f)" xml:id="S7.p5.m2">
           <XMath>
             <XMApp>
               <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -14343,7 +14344,7 @@ For <Math mode="inline" tex="f\in L^{2}(\lambda)" text="f element-of L ^ 2 * lam
                           <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
                           <XMApp>
                             <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-<!--  %**** hermitefunctions.tex Line 500 **** -->                            <XMTok font="italic" role="UNKNOWN">H</XMTok>
+                            <XMTok font="italic" role="UNKNOWN">H</XMTok>
                             <XMApp>
                               <XMTok meaning="times" role="MULOP">⁢</XMTok>
                               <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
@@ -14443,7 +14444,7 @@ For <Math mode="inline" tex="f\in L^{2}(\lambda)" text="f element-of L ^ 2 * lam
                   </XMWrap>
                 </XMDual>
                 <XMTok role="PERIOD">.</XMTok>
-              </XMWrap>
+<!--  %**** hermitefunctions.tex Line 500 **** -->              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -15140,8 +15141,8 @@ p. 66, §4.14.</note></p>
           </XMath>
         </Math>
       </equation>
-<!--  %**** hermitefunctions.tex Line 525 **** -->    </para>
-    <para xml:id="S8.p3">
+    </para>
+<!--  %**** hermitefunctions.tex Line 525 **** -->    <para xml:id="S8.p3">
       <p>Now, for <Math mode="inline" tex="\lambda&gt;0" text="lambda &gt; 0" xml:id="S8.p3.m1">
           <XMath>
             <XMApp>
@@ -16953,7 +16954,7 @@ of the initial value problem <Math mode="inline" tex="v^{\prime\prime}+\lambda v
           </MathFork>
         </equation>
       </equationgroup>
-      <p>Therefore the unique solution of the initial value problem (<ref labelref="LABEL:IVP"/>) is</p>
+<!--  %**** hermitefunctions.tex Line 550 **** -->      <p>Therefore the unique solution of the initial value problem (<ref labelref="LABEL:IVP"/>) is</p>
       <equationgroup class="ltx_eqn_align" xml:id="S8.EGx9">
         <equation xml:id="S8.Ex97">
           <MathFork>
@@ -20235,8 +20236,7 @@ for <Math mode="inline" tex="N=2n+1" text="N = 2 * n + 1" xml:id="Thmtheorem3.p1
             </MathFork>
           </equation>
         </equationgroup>
-        <p><text font="italic">and
-<!--  %**** hermitefunctions.tex Line 600 **** --></text></p>
+        <p><text font="italic">and</text></p>
         <equation xml:id="S8.Ex110">
           <Math mode="display" tex="|h_{n}(x)|\leq N^{-1/8}(x-N^{1/2})^{-1/4}e^{-\epsilon N^{1/4}(x-N^{1/2})^{3/2}}" text="absolute-value@(h _ n * x) less= N ^ (- 1 / 8) * (x - N ^ (1 / 2)) ^ (- 1 / 4) * e ^ (- epsilon * N ^ (1 / 4) * (x - N ^ (1 / 2)) ^ (3 / 2))" xml:id="S8.Ex110.m1">
             <XMath>
@@ -20248,7 +20248,7 @@ for <Math mode="inline" tex="N=2n+1" text="N = 2 * n + 1" xml:id="Thmtheorem3.p1
                     <XMRef idref="S8.Ex110.m1.3"/>
                   </XMApp>
                   <XMWrap>
-                    <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+<!--  %**** hermitefunctions.tex Line 600 **** -->                    <XMTok role="VERTBAR" stretchy="false">|</XMTok>
                     <XMApp xml:id="S8.Ex110.m1.3">
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
                       <XMApp>
@@ -20914,7 +20914,7 @@ for <Math mode="inline" tex="N=2n+1" text="N = 2 * n + 1" xml:id="Thmtheorem3.p1
         </enumerate>
       </para>
     </theorem>
-<!--  %**** hermitefunctions.tex Line 625 **** -->    <para xml:id="S8.p5">
+    <para xml:id="S8.p5">
       <p>Rather than taking the <Math mode="inline" tex="p" text="p" xml:id="S8.p5.m1">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">p</XMTok>
@@ -20940,7 +20940,7 @@ for <Math mode="inline" tex="N=2n+1" text="N = 2 * n + 1" xml:id="Thmtheorem3.p1
             </XMApp>
           </XMath>
         </Math> and integrate this with respect to Gaussian measure. Writing
-<Math mode="inline" tex="d\gamma(x)=(2\pi)^{-1/2}e^{-x^{2}/2}dx" text="d * gamma * x = (2 * pi) ^ (- 1 / 2) * e ^ (- x ^ 2 / 2) * d * x" xml:id="S8.p5.m5">
+<!--  %**** hermitefunctions.tex Line 625 **** --><Math mode="inline" tex="d\gamma(x)=(2\pi)^{-1/2}e^{-x^{2}/2}dx" text="d * gamma * x = (2 * pi) ^ (- 1 / 2) * e ^ (- x ^ 2 / 2) * d * x" xml:id="S8.p5.m5">
           <XMath>
             <XMApp>
               <XMTok meaning="equals" role="RELOP">=</XMTok>

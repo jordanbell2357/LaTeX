@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/latex/latexml/Qdual"?>
+<?latexml searchpaths="/mnt/c/Users/jorda/OneDrive/Documents/GitHub/latex/notes/Qdual"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
-<?latexml package="hyperref"?>
+<?latexml package="hyperref" options="draft"?>
 <?latexml RelaxNGSchema="LaTeXML"?>
 <document xmlns="http://dlmf.nist.gov/LaTeXML" class="ltx_authors_1line">
   <resource src="LaTeXML.css" type="text/css"/>
@@ -24,7 +24,7 @@
     <personname>Jordan Bell</personname>
   </creator>
   <date role="creation">January 5, 2015</date>
-<!--  %**** Qdual.tex Line 25 **** -->  <section inlist="toc" xml:id="S1">
+  <section inlist="toc" xml:id="S1">
     <tags>
       <tag>1</tag>
       <tag role="autoref">section 1</tag>
@@ -218,7 +218,7 @@ we define <Math mode="inline" tex="(\phi_{1}\phi_{2})(x)=\phi_{1}(x)\phi_{2}(x)"
             </XMApp>
           </XMath>
         </Math> the final topology for the family of functions
-<Math mode="inline" tex="\{\phi\mapsto\phi(x):x\in G\}" text="conditional-set@(phi maps-to phi * x, x element-of G)" xml:id="S1.p1.m10">
+<!--  %**** Qdual.tex Line 25 **** --><Math mode="inline" tex="\{\phi\mapsto\phi(x):x\in G\}" text="conditional-set@(phi maps-to phi * x, x element-of G)" xml:id="S1.p1.m10">
           <XMath>
             <XMDual>
               <XMApp>
@@ -335,7 +335,7 @@ p. 193, Theorem 22.6.</note></p>
     </para>
     <para xml:id="S1.p2">
       <p>With the subspace topology inherited from
-<!--  %**** Qdual.tex Line 50 **** --><Math mode="inline" tex="\mathbb{R}" text="R" xml:id="S1.p2.m1">
+<Math mode="inline" tex="\mathbb{R}" text="R" xml:id="S1.p2.m1">
           <XMath>
             <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
           </XMath>
@@ -472,7 +472,7 @@ group. For <Math mode="inline" tex="n\geq m" text="n &gt;= m" xml:id="S2.p1.m4">
             </XMApp>
           </XMath>
         </Math> be the projection
-map. The
+<!--  %**** Qdual.tex Line 50 **** -->map. The
 compact abelian groups <Math mode="inline" tex="\mathbb{Z}/p^{n}" text="Z / p ^ n" xml:id="S2.p1.m6">
           <XMath>
             <XMApp>
@@ -618,7 +618,7 @@ is the collection of those elements of <Math mode="inline" tex="G" text="G" xml:
             </XMApp>
           </XMath>
         </Math> such that
-<!--  %**** Qdual.tex Line 75 **** --><Math mode="inline" tex="nx=0" text="n * x = 0" xml:id="S3.p1.m10">
+<Math mode="inline" tex="nx=0" text="n * x = 0" xml:id="S3.p1.m10">
           <XMath>
             <XMApp>
               <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -1018,7 +1018,7 @@ For <Math mode="inline" tex="m\leq n" text="m less= n" xml:id="S3.p2.m9">
                   <XMTok meaning="0" role="NUMBER">0</XMTok>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-              </XMWrap>
+<!--  %**** Qdual.tex Line 75 **** -->              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -1266,8 +1266,7 @@ is isomorphic to <Math mode="inline" tex="G_{p}" text="G _ p" xml:id="S3.p2.m14"
           </XMath>
         </Math>
       </equation>
-      <p>Thus
-<!--  %**** Qdual.tex Line 100 **** --></p>
+      <p>Thus</p>
       <equation xml:id="S3.Ex4">
         <Math mode="display" tex="x=\left(\sum_{i=1}^{r}l_{i}m_{i}\right)x=\sum_{i=1}^{r}l_{i}(m_{i}x)=\sum_{i=1%&#10;}^{r}l_{i}x_{i}," text="x = ((sum _ (i = 1)) ^ r)@(l _ i * m _ i) * x = ((sum _ (i = 1)) ^ r)@(l _ i * m _ i * x) = ((sum _ (i = 1)) ^ r)@(l _ i * x _ i)" xml:id="S3.Ex4.m1">
           <XMath>
@@ -1671,7 +1670,7 @@ decomposition theorem</text>.<note mark="3" role="footnote" xml:id="footnote3"><
           </tags>Derek Robinson, <text font="italic">A Course in the Theory of Groups</text>, second ed.,
 p. 94, Theorem 4.1.1.</note></p>
     </para>
-    <para xml:id="S3.p4">
+<!--  %**** Qdual.tex Line 100 **** -->    <para xml:id="S3.p4">
       <p>It is straightforward to check that
 <Math mode="inline" tex="\mathbb{Q}/\mathbb{Z}" text="Q / Z" xml:id="S3.p4.m1">
           <XMath>
@@ -2029,8 +2028,7 @@ Now applying the primary decomposition theorem, we get that <Math mode="inline" 
           <XMath>
             <XMTok font="italic" role="UNKNOWN">p</XMTok>
           </XMath>
-        </Math>-groups:
-<!--  %**** Qdual.tex Line 125 **** --></p>
+        </Math>-groups:</p>
       <equation labels="LABEL:QmodZ" xml:id="S3.E1">
         <tags>
           <tag>(1)</tag>
@@ -2161,7 +2159,7 @@ the compact abelian group <Math mode="inline" tex="\mathbb{Z}_{p}" text="Z _ p" 
           </XMath>
         </Math>
       </equation>
-      <p>Thus, in the category of locally compact abelian groups,</p>
+<!--  %**** Qdual.tex Line 125 **** -->      <p>Thus, in the category of locally compact abelian groups,</p>
       <equation xml:id="S3.Ex7">
         <Math mode="display" tex="\widehat{\mathbb{Q}/\mathbb{Z}}\cong\prod_{p}\mathbb{Z}_{p}." text="widehat@(Q / Z) approximately-equals (product _ p)@(Z _ p)" xml:id="S3.Ex7.m1">
           <XMath>
@@ -2458,7 +2456,7 @@ to the compact abelian group <Math mode="inline" tex="\mathbb{Z}/n" text="Z / n"
             </XMApp>
           </XMath>
         </Math>, is the
-<!--  %**** Qdual.tex Line 150 **** -->projection map <Math mode="inline" tex="\pi_{n,m}:\mathbb{Z}/n\to\mathbb{Z}/m" text="pi _ (list@(n, m)) colon Z / n to Z / m" xml:id="S3.p6.m15">
+projection map <Math mode="inline" tex="\pi_{n,m}:\mathbb{Z}/n\to\mathbb{Z}/m" text="pi _ (list@(n, m)) colon Z / n to Z / m" xml:id="S3.p6.m15">
           <XMath>
             <XMApp>
               <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -2609,7 +2607,7 @@ of groups <Math mode="inline" tex="\mathbb{Z}/n" text="Z / n" xml:id="S3.p6.m16"
       </equation>
       <p>as locally compact abelian groups.</p>
     </para>
-  </section>
+<!--  %**** Qdual.tex Line 150 **** -->  </section>
   <section inlist="toc" xml:id="S4">
     <tags>
       <tag>4</tag>
@@ -2680,7 +2678,7 @@ Chapter 1.</note></p>
             <tag role="autoref">footnote 6</tag>
             <tag role="refnum">6</tag>
             <tag role="typerefnum">footnote 6</tag>
-          </tags><!--  %**** Qdual.tex Line 175 **** -->Although constructing <Math mode="inline" tex="p" text="p" xml:id="footnote6.m1">
+          </tags>Although constructing <Math mode="inline" tex="p" text="p" xml:id="footnote6.m1">
             <XMath>
               <XMTok font="italic" role="UNKNOWN">p</XMTok>
             </XMath>
@@ -2953,7 +2951,7 @@ A <Math mode="inline" tex="p" text="p" xml:id="S4.p2.m2">
             </XMDual>
           </XMath>
         </Math>, we define
-<Math mode="inline" tex="c=a+b" text="c = a + b" xml:id="S4.p3.m2">
+<!--  %**** Qdual.tex Line 175 **** --><Math mode="inline" tex="c=a+b" text="c = a + b" xml:id="S4.p3.m2">
           <XMath>
             <XMApp>
               <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -3570,7 +3568,7 @@ Then, <Math mode="inline" tex="\epsilon_{0}=0" text="epsilon _ 0 = 0" xml:id="S4
             </XMApp>
           </XMath>
         </Math>, with which
-<Math mode="inline" tex="a_{1}+b_{1}+\epsilon_{1}=0+(p-1)+1=p&gt;p-1" text="a _ 1 + b _ 1 + epsilon _ 1 = 0 + (p - 1) + 1 = p &gt; p - 1" xml:id="S4.p4.m7">
+<!--  %**** Qdual.tex Line 200 **** --><Math mode="inline" tex="a_{1}+b_{1}+\epsilon_{1}=0+(p-1)+1=p&gt;p-1" text="a _ 1 + b _ 1 + epsilon _ 1 = 0 + (p - 1) + 1 = p &gt; p - 1" xml:id="S4.p4.m7">
           <XMath>
             <XMApp>
               <XMTok meaning="multirelation"/>
@@ -3917,8 +3915,7 @@ for any <Math mode="inline" tex="n\geq 1" text="n &gt;= 1" xml:id="S4.p4.m9">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">a</XMTok>
           </XMath>
-        </Math>, i.e.,
-<!--  %**** Qdual.tex Line 225 **** --></p>
+        </Math>, i.e.,</p>
       <equation xml:id="S4.Ex17">
         <Math mode="display" tex="-a=1+\sigma(a)." text="- a = 1 + sigma * a" xml:id="S4.Ex17.m1">
           <XMath>
@@ -4298,7 +4295,8 @@ For <Math mode="inline" tex="n\in\mathbb{Z}_{&lt;0}" text="n element-of Z _ (abs
               </XMApp>
             </XMApp>
           </XMath>
-        </Math>, we define</p>
+        </Math>, we define
+<!--  %**** Qdual.tex Line 225 **** --></p>
       <equation xml:id="S4.Ex18">
         <Math mode="display" tex="\iota(n)=-\iota(-n)=1+\sigma(\iota(-n))." text="iota * n = - iota * (- n) = 1 + sigma * iota * (- n)" xml:id="S4.Ex18.m1">
           <XMath>
@@ -4878,7 +4876,7 @@ For <Math mode="inline" tex="n\in\mathbb{Z}_{&lt;0}" text="n element-of Z _ (abs
           </MathFork>
         </equation>
       </equationgroup>
-<!--  %**** Qdual.tex Line 250 **** -->    </para>
+    </para>
     <para xml:id="S4.p8">
       <p>Multiplication of <Math mode="inline" tex="p" text="p" xml:id="S4.p8.m1">
           <XMath>
@@ -5948,8 +5946,7 @@ For example, take <Math mode="inline" tex="p=5" text="p = 5" xml:id="S4.p8.m3">
               <XMTok meaning="0" role="NUMBER">0</XMTok>
             </XMApp>
           </XMath>
-        </Math>. For example,
-<!--  %**** Qdual.tex Line 275 **** --></p>
+        </Math>. For example,</p>
       <equation xml:id="S4.Ex27">
         <Math mode="display" tex="v_{p}(0\cdot p^{0}+0\cdot p^{1}+3\cdot p^{2}+\cdots)=2." text="v _ p * (0 cdot p ^ 0 + 0 cdot p ^ 1 + 3 cdot p ^ 2 + cdots) = 2" xml:id="S4.Ex27.m1">
           <XMath>
@@ -6391,7 +6388,7 @@ we have that <Math mode="inline" tex="c_{v_{p}(a)+v_{p}(b)}\neq 0" text="c _ (v 
           </XMath>
         </Math> is an integral domain.</p>
     </para>
-  </section>
+<!--  %**** Qdual.tex Line 275 **** -->  </section>
   <section inlist="toc" xml:id="S5">
     <tags>
       <tag>5</tag>
@@ -6580,7 +6577,7 @@ we have that <Math mode="inline" tex="c_{v_{p}(a)+v_{p}(b)}\neq 0" text="c _ (v 
           </XMath>
         </Math>
       </equation>
-<!--  %**** Qdual.tex Line 300 **** -->      <p>Because <Math mode="inline" tex="\epsilon" text="epsilon" xml:id="S5.p1.m3">
+      <p>Because <Math mode="inline" tex="\epsilon" text="epsilon" xml:id="S5.p1.m3">
           <XMath>
             <XMTok font="italic" name="epsilon" role="UNKNOWN">ϵ</XMTok>
           </XMath>
@@ -6854,7 +6851,8 @@ For any nonzero <Math mode="inline" tex="a\in\mathbb{Z}_{p}" text="a element-of 
                 <XMTok role="UNKNOWN">p</XMTok>
               </XMath>
             </Math>-adic Analysis</text>,
-p. 6, §1.6.</note></p>
+p. 6, §1.6.</note>
+<!--  %**** Qdual.tex Line 300 **** --></p>
     </para>
     <theorem class="ltx_theorem_theorem" inlist="thm theorem:theorem" xml:id="Thmtheorem1">
       <tags>
@@ -7071,7 +7069,7 @@ in
             </XMath>
           </Math>
         </equation>
-<!--  %**** Qdual.tex Line 325 **** -->        <p>Let <Math mode="inline" tex="k=v_{p}(a)" text="k = v _ p * a" xml:id="S5.p3.m6">
+        <p>Let <Math mode="inline" tex="k=v_{p}(a)" text="k = v _ p * a" xml:id="S5.p3.m6">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -7400,7 +7398,8 @@ This shows that <Math mode="inline" tex="I\subset p^{k}\mathbb{Z}_{p}" text="I s
         </XMath>
       </Math></title>
     <para xml:id="S6.p1">
-      <p>As sets,</p>
+      <p>As sets,
+<!--  %**** Qdual.tex Line 325 **** --></p>
       <equation xml:id="S6.Ex34">
         <Math mode="display" tex="\mathbb{Z}_{p}=\prod_{i\geq 0}\{0,1,\ldots,p-1\}=\{0,1,\ldots,p-1\}^{\mathbb{Z%&#10;}_{\geq 0}}." text="Z _ p = (product _ (i &gt;= 0))@(set@(0, 1, ldots, p - 1)) = (set@(0, 1, ldots, p - 1)) ^ (Z _ (absent &gt;= 0))" xml:id="S6.Ex34.m1">
           <XMath>
@@ -7645,7 +7644,7 @@ One checks that the product topology on <Math mode="inline" tex="\mathbb{Z}_{p}"
           </XMath>
         </Math>
       </equation>
-<!--  %**** Qdual.tex Line 350 **** -->    </para>
+    </para>
     <para xml:id="S6.p2">
       <p>The map <Math mode="inline" tex="a\mapsto pa" text="a maps-to p * a" xml:id="S6.p2.m1">
           <XMath>
@@ -7990,7 +7989,8 @@ topology.</p>
                   </XMApp>
                 </XMApp>
               </XMath>
-            </Math>.</text></p>
+            </Math>.
+<!--  %**** Qdual.tex Line 350 **** --></text></p>
       </para>
     </theorem>
     <proof>
@@ -8572,7 +8572,7 @@ Let <Math mode="inline" tex="(a,b)\in\mathbb{Z}_{p}\times\mathbb{Z}_{p}" text="o
             </XMath>
           </Math>
         </equation>
-<!--  %**** Qdual.tex Line 375 **** -->        <p>This shows that <Math mode="inline" tex="(x,y)\mapsto x-y" text="open-interval@(x, y) maps-to x - y" xml:id="S6.p4.m11">
+        <p>This shows that <Math mode="inline" tex="(x,y)\mapsto x-y" text="open-interval@(x, y) maps-to x - y" xml:id="S6.p4.m11">
             <XMath>
               <XMApp>
                 <XMTok meaning="maps-to" name="mapsto" role="ARROW">↦</XMTok>
@@ -8858,7 +8858,8 @@ at <Math mode="inline" tex="x" text="x" xml:id="S6.p5.m18">
               <XMath>
                 <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
               </XMath>
-            </Math>.</text></p>
+            </Math>.
+<!--  %**** Qdual.tex Line 375 **** --></text></p>
       </para>
     </theorem>
     <para xml:id="S6.p6">
@@ -9438,7 +9439,8 @@ Thus, there are <Math mode="inline" tex="\alpha,\beta\in\mathbb{Z}_{p}" text="li
                 </XMApp>
               </XMApp>
             </XMath>
-          </Math> such that</p>
+          </Math> such that
+<!--  %**** Qdual.tex Line 400 **** --></p>
         <equation xml:id="S6.Ex39">
           <Math mode="display" tex="(1+p^{n}\alpha)^{-1}=\sum_{i\geq 0}(-p^{n}\alpha)^{i}=1+p^{n}\beta." text="(1 + p ^ n * alpha) ^ (- 1) = (sum _ (i &gt;= 0))@((- p ^ n * alpha) ^ i) = 1 + p ^ n * beta" xml:id="S6.Ex39.m1">
             <XMath>
@@ -9658,7 +9660,7 @@ Thus, there are <Math mode="inline" tex="\alpha,\beta\in\mathbb{Z}_{p}" text="li
 ∎</p>
       </para>
     </proof>
-<!--  %**** Qdual.tex Line 425 **** -->  </section>
+  </section>
   <section inlist="toc" xml:id="S7">
     <tags>
       <tag>7</tag>
@@ -9988,7 +9990,8 @@ If <Math mode="inline" tex="(r_{1},s_{1})\sim(r_{2},s_{2})" text="open-interval@
               </XMDual>
             </XMApp>
           </XMath>
-        </Math>, then</p>
+        </Math>, then
+<!--  %**** Qdual.tex Line 425 **** --></p>
       <equation xml:id="S7.Ex42">
         <Math mode="display" tex="r_{1}s_{2}-r_{2}s_{1}=0,\qquad r_{2}s_{3}-r_{3}s_{2}=0," text="formulae@(r _ 1 * s _ 2 - r _ 2 * s _ 1 = 0, r _ 2 * s _ 3 - r _ 3 * s _ 2 = 0)" xml:id="S7.Ex42.m1">
           <XMath>
@@ -10364,7 +10367,7 @@ If <Math mode="inline" tex="(r_{1},s_{1})\sim(r_{2},s_{2})" text="open-interval@
           </XMath>
         </Math> is closed under multiplication.</p>
     </para>
-<!--  %**** Qdual.tex Line 450 **** -->    <para xml:id="S7.p2">
+    <para xml:id="S7.p2">
       <p>For <Math mode="inline" tex="(r,s)\in R\times S" text="open-interval@(r, s) element-of R * S" xml:id="S7.p2.m1">
           <XMath>
             <XMApp>
@@ -12024,7 +12027,7 @@ One then checks that addition in <Math mode="inline" tex="R[S^{-1}]" text="R * d
                         <XMRef idref="S7.Ex51.m1.1.1"/>
                       </XMApp>
                       <XMWrap>
-<!--  %**** Qdual.tex Line 475 **** -->                        <XMTok role="OPEN" stretchy="false">[</XMTok>
+                        <XMTok role="OPEN" stretchy="false">[</XMTok>
                         <XMDual xml:id="S7.Ex51.m1.1.1">
                           <XMApp>
                             <XMTok meaning="open-interval"/>
@@ -12608,7 +12611,7 @@ One then checks that multiplication in <Math mode="inline" tex="R[S^{-1}]" text=
           </XMath>
         </Math> is the multiplicative identity, that
 multiplication is commutative, and
-that
+<!--  %**** Qdual.tex Line 475 **** -->that
 multiplication distributes over addition. This establishes that <Math mode="inline" tex="R[S^{-1}]" text="R * delimited-[]@(S ^ (- 1))" xml:id="S7.p3.m7">
           <XMath>
             <XMApp>
@@ -13133,7 +13136,7 @@ at least one of <Math mode="inline" tex="[(r_{1},s_{1})],[(r_{2},s_{2})]" text="
           </XMath>
         </Math>
       </equation>
-<!--  %**** Qdual.tex Line 500 **** -->      <p>For <Math mode="inline" tex="x,y\in R" text="list@(x, y) element-of R" xml:id="S7.p5.m2">
+      <p>For <Math mode="inline" tex="x,y\in R" text="list@(x, y) element-of R" xml:id="S7.p5.m2">
           <XMath>
             <XMApp>
               <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -13676,7 +13679,7 @@ If <Math mode="inline" tex="j(x)=j(y)" text="j * x = j * y" xml:id="S7.p5.m4">
             <XMTok font="italic" role="UNKNOWN">j</XMTok>
           </XMath>
         </Math> is one-to-one.
-For <Math mode="inline" tex="s\in S" text="s element-of S" xml:id="S7.p5.m9">
+<!--  %**** Qdual.tex Line 500 **** -->For <Math mode="inline" tex="s\in S" text="s element-of S" xml:id="S7.p5.m9">
           <XMath>
             <XMApp>
               <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -14054,7 +14057,7 @@ Elements of <Math mode="inline" tex="S" text="S" xml:id="S7.p5.m17">
                   </XMDual>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-<!--  %**** Qdual.tex Line 525 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -14336,7 +14339,7 @@ For example, for <Math mode="inline" tex="a\in\mathbb{Z}" text="a element-of Z" 
           </XMath>
         </Math>.</p>
     </para>
-  </section>
+<!--  %**** Qdual.tex Line 525 **** -->  </section>
   <section inlist="toc" xml:id="S8">
     <tags>
       <tag>8</tag>
@@ -14542,7 +14545,7 @@ We extend the <Math mode="inline" tex="p" text="p" xml:id="S8.p1.m8">
             </XMApp>
           </XMath>
         </Math>
-<!--  %**** Qdual.tex Line 550 **** -->to <Math mode="inline" tex="v_{p}:\mathbb{Q}_{p}\to\mathbb{Z}_{\geq 0}\cup\{\infty\}" text="v _ p colon Q _ p to Z _ (absent &gt;= 0) union set@(infinity)" xml:id="S8.p1.m10">
+to <Math mode="inline" tex="v_{p}:\mathbb{Q}_{p}\to\mathbb{Z}_{\geq 0}\cup\{\infty\}" text="v _ p colon Q _ p to Z _ (absent &gt;= 0) union set@(infinity)" xml:id="S8.p1.m10">
           <XMath>
             <XMApp>
               <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -15330,7 +15333,7 @@ and <Math mode="inline" tex="\frac{5}{2}\in\mathbb{Z}_{3}" text="5 / 2 element-o
                   </XMApp>
                 </XMApp>
                 <XMTok role="PUNCT">,</XMTok>
-              </XMWrap>
+<!--  %**** Qdual.tex Line 550 **** -->              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -15523,7 +15526,7 @@ and <Math mode="inline" tex="\frac{5}{2}\in\mathbb{Z}_{3}" text="5 / 2 element-o
             </XMApp>
           </XMath>
         </Math> are eventually
-<!--  %**** Qdual.tex Line 575 **** -->periodic if and only if <Math mode="inline" tex="x" text="x" xml:id="S8.p2.m8">
+periodic if and only if <Math mode="inline" tex="x" text="x" xml:id="S8.p2.m8">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">x</XMTok>
           </XMath>
@@ -15733,7 +15736,7 @@ p. 39, §5.3.</note></p>
                         <XMTok meaning="times" role="MULOP">⁢</XMTok>
                         <XMApp>
                           <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                          <XMTok font="italic" role="UNKNOWN">d</XMTok>
+<!--  %**** Qdual.tex Line 575 **** -->                          <XMTok font="italic" role="UNKNOWN">d</XMTok>
                           <XMTok font="italic" fontsize="70%" role="UNKNOWN">p</XMTok>
                         </XMApp>
                         <XMDual>
@@ -15940,7 +15943,7 @@ That is,
               <XMTok name="to" role="ARROW">→</XMTok>
               <XMApp>
                 <XMTok meaning="times" role="MULOP">×</XMTok>
-<!--  %**** Qdual.tex Line 600 **** -->                <XMApp>
+                <XMApp>
                   <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
                   <XMTok font="blackboard" role="UNKNOWN">Q</XMTok>
                   <XMTok font="italic" fontsize="70%" role="UNKNOWN">p</XMTok>
@@ -16274,7 +16277,7 @@ the form <Math mode="inline" tex="p^{k},k\in\mathbb{Z}_{\geq 0}" text="list@(p ^
             </XMApp>
           </XMath>
         </Math> belongs to
-<Math mode="inline" tex="\mathbb{Z}[1/2]" text="Z * delimited-[]@(1 / 2)" xml:id="S9.p1.m6">
+<!--  %**** Qdual.tex Line 600 **** --><Math mode="inline" tex="\mathbb{Z}[1/2]" text="Z * delimited-[]@(1 / 2)" xml:id="S9.p1.m6">
           <XMath>
             <XMApp>
               <XMTok meaning="times" role="MULOP">⁢</XMTok>
@@ -16694,7 +16697,7 @@ We have <Math mode="inline" tex="[x]_{p}\in\mathbb{Z}_{p}" text="(delimited-[]@(
           </XMath>
         </Math>
       </equation>
-<!--  %**** Qdual.tex Line 625 **** -->      <p>and also <Math mode="inline" tex="\{x\}_{p}\in\mathbb{Z}[1/p]" text="(set@(x)) _ p element-of Z * delimited-[]@(1 / p)" xml:id="S9.p2.m8">
+      <p>and also <Math mode="inline" tex="\{x\}_{p}\in\mathbb{Z}[1/p]" text="(set@(x)) _ p element-of Z * delimited-[]@(1 / p)" xml:id="S9.p2.m8">
           <XMath>
             <XMApp>
               <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -16880,7 +16883,7 @@ We have <Math mode="inline" tex="[x]_{p}\in\mathbb{Z}_{p}" text="(delimited-[]@(
         </equation>
       </para>
     </theorem>
-    <proof>
+<!--  %**** Qdual.tex Line 625 **** -->    <proof>
       <title class="ltx_runin" font="italic">Proof.</title>
       <para xml:id="S9.p4">
         <p>Let <Math mode="inline" tex="q" text="q" xml:id="S9.p4.m1">
@@ -17217,7 +17220,7 @@ and also <Math mode="inline" tex="r-\{r\}_{q}=[r]_{q}\in\mathbb{Z}_{q}" text="r 
                         <XMTok meaning="times" role="MULOP">⁢</XMTok>
                         <XMApp>
                           <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-<!--  %**** Qdual.tex Line 650 **** -->                          <XMTok font="italic" name="psi" role="UNKNOWN">ψ</XMTok>
+                          <XMTok font="italic" name="psi" role="UNKNOWN">ψ</XMTok>
                           <XMTok font="italic" fontsize="70%" role="UNKNOWN">p</XMTok>
                         </XMApp>
                         <XMDual>
@@ -17532,7 +17535,7 @@ It is immediate that <Math mode="inline" tex="\psi_{\infty}" text="psi _ infinit
 <ref class="ltx_url" font="typewriter" href="http://users.dimi.uniud.it/~dikran.dikranjan/ITG.pdf">http://users.dimi.uniud.it/~dikran.dikranjan/ITG.pdf</ref>, p. 21, Theorem 3.4.2;
 Karl Heinrich Hofmann, <text font="italic">Introduction to Topological Groups</text>,
 <ref class="ltx_url" font="typewriter" href="http://www.mathematik.tu-darmstadt.de/lehrmaterial/SS2006/CompGroups/topgr.pdf">http://www.mathematik.tu-darmstadt.de/lehrmaterial/SS2006/CompGroups/topgr.pdf</ref>, p. 35, Chapter 3.</note>
-The <text font="bold">open mapping theorem for topological groups</text> states that if <Math mode="inline" tex="G" text="G" xml:id="S9.p5.m13">
+<!--  %**** Qdual.tex Line 650 **** -->The <text font="bold">open mapping theorem for topological groups</text> states that if <Math mode="inline" tex="G" text="G" xml:id="S9.p5.m13">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">G</XMTok>
           </XMath>
@@ -17624,7 +17627,7 @@ by the first isomorphism theorem,</p>
       </equation>
       <p>as topological groups.</p>
     </para>
-<!--  %**** Qdual.tex Line 675 **** -->    <theorem class="ltx_theorem_theorem" inlist="thm theorem:theorem" labels="LABEL:psip" xml:id="Thmtheorem6">
+    <theorem class="ltx_theorem_theorem" inlist="thm theorem:theorem" labels="LABEL:psip" xml:id="Thmtheorem6">
       <tags>
         <tag>Theorem 6</tag>
         <tag role="autoref">Theorem 6</tag>
@@ -19141,7 +19144,7 @@ established shows that it is <text font="bold">locally constant</text>.)
 ∎</p>
       </para>
     </proof>
-    <para xml:id="S9.p8">
+<!--  %**** Qdual.tex Line 700 **** -->    <para xml:id="S9.p8">
       <p>For <Math mode="inline" tex="x\in\mathbb{Q}_{p}" text="x element-of Q _ p" xml:id="S9.p8.m1">
           <XMath>
             <XMApp>
@@ -19404,8 +19407,7 @@ established shows that it is <text font="bold">locally constant</text>.)
             <XMTok font="italic" role="UNKNOWN">p</XMTok>
           </XMath>
         </Math>-group.
-One checks that
-<!--  %**** Qdual.tex Line 725 **** --></p>
+One checks that</p>
       <equation xml:id="S9.Ex83">
         <Math mode="display" tex="\psi_{p}(\mathbb{Q}_{p})=\mathbb{Z}(p^{\infty})" text="psi _ p * Q _ p = Z * p ^ infinity" xml:id="S9.Ex83.m1">
           <XMath>
@@ -19630,7 +19632,7 @@ the conditions of the open mapping theorem are satisfied for <Math mode="inline"
                       <XMTok fontsize="70%" meaning="infinity" name="infty" role="ID">∞</XMTok>
                     </XMApp>
                     <XMTok role="CLOSE" stretchy="false">)</XMTok>
-                  </XMWrap>
+<!--  %**** Qdual.tex Line 725 **** -->                  </XMWrap>
                 </XMDual>
               </XMApp>
             </XMApp>
@@ -19764,7 +19766,7 @@ For <Math mode="inline" tex="y\in\mathbb{Q}_{p}" text="y element-of Q _ p" xml:i
                         <XMTok meaning="times" role="MULOP">⁢</XMTok>
                         <XMApp>
                           <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-<!--  %**** Qdual.tex Line 750 **** -->                          <XMTok font="italic" name="xi" role="UNKNOWN">ξ</XMTok>
+                          <XMTok font="italic" name="xi" role="UNKNOWN">ξ</XMTok>
                           <XMDual>
                             <XMApp>
                               <XMTok meaning="list"/>
@@ -19979,7 +19981,7 @@ p. 92, Theorem 4.12.</note></p>
             </XMApp>
           </XMath>
         </Math> such that
-<Math mode="inline" tex="\{p:x_{p}\not\in\mathbb{Z}_{p}\}" text="conditional-set@(p, x _ p not-element-of Z _ p)" xml:id="S10.p1.m3">
+<!--  %**** Qdual.tex Line 750 **** --><Math mode="inline" tex="\{p:x_{p}\not\in\mathbb{Z}_{p}\}" text="conditional-set@(p, x _ p not-element-of Z _ p)" xml:id="S10.p1.m3">
           <XMath>
             <XMDual>
               <XMApp>
@@ -20244,7 +20246,7 @@ We assign <Math mode="inline" tex="\mathbb{A}" text="A" xml:id="S10.p1.m20">
         </Math>
       </equation>
       <p>where
-<!--  %**** Qdual.tex Line 775 **** --><Math mode="inline" tex="S" text="S" xml:id="S10.p1.m22">
+<Math mode="inline" tex="S" text="S" xml:id="S10.p1.m22">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">S</XMTok>
           </XMath>
@@ -20436,7 +20438,7 @@ of topological unital rings <Math mode="inline" tex="\mathbb{Q}\to\mathbb{A}" te
             </XMApp>
           </XMath>
         </Math>
-such that <Math mode="inline" tex="x_{\infty}=s" text="x _ infinity = s" xml:id="S10.p2.m11">
+<!--  %**** Qdual.tex Line 775 **** -->such that <Math mode="inline" tex="x_{\infty}=s" text="x _ infinity = s" xml:id="S10.p2.m11">
           <XMath>
             <XMApp>
               <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -20623,7 +20625,7 @@ and for any <Math mode="inline" tex="x\in\mathbb{A}" text="x element-of A" xml:i
           </XMath>
         </Math> is finite.</p>
     </para>
-<!--  %**** Qdual.tex Line 800 **** -->    <theorem class="ltx_theorem_lemma" inlist="thm theorem:lemma" xml:id="Thmtheorem7">
+    <theorem class="ltx_theorem_lemma" inlist="thm theorem:lemma" xml:id="Thmtheorem7">
       <tags>
         <tag>Lemma 7</tag>
         <tag role="autoref">7</tag>
@@ -21316,7 +21318,7 @@ it is continuous at <Math mode="inline" tex="0\in\mathbb{A}" text="0 element-of 
               <XMTok meaning="0" role="NUMBER">0</XMTok>
             </XMath>
           </Math> for
-the topology of <Math mode="inline" tex="\widehat{G}" text="widehat@(G)" xml:id="S10.p5.m6">
+<!--  %**** Qdual.tex Line 800 **** -->the topology of <Math mode="inline" tex="\widehat{G}" text="widehat@(G)" xml:id="S10.p5.m6">
             <XMath>
               <XMApp>
                 <XMTok name="widehat" role="OVERACCENT">^</XMTok>
@@ -21655,7 +21657,7 @@ because <Math mode="inline" tex="K" text="K" xml:id="S10.p5.m27">
               <XMTok font="italic" role="UNKNOWN">S</XMTok>
             </XMath>
           </Math> is finite
-<!--  %**** Qdual.tex Line 825 **** -->and therefore for each <Math mode="inline" tex="p\in S" text="p element-of S" xml:id="S10.p5.m29">
+and therefore for each <Math mode="inline" tex="p\in S" text="p element-of S" xml:id="S10.p5.m29">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -22330,8 +22332,7 @@ showing that <Math mode="inline" tex="x\mapsto\Psi_{x}" text="x maps-to Psi _ x"
                 </XMApp>
               </XMApp>
             </XMath>
-          </Math> by
-<!--  %**** Qdual.tex Line 850 **** --></p>
+          </Math> by</p>
         <equation xml:id="S10.Ex95">
           <Math mode="display" tex="\gamma(r)=\frac{\chi(r)}{\chi_{\infty}(r)},\qquad r\in\mathbb{Q}." text="formulae@(gamma * r = (chi * r) / (chi _ infinity * r), r element-of Q)" xml:id="S10.Ex95.m1">
             <XMath>
@@ -22719,7 +22720,7 @@ We define <Math mode="inline" tex="\chi_{p}:\mathbb{Q}\to S^{1}" text="chi _ p c
             </XMath>
           </Math>
         </equation>
-        <p>One checks that <Math mode="inline" tex="\chi_{p}\in\widehat{\mathbb{Q}}" text="chi _ p element-of widehat@(Q)" xml:id="S10.p6.m15">
+<!--  %**** Qdual.tex Line 850 **** -->        <p>One checks that <Math mode="inline" tex="\chi_{p}\in\widehat{\mathbb{Q}}" text="chi _ p element-of widehat@(Q)" xml:id="S10.p6.m15">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -22919,7 +22920,7 @@ For any <Math mode="inline" tex="r\in\mathbb{Q}" text="r element-of Q" xml:id="S
           </Math>
         </equation>
       </para>
-<!--  %**** Qdual.tex Line 875 **** -->      <para xml:id="S10.p7">
+      <para xml:id="S10.p7">
         <p>Let <Math mode="inline" tex="p" text="p" xml:id="S10.p7.m1">
             <XMath>
               <XMTok font="italic" role="UNKNOWN">p</XMTok>
@@ -23381,7 +23382,7 @@ It follows that <Math mode="inline" tex="c_{n}" text="c _ n" xml:id="S10.p7.m11"
               </XMDual>
             </XMath>
           </Math>, and therefore there is some
-<Math mode="inline" tex="x_{p}\in\mathbb{Z}_{p}" text="x _ p element-of Z _ p" xml:id="S10.p7.m13">
+<!--  %**** Qdual.tex Line 875 **** --><Math mode="inline" tex="x_{p}\in\mathbb{Z}_{p}" text="x _ p element-of Z _ p" xml:id="S10.p7.m13">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -23754,7 +23755,7 @@ for all <Math mode="inline" tex="n" text="n" xml:id="S10.p7.m20">
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
                       <XMApp>
                         <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-<!--  %**** Qdual.tex Line 900 **** -->                        <XMTok font="italic" name="chi" role="UNKNOWN">χ</XMTok>
+                        <XMTok font="italic" name="chi" role="UNKNOWN">χ</XMTok>
                         <XMTok font="italic" fontsize="70%" role="UNKNOWN">p</XMTok>
                       </XMApp>
                       <XMApp>
@@ -24110,7 +24111,8 @@ for all <Math mode="inline" tex="n" text="n" xml:id="S10.p7.m20">
                 <XMTok font="italic" fontsize="70%" name="beta" role="UNKNOWN">β</XMTok>
               </XMApp>
               <XMTok meaning="equals" role="RELOP">=</XMTok>
-              <XMTok meaning="exponential" role="OPFUNCTION" xml:id="S10.Ex104.m1.2">exp</XMTok>
+<!--  %**** Qdual.tex Line 900 **** 
+ %**** Qdual.tex Line 900 **** -->              <XMTok meaning="exponential" role="OPFUNCTION" xml:id="S10.Ex104.m1.2">exp</XMTok>
               <XMWrap>
                 <XMTok role="OPEN" stretchy="true">(</XMTok>
                 <XMApp xml:id="S10.Ex104.m1.3">
@@ -24481,7 +24483,7 @@ for all <Math mode="inline" tex="n" text="n" xml:id="S10.p7.m20">
                     </XMWrap>
                   </XMDual>
                   <XMTok role="PERIOD">.</XMTok>
-<!--  %**** Qdual.tex Line 925 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -26640,7 +26642,7 @@ Let <Math mode="inline" tex="p" text="p" xml:id="S10.p8.m9">
               </XMApp>
             </XMath>
           </Math>.
-For any prime <Math mode="inline" tex="p" text="p" xml:id="S10.p9.m10">
+<!--  %**** Qdual.tex Line 950 **** -->For any prime <Math mode="inline" tex="p" text="p" xml:id="S10.p9.m10">
             <XMath>
               <XMTok font="italic" role="UNKNOWN">p</XMTok>
             </XMath>
@@ -26839,7 +26841,7 @@ For any prime <Math mode="inline" tex="p" text="p" xml:id="S10.p9.m10">
           </Math>
         </equation>
       </para>
-<!--  %**** Qdual.tex Line 975 **** -->      <para xml:id="S10.p10">
+      <para xml:id="S10.p10">
         <p>For <Math mode="inline" tex="s\in\mathbb{Q}\subset\mathbb{A}" text="s element-of Q subset-of A" xml:id="S10.p10.m1">
             <XMath>
               <XMApp>
@@ -27233,7 +27235,7 @@ so by the open mapping theorem for topological groups, <Math mode="inline" tex="
             <XMTok name="Psi" role="UNKNOWN">Ψ</XMTok>
           </XMath>
         </Math> is open. Then by the
-first isomorphism theorem for topological groups, because <Math mode="inline" tex="\ker\Psi=\mathbb{Q}" text="kernel@(Psi) = Q" xml:id="S10.p11.m5">
+<!--  %**** Qdual.tex Line 975 **** -->first isomorphism theorem for topological groups, because <Math mode="inline" tex="\ker\Psi=\mathbb{Q}" text="kernel@(Psi) = Q" xml:id="S10.p11.m5">
           <XMath>
             <XMApp>
               <XMTok meaning="equals" role="RELOP">=</XMTok>
