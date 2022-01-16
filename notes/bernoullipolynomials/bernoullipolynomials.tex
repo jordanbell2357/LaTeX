@@ -1,7 +1,7 @@
 \documentclass{article}
 \usepackage{amsmath,amssymb,mathrsfs,amsthm}
 %\usepackage{tikz-cd}
-\usepackage{hyperref}
+\usepackage[draft]{hyperref}
 \newcommand{\inner}[2]{\left\langle #1, #2 \right\rangle}
 \newcommand{\tr}{\ensuremath\mathrm{tr}\,} 
 \newcommand{\Span}{\ensuremath\mathrm{span}} 
@@ -29,8 +29,8 @@
 \newtheorem{example}[theorem]{Example}
 \begin{document}
 \title{Bernoulli polynomials}
-\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
-\date{\today}
+\author{Jordan Bell}
+\date{March 9, 2016}
 
 \maketitle
 
@@ -381,7 +381,7 @@ For $f \in H^r(\mathbb{T})$,
 &=\widehat{f}(0) + \sum_{n \in \mathbb{Z} \setminus \{0\}} \widehat{f}(n) e^{2\pi inx}\\
 &=f(x).
 \end{align*}
-This shows that $H^r(\mathbb{T})$ is a \textbf{reproducing kernel Hilbert space}.\footnote{\url{http://individual.utoronto.ca/jordanbell/notes/realRKHS.pdf}}
+This shows that $H^r(\mathbb{T})$ is a \textbf{reproducing kernel Hilbert space}.
 
 Define $F:\mathbb{T} \times \mathbb{T} \to \mathbb{R}$ by
 \begin{align*}

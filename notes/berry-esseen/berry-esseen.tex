@@ -1,7 +1,7 @@
 \documentclass{article}
 \usepackage{amsmath,amssymb,mathrsfs,amsthm}
 %\usepackage{tikz-cd}
-\usepackage{hyperref}
+%\usepackage{hyperref}
 \newcommand{\inner}[2]{\left\langle #1, #2 \right\rangle}
 \newcommand{\tr}{\ensuremath\mathrm{tr}\,} 
 \newcommand{\Span}{\ensuremath\mathrm{span}} 
@@ -30,8 +30,8 @@
 \newtheorem{example}[theorem]{Example}
 \begin{document}
 \title{The Berry-Esseen theorem}
-\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
-\date{\today}
+\author{Jordan Bell}
+\date{June 3, 2015}
 
 \maketitle
 
@@ -192,7 +192,7 @@ p.~237, Lemma 2;
 Zhengyan Lin and Zhidong Bai, {\em Probability Inequalities}, p.~29, Theorem 4.1.a.}
 We remark that because $F$ is a distribution function,
 it makes sense to speak about the  measure induced by $F$, and because $G$ is of bounded variation and is continuous,
-its variation function  $V_G$ is continuous and the functions $V_G-G$ and $V_G$ are nondecreasing,\footnote{\url{http://individual.utoronto.ca/jordanbell/notes/helly.pdf}, p.~6, Theorem 8 and Theorem 9.} 
+its variation function  $V_G$ is continuous and the functions $V_G-G$ and $V_G$ are nondecreasing,
 and it thus makes sense to speak about the signed measure induced by $G=V_G-(V_G-G)$, which is
 equal to the difference of the  measures induced by $V_G$ and $V_G-G$.
 
@@ -348,8 +348,7 @@ For $n \geq 1$, if $|t| < \frac{1}{2\Gamma_n^{1/3}}$ then
 \label{Gamma1}
 \end{lemma}
 \begin{proof}
-For $1 \leq j \leq k_n$ and $l \geq 0$ and $v \in \mathbb{R}$,\footnote{\url{http://individual.utoronto.ca/jordanbell/notes/lindeberg.pdf},
-p.~1, Theorem 1.}
+For $1 \leq j \leq k_n$ and $l \geq 0$ and $v \in \mathbb{R}$,
 \[
 f_{n,j}^{(l)}(v) = (i)^l E(X_{n,j}^l e^{ivX_{n,j}}).
 \]
@@ -539,8 +538,7 @@ We finally prove the \textbf{Berry-Esseen theorem}.\footnote{Kai Lai Chung,
 {\em A Course in Probability Theory}, third ed., p.~235, Theorem 7.4.1; cf. Allan Gut, {\em Probability: A Graduate Course}, second ed., p.~356, Theorem 6.2;
 John E. Kolassa, {\em Series Approximation Methods in Statistics}, p.~25, Theorem 2.6.1;
 Alexandr A. Borovkov, {\em Probability Theory}, p.~659, Theorem A5.1;
-Ivan Nourdin and Giovanni Peccati, {\em Normal Approximations with Malliavin Calculus:
-From SteinÕs Method to Universality}, p.~71, Theorem 3.7.1.}
+Ivan Nourdin and Giovanni Peccati, {\em Normal Approximations with Malliavin Calculus: From Stein's Method to Universality}, p.~71, Theorem 3.7.1.}
 
 
 \begin{theorem}[Berry-Esseen theorem]
