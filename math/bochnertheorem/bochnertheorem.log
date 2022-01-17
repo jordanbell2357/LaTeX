@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.14)  16 JAN 2022 15:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.14)  17 JAN 2022 15:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -166,111 +166,44 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip59
 \dth@everypar=\toks27
 )
-(c:/texlive/2021/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2022-01-13 v3.0.41 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen158
-\l__siunitx_angle_marker_box=\box52
-\l__siunitx_angle_unit_box=\box53
-\l__siunitx_compound_count_int=\count280
-
-(c:/texlive/2021/texmf-dist/tex/latex/translations/translations.sty
-Package: translations 2022/01/04 v1.11 internationalization of LaTeX2e packages
- (CN)
-
-(c:/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count281
-)
-(c:/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(c:/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-)
-(c:/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-))
-\l__siunitx_number_exponent_fixed_int=\count282
-\l__siunitx_number_min_decimal_int=\count283
-\l__siunitx_number_min_integer_int=\count284
-\l__siunitx_number_round_precision_int=\count285
-\l__siunitx_number_group_minimum_int=\count286
-\l__siunitx_table_tmp_box=\box54
-\l__siunitx_table_tmp_dim=\dimen159
-\l__siunitx_table_column_width_dim=\dimen160
-\l__siunitx_table_integer_box=\box55
-\l__siunitx_table_decimal_box=\box56
-\l__siunitx_table_before_box=\box57
-\l__siunitx_table_after_box=\box58
-\l__siunitx_table_before_dim=\dimen161
-\l__siunitx_table_carry_dim=\dimen162
-\l__siunitx_unit_tmp_int=\count287
-\l__siunitx_unit_position_int=\count288
-\l__siunitx_unit_total_int=\count289
-
-(c:/texlive/2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-(c:/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-01-12 L3 programming layer (loader) 
+\c@theorem=\count280
 
 (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count290
-\l__pdf_internal_box=\box59
-))
-Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+\l__color_backend_stack_int=\count281
+\l__pdf_internal_box=\box52
 )
-(c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen163
-\ar@mcellbox=\box60
-\extrarowheight=\dimen164
-\NC@list=\toks28
-\extratabsurround=\skip60
-\backup@length=\skip61
-\ar@cellbox=\box61
-))
-\c@theorem=\count291
-Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 33.
- (./bochnertheorem.aux)
+(./bochnertheorem.aux)
 \openout1 = `bochnertheorem.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count292
-\scratchdimen=\dimen165
-\scratchbox=\box62
-\nofMPsegments=\count293
-\nofMParguments=\count294
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count295
-\MPscratchDim=\dimen166
-\MPnumerator=\count296
-\makeMPintoPDFobject=\count297
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count282
+\scratchdimen=\dimen158
+\scratchbox=\box53
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen159
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks29
 ) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -283,34 +216,19 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
 
-(c:/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
 
-(c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 149.
-)
-(c:/texlive/2021/texmf-dist/tex/latex/translations/translations-basic-dictionar
-y-english.trsl
-File: translations-basic-dictionary-english.trsl (english translation file `tra
-nslations-basic-dictionary')
-)
-Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 33.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
-
- (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
 
 
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 38
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 39
 .
 
 (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
@@ -318,29 +236,29 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (5.20549pt too wide) in alignment at lines 106--111
+Overfull \hbox (5.20549pt too wide) in alignment at lines 107--112
  [][][] []
  []
 
 [2]
-Overfull \hbox (16.42403pt too wide) in alignment at lines 152--156
+Overfull \hbox (16.42403pt too wide) in alignment at lines 153--157
  [][][] []
  []
 
 [3] [4] [5]
-Overfull \hbox (4.07283pt too wide) in alignment at lines 259--263
+Overfull \hbox (4.07283pt too wide) in alignment at lines 260--264
  [][][] []
  []
 
 [6] [7] [8] [9] [10] (./bochnertheorem.aux) ) 
 Here is how much of TeX's memory you used:
- 8191 strings out of 478286
- 180797 string characters out of 5850726
- 444267 words of memory out of 5000000
- 26318 multiletter control sequences out of 15000+600000
+ 4104 strings out of 478286
+ 66396 string characters out of 5850726
+ 366109 words of memory out of 5000000
+ 22276 multiletter control sequences out of 15000+600000
  478502 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,9n,79p,290b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,9n,79p,290b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2021/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfo
@@ -361,7 +279,7 @@ ic/amsfonts/cm/cmti8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/sy
 mbols/msbm7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
 
-Output written on bochnertheorem.pdf (10 pages, 260112 bytes).
+Output written on bochnertheorem.pdf (10 pages, 259509 bytes).
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  87 compressed objects within 1 object stream
