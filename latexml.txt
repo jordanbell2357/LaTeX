@@ -1,0 +1,71 @@
+latexmlpost productmeasure.xml --dest=latexml/productmeasure.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexmlpost padic.xml --destination=latexml/padic.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexmlpost hermitefunctions.xml --destination=latexml/hermitefunctions.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexmlpost Qdual.xml --destination=latexml/Qdual.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=bernoullipolynomials.xml bernoullipolynomials.tex
+
+latexmlpost bernoullipolynomials.xml --destination=latexml/bernoullipolynomials.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=alternating.xml alternating.tex
+
+latexmlpost alternating.xml --destination=latexml/alternating.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=berry-esseen.xml berry-esseen.tex
+
+latexmlpost berry-esseen.xml --destination=latexml/berry-esseen.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=banachalgebras.xml banachalgebras.tex
+
+latexmlpost banachalgebras.xml --destination=latexml/banachalgebras.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=bergmanspaces.xml bergmanspaces.tex
+
+latexmlpost bergmanspaces.xml --destination=latexml/bergmanspaces.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=bernstein-nikolsky.xml bernstein-nikolsky.tex
+
+latexmlpost bernstein-nikolsky.xml --destination=latexml/bernstein-nikolsky.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=bochnertheorem.xml bochnertheorem.tex
+
+latexmlpost bochnertheorem.xml --destination=latexml/bochnertheorem.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=browniansemigroup.xml browniansemigroup.tex
+
+latexmlpost browniansemigroup.xml --destination=latexml/browniansemigroup.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=BVdifferentiable.xml BVdifferentiable.tex
+
+latexmlpost BVdifferentiable.xml --destination=latexml/BVdifferentiable.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=chebyshev.xml chebyshev.tex
+
+latexmlpost chebyshev.xml --destination=latexml/chebyshev.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=cyclotomic.xml cyclotomic.tex
+
+latexmlpost cyclotomic.xml --destination=latexml/cyclotomic.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=denjoy.xml denjoy.tex
+
+latexmlpost denjoy.xml --destination=latexml/denjoy.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=donsker.xml donsker.tex
+
+latexmlpost donsker.xml --destination=latexml/donsker.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=gaussian-measures.xml gaussian-measures.tex
+
+latexmlpost gaussian-measures.xml --destination=latexml/gaussian-measures.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=gradienthilbert.xml gradienthilbert.tex
+
+latexmlpost gradienthilbert.xml --destination=latexml/gradienthilbert.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=perron-frobenius.xml perron-frobenius.tex
+
+latexmlpost perron-frobenius.xml --destination=latexml/perron-frobenius.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
