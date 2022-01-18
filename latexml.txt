@@ -56,7 +56,7 @@ latexmlpost denjoy.xml --destination=latexml/denjoy.html --javascript="https://c
 
 latexml --destination=donsker.xml donsker.tex
 
-latexmlpost donsker.xml --destination=latexml/donsker.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+latexmlpost donsker.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
 
 latexml --destination=gaussian-measures.xml gaussian-measures.tex
 
@@ -64,7 +64,7 @@ latexmlpost gaussian-measures.xml --destination=latexml/gaussian-measures.html -
 
 latexml --destination=gradienthilbert.xml gradienthilbert.tex
 
-latexmlpost gradienthilbert.xml --destination=latexml/gradienthilbert.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+latexmlpost gradienthilbert.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
 
 latexml --destination=perron-frobenius.xml perron-frobenius.tex
 
