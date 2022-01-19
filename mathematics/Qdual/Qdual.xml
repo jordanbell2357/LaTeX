@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/math/Qdual"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/mathematics/Qdual"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
 <?latexml package="hyperref" options="draft"?>
@@ -7,7 +7,7 @@
 <document xmlns="http://dlmf.nist.gov/LaTeXML" class="ltx_authors_1line">
   <resource src="LaTeXML.css" type="text/css"/>
   <resource src="ltx-article.css" type="text/css"/>
-  <title>The Pontryagin duals of <text font="bold">Q</text>/<text font="bold">Z</text> and <text font="bold">Q</text></title>
+  <title>The Pontryagin duals of <text font="bold">Q</text>/<text font="bold">Z</text> and <text font="bold">Q</text> and the adeles</title>
   <creator role="author">
     <personname>Jordan Bell</personname>
   </creator>
