@@ -1,0 +1,6 @@
+sort -o latexml-sorted.txt latexml-list.txt
+
+awk '{ split($0, w, "@"); printf("[%s](/LaTeXML/mathematics/%s)\n", w[1], w[2]); }' latexml-sorted.txt > latexml-links.txt
+
+
+awk '{ split($0, w, "@"); printf("[%s](/LaTeXML/mathematics/%s/%s.pdf)\n", w[1], w[2], w[2]); }' latexml-sorted.txt > latexml-pdf.txt
