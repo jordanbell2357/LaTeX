@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/staging/frechetderivatives"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/mathematics/frechetderivatives"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,graphicx,subfig,mathrsfs,amsthm"?>
 <?latexml RelaxNGSchema="LaTeXML"?>
@@ -337,7 +337,7 @@ It is immediate that <Math mode="inline" tex="o(X,Y)" text="o * open-interval@(X
           </XMath>
         </Math> is a vector space.</p>
     </para>
-    <para xml:id="S2.p2">
+<!--  %**** frechetderivatives.tex Line 50 **** -->    <para xml:id="S2.p2">
       <p>If <Math mode="inline" tex="X" text="X" xml:id="S2.p2.m1">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">X</XMTok>
@@ -383,7 +383,7 @@ It is immediate that <Math mode="inline" tex="o(X,Y)" text="o * open-interval@(X
               </XMApp>
             </XMath>
           </Math></text> if there is some
-<!--  %**** frechetderivatives.tex Line 50 **** --><Math mode="inline" tex="\epsilon&gt;0" text="epsilon &gt; 0" xml:id="S2.p2.m7">
+<Math mode="inline" tex="\epsilon&gt;0" text="epsilon &gt; 0" xml:id="S2.p2.m7">
           <XMath>
             <XMApp>
               <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
@@ -575,139 +575,139 @@ Penot, <text font="italic">Calculus Without Derivatives</text>, p. 134, Lemma 2
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 1</text></tag>.</title>
       <para xml:id="Thmtheorem1.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="X,Y" text="list@(X, Y)" xml:id="Thmtheorem1.p1.m1">
-              <XMath>
-                <XMDual>
-                  <XMApp>
-                    <XMTok meaning="list"/>
-                    <XMRef idref="Thmtheorem1.p1.m1.1"/>
-                    <XMRef idref="Thmtheorem1.p1.m1.2"/>
-                  </XMApp>
-                  <XMWrap>
-                    <XMTok role="UNKNOWN" xml:id="Thmtheorem1.p1.m1.1">X</XMTok>
-                    <XMTok font="upright" role="PUNCT">,</XMTok>
-                    <XMTok role="UNKNOWN" xml:id="Thmtheorem1.p1.m1.2">Y</XMTok>
-                  </XMWrap>
-                </XMDual>
-              </XMath>
-            </Math> be normed spaces and let <Math mode="inline" tex="r\in o(X,Y)" text="r element-of o * open-interval@(X, Y)" xml:id="Thmtheorem1.p1.m2">
-              <XMath>
+        <p>Let <Math mode="inline" tex="X,Y" text="list@(X, Y)" xml:id="Thmtheorem1.p1.m1">
+            <XMath>
+              <XMDual>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">r</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">o</XMTok>
-                    <XMDual>
-                      <XMApp>
-                        <XMTok meaning="open-interval"/>
-                        <XMRef idref="Thmtheorem1.p1.m2.1"/>
-                        <XMRef idref="Thmtheorem1.p1.m2.2"/>
-                      </XMApp>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem1.p1.m2.1">X</XMTok>
-                        <XMTok font="upright" role="PUNCT">,</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem1.p1.m2.2">Y</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
+                  <XMTok meaning="list"/>
+                  <XMRef idref="Thmtheorem1.p1.m1.1"/>
+                  <XMRef idref="Thmtheorem1.p1.m1.2"/>
                 </XMApp>
-              </XMath>
-            </Math>.
+                <XMWrap>
+                  <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem1.p1.m1.1">X</XMTok>
+                  <XMTok role="PUNCT">,</XMTok>
+                  <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem1.p1.m1.2">Y</XMTok>
+                </XMWrap>
+              </XMDual>
+            </XMath>
+          </Math> be normed spaces and let <Math mode="inline" tex="r\in o(X,Y)" text="r element-of o * open-interval@(X, Y)" xml:id="Thmtheorem1.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">r</XMTok>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">o</XMTok>
+                  <XMDual>
+                    <XMApp>
+                      <XMTok meaning="open-interval"/>
+                      <XMRef idref="Thmtheorem1.p1.m2.1"/>
+                      <XMRef idref="Thmtheorem1.p1.m2.2"/>
+                    </XMApp>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem1.p1.m2.1">X</XMTok>
+                      <XMTok role="PUNCT">,</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem1.p1.m2.2">Y</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math>.
 If <Math mode="inline" tex="W" text="W" xml:id="Thmtheorem1.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">W</XMTok>
-              </XMath>
-            </Math> is a normed space and <Math mode="inline" tex="f:W\to X" text="f colon W to X" xml:id="Thmtheorem1.p1.m4">
-              <XMath>
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">W</XMTok>
+            </XMath>
+          </Math> is a normed space and <Math mode="inline" tex="f:W\to X" text="f colon W to X" xml:id="Thmtheorem1.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" role="UNKNOWN">f</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok role="UNKNOWN">f</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">W</XMTok>
-                    <XMTok role="UNKNOWN">X</XMTok>
-                  </XMApp>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">W</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">X</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> is stable at 0, then <Math mode="inline" tex="r\circ f\in o(W,Y)" text="r compose f element-of o * open-interval@(W, Y)" xml:id="Thmtheorem1.p1.m5">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math> is stable at 0, then <Math mode="inline" tex="r\circ f\in o(W,Y)" text="r compose f element-of o * open-interval@(W, Y)" xml:id="Thmtheorem1.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" meaning="compose" name="circ" role="MULOP">∘</XMTok>
-                    <XMTok role="UNKNOWN">r</XMTok>
-                    <XMTok role="UNKNOWN">f</XMTok>
-                  </XMApp>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">o</XMTok>
-                    <XMDual>
-                      <XMApp>
-                        <XMTok meaning="open-interval"/>
-                        <XMRef idref="Thmtheorem1.p1.m5.1"/>
-                        <XMRef idref="Thmtheorem1.p1.m5.2"/>
-                      </XMApp>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem1.p1.m5.1">W</XMTok>
-                        <XMTok font="upright" role="PUNCT">,</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem1.p1.m5.2">Y</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
+                  <XMTok meaning="compose" name="circ" role="MULOP">∘</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">r</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">f</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>. If <Math mode="inline" tex="Z" text="Z" xml:id="Thmtheorem1.p1.m6">
-              <XMath>
-                <XMTok role="UNKNOWN">Z</XMTok>
-              </XMath>
-            </Math> is a normed space
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">o</XMTok>
+                  <XMDual>
+                    <XMApp>
+                      <XMTok meaning="open-interval"/>
+                      <XMRef idref="Thmtheorem1.p1.m5.1"/>
+                      <XMRef idref="Thmtheorem1.p1.m5.2"/>
+                    </XMApp>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem1.p1.m5.1">W</XMTok>
+                      <XMTok role="PUNCT">,</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem1.p1.m5.2">Y</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math>. If <Math mode="inline" tex="Z" text="Z" xml:id="Thmtheorem1.p1.m6">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">Z</XMTok>
+            </XMath>
+          </Math> is a normed space
 and <Math mode="inline" tex="g:Y\to Z" text="g colon Y to Z" xml:id="Thmtheorem1.p1.m7">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" role="UNKNOWN">g</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok role="UNKNOWN">g</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">Y</XMTok>
-                    <XMTok role="UNKNOWN">Z</XMTok>
-                  </XMApp>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">Y</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">Z</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> is stable at 0, then <Math mode="inline" tex="g\circ r\in o(X,Z)" text="g compose r element-of o * open-interval@(X, Z)" xml:id="Thmtheorem1.p1.m8">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math> is stable at 0, then <Math mode="inline" tex="g\circ r\in o(X,Z)" text="g compose r element-of o * open-interval@(X, Z)" xml:id="Thmtheorem1.p1.m8">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" meaning="compose" name="circ" role="MULOP">∘</XMTok>
-                    <XMTok role="UNKNOWN">g</XMTok>
-                    <XMTok role="UNKNOWN">r</XMTok>
-                  </XMApp>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">o</XMTok>
-                    <XMDual>
-                      <XMApp>
-                        <XMTok meaning="open-interval"/>
-                        <XMRef idref="Thmtheorem1.p1.m8.1"/>
-                        <XMRef idref="Thmtheorem1.p1.m8.2"/>
-                      </XMApp>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem1.p1.m8.1">X</XMTok>
-                        <XMTok font="upright" role="PUNCT">,</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem1.p1.m8.2">Z</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
+                  <XMTok meaning="compose" name="circ" role="MULOP">∘</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">g</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">r</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>.</text></p>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">o</XMTok>
+                  <XMDual>
+                    <XMApp>
+                      <XMTok meaning="open-interval"/>
+                      <XMRef idref="Thmtheorem1.p1.m8.1"/>
+                      <XMRef idref="Thmtheorem1.p1.m8.2"/>
+                    </XMApp>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem1.p1.m8.1">X</XMTok>
+                      <XMTok role="PUNCT">,</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem1.p1.m8.2">Z</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
@@ -1036,7 +1036,8 @@ Define <Math mode="inline" tex="\beta:W\to Y" text="beta colon W to Y" xml:id="S
             </XMath>
           </Math>
         </equation>
-        <p>for which we have</p>
+        <p>for which we have
+<!--  %**** frechetderivatives.tex Line 75 **** --></p>
         <equation xml:id="S2.Ex2">
           <Math mode="display" tex="(r\circ f)(w)=\left\|w\right\|\beta(w),\qquad w\in W." text="formulae@((r compose f) * w = norm@(w) * beta * w, w element-of W)" xml:id="S2.Ex2.m1">
             <XMath>
@@ -1057,7 +1058,7 @@ Define <Math mode="inline" tex="\beta:W\to Y" text="beta colon W to Y" xml:id="S
                           <XMDual>
                             <XMRef idref="S2.Ex2.m1.5.1.1"/>
                             <XMWrap>
-<!--  %**** frechetderivatives.tex Line 75 **** -->                              <XMTok role="OPEN" stretchy="false">(</XMTok>
+                              <XMTok role="OPEN" stretchy="false">(</XMTok>
                               <XMApp xml:id="S2.Ex2.m1.5.1.1">
                                 <XMTok meaning="compose" name="circ" role="MULOP">∘</XMTok>
                                 <XMTok font="italic" role="UNKNOWN">r</XMTok>
@@ -1675,12 +1676,12 @@ Define <Math mode="inline" tex="\gamma:X\to Z" text="gamma colon X to Z" xml:id=
                     </XMApp>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-                </XMWrap>
+<!--  %**** frechetderivatives.tex Line 100 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** frechetderivatives.tex Line 100 **** -->        <p>Since <Math mode="inline" tex="\alpha(0)=0" text="alpha * 0 = 0" xml:id="S2.p4.m9">
+        <p>Since <Math mode="inline" tex="\alpha(0)=0" text="alpha * 0 = 0" xml:id="S2.p4.m9">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -2186,180 +2187,180 @@ topology.</p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 2</text></tag>.</title>
       <para xml:id="Thmtheorem2.p1">
-        <p><text font="italic">If <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem2.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> and <Math mode="inline" tex="Y_{1},\ldots,Y_{n}" text="list@(Y _ 1, ldots, Y _ n)" xml:id="Thmtheorem2.p1.m2">
-              <XMath>
-                <XMDual>
-                  <XMApp>
-                    <XMTok meaning="list"/>
-                    <XMRef idref="Thmtheorem2.p1.m2.2"/>
-                    <XMRef idref="Thmtheorem2.p1.m2.1"/>
-                    <XMRef idref="Thmtheorem2.p1.m2.3"/>
-                  </XMApp>
-                  <XMWrap>
-                    <XMApp xml:id="Thmtheorem2.p1.m2.2">
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">Y</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                    </XMApp>
-                    <XMTok font="upright" role="PUNCT">,</XMTok>
-                    <XMTok font="upright" name="ldots" role="ID" xml:id="Thmtheorem2.p1.m2.1">…</XMTok>
-                    <XMTok font="upright" role="PUNCT">,</XMTok>
-                    <XMApp xml:id="Thmtheorem2.p1.m2.3">
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">Y</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                    </XMApp>
-                  </XMWrap>
-                </XMDual>
-              </XMath>
-            </Math> are normed spaces, then a function
-<Math mode="inline" tex="r:X\to\prod_{k=1}^{n}Y_{k}" text="r colon X to ((product _ (k = 1)) ^ n)@(Y _ k)" xml:id="Thmtheorem2.p1.m3">
-              <XMath>
+        <p>If <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem2.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> and <Math mode="inline" tex="Y_{1},\ldots,Y_{n}" text="list@(Y _ 1, ldots, Y _ n)" xml:id="Thmtheorem2.p1.m2">
+            <XMath>
+              <XMDual>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok role="UNKNOWN">r</XMTok>
+                  <XMTok meaning="list"/>
+                  <XMRef idref="Thmtheorem2.p1.m2.2"/>
+                  <XMRef idref="Thmtheorem2.p1.m2.1"/>
+                  <XMRef idref="Thmtheorem2.p1.m2.3"/>
+                </XMApp>
+                <XMWrap>
+                  <XMApp xml:id="Thmtheorem2.p1.m2.2">
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">Y</XMTok>
+                    <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                  </XMApp>
+                  <XMTok role="PUNCT">,</XMTok>
+                  <XMTok name="ldots" role="ID" xml:id="Thmtheorem2.p1.m2.1">…</XMTok>
+                  <XMTok role="PUNCT">,</XMTok>
+                  <XMApp xml:id="Thmtheorem2.p1.m2.3">
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">Y</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                  </XMApp>
+                </XMWrap>
+              </XMDual>
+            </XMath>
+          </Math> are normed spaces, then a function
+<Math mode="inline" tex="r:X\to\prod_{k=1}^{n}Y_{k}" text="r colon X to ((product _ (k = 1)) ^ n)@(Y _ k)" xml:id="Thmtheorem2.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" role="UNKNOWN">r</XMTok>
+                <XMApp>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">X</XMTok>
                   <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">X</XMTok>
                     <XMApp>
-                      <XMApp>
-                        <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                        <XMApp>
-                          <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                          <XMTok font="upright" mathstyle="text" meaning="product" name="prod" role="SUMOP" scriptpos="post">∏</XMTok>
-                          <XMApp>
-                            <XMTok font="upright" fontsize="70%" meaning="equals" role="RELOP">=</XMTok>
-                            <XMTok fontsize="70%" role="UNKNOWN">k</XMTok>
-                            <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                          </XMApp>
-                        </XMApp>
-                        <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                      </XMApp>
+                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
                       <XMApp>
                         <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">Y</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN">k</XMTok>
+                        <XMTok mathstyle="text" meaning="product" name="prod" role="SUMOP" scriptpos="post">∏</XMTok>
+                        <XMApp>
+                          <XMTok fontsize="70%" meaning="equals" role="RELOP">=</XMTok>
+                          <XMTok font="italic" fontsize="70%" role="UNKNOWN">k</XMTok>
+                          <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                        </XMApp>
                       </XMApp>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
                     </XMApp>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math> is a remainder
-if and only if
-each of <Math mode="inline" tex="r_{k}:X\to Y_{k}" text="r _ k colon X to Y _ k" xml:id="Thmtheorem2.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">r</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">k</XMTok>
-                  </XMApp>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">X</XMTok>
                     <XMApp>
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">Y</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">k</XMTok>
+                      <XMTok font="italic" role="UNKNOWN">Y</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">k</XMTok>
                     </XMApp>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math> are remainders, <Math mode="inline" tex="1\leq k\leq n" text="1 less= k less= n" xml:id="Thmtheorem2.p1.m5">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math> is a remainder
+if and only if
+each of <Math mode="inline" tex="r_{k}:X\to Y_{k}" text="r _ k colon X to Y _ k" xml:id="Thmtheorem2.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
                 <XMApp>
-                  <XMTok meaning="multirelation"/>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok role="UNKNOWN">k</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok role="UNKNOWN">n</XMTok>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">r</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">k</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>, where
-<Math mode="inline" tex="r(x)=(r_{1}(x),\ldots,r_{n}(x))" text="r * x = vector@(r _ 1 * x, ldots, r _ n * x)" xml:id="Thmtheorem2.p1.m6">
-              <XMath>
                 <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">X</XMTok>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">r</XMTok>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem2.p1.m6.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem2.p1.m6.1">x</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">Y</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">k</XMTok>
                   </XMApp>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math> are remainders, <Math mode="inline" tex="1\leq k\leq n" text="1 less= k less= n" xml:id="Thmtheorem2.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="multirelation"/>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" role="UNKNOWN">k</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" role="UNKNOWN">n</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, where
+<Math mode="inline" tex="r(x)=(r_{1}(x),\ldots,r_{n}(x))" text="r * x = vector@(r _ 1 * x, ldots, r _ n * x)" xml:id="Thmtheorem2.p1.m6">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">r</XMTok>
                   <XMDual>
-                    <XMApp>
-                      <XMTok meaning="vector"/>
-                      <XMRef idref="Thmtheorem2.p1.m6.5"/>
-                      <XMRef idref="Thmtheorem2.p1.m6.4"/>
-                      <XMRef idref="Thmtheorem2.p1.m6.6"/>
-                    </XMApp>
+                    <XMRef idref="Thmtheorem2.p1.m6.1"/>
                     <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                      <XMApp xml:id="Thmtheorem2.p1.m6.5">
-                        <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                        <XMApp>
-                          <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                          <XMTok role="UNKNOWN">r</XMTok>
-                          <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                        </XMApp>
-                        <XMDual>
-                          <XMRef idref="Thmtheorem2.p1.m6.2"/>
-                          <XMWrap>
-                            <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                            <XMTok role="UNKNOWN" xml:id="Thmtheorem2.p1.m6.2">x</XMTok>
-                            <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                          </XMWrap>
-                        </XMDual>
-                      </XMApp>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok font="upright" name="ldots" role="ID" xml:id="Thmtheorem2.p1.m6.4">…</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMApp xml:id="Thmtheorem2.p1.m6.6">
-                        <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                        <XMApp>
-                          <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                          <XMTok role="UNKNOWN">r</XMTok>
-                          <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                        </XMApp>
-                        <XMDual>
-                          <XMRef idref="Thmtheorem2.p1.m6.3"/>
-                          <XMWrap>
-                            <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                            <XMTok role="UNKNOWN" xml:id="Thmtheorem2.p1.m6.3">x</XMTok>
-                            <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                          </XMWrap>
-                        </XMDual>
-                      </XMApp>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem2.p1.m6.1">x</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
                     </XMWrap>
                   </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> for all <Math mode="inline" tex="x\in X" text="x element-of X" xml:id="Thmtheorem2.p1.m7">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok role="UNKNOWN">X</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>.</text></p>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="vector"/>
+                    <XMRef idref="Thmtheorem2.p1.m6.5"/>
+                    <XMRef idref="Thmtheorem2.p1.m6.4"/>
+                    <XMRef idref="Thmtheorem2.p1.m6.6"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">(</XMTok>
+                    <XMApp xml:id="Thmtheorem2.p1.m6.5">
+                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                      <XMApp>
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                        <XMTok font="italic" role="UNKNOWN">r</XMTok>
+                        <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                      </XMApp>
+                      <XMDual>
+                        <XMRef idref="Thmtheorem2.p1.m6.2"/>
+                        <XMWrap>
+                          <XMTok role="OPEN" stretchy="false">(</XMTok>
+                          <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem2.p1.m6.2">x</XMTok>
+                          <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                        </XMWrap>
+                      </XMDual>
+                    </XMApp>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok name="ldots" role="ID" xml:id="Thmtheorem2.p1.m6.4">…</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMApp xml:id="Thmtheorem2.p1.m6.6">
+                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                      <XMApp>
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                        <XMTok font="italic" role="UNKNOWN">r</XMTok>
+                        <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                      </XMApp>
+                      <XMDual>
+                        <XMRef idref="Thmtheorem2.p1.m6.3"/>
+                        <XMWrap>
+                          <XMTok role="OPEN" stretchy="false">(</XMTok>
+                          <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem2.p1.m6.3">x</XMTok>
+                          <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                        </XMWrap>
+                      </XMDual>
+                    </XMApp>
+                    <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math> for all <Math mode="inline" tex="x\in X" text="x element-of X" xml:id="Thmtheorem2.p1.m7">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok font="italic" role="UNKNOWN">X</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
-      <title class="ltx_runin" font="italic">Proof.</title>
+      <title class="ltx_runin" font="italic"><!--  %**** frechetderivatives.tex Line 125 **** -->Proof.</title>
       <para xml:id="S2.p6">
         <p>Suppose that there is some function <Math mode="inline" tex="\alpha:X\to\prod_{k=1}^{n}Y_{k}" text="alpha colon X to ((product _ (k = 1)) ^ n)@(Y _ k)" xml:id="S2.p6.m1">
             <XMath>
@@ -2393,7 +2394,7 @@ each of <Math mode="inline" tex="r_{k}:X\to Y_{k}" text="r _ k colon X to Y _ k"
               </XMApp>
             </XMath>
           </Math> such that
-<!--  %**** frechetderivatives.tex Line 125 **** --><Math mode="inline" tex="r(x)=\left\|x\right\|\alpha(x)" text="r * x = norm@(x) * alpha * x" xml:id="S2.p6.m2">
+<Math mode="inline" tex="r(x)=\left\|x\right\|\alpha(x)" text="r * x = norm@(x) * alpha * x" xml:id="S2.p6.m2">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -3208,7 +3209,7 @@ and some <Math mode="inline" tex="r\in o(X,Y)" text="r element-of o * open-inter
           </XMath>
         </Math>
       </equation>
-      <p>Suppose there are bounded linear maps <Math mode="inline" tex="L_{1},L_{2}" text="list@(L _ 1, L _ 2)" xml:id="S3.p1.m10">
+<!--  %**** frechetderivatives.tex Line 150 **** -->      <p>Suppose there are bounded linear maps <Math mode="inline" tex="L_{1},L_{2}" text="list@(L _ 1, L _ 2)" xml:id="S3.p1.m10">
           <XMath>
             <XMDual>
               <XMApp>
@@ -3255,7 +3256,7 @@ and some <Math mode="inline" tex="r\in o(X,Y)" text="r element-of o * open-inter
             </XMDual>
           </XMath>
         </Math> that satisfy the above.
-<!--  %**** frechetderivatives.tex Line 150 **** -->Writing <Math mode="inline" tex="r_{1}(x)=\left\|x\right\|\alpha_{1}(x)" text="r _ 1 * x = norm@(x) * alpha _ 1 * x" xml:id="S3.p1.m12">
+Writing <Math mode="inline" tex="r_{1}(x)=\left\|x\right\|\alpha_{1}(x)" text="r _ 1 * x = norm@(x) * alpha _ 1 * x" xml:id="S3.p1.m12">
           <XMath>
             <XMApp>
               <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -4322,7 +4323,7 @@ the bounded linear map <Math mode="inline" tex="L" text="L" xml:id="S3.p1.m28">
           </XMath>
         </Math>
       </equation>
-      <p>If <Math mode="inline" tex="U_{0}" text="U _ 0" xml:id="S3.p1.m32">
+<!--  %**** frechetderivatives.tex Line 175 **** -->      <p>If <Math mode="inline" tex="U_{0}" text="U _ 0" xml:id="S3.p1.m32">
           <XMath>
             <XMApp>
               <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -4339,7 +4340,7 @@ the bounded linear map <Math mode="inline" tex="L" text="L" xml:id="S3.p1.m28">
             <XMTok font="italic" role="UNKNOWN">f</XMTok>
           </XMath>
         </Math> is Fréchet differentiable, then
-<!--  %**** frechetderivatives.tex Line 175 **** --><Math mode="inline" tex="Df:U_{0}\to\mathscr{B}(X,Y)" text="D * f colon U _ 0 to B * open-interval@(X, Y)" xml:id="S3.p1.m35">
+<Math mode="inline" tex="Df:U_{0}\to\mathscr{B}(X,Y)" text="D * f colon U _ 0 to B * open-interval@(X, Y)" xml:id="S3.p1.m35">
           <XMath>
             <XMApp>
               <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -4807,35 +4808,36 @@ Cartan, <text font="italic">Differential Calculus</text>, p. 36, §2.7.</note><
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 3</text></tag>.</title>
       <para xml:id="Thmtheorem3.p1">
-        <p><text font="italic">Suppose that <Math mode="inline" tex="f:\mathbb{R}^{n}\to\mathbb{R}^{m}" text="f colon R ^ n to R ^ m" xml:id="Thmtheorem3.p1.m1">
-              <XMath>
+        <p>Suppose that <Math mode="inline" tex="f:\mathbb{R}^{n}\to\mathbb{R}^{m}" text="f colon R ^ n to R ^ m" xml:id="Thmtheorem3.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" role="UNKNOWN">f</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok role="UNKNOWN">f</XMTok>
+                  <XMTok name="to" role="ARROW">→</XMTok>
                   <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                    </XMApp>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">m</XMTok>
-                    </XMApp>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                  </XMApp>
+                  <XMApp>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">m</XMTok>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math> is Fréchet differentiable at each point in <Math mode="inline" tex="\mathbb{R}^{n}" text="R ^ n" xml:id="Thmtheorem3.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                  <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                  <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, and write</text></p>
+              </XMApp>
+            </XMath>
+          </Math> is Fréchet differentiable at each point in <Math mode="inline" tex="\mathbb{R}^{n}" text="R ^ n" xml:id="Thmtheorem3.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, and write
+<!--  %**** frechetderivatives.tex Line 200 **** --></p>
         <equation xml:id="S3.Ex14">
           <Math mode="display" tex="f=(f_{1},\ldots,f_{m})." text="f = vector@(f _ 1, ldots, f _ m)" xml:id="S3.Ex14.m1">
             <XMath>
@@ -4844,7 +4846,7 @@ Cartan, <text font="italic">Differential Calculus</text>, p. 36, §2.7.</note><
                 <XMWrap>
                   <XMApp xml:id="S3.Ex14.m1.2">
                     <XMTok meaning="equals" role="RELOP">=</XMTok>
-<!--  %**** frechetderivatives.tex Line 200 **** -->                    <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">f</XMTok>
                     <XMDual>
                       <XMApp>
                         <XMTok meaning="vector"/>
@@ -4914,30 +4916,30 @@ Cartan, <text font="italic">Differential Calculus</text>, p. 36, §2.7.</note><
                 </XMApp>
               </XMApp>
             </XMath>
-          </Math><text font="italic"> if and only if for each <Math mode="inline" tex="1\leq i\leq m" text="1 less= i less= m" xml:id="Thmtheorem3.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok meaning="multirelation"/>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok role="UNKNOWN">i</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok role="UNKNOWN">m</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> and
+          </Math> if and only if for each <Math mode="inline" tex="1\leq i\leq m" text="1 less= i less= m" xml:id="Thmtheorem3.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="multirelation"/>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" role="UNKNOWN">i</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" role="UNKNOWN">m</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and
 <Math mode="inline" tex="1\leq j\leq n" text="1 less= j less= n" xml:id="Thmtheorem3.p1.m5">
-              <XMath>
-                <XMApp>
-                  <XMTok meaning="multirelation"/>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok role="UNKNOWN">j</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok role="UNKNOWN">n</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> the function</text></p>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="multirelation"/>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" role="UNKNOWN">j</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" role="UNKNOWN">n</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> the function</p>
         <equation xml:id="S3.Ex15">
           <Math mode="display" tex="\frac{\partial f_{i}}{\partial x_{j}}:\mathbb{R}^{n}\to\mathbb{R}" text="partial-differential@(f _ i) / partial-differential@(x _ j) colon R ^ n to R" xml:id="S3.Ex15.m1">
             <XMath>
@@ -4975,7 +4977,7 @@ Cartan, <text font="italic">Differential Calculus</text>, p. 36, §2.7.</note><
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">is continuous.</text></p>
+        <p>is continuous.</p>
       </para>
     </theorem>
   </section>
@@ -5042,112 +5044,112 @@ at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="S4.p1.m6">
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 4</text></tag> (Linearity).</title>
       <para xml:id="Thmtheorem4.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem4.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> and <Math mode="inline" tex="Y" text="Y" xml:id="Thmtheorem4.p1.m2">
-              <XMath>
-                <XMTok role="UNKNOWN">Y</XMTok>
-              </XMath>
-            </Math> be normed spaces, let <Math mode="inline" tex="U" text="U" xml:id="Thmtheorem4.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">U</XMTok>
-              </XMath>
-            </Math> be an open subset of <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem4.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> and let <Math mode="inline" tex="x_{0}\in U" text="x _ 0 element-of U" xml:id="Thmtheorem4.p1.m5">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">x</XMTok>
-                    <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                  </XMApp>
-                  <XMTok role="UNKNOWN">U</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>. If <Math mode="inline" tex="f_{1},f_{2}:U\to Y" text="list@(f _ 1, f _ 2) colon U to Y" xml:id="Thmtheorem4.p1.m6">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="list"/>
-                      <XMRef idref="Thmtheorem4.p1.m6.1"/>
-                      <XMRef idref="Thmtheorem4.p1.m6.2"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMApp xml:id="Thmtheorem4.p1.m6.1">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">f</XMTok>
-                        <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                      </XMApp>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMApp xml:id="Thmtheorem4.p1.m6.2">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">f</XMTok>
-                        <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                      </XMApp>
-                    </XMWrap>
-                  </XMDual>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">U</XMTok>
-                    <XMTok role="UNKNOWN">Y</XMTok>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math> are both
-Fréchet differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem4.p1.m7">
-              <XMath>
+        <p>Let <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem4.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> and <Math mode="inline" tex="Y" text="Y" xml:id="Thmtheorem4.p1.m2">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">Y</XMTok>
+            </XMath>
+          </Math> be normed spaces, let <Math mode="inline" tex="U" text="U" xml:id="Thmtheorem4.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">U</XMTok>
+            </XMath>
+          </Math> be an open subset of <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem4.p1.m4">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> and let <Math mode="inline" tex="x_{0}\in U" text="x _ 0 element-of U" xml:id="Thmtheorem4.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
                 <XMApp>
                   <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                  <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> and if <Math mode="inline" tex="\alpha\in\mathbb{R}" text="alpha element-of R" xml:id="Thmtheorem4.p1.m8">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="alpha" role="UNKNOWN">α</XMTok>
-                  <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,
-then <Math mode="inline" tex="\alpha f_{1}+f_{2}" text="alpha * f _ 1 + f _ 2" xml:id="Thmtheorem4.p1.m9">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="plus" role="ADDOP">+</XMTok>
+                <XMTok font="italic" role="UNKNOWN">U</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>. If <Math mode="inline" tex="f_{1},f_{2}:U\to Y" text="list@(f _ 1, f _ 2) colon U to Y" xml:id="Thmtheorem4.p1.m6">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMDual>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok name="alpha" role="UNKNOWN">α</XMTok>
-                    <XMApp>
+                    <XMTok meaning="list"/>
+                    <XMRef idref="Thmtheorem4.p1.m6.1"/>
+                    <XMRef idref="Thmtheorem4.p1.m6.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMApp xml:id="Thmtheorem4.p1.m6.1">
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">f</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                      <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                      <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
                     </XMApp>
-                  </XMApp>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMApp xml:id="Thmtheorem4.p1.m6.2">
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                      <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+                    </XMApp>
+                  </XMWrap>
+                </XMDual>
+                <XMApp>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">U</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">Y</XMTok>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math> are both
+Fréchet differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem4.p1.m7">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and if <Math mode="inline" tex="\alpha\in\mathbb{R}" text="alpha element-of R" xml:id="Thmtheorem4.p1.m8">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="alpha" role="UNKNOWN">α</XMTok>
+                <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,
+then <Math mode="inline" tex="\alpha f_{1}+f_{2}" text="alpha * f _ 1 + f _ 2" xml:id="Thmtheorem4.p1.m9">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="plus" role="ADDOP">+</XMTok>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" name="alpha" role="UNKNOWN">α</XMTok>
                   <XMApp>
                     <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">f</XMTok>
-                    <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                    <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math> is Fréchet differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem4.p1.m10">
-              <XMath>
                 <XMApp>
                   <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                  <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> and</text></p>
+              </XMApp>
+            </XMath>
+          </Math> is Fréchet differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem4.p1.m10">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and</p>
         <equation xml:id="S4.Ex16">
           <Math mode="display" tex="D(\alpha f_{1}+f_{2})(x_{0})=\alpha Df_{1}(x_{0})+Df_{2}(x_{0})." text="D * (alpha * f _ 1 + f _ 2) * x _ 0 = alpha * D * f _ 1 * x _ 0 + D * f _ 2 * x _ 0" xml:id="S4.Ex16.m1">
             <XMath>
@@ -5158,7 +5160,7 @@ then <Math mode="inline" tex="\alpha f_{1}+f_{2}" text="alpha * f _ 1 + f _ 2" x
                     <XMTok meaning="equals" role="RELOP">=</XMTok>
                     <XMApp>
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                      <XMTok font="italic" role="UNKNOWN">D</XMTok>
+<!--  %**** frechetderivatives.tex Line 225 **** -->                      <XMTok font="italic" role="UNKNOWN">D</XMTok>
                       <XMDual>
                         <XMRef idref="S4.Ex16.m1.1.1"/>
                         <XMWrap>
@@ -5244,7 +5246,7 @@ then <Math mode="inline" tex="\alpha f_{1}+f_{2}" text="alpha * f _ 1 + f _ 2" x
                     </XMApp>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-<!--  %**** frechetderivatives.tex Line 225 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -6517,12 +6519,11 @@ then <Math mode="inline" tex="\alpha f_{1}+f_{2}" text="alpha * f _ 1 + f _ 2" x
     </proof>
     <para xml:id="S4.p4">
       <p>The following lemma gives an alternate characterization of a function being Fréchet differentiable
-at a point.<note mark="5" role="footnote" xml:id="footnote5"><tags>
+<!--  %**** frechetderivatives.tex Line 250 **** -->at a point.<note mark="5" role="footnote" xml:id="footnote5"><tags>
             <tag>5</tag>
             <tag role="refnum">5</tag>
             <tag role="typerefnum">footnote 5</tag>
-          </tags>Jean-Paul Penot, <text font="italic">Calculus Without Derivatives</text>, p. 136, Lemma 2.46.</note>
-<!--  %**** frechetderivatives.tex Line 250 **** --></p>
+          </tags>Jean-Paul Penot, <text font="italic">Calculus Without Derivatives</text>, p. 136, Lemma 2.46.</note></p>
     </para>
     <theorem class="ltx_theorem_lemma" inlist="thm theorem:lemma" xml:id="Thmtheorem5">
       <tags>
@@ -6532,94 +6533,94 @@ at a point.<note mark="5" role="footnote" xml:id="footnote5"><tags>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 5</text></tag>.</title>
       <para xml:id="Thmtheorem5.p1">
-        <p><text font="italic">Suppose that <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem5.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> and <Math mode="inline" tex="Y" text="Y" xml:id="Thmtheorem5.p1.m2">
-              <XMath>
-                <XMTok role="UNKNOWN">Y</XMTok>
-              </XMath>
-            </Math> are normed space, that <Math mode="inline" tex="U" text="U" xml:id="Thmtheorem5.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">U</XMTok>
-              </XMath>
-            </Math> is an open subset of <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem5.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math>, and that <Math mode="inline" tex="x_{0}\in U" text="x _ 0 element-of U" xml:id="Thmtheorem5.p1.m5">
-              <XMath>
+        <p>Suppose that <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem5.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> and <Math mode="inline" tex="Y" text="Y" xml:id="Thmtheorem5.p1.m2">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">Y</XMTok>
+            </XMath>
+          </Math> are normed space, that <Math mode="inline" tex="U" text="U" xml:id="Thmtheorem5.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">U</XMTok>
+            </XMath>
+          </Math> is an open subset of <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem5.p1.m4">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math>, and that <Math mode="inline" tex="x_{0}\in U" text="x _ 0 element-of U" xml:id="Thmtheorem5.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">x</XMTok>
-                    <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                  </XMApp>
-                  <XMTok role="UNKNOWN">U</XMTok>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                  <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>. A function
+                <XMTok font="italic" role="UNKNOWN">U</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>. A function
 <Math mode="inline" tex="f:U\to Y" text="f colon U to Y" xml:id="Thmtheorem5.p1.m6">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" role="UNKNOWN">f</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok role="UNKNOWN">f</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">U</XMTok>
-                    <XMTok role="UNKNOWN">Y</XMTok>
-                  </XMApp>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">U</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">Y</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> is Fréchet differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem5.p1.m7">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> if and only if there is some function
+              </XMApp>
+            </XMath>
+          </Math> is Fréchet differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem5.p1.m7">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> if and only if there is some function
 <Math mode="inline" tex="F:U\to\mathscr{B}(X,Y)" text="F colon U to B * open-interval@(X, Y)" xml:id="Thmtheorem5.p1.m8">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" role="UNKNOWN">F</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok role="UNKNOWN">F</XMTok>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">U</XMTok>
                   <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">U</XMTok>
-                    <XMApp>
-                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                      <XMTok font="script upright" role="UNKNOWN">B</XMTok>
-                      <XMDual>
-                        <XMApp>
-                          <XMTok meaning="open-interval"/>
-                          <XMRef idref="Thmtheorem5.p1.m8.1"/>
-                          <XMRef idref="Thmtheorem5.p1.m8.2"/>
-                        </XMApp>
-                        <XMWrap>
-                          <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                          <XMTok role="UNKNOWN" xml:id="Thmtheorem5.p1.m8.1">X</XMTok>
-                          <XMTok font="upright" role="PUNCT">,</XMTok>
-                          <XMTok role="UNKNOWN" xml:id="Thmtheorem5.p1.m8.2">Y</XMTok>
-                          <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                        </XMWrap>
-                      </XMDual>
-                    </XMApp>
+                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                    <XMTok font="script" role="UNKNOWN">B</XMTok>
+                    <XMDual>
+                      <XMApp>
+                        <XMTok meaning="open-interval"/>
+                        <XMRef idref="Thmtheorem5.p1.m8.1"/>
+                        <XMRef idref="Thmtheorem5.p1.m8.2"/>
+                      </XMApp>
+                      <XMWrap>
+                        <XMTok role="OPEN" stretchy="false">(</XMTok>
+                        <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem5.p1.m8.1">X</XMTok>
+                        <XMTok role="PUNCT">,</XMTok>
+                        <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem5.p1.m8.2">Y</XMTok>
+                        <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                      </XMWrap>
+                    </XMDual>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math> that is continuous at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem5.p1.m9">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> and for which</text></p>
+              </XMApp>
+            </XMath>
+          </Math> that is continuous at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem5.p1.m9">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and for which</p>
         <equation xml:id="S4.Ex24">
           <Math mode="display" tex="f(x)-f(x_{0})=F(x)(x-x_{0}),\qquad x\in U." text="formulae@(f * x - f * x _ 0 = F * x * (x - x _ 0), x element-of U)" xml:id="S4.Ex24.m1">
             <XMath>
@@ -7408,7 +7409,8 @@ at a point.<note mark="5" role="footnote" xml:id="footnote5"><tags>
             </XMath>
           </Math>
         </equation>
-        <p>We further define</p>
+        <p>We further define
+<!--  %**** frechetderivatives.tex Line 275 **** --></p>
         <equation xml:id="S4.Ex28">
           <Math mode="display" tex="\alpha(x)=\begin{cases}\frac{(F(x+x_{0})-F(x_{0}))(x)}{\left\|x\right\|}&amp;x+x_{%&#10;0}\in U,x\neq 0\\&#10;0&amp;x+x_{0}\not\in U\\&#10;0&amp;x=0,\end{cases}" text="alpha * x = cases@(((F * (x + x _ 0) - F * x _ 0) * x) / norm@(x), formulae@(x + x _ 0 element-of U, x not-equals 0), 0, x + x _ 0 not-element-of U, 0, x = 0)" xml:id="S4.Ex28.m1">
             <XMath>
@@ -7416,7 +7418,7 @@ at a point.<note mark="5" role="footnote" xml:id="footnote5"><tags>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
                 <XMApp>
                   <XMTok meaning="times" role="MULOP">⁢</XMTok>
-<!--  %**** frechetderivatives.tex Line 275 **** -->                  <XMTok font="italic" name="alpha" role="UNKNOWN">α</XMTok>
+                  <XMTok font="italic" name="alpha" role="UNKNOWN">α</XMTok>
                   <XMDual>
                     <XMRef idref="S4.Ex28.m1.7"/>
                     <XMWrap>
@@ -8376,7 +8378,7 @@ as <Math mode="inline" tex="x\to 0" text="x to 0" xml:id="S4.p6.m11">
               </XMApp>
             </XMath>
           </Math>.
-For each <Math mode="inline" tex="x\in X" text="x element-of X" xml:id="S4.p6.m12">
+<!--  %**** frechetderivatives.tex Line 300 **** -->For each <Math mode="inline" tex="x\in X" text="x element-of X" xml:id="S4.p6.m12">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -8385,7 +8387,7 @@ For each <Math mode="inline" tex="x\in X" text="x element-of X" xml:id="S4.p6.m1
               </XMApp>
             </XMath>
           </Math>, by the Hahn-Banach extension
-<!--  %**** frechetderivatives.tex Line 300 **** -->theorem<note mark="6" role="footnote" xml:id="footnote6"><tags>
+theorem<note mark="6" role="footnote" xml:id="footnote6"><tags>
               <tag>6</tag>
               <tag role="refnum">6</tag>
               <tag role="typerefnum">footnote 6</tag>
@@ -9150,7 +9152,8 @@ Thus,</p>
                 <XMTok font="italic" role="UNKNOWN">X</XMTok>
               </XMApp>
             </XMath>
-          </Math>,</p>
+          </Math>,
+<!--  %**** frechetderivatives.tex Line 325 **** --></p>
         <equationgroup class="ltx_eqn_eqnarray" xml:id="S7.EGx3">
           <equation xml:id="S4.Ex38">
             <MathFork>
@@ -9810,145 +9813,145 @@ we get that <Math mode="inline" tex="F" text="F" xml:id="S4.p6.m32">
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 6</text></tag> (Chain rule).</title>
       <para xml:id="Thmtheorem6.p1">
-        <p><text font="italic">Suppose that <Math mode="inline" tex="X,Y,Z" text="list@(X, Y, Z)" xml:id="Thmtheorem6.p1.m1">
-              <XMath>
-                <XMDual>
-                  <XMApp>
-                    <XMTok meaning="list"/>
-                    <XMRef idref="Thmtheorem6.p1.m1.1"/>
-                    <XMRef idref="Thmtheorem6.p1.m1.2"/>
-                    <XMRef idref="Thmtheorem6.p1.m1.3"/>
-                  </XMApp>
-                  <XMWrap>
-                    <XMTok role="UNKNOWN" xml:id="Thmtheorem6.p1.m1.1">X</XMTok>
-                    <XMTok font="upright" role="PUNCT">,</XMTok>
-                    <XMTok role="UNKNOWN" xml:id="Thmtheorem6.p1.m1.2">Y</XMTok>
-                    <XMTok font="upright" role="PUNCT">,</XMTok>
-                    <XMTok role="UNKNOWN" xml:id="Thmtheorem6.p1.m1.3">Z</XMTok>
-                  </XMWrap>
-                </XMDual>
-              </XMath>
-            </Math> are normed spaces and that <Math mode="inline" tex="U" text="U" xml:id="Thmtheorem6.p1.m2">
-              <XMath>
-                <XMTok role="UNKNOWN">U</XMTok>
-              </XMath>
-            </Math> and <Math mode="inline" tex="V" text="V" xml:id="Thmtheorem6.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">V</XMTok>
-              </XMath>
-            </Math> are open subsets of <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem6.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> and <Math mode="inline" tex="Y" text="Y" xml:id="Thmtheorem6.p1.m5">
-              <XMath>
-                <XMTok role="UNKNOWN">Y</XMTok>
-              </XMath>
-            </Math> respectively.
+        <p>Suppose that <Math mode="inline" tex="X,Y,Z" text="list@(X, Y, Z)" xml:id="Thmtheorem6.p1.m1">
+            <XMath>
+              <XMDual>
+                <XMApp>
+                  <XMTok meaning="list"/>
+                  <XMRef idref="Thmtheorem6.p1.m1.1"/>
+                  <XMRef idref="Thmtheorem6.p1.m1.2"/>
+                  <XMRef idref="Thmtheorem6.p1.m1.3"/>
+                </XMApp>
+                <XMWrap>
+                  <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem6.p1.m1.1">X</XMTok>
+                  <XMTok role="PUNCT">,</XMTok>
+                  <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem6.p1.m1.2">Y</XMTok>
+                  <XMTok role="PUNCT">,</XMTok>
+                  <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem6.p1.m1.3">Z</XMTok>
+                </XMWrap>
+              </XMDual>
+            </XMath>
+          </Math> are normed spaces and that <Math mode="inline" tex="U" text="U" xml:id="Thmtheorem6.p1.m2">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">U</XMTok>
+            </XMath>
+          </Math> and <Math mode="inline" tex="V" text="V" xml:id="Thmtheorem6.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">V</XMTok>
+            </XMath>
+          </Math> are open subsets of <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem6.p1.m4">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> and <Math mode="inline" tex="Y" text="Y" xml:id="Thmtheorem6.p1.m5">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">Y</XMTok>
+            </XMath>
+          </Math> respectively.
 If <Math mode="inline" tex="f:U\to Y" text="f colon U to Y" xml:id="Thmtheorem6.p1.m6">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" role="UNKNOWN">f</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok role="UNKNOWN">f</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">U</XMTok>
-                    <XMTok role="UNKNOWN">Y</XMTok>
-                  </XMApp>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">U</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">Y</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> satisfies <Math mode="inline" tex="f(U)\subseteq V" text="f * U subset-of-or-equals V" xml:id="Thmtheorem6.p1.m7">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="subset-of-or-equals" name="subseteq" role="RELOP">⊆</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">f</XMTok>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem6.p1.m7.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem6.p1.m7.1">U</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                  <XMTok role="UNKNOWN">V</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> and is Fréchet differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem6.p1.m8">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> and if <Math mode="inline" tex="g:V\to Z" text="g colon V to Z" xml:id="Thmtheorem6.p1.m9">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok role="UNKNOWN">g</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">V</XMTok>
-                    <XMTok role="UNKNOWN">Z</XMTok>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math> is Fréchet differentiable at <Math mode="inline" tex="f(x_{0})" text="f * x _ 0" xml:id="Thmtheorem6.p1.m10">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math> satisfies <Math mode="inline" tex="f(U)\subseteq V" text="f * U subset-of-or-equals V" xml:id="Thmtheorem6.p1.m7">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="subset-of-or-equals" name="subseteq" role="RELOP">⊆</XMTok>
                 <XMApp>
                   <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                  <XMTok role="UNKNOWN">f</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">f</XMTok>
                   <XMDual>
-                    <XMRef idref="Thmtheorem6.p1.m10.1"/>
+                    <XMRef idref="Thmtheorem6.p1.m7.1"/>
                     <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                      <XMApp xml:id="Thmtheorem6.p1.m10.1">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">x</XMTok>
-                        <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                      </XMApp>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem6.p1.m7.1">U</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
                     </XMWrap>
                   </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>, then
+                <XMTok font="italic" role="UNKNOWN">V</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and is Fréchet differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem6.p1.m8">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and if <Math mode="inline" tex="g:V\to Z" text="g colon V to Z" xml:id="Thmtheorem6.p1.m9">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" role="UNKNOWN">g</XMTok>
+                <XMApp>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">V</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">Z</XMTok>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math> is Fréchet differentiable at <Math mode="inline" tex="f(x_{0})" text="f * x _ 0" xml:id="Thmtheorem6.p1.m10">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                <XMDual>
+                  <XMRef idref="Thmtheorem6.p1.m10.1"/>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">(</XMTok>
+                    <XMApp xml:id="Thmtheorem6.p1.m10.1">
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                      <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+                    </XMApp>
+                    <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math>, then
 <Math mode="inline" tex="g\circ f:U\to Z" text="g compose f colon U to Z" xml:id="Thmtheorem6.p1.m11">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" meaning="compose" name="circ" role="MULOP">∘</XMTok>
-                    <XMTok role="UNKNOWN">g</XMTok>
-                    <XMTok role="UNKNOWN">f</XMTok>
-                  </XMApp>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">U</XMTok>
-                    <XMTok role="UNKNOWN">Z</XMTok>
-                  </XMApp>
+                  <XMTok meaning="compose" name="circ" role="MULOP">∘</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">g</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">f</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> is Fréchet differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem6.p1.m12">
-              <XMath>
                 <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">U</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">Z</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>, and its Fréchet derivative at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem6.p1.m13">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> is</text></p>
+              </XMApp>
+            </XMath>
+          </Math> is Fréchet differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem6.p1.m12">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, and its Fréchet derivative at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem6.p1.m13">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> is</p>
         <equation xml:id="S4.Ex39">
           <Math mode="display" tex="D(g\circ f)(x_{0})=Dg(f(x_{0}))\circ Df(x_{0})." text="D * (g compose f) * x _ 0 = ((D * g * f * x _ 0) compose D) * f * x _ 0" xml:id="S4.Ex39.m1">
             <XMath>
@@ -10171,7 +10174,8 @@ Fréchet differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="
               </XMApp>
             </XMath>
           </Math>
-such that</p>
+such that
+<!--  %**** frechetderivatives.tex Line 350 **** --></p>
         <equation xml:id="S4.Ex40">
           <Math mode="display" tex="f(x)=f(x_{0})+L_{1}(x-x_{0})+r_{1}(x-x_{0}),\qquad x\in U," text="formulae@(f * x = f * x _ 0 + L _ 1 * (x - x _ 0) + r _ 1 * (x - x _ 0), x element-of U)" xml:id="S4.Ex40.m1">
             <XMath>
@@ -10189,7 +10193,7 @@ such that</p>
                         <XMTok meaning="equals" role="RELOP">=</XMTok>
                         <XMApp>
                           <XMTok meaning="times" role="MULOP">⁢</XMTok>
-<!--  %**** frechetderivatives.tex Line 350 **** -->                          <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                          <XMTok font="italic" role="UNKNOWN">f</XMTok>
                           <XMDual>
                             <XMRef idref="S4.Ex40.m1.1"/>
                             <XMWrap>
@@ -12179,12 +12183,12 @@ Then, <Math mode="inline" tex="r:X\to Z" text="r colon X to Z" xml:id="S4.p8.m28
                     </XMWrap>
                   </XMDual>
                   <XMTok role="PERIOD">.</XMTok>
-                </XMWrap>
+<!--  %**** frechetderivatives.tex Line 375 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** frechetderivatives.tex Line 375 **** -->        <p>But <Math mode="inline" tex="L_{1}\in\mathscr{B}(X,Y)" text="L _ 1 element-of B * open-interval@(X, Y)" xml:id="S4.p8.m30">
+        <p>But <Math mode="inline" tex="L_{1}\in\mathscr{B}(X,Y)" text="L _ 1 element-of B * open-interval@(X, Y)" xml:id="S4.p8.m30">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -12487,121 +12491,121 @@ that
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 7</text></tag> (Product rule).</title>
       <para xml:id="Thmtheorem7.p1">
-        <p><text font="italic">Suppose that <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem7.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> is a normed space, that <Math mode="inline" tex="U" text="U" xml:id="Thmtheorem7.p1.m2">
-              <XMath>
-                <XMTok role="UNKNOWN">U</XMTok>
-              </XMath>
-            </Math> is an open subset of <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem7.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math>, that
+        <p>Suppose that <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem7.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> is a normed space, that <Math mode="inline" tex="U" text="U" xml:id="Thmtheorem7.p1.m2">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">U</XMTok>
+            </XMath>
+          </Math> is an open subset of <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem7.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math>, that
 <Math mode="inline" tex="f_{1},f_{2}:U\to\mathbb{R}" text="list@(f _ 1, f _ 2) colon U to R" xml:id="Thmtheorem7.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="list"/>
-                      <XMRef idref="Thmtheorem7.p1.m4.1"/>
-                      <XMRef idref="Thmtheorem7.p1.m4.2"/>
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="list"/>
+                    <XMRef idref="Thmtheorem7.p1.m4.1"/>
+                    <XMRef idref="Thmtheorem7.p1.m4.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMApp xml:id="Thmtheorem7.p1.m4.1">
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                      <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
                     </XMApp>
-                    <XMWrap>
-                      <XMApp xml:id="Thmtheorem7.p1.m4.1">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">f</XMTok>
-                        <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                      </XMApp>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMApp xml:id="Thmtheorem7.p1.m4.2">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">f</XMTok>
-                        <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                      </XMApp>
-                    </XMWrap>
-                  </XMDual>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">U</XMTok>
-                    <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math> are functions, and that <Math mode="inline" tex="x_{0}\in U" text="x _ 0 element-of U" xml:id="Thmtheorem7.p1.m5">
-              <XMath>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMApp xml:id="Thmtheorem7.p1.m4.2">
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                      <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+                    </XMApp>
+                  </XMWrap>
+                </XMDual>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">x</XMTok>
-                    <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                  </XMApp>
-                  <XMTok role="UNKNOWN">U</XMTok>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">U</XMTok>
+                  <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>.
+              </XMApp>
+            </XMath>
+          </Math> are functions, and that <Math mode="inline" tex="x_{0}\in U" text="x _ 0 element-of U" xml:id="Thmtheorem7.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMApp>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                  <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+                </XMApp>
+                <XMTok font="italic" role="UNKNOWN">U</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.
 If <Math mode="inline" tex="f_{1}" text="f _ 1" xml:id="Thmtheorem7.p1.m6">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and <Math mode="inline" tex="f_{2}" text="f _ 2" xml:id="Thmtheorem7.p1.m7">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> are both Fréchet differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem7.p1.m8">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, then <Math mode="inline" tex="f_{1}\cdot f_{2}" text="f _ 1 cdot f _ 2" xml:id="Thmtheorem7.p1.m9">
+            <XMath>
+              <XMApp>
+                <XMTok name="cdot" role="MULOP">⋅</XMTok>
                 <XMApp>
                   <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">f</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                  <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> and <Math mode="inline" tex="f_{2}" text="f _ 2" xml:id="Thmtheorem7.p1.m7">
-              <XMath>
                 <XMApp>
                   <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">f</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                  <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> are both Fréchet differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem7.p1.m8">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, then <Math mode="inline" tex="f_{1}\cdot f_{2}" text="f _ 1 cdot f _ 2" xml:id="Thmtheorem7.p1.m9">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" name="cdot" role="MULOP">⋅</XMTok>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">f</XMTok>
-                    <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                  </XMApp>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">f</XMTok>
-                    <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math> is Fréchet differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem7.p1.m10">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,
+              </XMApp>
+            </XMath>
+          </Math> is Fréchet differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem7.p1.m10">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,
 and its Fréchet derivative at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem7.p1.m11">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> is</text></p>
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> is</p>
         <equation xml:id="S4.Ex48">
           <Math mode="display" tex="D(f_{1}\cdot f_{2})(x_{0})=f_{2}(x_{0})Df_{1}(x_{0})+f_{1}(x_{0})Df_{2}(x_{0})." text="D * (f _ 1 cdot f _ 2) * x _ 0 = f _ 2 * x _ 0 * D * f _ 1 * x _ 0 + f _ 1 * x _ 0 * D * f _ 2 * x _ 0" xml:id="S4.Ex48.m1">
             <XMath>
@@ -12900,13 +12904,13 @@ and its Fréchet derivative at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:
                     <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
                     <XMTok font="italic" role="UNKNOWN">x</XMTok>
                     <XMTok font="italic" role="UNKNOWN">U</XMTok>
-                  </XMApp>
+<!--  %**** frechetderivatives.tex Line 400 **** -->                  </XMApp>
                 </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** frechetderivatives.tex Line 400 **** -->        <p>and</p>
+        <p>and</p>
         <equation xml:id="S4.Ex50">
           <Math mode="display" tex="f_{2}(x)=f_{2}(x_{0})+Df_{2}(x_{0})(x-x_{0})+r_{2}(x-x_{0}),\qquad x\in U." text="formulae@(f _ 2 * x = f _ 2 * x _ 0 + D * f _ 2 * x _ 0 * (x - x _ 0) + r _ 2 * (x - x _ 0), x element-of U)" xml:id="S4.Ex50.m1">
             <XMath>
@@ -15998,7 +16002,8 @@ If <Math mode="inline" tex="U_{0}" text="U _ 0" xml:id="S5.p2.m8">
               </XMApp>
             </XMApp>
           </XMath>
-        </Math> is Fréchet differentiable, then</p>
+        </Math> is Fréchet differentiable, then
+<!--  %**** frechetderivatives.tex Line 450 **** --></p>
       <equation xml:id="S5.Ex62">
         <Math mode="display" tex="Df:U_{0}\to X^{*}." text="D * f colon U _ 0 to X ^ *" xml:id="S5.Ex62.m1">
           <XMath>
@@ -16009,7 +16014,7 @@ If <Math mode="inline" tex="U_{0}" text="U _ 0" xml:id="S5.p2.m8">
                   <XMTok name="colon" role="METARELOP">:</XMTok>
                   <XMApp>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
-<!--  %**** frechetderivatives.tex Line 450 **** -->                    <XMTok font="italic" role="UNKNOWN">D</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">D</XMTok>
                     <XMTok font="italic" role="UNKNOWN">f</XMTok>
                   </XMApp>
                   <XMApp>
@@ -16436,7 +16441,8 @@ but to prove properties of the gradient one uses that <Math mode="inline" tex="R
               <XMTok font="italic" role="UNKNOWN">X</XMTok>
             </XMApp>
           </XMath>
-        </Math> we have, because the inner product of a real Hilbert space is symmetric,</p>
+        </Math> we have, because the inner product of a real Hilbert space is symmetric,
+<!--  %**** frechetderivatives.tex Line 475 **** --></p>
       <equationgroup class="ltx_eqn_eqnarray" xml:id="S7.EGx8">
         <equation xml:id="S5.Ex72">
           <MathFork>
@@ -18587,7 +18593,7 @@ For <Math mode="inline" tex="x_{0},x,y\in X" text="list@(x _ 0, x, y) element-of
           </MathFork>
         </equation>
       </equationgroup>
-<!--  %**** frechetderivatives.tex Line 500 **** -->      <p>For <Math mode="inline" tex="D(Df)(x_{0})(x-x_{0})(y)=\left\langle y,(A^{*}+A)(x-x_{0})\right\rangle" text="D * D * f * x _ 0 * (x - x _ 0) * y = list@(y, (A ^ * + A) * (x - x _ 0))" xml:id="S5.p5.m6">
+      <p>For <Math mode="inline" tex="D(Df)(x_{0})(x-x_{0})(y)=\left\langle y,(A^{*}+A)(x-x_{0})\right\rangle" text="D * D * f * x _ 0 * (x - x _ 0) * y = list@(y, (A ^ * + A) * (x - x _ 0))" xml:id="S5.p5.m6">
           <XMath>
             <XMApp>
               <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -19235,7 +19241,7 @@ If there is some <Math mode="inline" tex="T\in\mathscr{B}(X,Y)" text="T element-
             <tag role="typerefnum">footnote 8</tag>
           </tags>Our definition of the Gâteaux derivative follows Jean-Paul Penot,
 <text font="italic">Calculus Without Derivatives</text>, p. 127, Definition 2.23.</note> It is apparent that there is at most one
-<Math mode="inline" tex="T\in\mathscr{B}(X,Y)" text="T element-of B * open-interval@(X, Y)" xml:id="S6.p1.m14">
+<!--  %**** frechetderivatives.tex Line 525 **** --><Math mode="inline" tex="T\in\mathscr{B}(X,Y)" text="T element-of B * open-interval@(X, Y)" xml:id="S6.p1.m14">
           <XMath>
             <XMApp>
               <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -19304,7 +19310,7 @@ If there is some <Math mode="inline" tex="T\in\mathscr{B}(X,Y)" text="T element-
             </XMApp>
           </XMath>
         </Math> is a map from the set
-<!--  %**** frechetderivatives.tex Line 525 **** -->of points in <Math mode="inline" tex="U" text="U" xml:id="S6.p1.m18">
+of points in <Math mode="inline" tex="U" text="U" xml:id="S6.p1.m18">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">U</XMTok>
           </XMath>
@@ -20196,7 +20202,7 @@ However, for <Math mode="inline" tex="(x_{1},x_{2})\neq(0,0)" text="open-interva
           </XMath>
         </Math>
       </equation>
-      <p>from which it follows that <Math mode="inline" tex="f" text="f" xml:id="S6.p2.m16">
+<!--  %**** frechetderivatives.tex Line 550 **** -->      <p>from which it follows that <Math mode="inline" tex="f" text="f" xml:id="S6.p2.m16">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">f</XMTok>
           </XMath>
@@ -20218,7 +20224,7 @@ However, for <Math mode="inline" tex="(x_{1},x_{2})\neq(0,0)" text="open-interva
             </XMDual>
           </XMath>
         </Math>. We stated in §<ref labelref="LABEL:properties"/> that if a function is Fréchet differentiable
-<!--  %**** frechetderivatives.tex Line 550 **** -->at a point then it is continuous at that point, and so <Math mode="inline" tex="f" text="f" xml:id="S6.p2.m18">
+at a point then it is continuous at that point, and so <Math mode="inline" tex="f" text="f" xml:id="S6.p2.m18">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">f</XMTok>
           </XMath>
@@ -20254,115 +20260,115 @@ Gâteaux derivative is equal to the Fréchet derivative.</p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 8</text></tag>.</title>
       <para xml:id="Thmtheorem8.p1">
-        <p><text font="italic">Suppose that <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem8.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> and <Math mode="inline" tex="Y" text="Y" xml:id="Thmtheorem8.p1.m2">
-              <XMath>
-                <XMTok role="UNKNOWN">Y</XMTok>
-              </XMath>
-            </Math> are normed spaces, that <Math mode="inline" tex="U" text="U" xml:id="Thmtheorem8.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">U</XMTok>
-              </XMath>
-            </Math> is an open subset of <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem8.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math>, that <Math mode="inline" tex="f\in Y^{U}" text="f element-of Y ^ U" xml:id="Thmtheorem8.p1.m5">
-              <XMath>
+        <p>Suppose that <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem8.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> and <Math mode="inline" tex="Y" text="Y" xml:id="Thmtheorem8.p1.m2">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">Y</XMTok>
+            </XMath>
+          </Math> are normed spaces, that <Math mode="inline" tex="U" text="U" xml:id="Thmtheorem8.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">U</XMTok>
+            </XMath>
+          </Math> is an open subset of <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem8.p1.m4">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math>, that <Math mode="inline" tex="f\in Y^{U}" text="f element-of Y ^ U" xml:id="Thmtheorem8.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">f</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">f</XMTok>
+                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">Y</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">U</XMTok>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math>, and that
+<Math mode="inline" tex="x_{0}\in U" text="x _ 0 element-of U" xml:id="Thmtheorem8.p1.m6">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMApp>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                  <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+                </XMApp>
+                <XMTok font="italic" role="UNKNOWN">U</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>. If <Math mode="inline" tex="f" text="f" xml:id="Thmtheorem8.p1.m7">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">f</XMTok>
+            </XMath>
+          </Math> is Fréchet differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem8.p1.m8">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, then <Math mode="inline" tex="f" text="f" xml:id="Thmtheorem8.p1.m9">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">f</XMTok>
+            </XMath>
+          </Math> is Gâteaux differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem8.p1.m10">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and <Math mode="inline" tex="f^{\prime}(x_{0})=Df(x_{0})" text="f ^ prime * x _ 0 = D * f * x _ 0" xml:id="Thmtheorem8.p1.m11">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
                     <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">Y</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">U</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                    <XMTok fontsize="70%" name="prime" role="SUPOP">′</XMTok>
                   </XMApp>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem8.p1.m11.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMApp xml:id="Thmtheorem8.p1.m11.1">
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                        <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                        <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+                      </XMApp>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>, and that
-<Math mode="inline" tex="x_{0}\in U" text="x _ 0 element-of U" xml:id="Thmtheorem8.p1.m6">
-              <XMath>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">x</XMTok>
-                    <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                  </XMApp>
-                  <XMTok role="UNKNOWN">U</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">D</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem8.p1.m11.2"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMApp xml:id="Thmtheorem8.p1.m11.2">
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                        <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                        <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+                      </XMApp>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>. If <Math mode="inline" tex="f" text="f" xml:id="Thmtheorem8.p1.m7">
-              <XMath>
-                <XMTok role="UNKNOWN">f</XMTok>
-              </XMath>
-            </Math> is Fréchet differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem8.p1.m8">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, then <Math mode="inline" tex="f" text="f" xml:id="Thmtheorem8.p1.m9">
-              <XMath>
-                <XMTok role="UNKNOWN">f</XMTok>
-              </XMath>
-            </Math> is Gâteaux differentiable at <Math mode="inline" tex="x_{0}" text="x _ 0" xml:id="Thmtheorem8.p1.m10">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> and <Math mode="inline" tex="f^{\prime}(x_{0})=Df(x_{0})" text="f ^ prime * x _ 0 = D * f * x _ 0" xml:id="Thmtheorem8.p1.m11">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">f</XMTok>
-                      <XMTok font="upright" fontsize="70%" name="prime" role="SUPOP">′</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem8.p1.m11.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMApp xml:id="Thmtheorem8.p1.m11.1">
-                          <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                          <XMTok role="UNKNOWN">x</XMTok>
-                          <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                        </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">D</XMTok>
-                    <XMTok role="UNKNOWN">f</XMTok>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem8.p1.m11.2"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMApp xml:id="Thmtheorem8.p1.m11.2">
-                          <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                          <XMTok role="UNKNOWN">x</XMTok>
-                          <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                        </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math>.</text></p>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
@@ -20953,7 +20959,8 @@ Gâteaux derivative is equal to the Fréchet derivative.</p>
             </XMath>
           </Math>
         </equation>
-        <p>Hence,</p>
+        <p>Hence,
+<!--  %**** frechetderivatives.tex Line 575 **** --></p>
         <equation xml:id="S6.Ex84">
           <Math mode="display" tex="\lim_{t\to 0}\frac{f(x_{0}+tv)-f(x_{0})}{t}=Df(x_{0})v." text="(limit _ (t to 0))@((f * (x _ 0 + t * v) - f * x _ 0) / t) = D * f * x _ 0 * v" xml:id="S6.Ex84.m1">
             <XMath>
@@ -20965,7 +20972,7 @@ Gâteaux derivative is equal to the Fréchet derivative.</p>
                     <XMApp>
                       <XMApp scriptpos="mid">
                         <XMTok role="SUBSCRIPTOP" scriptpos="mid1"/>
-<!--  %**** frechetderivatives.tex Line 575 **** -->                        <XMTok meaning="limit" role="LIMITOP" scriptpos="mid">lim</XMTok>
+                        <XMTok meaning="limit" role="LIMITOP" scriptpos="mid">lim</XMTok>
                         <XMApp>
                           <XMTok fontsize="70%" name="to" role="ARROW">→</XMTok>
                           <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
@@ -21276,80 +21283,80 @@ Giovanni Prodi, <text font="italic">A Primer of Nonlinear Analysis</text>, p. 1
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 9</text></tag> (Mean value theorem).</title>
       <para xml:id="Thmtheorem9.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem9.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> and <Math mode="inline" tex="Y" text="Y" xml:id="Thmtheorem9.p1.m2">
-              <XMath>
-                <XMTok role="UNKNOWN">Y</XMTok>
-              </XMath>
-            </Math> be normed spaces, let <Math mode="inline" tex="U" text="U" xml:id="Thmtheorem9.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">U</XMTok>
-              </XMath>
-            </Math> be an open subset of <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem9.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math>, and let <Math mode="inline" tex="f:U\to Y" text="f colon U to Y" xml:id="Thmtheorem9.p1.m5">
-              <XMath>
+        <p>Let <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem9.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> and <Math mode="inline" tex="Y" text="Y" xml:id="Thmtheorem9.p1.m2">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">Y</XMTok>
+            </XMath>
+          </Math> be normed spaces, let <Math mode="inline" tex="U" text="U" xml:id="Thmtheorem9.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">U</XMTok>
+            </XMath>
+          </Math> be an open subset of <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem9.p1.m4">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math>, and let <Math mode="inline" tex="f:U\to Y" text="f colon U to Y" xml:id="Thmtheorem9.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" role="UNKNOWN">f</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok role="UNKNOWN">f</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">U</XMTok>
-                    <XMTok role="UNKNOWN">Y</XMTok>
-                  </XMApp>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">U</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">Y</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> be Gâteaux differentiable on
+              </XMApp>
+            </XMath>
+          </Math> be Gâteaux differentiable on
 <Math mode="inline" tex="U" text="U" xml:id="Thmtheorem9.p1.m6">
-              <XMath>
-                <XMTok role="UNKNOWN">U</XMTok>
-              </XMath>
-            </Math>. If <Math mode="inline" tex="u,v\in U" text="list@(u, v) element-of U" xml:id="Thmtheorem9.p1.m7">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="list"/>
-                      <XMRef idref="Thmtheorem9.p1.m7.1"/>
-                      <XMRef idref="Thmtheorem9.p1.m7.2"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem9.p1.m7.1">u</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem9.p1.m7.2">v</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                  <XMTok role="UNKNOWN">U</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> and <Math mode="inline" tex="[u,v]\subset U" text="closed-interval@(u, v) subset-of U" xml:id="Thmtheorem9.p1.m8">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="subset-of" name="subset" role="RELOP">⊂</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="closed-interval"/>
-                      <XMRef idref="Thmtheorem9.p1.m8.1"/>
-                      <XMRef idref="Thmtheorem9.p1.m8.2"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">[</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem9.p1.m8.1">u</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem9.p1.m8.2">v</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">]</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                  <XMTok role="UNKNOWN">U</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, then</text></p>
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">U</XMTok>
+            </XMath>
+          </Math>. If <Math mode="inline" tex="u,v\in U" text="list@(u, v) element-of U" xml:id="Thmtheorem9.p1.m7">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="list"/>
+                    <XMRef idref="Thmtheorem9.p1.m7.1"/>
+                    <XMRef idref="Thmtheorem9.p1.m7.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem9.p1.m7.1">u</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem9.p1.m7.2">v</XMTok>
+                  </XMWrap>
+                </XMDual>
+                <XMTok font="italic" role="UNKNOWN">U</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and <Math mode="inline" tex="[u,v]\subset U" text="closed-interval@(u, v) subset-of U" xml:id="Thmtheorem9.p1.m8">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="subset-of" name="subset" role="RELOP">⊂</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="closed-interval"/>
+                    <XMRef idref="Thmtheorem9.p1.m8.1"/>
+                    <XMRef idref="Thmtheorem9.p1.m8.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">[</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem9.p1.m8.1">u</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem9.p1.m8.2">v</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">]</XMTok>
+                  </XMWrap>
+                </XMDual>
+                <XMTok font="italic" role="UNKNOWN">U</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, then</p>
         <equation xml:id="S6.Ex86">
           <Math mode="display" tex="\left\|f(u)-f(v)\right\|\leq\sup_{w\in[u,v]}\left\|f^{\prime}(w)\right\|\cdot%&#10;\left\|u-v\right\|." text="norm@(f * u - f * v) less= (supremum _ (w element-of closed-interval@(u, v)))@(norm@(f ^ prime * w) cdot norm@(u - v))" xml:id="S6.Ex86.m1">
             <XMath>
@@ -21472,8 +21479,8 @@ Giovanni Prodi, <text font="italic">A Primer of Nonlinear Analysis</text>, p. 1
         </equation>
       </para>
     </theorem>
-    <proof>
-      <title class="ltx_runin" font="italic"><!--  %**** frechetderivatives.tex Line 600 **** -->Proof.</title>
+<!--  %**** frechetderivatives.tex Line 600 **** -->    <proof>
+      <title class="ltx_runin" font="italic">Proof.</title>
       <para xml:id="S6.p6">
         <p>If <Math mode="inline" tex="f(u)=f(v)" text="f * u = f * v" xml:id="S6.p6.m1">
             <XMath>
@@ -22831,7 +22838,7 @@ Define <Math mode="inline" tex="h:[0,1]\to\mathbb{R}" text="h colon closed-inter
             </XMath>
           </Math>
         </equation>
-        <p><Math mode="inline" tex="h:[0,1]\to\mathbb{R}" text="h colon closed-interval@(0, 1) to R" xml:id="S6.p6.m15">
+<!--  %**** frechetderivatives.tex Line 625 **** -->        <p><Math mode="inline" tex="h:[0,1]\to\mathbb{R}" text="h colon closed-interval@(0, 1) to R" xml:id="S6.p6.m15">
             <XMath>
               <XMApp>
                 <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -22857,7 +22864,7 @@ Define <Math mode="inline" tex="h:[0,1]\to\mathbb{R}" text="h colon closed-inter
               </XMApp>
             </XMath>
           </Math> is a composition of continuous functions so it is continuous. Applying the mean value theorem, there is some
-<!--  %**** frechetderivatives.tex Line 625 **** --><Math mode="inline" tex="\theta" text="theta" xml:id="S6.p6.m16">
+<Math mode="inline" tex="\theta" text="theta" xml:id="S6.p6.m16">
             <XMath>
               <XMTok font="italic" name="theta" role="UNKNOWN">θ</XMTok>
             </XMath>
@@ -24066,7 +24073,7 @@ Define <Math mode="inline" tex="h:[0,1]\to\mathbb{R}" text="h colon closed-inter
         <p>∎</p>
       </para>
     </proof>
-  </section>
+<!--  %**** frechetderivatives.tex Line 650 **** -->  </section>
   <section inlist="toc" xml:id="S7">
     <tags>
       <tag>7</tag>
@@ -24074,7 +24081,7 @@ Define <Math mode="inline" tex="h:[0,1]\to\mathbb{R}" text="h colon closed-inter
       <tag role="typerefnum">§7</tag>
     </tags>
     <title><tag close=" ">7</tag>Antiderivatives</title>
-<!--  %**** frechetderivatives.tex Line 650 **** -->    <para xml:id="S7.p1">
+    <para xml:id="S7.p1">
       <p>Suppose that <Math mode="inline" tex="X" text="X" xml:id="S7.p1.m1">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">X</XMTok>
@@ -24898,12 +24905,12 @@ We have</p>
                   </XMWrap>
                 </XMDual>
                 <XMTok role="PUNCT">,</XMTok>
-              </XMWrap>
+<!--  %**** frechetderivatives.tex Line 675 **** -->              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
       </equation>
-<!--  %**** frechetderivatives.tex Line 675 **** -->      <p>that is,</p>
+      <p>that is,</p>
       <equation xml:id="S7.Ex106">
         <Math mode="display" tex="D(f\circ\gamma)(t)=Df(\gamma(t))\circ(v-u),\qquad t\in I," text="formulae@(D * (f compose gamma) * t = (D * f * gamma * t) compose (v - u), t element-of I)" xml:id="S7.Ex106.m1">
           <XMath>
@@ -25856,11 +25863,11 @@ We have</p>
                 </XMWrap>
               </XMDual>
               <XMTok meaning="0" role="NUMBER">0</XMTok>
-            </XMApp>
+<!--  %**** frechetderivatives.tex Line 700 **** -->            </XMApp>
           </XMath>
         </Math>
       </equation>
-<!--  %**** frechetderivatives.tex Line 700 **** -->      <p>as <Math mode="inline" tex="h\to 0" text="h to 0" xml:id="S7.p2.m14">
+      <p>as <Math mode="inline" tex="h\to 0" text="h to 0" xml:id="S7.p2.m14">
           <XMath>
             <XMApp>
               <XMTok name="to" role="ARROW">→</XMTok>
@@ -26492,6 +26499,6 @@ We have</p>
           </XMath>
         </Math>
       </equation>
-    </para>
-<!--  %**** frechetderivatives.tex Line 725 **** -->  </section>
+<!--  %**** frechetderivatives.tex Line 725 **** -->    </para>
+  </section>
 </document>

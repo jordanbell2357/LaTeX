@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/staging/subgaussian"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/mathematics/subgaussian"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
 <?latexml package="hyperref" options="draft"?>
@@ -184,7 +184,8 @@ measure on <Math mode="inline" tex="\mathbb{R}" text="R" xml:id="S1.p1.m8">
           <XMath>
             <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
           </XMath>
-        </Math> is</p>
+        </Math> is
+<!--  %**** subgaussian.tex Line 50 **** --></p>
       <equation xml:id="S1.Ex2">
         <Math mode="display" tex="p(x,a,\sigma^{2})=\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-\frac{(x-a)^{2}}{2\sigma^%&#10;{2}}}," text="p * vector@(x, a, sigma ^ 2) = (1 / square-root@(2 * pi * sigma ^ 2)) * e ^ (- (x - a) ^ 2 / (2 * sigma ^ 2))" xml:id="S1.Ex2.m1">
           <XMath>
@@ -195,7 +196,7 @@ measure on <Math mode="inline" tex="\mathbb{R}" text="R" xml:id="S1.p1.m8">
                   <XMTok meaning="equals" role="RELOP">=</XMTok>
                   <XMApp>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
-<!--  %**** subgaussian.tex Line 50 **** -->                    <XMTok font="italic" role="UNKNOWN">p</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">p</XMTok>
                     <XMDual>
                       <XMApp>
                         <XMTok meaning="vector"/>
@@ -535,57 +536,57 @@ measure on <Math mode="inline" tex="\mathbb{R}" text="R" xml:id="S1.p1.m8">
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 1</text></tag>.</title>
       <para xml:id="Thmtheorem1.p1">
-        <p><text font="italic">If <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem1.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> is <Math mode="inline" tex="b" text="b" xml:id="Thmtheorem1.p1.m2">
-              <XMath>
-                <XMTok role="UNKNOWN">b</XMTok>
-              </XMath>
-            </Math>-subgaussian then <Math mode="inline" tex="E(X)=0" text="E * X = 0" xml:id="Thmtheorem1.p1.m3">
-              <XMath>
+        <p>If <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem1.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> is <Math mode="inline" tex="b" text="b" xml:id="Thmtheorem1.p1.m2">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">b</XMTok>
+            </XMath>
+          </Math>-subgaussian then <Math mode="inline" tex="E(X)=0" text="E * X = 0" xml:id="Thmtheorem1.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">E</XMTok>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem1.p1.m3.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem1.p1.m3.1">X</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">E</XMTok>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem1.p1.m3.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem1.p1.m3.1">X</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> and <Math mode="inline" tex="\mathrm{Var}(X)\leq b^{2}" text="Var * X less= b ^ 2" xml:id="Thmtheorem1.p1.m4">
-              <XMath>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and <Math mode="inline" tex="\mathrm{Var}(X)\leq b^{2}" text="Var * X less= b ^ 2" xml:id="Thmtheorem1.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok font="upright" role="UNKNOWN">Var</XMTok>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem1.p1.m4.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem1.p1.m4.1">X</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                  <XMApp>
-                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">b</XMTok>
-                    <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                  </XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok role="UNKNOWN">Var</XMTok>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem1.p1.m4.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem1.p1.m4.1">X</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>.</text></p>
+                <XMApp>
+                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">b</XMTok>
+                  <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
@@ -823,8 +824,7 @@ measure on <Math mode="inline" tex="\mathbb{R}" text="R" xml:id="S1.p1.m8">
             </XMath>
           </Math>
         </equation>
-        <p>Therefore
-<!--  %**** subgaussian.tex Line 75 **** --></p>
+<!--  %**** subgaussian.tex Line 75 **** -->        <p>Therefore</p>
         <equation xml:id="S1.Ex5">
           <Math mode="display" tex="1+tE(X)+t^{2}E(X^{2})+O(t^{3})\leq 1+\frac{b^{2}t^{2}}{2}+O(t^{4})," text="1 + t * E * X + t ^ 2 * E * X ^ 2 + O * t ^ 3 less= 1 + (b ^ 2 * t ^ 2) / 2 + O * t ^ 4" xml:id="S1.Ex5.m1">
             <XMath>
@@ -1325,9 +1325,9 @@ since <Math mode="inline" tex="E(X)=0" text="E * X = 0" xml:id="S1.p3.m6">
 ∎</p>
       </para>
     </proof>
-    <para xml:id="S1.p4">
+<!--  %**** subgaussian.tex Line 100 **** -->    <para xml:id="S1.p4">
       <p>Stromberg attributes the following theorem to Saeki;
-<!--  %**** subgaussian.tex Line 100 **** -->further, it is proved in Stromberg that if for some <Math mode="inline" tex="t" text="t" xml:id="S1.p4.m1">
+further, it is proved in Stromberg that if for some <Math mode="inline" tex="t" text="t" xml:id="S1.p4.m1">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">t</XMTok>
           </XMath>
@@ -1352,50 +1352,50 @@ An expository note</text>,
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 2</text></tag>.</title>
       <para xml:id="Thmtheorem2.p1">
-        <p><text font="italic">If <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem2.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> is a random variable satisfying <Math mode="inline" tex="E(X)=0" text="E * X = 0" xml:id="Thmtheorem2.p1.m2">
-              <XMath>
+        <p>If <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem2.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> is a random variable satisfying <Math mode="inline" tex="E(X)=0" text="E * X = 0" xml:id="Thmtheorem2.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">E</XMTok>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem2.p1.m2.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem2.p1.m2.1">X</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">E</XMTok>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem2.p1.m2.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem2.p1.m2.1">X</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> and <Math mode="inline" tex="P(X\in[-1,1])=1" xml:id="Thmtheorem2.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">P</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and <Math mode="inline" tex="P(X\in[-1,1])=1" xml:id="Thmtheorem2.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">P</XMTok>
+              <XMWrap>
+                <XMTok role="OPEN" stretchy="false">(</XMTok>
+                <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
                 <XMWrap>
-                  <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                  <XMTok role="UNKNOWN">X</XMTok>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMWrap>
-                    <XMTok font="upright" role="OPEN" stretchy="false">[</XMTok>
-                    <XMTok font="upright" meaning="minus" role="ADDOP">-</XMTok>
-                    <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                    <XMTok font="upright" role="PUNCT">,</XMTok>
-                    <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                    <XMTok font="upright" role="CLOSE" stretchy="false">]</XMTok>
-                  </XMWrap>
-                  <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
+                  <XMTok role="OPEN" stretchy="false">[</XMTok>
+                  <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                  <XMTok meaning="1" role="NUMBER">1</XMTok>
+                  <XMTok role="PUNCT">,</XMTok>
+                  <XMTok meaning="1" role="NUMBER">1</XMTok>
+                  <XMTok role="CLOSE" stretchy="false">]</XMTok>
                 </XMWrap>
-                <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-              </XMath>
-            </Math>, then</text></p>
+                <XMTok role="CLOSE" stretchy="false">)</XMTok>
+              </XMWrap>
+              <XMTok meaning="equals" role="RELOP">=</XMTok>
+              <XMTok meaning="1" role="NUMBER">1</XMTok>
+            </XMath>
+          </Math>, then</p>
         <equation xml:id="S1.Ex10">
           <Math mode="display" tex="E(e^{tX})\leq\cosh t,\qquad t\in\mathbb{R}." text="formulae@(E * e ^ (t * X) less= hyperbolic-cosine@(t), t element-of R)" xml:id="S1.Ex10.m1">
             <XMath>
@@ -1726,7 +1726,8 @@ Let <Math mode="inline" tex="Y=1+X" text="Y = 1 + X" xml:id="S1.p5.m4">
                 </XMApp>
               </XMApp>
             </XMath>
-          </Math>, with which</p>
+          </Math>, with which
+<!--  %**** subgaussian.tex Line 125 **** --></p>
         <equation xml:id="S1.Ex13">
           <Math mode="display" tex="f^{\prime}(t)=e^{2t}-E(e^{tY})-E(Xe^{tY})=e^{2t}-E(e^{tY})-E((Y-1)e^{tY})=e^{2%&#10;t}-E(Ye^{tY})." text="f ^ prime * t = e ^ (2 * t) - E * e ^ (t * Y) - E * X * e ^ (t * Y) = e ^ (2 * t) - E * e ^ (t * Y) - E * (Y - 1) * e ^ (t * Y) = e ^ (2 * t) - E * Y * e ^ (t * Y)" xml:id="S1.Ex13.m1">
             <XMath>
@@ -1739,7 +1740,7 @@ Let <Math mode="inline" tex="Y=1+X" text="Y = 1 + X" xml:id="S1.p5.m4">
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
                       <XMApp>
                         <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-<!--  %**** subgaussian.tex Line 125 **** -->                        <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                        <XMTok font="italic" role="UNKNOWN">f</XMTok>
                         <XMTok fontsize="70%" name="prime" role="SUPOP">′</XMTok>
                       </XMApp>
                       <XMDual>
@@ -2413,7 +2414,7 @@ Therefore, for <Math mode="inline" tex="t\geq 0" text="t &gt;= 0" xml:id="S1.p5.
                     <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
                     <XMApp>
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                      <XMTok font="italic" role="UNKNOWN">E</XMTok>
+<!--  %**** subgaussian.tex Line 150 **** -->                      <XMTok font="italic" role="UNKNOWN">E</XMTok>
                       <XMDual>
                         <XMRef idref="S1.Ex18.m1.1.1"/>
                         <XMWrap>
@@ -2437,7 +2438,7 @@ Therefore, for <Math mode="inline" tex="t\geq 0" text="t &gt;= 0" xml:id="S1.p5.
                     </XMApp>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-<!--  %**** subgaussian.tex Line 150 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -2454,54 +2455,54 @@ Therefore, for <Math mode="inline" tex="t\geq 0" text="t &gt;= 0" xml:id="S1.p5.
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Corollary 3</text></tag>.</title>
       <para xml:id="Thmtheorem3.p1">
-        <p><text font="italic">If a random variable <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem3.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> satisfies <Math mode="inline" tex="E(X)=0" text="E * X = 0" xml:id="Thmtheorem3.p1.m2">
-              <XMath>
+        <p>If a random variable <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem3.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> satisfies <Math mode="inline" tex="E(X)=0" text="E * X = 0" xml:id="Thmtheorem3.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">E</XMTok>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem3.p1.m2.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem3.p1.m2.1">X</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">E</XMTok>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem3.p1.m2.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem3.p1.m2.1">X</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> and
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and
 <Math mode="inline" tex="P(|X|\leq b)=1" xml:id="Thmtheorem3.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">P</XMTok>
-                <XMWrap>
-                  <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                  <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                  <XMTok role="UNKNOWN" xml:id="Thmtheorem3.p1.m3.1">X</XMTok>
-                  <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok role="UNKNOWN">b</XMTok>
-                  <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                </XMWrap>
-                <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-              </XMath>
-            </Math>, then <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem3.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> is <Math mode="inline" tex="b" text="b" xml:id="Thmtheorem3.p1.m5">
-              <XMath>
-                <XMTok role="UNKNOWN">b</XMTok>
-              </XMath>
-            </Math>-subgaussian.</text></p>
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">P</XMTok>
+              <XMWrap>
+                <XMTok role="OPEN" stretchy="false">(</XMTok>
+                <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem3.p1.m3.1">X</XMTok>
+                <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" role="UNKNOWN">b</XMTok>
+                <XMTok role="CLOSE" stretchy="false">)</XMTok>
+              </XMWrap>
+              <XMTok meaning="equals" role="RELOP">=</XMTok>
+              <XMTok meaning="1" role="NUMBER">1</XMTok>
+            </XMath>
+          </Math>, then <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem3.p1.m4">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> is <Math mode="inline" tex="b" text="b" xml:id="Thmtheorem3.p1.m5">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">b</XMTok>
+            </XMath>
+          </Math>-subgaussian.</p>
       </para>
     </theorem>
   </section>
@@ -2531,65 +2532,65 @@ Pascal Massart, <text font="italic">Concentration Inequalities: A Nonasymptotic 
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 4</text></tag> (Hoeffding’s lemma).</title>
       <para xml:id="Thmtheorem4.p1">
-        <p><text font="italic">If a random variable <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem4.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> satisfies <Math mode="inline" tex="E(X)=0" text="E * X = 0" xml:id="Thmtheorem4.p1.m2">
-              <XMath>
+        <p>If a random variable <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem4.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> satisfies <Math mode="inline" tex="E(X)=0" text="E * X = 0" xml:id="Thmtheorem4.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">E</XMTok>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem4.p1.m2.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem4.p1.m2.1">X</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">E</XMTok>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem4.p1.m2.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem4.p1.m2.1">X</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> and <Math mode="inline" tex="P(X\in[a,b])=1" xml:id="Thmtheorem4.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">P</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and <Math mode="inline" tex="P(X\in[a,b])=1" xml:id="Thmtheorem4.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">P</XMTok>
+              <XMWrap>
+                <XMTok role="OPEN" stretchy="false">(</XMTok>
+                <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
                 <XMWrap>
-                  <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                  <XMTok role="UNKNOWN">X</XMTok>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMWrap>
-                    <XMTok font="upright" role="OPEN" stretchy="false">[</XMTok>
-                    <XMTok role="UNKNOWN">a</XMTok>
-                    <XMTok font="upright" role="PUNCT">,</XMTok>
-                    <XMTok role="UNKNOWN">b</XMTok>
-                    <XMTok font="upright" role="CLOSE" stretchy="false">]</XMTok>
-                  </XMWrap>
-                  <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
+                  <XMTok role="OPEN" stretchy="false">[</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">a</XMTok>
+                  <XMTok role="PUNCT">,</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">b</XMTok>
+                  <XMTok role="CLOSE" stretchy="false">]</XMTok>
                 </XMWrap>
-                <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-              </XMath>
-            </Math>, then <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem4.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> is <Math mode="inline" tex="\frac{b-a}{2}" text="(b - a) / 2" xml:id="Thmtheorem4.p1.m5">
-              <XMath>
+                <XMTok role="CLOSE" stretchy="false">)</XMTok>
+              </XMWrap>
+              <XMTok meaning="equals" role="RELOP">=</XMTok>
+              <XMTok meaning="1" role="NUMBER">1</XMTok>
+            </XMath>
+          </Math>, then <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem4.p1.m4">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> is <Math mode="inline" tex="\frac{b-a}{2}" text="(b - a) / 2" xml:id="Thmtheorem4.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok mathstyle="text" meaning="divide" role="FRACOP"/>
                 <XMApp>
-                  <XMTok mathstyle="text" meaning="divide" role="FRACOP"/>
-                  <XMApp>
-                    <XMTok font="upright" fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">b</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">a</XMTok>
-                  </XMApp>
-                  <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+                  <XMTok fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">b</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">a</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>-subgaussian.</text></p>
+                <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>-subgaussian.</p>
       </para>
     </theorem>
     <proof>
@@ -2683,7 +2684,7 @@ Pascal Massart, <text font="italic">Concentration Inequalities: A Nonasymptotic 
             </XMath>
           </Math>. (Namely, Popoviciu’s inequality.)</p>
       </para>
-      <para xml:id="S2.p3">
+<!--  %**** subgaussian.tex Line 175 **** -->      <para xml:id="S2.p3">
         <p>Write <Math mode="inline" tex="\mu=X_{*}P" text="mu = X _ * * P" xml:id="S2.p3.m1">
             <XMath>
               <XMApp>
@@ -2701,7 +2702,7 @@ Pascal Massart, <text font="italic">Concentration Inequalities: A Nonasymptotic 
               </XMApp>
             </XMath>
           </Math>
-<!--  %**** subgaussian.tex Line 175 **** -->and for <Math mode="inline" tex="\lambda\in\mathbb{R}" text="lambda element-of R" xml:id="S2.p3.m2">
+and for <Math mode="inline" tex="\lambda\in\mathbb{R}" text="lambda element-of R" xml:id="S2.p3.m2">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -3335,8 +3336,7 @@ Pascal Massart, <text font="italic">Concentration Inequalities: A Nonasymptotic 
             </XMath>
           </Math>
         </equation>
-        <p>But
-<!--  %**** subgaussian.tex Line 200 **** --></p>
+<!--  %**** subgaussian.tex Line 200 **** -->        <p>But</p>
         <equation xml:id="S2.Ex25">
           <Math mode="display" tex="E(X_{\lambda})=\int_{\mathbb{R}}td\nu_{\lambda}(t)=\int_{\mathbb{R}}t\frac{e^{%&#10;\lambda t}}{e^{\Lambda(\lambda)}}d\mu(t)=\frac{1}{e^{\Lambda(\lambda)}}E(Xe^{%&#10;\lambda X})" text="E * X _ lambda = (integral _ R)@(t * differential-d@(nu _ lambda) * t) = (integral _ R)@(t * (e ^ (lambda * t) / e ^ (Lambda * lambda)) * differential-d@(mu) * t) = (1 / e ^ (Lambda * lambda)) * E * X * e ^ (lambda * X)" xml:id="S2.Ex25.m1">
             <XMath>
@@ -4302,7 +4302,8 @@ But from what we have shown, <Math mode="inline" tex="\mathrm{Var}(X_{\theta})=\
                 </XMApp>
               </XMApp>
             </XMath>
-          </Math>, so</p>
+          </Math>, so
+<!--  %**** subgaussian.tex Line 225 **** --></p>
         <equation xml:id="S2.Ex31">
           <Math mode="display" tex="\Lambda_{X}(\lambda)=\frac{\lambda^{2}}{2}\mathrm{Var}(X_{\theta})\leq\frac{%&#10;\lambda^{2}}{2}\cdot\frac{(b-a)^{2}}{4}," text="Lambda _ X * lambda = (lambda ^ 2 / 2) * Var * X _ theta less= (lambda ^ 2 / 2) cdot ((b - a) ^ 2 / 4)" xml:id="S2.Ex31.m1">
             <XMath>
@@ -4315,7 +4316,7 @@ But from what we have shown, <Math mode="inline" tex="\mathrm{Var}(X_{\theta})=\
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
                       <XMApp>
                         <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-<!--  %**** subgaussian.tex Line 225 **** -->                        <XMTok name="Lambda" role="UNKNOWN">Λ</XMTok>
+                        <XMTok name="Lambda" role="UNKNOWN">Λ</XMTok>
                         <XMTok font="italic" fontsize="70%" role="UNKNOWN">X</XMTok>
                       </XMApp>
                       <XMDual>
@@ -4431,117 +4432,117 @@ Pascal Massart, <text font="italic">Concentration Inequalities: A Nonasymptotic 
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 5</text></tag> (Hoeffding’s inequality).</title>
       <para xml:id="Thmtheorem5.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="X_{1},\ldots,X_{n}" text="list@(X _ 1, ldots, X _ n)" xml:id="Thmtheorem5.p1.m1">
-              <XMath>
-                <XMDual>
-                  <XMApp>
-                    <XMTok meaning="list"/>
-                    <XMRef idref="Thmtheorem5.p1.m1.2"/>
-                    <XMRef idref="Thmtheorem5.p1.m1.1"/>
-                    <XMRef idref="Thmtheorem5.p1.m1.3"/>
-                  </XMApp>
-                  <XMWrap>
-                    <XMApp xml:id="Thmtheorem5.p1.m1.2">
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">X</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                    </XMApp>
-                    <XMTok font="upright" role="PUNCT">,</XMTok>
-                    <XMTok font="upright" name="ldots" role="ID" xml:id="Thmtheorem5.p1.m1.1">…</XMTok>
-                    <XMTok font="upright" role="PUNCT">,</XMTok>
-                    <XMApp xml:id="Thmtheorem5.p1.m1.3">
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">X</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                    </XMApp>
-                  </XMWrap>
-                </XMDual>
-              </XMath>
-            </Math> be independent random variables such that for each <Math mode="inline" tex="1\leq k\leq n" text="1 less= k less= n" xml:id="Thmtheorem5.p1.m2">
-              <XMath>
+        <p>Let <Math mode="inline" tex="X_{1},\ldots,X_{n}" text="list@(X _ 1, ldots, X _ n)" xml:id="Thmtheorem5.p1.m1">
+            <XMath>
+              <XMDual>
                 <XMApp>
-                  <XMTok meaning="multirelation"/>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok role="UNKNOWN">k</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok role="UNKNOWN">n</XMTok>
+                  <XMTok meaning="list"/>
+                  <XMRef idref="Thmtheorem5.p1.m1.2"/>
+                  <XMRef idref="Thmtheorem5.p1.m1.1"/>
+                  <XMRef idref="Thmtheorem5.p1.m1.3"/>
                 </XMApp>
-              </XMath>
-            </Math>,
-<Math mode="inline" tex="P(X_{k}\in[a_{k},b_{k}])=1" xml:id="Thmtheorem5.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">P</XMTok>
                 <XMWrap>
-                  <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                  <XMApp>
+                  <XMApp xml:id="Thmtheorem5.p1.m1.2">
                     <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">X</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">k</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                    <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
                   </XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMWrap>
-                    <XMTok font="upright" role="OPEN" stretchy="false">[</XMTok>
-                    <XMApp>
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">a</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">k</XMTok>
-                    </XMApp>
-                    <XMTok font="upright" role="PUNCT">,</XMTok>
-                    <XMApp>
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">b</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">k</XMTok>
-                    </XMApp>
-                    <XMTok font="upright" role="CLOSE" stretchy="false">]</XMTok>
-                  </XMWrap>
-                  <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
+                  <XMTok role="PUNCT">,</XMTok>
+                  <XMTok name="ldots" role="ID" xml:id="Thmtheorem5.p1.m1.1">…</XMTok>
+                  <XMTok role="PUNCT">,</XMTok>
+                  <XMApp xml:id="Thmtheorem5.p1.m1.3">
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                  </XMApp>
                 </XMWrap>
-                <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-              </XMath>
-            </Math>, and write
-<Math mode="inline" tex="S_{n}=\sum_{k=1}^{n}X_{k}" text="S _ n = ((sum _ (k = 1)) ^ n)@(X _ k)" xml:id="Thmtheorem5.p1.m4">
-              <XMath>
+              </XMDual>
+            </XMath>
+          </Math> be independent random variables such that for each <Math mode="inline" tex="1\leq k\leq n" text="1 less= k less= n" xml:id="Thmtheorem5.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="multirelation"/>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" role="UNKNOWN">k</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" role="UNKNOWN">n</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,
+<Math mode="inline" tex="P(X_{k}\in[a_{k},b_{k}])=1" xml:id="Thmtheorem5.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">P</XMTok>
+              <XMWrap>
+                <XMTok role="OPEN" stretchy="false">(</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">k</XMTok>
+                </XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMWrap>
+                  <XMTok role="OPEN" stretchy="false">[</XMTok>
                   <XMApp>
                     <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">S</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">a</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">k</XMTok>
                   </XMApp>
+                  <XMTok role="PUNCT">,</XMTok>
                   <XMApp>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMApp>
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok font="upright" mathstyle="text" meaning="sum" role="SUMOP" scriptpos="post">∑</XMTok>
-                        <XMApp>
-                          <XMTok font="upright" fontsize="70%" meaning="equals" role="RELOP">=</XMTok>
-                          <XMTok fontsize="70%" role="UNKNOWN">k</XMTok>
-                          <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                        </XMApp>
-                      </XMApp>
-                      <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                    </XMApp>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">b</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">k</XMTok>
+                  </XMApp>
+                  <XMTok role="CLOSE" stretchy="false">]</XMTok>
+                </XMWrap>
+                <XMTok role="CLOSE" stretchy="false">)</XMTok>
+              </XMWrap>
+              <XMTok meaning="equals" role="RELOP">=</XMTok>
+              <XMTok meaning="1" role="NUMBER">1</XMTok>
+            </XMath>
+          </Math>, and write
+<Math mode="inline" tex="S_{n}=\sum_{k=1}^{n}X_{k}" text="S _ n = ((sum _ (k = 1)) ^ n)@(X _ k)" xml:id="Thmtheorem5.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMApp>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">S</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                </XMApp>
+                <XMApp>
+                  <XMApp>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
                     <XMApp>
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">X</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">k</XMTok>
+                      <XMTok mathstyle="text" meaning="sum" role="SUMOP" scriptpos="post">∑</XMTok>
+                      <XMApp>
+                        <XMTok fontsize="70%" meaning="equals" role="RELOP">=</XMTok>
+                        <XMTok font="italic" fontsize="70%" role="UNKNOWN">k</XMTok>
+                        <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                      </XMApp>
                     </XMApp>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                  </XMApp>
+                  <XMApp>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">k</XMTok>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math>.
+              </XMApp>
+            </XMath>
+          </Math>.
 For any <Math mode="inline" tex="a&gt;0" text="a &gt; 0" xml:id="Thmtheorem5.p1.m5">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than" role="RELOP">&gt;</XMTok>
-                  <XMTok role="UNKNOWN">a</XMTok>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,</text></p>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
+                <XMTok font="italic" role="UNKNOWN">a</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,</p>
         <equation xml:id="S2.Ex32">
           <Math mode="display" tex="P(S_{n}-E(S_{n})\geq a)\leq\exp\left(-\frac{2a^{2}}{\sum_{k=1}^{n}(b_{k}-a_{k}%&#10;)^{2}}\right)." xml:id="S2.Ex32.m1">
             <XMath>
@@ -4693,7 +4694,7 @@ because <Math mode="inline" tex="\phi" text="phi" xml:id="S2.p6.m3">
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
                       <XMApp>
                         <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok meaning="1" role="NUMBER">1</XMTok>
+<!--  %**** subgaussian.tex Line 250 **** -->                        <XMTok meaning="1" role="NUMBER">1</XMTok>
                         <XMApp>
                           <XMTok fontsize="70%" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
                           <XMTok font="italic" fontsize="70%" role="UNKNOWN">X</XMTok>
@@ -4724,7 +4725,7 @@ because <Math mode="inline" tex="\phi" text="phi" xml:id="S2.p6.m3">
                     </XMApp>
                   </XMApp>
                   <XMTok role="PUNCT">,</XMTok>
-<!--  %**** subgaussian.tex Line 250 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -5741,7 +5742,7 @@ because <Math mode="inline" tex="\phi" text="phi" xml:id="S2.p6.m3">
                     <XMTok meaning="equals" role="RELOP">=</XMTok>
                     <XMApp>
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                      <XMTok font="italic" role="UNKNOWN">g</XMTok>
+<!--  %**** subgaussian.tex Line 275 **** -->                      <XMTok font="italic" role="UNKNOWN">g</XMTok>
                       <XMDual>
                         <XMRef idref="S2.Ex39.m1.1"/>
                         <XMWrap>
@@ -5815,7 +5816,7 @@ because <Math mode="inline" tex="\phi" text="phi" xml:id="S2.p6.m3">
                     </XMApp>
                   </XMApp>
                   <XMTok role="PUNCT">,</XMTok>
-<!--  %**** subgaussian.tex Line 275 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -6504,56 +6505,56 @@ p. 508, Theorem 23.3.</note></p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 6</text></tag> (Cramér’s large deviation theorem).</title>
       <para xml:id="Thmtheorem6.p1">
-        <p><text font="italic">Suppose that <Math mode="inline" tex="X_{n}:(\Omega,\mathscr{F},P)\to\mathbb{R}" text="X _ n colon vector@(Omega, F, P) to R" xml:id="Thmtheorem6.p1.m1">
-              <XMath>
+        <p>Suppose that <Math mode="inline" tex="X_{n}:(\Omega,\mathscr{F},P)\to\mathbb{R}" text="X _ n colon vector@(Omega, F, P) to R" xml:id="Thmtheorem6.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">X</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                  </XMApp>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMDual>
-                      <XMApp>
-                        <XMTok meaning="vector"/>
-                        <XMRef idref="Thmtheorem6.p1.m1.1"/>
-                        <XMRef idref="Thmtheorem6.p1.m1.2"/>
-                        <XMRef idref="Thmtheorem6.p1.m1.3"/>
-                      </XMApp>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok font="upright" name="Omega" role="UNKNOWN" xml:id="Thmtheorem6.p1.m1.1">Ω</XMTok>
-                        <XMTok font="upright" role="PUNCT">,</XMTok>
-                        <XMTok font="script upright" role="UNKNOWN" xml:id="Thmtheorem6.p1.m1.2">F</XMTok>
-                        <XMTok font="upright" role="PUNCT">,</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem6.p1.m1.3">P</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                    <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                  </XMApp>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>, <Math mode="inline" tex="n\geq 1" text="n &gt;= 1" xml:id="Thmtheorem6.p1.m2">
-              <XMath>
                 <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMTok role="UNKNOWN">n</XMTok>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMDual>
+                    <XMApp>
+                      <XMTok meaning="vector"/>
+                      <XMRef idref="Thmtheorem6.p1.m1.1"/>
+                      <XMRef idref="Thmtheorem6.p1.m1.2"/>
+                      <XMRef idref="Thmtheorem6.p1.m1.3"/>
+                    </XMApp>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok name="Omega" role="UNKNOWN" xml:id="Thmtheorem6.p1.m1.1">Ω</XMTok>
+                      <XMTok role="PUNCT">,</XMTok>
+                      <XMTok font="script" role="UNKNOWN" xml:id="Thmtheorem6.p1.m1.2">F</XMTok>
+                      <XMTok role="PUNCT">,</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem6.p1.m1.3">P</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
+                  <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>, are independent identically
+              </XMApp>
+            </XMath>
+          </Math>, <Math mode="inline" tex="n\geq 1" text="n &gt;= 1" xml:id="Thmtheorem6.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMTok font="italic" role="UNKNOWN">n</XMTok>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, are independent identically
 distributed random variables such that for all <Math mode="inline" tex="t\in\mathbb{R}" text="t element-of R" xml:id="Thmtheorem6.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">t</XMTok>
-                  <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,</text></p>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">t</XMTok>
+                <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,</p>
         <equation xml:id="S3.Ex44">
           <Math mode="display" tex="\Lambda(t)=\log E(e^{tX_{1}})&lt;\infty." text="Lambda * t = logarithm@(E) * e ^ (t * X _ 1) less infinity" xml:id="S3.Ex44.m1">
             <XMath>
@@ -6611,15 +6612,15 @@ distributed random variables such that for all <Math mode="inline" tex="t\in\mat
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">For <Math mode="inline" tex="x\in\mathbb{R}" text="x element-of R" xml:id="Thmtheorem6.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> define</text></p>
+        <p>For <Math mode="inline" tex="x\in\mathbb{R}" text="x element-of R" xml:id="Thmtheorem6.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> define</p>
         <equation xml:id="S3.Ex45">
           <Math mode="display" tex="\Lambda^{*}(x)=\sup_{t\in\mathbb{R}}(tx-\Lambda(t))." text="Lambda ^ * * x = (supremum _ (t element-of R))@(t * x - Lambda * t)" xml:id="S3.Ex45.m1">
             <XMath>
@@ -6689,30 +6690,30 @@ distributed random variables such that for all <Math mode="inline" tex="t\in\mat
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">If <Math mode="inline" tex="a&gt;E(X_{1})" text="a &gt; E * X _ 1" xml:id="Thmtheorem6.p1.m5">
-              <XMath>
+        <p>If <Math mode="inline" tex="a&gt;E(X_{1})" text="a &gt; E * X _ 1" xml:id="Thmtheorem6.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
+                <XMTok font="italic" role="UNKNOWN">a</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="greater-than" role="RELOP">&gt;</XMTok>
-                  <XMTok role="UNKNOWN">a</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">E</XMTok>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem6.p1.m5.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMApp xml:id="Thmtheorem6.p1.m5.1">
-                          <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                          <XMTok role="UNKNOWN">X</XMTok>
-                          <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                        </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">E</XMTok>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem6.p1.m5.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMApp xml:id="Thmtheorem6.p1.m5.1">
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                        <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                        <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                      </XMApp>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>, then</text></p>
+              </XMApp>
+            </XMath>
+          </Math>, then</p>
         <equation xml:id="S3.Ex46">
           <Math mode="display" tex="\lim_{n\to\infty}\frac{1}{n}\log P(S_{n}\geq an)=-\Lambda^{*}(a)," xml:id="S3.Ex46.m1">
             <XMath>
@@ -6760,38 +6761,38 @@ distributed random variables such that for all <Math mode="inline" tex="t\in\mat
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">where <Math mode="inline" tex="S_{n}=\sum_{k=1}^{n}X_{k}" text="S _ n = ((sum _ (k = 1)) ^ n)@(X _ k)" xml:id="Thmtheorem6.p1.m6">
-              <XMath>
+        <p>where <Math mode="inline" tex="S_{n}=\sum_{k=1}^{n}X_{k}" text="S _ n = ((sum _ (k = 1)) ^ n)@(X _ k)" xml:id="Thmtheorem6.p1.m6">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">S</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                </XMApp>
+                <XMApp>
                   <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">S</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                  </XMApp>
-                  <XMApp>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMApp>
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok font="upright" mathstyle="text" meaning="sum" role="SUMOP" scriptpos="post">∑</XMTok>
-                        <XMApp>
-                          <XMTok font="upright" fontsize="70%" meaning="equals" role="RELOP">=</XMTok>
-                          <XMTok fontsize="70%" role="UNKNOWN">k</XMTok>
-                          <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                        </XMApp>
-                      </XMApp>
-                      <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                    </XMApp>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
                     <XMApp>
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">X</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">k</XMTok>
+                      <XMTok mathstyle="text" meaning="sum" role="SUMOP" scriptpos="post">∑</XMTok>
+                      <XMApp>
+                        <XMTok fontsize="70%" meaning="equals" role="RELOP">=</XMTok>
+                        <XMTok font="italic" fontsize="70%" role="UNKNOWN">k</XMTok>
+                        <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                      </XMApp>
                     </XMApp>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                  </XMApp>
+                  <XMApp>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">k</XMTok>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math>.</text></p>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
@@ -6971,7 +6972,7 @@ let <Math mode="inline" tex="Y_{n}=X_{n}-a" text="Y _ n = X _ n - a" xml:id="S3.
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
                       <XMApp>
                         <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                        <XMTok font="italic" role="UNKNOWN">L</XMTok>
+<!--  %**** subgaussian.tex Line 325 **** -->                        <XMTok font="italic" role="UNKNOWN">L</XMTok>
                         <XMTok fontsize="70%" meaning="times" role="MULOP">*</XMTok>
                       </XMApp>
                       <XMDual>
@@ -7069,7 +7070,7 @@ let <Math mode="inline" tex="Y_{n}=X_{n}-a" text="Y _ n = X _ n - a" xml:id="S3.
                             </XMApp>
                           </XMApp>
                           <XMTok role="CLOSE" stretchy="false">)</XMTok>
-<!--  %**** subgaussian.tex Line 325 **** -->                        </XMWrap>
+                        </XMWrap>
                       </XMDual>
                     </XMApp>
                     <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -7491,7 +7492,7 @@ let <Math mode="inline" tex="Y_{n}=X_{n}-a" text="Y _ n = X _ n - a" xml:id="S3.
             </XMath>
           </Math>
         </equation>
-        <p>the moment generating function of <Math mode="inline" tex="X_{1}" text="X _ 1" xml:id="S3.p3.m1">
+<!--  %**** subgaussian.tex Line 350 **** -->        <p>the moment generating function of <Math mode="inline" tex="X_{1}" text="X _ 1" xml:id="S3.p3.m1">
             <XMath>
               <XMApp>
                 <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -7500,7 +7501,7 @@ let <Math mode="inline" tex="Y_{n}=X_{n}-a" text="Y _ n = X _ n - a" xml:id="S3.
               </XMApp>
             </XMath>
           </Math>,
-<!--  %**** subgaussian.tex Line 350 **** -->and define</p>
+and define</p>
         <equation xml:id="S3.Ex53">
           <Math mode="display" tex="\rho=e^{-\Lambda^{*}(0)}=\exp\left(-\sup_{t\in\mathbb{R}}(-\Lambda(t))\right)=%&#10;\exp\left(\inf_{t\in\mathbb{R}}\Lambda(t)\right)=\inf_{t\in\mathbb{R}}\phi(t)," text="rho = e ^ (- Lambda ^ * * 0) = exponential@(- (supremum _ (t element-of R))@(- Lambda * t)) = exponential@((infimum _ (t element-of R))@(Lambda * t)) = (infimum _ (t element-of R))@(phi * t)" xml:id="S3.Ex53.m1">
             <XMath>
@@ -8175,8 +8176,7 @@ let <Math mode="inline" tex="Y_{n}=X_{n}-a" text="Y _ n = X _ n - a" xml:id="S3.
             </XMath>
           </Math>
         </equation>
-        <p>so, using the dominated convergence theorem,
-<!--  %**** subgaussian.tex Line 375 **** --></p>
+<!--  %**** subgaussian.tex Line 375 **** -->        <p>so, using the dominated convergence theorem,</p>
         <equation xml:id="S3.Ex56">
           <Math mode="display" tex="\rho=\inf_{t\in\mathbb{R}}\phi(t)=\lim_{t\to\infty}\phi(t)=\int_{X_{1}\leq 0}%&#10;\left(\lim_{t\to\infty}e^{tX_{1}}\right)dP=\int_{X_{1}=0}dP=P(X_{1}=0)." xml:id="S3.Ex56.m1">
             <XMath>
@@ -8711,11 +8711,12 @@ Because <Math mode="inline" tex="\tau&gt;0" text="tau &gt; 0" xml:id="S3.p6.m9">
                 <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
               </XMApp>
             </XMath>
-          </Math> are independent,</p>
+          </Math> are independent,
+<!--  %**** subgaussian.tex Line 400 **** --></p>
         <equation xml:id="S3.Ex60">
           <Math mode="display" tex="P(S_{n}\geq 0)=P(e^{\tau S_{n}}\geq 1)\leq E(e^{\tau S_{n}})=E(e^{\tau X_{1}})%&#10;\cdots E(e^{\tau X_{n}})=\phi(\tau)^{n}=\rho^{n}," xml:id="S3.Ex60.m1">
             <XMath>
-<!--  %**** subgaussian.tex Line 400 **** -->              <XMTok font="italic" role="UNKNOWN">P</XMTok>
+              <XMTok font="italic" role="UNKNOWN">P</XMTok>
               <XMWrap>
                 <XMTok role="OPEN" stretchy="false">(</XMTok>
                 <XMApp>
@@ -9216,12 +9217,12 @@ let</p>
                     <XMTok meaning="1" role="NUMBER">1</XMTok>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-                </XMWrap>
+<!--  %**** subgaussian.tex Line 425 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** subgaussian.tex Line 425 **** -->        <p>There are independent identically distributed random variables <Math mode="inline" tex="Y_{n}" text="Y _ n" xml:id="S3.p7.m4">
+        <p>There are independent identically distributed random variables <Math mode="inline" tex="Y_{n}" text="Y _ n" xml:id="S3.p7.m4">
             <XMath>
               <XMApp>
                 <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -12531,10 +12532,10 @@ is</p>
           </equation>
         </equationgroup>
         <p>which completes the proof.
-∎</p>
+<!--  %**** subgaussian.tex Line 500 **** -->∎</p>
       </para>
     </proof>
-<!--  %**** subgaussian.tex Line 500 **** -->    <para xml:id="S3.p8">
+    <para xml:id="S3.p8">
       <p>For example, say that <Math mode="inline" tex="X_{n}" text="X _ n" xml:id="S3.p8.m1">
           <XMath>
             <XMApp>
@@ -13482,10 +13483,11 @@ for <Math mode="inline" tex="S_{n}=\sum_{k=1}^{n}X_{k}" text="S _ n = ((sum _ (k
               <XMTok meaning="2" role="NUMBER">2</XMTok>
             </XMApp>
             <XMTok role="PERIOD">.</XMTok>
-          </XMath>
+<!--  %**** subgaussian.tex Line 525 **** 
+ %**** subgaussian.tex Line 525 **** -->          </XMath>
         </Math>
       </equation>
-<!--  %**** subgaussian.tex Line 525 **** -->    </para>
+    </para>
     <para xml:id="S3.p9">
       <p>Another example: If <Math mode="inline" tex="X_{n}" text="X _ n" xml:id="S3.p9.m1">
           <XMath>
@@ -13947,7 +13949,7 @@ Then, as <Math mode="inline" tex="\frac{d}{dt}(tx-\log\cosh t)=x-\tanh t" text="
                   <XMTok meaning="equals" role="RELOP">=</XMTok>
                   <XMApp>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN" rpadding="1.7pt">arctanh</XMTok>
+<!--  %**** subgaussian.tex Line 550 **** -->                    <XMTok role="UNKNOWN" rpadding="1.7pt">arctanh</XMTok>
                     <XMTok font="italic" role="UNKNOWN">x</XMTok>
                   </XMApp>
                   <XMApp>
@@ -13976,7 +13978,7 @@ Then, as <Math mode="inline" tex="\frac{d}{dt}(tx-\log\cosh t)=x-\tanh t" text="
                   </XMApp>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-<!--  %**** subgaussian.tex Line 550 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -14920,12 +14922,12 @@ we define its <text font="bold">Laplace transform</text> <Math mode="inline" tex
                   </XMApp>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-              </XMWrap>
+<!--  %**** subgaussian.tex Line 575 **** -->              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
       </equation>
-<!--  %**** subgaussian.tex Line 575 **** -->      <p>Suppose that <Math mode="inline" tex="\int_{\mathbb{R}}|y|d\mu(y)&lt;\infty" text="(integral _ R)@(absolute-value@(y) * differential-d@(mu) * y) less infinity" xml:id="S3.p10.m4">
+      <p>Suppose that <Math mode="inline" tex="\int_{\mathbb{R}}|y|d\mu(y)&lt;\infty" text="(integral _ R)@(absolute-value@(y) * differential-d@(mu) * y) less infinity" xml:id="S3.p10.m4">
           <XMath>
             <XMApp>
               <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
@@ -15472,6 +15474,6 @@ But <Math mode="inline" tex="tM_{1}-\log\check{\mu}(t)\leq 0" text="t * M _ 1 - 
           </XMath>
         </Math>
       </equation>
-    </para>
-<!--  %**** subgaussian.tex Line 600 **** -->  </section>
+<!--  %**** subgaussian.tex Line 600 **** -->    </para>
+  </section>
 </document>

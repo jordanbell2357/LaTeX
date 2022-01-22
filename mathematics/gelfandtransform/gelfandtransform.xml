@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/staging/gelfandtransform"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/mathematics/gelfandtransform"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,graphicx,subfig,mathrsfs,amsthm"?>
 <!--  %**** gelfandtransform.tex Line 25 **** --><?latexml RelaxNGSchema="LaTeXML"?>
@@ -140,7 +140,7 @@
             </XMApp>
           </XMath>
         </Math>
-for which <Math mode="inline" tex="\lambda e-x" text="lambda * e - x" xml:id="S1.p3.m6">
+<!--  %**** gelfandtransform.tex Line 50 **** -->for which <Math mode="inline" tex="\lambda e-x" text="lambda * e - x" xml:id="S1.p3.m6">
           <XMath>
             <XMApp>
               <XMTok meaning="minus" role="ADDOP">-</XMTok>
@@ -187,7 +187,7 @@ for which <Math mode="inline" tex="\lambda e-x" text="lambda * e - x" xml:id="S1
             <tag>1</tag>
             <tag role="refnum">1</tag>
             <tag role="typerefnum">footnote 1</tag>
-          </tags><!--  %**** gelfandtransform.tex Line 50 **** -->Walter
+          </tags>Walter
 Rudin, <text font="italic">Functional Analysis</text>, second ed., p. 253, Theorem 10.13.</note></p>
     </para>
     <para xml:id="S1.p4">
@@ -230,23 +230,23 @@ Rudin, <text font="italic">Functional Analysis</text>, second ed., p. 253, Theo
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 1</text></tag> (Gelfand-Mazur).</title>
       <para xml:id="Thmtheorem1.p1">
-        <p><text font="italic">If <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem1.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> is a Banach algebra and every nonzero element of <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem1.p1.m2">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> is invertible, then there is an isomorphism of Banach algebras <Math mode="inline" tex="A\to\mathbb{C}" text="A to C" xml:id="Thmtheorem1.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                  <XMTok role="UNKNOWN">A</XMTok>
-                  <XMTok font="blackboard upright" role="UNKNOWN">C</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>.</text></p>
+        <p>If <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem1.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> is a Banach algebra and every nonzero element of <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem1.p1.m2">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> is invertible, then there is an isomorphism of Banach algebras <Math mode="inline" tex="A\to\mathbb{C}" text="A to C" xml:id="Thmtheorem1.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok name="to" role="ARROW">→</XMTok>
+                <XMTok font="italic" role="UNKNOWN">A</XMTok>
+                <XMTok font="blackboard" role="UNKNOWN">C</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
@@ -662,7 +662,7 @@ and also <Math mode="inline" tex="x+y=\lambda(x+y)e" text="x + y = lambda * (x +
               </XMApp>
             </XMath>
           </Math>, then
-<Math mode="inline" tex="\alpha x=\alpha\lambda(x)e" text="alpha * x = alpha * lambda * x * e" xml:id="S1.p6.m7">
+<!--  %**** gelfandtransform.tex Line 75 **** --><Math mode="inline" tex="\alpha x=\alpha\lambda(x)e" text="alpha * x = alpha * lambda * x * e" xml:id="S1.p6.m7">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -751,7 +751,7 @@ and also <Math mode="inline" tex="x+y=\lambda(x+y)e" text="x + y = lambda * (x +
               </XMApp>
             </XMath>
           </Math>. Hence
-<!--  %**** gelfandtransform.tex Line 75 **** --><Math mode="inline" tex="x\mapsto\lambda(x)" text="x maps-to lambda * x" xml:id="S1.p6.m10">
+<Math mode="inline" tex="x\mapsto\lambda(x)" text="x maps-to lambda * x" xml:id="S1.p6.m10">
             <XMath>
               <XMApp>
                 <XMTok meaning="maps-to" name="mapsto" role="ARROW">↦</XMTok>
@@ -1174,41 +1174,42 @@ p. 277, Theorem 11.5.</note></p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 2</text></tag>.</title>
       <para xml:id="Thmtheorem2.p1">
-        <p><text font="italic">If <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem2.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> is a commutative unital Banach algebra and <Math mode="inline" tex="\Delta" text="Delta" xml:id="Thmtheorem2.p1.m2">
-              <XMath>
-                <XMTok font="upright" name="Delta" role="UNKNOWN">Δ</XMTok>
-              </XMath>
-            </Math> is the set of all nonzero
+        <p>If <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem2.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> is a commutative unital Banach algebra and <Math mode="inline" tex="\Delta" text="Delta" xml:id="Thmtheorem2.p1.m2">
+            <XMath>
+              <XMTok name="Delta" role="UNKNOWN">Δ</XMTok>
+            </XMath>
+          </Math> is the set of all nonzero
 algebra homomorphisms <Math mode="inline" tex="A\to\mathbb{C}" text="A to C" xml:id="Thmtheorem2.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                  <XMTok role="UNKNOWN">A</XMTok>
-                  <XMTok font="blackboard upright" role="UNKNOWN">C</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, then:</text></p>
+            <XMath>
+              <XMApp>
+                <XMTok name="to" role="ARROW">→</XMTok>
+                <XMTok font="italic" role="UNKNOWN">A</XMTok>
+                <XMTok font="blackboard" role="UNKNOWN">C</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, then:
+<!--  %**** gelfandtransform.tex Line 100 **** --></p>
         <enumerate xml:id="S2.I1">
-<!--  %**** gelfandtransform.tex Line 100 **** -->          <item xml:id="S2.I1.i1">
+          <item xml:id="S2.I1.i1">
             <tags>
               <tag>1.</tag>
               <tag role="refnum">1</tag>
               <tag role="typerefnum">item 1</tag>
             </tags>
             <para xml:id="S2.I1.i1.p1">
-              <p><text font="italic">If </text><Math mode="inline" tex="M" text="M" xml:id="S2.I1.i1.p1.m1">
+              <p>If <Math mode="inline" tex="M" text="M" xml:id="S2.I1.i1.p1.m1">
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">M</XMTok>
                   </XMath>
-                </Math><text font="italic"> is a maximal ideal of </text><Math mode="inline" tex="A" text="A" xml:id="S2.I1.i1.p1.m2">
+                </Math> is a maximal ideal of <Math mode="inline" tex="A" text="A" xml:id="S2.I1.i1.p1.m2">
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">A</XMTok>
                   </XMath>
-                </Math><text font="italic"> then there is some </text><Math mode="inline" tex="h\in\Delta" text="h element-of Delta" xml:id="S2.I1.i1.p1.m3">
+                </Math> then there is some <Math mode="inline" tex="h\in\Delta" text="h element-of Delta" xml:id="S2.I1.i1.p1.m3">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -1216,7 +1217,7 @@ algebra homomorphisms <Math mode="inline" tex="A\to\mathbb{C}" text="A to C" xml
                       <XMTok name="Delta" role="UNKNOWN">Δ</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> for which </text><Math mode="inline" tex="M=\ker h" text="M = kernel@(h)" xml:id="S2.I1.i1.p1.m4">
+                </Math> for which <Math mode="inline" tex="M=\ker h" text="M = kernel@(h)" xml:id="S2.I1.i1.p1.m4">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -1227,7 +1228,7 @@ algebra homomorphisms <Math mode="inline" tex="A\to\mathbb{C}" text="A to C" xml
                       </XMApp>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.</p>
             </para>
           </item>
           <item xml:id="S2.I1.i2">
@@ -1237,7 +1238,7 @@ algebra homomorphisms <Math mode="inline" tex="A\to\mathbb{C}" text="A to C" xml
               <tag role="typerefnum">item 2</tag>
             </tags>
             <para xml:id="S2.I1.i2.p1">
-              <p><text font="italic">If </text><Math mode="inline" tex="h\in\Delta" text="h element-of Delta" xml:id="S2.I1.i2.p1.m1">
+              <p>If <Math mode="inline" tex="h\in\Delta" text="h element-of Delta" xml:id="S2.I1.i2.p1.m1">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -1245,18 +1246,18 @@ algebra homomorphisms <Math mode="inline" tex="A\to\mathbb{C}" text="A to C" xml
                       <XMTok name="Delta" role="UNKNOWN">Δ</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> then </text><Math mode="inline" tex="\ker h" text="kernel@(h)" xml:id="S2.I1.i2.p1.m2">
+                </Math> then <Math mode="inline" tex="\ker h" text="kernel@(h)" xml:id="S2.I1.i2.p1.m2">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="kernel" role="OPFUNCTION">ker</XMTok>
                       <XMTok font="italic" role="UNKNOWN">h</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> is a maximal ideal of </text><Math mode="inline" tex="A" text="A" xml:id="S2.I1.i2.p1.m3">
+                </Math> is a maximal ideal of <Math mode="inline" tex="A" text="A" xml:id="S2.I1.i2.p1.m3">
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">A</XMTok>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.</p>
             </para>
           </item>
           <item xml:id="S2.I1.i3">
@@ -1274,7 +1275,7 @@ algebra homomorphisms <Math mode="inline" tex="A\to\mathbb{C}" text="A to C" xml
                       <XMTok font="italic" role="UNKNOWN">A</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> is invertible if and only if </text><Math mode="inline" tex="h(x)\neq 0" text="h * x not-equals 0" xml:id="S2.I1.i3.p1.m2">
+                </Math> is invertible if and only if <Math mode="inline" tex="h(x)\neq 0" text="h * x not-equals 0" xml:id="S2.I1.i3.p1.m2">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="not-equals" name="neq" role="RELOP">≠</XMTok>
@@ -1293,7 +1294,7 @@ algebra homomorphisms <Math mode="inline" tex="A\to\mathbb{C}" text="A to C" xml
                       <XMTok meaning="0" role="NUMBER">0</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> for all </text><Math mode="inline" tex="h\in\Delta" text="h element-of Delta" xml:id="S2.I1.i3.p1.m3">
+                </Math> for all <Math mode="inline" tex="h\in\Delta" text="h element-of Delta" xml:id="S2.I1.i3.p1.m3">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -1301,7 +1302,7 @@ algebra homomorphisms <Math mode="inline" tex="A\to\mathbb{C}" text="A to C" xml
                       <XMTok name="Delta" role="UNKNOWN">Δ</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.</p>
             </para>
           </item>
           <item xml:id="S2.I1.i4">
@@ -1319,15 +1320,15 @@ algebra homomorphisms <Math mode="inline" tex="A\to\mathbb{C}" text="A to C" xml
                       <XMTok font="italic" role="UNKNOWN">A</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> is invertible if and only if </text><Math mode="inline" tex="x" text="x" xml:id="S2.I1.i4.p1.m2">
+                </Math> is invertible if and only if <Math mode="inline" tex="x" text="x" xml:id="S2.I1.i4.p1.m2">
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">x</XMTok>
                   </XMath>
-                </Math><text font="italic"> does not belong to any proper ideal of </text><Math mode="inline" tex="A" text="A" xml:id="S2.I1.i4.p1.m3">
+                </Math> does not belong to any proper ideal of <Math mode="inline" tex="A" text="A" xml:id="S2.I1.i4.p1.m3">
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">A</XMTok>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.</p>
             </para>
           </item>
           <item xml:id="S2.I1.i5">
@@ -1356,7 +1357,7 @@ algebra homomorphisms <Math mode="inline" tex="A\to\mathbb{C}" text="A to C" xml
                       </XMApp>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> if and only if there is some </text><Math mode="inline" tex="h\in\Delta" text="h element-of Delta" xml:id="S2.I1.i5.p1.m2">
+                </Math> if and only if there is some <Math mode="inline" tex="h\in\Delta" text="h element-of Delta" xml:id="S2.I1.i5.p1.m2">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -1364,7 +1365,7 @@ algebra homomorphisms <Math mode="inline" tex="A\to\mathbb{C}" text="A to C" xml
                       <XMTok name="Delta" role="UNKNOWN">Δ</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> for which </text><Math mode="inline" tex="h(x)=\lambda" text="h * x = lambda" xml:id="S2.I1.i5.p1.m3">
+                </Math> for which <Math mode="inline" tex="h(x)=\lambda" text="h * x = lambda" xml:id="S2.I1.i5.p1.m3">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -1383,7 +1384,7 @@ algebra homomorphisms <Math mode="inline" tex="A\to\mathbb{C}" text="A to C" xml
                       <XMTok font="italic" name="lambda" role="UNKNOWN">λ</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.</p>
             </para>
           </item>
         </enumerate>
@@ -1662,9 +1663,10 @@ If <Math mode="inline" tex="X" text="X" xml:id="S3.p2.m8">
               </XMDual>
             </XMApp>
           </XMath>
-        </Math> is a commutative unital algebra, although it need not be a Banach algebra.</p>
+        </Math> is a commutative unital algebra, although it need not be a Banach algebra.
+<!--  %**** gelfandtransform.tex Line 125 **** --></p>
     </para>
-<!--  %**** gelfandtransform.tex Line 125 **** -->    <para xml:id="S3.p3">
+    <para xml:id="S3.p3">
       <p>The <text font="italic">radical of <Math mode="inline" tex="A" text="A" xml:id="S3.p3.m1">
             <XMath>
               <XMTok role="UNKNOWN">A</XMTok>
@@ -1725,19 +1727,19 @@ Rudin, <text font="italic">Functional Analysis</text>, second ed., p. 280, Theo
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 3</text></tag>.</title>
       <para xml:id="Thmtheorem3.p1">
-        <p><text font="italic">If <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem3.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> is a commutative unital Banach algebra and <Math mode="inline" tex="\Delta" text="Delta" xml:id="Thmtheorem3.p1.m2">
-              <XMath>
-                <XMTok font="upright" name="Delta" role="UNKNOWN">Δ</XMTok>
-              </XMath>
-            </Math> is the maximal ideal space of <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem3.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math>, then:</text></p>
+        <p>If <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem3.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> is a commutative unital Banach algebra and <Math mode="inline" tex="\Delta" text="Delta" xml:id="Thmtheorem3.p1.m2">
+            <XMath>
+              <XMTok name="Delta" role="UNKNOWN">Δ</XMTok>
+            </XMath>
+          </Math> is the maximal ideal space of <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem3.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math>, then:</p>
         <enumerate xml:id="S3.I1">
           <item xml:id="S3.I1.i1">
             <tags>
@@ -1769,7 +1771,7 @@ Rudin, <text font="italic">Functional Analysis</text>, second ed., p. 280, Theo
                       </XMApp>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> is an algebra homomorphism with </text><Math mode="inline" tex="\ker\Gamma=\mathrm{rad}\,A" text="kernel@(Gamma) = rad * A" xml:id="S3.I1.i1.p1.m2">
+                </Math> is an algebra homomorphism with <Math mode="inline" tex="\ker\Gamma=\mathrm{rad}\,A" text="kernel@(Gamma) = rad * A" xml:id="S3.I1.i1.p1.m2">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -1784,7 +1786,7 @@ Rudin, <text font="italic">Functional Analysis</text>, second ed., p. 280, Theo
                       </XMApp>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.</p>
             </para>
           </item>
           <item xml:id="S3.I1.i2">
@@ -1794,7 +1796,7 @@ Rudin, <text font="italic">Functional Analysis</text>, second ed., p. 280, Theo
               <tag role="typerefnum">item 2</tag>
             </tags>
             <para xml:id="S3.I1.i2.p1">
-              <p><text font="italic">If </text><Math mode="inline" tex="x\in A" text="x element-of A" xml:id="S3.I1.i2.p1.m1">
+              <p>If <Math mode="inline" tex="x\in A" text="x element-of A" xml:id="S3.I1.i2.p1.m1">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -1802,7 +1804,7 @@ Rudin, <text font="italic">Functional Analysis</text>, second ed., p. 280, Theo
                       <XMTok font="italic" role="UNKNOWN">A</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">, then </text><Math mode="inline" tex="\mathrm{im}\,\hat{x}=\sigma(x)" text="im * hat@(x) = sigma * x" xml:id="S3.I1.i2.p1.m2">
+                </Math>, then <Math mode="inline" tex="\mathrm{im}\,\hat{x}=\sigma(x)" text="im * hat@(x) = sigma * x" xml:id="S3.I1.i2.p1.m2">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -1828,7 +1830,7 @@ Rudin, <text font="italic">Functional Analysis</text>, second ed., p. 280, Theo
                       </XMApp>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.</p>
             </para>
           </item>
           <item xml:id="S3.I1.i3">
@@ -1842,7 +1844,7 @@ Rudin, <text font="italic">Functional Analysis</text>, second ed., p. 280, Theo
                   <XMath>
                     <XMTok name="Delta" role="UNKNOWN">Δ</XMTok>
                   </XMath>
-                </Math><text font="italic"> is a compact Hausdorff space.</text></p>
+                </Math> is a compact Hausdorff space.</p>
             </para>
           </item>
         </enumerate>
@@ -2191,7 +2193,7 @@ Rudin, <text font="italic">Functional Analysis</text>, second ed., p. 280, Theo
             </XMath>
           </Math>
         </equation>
-        <p>showing that <Math mode="inline" tex="\Gamma(xy)=\Gamma(x)\Gamma(y)" text="Gamma * x * y = Gamma * x * Gamma * y" xml:id="S3.p5.m5">
+<!--  %**** gelfandtransform.tex Line 150 **** -->        <p>showing that <Math mode="inline" tex="\Gamma(xy)=\Gamma(x)\Gamma(y)" text="Gamma * x * y = Gamma * x * Gamma * y" xml:id="S3.p5.m5">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -2258,7 +2260,7 @@ Rudin, <text font="italic">Functional Analysis</text>, second ed., p. 280, Theo
               </XMApp>
             </XMath>
           </Math> is an algebra homomorphism.
-<!--  %**** gelfandtransform.tex Line 150 **** --><Math mode="inline" tex="x\in\ker\Gamma" text="x element-of kernel@(Gamma)" xml:id="S3.p5.m7">
+<Math mode="inline" tex="x\in\ker\Gamma" text="x element-of kernel@(Gamma)" xml:id="S3.p5.m7">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -2973,7 +2975,7 @@ Let <Math mode="inline" tex="x,y\in A" text="list@(x, y) element-of A" xml:id="S
               </XMApp>
             </XMath>
           </Math>, and on the other hand,
-<Math mode="inline" tex="h_{i}(x)\to\lambda(x)" text="h _ i * x to lambda * x" xml:id="S3.p8.m9">
+<!--  %**** gelfandtransform.tex Line 175 **** --><Math mode="inline" tex="h_{i}(x)\to\lambda(x)" text="h _ i * x to lambda * x" xml:id="S3.p8.m9">
             <XMath>
               <XMApp>
                 <XMTok name="to" role="ARROW">→</XMTok>
@@ -3042,7 +3044,7 @@ Let <Math mode="inline" tex="x,y\in A" text="list@(x, y) element-of A" xml:id="S
               </XMApp>
             </XMath>
           </Math>,
-<!--  %**** gelfandtransform.tex Line 175 **** -->so <Math mode="inline" tex="h_{i}(x)h_{i}(y)\to\lambda(x)\lambda(y)" text="h _ i * x * h _ i * y to lambda * x * lambda * y" xml:id="S3.p8.m11">
+so <Math mode="inline" tex="h_{i}(x)h_{i}(y)\to\lambda(x)\lambda(y)" text="h _ i * x * h _ i * y to lambda * x * lambda * y" xml:id="S3.p8.m11">
             <XMath>
               <XMApp>
                 <XMTok name="to" role="ARROW">→</XMTok>
@@ -3582,7 +3584,7 @@ Moreover, it is a fact that <Math mode="inline" tex="\rho(x)\leq\left\|x\right\|
                         <XMRef idref="S3.E2.m1.1"/>
                       </XMApp>
                       <XMWrap>
-                        <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
+<!--  %**** gelfandtransform.tex Line 200 **** -->                        <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
                         <XMApp xml:id="S3.E2.m1.1">
                           <XMTok name="hat" role="OVERACCENT" stretchy="false">^</XMTok>
                           <XMTok font="italic" role="UNKNOWN">x</XMTok>
@@ -3605,7 +3607,7 @@ Moreover, it is a fact that <Math mode="inline" tex="\rho(x)\leq\left\|x\right\|
                   </XMDual>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-<!--  %**** gelfandtransform.tex Line 200 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -3651,32 +3653,32 @@ Banach algebra is continuous.<note mark="7" role="footnote" xml:id="footnote7"><
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 4</text></tag>.</title>
       <para xml:id="Thmtheorem4.p1">
-        <p><text font="italic">Suppose that <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem4.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> is a Banach algebra and that <Math mode="inline" tex="B" text="B" xml:id="Thmtheorem4.p1.m2">
-              <XMath>
-                <XMTok role="UNKNOWN">B</XMTok>
-              </XMath>
-            </Math> is a commutative unital semisimple Banach algebra. If <Math mode="inline" tex="\psi:A\to B" text="psi colon A to B" xml:id="Thmtheorem4.p1.m3">
-              <XMath>
+        <p>Suppose that <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem4.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> is a Banach algebra and that <Math mode="inline" tex="B" text="B" xml:id="Thmtheorem4.p1.m2">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">B</XMTok>
+            </XMath>
+          </Math> is a commutative unital semisimple Banach algebra. If <Math mode="inline" tex="\psi:A\to B" text="psi colon A to B" xml:id="Thmtheorem4.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" name="psi" role="UNKNOWN">ψ</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok name="psi" role="UNKNOWN">ψ</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">A</XMTok>
-                    <XMTok role="UNKNOWN">B</XMTok>
-                  </XMApp>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">A</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">B</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>
+              </XMApp>
+            </XMath>
+          </Math>
 is an algebra homomorphism, then <Math mode="inline" tex="\psi" text="psi" xml:id="Thmtheorem4.p1.m4">
-              <XMath>
-                <XMTok name="psi" role="UNKNOWN">ψ</XMTok>
-              </XMath>
-            </Math> is continuous.</text></p>
+            <XMath>
+              <XMTok font="italic" name="psi" role="UNKNOWN">ψ</XMTok>
+            </XMath>
+          </Math> is continuous.</p>
       </para>
     </theorem>
     <proof>
@@ -3855,7 +3857,7 @@ if <Math mode="inline" tex="(x_{n},y_{n})\in G" text="open-interval@(x _ n, y _ 
             </XMath>
           </Math>.</p>
       </para>
-      <para xml:id="S3.p13">
+<!--  %**** gelfandtransform.tex Line 225 **** -->      <para xml:id="S3.p13">
         <p>Let <Math mode="inline" tex="h\in\Delta_{B}" text="h element-of Delta _ B" xml:id="S3.p13.m1">
             <XMath>
               <XMApp>
@@ -3901,7 +3903,7 @@ if <Math mode="inline" tex="(x_{n},y_{n})\in G" text="open-interval@(x _ n, y _ 
               </XMApp>
             </XMath>
           </Math> and
-<!--  %**** gelfandtransform.tex Line 225 **** --><Math mode="inline" tex="\phi:A\to\mathbb{C}" text="phi colon A to C" xml:id="S3.p13.m4">
+<Math mode="inline" tex="\phi:A\to\mathbb{C}" text="phi colon A to C" xml:id="S3.p13.m4">
             <XMath>
               <XMApp>
                 <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -4544,7 +4546,7 @@ then <Math mode="inline" tex="\Gamma:A\to C(\Delta)" text="Gamma colon A to C * 
           </XMath>
         </Math> is an isometry.</p>
     </para>
-    <theorem class="ltx_theorem_lemma" inlist="thm theorem:lemma" labels="LABEL:normlemma" xml:id="Thmtheorem5">
+    <theorem class="ltx_theorem_lemma" inlist="thm theorem:lemma" xml:id="Thmtheorem5">
       <tags>
         <tag>Lemma 5</tag>
         <tag role="refnum">5</tag>
@@ -4552,12 +4554,12 @@ then <Math mode="inline" tex="\Gamma:A\to C(\Delta)" text="Gamma colon A to C * 
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 5</text></tag>.</title>
       <para xml:id="Thmtheorem5.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem5.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> be a commutative unital Banach algebra. If</text></p>
-        <equation xml:id="S3.Ex10">
+        <p>Let <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem5.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> be a commutative unital Banach algebra. If</p>
+        <equation labels="LABEL:normlemma" xml:id="S3.Ex10">
           <Math mode="display" tex="r=\inf_{x\neq 0}\frac{\left\|x^{2}\right\|}{\left\|x\right\|^{2}},\qquad s=%&#10;\inf_{x\neq 0}\frac{\left\|\hat{x}\right\|_{\infty}}{\left\|x\right\|}," text="formulae@(r = (infimum _ (x not-equals 0))@(norm@(x ^ 2) / (norm@(x)) ^ 2), s = (infimum _ (x not-equals 0))@((norm@(hat@(x))) _ infinity / norm@(x)))" xml:id="S3.Ex10.m1">
             <XMath>
               <XMDual>
@@ -4674,25 +4676,25 @@ then <Math mode="inline" tex="\Gamma:A\to C(\Delta)" text="Gamma colon A to C * 
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">then <Math mode="inline" tex="s^{2}\leq r\leq s" text="s ^ 2 less= r less= s" xml:id="Thmtheorem5.p1.m2">
-              <XMath>
+        <p>then <Math mode="inline" tex="s^{2}\leq r\leq s" text="s ^ 2 less= r less= s" xml:id="Thmtheorem5.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="multirelation"/>
                 <XMApp>
-                  <XMTok meaning="multirelation"/>
-                  <XMApp>
-                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">s</XMTok>
-                    <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                  </XMApp>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok role="UNKNOWN">r</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok role="UNKNOWN">s</XMTok>
+                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">s</XMTok>
+                  <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>.</text></p>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" role="UNKNOWN">r</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" role="UNKNOWN">s</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
-    <para xml:id="S3.p15">
+<!--  %**** gelfandtransform.tex Line 250 **** -->    <para xml:id="S3.p15">
       <p>Theorem <ref labelref="LABEL:gelfand"/> shows that if <Math mode="inline" tex="A" text="A" xml:id="S3.p15.m1">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">A</XMTok>
@@ -4721,7 +4723,7 @@ then <Math mode="inline" tex="\Gamma:A\to C(\Delta)" text="Gamma colon A to C * 
             </XMApp>
           </XMath>
         </Math> is an algebra homomorphism.
-<!--  %**** gelfandtransform.tex Line 250 **** -->Therefore <Math mode="inline" tex="\Gamma(A)=\widehat{A}" text="Gamma * A = widehat@(A)" xml:id="S3.p15.m3">
+Therefore <Math mode="inline" tex="\Gamma(A)=\widehat{A}" text="Gamma * A = widehat@(A)" xml:id="S3.p15.m3">
           <XMath>
             <XMApp>
               <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -4859,95 +4861,95 @@ subset of the Banach algebra <Math mode="inline" tex="C(\Delta)" text="C * Delta
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 6</text></tag>.</title>
       <para xml:id="Thmtheorem6.p1">
-        <p><text font="italic">If <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem6.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> is a commutative unital Banach algebra, then
+        <p>If <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem6.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> is a commutative unital Banach algebra, then
 <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem6.p1.m2">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> is semisimple and <Math mode="inline" tex="\widehat{A}" text="widehat@(A)" xml:id="Thmtheorem6.p1.m3">
-              <XMath>
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> is semisimple and <Math mode="inline" tex="\widehat{A}" text="widehat@(A)" xml:id="Thmtheorem6.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok name="widehat" role="OVERACCENT">^</XMTok>
+                <XMTok font="italic" role="UNKNOWN">A</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> is a closed subset of <Math mode="inline" tex="C(\Delta)" text="C * Delta" xml:id="Thmtheorem6.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                <XMTok font="italic" role="UNKNOWN">C</XMTok>
+                <XMDual>
+                  <XMRef idref="Thmtheorem6.p1.m4.1"/>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">(</XMTok>
+                    <XMTok name="Delta" role="UNKNOWN" xml:id="Thmtheorem6.p1.m4.1">Δ</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math> if and only if there exists some <Math mode="inline" tex="K&lt;\infty" text="K less infinity" xml:id="Thmtheorem6.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok font="italic" role="UNKNOWN">K</XMTok>
+                <XMTok meaning="infinity" name="infty" role="ID">∞</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> such that
+<Math mode="inline" tex="\left\|x\right\|^{2}\leq K\left\|x^{2}\right\|" text="(norm@(x)) ^ 2 less= K * norm@(x ^ 2)" xml:id="Thmtheorem6.p1.m6">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="widehat" role="OVERACCENT">^</XMTok>
-                  <XMTok role="UNKNOWN">A</XMTok>
+                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                  <XMDual>
+                    <XMApp>
+                      <XMTok meaning="norm"/>
+                      <XMRef idref="Thmtheorem6.p1.m6.1"/>
+                    </XMApp>
+                    <XMWrap>
+                      <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem6.p1.m6.1">x</XMTok>
+                      <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
+                    </XMWrap>
+                  </XMDual>
+                  <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> is a closed subset of <Math mode="inline" tex="C(\Delta)" text="C * Delta" xml:id="Thmtheorem6.p1.m4">
-              <XMath>
                 <XMApp>
                   <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                  <XMTok role="UNKNOWN">C</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">K</XMTok>
                   <XMDual>
-                    <XMRef idref="Thmtheorem6.p1.m4.1"/>
+                    <XMApp>
+                      <XMTok meaning="norm"/>
+                      <XMRef idref="Thmtheorem6.p1.m6.2"/>
+                    </XMApp>
                     <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                      <XMTok font="upright" name="Delta" role="UNKNOWN" xml:id="Thmtheorem6.p1.m4.1">Δ</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
+                      <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
+                      <XMApp xml:id="Thmtheorem6.p1.m6.2">
+                        <XMTok role="SUPERSCRIPTOP" scriptpos="post2"/>
+                        <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                        <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+                      </XMApp>
+                      <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
                     </XMWrap>
                   </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> if and only if there exists some <Math mode="inline" tex="K&lt;\infty" text="K less infinity" xml:id="Thmtheorem6.p1.m5">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok role="UNKNOWN">K</XMTok>
-                  <XMTok font="upright" meaning="infinity" name="infty" role="ID">∞</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> such that
-<Math mode="inline" tex="\left\|x\right\|^{2}\leq K\left\|x^{2}\right\|" text="(norm@(x)) ^ 2 less= K * norm@(x ^ 2)" xml:id="Thmtheorem6.p1.m6">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMApp>
-                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                    <XMDual>
-                      <XMApp>
-                        <XMTok meaning="norm"/>
-                        <XMRef idref="Thmtheorem6.p1.m6.1"/>
-                      </XMApp>
-                      <XMWrap>
-                        <XMTok font="upright" role="VERTBAR" stretchy="true">∥</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem6.p1.m6.1">x</XMTok>
-                        <XMTok font="upright" role="VERTBAR" stretchy="true">∥</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                    <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                  </XMApp>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">K</XMTok>
-                    <XMDual>
-                      <XMApp>
-                        <XMTok meaning="norm"/>
-                        <XMRef idref="Thmtheorem6.p1.m6.2"/>
-                      </XMApp>
-                      <XMWrap>
-                        <XMTok font="upright" role="VERTBAR" stretchy="true">∥</XMTok>
-                        <XMApp xml:id="Thmtheorem6.p1.m6.2">
-                          <XMTok role="SUPERSCRIPTOP" scriptpos="post2"/>
-                          <XMTok role="UNKNOWN">x</XMTok>
-                          <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                        </XMApp>
-                        <XMTok font="upright" role="VERTBAR" stretchy="true">∥</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math> for all <Math mode="inline" tex="x\in A" text="x element-of A" xml:id="Thmtheorem6.p1.m7">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok role="UNKNOWN">A</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>.</text></p>
+              </XMApp>
+            </XMath>
+          </Math> for all <Math mode="inline" tex="x\in A" text="x element-of A" xml:id="Thmtheorem6.p1.m7">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok font="italic" role="UNKNOWN">A</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
@@ -5298,7 +5300,7 @@ Thus, if <Math mode="inline" tex="x\in A" text="x element-of A" xml:id="S3.p16.m
               </XMApp>
             </XMath>
           </Math>, from which it follows that
-<Math mode="inline" tex="\Gamma:A\to C(\Delta)" text="Gamma colon A to C * Delta" xml:id="S3.p16.m8">
+<!--  %**** gelfandtransform.tex Line 275 **** --><Math mode="inline" tex="\Gamma:A\to C(\Delta)" text="Gamma colon A to C * Delta" xml:id="S3.p16.m8">
             <XMath>
               <XMApp>
                 <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -5330,7 +5332,7 @@ Thus, if <Math mode="inline" tex="x\in A" text="x element-of A" xml:id="S3.p16.m
               <XMTok font="italic" role="UNKNOWN">A</XMTok>
             </XMath>
           </Math> is semisimple.
-<!--  %**** gelfandtransform.tex Line 275 **** -->Suppose that <Math mode="inline" tex="\hat{x}_{n}\in\widehat{A}" text="(hat@(x)) _ n element-of widehat@(A)" xml:id="S3.p16.m11">
+Suppose that <Math mode="inline" tex="\hat{x}_{n}\in\widehat{A}" text="(hat@(x)) _ n element-of widehat@(A)" xml:id="S3.p16.m11">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -6047,7 +6049,7 @@ and let <Math mode="inline" tex="S:\mathbb{R}^{n}\times\mathbb{R}^{n}\to\mathbb{
             </XMApp>
           </XMath>
         </Math>.
-For <Math mode="inline" tex="\mu_{1},\mu_{2}\in M(\mathbb{R}^{n})" text="list@(mu _ 1, mu _ 2) element-of M * R ^ n" xml:id="S4.p1.m5">
+<!--  %**** gelfandtransform.tex Line 300 **** -->For <Math mode="inline" tex="\mu_{1},\mu_{2}\in M(\mathbb{R}^{n})" text="list@(mu _ 1, mu _ 2) element-of M * R ^ n" xml:id="S4.p1.m5">
           <XMath>
             <XMApp>
               <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -6106,7 +6108,7 @@ For <Math mode="inline" tex="\mu_{1},\mu_{2}\in M(\mathbb{R}^{n})" text="list@(m
             </XMApp>
           </XMath>
         </Math> the product measure on
-<!--  %**** gelfandtransform.tex Line 300 **** --><Math mode="inline" tex="\mathbb{R}^{n}\times\mathbb{R}^{n}" text="R ^ n * R ^ n" xml:id="S4.p1.m7">
+<Math mode="inline" tex="\mathbb{R}^{n}\times\mathbb{R}^{n}" text="R ^ n * R ^ n" xml:id="S4.p1.m7">
           <XMath>
             <XMApp>
               <XMTok meaning="times" role="MULOP">×</XMTok>
@@ -7087,7 +7089,7 @@ with which</p>
           </XMath>
         </Math>
       </equation>
-      <p>One proves that <Math mode="inline" tex="A" text="A" xml:id="S4.p3.m9">
+<!--  %**** gelfandtransform.tex Line 325 **** -->      <p>One proves that <Math mode="inline" tex="A" text="A" xml:id="S4.p3.m9">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">A</XMTok>
           </XMath>
@@ -7119,7 +7121,7 @@ with which</p>
             <XMTok font="italic" name="delta" role="UNKNOWN">δ</XMTok>
           </XMath>
         </Math>.
-<!--  %**** gelfandtransform.tex Line 325 **** -->In particular, <Math mode="inline" tex="A" text="A" xml:id="S4.p3.m13">
+In particular, <Math mode="inline" tex="A" text="A" xml:id="S4.p3.m13">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">A</XMTok>
           </XMath>
@@ -7702,12 +7704,12 @@ the <text font="italic">Fourier transform of <Math mode="inline" tex="f" text="f
                   </XMWrap>
                 </XMDual>
                 <XMTok role="PUNCT">,</XMTok>
-              </XMWrap>
+<!--  %**** gelfandtransform.tex Line 350 **** -->              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
       </equation>
-<!--  %**** gelfandtransform.tex Line 350 **** -->      <p>and define <Math mode="inline" tex="h_{\infty}:A\to\mathbb{C}" text="h _ infinity colon A to C" xml:id="S4.p6.m3">
+      <p>and define <Math mode="inline" tex="h_{\infty}:A\to\mathbb{C}" text="h _ infinity colon A to C" xml:id="S4.p6.m3">
           <XMath>
             <XMApp>
               <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -8688,7 +8690,7 @@ and <Math mode="inline" tex="h_{t}(f+\alpha\delta)=\hat{f}(t)+\alpha" text="h _ 
             </XMApp>
           </XMath>
         </Math>, it follows that
-<Math mode="inline" tex="t_{k}\to t" text="t _ k to t" xml:id="S4.p8.m10">
+<!--  %**** gelfandtransform.tex Line 375 **** --><Math mode="inline" tex="t_{k}\to t" text="t _ k to t" xml:id="S4.p8.m10">
           <XMath>
             <XMApp>
               <XMTok name="to" role="ARROW">→</XMTok>
@@ -8701,7 +8703,7 @@ and <Math mode="inline" tex="h_{t}(f+\alpha\delta)=\hat{f}(t)+\alpha" text="h _ 
             </XMApp>
           </XMath>
         </Math>.
-<!--  %**** gelfandtransform.tex Line 375 **** -->Suppose that <Math mode="inline" tex="h_{t_{k}}\to h_{\infty}" text="h _ t _ k to h _ infinity" xml:id="S4.p8.m11">
+Suppose that <Math mode="inline" tex="h_{t_{k}}\to h_{\infty}" text="h _ t _ k to h _ infinity" xml:id="S4.p8.m11">
           <XMath>
             <XMApp>
               <XMTok name="to" role="ARROW">→</XMTok>
@@ -9291,7 +9293,7 @@ to the one-point compactification of <Math mode="inline" tex="\mathbb{R}^{n}" te
             </XMApp>
           </XMath>
         </Math>-algebra
-to <Math mode="inline" tex="C(\Delta)" text="C * Delta" xml:id="S5.p3.m4">
+<!--  %**** gelfandtransform.tex Line 400 **** -->to <Math mode="inline" tex="C(\Delta)" text="C * Delta" xml:id="S5.p3.m4">
           <XMath>
             <XMApp>
               <XMTok meaning="times" role="MULOP">⁢</XMTok>
@@ -9311,7 +9313,7 @@ to <Math mode="inline" tex="C(\Delta)" text="C * Delta" xml:id="S5.p3.m4">
             <tag role="refnum">14</tag>
             <tag role="typerefnum">footnote 14</tag>
           </tags>Walter Rudin, <text font="italic">Functional Analysis</text>, second ed., p. 289, Theorem 11.18.</note> (An
-<!--  %**** gelfandtransform.tex Line 400 **** --><text font="italic">isomorphism of <Math mode="inline" tex="B^{*}" text="B ^ *" xml:id="S5.p3.m5">
+<text font="italic">isomorphism of <Math mode="inline" tex="B^{*}" text="B ^ *" xml:id="S5.p3.m5">
             <XMath>
               <XMApp>
                 <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
@@ -9382,88 +9384,88 @@ the involution on <Math mode="inline" tex="C(\Delta)" text="C * Delta" xml:id="S
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 7</text></tag> (Gelfand-Naimark).</title>
       <para xml:id="Thmtheorem7.p1">
-        <p><text font="italic">If <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem7.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> is a commutative unital <Math mode="inline" tex="B^{*}" text="B ^ *" xml:id="Thmtheorem7.p1.m2">
-              <XMath>
+        <p>If <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem7.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> is a commutative unital <Math mode="inline" tex="B^{*}" text="B ^ *" xml:id="Thmtheorem7.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">B</XMTok>
+                <XMTok fontsize="70%" meaning="times" role="MULOP">*</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>-algebra, then <Math mode="inline" tex="\Gamma:A\to C(\Delta)" text="Gamma colon A to C * Delta" xml:id="Thmtheorem7.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok name="Gamma" role="UNKNOWN">Γ</XMTok>
                 <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">B</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="times" role="MULOP">*</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>-algebra, then <Math mode="inline" tex="\Gamma:A\to C(\Delta)" text="Gamma colon A to C * Delta" xml:id="Thmtheorem7.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok font="upright" name="Gamma" role="UNKNOWN">Γ</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">A</XMTok>
-                    <XMApp>
-                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                      <XMTok role="UNKNOWN">C</XMTok>
-                      <XMDual>
-                        <XMRef idref="Thmtheorem7.p1.m3.1"/>
-                        <XMWrap>
-                          <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                          <XMTok font="upright" name="Delta" role="UNKNOWN" xml:id="Thmtheorem7.p1.m3.1">Δ</XMTok>
-                          <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                        </XMWrap>
-                      </XMDual>
-                    </XMApp>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math> is an isomorphism of Banach algebras, and if <Math mode="inline" tex="x\in A" text="x element-of A" xml:id="Thmtheorem7.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok role="UNKNOWN">A</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> then
-<Math mode="inline" tex="\Gamma(x^{*})=\overline{\Gamma(x)}" text="Gamma * x ^ * = overline@(Gamma * x)" xml:id="Thmtheorem7.p1.m5">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">A</XMTok>
                   <XMApp>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok font="upright" name="Gamma" role="UNKNOWN">Γ</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">C</XMTok>
                     <XMDual>
-                      <XMRef idref="Thmtheorem7.p1.m5.2"/>
+                      <XMRef idref="Thmtheorem7.p1.m3.1"/>
                       <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMApp xml:id="Thmtheorem7.p1.m5.2">
-                          <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                          <XMTok role="UNKNOWN">x</XMTok>
-                          <XMTok font="upright" fontsize="70%" meaning="times" role="MULOP">*</XMTok>
-                        </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
+                        <XMTok role="OPEN" stretchy="false">(</XMTok>
+                        <XMTok name="Delta" role="UNKNOWN" xml:id="Thmtheorem7.p1.m3.1">Δ</XMTok>
+                        <XMTok role="CLOSE" stretchy="false">)</XMTok>
                       </XMWrap>
                     </XMDual>
                   </XMApp>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math> is an isomorphism of Banach algebras, and if <Math mode="inline" tex="x\in A" text="x element-of A" xml:id="Thmtheorem7.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok font="italic" role="UNKNOWN">A</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> then
+<Math mode="inline" tex="\Gamma(x^{*})=\overline{\Gamma(x)}" text="Gamma * x ^ * = overline@(Gamma * x)" xml:id="Thmtheorem7.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok name="Gamma" role="UNKNOWN">Γ</XMTok>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem7.p1.m5.2"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMApp xml:id="Thmtheorem7.p1.m5.2">
+                        <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                        <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                        <XMTok fontsize="70%" meaning="times" role="MULOP">*</XMTok>
+                      </XMApp>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
+                </XMApp>
+                <XMApp>
+                  <XMTok name="overline" role="OVERACCENT">¯</XMTok>
                   <XMApp>
-                    <XMTok font="upright" name="overline" role="OVERACCENT">¯</XMTok>
-                    <XMApp>
-                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                      <XMTok font="upright" name="Gamma" role="UNKNOWN">Γ</XMTok>
-                      <XMDual>
-                        <XMRef idref="Thmtheorem7.p1.m5.1"/>
-                        <XMWrap>
-                          <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                          <XMTok role="UNKNOWN" xml:id="Thmtheorem7.p1.m5.1">x</XMTok>
-                          <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                        </XMWrap>
-                      </XMDual>
-                    </XMApp>
+                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                    <XMTok name="Gamma" role="UNKNOWN">Γ</XMTok>
+                    <XMDual>
+                      <XMRef idref="Thmtheorem7.p1.m5.1"/>
+                      <XMWrap>
+                        <XMTok role="OPEN" stretchy="false">(</XMTok>
+                        <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem7.p1.m5.1">x</XMTok>
+                        <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                      </XMWrap>
+                    </XMDual>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math>.</text></p>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
@@ -9871,7 +9873,8 @@ We have</p>
             </XMath>
           </Math>
         </equation>
-        <p>i.e.</p>
+        <p>i.e.
+<!--  %**** gelfandtransform.tex Line 425 **** --></p>
         <equation xml:id="S5.Ex28">
           <Math mode="display" tex="\alpha^{2}+\beta^{2}+2\beta t\leq\left\|u\right\|^{2}." text="alpha ^ 2 + beta ^ 2 + 2 * beta * t less= (norm@(u)) ^ 2" xml:id="S5.Ex28.m1">
             <XMath>
@@ -9884,7 +9887,7 @@ We have</p>
                       <XMTok meaning="plus" role="ADDOP">+</XMTok>
                       <XMApp>
                         <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-<!--  %**** gelfandtransform.tex Line 425 **** -->                        <XMTok font="italic" name="alpha" role="UNKNOWN">α</XMTok>
+                        <XMTok font="italic" name="alpha" role="UNKNOWN">α</XMTok>
                         <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
                       </XMApp>
                       <XMApp>
@@ -10787,12 +10790,12 @@ gives</p>
                     </XMApp>
                   </XMApp>
                   <XMTok role="PUNCT">,</XMTok>
-                </XMWrap>
+<!--  %**** gelfandtransform.tex Line 450 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** gelfandtransform.tex Line 450 **** -->        <p>and because <Math mode="inline" tex="\left\|y^{m}\right\|=\left\|y\right\|^{m}" text="norm@(y ^ m) = (norm@(y)) ^ m" xml:id="S5.p6.m8">
+        <p>and because <Math mode="inline" tex="\left\|y^{m}\right\|=\left\|y\right\|^{m}" text="norm@(y ^ m) = (norm@(y)) ^ m" xml:id="S5.p6.m8">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -11571,7 +11574,7 @@ so <Math mode="inline" tex="\widehat{A}=\Gamma(A)" text="widehat@(A) = Gamma * A
               <XMTok name="Gamma" role="UNKNOWN">Γ</XMTok>
             </XMath>
           </Math> is one-to-one, and the fact that
-<Math mode="inline" tex="\widehat{A}=C(\Delta)" text="widehat@(A) = C * Delta" xml:id="S5.p6.m30">
+<!--  %**** gelfandtransform.tex Line 475 **** --><Math mode="inline" tex="\widehat{A}=C(\Delta)" text="widehat@(A) = C * Delta" xml:id="S5.p6.m30">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -11594,7 +11597,7 @@ so <Math mode="inline" tex="\widehat{A}=\Gamma(A)" text="widehat@(A) = Gamma * A
               </XMApp>
             </XMath>
           </Math> means that
-<!--  %**** gelfandtransform.tex Line 475 **** -->that <Math mode="inline" tex="\Gamma" text="Gamma" xml:id="S5.p6.m31">
+that <Math mode="inline" tex="\Gamma" text="Gamma" xml:id="S5.p6.m31">
             <XMath>
               <XMTok name="Gamma" role="UNKNOWN">Γ</XMTok>
             </XMath>
@@ -11627,79 +11630,79 @@ unital Banach algebra with an involution has a square root.<note mark="16" role=
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 8</text></tag>.</title>
       <para xml:id="Thmtheorem8.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem8.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> be a unital Banach algebra with an involution <Math mode="inline" tex="{}^{*}:A\to A" xml:id="Thmtheorem8.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="pre1"/>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="times" role="MULOP">*</XMTok>
-                </XMApp>
-                <XMTok role="UNKNOWN">A</XMTok>
-                <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math>. If <Math mode="inline" tex="x\in A" text="x element-of A" xml:id="Thmtheorem8.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok role="UNKNOWN">A</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> is self-adjoint
+        <p>Let <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem8.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> be a unital Banach algebra with an involution <Math mode="inline" tex="{}^{*}:A\to A" xml:id="Thmtheorem8.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="pre1"/>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok fontsize="70%" meaning="times" role="MULOP">*</XMTok>
+              </XMApp>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+              <XMTok name="to" role="ARROW">→</XMTok>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math>. If <Math mode="inline" tex="x\in A" text="x element-of A" xml:id="Thmtheorem8.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok font="italic" role="UNKNOWN">A</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> is self-adjoint
 and <Math mode="inline" tex="\sigma(x)" text="sigma * x" xml:id="Thmtheorem8.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                  <XMTok name="sigma" role="UNKNOWN">σ</XMTok>
-                  <XMDual>
-                    <XMRef idref="Thmtheorem8.p1.m4.1"/>
-                    <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem8.p1.m4.1">x</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                </XMApp>
-              </XMath>
-            </Math> contains no real <Math mode="inline" tex="\lambda" text="lambda" xml:id="Thmtheorem8.p1.m5">
-              <XMath>
-                <XMTok name="lambda" role="UNKNOWN">λ</XMTok>
-              </XMath>
-            </Math> with <Math mode="inline" tex="\lambda\leq 0" text="lambda less= 0" xml:id="Thmtheorem8.p1.m6">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok name="lambda" role="UNKNOWN">λ</XMTok>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, then there is some self-adjoint <Math mode="inline" tex="y\in A" text="y element-of A" xml:id="Thmtheorem8.p1.m7">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">y</XMTok>
-                  <XMTok role="UNKNOWN">A</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> satisfying
+            <XMath>
+              <XMApp>
+                <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                <XMTok font="italic" name="sigma" role="UNKNOWN">σ</XMTok>
+                <XMDual>
+                  <XMRef idref="Thmtheorem8.p1.m4.1"/>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">(</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem8.p1.m4.1">x</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math> contains no real <Math mode="inline" tex="\lambda" text="lambda" xml:id="Thmtheorem8.p1.m5">
+            <XMath>
+              <XMTok font="italic" name="lambda" role="UNKNOWN">λ</XMTok>
+            </XMath>
+          </Math> with <Math mode="inline" tex="\lambda\leq 0" text="lambda less= 0" xml:id="Thmtheorem8.p1.m6">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" name="lambda" role="UNKNOWN">λ</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, then there is some self-adjoint <Math mode="inline" tex="y\in A" text="y element-of A" xml:id="Thmtheorem8.p1.m7">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">y</XMTok>
+                <XMTok font="italic" role="UNKNOWN">A</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> satisfying
 <Math mode="inline" tex="y^{2}=x" text="y ^ 2 = x" xml:id="Thmtheorem8.p1.m8">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMApp>
-                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">y</XMTok>
-                    <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                  </XMApp>
-                  <XMTok role="UNKNOWN">x</XMTok>
+                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">y</XMTok>
+                  <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>.</text></p>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <para xml:id="S5.p8">
@@ -11834,19 +11837,19 @@ The following theorem states basic facts about the spectrum of elements of a uni
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 9</text></tag>.</title>
       <para xml:id="Thmtheorem9.p1">
-        <p><text font="italic">If <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem9.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> is a unital <Math mode="inline" tex="B^{*}" text="B ^ *" xml:id="Thmtheorem9.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">B</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="times" role="MULOP">*</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>-algebra, then:</text></p>
+        <p>If <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem9.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> is a unital <Math mode="inline" tex="B^{*}" text="B ^ *" xml:id="Thmtheorem9.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">B</XMTok>
+                <XMTok fontsize="70%" meaning="times" role="MULOP">*</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>-algebra, then:</p>
         <enumerate xml:id="S5.I2">
           <item xml:id="S5.I2.i1">
             <tags>
@@ -11855,11 +11858,11 @@ The following theorem states basic facts about the spectrum of elements of a uni
               <tag role="typerefnum">item 1</tag>
             </tags>
             <para xml:id="S5.I2.i1.p1">
-              <p><text font="italic">If </text><Math mode="inline" tex="x" text="x" xml:id="S5.I2.i1.p1.m1">
+              <p>If <Math mode="inline" tex="x" text="x" xml:id="S5.I2.i1.p1.m1">
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">x</XMTok>
                   </XMath>
-                </Math><text font="italic"> is self-adjoint, then </text><Math mode="inline" tex="\sigma(x)\subseteq\mathbb{R}" text="sigma * x subset-of-or-equals R" xml:id="S5.I2.i1.p1.m2">
+                </Math> is self-adjoint, then <Math mode="inline" tex="\sigma(x)\subseteq\mathbb{R}" text="sigma * x subset-of-or-equals R" xml:id="S5.I2.i1.p1.m2">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="subset-of-or-equals" name="subseteq" role="RELOP">⊆</XMTok>
@@ -11878,7 +11881,8 @@ The following theorem states basic facts about the spectrum of elements of a uni
                       <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.
+<!--  %**** gelfandtransform.tex Line 500 **** --></p>
             </para>
           </item>
           <item xml:id="S5.I2.i2">
@@ -11888,11 +11892,11 @@ The following theorem states basic facts about the spectrum of elements of a uni
               <tag role="typerefnum">item 2</tag>
             </tags>
             <para xml:id="S5.I2.i2.p1">
-              <p><text font="italic">If </text><Math mode="inline" tex="x" text="x" xml:id="S5.I2.i2.p1.m1">
+              <p>If <Math mode="inline" tex="x" text="x" xml:id="S5.I2.i2.p1.m1">
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">x</XMTok>
                   </XMath>
-                </Math><text font="italic"> is normal, then </text><Math mode="inline" tex="\rho(x)=\left\|x\right\|" text="rho * x = norm@(x)" xml:id="S5.I2.i2.p1.m2">
+                </Math> is normal, then <Math mode="inline" tex="\rho(x)=\left\|x\right\|" text="rho * x = norm@(x)" xml:id="S5.I2.i2.p1.m2">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -11921,8 +11925,7 @@ The following theorem states basic facts about the spectrum of elements of a uni
                       </XMDual>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">.
-</text><!--  %**** gelfandtransform.tex Line 500 **** --></p>
+                </Math>.</p>
             </para>
           </item>
           <item xml:id="S5.I2.i3">
@@ -11932,7 +11935,7 @@ The following theorem states basic facts about the spectrum of elements of a uni
               <tag role="typerefnum">item 3</tag>
             </tags>
             <para xml:id="S5.I2.i3.p1">
-              <p><text font="italic">If </text><Math mode="inline" tex="x\in A" text="x element-of A" xml:id="S5.I2.i3.p1.m1">
+              <p>If <Math mode="inline" tex="x\in A" text="x element-of A" xml:id="S5.I2.i3.p1.m1">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -11940,7 +11943,7 @@ The following theorem states basic facts about the spectrum of elements of a uni
                       <XMTok font="italic" role="UNKNOWN">A</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">, then </text><Math mode="inline" tex="\rho(xx^{*})=\left\|x\right\|^{2}" text="rho * x * x ^ * = (norm@(x)) ^ 2" xml:id="S5.I2.i3.p1.m2">
+                </Math>, then <Math mode="inline" tex="\rho(xx^{*})=\left\|x\right\|^{2}" text="rho * x * x ^ * = (norm@(x)) ^ 2" xml:id="S5.I2.i3.p1.m2">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -11981,7 +11984,7 @@ The following theorem states basic facts about the spectrum of elements of a uni
                       </XMApp>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.</p>
             </para>
           </item>
           <item xml:id="S5.I2.i4">
@@ -11991,7 +11994,7 @@ The following theorem states basic facts about the spectrum of elements of a uni
               <tag role="typerefnum">item 4</tag>
             </tags>
             <para xml:id="S5.I2.i4.p1">
-              <p><text font="italic">If </text><Math mode="inline" tex="x\geq 0" text="x &gt;= 0" xml:id="S5.I2.i4.p1.m1">
+              <p>If <Math mode="inline" tex="x\geq 0" text="x &gt;= 0" xml:id="S5.I2.i4.p1.m1">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
@@ -11999,7 +12002,7 @@ The following theorem states basic facts about the spectrum of elements of a uni
                       <XMTok meaning="0" role="NUMBER">0</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> and </text><Math mode="inline" tex="y\geq 0" text="y &gt;= 0" xml:id="S5.I2.i4.p1.m2">
+                </Math> and <Math mode="inline" tex="y\geq 0" text="y &gt;= 0" xml:id="S5.I2.i4.p1.m2">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
@@ -12007,7 +12010,7 @@ The following theorem states basic facts about the spectrum of elements of a uni
                       <XMTok meaning="0" role="NUMBER">0</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">, then </text><Math mode="inline" tex="x+y\geq 0" text="x + y &gt;= 0" xml:id="S5.I2.i4.p1.m3">
+                </Math>, then <Math mode="inline" tex="x+y\geq 0" text="x + y &gt;= 0" xml:id="S5.I2.i4.p1.m3">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
@@ -12019,7 +12022,7 @@ The following theorem states basic facts about the spectrum of elements of a uni
                       <XMTok meaning="0" role="NUMBER">0</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.</p>
             </para>
           </item>
           <item xml:id="S5.I2.i5">
@@ -12029,7 +12032,7 @@ The following theorem states basic facts about the spectrum of elements of a uni
               <tag role="typerefnum">item 5</tag>
             </tags>
             <para xml:id="S5.I2.i5.p1">
-              <p><text font="italic">If </text><Math mode="inline" tex="x\in A" text="x element-of A" xml:id="S5.I2.i5.p1.m1">
+              <p>If <Math mode="inline" tex="x\in A" text="x element-of A" xml:id="S5.I2.i5.p1.m1">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -12037,7 +12040,7 @@ The following theorem states basic facts about the spectrum of elements of a uni
                       <XMTok font="italic" role="UNKNOWN">A</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">, then </text><Math mode="inline" tex="xx^{*}\geq 0" text="x * x ^ * &gt;= 0" xml:id="S5.I2.i5.p1.m2">
+                </Math>, then <Math mode="inline" tex="xx^{*}\geq 0" text="x * x ^ * &gt;= 0" xml:id="S5.I2.i5.p1.m2">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
@@ -12053,7 +12056,7 @@ The following theorem states basic facts about the spectrum of elements of a uni
                       <XMTok meaning="0" role="NUMBER">0</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.</p>
             </para>
           </item>
           <item xml:id="S5.I2.i6">
@@ -12063,7 +12066,7 @@ The following theorem states basic facts about the spectrum of elements of a uni
               <tag role="typerefnum">item 6</tag>
             </tags>
             <para xml:id="S5.I2.i6.p1">
-              <p><text font="italic">If </text><Math mode="inline" tex="x\in A" text="x element-of A" xml:id="S5.I2.i6.p1.m1">
+              <p>If <Math mode="inline" tex="x\in A" text="x element-of A" xml:id="S5.I2.i6.p1.m1">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -12071,7 +12074,7 @@ The following theorem states basic facts about the spectrum of elements of a uni
                       <XMTok font="italic" role="UNKNOWN">A</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">, then </text><Math mode="inline" tex="e+xx^{*}" text="e + x * x ^ *" xml:id="S5.I2.i6.p1.m2">
+                </Math>, then <Math mode="inline" tex="e+xx^{*}" text="e + x * x ^ *" xml:id="S5.I2.i6.p1.m2">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="plus" role="ADDOP">+</XMTok>
@@ -12087,7 +12090,7 @@ The following theorem states basic facts about the spectrum of elements of a uni
                       </XMApp>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> is invertible.</text></p>
+                </Math> is invertible.</p>
             </para>
           </item>
         </enumerate>
@@ -12358,127 +12361,127 @@ Rudin, <text font="italic">Functional Analysis</text>, second ed., p. 137, Theo
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 10</text></tag>.</title>
       <para xml:id="Thmtheorem10.p1">
-        <p><text font="italic">If <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem10.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> is a real or complex Banach space, <Math mode="inline" tex="X_{1}" text="X _ 1" xml:id="Thmtheorem10.p1.m2">
-              <XMath>
+        <p>If <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem10.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> is a real or complex Banach space, <Math mode="inline" tex="X_{1}" text="X _ 1" xml:id="Thmtheorem10.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and <Math mode="inline" tex="X_{2}" text="X _ 2" xml:id="Thmtheorem10.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> are closed subspaces of <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem10.p1.m4">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math>, and <Math mode="inline" tex="X=X_{1}+X_{2}" text="X = X _ 1 + X _ 2" xml:id="Thmtheorem10.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMTok font="italic" role="UNKNOWN">X</XMTok>
                 <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">X</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> and <Math mode="inline" tex="X_{2}" text="X _ 2" xml:id="Thmtheorem10.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">X</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> are closed subspaces of <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem10.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math>, and <Math mode="inline" tex="X=X_{1}+X_{2}" text="X = X _ 1 + X _ 2" xml:id="Thmtheorem10.p1.m5">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMTok role="UNKNOWN">X</XMTok>
+                  <XMTok meaning="plus" role="ADDOP">+</XMTok>
                   <XMApp>
-                    <XMTok font="upright" meaning="plus" role="ADDOP">+</XMTok>
-                    <XMApp>
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">X</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                    </XMApp>
-                    <XMApp>
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">X</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                    </XMApp>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                    <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                  </XMApp>
+                  <XMApp>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                    <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math>, then there is some
+              </XMApp>
+            </XMath>
+          </Math>, then there is some
 <Math mode="inline" tex="\gamma&lt;\infty" text="gamma less infinity" xml:id="Thmtheorem10.p1.m6">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok font="italic" name="gamma" role="UNKNOWN">γ</XMTok>
+                <XMTok meaning="infinity" name="infty" role="ID">∞</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> such that for every <Math mode="inline" tex="x\in X" text="x element-of X" xml:id="Thmtheorem10.p1.m7">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok font="italic" role="UNKNOWN">X</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> there are <Math mode="inline" tex="x_{1}\in X_{1},x_{2}\in X_{2}" text="formulae@(x _ 1 element-of X _ 1, x _ 2 element-of X _ 2)" xml:id="Thmtheorem10.p1.m8">
+            <XMath>
+              <XMDual>
                 <XMApp>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok name="gamma" role="UNKNOWN">γ</XMTok>
-                  <XMTok font="upright" meaning="infinity" name="infty" role="ID">∞</XMTok>
+                  <XMTok meaning="formulae"/>
+                  <XMRef idref="Thmtheorem10.p1.m8.1"/>
+                  <XMRef idref="Thmtheorem10.p1.m8.2"/>
                 </XMApp>
-              </XMath>
-            </Math> such that for every <Math mode="inline" tex="x\in X" text="x element-of X" xml:id="Thmtheorem10.p1.m7">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok role="UNKNOWN">X</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> there are <Math mode="inline" tex="x_{1}\in X_{1},x_{2}\in X_{2}" text="formulae@(x _ 1 element-of X _ 1, x _ 2 element-of X _ 2)" xml:id="Thmtheorem10.p1.m8">
-              <XMath>
-                <XMDual>
-                  <XMApp>
-                    <XMTok meaning="formulae"/>
-                    <XMRef idref="Thmtheorem10.p1.m8.1"/>
-                    <XMRef idref="Thmtheorem10.p1.m8.2"/>
-                  </XMApp>
-                  <XMWrap>
-                    <XMApp xml:id="Thmtheorem10.p1.m8.1">
-                      <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                      <XMApp>
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">x</XMTok>
-                        <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                      </XMApp>
-                      <XMApp>
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">X</XMTok>
-                        <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                      </XMApp>
-                    </XMApp>
-                    <XMTok font="upright" role="PUNCT">,</XMTok>
-                    <XMApp xml:id="Thmtheorem10.p1.m8.2">
-                      <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                      <XMApp>
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">x</XMTok>
-                        <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                      </XMApp>
-                      <XMApp>
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">X</XMTok>
-                        <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                      </XMApp>
-                    </XMApp>
-                  </XMWrap>
-                </XMDual>
-              </XMath>
-            </Math> satisfying <Math mode="inline" tex="x=x_{1}+x_{2}" text="x = x _ 1 + x _ 2" xml:id="Thmtheorem10.p1.m9">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" meaning="plus" role="ADDOP">+</XMTok>
+                <XMWrap>
+                  <XMApp xml:id="Thmtheorem10.p1.m8.1">
+                    <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
                     <XMApp>
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">x</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                      <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                      <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
                     </XMApp>
                     <XMApp>
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">x</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+                      <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                      <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
                     </XMApp>
                   </XMApp>
+                  <XMTok role="PUNCT">,</XMTok>
+                  <XMApp xml:id="Thmtheorem10.p1.m8.2">
+                    <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                    <XMApp>
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                      <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+                    </XMApp>
+                    <XMApp>
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                      <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+                    </XMApp>
+                  </XMApp>
+                </XMWrap>
+              </XMDual>
+            </XMath>
+          </Math> satisfying <Math mode="inline" tex="x=x_{1}+x_{2}" text="x = x _ 1 + x _ 2" xml:id="Thmtheorem10.p1.m9">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMApp>
+                  <XMTok meaning="plus" role="ADDOP">+</XMTok>
+                  <XMApp>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                    <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                  </XMApp>
+                  <XMApp>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                    <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+                  </XMApp>
                 </XMApp>
-              </XMath>
-            </Math> and</text></p>
+              </XMApp>
+            </XMath>
+          </Math> and</p>
         <equation xml:id="S6.Ex36">
           <Math mode="display" tex="\left\|x_{1}\right\|+\left\|x_{2}\right\|\leq\gamma\left\|x\right\|." text="norm@(x _ 1) + norm@(x _ 2) less= gamma * norm@(x)" xml:id="S6.Ex36.m1">
             <XMath>
@@ -12560,35 +12563,35 @@ positive linear functionals on a unital Banach algebra with an involution.<note 
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 11</text></tag>.</title>
       <para xml:id="Thmtheorem11.p1">
-        <p><text font="italic">Suppose that <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem11.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> is a unital Banach algebra with an involution <Math mode="inline" tex="{}^{*}:A\to A" xml:id="Thmtheorem11.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="pre1"/>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="times" role="MULOP">*</XMTok>
-                </XMApp>
-                <XMTok role="UNKNOWN">A</XMTok>
-                <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math>.
+        <p>Suppose that <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem11.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> is a unital Banach algebra with an involution <Math mode="inline" tex="{}^{*}:A\to A" xml:id="Thmtheorem11.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="pre1"/>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok fontsize="70%" meaning="times" role="MULOP">*</XMTok>
+              </XMApp>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+              <XMTok name="to" role="ARROW">→</XMTok>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math>.
 If <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmtheorem11.p1.m3">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" role="UNKNOWN">F</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok role="UNKNOWN">F</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">A</XMTok>
-                    <XMTok font="blackboard upright" role="UNKNOWN">C</XMTok>
-                  </XMApp>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">A</XMTok>
+                  <XMTok font="blackboard" role="UNKNOWN">C</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> is a positive linear functional, then:</text></p>
+              </XMApp>
+            </XMath>
+          </Math> is a positive linear functional, then:</p>
         <enumerate xml:id="S6.I1">
           <item xml:id="S6.I1.i1">
             <tags>
@@ -12634,7 +12637,7 @@ If <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmt
                       </XMApp>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.</p>
             </para>
           </item>
           <item xml:id="S6.I1.i2">
@@ -12721,7 +12724,7 @@ If <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmt
                       </XMApp>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.</p>
             </para>
           </item>
           <item xml:id="S6.I1.i3">
@@ -12827,7 +12830,7 @@ If <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmt
                       </XMApp>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.</p>
             </para>
           </item>
           <item xml:id="S6.I1.i4">
@@ -12837,11 +12840,11 @@ If <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmt
               <tag role="typerefnum">item 4</tag>
             </tags>
             <para xml:id="S6.I1.i4.p1">
-              <p><text font="italic">If </text><Math mode="inline" tex="x" text="x" xml:id="S6.I1.i4.p1.m1">
+              <p>If <Math mode="inline" tex="x" text="x" xml:id="S6.I1.i4.p1.m1">
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">x</XMTok>
                   </XMath>
-                </Math><text font="italic"> is normal, then </text><Math mode="inline" tex="|F(x)|\leq F(e)\rho(x)" text="absolute-value@(F * x) less= F * e * rho * x" xml:id="S6.I1.i4.p1.m2">
+                </Math> is normal, then <Math mode="inline" tex="|F(x)|\leq F(e)\rho(x)" text="absolute-value@(F * x) less= F * e * rho * x" xml:id="S6.I1.i4.p1.m2">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
@@ -12890,7 +12893,7 @@ If <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmt
                       </XMApp>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.</p>
             </para>
           </item>
           <item xml:id="S6.I1.i5">
@@ -12900,11 +12903,11 @@ If <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmt
               <tag role="typerefnum">item 5</tag>
             </tags>
             <para xml:id="S6.I1.i5.p1">
-              <p><text font="italic">If </text><Math mode="inline" tex="A" text="A" xml:id="S6.I1.i5.p1.m1">
+              <p>If <Math mode="inline" tex="A" text="A" xml:id="S6.I1.i5.p1.m1">
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">A</XMTok>
                   </XMath>
-                </Math><text font="italic"> is commutative, then </text><Math mode="inline" tex="\left\|F\right\|=F(e)" text="norm@(F) = F * e" xml:id="S6.I1.i5.p1.m2">
+                </Math> is commutative, then <Math mode="inline" tex="\left\|F\right\|=F(e)" text="norm@(F) = F * e" xml:id="S6.I1.i5.p1.m2">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -12933,7 +12936,7 @@ If <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmt
                       </XMApp>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.</p>
             </para>
           </item>
           <item xml:id="S6.I1.i6">
@@ -12943,11 +12946,11 @@ If <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmt
               <tag role="typerefnum">item 6</tag>
             </tags>
             <para xml:id="S6.I1.i6.p1">
-              <p><text font="italic">If there is some </text><Math mode="inline" tex="\beta" text="beta" xml:id="S6.I1.i6.p1.m1">
+              <p>If there is some <Math mode="inline" tex="\beta" text="beta" xml:id="S6.I1.i6.p1.m1">
                   <XMath>
                     <XMTok font="italic" name="beta" role="UNKNOWN">β</XMTok>
                   </XMath>
-                </Math><text font="italic"> such that </text><Math mode="inline" tex="\left\|x^{*}\right\|\leq\beta\left\|x\right\|" text="norm@(x ^ *) less= beta * norm@(x)" xml:id="S6.I1.i6.p1.m2">
+                </Math> such that <Math mode="inline" tex="\left\|x^{*}\right\|\leq\beta\left\|x\right\|" text="norm@(x ^ *) less= beta * norm@(x)" xml:id="S6.I1.i6.p1.m2">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
@@ -12983,7 +12986,7 @@ If <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmt
                       </XMApp>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> for all </text><Math mode="inline" tex="x\in A" text="x element-of A" xml:id="S6.I1.i6.p1.m3">
+                </Math> for all <Math mode="inline" tex="x\in A" text="x element-of A" xml:id="S6.I1.i6.p1.m3">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -12991,7 +12994,7 @@ If <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmt
                       <XMTok font="italic" role="UNKNOWN">A</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">, then </text><Math mode="inline" tex="\left\|F\right\|\leq\beta^{1/2}F(e)" text="norm@(F) less= beta ^ (1 / 2) * F * e" xml:id="S6.I1.i6.p1.m4">
+                </Math>, then <Math mode="inline" tex="\left\|F\right\|\leq\beta^{1/2}F(e)" text="norm@(F) less= beta ^ (1 / 2) * F * e" xml:id="S6.I1.i6.p1.m4">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
@@ -13029,7 +13032,7 @@ If <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmt
                       </XMApp>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.</p>
             </para>
           </item>
           <item xml:id="S6.I1.i7">
@@ -13043,7 +13046,7 @@ If <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmt
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">F</XMTok>
                   </XMath>
-                </Math><text font="italic"> is a bounded linear map.</text></p>
+                </Math> is a bounded linear map.</p>
             </para>
           </item>
         </enumerate>
@@ -13148,7 +13151,7 @@ For any <Math mode="inline" tex="\alpha\in\mathbb{C}" text="alpha element-of C" 
                     <XMTok meaning="multirelation"/>
                     <XMApp>
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                      <XMTok font="italic" role="UNKNOWN">F</XMTok>
+<!--  %**** gelfandtransform.tex Line 550 **** -->                      <XMTok font="italic" role="UNKNOWN">F</XMTok>
                       <XMDual>
                         <XMRef idref="S6.Ex37.m1.2.1"/>
                         <XMWrap>
@@ -13255,7 +13258,7 @@ For any <Math mode="inline" tex="\alpha\in\mathbb{C}" text="alpha element-of C" 
                       </XMDual>
                     </XMApp>
                     <XMTok meaning="equals" role="RELOP">=</XMTok>
-<!--  %**** gelfandtransform.tex Line 550 **** -->                    <XMApp>
+                    <XMApp>
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
                       <XMTok font="italic" role="UNKNOWN">F</XMTok>
                       <XMDual>
@@ -14189,7 +14192,8 @@ Applying (<ref labelref="LABEL:alpha"/>) with <Math mode="inline" tex="\alpha=i"
                 </XMApp>
               </XMApp>
             </XMath>
-          </Math> gives</p>
+          </Math> gives
+<!--  %**** gelfandtransform.tex Line 575 **** --></p>
         <equation xml:id="S6.Ex41">
           <Math mode="display" tex="F(xx^{*})+\frac{t}{|F(xy^{*})|}\overline{F(xy^{*})}F(xy^{*})+\frac{t}{|F(xy^{*%&#10;})|}F(xy^{*})F(yx^{*})+t^{2}F(yy^{*})\geq 0," text="F * x * x ^ * + (t / absolute-value@(F * x * y ^ *)) * overline@(F * x * y ^ *) * F * x * y ^ * + (t / absolute-value@(F * x * y ^ *)) * F * x * y ^ * * F * y * x ^ * + t ^ 2 * F * y * y ^ * &gt;= 0" xml:id="S6.Ex41.m1">
             <XMath>
@@ -14202,7 +14206,7 @@ Applying (<ref labelref="LABEL:alpha"/>) with <Math mode="inline" tex="\alpha=i"
                       <XMTok meaning="plus" role="ADDOP">+</XMTok>
                       <XMApp>
                         <XMTok meaning="times" role="MULOP">⁢</XMTok>
-<!--  %**** gelfandtransform.tex Line 575 **** -->                        <XMTok font="italic" role="UNKNOWN">F</XMTok>
+                        <XMTok font="italic" role="UNKNOWN">F</XMTok>
                         <XMDual>
                           <XMRef idref="S6.Ex41.m1.4.1"/>
                           <XMWrap>
@@ -15234,7 +15238,7 @@ Applying (<ref labelref="LABEL:alpha"/>) with <Math mode="inline" tex="\alpha=i"
               </XMApp>
             </XMath>
           </Math>.
-Let <Math mode="inline" tex="t&gt;\rho(xx^{*})" text="t &gt; rho * x * x ^ *" xml:id="S6.p6.m5">
+<!--  %**** gelfandtransform.tex Line 600 **** -->Let <Math mode="inline" tex="t&gt;\rho(xx^{*})" text="t &gt; rho * x * x ^ *" xml:id="S6.p6.m5">
             <XMath>
               <XMApp>
                 <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
@@ -15293,7 +15297,7 @@ Let <Math mode="inline" tex="t&gt;\rho(xx^{*})" text="t &gt; rho * x * x ^ *" xm
               </XMApp>
             </XMath>
           </Math> is contained in the open right
-<!--  %**** gelfandtransform.tex Line 600 **** -->half-plane, and thus by Theorem <ref labelref="LABEL:squareroot"/> there is some self-adjoint <Math mode="inline" tex="u\in A" text="u element-of A" xml:id="S6.p6.m7">
+half-plane, and thus by Theorem <ref labelref="LABEL:squareroot"/> there is some self-adjoint <Math mode="inline" tex="u\in A" text="u element-of A" xml:id="S6.p6.m7">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -15872,7 +15876,7 @@ p. 288, Theorem 11.15.</note>, so we have <Math mode="inline" tex="\rho(x)=\rho
             </XMath>
           </Math>
         </equation>
-        <p>But <Math mode="inline" tex="|F(x)|^{2}\leq F(e)^{2}\rho(xx^{*})" text="(absolute-value@(F * x)) ^ 2 less= F * e ^ 2 * rho * x * x ^ *" xml:id="S6.p7.m9">
+<!--  %**** gelfandtransform.tex Line 625 **** -->        <p>But <Math mode="inline" tex="|F(x)|^{2}\leq F(e)^{2}\rho(xx^{*})" text="(absolute-value@(F * x)) ^ 2 less= F * e ^ 2 * rho * x * x ^ *" xml:id="S6.p7.m9">
             <XMath>
               <XMApp>
                 <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
@@ -15998,8 +16002,7 @@ p. 288, Theorem 11.15.</note>, so we have <Math mode="inline" tex="\rho(x)=\rho
                 </XMApp>
               </XMApp>
             </XMath>
-          </Math>, i.e.
-<!--  %**** gelfandtransform.tex Line 625 **** --></p>
+          </Math>, i.e.</p>
         <equation xml:id="S6.Ex52">
           <Math mode="display" tex="|F(x)|\leq F(e)\rho(x)." text="absolute-value@(F * x) less= F * e * rho * x" xml:id="S6.Ex52.m1">
             <XMath>
@@ -16859,7 +16862,7 @@ Therefore, to prove that <Math mode="inline" tex="F" text="F" xml:id="S6.p10.m8"
               <XMTok font="italic" role="UNKNOWN">F</XMTok>
             </XMath>
           </Math> is bounded in the case where
-<Math mode="inline" tex="F(e)=1" text="F * e = 1" xml:id="S6.p10.m10">
+<!--  %**** gelfandtransform.tex Line 650 **** --><Math mode="inline" tex="F(e)=1" text="F * e = 1" xml:id="S6.p10.m10">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -16878,8 +16881,7 @@ Therefore, to prove that <Math mode="inline" tex="F" text="F" xml:id="S6.p10.m8"
                 <XMTok meaning="1" role="NUMBER">1</XMTok>
               </XMApp>
             </XMath>
-          </Math>.
-<!--  %**** gelfandtransform.tex Line 650 **** --></p>
+          </Math>.</p>
       </para>
       <para xml:id="S6.p11">
         <p>Let <Math mode="inline" tex="H" text="H" xml:id="S6.p11.m1">
@@ -17836,12 +17838,12 @@ the restriction of <Math mode="inline" tex="F" text="F" xml:id="S6.p11.m18">
                     </XMDual>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-                </XMWrap>
+<!--  %**** gelfandtransform.tex Line 675 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** gelfandtransform.tex Line 675 **** -->        <p>But <Math mode="inline" tex="u_{n}^{2}\to y" text="(u _ n) ^ 2 to y" xml:id="S6.p12.m13">
+        <p>But <Math mode="inline" tex="u_{n}^{2}\to y" text="(u _ n) ^ 2 to y" xml:id="S6.p12.m13">
             <XMath>
               <XMApp>
                 <XMTok name="to" role="ARROW">→</XMTok>
@@ -18975,10 +18977,10 @@ Then,</p>
               <XMTok font="italic" role="UNKNOWN">F</XMTok>
             </XMath>
           </Math> is bounded.
-∎</p>
+<!--  %**** gelfandtransform.tex Line 700 **** -->∎</p>
       </para>
     </proof>
-<!--  %**** gelfandtransform.tex Line 700 **** -->  </section>
+  </section>
   <section inlist="toc" xml:id="S7">
     <tags>
       <tag>7</tag>
@@ -19200,7 +19202,7 @@ The following is the Riesz-Markov theorem, stated for complex Borel measures on 
           </tags>Walter Rudin, <text font="italic">Real and Complex
 Analysis</text>, third ed., p. 130, Theorem 6.19.</note></p>
     </para>
-    <theorem class="ltx_theorem_theorem" inlist="thm theorem:theorem" labels="LABEL:riesz" xml:id="Thmtheorem12">
+    <theorem class="ltx_theorem_theorem" inlist="thm theorem:theorem" xml:id="Thmtheorem12">
       <tags>
         <tag>Theorem 12</tag>
         <tag role="refnum">12</tag>
@@ -19208,40 +19210,40 @@ Analysis</text>, third ed., p. 130, Theorem 6.19.</note></p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 12</text></tag> (Riesz-Markov).</title>
       <para xml:id="Thmtheorem12.p1">
-        <p><text font="italic">Suppose that <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem12.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> is a compact Hausdorff space. If <Math mode="inline" tex="\Lambda" text="Lambda" xml:id="Thmtheorem12.p1.m2">
-              <XMath>
-                <XMTok font="upright" name="Lambda" role="UNKNOWN">Λ</XMTok>
-              </XMath>
-            </Math> is a bounded linear functional on <Math mode="inline" tex="C(X)" text="C * X" xml:id="Thmtheorem12.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                  <XMTok role="UNKNOWN">C</XMTok>
-                  <XMDual>
-                    <XMRef idref="Thmtheorem12.p1.m3.1"/>
-                    <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem12.p1.m3.1">X</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                </XMApp>
-              </XMath>
-            </Math>, then there is one and only one regular complex Borel measure
+        <p>Suppose that <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem12.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> is a compact Hausdorff space. If <Math mode="inline" tex="\Lambda" text="Lambda" xml:id="Thmtheorem12.p1.m2">
+            <XMath>
+              <XMTok name="Lambda" role="UNKNOWN">Λ</XMTok>
+            </XMath>
+          </Math> is a bounded linear functional on <Math mode="inline" tex="C(X)" text="C * X" xml:id="Thmtheorem12.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                <XMTok font="italic" role="UNKNOWN">C</XMTok>
+                <XMDual>
+                  <XMRef idref="Thmtheorem12.p1.m3.1"/>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">(</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem12.p1.m3.1">X</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math>, then there is one and only one regular complex Borel measure
 <Math mode="inline" tex="\mu" text="mu" xml:id="Thmtheorem12.p1.m4">
-              <XMath>
-                <XMTok name="mu" role="UNKNOWN">μ</XMTok>
-              </XMath>
-            </Math> on <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem12.p1.m5">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> satisfying</text></p>
-        <equation xml:id="S7.Ex65">
+            <XMath>
+              <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
+            </XMath>
+          </Math> on <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem12.p1.m5">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> satisfying</p>
+        <equation labels="LABEL:riesz" xml:id="S7.Ex65">
           <Math mode="display" tex="\Lambda f=\int_{X}fd\mu,\qquad f\in C(X)." text="formulae@(Lambda * f = (integral _ X)@(f * differential-d@(mu)), f element-of C * X)" xml:id="S7.Ex65.m1">
             <XMath>
               <XMDual>
@@ -19297,44 +19299,44 @@ Analysis</text>, third ed., p. 130, Theorem 6.19.</note></p>
                     </XMWrap>
                   </XMDual>
                   <XMTok role="PERIOD">.</XMTok>
-                </XMWrap>
+<!--  %**** gelfandtransform.tex Line 725 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** gelfandtransform.tex Line 725 **** -->        <p><text font="italic">This measure <Math mode="inline" tex="\mu" text="mu" xml:id="Thmtheorem12.p1.m6">
-              <XMath>
-                <XMTok name="mu" role="UNKNOWN">μ</XMTok>
-              </XMath>
-            </Math> satisfies <Math mode="inline" tex="\left\|\mu\right\|=\left\|\Lambda\right\|" text="norm@(mu) = norm@(Lambda)" xml:id="Thmtheorem12.p1.m7">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="norm"/>
-                      <XMRef idref="Thmtheorem12.p1.m7.1"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" role="VERTBAR" stretchy="true">∥</XMTok>
-                      <XMTok name="mu" role="UNKNOWN" xml:id="Thmtheorem12.p1.m7.1">μ</XMTok>
-                      <XMTok font="upright" role="VERTBAR" stretchy="true">∥</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="norm"/>
-                      <XMRef idref="Thmtheorem12.p1.m7.2"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" role="VERTBAR" stretchy="true">∥</XMTok>
-                      <XMTok font="upright" name="Lambda" role="UNKNOWN" xml:id="Thmtheorem12.p1.m7.2">Λ</XMTok>
-                      <XMTok font="upright" role="VERTBAR" stretchy="true">∥</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                </XMApp>
-              </XMath>
-            </Math>.</text></p>
+        <p>This measure <Math mode="inline" tex="\mu" text="mu" xml:id="Thmtheorem12.p1.m6">
+            <XMath>
+              <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
+            </XMath>
+          </Math> satisfies <Math mode="inline" tex="\left\|\mu\right\|=\left\|\Lambda\right\|" text="norm@(mu) = norm@(Lambda)" xml:id="Thmtheorem12.p1.m7">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="norm"/>
+                    <XMRef idref="Thmtheorem12.p1.m7.1"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
+                    <XMTok font="italic" name="mu" role="UNKNOWN" xml:id="Thmtheorem12.p1.m7.1">μ</XMTok>
+                    <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
+                  </XMWrap>
+                </XMDual>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="norm"/>
+                    <XMRef idref="Thmtheorem12.p1.m7.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
+                    <XMTok name="Lambda" role="UNKNOWN" xml:id="Thmtheorem12.p1.m7.2">Λ</XMTok>
+                    <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <para xml:id="S7.p2">
@@ -19346,7 +19348,7 @@ and regular positive Borel measures on its maximal ideal space.<note mark="23" r
             <tag role="typerefnum">footnote 23</tag>
           </tags>Walter Rudin, <text font="italic">Functional Analysis</text>, second ed., p. 299, Theorem 11.33.</note></p>
     </para>
-    <theorem class="ltx_theorem_theorem" inlist="thm theorem:theorem" labels="LABEL:bijection" xml:id="Thmtheorem13">
+    <theorem class="ltx_theorem_theorem" inlist="thm theorem:theorem" xml:id="Thmtheorem13">
       <tags>
         <tag>Theorem 13</tag>
         <tag role="refnum">13</tag>
@@ -19354,22 +19356,22 @@ and regular positive Borel measures on its maximal ideal space.<note mark="23" r
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 13</text></tag>.</title>
       <para xml:id="Thmtheorem13.p1">
-        <p><text font="italic">Suppose that <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem13.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> is a commutative unital Banach algebra with an involution <Math mode="inline" tex="{}^{*}:A\to A" xml:id="Thmtheorem13.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="pre1"/>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="times" role="MULOP">*</XMTok>
-                </XMApp>
-                <XMTok role="UNKNOWN">A</XMTok>
-                <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> satisfying</text></p>
+        <p>Suppose that <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem13.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> is a commutative unital Banach algebra with an involution <Math mode="inline" tex="{}^{*}:A\to A" xml:id="Thmtheorem13.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="pre1"/>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok fontsize="70%" meaning="times" role="MULOP">*</XMTok>
+              </XMApp>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+              <XMTok name="to" role="ARROW">→</XMTok>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> satisfying</p>
         <equation labels="LABEL:symmetric" xml:id="S7.E5">
           <tags>
             <tag>(5)</tag>
@@ -19450,105 +19452,105 @@ and regular positive Borel measures on its maximal ideal space.<note mark="23" r
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">Let <Math mode="inline" tex="K" text="K" xml:id="Thmtheorem13.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">K</XMTok>
-              </XMath>
-            </Math> be the set of all positive linear functionals <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmtheorem13.p1.m4">
-              <XMath>
+        <p>Let <Math mode="inline" tex="K" text="K" xml:id="Thmtheorem13.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">K</XMTok>
+            </XMath>
+          </Math> be the set of all positive linear functionals <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmtheorem13.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" role="UNKNOWN">F</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok role="UNKNOWN">F</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">A</XMTok>
-                    <XMTok font="blackboard upright" role="UNKNOWN">C</XMTok>
-                  </XMApp>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">A</XMTok>
+                  <XMTok font="blackboard" role="UNKNOWN">C</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> satisfying <Math mode="inline" tex="F(e)\leq 1" text="F * e less= 1" xml:id="Thmtheorem13.p1.m5">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math> satisfying <Math mode="inline" tex="F(e)\leq 1" text="F * e less= 1" xml:id="Thmtheorem13.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">F</XMTok>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem13.p1.m5.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem13.p1.m5.1">e</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">F</XMTok>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem13.p1.m5.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem13.p1.m5.1">e</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>, and let
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, and let
 <Math mode="inline" tex="M" text="M" xml:id="Thmtheorem13.p1.m6">
-              <XMath>
-                <XMTok role="UNKNOWN">M</XMTok>
-              </XMath>
-            </Math> be the set of all regular positive Borel measures <Math mode="inline" tex="\mu" text="mu" xml:id="Thmtheorem13.p1.m7">
-              <XMath>
-                <XMTok name="mu" role="UNKNOWN">μ</XMTok>
-              </XMath>
-            </Math> on <Math mode="inline" tex="\Delta" text="Delta" xml:id="Thmtheorem13.p1.m8">
-              <XMath>
-                <XMTok font="upright" name="Delta" role="UNKNOWN">Δ</XMTok>
-              </XMath>
-            </Math> satisfying <Math mode="inline" tex="\mu(\Delta)\leq 1" text="mu * Delta less= 1" xml:id="Thmtheorem13.p1.m9">
-              <XMath>
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">M</XMTok>
+            </XMath>
+          </Math> be the set of all regular positive Borel measures <Math mode="inline" tex="\mu" text="mu" xml:id="Thmtheorem13.p1.m7">
+            <XMath>
+              <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
+            </XMath>
+          </Math> on <Math mode="inline" tex="\Delta" text="Delta" xml:id="Thmtheorem13.p1.m8">
+            <XMath>
+              <XMTok name="Delta" role="UNKNOWN">Δ</XMTok>
+            </XMath>
+          </Math> satisfying <Math mode="inline" tex="\mu(\Delta)\leq 1" text="mu * Delta less= 1" xml:id="Thmtheorem13.p1.m9">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok name="mu" role="UNKNOWN">μ</XMTok>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem13.p1.m9.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok font="upright" name="Delta" role="UNKNOWN" xml:id="Thmtheorem13.p1.m9.1">Δ</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem13.p1.m9.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok name="Delta" role="UNKNOWN" xml:id="Thmtheorem13.p1.m9.1">Δ</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>.
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.
 <Math mode="inline" tex="K" text="K" xml:id="Thmtheorem13.p1.m10">
-              <XMath>
-                <XMTok role="UNKNOWN">K</XMTok>
-              </XMath>
-            </Math> and <Math mode="inline" tex="M" text="M" xml:id="Thmtheorem13.p1.m11">
-              <XMath>
-                <XMTok role="UNKNOWN">M</XMTok>
-              </XMath>
-            </Math> are convex sets.
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">K</XMTok>
+            </XMath>
+          </Math> and <Math mode="inline" tex="M" text="M" xml:id="Thmtheorem13.p1.m11">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">M</XMTok>
+            </XMath>
+          </Math> are convex sets.
 If <Math mode="inline" tex="\mu\in M" text="mu element-of M" xml:id="Thmtheorem13.p1.m12">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
+                <XMTok font="italic" role="UNKNOWN">M</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, then <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmtheorem13.p1.m13">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" role="UNKNOWN">F</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="mu" role="UNKNOWN">μ</XMTok>
-                  <XMTok role="UNKNOWN">M</XMTok>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">A</XMTok>
+                  <XMTok font="blackboard" role="UNKNOWN">C</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>, then <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmtheorem13.p1.m13">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok role="UNKNOWN">F</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">A</XMTok>
-                    <XMTok font="blackboard upright" role="UNKNOWN">C</XMTok>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math> defined by</text></p>
-        <equation xml:id="S7.Ex66">
+              </XMApp>
+            </XMath>
+          </Math> defined by</p>
+        <equation labels="LABEL:bijection" xml:id="S7.Ex66">
           <Math mode="display" tex="F_{\mu}(x)=\int_{\Delta}\hat{x}d\mu,\qquad x\in A," text="formulae@(F _ mu * x = (integral _ Delta)@(hat@(x) * differential-d@(mu)), x element-of A)" xml:id="S7.Ex66.m1">
             <XMath>
               <XMDual>
@@ -19612,34 +19614,36 @@ If <Math mode="inline" tex="\mu\in M" text="mu element-of M" xml:id="Thmtheorem1
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">belongs to <Math mode="inline" tex="K" text="K" xml:id="Thmtheorem13.p1.m14">
-              <XMath>
-                <XMTok role="UNKNOWN">K</XMTok>
-              </XMath>
-            </Math>, and this map <Math mode="inline" tex="\mu\mapsto F_{\mu}" text="mu maps-to F _ mu" xml:id="Thmtheorem13.p1.m15">
-              <XMath>
+        <p>belongs to <Math mode="inline" tex="K" text="K" xml:id="Thmtheorem13.p1.m14">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">K</XMTok>
+            </XMath>
+          </Math>, and this map <Math mode="inline" tex="\mu\mapsto F_{\mu}" text="mu maps-to F _ mu" xml:id="Thmtheorem13.p1.m15">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="maps-to" name="mapsto" role="ARROW">↦</XMTok>
+                <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="maps-to" name="mapsto" role="ARROW">↦</XMTok>
-                  <XMTok name="mu" role="UNKNOWN">μ</XMTok>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">F</XMTok>
-                    <XMTok fontsize="70%" name="mu" role="UNKNOWN">μ</XMTok>
-                  </XMApp>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">F</XMTok>
+                  <XMTok font="italic" fontsize="70%" name="mu" role="UNKNOWN">μ</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> is an isometric bijection <Math mode="inline" tex="M\to K" text="M to K" xml:id="Thmtheorem13.p1.m16">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                  <XMTok role="UNKNOWN">M</XMTok>
-                  <XMTok role="UNKNOWN">K</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>.</text></p>
+              </XMApp>
+            </XMath>
+          </Math> is an isometric bijection <Math mode="inline" tex="M\to K" text="M to K" xml:id="Thmtheorem13.p1.m16">
+            <XMath>
+              <XMApp>
+                <XMTok name="to" role="ARROW">→</XMTok>
+                <XMTok font="italic" role="UNKNOWN">M</XMTok>
+                <XMTok font="italic" role="UNKNOWN">K</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.
+
+<!--  %**** gelfandtransform.tex Line 750 **** --></p>
       </para>
     </theorem>
-<!--  %**** gelfandtransform.tex Line 750 **** -->    <proof>
+    <proof>
       <title class="ltx_runin" font="italic">Proof.</title>
       <para xml:id="S7.p3">
         <p>If <Math mode="inline" tex="F_{1},F_{2}\in K" text="list@(F _ 1, F _ 2) element-of K" xml:id="S7.p3.m1">
@@ -21400,7 +21404,7 @@ With <Math mode="inline" tex="G=G_{1}\cap G_{2}" text="G = G _ 1 intersection G 
             </MathFork>
           </equation>
         </equationgroup>
-        <p>It follows that <Math mode="inline" tex="\mu(E)=\inf\{\mu(G):\textrm{$G$ is open and $E\subseteq G$}\}" text="mu * E = infimum@(conditional-set@(mu * G, [G is open and ⊆EG]))" xml:id="S7.p4.m21">
+<!--  %**** gelfandtransform.tex Line 775 **** -->        <p>It follows that <Math mode="inline" tex="\mu(E)=\inf\{\mu(G):\textrm{$G$ is open and $E\subseteq G$}\}" text="mu * E = infimum@(conditional-set@(mu * G, [G is open and ⊆EG]))" xml:id="S7.p4.m21">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -21459,7 +21463,7 @@ With <Math mode="inline" tex="G=G_{1}\cap G_{2}" text="G = G _ 1 intersection G 
               </XMApp>
             </XMath>
           </Math>.
-<!--  %**** gelfandtransform.tex Line 775 **** -->Therefore, <Math mode="inline" tex="\mu=a_{1}\mu_{1}+a_{2}\mu_{2}" text="mu = a _ 1 * mu _ 1 + a _ 2 * mu _ 2" xml:id="S7.p4.m22">
+Therefore, <Math mode="inline" tex="\mu=a_{1}\mu_{1}+a_{2}\mu_{2}" text="mu = a _ 1 * mu _ 1 + a _ 2 * mu _ 2" xml:id="S7.p4.m22">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -22315,7 +22319,7 @@ Finally, for <Math mode="inline" tex="\mu=(1-t)\mu_{1}+t\mu_{2}" text="mu = (1 -
             </XMath>
           </Math>
         </equation>
-        <p>this makes sense because if <Math mode="inline" tex="\hat{x}=\hat{y}" text="hat@(x) = hat@(y)" xml:id="S7.p6.m5">
+<!--  %**** gelfandtransform.tex Line 800 **** -->        <p>this makes sense because if <Math mode="inline" tex="\hat{x}=\hat{y}" text="hat@(x) = hat@(y)" xml:id="S7.p6.m5">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -22392,7 +22396,7 @@ Finally, for <Math mode="inline" tex="\mu=(1-t)\mu_{1}+t\mu_{2}" text="mu = (1 -
               </XMApp>
             </XMath>
           </Math>, i.e.
-<!--  %**** gelfandtransform.tex Line 800 **** -->so <Math mode="inline" tex="F(x)=F(y)" text="F * x = F * y" xml:id="S7.p6.m9">
+so <Math mode="inline" tex="F(x)=F(y)" text="F * x = F * y" xml:id="S7.p6.m9">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -23148,12 +23152,12 @@ Because <Math mode="inline" tex="\hat{e}(h)=1" text="hat@(e) * h = 1" xml:id="S7
                     </XMApp>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-                </XMWrap>
+<!--  %**** gelfandtransform.tex Line 825 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** gelfandtransform.tex Line 825 **** -->        <p>The fact that <Math mode="inline" tex="\mu(\Delta)=|\mu|(\Delta)" text="mu * Delta = absolute-value@(mu) * Delta" xml:id="S7.p6.m34">
+        <p>The fact that <Math mode="inline" tex="\mu(\Delta)=|\mu|(\Delta)" text="mu * Delta = absolute-value@(mu) * Delta" xml:id="S7.p6.m34">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -23780,22 +23784,22 @@ of <Math mode="inline" tex="M" text="M" xml:id="S7.p8.m3">
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Corollary 14</text></tag>.</title>
       <para xml:id="Thmtheorem14.p1">
-        <p><text font="italic">Suppose that <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem14.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> is a commutative unital Banach algebra with involution <Math mode="inline" tex="{}^{*}:A\to A" xml:id="Thmtheorem14.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="pre1"/>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="times" role="MULOP">*</XMTok>
-                </XMApp>
-                <XMTok role="UNKNOWN">A</XMTok>
-                <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> satisfying</text></p>
+        <p>Suppose that <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem14.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> is a commutative unital Banach algebra with involution <Math mode="inline" tex="{}^{*}:A\to A" xml:id="Thmtheorem14.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="pre1"/>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok fontsize="70%" meaning="times" role="MULOP">*</XMTok>
+              </XMApp>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+              <XMTok name="to" role="ARROW">→</XMTok>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> satisfying</p>
         <equation xml:id="S7.Ex84">
           <Math mode="display" tex="h(x^{*})=\overline{h(x)},\qquad x\in A,h\in\Delta." text="formulae@(h * x ^ * = overline@(h * x), formulae@(x element-of A, h element-of Delta))" xml:id="S7.Ex84.m1">
             <XMath>
@@ -23813,7 +23817,7 @@ of <Math mode="inline" tex="M" text="M" xml:id="S7.p8.m3">
                         <XMTok meaning="equals" role="RELOP">=</XMTok>
                         <XMApp>
                           <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                          <XMTok font="italic" role="UNKNOWN">h</XMTok>
+<!--  %**** gelfandtransform.tex Line 850 **** -->                          <XMTok font="italic" role="UNKNOWN">h</XMTok>
                           <XMDual>
                             <XMRef idref="S7.Ex84.m1.2.1.1"/>
                             <XMWrap>
@@ -23867,47 +23871,47 @@ of <Math mode="inline" tex="M" text="M" xml:id="S7.p8.m3">
                     </XMWrap>
                   </XMDual>
                   <XMTok role="PERIOD">.</XMTok>
-<!--  %**** gelfandtransform.tex Line 850 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">If <Math mode="inline" tex="K" text="K" xml:id="Thmtheorem14.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">K</XMTok>
-              </XMath>
-            </Math> is the set of all positive linear functionals <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmtheorem14.p1.m4">
-              <XMath>
+        <p>If <Math mode="inline" tex="K" text="K" xml:id="Thmtheorem14.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">K</XMTok>
+            </XMath>
+          </Math> is the set of all positive linear functionals <Math mode="inline" tex="F:A\to\mathbb{C}" text="F colon A to C" xml:id="Thmtheorem14.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" role="UNKNOWN">F</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok role="UNKNOWN">F</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">A</XMTok>
-                    <XMTok font="blackboard upright" role="UNKNOWN">C</XMTok>
-                  </XMApp>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">A</XMTok>
+                  <XMTok font="blackboard" role="UNKNOWN">C</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> satisfying <Math mode="inline" tex="F(e)\leq 1" text="F * e less= 1" xml:id="Thmtheorem14.p1.m5">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math> satisfying <Math mode="inline" tex="F(e)\leq 1" text="F * e less= 1" xml:id="Thmtheorem14.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">F</XMTok>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem14.p1.m5.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem14.p1.m5.1">e</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">F</XMTok>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem14.p1.m5.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem14.p1.m5.1">e</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>, then</text></p>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, then</p>
         <equation xml:id="S7.Ex85">
           <Math mode="display" tex="\mathrm{ext}\,K=\{0\}\cup\Delta." text="ext * K = set@(0) union Delta" xml:id="S7.Ex85.m1">
             <XMath>
@@ -24375,9 +24379,10 @@ that</p>
           <XMath>
             <XMTok font="italic" name="phi" role="UNKNOWN">ϕ</XMTok>
           </XMath>
-        </Math> to be positive-definite demands that the left-hand side of this inequality is real.</p>
+        </Math> to be positive-definite demands that the left-hand side of this inequality is real.
+<!--  %**** gelfandtransform.tex Line 875 **** --></p>
     </para>
-<!--  %**** gelfandtransform.tex Line 875 **** -->    <para xml:id="S8.p2">
+    <para xml:id="S8.p2">
       <p>A positive-definite function need not be measurable. For example, <Math mode="inline" tex="\mathbb{R}" text="R" xml:id="S8.p2.m1">
           <XMath>
             <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
@@ -24521,23 +24526,23 @@ positive-definite function <Math mode="inline" tex="\mathbb{R}^{n}\to\mathbb{C}"
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 15</text></tag>.</title>
       <para xml:id="Thmtheorem15.p1">
-        <p><text font="italic">If <Math mode="inline" tex="\phi:\mathbb{R}^{n}\to\mathbb{C}" text="phi colon R ^ n to C" xml:id="Thmtheorem15.p1.m1">
-              <XMath>
+        <p>If <Math mode="inline" tex="\phi:\mathbb{R}^{n}\to\mathbb{C}" text="phi colon R ^ n to C" xml:id="Thmtheorem15.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" name="phi" role="UNKNOWN">ϕ</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok name="phi" role="UNKNOWN">ϕ</XMTok>
+                  <XMTok name="to" role="ARROW">→</XMTok>
                   <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                    </XMApp>
-                    <XMTok font="blackboard upright" role="UNKNOWN">C</XMTok>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
                   </XMApp>
+                  <XMTok font="blackboard" role="UNKNOWN">C</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> is positive-definite, then</text></p>
+              </XMApp>
+            </XMath>
+          </Math> is positive-definite, then</p>
         <equation labels="LABEL:phi0" xml:id="S8.E7">
           <tags>
             <tag>(7)</tag>
@@ -24570,19 +24575,19 @@ positive-definite function <Math mode="inline" tex="\mathbb{R}^{n}\to\mathbb{C}"
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">and for all <Math mode="inline" tex="x\in\mathbb{R}^{n}" text="x element-of R ^ n" xml:id="Thmtheorem15.p1.m2">
-              <XMath>
+        <p>and for all <Math mode="inline" tex="x\in\mathbb{R}^{n}" text="x element-of R ^ n" xml:id="Thmtheorem15.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMApp>
-                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                    <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                  </XMApp>
+                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> we have</text></p>
+              </XMApp>
+            </XMath>
+          </Math> we have</p>
         <equation labels="LABEL:conjugatephi" xml:id="S8.E8">
           <tags>
             <tag>(8)</tag>
@@ -24626,7 +24631,7 @@ positive-definite function <Math mode="inline" tex="\mathbb{R}^{n}\to\mathbb{C}"
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">and</text></p>
+        <p>and</p>
         <equation labels="LABEL:phix" xml:id="S8.E9">
           <tags>
             <tag>(9)</tag>
@@ -24645,7 +24650,7 @@ positive-definite function <Math mode="inline" tex="\mathbb{R}^{n}\to\mathbb{C}"
                         <XMRef idref="S8.E9.m1.3.1"/>
                       </XMApp>
                       <XMWrap>
-                        <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+<!--  %**** gelfandtransform.tex Line 900 **** -->                        <XMTok role="VERTBAR" stretchy="false">|</XMTok>
                         <XMApp xml:id="S8.E9.m1.3.1">
                           <XMTok meaning="times" role="MULOP">⁢</XMTok>
                           <XMTok font="italic" name="phi" role="UNKNOWN">ϕ</XMTok>
@@ -24675,7 +24680,7 @@ positive-definite function <Math mode="inline" tex="\mathbb{R}^{n}\to\mathbb{C}"
                     </XMApp>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-<!--  %**** gelfandtransform.tex Line 900 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -25386,7 +25391,7 @@ and <Math mode="inline" tex="c_{1},c_{2}\in\mathbb{C}" text="list@(c _ 1, c _ 2)
             </XMath>
           </Math>
         </equation>
-        <p>The fact that this holds every <Math mode="inline" tex="c_{1},c_{2}\in\mathbb{C}" text="list@(c _ 1, c _ 2) element-of C" xml:id="S8.p5.m8">
+<!--  %**** gelfandtransform.tex Line 925 **** -->        <p>The fact that this holds every <Math mode="inline" tex="c_{1},c_{2}\in\mathbb{C}" text="list@(c _ 1, c _ 2) element-of C" xml:id="S8.p5.m8">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -25449,8 +25454,7 @@ and <Math mode="inline" tex="c_{1},c_{2}\in\mathbb{C}" text="list@(c _ 1, c _ 2)
                 </XMApp>
               </XMApp>
             </XMath>
-          </Math>.
-<!--  %**** gelfandtransform.tex Line 925 **** --></p>
+          </Math>.</p>
       </para>
       <para xml:id="S8.p6">
         <p>Again using that</p>
@@ -26158,10 +26162,10 @@ we get <Math mode="inline" tex="|\phi(x)|\leq\phi(0)" text="absolute-value@(phi 
               </XMApp>
             </XMath>
           </Math>.
-∎</p>
+<!--  %**** gelfandtransform.tex Line 950 **** -->∎</p>
       </para>
     </proof>
-<!--  %**** gelfandtransform.tex Line 950 **** -->    <para xml:id="S8.p7">
+    <para xml:id="S8.p7">
       <p>The following lemma about positive-definite functions follows a proof in Bogachev.<note mark="27" role="footnote" xml:id="footnote27"><tags>
             <tag>27</tag>
             <tag role="refnum">27</tag>
@@ -26176,50 +26180,50 @@ we get <Math mode="inline" tex="|\phi(x)|\leq\phi(0)" text="absolute-value@(phi 
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 16</text></tag>.</title>
       <para xml:id="Thmtheorem16.p1">
-        <p><text font="italic">If <Math mode="inline" tex="\phi:\mathbb{R}^{n}\to\mathbb{C}" text="phi colon R ^ n to C" xml:id="Thmtheorem16.p1.m1">
-              <XMath>
+        <p>If <Math mode="inline" tex="\phi:\mathbb{R}^{n}\to\mathbb{C}" text="phi colon R ^ n to C" xml:id="Thmtheorem16.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" name="phi" role="UNKNOWN">ϕ</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok name="phi" role="UNKNOWN">ϕ</XMTok>
+                  <XMTok name="to" role="ARROW">→</XMTok>
                   <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                    </XMApp>
-                    <XMTok font="blackboard upright" role="UNKNOWN">C</XMTok>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
                   </XMApp>
+                  <XMTok font="blackboard" role="UNKNOWN">C</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> is a measurable positive-definite function and <Math mode="inline" tex="f\in L^{1}(\mathbb{R}^{n})" text="f element-of L ^ 1 * R ^ n" xml:id="Thmtheorem16.p1.m2">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math> is a measurable positive-definite function and <Math mode="inline" tex="f\in L^{1}(\mathbb{R}^{n})" text="f element-of L ^ 1 * R ^ n" xml:id="Thmtheorem16.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">f</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">f</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">L</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem16.p1.m2.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMApp xml:id="Thmtheorem16.p1.m2.1">
-                          <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                          <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                          <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                        </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">L</XMTok>
+                    <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
                   </XMApp>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem16.p1.m2.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMApp xml:id="Thmtheorem16.p1.m2.1">
+                        <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                        <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                        <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                      </XMApp>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> is nonnegative, then</text></p>
+              </XMApp>
+            </XMath>
+          </Math> is nonnegative, then</p>
         <equation xml:id="S8.Ex95">
           <Math mode="display" tex="\int_{\mathbb{R}^{n}}\int_{\mathbb{R}^{n}}\phi(x-y)f(x)f(y)dm_{n}(x)dm_{n}(y)%&#10;\geq 0." text="(integral _ (R ^ n))@((integral _ (R ^ n))@(phi * (x - y) * f * x * f * y * differential-d@(m _ n) * x * differential-d@(m _ n) * y)) &gt;= 0" xml:id="S8.Ex95.m1">
             <XMath>
@@ -26643,8 +26647,7 @@ we get <Math mode="inline" tex="|\phi(x)|\leq\phi(0)" text="absolute-value@(phi 
             </XMath>
           </Math>
         </equation>
-        <p>Writing
-<!--  %**** gelfandtransform.tex Line 975 **** --></p>
+<!--  %**** gelfandtransform.tex Line 975 **** -->        <p>Writing</p>
         <equation xml:id="S8.Ex99">
           <Math mode="display" tex="I=\int_{\mathbb{R}^{n}}f(x)dm_{n}(x)," text="I = (integral _ (R ^ n))@(f * x * differential-d@(m _ n) * x)" xml:id="S8.Ex99.m1">
             <XMath>
@@ -27209,7 +27212,7 @@ we get <Math mode="inline" tex="|\phi(x)|\leq\phi(0)" text="absolute-value@(phi 
             </XMath>
           </Math>
         </equation>
-        <p>This inequality holds for all <Math mode="inline" tex="r\geq 2" text="r &gt;= 2" xml:id="S8.p8.m13">
+<!--  %**** gelfandtransform.tex Line 1000 **** -->        <p>This inequality holds for all <Math mode="inline" tex="r\geq 2" text="r &gt;= 2" xml:id="S8.p8.m13">
             <XMath>
               <XMApp>
                 <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
@@ -27225,8 +27228,7 @@ we get <Math mode="inline" tex="|\phi(x)|\leq\phi(0)" text="absolute-value@(phi 
                 <XMTok meaning="infinity" name="infty" role="ID">∞</XMTok>
               </XMApp>
             </XMath>
-          </Math> yields
-<!--  %**** gelfandtransform.tex Line 1000 **** --></p>
+          </Math> yields</p>
         <equation xml:id="S8.Ex105">
           <Math mode="display" tex="J\geq 0," text="J &gt;= 0" xml:id="S8.Ex105.m1">
             <XMath>
@@ -27538,125 +27540,125 @@ nonnegative.<note mark="28" role="footnote" xml:id="footnote28"><tags>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 17</text></tag>.</title>
       <para xml:id="Thmtheorem17.p1">
-        <p><text font="italic">For <Math mode="inline" tex="f:\mathbb{R}^{n}\to\mathbb{C}" text="f colon R ^ n to C" xml:id="Thmtheorem17.p1.m1">
-              <XMath>
+        <p>For <Math mode="inline" tex="f:\mathbb{R}^{n}\to\mathbb{C}" text="f colon R ^ n to C" xml:id="Thmtheorem17.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" role="UNKNOWN">f</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok role="UNKNOWN">f</XMTok>
+                  <XMTok name="to" role="ARROW">→</XMTok>
                   <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                    </XMApp>
-                    <XMTok font="blackboard upright" role="UNKNOWN">C</XMTok>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
                   </XMApp>
+                  <XMTok font="blackboard" role="UNKNOWN">C</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>, define <Math mode="inline" tex="\widetilde{f}:\mathbb{R}^{n}\to\mathbb{C}" text="widetilde@(f) colon R ^ n to C" xml:id="Thmtheorem17.p1.m2">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math>, define <Math mode="inline" tex="\widetilde{f}:\mathbb{R}^{n}\to\mathbb{C}" text="widetilde@(f) colon R ^ n to C" xml:id="Thmtheorem17.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" name="widetilde" role="OVERACCENT">~</XMTok>
-                    <XMTok role="UNKNOWN">f</XMTok>
-                  </XMApp>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                    </XMApp>
-                    <XMTok font="blackboard upright" role="UNKNOWN">C</XMTok>
-                  </XMApp>
+                  <XMTok name="widetilde" role="OVERACCENT">~</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">f</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> by <Math mode="inline" tex="\widetilde{f}(x)=\overline{f(-x)}" text="widetilde@(f) * x = overline@(f * (- x))" xml:id="Thmtheorem17.p1.m3">
-              <XMath>
                 <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMApp>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                  </XMApp>
+                  <XMTok font="blackboard" role="UNKNOWN">C</XMTok>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math> by <Math mode="inline" tex="\widetilde{f}(x)=\overline{f(-x)}" text="widetilde@(f) * x = overline@(f * (- x))" xml:id="Thmtheorem17.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMApp>
+                    <XMTok name="widetilde" role="OVERACCENT">~</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                  </XMApp>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem17.p1.m3.2"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem17.p1.m3.2">x</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
+                </XMApp>
+                <XMApp>
+                  <XMTok name="overline" role="OVERACCENT">¯</XMTok>
                   <XMApp>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok font="upright" name="widetilde" role="OVERACCENT">~</XMTok>
-                      <XMTok role="UNKNOWN">f</XMTok>
-                    </XMApp>
+                    <XMTok font="italic" role="UNKNOWN">f</XMTok>
                     <XMDual>
-                      <XMRef idref="Thmtheorem17.p1.m3.2"/>
+                      <XMRef idref="Thmtheorem17.p1.m3.1"/>
                       <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem17.p1.m3.2">x</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                  <XMApp>
-                    <XMTok font="upright" name="overline" role="OVERACCENT">¯</XMTok>
-                    <XMApp>
-                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                      <XMTok role="UNKNOWN">f</XMTok>
-                      <XMDual>
-                        <XMRef idref="Thmtheorem17.p1.m3.1"/>
-                        <XMWrap>
-                          <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                          <XMApp xml:id="Thmtheorem17.p1.m3.1">
-                            <XMTok font="upright" meaning="minus" role="ADDOP">-</XMTok>
-                            <XMTok role="UNKNOWN">x</XMTok>
-                          </XMApp>
-                          <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                        </XMWrap>
-                      </XMDual>
-                    </XMApp>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math>.
-If <Math mode="inline" tex="\phi:\mathbb{R}^{n}\to\mathbb{C}" text="phi colon R ^ n to C" xml:id="Thmtheorem17.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok name="phi" role="UNKNOWN">ϕ</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                    </XMApp>
-                    <XMTok font="blackboard upright" role="UNKNOWN">C</XMTok>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math> is a continuous positive-definite function, then for all <Math mode="inline" tex="f\in C_{c}(\mathbb{R}^{n})" text="f element-of C _ c * R ^ n" xml:id="Thmtheorem17.p1.m5">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">f</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">C</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">c</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem17.p1.m5.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMApp xml:id="Thmtheorem17.p1.m5.1">
-                          <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                          <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                          <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
+                        <XMTok role="OPEN" stretchy="false">(</XMTok>
+                        <XMApp xml:id="Thmtheorem17.p1.m3.1">
+                          <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                          <XMTok font="italic" role="UNKNOWN">x</XMTok>
                         </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
+                        <XMTok role="CLOSE" stretchy="false">)</XMTok>
                       </XMWrap>
                     </XMDual>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math>, we have</text></p>
+              </XMApp>
+            </XMath>
+          </Math>.
+If <Math mode="inline" tex="\phi:\mathbb{R}^{n}\to\mathbb{C}" text="phi colon R ^ n to C" xml:id="Thmtheorem17.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" name="phi" role="UNKNOWN">ϕ</XMTok>
+                <XMApp>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMApp>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                  </XMApp>
+                  <XMTok font="blackboard" role="UNKNOWN">C</XMTok>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math> is a continuous positive-definite function, then for all <Math mode="inline" tex="f\in C_{c}(\mathbb{R}^{n})" text="f element-of C _ c * R ^ n" xml:id="Thmtheorem17.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMApp>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">C</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">c</XMTok>
+                  </XMApp>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem17.p1.m5.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMApp xml:id="Thmtheorem17.p1.m5.1">
+                        <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                        <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                        <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                      </XMApp>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math>, we have</p>
         <equation xml:id="S8.Ex107">
           <Math mode="display" tex="\int_{\mathbb{R}^{n}}(f*\widetilde{f})\psi\geq 0." text="(integral _ (R ^ n))@(f * widetilde@(f) * psi) &gt;= 0" xml:id="S8.Ex107.m1">
             <XMath>
@@ -27835,38 +27837,38 @@ If <Math mode="inline" tex="\phi:\mathbb{R}^{n}\to\mathbb{C}" text="phi colon R 
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 18</text></tag>.</title>
       <para xml:id="Thmtheorem18.p1">
-        <p><text font="italic">If <Math mode="inline" tex="\mu" text="mu" xml:id="Thmtheorem18.p1.m1">
-              <XMath>
-                <XMTok name="mu" role="UNKNOWN">μ</XMTok>
-              </XMath>
-            </Math> is a finite positive Borel measure on <Math mode="inline" tex="\mathbb{R}^{n}" text="R ^ n" xml:id="Thmtheorem18.p1.m2">
-              <XMath>
+        <p>If <Math mode="inline" tex="\mu" text="mu" xml:id="Thmtheorem18.p1.m1">
+            <XMath>
+              <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
+            </XMath>
+          </Math> is a finite positive Borel measure on <Math mode="inline" tex="\mathbb{R}^{n}" text="R ^ n" xml:id="Thmtheorem18.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, then <Math mode="inline" tex="\hat{\mu}:\mathbb{R}^{n}\to\mathbb{C}" text="hat@(mu) colon R ^ n to C" xml:id="Thmtheorem18.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
                 <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                  <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                  <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
+                  <XMTok name="hat" role="OVERACCENT" stretchy="false">^</XMTok>
+                  <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>, then <Math mode="inline" tex="\hat{\mu}:\mathbb{R}^{n}\to\mathbb{C}" text="hat@(mu) colon R ^ n to C" xml:id="Thmtheorem18.p1.m3">
-              <XMath>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
+                  <XMTok name="to" role="ARROW">→</XMTok>
                   <XMApp>
-                    <XMTok font="upright" name="hat" role="OVERACCENT" stretchy="false">^</XMTok>
-                    <XMTok name="mu" role="UNKNOWN">μ</XMTok>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
                   </XMApp>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                    </XMApp>
-                    <XMTok font="blackboard upright" role="UNKNOWN">C</XMTok>
-                  </XMApp>
+                  <XMTok font="blackboard" role="UNKNOWN">C</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> is positive-definite.</text></p>
+              </XMApp>
+            </XMath>
+          </Math> is positive-definite.</p>
       </para>
     </theorem>
     <proof>
@@ -29032,47 +29034,47 @@ Theorem 4.18.</note></p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 19</text></tag> (Bochner).</title>
       <para xml:id="Thmtheorem19.p1">
-        <p><text font="italic">If <Math mode="inline" tex="\phi:\mathbb{R}^{n}\to\mathbb{C}" text="phi colon R ^ n to C" xml:id="Thmtheorem19.p1.m1">
-              <XMath>
+        <p>If <Math mode="inline" tex="\phi:\mathbb{R}^{n}\to\mathbb{C}" text="phi colon R ^ n to C" xml:id="Thmtheorem19.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" name="phi" role="UNKNOWN">ϕ</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok name="phi" role="UNKNOWN">ϕ</XMTok>
+                  <XMTok name="to" role="ARROW">→</XMTok>
                   <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                    </XMApp>
-                    <XMTok font="blackboard upright" role="UNKNOWN">C</XMTok>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
                   </XMApp>
+                  <XMTok font="blackboard" role="UNKNOWN">C</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> is continuous and positive-definite, then there is some finite
+              </XMApp>
+            </XMath>
+          </Math> is continuous and positive-definite, then there is some finite
 positive Borel measure <Math mode="inline" tex="\nu" text="nu" xml:id="Thmtheorem19.p1.m2">
-              <XMath>
-                <XMTok name="nu" role="UNKNOWN">ν</XMTok>
-              </XMath>
-            </Math> on <Math mode="inline" tex="\mathbb{R}^{n}" text="R ^ n" xml:id="Thmtheorem19.p1.m3">
-              <XMath>
+            <XMath>
+              <XMTok font="italic" name="nu" role="UNKNOWN">ν</XMTok>
+            </XMath>
+          </Math> on <Math mode="inline" tex="\mathbb{R}^{n}" text="R ^ n" xml:id="Thmtheorem19.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> for which <Math mode="inline" tex="\phi=\hat{\nu}" text="phi = hat@(nu)" xml:id="Thmtheorem19.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMTok font="italic" name="phi" role="UNKNOWN">ϕ</XMTok>
                 <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                  <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                  <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
+                  <XMTok name="hat" role="OVERACCENT" stretchy="false">^</XMTok>
+                  <XMTok font="italic" name="nu" role="UNKNOWN">ν</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> for which <Math mode="inline" tex="\phi=\hat{\nu}" text="phi = hat@(nu)" xml:id="Thmtheorem19.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMTok name="phi" role="UNKNOWN">ϕ</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" name="hat" role="OVERACCENT" stretchy="false">^</XMTok>
-                    <XMTok name="nu" role="UNKNOWN">ν</XMTok>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math>.</text></p>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
@@ -29235,7 +29237,7 @@ on <Math mode="inline" tex="\mathbb{R}^{n}" text="R ^ n" xml:id="S8.p13.m3">
                       <XMDual>
                         <XMRef idref="S8.Ex115.m1.1.1"/>
                         <XMWrap>
-                          <XMTok role="OPEN" stretchy="false">(</XMTok>
+<!--  %**** gelfandtransform.tex Line 1075 **** -->                          <XMTok role="OPEN" stretchy="false">(</XMTok>
                           <XMApp xml:id="S8.Ex115.m1.1.1">
                             <XMTok meaning="plus" role="ADDOP">+</XMTok>
                             <XMTok font="italic" role="UNKNOWN">f</XMTok>
@@ -29301,7 +29303,7 @@ on <Math mode="inline" tex="\mathbb{R}^{n}" text="R ^ n" xml:id="S8.p13.m3">
                     </XMApp>
                   </XMApp>
                   <XMTok role="PUNCT">;</XMTok>
-<!--  %**** gelfandtransform.tex Line 1075 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -30201,7 +30203,8 @@ and we define <Math mode="inline" tex="{}^{*}:A\to A" xml:id="S8.p14.m4">
             </XMath>
           </Math>
         </equation>
-        <p>On the other hand,</p>
+        <p>On the other hand,
+<!--  %**** gelfandtransform.tex Line 1100 **** --></p>
         <equationgroup class="ltx_eqn_eqnarray" xml:id="S8.EGx6">
           <equation xml:id="S8.Ex123">
             <MathFork>
@@ -32598,7 +32601,8 @@ From (<ref labelref="LABEL:ginequality"/>) we have <Math mode="inline" tex="F(g_
               </XMApp>
             </XMath>
           </Math>.
-On the other hand,</p>
+On the other hand,
+<!--  %**** gelfandtransform.tex Line 1150 **** --></p>
         <equationgroup class="ltx_eqn_eqnarray" xml:id="S8.EGx9">
           <equation xml:id="S8.Ex137">
             <MathFork>
@@ -33973,8 +33977,7 @@ Furthermore,</p>
             </MathFork>
           </equation>
         </equationgroup>
-        <p>Thus
-<!--  %**** gelfandtransform.tex Line 1175 **** --></p>
+<!--  %**** gelfandtransform.tex Line 1175 **** -->        <p>Thus</p>
         <equation xml:id="S8.Ex143">
           <Math mode="display" tex="F(g_{\epsilon}*g_{\epsilon}^{*})\to F((f+\alpha\delta)*(f+\alpha\delta)^{*})" text="F * g _ epsilon * (g _ epsilon) ^ * to F * (f + alpha * delta) * (f + alpha * delta) ^ *" xml:id="S8.Ex143.m1">
             <XMath>
@@ -34554,7 +34557,7 @@ If <Math mode="inline" tex="t\in\mathbb{R}^{n}" text="t element-of R ^ n" xml:id
             </XMath>
           </Math>
         </equation>
-        <p>and also define <Math mode="inline" tex="h_{\infty}:A\to\mathbb{C}" text="h _ infinity colon A to C" xml:id="S8.p18.m3">
+<!--  %**** gelfandtransform.tex Line 1200 **** -->        <p>and also define <Math mode="inline" tex="h_{\infty}:A\to\mathbb{C}" text="h _ infinity colon A to C" xml:id="S8.p18.m3">
             <XMath>
               <XMApp>
                 <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -34570,8 +34573,7 @@ If <Math mode="inline" tex="t\in\mathbb{R}^{n}" text="t element-of R ^ n" xml:id
                 </XMApp>
               </XMApp>
             </XMath>
-          </Math> by
-<!--  %**** gelfandtransform.tex Line 1200 **** --></p>
+          </Math> by</p>
         <equation xml:id="S8.Ex148">
           <Math mode="display" tex="h_{\infty}(f+\alpha\delta)=\alpha,\qquad f+\alpha\delta\in A." text="formulae@(h _ infinity * (f + alpha * delta) = alpha, f + alpha * delta element-of A)" xml:id="S8.Ex148.m1">
             <XMath>

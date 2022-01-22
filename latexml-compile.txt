@@ -44,7 +44,7 @@ latexmlpost cyclotomic.xml --destination=index.html --javascript="https://cdn.js
 
 latexml --destination=denjoy.xml denjoy.tex
 
-latexmlpost denjoy.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+latexmlpost denjoy.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
 
 latexml --destination=donsker.xml donsker.tex
 
@@ -208,7 +208,7 @@ latexmlpost progressivelymeasurable.xml --destination=index.html --javascript="h
 
 latexml --destination=wieneralgebra.xml wieneralgebra.tex
 
-latexmlpost wieneralgebra.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --css=LaTeXML-navbar-left.css
+latexmlpost wieneralgebra.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
 
 latexml --destination=kronecker.xml kronecker.tex
 

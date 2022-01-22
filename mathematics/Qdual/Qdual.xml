@@ -7,7 +7,19 @@
 <document xmlns="http://dlmf.nist.gov/LaTeXML" class="ltx_authors_1line">
   <resource src="LaTeXML.css" type="text/css"/>
   <resource src="ltx-article.css" type="text/css"/>
-  <title>The Pontryagin duals of <text font="bold">Q</text>/<text font="bold">Z</text> and <text font="bold">Q</text> and the adeles</title>
+  <title>The Pontryagin duals of <Math mode="inline" tex="\mathbb{Q}/\mathbb{Z}" text="Q / Z" xml:id="m1">
+      <XMath>
+        <XMApp>
+          <XMTok meaning="divide" role="MULOP">/</XMTok>
+          <XMTok font="blackboard" role="UNKNOWN">Q</XMTok>
+          <XMTok font="blackboard" role="UNKNOWN">Z</XMTok>
+        </XMApp>
+      </XMath>
+    </Math> and <Math mode="inline" tex="\mathbb{Q}" text="Q" xml:id="m2">
+      <XMath>
+        <XMTok font="blackboard" role="UNKNOWN">Q</XMTok>
+      </XMath>
+    </Math>, and the adeles</title>
   <creator role="author">
     <personname>Jordan Bell</personname>
   </creator>

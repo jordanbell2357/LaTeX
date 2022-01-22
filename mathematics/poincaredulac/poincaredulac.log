@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.24)  20 JAN 2022 03:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.24)  22 JAN 2022 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -119,38 +119,38 @@ File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 (./poincaredulac.aux)
 \openout1 = `poincaredulac.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
 
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
 
 
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 19
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 20
 .
 
 (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+euf on input line 43.
+LaTeX Font Info:    Trying to load font information for U+euf on input line 44.
 
 
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/ueuf.fd
@@ -158,7 +158,7 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ) [1
 
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
-Overfull \hbox (17.94124pt too wide) detected at line 232
+Overfull \hbox (17.94124pt too wide) detected at line 233
 [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 F[]\OT1/cmr/m/n/10 )(\OML/cmm/m/it/10 x\O
 T1/cmr/m/n/10 ) = [\OML/cmm/m/it/10 J[]; F[]\OT1/cmr/m/n/10 ](\OML/cmm/m/it/10 
 x\OT1/cmr/m/n/10 ) = [](\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 J[]
@@ -167,19 +167,19 @@ x \OMS/cmsy/m/n/10 ^^@ []\OML/cmm/m/it/10 F[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/1
  []
 
 [5] [6]
-Overfull \hbox (7.50766pt too wide) in paragraph at lines 320--325
+Overfull \hbox (7.50766pt too wide) in paragraph at lines 321--326
 \OT1/cmr/m/n/10 Then $\U/rsfs/m/n/10 N[] \OT1/cmr/m/n/10 = [] [][] \OMS/cmsy/m/
 n/10 j[]$\OT1/cmr/m/n/10 . It fol-lows from Lemma 4[] that $[] [][] \OMS/cmsy/m
 /n/10 j[] ^^R [] [][] j[]$\OT1/cmr/m/n/10 .
  []
 
 [7]
-Overfull \hbox (9.15956pt too wide) in alignment at lines 400--408
+Overfull \hbox (9.15956pt too wide) in alignment at lines 401--409
  [][][] []
  []
 
 [8]
-Overfull \hbox (10.44801pt too wide) in paragraph at lines 477--481
+Overfull \hbox (10.44801pt too wide) in paragraph at lines 478--482
 []\OT1/cmr/m/n/10 Because $\OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
 0 x\OT1/cmr/m/n/10 ) = []$, we have $\OML/cmm/m/it/10 P[]\OT1/cmr/m/n/10 (\OML/
 cmm/m/it/10 x\OT1/cmr/m/n/10 ) = []$ and $\OML/cmm/m/it/10 H[]\OT1/cmr/m/n/10 (
@@ -187,7 +187,7 @@ cmm/m/it/10 x\OT1/cmr/m/n/10 ) = []$ and $\OML/cmm/m/it/10 H[]\OT1/cmr/m/n/10 (
  []
 
 [9]
-Overfull \hbox (18.81891pt too wide) detected at line 495
+Overfull \hbox (18.81891pt too wide) detected at line 496
 \OML/cmm/m/it/10 H[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = \OML
 /cmm/m/it/10 H[] \OMS/cmsy/m/n/10 ^^N \OML/cmm/m/it/10 H[] \OMS/cmsy/m/n/10 ^^N
  \OML/cmm/m/it/10 H[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = \OM
@@ -195,13 +195,13 @@ L/cmm/m/it/10 H[][] [] [] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 :
  []
 
 
-Overfull \hbox (7.05812pt too wide) detected at line 508
+Overfull \hbox (7.05812pt too wide) detected at line 509
 \OML/cmm/m/it/10 H[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = [] +
  [] \OML/cmm/m/it/10 ;
  []
 
 [10]
-Overfull \hbox (13.51863pt too wide) in paragraph at lines 589--594
+Overfull \hbox (13.51863pt too wide) in paragraph at lines 590--595
 []\OT1/cmr/m/n/10 We cal-cu-late that $[][] \OMS/cmsy/m/n/10 j[]$ \OT1/cmr/m/n/
 10 writ-ten in the or-dered ba-sis [] is $[](3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/1
 0 1\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \
@@ -210,7 +210,7 @@ OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; \OT1/cmr
  []
 
 
-Overfull \hbox (25.46304pt too wide) in paragraph at lines 589--594
+Overfull \hbox (25.46304pt too wide) in paragraph at lines 590--595
 \OT1/cmr/m/n/10 and we cal-cu-late that $[][] \OMS/cmsy/m/n/10 j[]$ \OT1/cmr/m/
 n/10 writ-ten in the or-dered ba-sis [] is $[](8\OML/cmm/m/it/10 ; \OT1/cmr/m/n
 /10 6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\O
@@ -220,13 +220,13 @@ m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)$.
 
 (./poincaredulac.bbl [11]) [12] (./poincaredulac.aux) ) 
 Here is how much of TeX's memory you used:
- 1863 strings out of 478353
- 26461 string characters out of 5852100
- 346143 words of memory out of 5000000
- 19999 multiletter control sequences out of 15000+600000
+ 1859 strings out of 478353
+ 26443 string characters out of 5852100
+ 346148 words of memory out of 5000000
+ 19995 multiletter control sequences out of 15000+600000
  413364 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,21n,62p,491b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,21n,62p,491b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-d
 ist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pu
@@ -248,7 +248,7 @@ ts/type1/public/amsfonts/symbols/msbm7.pfb><c:/texlive/2021/texmf-dist/fonts/ty
 pe1/public/rsfs/rsfs10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/rsfs/
 rsfs7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
 
-Output written on poincaredulac.pdf (12 pages, 252449 bytes).
+Output written on poincaredulac.pdf (12 pages, 252318 bytes).
 PDF statistics:
  149 PDF objects out of 1000 (max. 8388607)
  92 compressed objects within 1 object stream

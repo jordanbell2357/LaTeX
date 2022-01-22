@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/staging/oscillatory"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/mathematics/oscillatory"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,graphicx,subfig,mathrsfs,amsthm"?>
 <!--  %**** oscillatory.tex Line 25 **** --><?latexml RelaxNGSchema="LaTeXML"?>
@@ -213,12 +213,12 @@ by</p>
           </XMath>
         </Math> an <text font="bold">oscillatory integral</text>.</p>
     </para>
-    <para xml:id="S1.p2">
+<!--  %**** oscillatory.tex Line 50 **** -->    <para xml:id="S1.p2">
       <p>The following proof follows Stein and Shakarchi.<note mark="1" role="footnote" xml:id="footnote1"><tags>
             <tag>1</tag>
             <tag role="refnum">1</tag>
             <tag role="typerefnum">footnote 1</tag>
-          </tags><!--  %**** oscillatory.tex Line 50 **** -->Elias
+          </tags>Elias
 M. Stein and Rami Shakarchi, <text font="italic">Functional Analysis</text>, p. 325, Proposition 2.1.</note></p>
     </para>
     <theorem class="ltx_theorem_theorem" inlist="thm theorem:theorem" xml:id="Thmtheorem1">
@@ -229,83 +229,83 @@ M. Stein and Rami Shakarchi, <text font="italic">Functional Analysis</text>, p.�
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 1</text></tag>.</title>
       <para xml:id="Thmtheorem1.p1">
-        <p><text font="italic">If there is some <Math mode="inline" tex="c&gt;0" text="c &gt; 0" xml:id="Thmtheorem1.p1.m1">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than" role="RELOP">&gt;</XMTok>
-                  <XMTok role="UNKNOWN">c</XMTok>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> such that <Math mode="inline" tex="|(\nabla\Phi)(x)|\geq c" text="absolute-value@(nabla@(Phi) * x) &gt;= c" xml:id="Thmtheorem1.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="absolute-value"/>
-                      <XMRef idref="Thmtheorem1.p1.m2.2"/>
+        <p>If there is some <Math mode="inline" tex="c&gt;0" text="c &gt; 0" xml:id="Thmtheorem1.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
+                <XMTok font="italic" role="UNKNOWN">c</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> such that <Math mode="inline" tex="|(\nabla\Phi)(x)|\geq c" text="absolute-value@(nabla@(Phi) * x) &gt;= c" xml:id="Thmtheorem1.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="absolute-value"/>
+                    <XMRef idref="Thmtheorem1.p1.m2.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                    <XMApp xml:id="Thmtheorem1.p1.m2.2">
+                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                      <XMDual>
+                        <XMRef idref="Thmtheorem1.p1.m2.2.1"/>
+                        <XMWrap>
+                          <XMTok role="OPEN" stretchy="false">(</XMTok>
+                          <XMApp xml:id="Thmtheorem1.p1.m2.2.1">
+                            <XMTok name="nabla" role="OPERATOR">∇</XMTok>
+                            <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
+                          </XMApp>
+                          <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                        </XMWrap>
+                      </XMDual>
+                      <XMDual>
+                        <XMRef idref="Thmtheorem1.p1.m2.1"/>
+                        <XMWrap>
+                          <XMTok role="OPEN" stretchy="false">(</XMTok>
+                          <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem1.p1.m2.1">x</XMTok>
+                          <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                        </XMWrap>
+                      </XMDual>
                     </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                      <XMApp xml:id="Thmtheorem1.p1.m2.2">
-                        <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                        <XMDual>
-                          <XMRef idref="Thmtheorem1.p1.m2.2.1"/>
-                          <XMWrap>
-                            <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                            <XMApp xml:id="Thmtheorem1.p1.m2.2.1">
-                              <XMTok font="upright" name="nabla" role="OPERATOR">∇</XMTok>
-                              <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
-                            </XMApp>
-                            <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                          </XMWrap>
-                        </XMDual>
-                        <XMDual>
-                          <XMRef idref="Thmtheorem1.p1.m2.1"/>
-                          <XMWrap>
-                            <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                            <XMTok role="UNKNOWN" xml:id="Thmtheorem1.p1.m2.1">x</XMTok>
-                            <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                          </XMWrap>
-                        </XMDual>
-                      </XMApp>
-                      <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                  <XMTok role="UNKNOWN">c</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> for all <Math mode="inline" tex="x\in\mathrm{supp}\,\psi" text="x element-of supp * psi" xml:id="Thmtheorem1.p1.m3">
-              <XMath>
+                    <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                  </XMWrap>
+                </XMDual>
+                <XMTok font="italic" role="UNKNOWN">c</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> for all <Math mode="inline" tex="x\in\mathrm{supp}\,\psi" text="x element-of supp * psi" xml:id="Thmtheorem1.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok font="upright" role="UNKNOWN" rpadding="1.7pt">supp</XMTok>
-                    <XMTok name="psi" role="UNKNOWN">ψ</XMTok>
-                  </XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok role="UNKNOWN" rpadding="1.7pt">supp</XMTok>
+                  <XMTok font="italic" name="psi" role="UNKNOWN">ψ</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>, then for each nonnegative integer <Math mode="inline" tex="N" text="N" xml:id="Thmtheorem1.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">N</XMTok>
-              </XMath>
-            </Math> there is some
+              </XMApp>
+            </XMath>
+          </Math>, then for each nonnegative integer <Math mode="inline" tex="N" text="N" xml:id="Thmtheorem1.p1.m4">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">N</XMTok>
+            </XMath>
+          </Math> there is some
 <Math mode="inline" tex="c_{N}\geq 0" text="c _ N &gt;= 0" xml:id="Thmtheorem1.p1.m5">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">c</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">N</XMTok>
-                  </XMApp>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">c</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">N</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> such that</text></p>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> such that</p>
         <equation xml:id="S1.Ex2">
           <Math mode="display" tex="|I(\lambda)|\leq c_{N}\lambda^{-N},\qquad\lambda&gt;0." text="formulae@(absolute-value@(I * lambda) less= c _ N * lambda ^ (- N), lambda &gt; 0)" xml:id="S1.Ex2.m1">
             <XMath>
@@ -780,7 +780,7 @@ and define <Math mode="inline" tex="L:C^{\infty}(\mathbb{R}^{d})\to\mathscr{D}(\
                             <XMApp>
                               <XMTok font="italic" meaning="differential-d" role="DIFFOP">d</XMTok>
                               <XMTok font="italic" role="UNKNOWN">x</XMTok>
-                            </XMApp>
+<!--  %**** oscillatory.tex Line 75 **** -->                            </XMApp>
                           </XMApp>
                         </XMApp>
                       </XMApp>
@@ -860,7 +860,7 @@ and define <Math mode="inline" tex="L:C^{\infty}(\mathbb{R}^{d})\to\mathscr{D}(\
                     </XMApp>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-<!--  %**** oscillatory.tex Line 75 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -1771,8 +1771,7 @@ and define <Math mode="inline" tex="L:C^{\infty}(\mathbb{R}^{d})\to\mathscr{D}(\
             </XMath>
           </Math>
         </equation>
-        <p>we obtain
-<!--  %**** oscillatory.tex Line 100 **** --></p>
+<!--  %**** oscillatory.tex Line 100 **** -->        <p>we obtain</p>
         <equation xml:id="S1.Ex13">
           <Math mode="display" tex="|I(\lambda)|=\left|\int_{\mathbb{R}^{d}}e^{i\lambda\Phi}(L^{t})^{N}\psi dx%&#10;\right|\leq\int_{\mathbb{R}^{d}}|(L^{t})^{N}\psi|dx=c_{N}\lambda^{-N}," text="absolute-value@(I * lambda) = absolute-value@((integral _ (R ^ d))@(e ^ (i * lambda * Phi) * L ^ t ^ N * psi * differential-d@(x))) less= (integral _ (R ^ d))@(absolute-value@(L ^ t ^ N * psi) * differential-d@(x)) = c _ N * lambda ^ (- N)" xml:id="S1.Ex13.m1">
             <XMath>
@@ -1952,173 +1951,173 @@ M. Stein and Rami Shakarchi, <text font="italic">Functional Analysis</text>, p.�
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 2</text></tag>.</title>
       <para xml:id="Thmtheorem2.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="a&lt;b" text="a less b" xml:id="Thmtheorem2.p1.m1">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok role="UNKNOWN">a</XMTok>
-                  <XMTok role="UNKNOWN">b</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,
+        <p>Let <Math mode="inline" tex="a&lt;b" text="a less b" xml:id="Thmtheorem2.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok font="italic" role="UNKNOWN">a</XMTok>
+                <XMTok font="italic" role="UNKNOWN">b</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,
 and suppose that <Math mode="inline" tex="\Phi\in C^{2}(\mathbb{R})" text="Phi element-of C ^ 2 * R" xml:id="Thmtheorem2.p1.m2">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">C</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem2.p1.m2.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok font="blackboard upright" role="UNKNOWN" xml:id="Thmtheorem2.p1.m2.1">R</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">C</XMTok>
+                    <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
                   </XMApp>
-                </XMApp>
-              </XMath>
-            </Math> is real-valued, that either <Math mode="inline" tex="\Phi^{\prime\prime}(x)\geq 0" text="Phi ^ prime2 * x &gt;= 0" xml:id="Thmtheorem2.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
-                      <XMTok font="upright" fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem2.p1.m3.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem2.p1.m3.1">x</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem2.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
                   <XMDual>
-                    <XMApp>
-                      <XMTok meaning="closed-interval"/>
-                      <XMRef idref="Thmtheorem2.p1.m4.1"/>
-                      <XMRef idref="Thmtheorem2.p1.m4.2"/>
-                    </XMApp>
+                    <XMRef idref="Thmtheorem2.p1.m2.1"/>
                     <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">[</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem2.p1.m4.1">a</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem2.p1.m4.2">b</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">]</XMTok>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="blackboard" role="UNKNOWN" xml:id="Thmtheorem2.p1.m2.1">R</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
                     </XMWrap>
                   </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> or <Math mode="inline" tex="\Phi^{\prime\prime}(x)\leq 0" text="Phi ^ prime2 * x less= 0" xml:id="Thmtheorem2.p1.m5">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math> is real-valued, that either <Math mode="inline" tex="\Phi^{\prime\prime}(x)\geq 0" text="Phi ^ prime2 * x &gt;= 0" xml:id="Thmtheorem2.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
-                      <XMTok font="upright" fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem2.p1.m5.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem2.p1.m5.1">x</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
+                    <XMTok fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
                   </XMApp>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem2.p1.m6">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
                   <XMDual>
-                    <XMApp>
-                      <XMTok meaning="closed-interval"/>
-                      <XMRef idref="Thmtheorem2.p1.m6.1"/>
-                      <XMRef idref="Thmtheorem2.p1.m6.2"/>
-                    </XMApp>
+                    <XMRef idref="Thmtheorem2.p1.m3.1"/>
                     <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">[</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem2.p1.m6.1">a</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem2.p1.m6.2">b</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">]</XMTok>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem2.p1.m3.1">x</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
                     </XMWrap>
                   </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>,
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem2.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="closed-interval"/>
+                    <XMRef idref="Thmtheorem2.p1.m4.1"/>
+                    <XMRef idref="Thmtheorem2.p1.m4.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">[</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem2.p1.m4.1">a</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem2.p1.m4.2">b</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">]</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math> or <Math mode="inline" tex="\Phi^{\prime\prime}(x)\leq 0" text="Phi ^ prime2 * x less= 0" xml:id="Thmtheorem2.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMApp>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
+                    <XMTok fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
+                  </XMApp>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem2.p1.m5.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem2.p1.m5.1">x</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
+                </XMApp>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem2.p1.m6">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="closed-interval"/>
+                    <XMRef idref="Thmtheorem2.p1.m6.1"/>
+                    <XMRef idref="Thmtheorem2.p1.m6.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">[</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem2.p1.m6.1">a</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem2.p1.m6.2">b</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">]</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math>,
 and that <Math mode="inline" tex="\Phi^{\prime}(x)\geq 1" text="Phi ^ prime * x &gt;= 1" xml:id="Thmtheorem2.p1.m7">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
-                      <XMTok font="upright" fontsize="70%" name="prime" role="SUPOP">′</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem2.p1.m7.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem2.p1.m7.1">x</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
+                    <XMTok fontsize="70%" name="prime" role="SUPOP">′</XMTok>
                   </XMApp>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem2.p1.m8">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
                   <XMDual>
-                    <XMApp>
-                      <XMTok meaning="closed-interval"/>
-                      <XMRef idref="Thmtheorem2.p1.m8.1"/>
-                      <XMRef idref="Thmtheorem2.p1.m8.2"/>
-                    </XMApp>
+                    <XMRef idref="Thmtheorem2.p1.m7.1"/>
                     <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">[</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem2.p1.m8.1">a</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem2.p1.m8.2">b</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">]</XMTok>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem2.p1.m7.1">x</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
                     </XMWrap>
                   </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>.
-Then</text></p>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem2.p1.m8">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="closed-interval"/>
+                    <XMRef idref="Thmtheorem2.p1.m8.1"/>
+                    <XMRef idref="Thmtheorem2.p1.m8.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">[</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem2.p1.m8.1">a</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem2.p1.m8.2">b</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">]</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math>.
+Then</p>
         <equation xml:id="S1.Ex14">
           <Math mode="display" tex="\left|\int_{a}^{b}e^{i\lambda\Phi(x)}dx\right|\leq 3\lambda^{-1},\qquad\lambda%&#10;&gt;0." text="formulae@(absolute-value@(((integral _ a) ^ b)@(e ^ (i * lambda * Phi * x) * differential-d@(x))) less= 3 * lambda ^ (- 1), lambda &gt; 0)" xml:id="S1.Ex14.m1">
             <XMath>
@@ -2212,7 +2211,8 @@ Then</text></p>
     <proof>
       <title class="ltx_runin" font="italic">Proof.</title>
       <para xml:id="S1.p6">
-        <p>Write</p>
+        <p>Write
+<!--  %**** oscillatory.tex Line 125 **** --></p>
         <equation xml:id="S1.Ex15">
           <Math mode="display" tex="L=\frac{1}{i\lambda\Phi^{\prime}}\frac{d}{dx}," text="L = (1 / (i * lambda * Phi ^ prime)) * (d / (d * x))" xml:id="S1.Ex15.m1">
             <XMath>
@@ -2221,7 +2221,7 @@ Then</text></p>
                 <XMWrap>
                   <XMApp xml:id="S1.Ex15.m1.1">
                     <XMTok meaning="equals" role="RELOP">=</XMTok>
-<!--  %**** oscillatory.tex Line 125 **** -->                    <XMTok font="italic" role="UNKNOWN">L</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">L</XMTok>
                     <XMApp>
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
                       <XMApp>
@@ -3998,191 +3998,191 @@ Putting together the two inequalities,</p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 3</text></tag>.</title>
       <para xml:id="Thmtheorem3.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="a&lt;b" text="a less b" xml:id="Thmtheorem3.p1.m1">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok role="UNKNOWN">a</XMTok>
-                  <XMTok role="UNKNOWN">b</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,
+        <p>Let <Math mode="inline" tex="a&lt;b" text="a less b" xml:id="Thmtheorem3.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok font="italic" role="UNKNOWN">a</XMTok>
+                <XMTok font="italic" role="UNKNOWN">b</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,
 and suppose that <Math mode="inline" tex="\Phi\in C^{2}(\mathbb{R})" text="Phi element-of C ^ 2 * R" xml:id="Thmtheorem3.p1.m2">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">C</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem3.p1.m2.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok font="blackboard upright" role="UNKNOWN" xml:id="Thmtheorem3.p1.m2.1">R</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">C</XMTok>
+                    <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
                   </XMApp>
-                </XMApp>
-              </XMath>
-            </Math> is real-valued, that either <Math mode="inline" tex="\Phi^{\prime\prime}(x)\geq 0" text="Phi ^ prime2 * x &gt;= 0" xml:id="Thmtheorem3.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
-                      <XMTok font="upright" fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem3.p1.m3.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem3.p1.m3.1">x</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem3.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
                   <XMDual>
-                    <XMApp>
-                      <XMTok meaning="closed-interval"/>
-                      <XMRef idref="Thmtheorem3.p1.m4.1"/>
-                      <XMRef idref="Thmtheorem3.p1.m4.2"/>
-                    </XMApp>
+                    <XMRef idref="Thmtheorem3.p1.m2.1"/>
                     <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">[</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem3.p1.m4.1">a</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem3.p1.m4.2">b</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">]</XMTok>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="blackboard" role="UNKNOWN" xml:id="Thmtheorem3.p1.m2.1">R</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
                     </XMWrap>
                   </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> or <Math mode="inline" tex="\Phi^{\prime\prime}(x)\leq 0" text="Phi ^ prime2 * x less= 0" xml:id="Thmtheorem3.p1.m5">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math> is real-valued, that either <Math mode="inline" tex="\Phi^{\prime\prime}(x)\geq 0" text="Phi ^ prime2 * x &gt;= 0" xml:id="Thmtheorem3.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
-                      <XMTok font="upright" fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem3.p1.m5.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem3.p1.m5.1">x</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
+                    <XMTok fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
                   </XMApp>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem3.p1.m6">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
                   <XMDual>
-                    <XMApp>
-                      <XMTok meaning="closed-interval"/>
-                      <XMRef idref="Thmtheorem3.p1.m6.1"/>
-                      <XMRef idref="Thmtheorem3.p1.m6.2"/>
-                    </XMApp>
+                    <XMRef idref="Thmtheorem3.p1.m3.1"/>
                     <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">[</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem3.p1.m6.1">a</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem3.p1.m6.2">b</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">]</XMTok>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem3.p1.m3.1">x</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
                     </XMWrap>
                   </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>,
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem3.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="closed-interval"/>
+                    <XMRef idref="Thmtheorem3.p1.m4.1"/>
+                    <XMRef idref="Thmtheorem3.p1.m4.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">[</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem3.p1.m4.1">a</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem3.p1.m4.2">b</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">]</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math> or <Math mode="inline" tex="\Phi^{\prime\prime}(x)\leq 0" text="Phi ^ prime2 * x less= 0" xml:id="Thmtheorem3.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMApp>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
+                    <XMTok fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
+                  </XMApp>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem3.p1.m5.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem3.p1.m5.1">x</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
+                </XMApp>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem3.p1.m6">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="closed-interval"/>
+                    <XMRef idref="Thmtheorem3.p1.m6.1"/>
+                    <XMRef idref="Thmtheorem3.p1.m6.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">[</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem3.p1.m6.1">a</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem3.p1.m6.2">b</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">]</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math>,
 and that there is some <Math mode="inline" tex="\mu&gt;0" text="mu &gt; 0" xml:id="Thmtheorem3.p1.m7">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than" role="RELOP">&gt;</XMTok>
-                  <XMTok name="mu" role="UNKNOWN">μ</XMTok>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> such that <Math mode="inline" tex="|\Phi^{\prime}(x)|\geq\mu" text="absolute-value@(Phi ^ prime * x) &gt;= mu" xml:id="Thmtheorem3.p1.m8">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="absolute-value"/>
-                      <XMRef idref="Thmtheorem3.p1.m8.2"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                      <XMApp xml:id="Thmtheorem3.p1.m8.2">
-                        <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                        <XMApp>
-                          <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                          <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
-                          <XMTok font="upright" fontsize="70%" name="prime" role="SUPOP">′</XMTok>
-                        </XMApp>
-                        <XMDual>
-                          <XMRef idref="Thmtheorem3.p1.m8.1"/>
-                          <XMWrap>
-                            <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                            <XMTok role="UNKNOWN" xml:id="Thmtheorem3.p1.m8.1">x</XMTok>
-                            <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                          </XMWrap>
-                        </XMDual>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
+                <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> such that <Math mode="inline" tex="|\Phi^{\prime}(x)|\geq\mu" text="absolute-value@(Phi ^ prime * x) &gt;= mu" xml:id="Thmtheorem3.p1.m8">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="absolute-value"/>
+                    <XMRef idref="Thmtheorem3.p1.m8.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                    <XMApp xml:id="Thmtheorem3.p1.m8.2">
+                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                      <XMApp>
+                        <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                        <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
+                        <XMTok fontsize="70%" name="prime" role="SUPOP">′</XMTok>
                       </XMApp>
-                      <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                  <XMTok name="mu" role="UNKNOWN">μ</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem3.p1.m9">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="closed-interval"/>
-                      <XMRef idref="Thmtheorem3.p1.m9.1"/>
-                      <XMRef idref="Thmtheorem3.p1.m9.2"/>
+                      <XMDual>
+                        <XMRef idref="Thmtheorem3.p1.m8.1"/>
+                        <XMWrap>
+                          <XMTok role="OPEN" stretchy="false">(</XMTok>
+                          <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem3.p1.m8.1">x</XMTok>
+                          <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                        </XMWrap>
+                      </XMDual>
                     </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">[</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem3.p1.m9.1">a</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem3.p1.m9.2">b</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">]</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                </XMApp>
-              </XMath>
-            </Math>.
-Then</text></p>
+                    <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                  </XMWrap>
+                </XMDual>
+                <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem3.p1.m9">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="closed-interval"/>
+                    <XMRef idref="Thmtheorem3.p1.m9.1"/>
+                    <XMRef idref="Thmtheorem3.p1.m9.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">[</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem3.p1.m9.1">a</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem3.p1.m9.2">b</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">]</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math>.
+Then</p>
         <equation xml:id="S1.Ex25">
           <Math mode="display" tex="\left|\int_{a}^{b}e^{i\lambda\Phi(x)}dx\right|\leq 3\mu^{-1}\lambda^{-1},%&#10;\qquad\lambda&gt;0." text="formulae@(absolute-value@(((integral _ a) ^ b)@(e ^ (i * lambda * Phi * x) * differential-d@(x))) less= 3 * mu ^ (- 1) * lambda ^ (- 1), lambda &gt; 0)" xml:id="S1.Ex25.m1">
             <XMath>
@@ -4310,7 +4310,7 @@ Then</text></p>
               </XMDual>
             </XMath>
           </Math>, so, by the intermediate value theorem, either
-<Math mode="inline" tex="\Phi^{\prime}(x)\geq\mu" text="Phi ^ prime * x &gt;= mu" xml:id="S1.p7.m3">
+<!--  %**** oscillatory.tex Line 175 **** --><Math mode="inline" tex="\Phi^{\prime}(x)\geq\mu" text="Phi ^ prime * x &gt;= mu" xml:id="S1.p7.m3">
             <XMath>
               <XMApp>
                 <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
@@ -4410,7 +4410,7 @@ Then</text></p>
               </XMApp>
             </XMath>
           </Math> in the first
-<!--  %**** oscillatory.tex Line 175 **** -->case and <Math mode="inline" tex="\epsilon=-1" text="epsilon = - 1" xml:id="S1.p7.m8">
+case and <Math mode="inline" tex="\epsilon=-1" text="epsilon = - 1" xml:id="S1.p7.m8">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -4670,215 +4670,215 @@ absolute values.
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 4</text></tag>.</title>
       <para xml:id="Thmtheorem4.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="a&lt;b" text="a less b" xml:id="Thmtheorem4.p1.m1">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok role="UNKNOWN">a</XMTok>
-                  <XMTok role="UNKNOWN">b</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,
+        <p>Let <Math mode="inline" tex="a&lt;b" text="a less b" xml:id="Thmtheorem4.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok font="italic" role="UNKNOWN">a</XMTok>
+                <XMTok font="italic" role="UNKNOWN">b</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,
 and suppose that <Math mode="inline" tex="\Phi\in C^{2}(\mathbb{R})" text="Phi element-of C ^ 2 * R" xml:id="Thmtheorem4.p1.m2">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">C</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem4.p1.m2.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok font="blackboard upright" role="UNKNOWN" xml:id="Thmtheorem4.p1.m2.1">R</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">C</XMTok>
+                    <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
                   </XMApp>
-                </XMApp>
-              </XMath>
-            </Math> is real-valued, that either <Math mode="inline" tex="\Phi^{\prime\prime}(x)\geq 0" text="Phi ^ prime2 * x &gt;= 0" xml:id="Thmtheorem4.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
-                      <XMTok font="upright" fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem4.p1.m3.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem4.p1.m3.1">x</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem4.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
                   <XMDual>
-                    <XMApp>
-                      <XMTok meaning="closed-interval"/>
-                      <XMRef idref="Thmtheorem4.p1.m4.1"/>
-                      <XMRef idref="Thmtheorem4.p1.m4.2"/>
-                    </XMApp>
+                    <XMRef idref="Thmtheorem4.p1.m2.1"/>
                     <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">[</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem4.p1.m4.1">a</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem4.p1.m4.2">b</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">]</XMTok>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="blackboard" role="UNKNOWN" xml:id="Thmtheorem4.p1.m2.1">R</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
                     </XMWrap>
                   </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> or <Math mode="inline" tex="\Phi^{\prime\prime}(x)\leq 0" text="Phi ^ prime2 * x less= 0" xml:id="Thmtheorem4.p1.m5">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math> is real-valued, that either <Math mode="inline" tex="\Phi^{\prime\prime}(x)\geq 0" text="Phi ^ prime2 * x &gt;= 0" xml:id="Thmtheorem4.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
-                      <XMTok font="upright" fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem4.p1.m5.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem4.p1.m5.1">x</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
+                    <XMTok fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
                   </XMApp>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem4.p1.m6">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
                   <XMDual>
-                    <XMApp>
-                      <XMTok meaning="closed-interval"/>
-                      <XMRef idref="Thmtheorem4.p1.m6.1"/>
-                      <XMRef idref="Thmtheorem4.p1.m6.2"/>
-                    </XMApp>
+                    <XMRef idref="Thmtheorem4.p1.m3.1"/>
                     <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">[</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem4.p1.m6.1">a</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem4.p1.m6.2">b</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">]</XMTok>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem4.p1.m3.1">x</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
                     </XMWrap>
                   </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>,
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem4.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="closed-interval"/>
+                    <XMRef idref="Thmtheorem4.p1.m4.1"/>
+                    <XMRef idref="Thmtheorem4.p1.m4.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">[</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem4.p1.m4.1">a</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem4.p1.m4.2">b</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">]</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math> or <Math mode="inline" tex="\Phi^{\prime\prime}(x)\leq 0" text="Phi ^ prime2 * x less= 0" xml:id="Thmtheorem4.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMApp>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
+                    <XMTok fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
+                  </XMApp>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem4.p1.m5.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem4.p1.m5.1">x</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
+                </XMApp>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem4.p1.m6">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="closed-interval"/>
+                    <XMRef idref="Thmtheorem4.p1.m6.1"/>
+                    <XMRef idref="Thmtheorem4.p1.m6.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">[</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem4.p1.m6.1">a</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem4.p1.m6.2">b</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">]</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math>,
 and there is some <Math mode="inline" tex="\mu&gt;0" text="mu &gt; 0" xml:id="Thmtheorem4.p1.m7">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than" role="RELOP">&gt;</XMTok>
-                  <XMTok name="mu" role="UNKNOWN">μ</XMTok>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> such that <Math mode="inline" tex="|\Phi^{\prime}(x)|\geq\mu" text="absolute-value@(Phi ^ prime * x) &gt;= mu" xml:id="Thmtheorem4.p1.m8">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="absolute-value"/>
-                      <XMRef idref="Thmtheorem4.p1.m8.2"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                      <XMApp xml:id="Thmtheorem4.p1.m8.2">
-                        <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                        <XMApp>
-                          <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                          <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
-                          <XMTok font="upright" fontsize="70%" name="prime" role="SUPOP">′</XMTok>
-                        </XMApp>
-                        <XMDual>
-                          <XMRef idref="Thmtheorem4.p1.m8.1"/>
-                          <XMWrap>
-                            <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                            <XMTok role="UNKNOWN" xml:id="Thmtheorem4.p1.m8.1">x</XMTok>
-                            <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                          </XMWrap>
-                        </XMDual>
-                      </XMApp>
-                      <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                  <XMTok name="mu" role="UNKNOWN">μ</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem4.p1.m9">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="closed-interval"/>
-                      <XMRef idref="Thmtheorem4.p1.m9.1"/>
-                      <XMRef idref="Thmtheorem4.p1.m9.2"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">[</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem4.p1.m9.1">a</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem4.p1.m9.2">b</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">]</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                </XMApp>
-              </XMath>
-            </Math>. Suppose also
-that <Math mode="inline" tex="\psi\in C^{1}(\mathbb{R})" text="psi element-of C ^ 1 * R" xml:id="Thmtheorem4.p1.m10">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="psi" role="UNKNOWN">ψ</XMTok>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
+                <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> such that <Math mode="inline" tex="|\Phi^{\prime}(x)|\geq\mu" text="absolute-value@(Phi ^ prime * x) &gt;= mu" xml:id="Thmtheorem4.p1.m8">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMDual>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">C</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem4.p1.m10.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok font="blackboard upright" role="UNKNOWN" xml:id="Thmtheorem4.p1.m10.1">R</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok meaning="absolute-value"/>
+                    <XMRef idref="Thmtheorem4.p1.m8.2"/>
                   </XMApp>
+                  <XMWrap>
+                    <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                    <XMApp xml:id="Thmtheorem4.p1.m8.2">
+                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                      <XMApp>
+                        <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                        <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
+                        <XMTok fontsize="70%" name="prime" role="SUPOP">′</XMTok>
+                      </XMApp>
+                      <XMDual>
+                        <XMRef idref="Thmtheorem4.p1.m8.1"/>
+                        <XMWrap>
+                          <XMTok role="OPEN" stretchy="false">(</XMTok>
+                          <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem4.p1.m8.1">x</XMTok>
+                          <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                        </XMWrap>
+                      </XMDual>
+                    </XMApp>
+                    <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                  </XMWrap>
+                </XMDual>
+                <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem4.p1.m9">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="closed-interval"/>
+                    <XMRef idref="Thmtheorem4.p1.m9.1"/>
+                    <XMRef idref="Thmtheorem4.p1.m9.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">[</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem4.p1.m9.1">a</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem4.p1.m9.2">b</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">]</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math>. Suppose also
+that <Math mode="inline" tex="\psi\in C^{1}(\mathbb{R})" text="psi element-of C ^ 1 * R" xml:id="Thmtheorem4.p1.m10">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="psi" role="UNKNOWN">ψ</XMTok>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMApp>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">C</XMTok>
+                    <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                  </XMApp>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem4.p1.m10.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="blackboard" role="UNKNOWN" xml:id="Thmtheorem4.p1.m10.1">R</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>.
-Then with</text></p>
+              </XMApp>
+            </XMath>
+          </Math>.
+Then with</p>
         <equation xml:id="S1.Ex28">
           <Math mode="display" tex="c_{\psi}=3\left(|\psi(b)|+\int_{a}^{b}|\psi^{\prime}(x)|dx\right)," text="c _ psi = 3 * (absolute-value@(psi * b) + ((integral _ a) ^ b)@(absolute-value@(psi ^ prime * x) * differential-d@(x)))" xml:id="S1.Ex28.m1">
             <XMath>
@@ -4979,7 +4979,8 @@ Then with</text></p>
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">we have</text></p>
+        <p>we have
+<!--  %**** oscillatory.tex Line 200 **** --></p>
         <equation xml:id="S1.Ex29">
           <Math mode="display" tex="\left|\int_{a}^{b}e^{i\lambda\Phi(x)}\psi(x)dx\right|\leq c_{\psi}\mu^{-1}%&#10;\lambda^{-1}." text="absolute-value@(((integral _ a) ^ b)@(e ^ (i * lambda * Phi * x) * psi * x * differential-d@(x))) less= c _ psi * mu ^ (- 1) * lambda ^ (- 1)" xml:id="S1.Ex29.m1">
             <XMath>
@@ -4994,7 +4995,7 @@ Then with</text></p>
                         <XMRef idref="S1.Ex29.m1.3.1"/>
                       </XMApp>
                       <XMWrap>
-<!--  %**** oscillatory.tex Line 200 **** -->                        <XMTok role="VERTBAR" stretchy="true">|</XMTok>
+                        <XMTok role="VERTBAR" stretchy="true">|</XMTok>
                         <XMApp xml:id="S1.Ex29.m1.3.1">
                           <XMApp>
                             <XMTok role="SUPERSCRIPTOP" scriptpos="post2"/>
@@ -5759,10 +5760,10 @@ Then with</text></p>
           </Math>
         </equation>
         <p>proving the claim.
-∎</p>
+<!--  %**** oscillatory.tex Line 225 **** -->∎</p>
       </para>
     </proof>
-<!--  %**** oscillatory.tex Line 225 **** -->    <para xml:id="S1.p9">
+    <para xml:id="S1.p9">
       <p>The following is <text font="bold">van der Corput’s lemma</text>.<note mark="4" role="footnote" xml:id="footnote4"><tags>
             <tag>4</tag>
             <tag role="refnum">4</tag>
@@ -5777,82 +5778,82 @@ Then with</text></p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 5</text></tag> (van der Corput’s lemma).</title>
       <para xml:id="Thmtheorem5.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="a&lt;b" text="a less b" xml:id="Thmtheorem5.p1.m1">
-              <XMath>
+        <p>Let <Math mode="inline" tex="a&lt;b" text="a less b" xml:id="Thmtheorem5.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok font="italic" role="UNKNOWN">a</XMTok>
+                <XMTok font="italic" role="UNKNOWN">b</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and suppose that <Math mode="inline" tex="\Phi\in C^{2}(\mathbb{R})" text="Phi element-of C ^ 2 * R" xml:id="Thmtheorem5.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok role="UNKNOWN">a</XMTok>
-                  <XMTok role="UNKNOWN">b</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> and suppose that <Math mode="inline" tex="\Phi\in C^{2}(\mathbb{R})" text="Phi element-of C ^ 2 * R" xml:id="Thmtheorem5.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">C</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem5.p1.m2.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok font="blackboard upright" role="UNKNOWN" xml:id="Thmtheorem5.p1.m2.1">R</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">C</XMTok>
+                    <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
                   </XMApp>
-                </XMApp>
-              </XMath>
-            </Math> is real-valued and satisfies <Math mode="inline" tex="\Phi^{\prime\prime}(x)\geq 1" text="Phi ^ prime2 * x &gt;= 1" xml:id="Thmtheorem5.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
-                      <XMTok font="upright" fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem5.p1.m3.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem5.p1.m3.1">x</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem5.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
                   <XMDual>
-                    <XMApp>
-                      <XMTok meaning="closed-interval"/>
-                      <XMRef idref="Thmtheorem5.p1.m4.1"/>
-                      <XMRef idref="Thmtheorem5.p1.m4.2"/>
-                    </XMApp>
+                    <XMRef idref="Thmtheorem5.p1.m2.1"/>
                     <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">[</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem5.p1.m4.1">a</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem5.p1.m4.2">b</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">]</XMTok>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="blackboard" role="UNKNOWN" xml:id="Thmtheorem5.p1.m2.1">R</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
                     </XMWrap>
                   </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>. Then</text></p>
+              </XMApp>
+            </XMath>
+          </Math> is real-valued and satisfies <Math mode="inline" tex="\Phi^{\prime\prime}(x)\geq 1" text="Phi ^ prime2 * x &gt;= 1" xml:id="Thmtheorem5.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMApp>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
+                    <XMTok fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
+                  </XMApp>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem5.p1.m3.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem5.p1.m3.1">x</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
+                </XMApp>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem5.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="closed-interval"/>
+                    <XMRef idref="Thmtheorem5.p1.m4.1"/>
+                    <XMRef idref="Thmtheorem5.p1.m4.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">[</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem5.p1.m4.1">a</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem5.p1.m4.2">b</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">]</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math>. Then</p>
         <equation xml:id="S1.Ex34">
           <Math mode="display" tex="\left|\int_{a}^{b}e^{i\lambda\Phi(x)}dx\right|\leq 8\lambda^{-1/2},\qquad%&#10;\lambda&gt;0." text="formulae@(absolute-value@(((integral _ a) ^ b)@(e ^ (i * lambda * Phi * x) * differential-d@(x))) less= 8 * lambda ^ (- 1 / 2), lambda &gt; 0)" xml:id="S1.Ex34.m1">
             <XMath>
@@ -6446,7 +6447,7 @@ If <Math mode="inline" tex="\Phi^{\prime}(x_{0})=0" text="Phi ^ prime * x _ 0 = 
                         <XMRef idref="S1.Ex37.m1.10.1"/>
                       </XMApp>
                       <XMWrap>
-                        <XMTok role="VERTBAR" stretchy="true">|</XMTok>
+<!--  %**** oscillatory.tex Line 250 **** -->                        <XMTok role="VERTBAR" stretchy="true">|</XMTok>
                         <XMApp xml:id="S1.Ex37.m1.10.1">
                           <XMApp>
                             <XMTok role="SUBSCRIPTOP" scriptpos="post2"/>
@@ -6631,7 +6632,7 @@ If <Math mode="inline" tex="\Phi^{\prime}(x_{0})=0" text="Phi ^ prime * x _ 0 = 
                       </XMApp>
                     </XMApp>
                     <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-<!--  %**** oscillatory.tex Line 250 **** -->                    <XMApp>
+                    <XMApp>
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
                       <XMTok meaning="2" role="NUMBER">2</XMTok>
                       <XMApp>
@@ -7880,7 +7881,7 @@ because <Math mode="inline" tex="\Phi^{\prime}" text="Phi ^ prime" xml:id="S1.p1
                         <XMRef idref="S1.Ex43.m1.2.1"/>
                       </XMApp>
                       <XMWrap>
-                        <XMTok role="VERTBAR" stretchy="true">|</XMTok>
+<!--  %**** oscillatory.tex Line 275 **** -->                        <XMTok role="VERTBAR" stretchy="true">|</XMTok>
                         <XMApp xml:id="S1.Ex43.m1.2.1">
                           <XMApp>
                             <XMTok role="SUPERSCRIPTOP" scriptpos="post2"/>
@@ -7938,7 +7939,7 @@ because <Math mode="inline" tex="\Phi^{\prime}" text="Phi ^ prime" xml:id="S1.p1
                     </XMApp>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-<!--  %**** oscillatory.tex Line 275 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -8075,101 +8076,101 @@ because <Math mode="inline" tex="\Phi^{\prime}" text="Phi ^ prime" xml:id="S1.p1
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 6</text></tag>.</title>
       <para xml:id="Thmtheorem6.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="a&lt;b" text="a less b" xml:id="Thmtheorem6.p1.m1">
-              <XMath>
+        <p>Let <Math mode="inline" tex="a&lt;b" text="a less b" xml:id="Thmtheorem6.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok font="italic" role="UNKNOWN">a</XMTok>
+                <XMTok font="italic" role="UNKNOWN">b</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and suppose that <Math mode="inline" tex="\Phi\in C^{2}(\mathbb{R})" text="Phi element-of C ^ 2 * R" xml:id="Thmtheorem6.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok role="UNKNOWN">a</XMTok>
-                  <XMTok role="UNKNOWN">b</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> and suppose that <Math mode="inline" tex="\Phi\in C^{2}(\mathbb{R})" text="Phi element-of C ^ 2 * R" xml:id="Thmtheorem6.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">C</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem6.p1.m2.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok font="blackboard upright" role="UNKNOWN" xml:id="Thmtheorem6.p1.m2.1">R</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">C</XMTok>
+                    <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
                   </XMApp>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem6.p1.m2.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="blackboard" role="UNKNOWN" xml:id="Thmtheorem6.p1.m2.1">R</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> is real-valued and that there is some <Math mode="inline" tex="\mu&gt;0" text="mu &gt; 0" xml:id="Thmtheorem6.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than" role="RELOP">&gt;</XMTok>
-                  <XMTok name="mu" role="UNKNOWN">μ</XMTok>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> such that
+              </XMApp>
+            </XMath>
+          </Math> is real-valued and that there is some <Math mode="inline" tex="\mu&gt;0" text="mu &gt; 0" xml:id="Thmtheorem6.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
+                <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> such that
 <Math mode="inline" tex="|\Phi^{\prime\prime}(x)|\geq\mu" text="absolute-value@(Phi ^ prime2 * x) &gt;= mu" xml:id="Thmtheorem6.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="absolute-value"/>
-                      <XMRef idref="Thmtheorem6.p1.m4.2"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                      <XMApp xml:id="Thmtheorem6.p1.m4.2">
-                        <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                        <XMApp>
-                          <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                          <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
-                          <XMTok font="upright" fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
-                        </XMApp>
-                        <XMDual>
-                          <XMRef idref="Thmtheorem6.p1.m4.1"/>
-                          <XMWrap>
-                            <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                            <XMTok role="UNKNOWN" xml:id="Thmtheorem6.p1.m4.1">x</XMTok>
-                            <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                          </XMWrap>
-                        </XMDual>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="absolute-value"/>
+                    <XMRef idref="Thmtheorem6.p1.m4.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                    <XMApp xml:id="Thmtheorem6.p1.m4.2">
+                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                      <XMApp>
+                        <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                        <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
+                        <XMTok fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
                       </XMApp>
-                      <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                  <XMTok name="mu" role="UNKNOWN">μ</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem6.p1.m5">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="closed-interval"/>
-                      <XMRef idref="Thmtheorem6.p1.m5.1"/>
-                      <XMRef idref="Thmtheorem6.p1.m5.2"/>
+                      <XMDual>
+                        <XMRef idref="Thmtheorem6.p1.m4.1"/>
+                        <XMWrap>
+                          <XMTok role="OPEN" stretchy="false">(</XMTok>
+                          <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem6.p1.m4.1">x</XMTok>
+                          <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                        </XMWrap>
+                      </XMDual>
                     </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">[</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem6.p1.m5.1">a</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem6.p1.m5.2">b</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">]</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                </XMApp>
-              </XMath>
-            </Math>. Then</text></p>
+                    <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                  </XMWrap>
+                </XMDual>
+                <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem6.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="closed-interval"/>
+                    <XMRef idref="Thmtheorem6.p1.m5.1"/>
+                    <XMRef idref="Thmtheorem6.p1.m5.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">[</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem6.p1.m5.1">a</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem6.p1.m5.2">b</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">]</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math>. Then</p>
         <equation xml:id="S1.Ex45">
           <Math mode="display" tex="\left|\int_{a}^{b}e^{i\lambda\Phi(x)}dx\right|\leq 8\mu^{-1/2}\lambda^{-1/2},%&#10;\qquad\lambda&gt;0." text="formulae@(absolute-value@(((integral _ a) ^ b)@(e ^ (i * lambda * Phi * x) * differential-d@(x))) less= 8 * mu ^ (- 1 / 2) * lambda ^ (- 1 / 2), lambda &gt; 0)" xml:id="S1.Ex45.m1">
             <XMath>
@@ -8594,8 +8595,7 @@ applying Lemma <ref labelref="LABEL:vandercorput"/>,</p>
             </XMath>
           </Math>
         </equation>
-        <p>i.e.
-<!--  %**** oscillatory.tex Line 300 **** --></p>
+<!--  %**** oscillatory.tex Line 300 **** -->        <p>i.e.</p>
         <equation xml:id="S1.Ex47">
           <Math mode="display" tex="\left|\int_{a}^{b}e^{i\epsilon\lambda\Phi(x)}dx\right|\leq 8(\mu\lambda)^{-1/2%&#10;},\qquad\lambda&gt;0." text="formulae@(absolute-value@(((integral _ a) ^ b)@(e ^ (i * epsilon * lambda * Phi * x) * differential-d@(x))) less= 8 * (mu * lambda) ^ (- 1 / 2), lambda &gt; 0)" xml:id="S1.Ex47.m1">
             <XMath>
@@ -8739,127 +8739,127 @@ absolute values.
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 7</text></tag>.</title>
       <para xml:id="Thmtheorem7.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="a&lt;b" text="a less b" xml:id="Thmtheorem7.p1.m1">
-              <XMath>
+        <p>Let <Math mode="inline" tex="a&lt;b" text="a less b" xml:id="Thmtheorem7.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok font="italic" role="UNKNOWN">a</XMTok>
+                <XMTok font="italic" role="UNKNOWN">b</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and suppose that <Math mode="inline" tex="\Phi\in C^{2}(\mathbb{R})" text="Phi element-of C ^ 2 * R" xml:id="Thmtheorem7.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok role="UNKNOWN">a</XMTok>
-                  <XMTok role="UNKNOWN">b</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> and suppose that <Math mode="inline" tex="\Phi\in C^{2}(\mathbb{R})" text="Phi element-of C ^ 2 * R" xml:id="Thmtheorem7.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">C</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem7.p1.m2.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok font="blackboard upright" role="UNKNOWN" xml:id="Thmtheorem7.p1.m2.1">R</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">C</XMTok>
+                    <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
                   </XMApp>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem7.p1.m2.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="blackboard" role="UNKNOWN" xml:id="Thmtheorem7.p1.m2.1">R</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> is real-valued and that there is some <Math mode="inline" tex="\mu&gt;0" text="mu &gt; 0" xml:id="Thmtheorem7.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than" role="RELOP">&gt;</XMTok>
-                  <XMTok name="mu" role="UNKNOWN">μ</XMTok>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> such that
+              </XMApp>
+            </XMath>
+          </Math> is real-valued and that there is some <Math mode="inline" tex="\mu&gt;0" text="mu &gt; 0" xml:id="Thmtheorem7.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
+                <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> such that
 <Math mode="inline" tex="|\Phi^{\prime\prime}(x)|\geq\mu" text="absolute-value@(Phi ^ prime2 * x) &gt;= mu" xml:id="Thmtheorem7.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="absolute-value"/>
-                      <XMRef idref="Thmtheorem7.p1.m4.2"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                      <XMApp xml:id="Thmtheorem7.p1.m4.2">
-                        <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                        <XMApp>
-                          <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                          <XMTok font="upright" name="Phi" role="UNKNOWN">Φ</XMTok>
-                          <XMTok font="upright" fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
-                        </XMApp>
-                        <XMDual>
-                          <XMRef idref="Thmtheorem7.p1.m4.1"/>
-                          <XMWrap>
-                            <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                            <XMTok role="UNKNOWN" xml:id="Thmtheorem7.p1.m4.1">x</XMTok>
-                            <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                          </XMWrap>
-                        </XMDual>
-                      </XMApp>
-                      <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                  <XMTok name="mu" role="UNKNOWN">μ</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem7.p1.m5">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="closed-interval"/>
-                      <XMRef idref="Thmtheorem7.p1.m5.1"/>
-                      <XMRef idref="Thmtheorem7.p1.m5.2"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">[</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem7.p1.m5.1">a</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem7.p1.m5.2">b</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">]</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                </XMApp>
-              </XMath>
-            </Math>.
-Suppose also that <Math mode="inline" tex="\psi\in C^{1}(\mathbb{R})" text="psi element-of C ^ 1 * R" xml:id="Thmtheorem7.p1.m6">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="psi" role="UNKNOWN">ψ</XMTok>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMDual>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">C</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem7.p1.m6.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok font="blackboard upright" role="UNKNOWN" xml:id="Thmtheorem7.p1.m6.1">R</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok meaning="absolute-value"/>
+                    <XMRef idref="Thmtheorem7.p1.m4.2"/>
                   </XMApp>
+                  <XMWrap>
+                    <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                    <XMApp xml:id="Thmtheorem7.p1.m4.2">
+                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                      <XMApp>
+                        <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                        <XMTok name="Phi" role="UNKNOWN">Φ</XMTok>
+                        <XMTok fontsize="70%" name="prime2" role="SUPOP">′′</XMTok>
+                      </XMApp>
+                      <XMDual>
+                        <XMRef idref="Thmtheorem7.p1.m4.1"/>
+                        <XMWrap>
+                          <XMTok role="OPEN" stretchy="false">(</XMTok>
+                          <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem7.p1.m4.1">x</XMTok>
+                          <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                        </XMWrap>
+                      </XMDual>
+                    </XMApp>
+                    <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                  </XMWrap>
+                </XMDual>
+                <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> for all <Math mode="inline" tex="x\in[a,b]" text="x element-of closed-interval@(a, b)" xml:id="Thmtheorem7.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="closed-interval"/>
+                    <XMRef idref="Thmtheorem7.p1.m5.1"/>
+                    <XMRef idref="Thmtheorem7.p1.m5.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">[</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem7.p1.m5.1">a</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem7.p1.m5.2">b</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">]</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math>.
+Suppose also that <Math mode="inline" tex="\psi\in C^{1}(\mathbb{R})" text="psi element-of C ^ 1 * R" xml:id="Thmtheorem7.p1.m6">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="psi" role="UNKNOWN">ψ</XMTok>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMApp>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">C</XMTok>
+                    <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                  </XMApp>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem7.p1.m6.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="blackboard" role="UNKNOWN" xml:id="Thmtheorem7.p1.m6.1">R</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>.
+              </XMApp>
+            </XMath>
+          </Math>.
 Then
-with</text></p>
+with</p>
         <equation xml:id="S1.Ex48">
           <Math mode="display" tex="c_{\psi}=8\left(|\psi(b)|+\int_{a}^{b}|\psi^{\prime}(x)|dx\right)," text="c _ psi = 8 * (absolute-value@(psi * b) + ((integral _ a) ^ b)@(absolute-value@(psi ^ prime * x) * differential-d@(x)))" xml:id="S1.Ex48.m1">
             <XMath>
@@ -8960,7 +8960,7 @@ with</text></p>
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">we have</text></p>
+        <p>we have</p>
         <equation xml:id="S1.Ex49">
           <Math mode="display" tex="\left|\int_{a}^{b}e^{i\lambda\Phi(x)}\psi(x)dx\right|\leq c_{\psi}\mu^{-1/2}%&#10;\lambda^{-1/2},\qquad\lambda&gt;0." text="formulae@(absolute-value@(((integral _ a) ^ b)@(e ^ (i * lambda * Phi * x) * psi * x * differential-d@(x))) less= c _ psi * mu ^ (- 1 / 2) * lambda ^ (- 1 / 2), lambda &gt; 0)" xml:id="S1.Ex49.m1">
             <XMath>
@@ -9078,9 +9078,9 @@ with</text></p>
             </XMath>
           </Math>
         </equation>
-      </para>
+<!--  %**** oscillatory.tex Line 325 **** -->      </para>
     </theorem>
-<!--  %**** oscillatory.tex Line 325 **** -->    <proof>
+    <proof>
       <title class="ltx_runin" font="italic">Proof.</title>
       <para xml:id="S1.p14">
         <p>Define <Math mode="inline" tex="J:[a,b]\to\mathbb{C}" text="J colon closed-interval@(a, b) to C" xml:id="S1.p14.m1">
@@ -9791,7 +9791,7 @@ Integrating by parts,</p>
 ∎</p>
       </para>
     </proof>
-  </section>
+<!--  %**** oscillatory.tex Line 350 **** -->  </section>
   <section inlist="toc" xml:id="S2">
     <tags>
       <tag>2</tag>
@@ -9799,7 +9799,7 @@ Integrating by parts,</p>
       <tag role="typerefnum">§2</tag>
     </tags>
     <title><tag close=" ">2</tag>Bessel functions</title>
-<!--  %**** oscillatory.tex Line 350 **** -->    <para xml:id="S2.p1">
+    <para xml:id="S2.p1">
       <p>For <Math mode="inline" tex="n\in\mathbb{Z}" text="n element-of Z" xml:id="S2.p1.m1">
           <XMath>
             <XMApp>
@@ -10691,7 +10691,7 @@ which gives us</p>
             </XMApp>
           </XMath>
         </Math> we compute
-<Math mode="inline" tex="c_{\psi}=8\left(1+\frac{\pi n}{2}\right)" text="c _ psi = 8 * (1 + (pi * n) / 2)" xml:id="S2.p2.m6">
+<!--  %**** oscillatory.tex Line 375 **** --><Math mode="inline" tex="c_{\psi}=8\left(1+\frac{\pi n}{2}\right)" text="c _ psi = 8 * (1 + (pi * n) / 2)" xml:id="S2.p2.m6">
           <XMath>
             <XMApp>
               <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -10726,8 +10726,7 @@ which gives us</p>
               </XMApp>
             </XMApp>
           </XMath>
-        </Math>, which gives us
-<!--  %**** oscillatory.tex Line 375 **** --></p>
+        </Math>, which gives us</p>
       <equation xml:id="S2.Ex58">
         <Math mode="display" tex="\left|\int_{I_{k}}e^{i\lambda\Phi(x)}\psi(x)dx\right|\leq c_{\psi}\mu^{-1/2}%&#10;\lambda^{-1/2}=8\left(1+\frac{\pi n}{2}\right)\cdot 2^{1/4}\cdot\lambda^{-1/2}." text="absolute-value@((integral _ I _ k)@(e ^ (i * lambda * Phi * x) * psi * x * differential-d@(x))) less= c _ psi * mu ^ (- 1 / 2) * lambda ^ (- 1 / 2) = (8 * (1 + (pi * n) / 2)) cdot 2 ^ (1 / 4) cdot lambda ^ (- 1 / 2)" xml:id="S2.Ex58.m1">
           <XMath>

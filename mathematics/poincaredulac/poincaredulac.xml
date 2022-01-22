@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/staging/poincaredulac"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/mathematics/poincaredulac"?>
 <?latexml class="article"?>
 <?latexml package="amssymb,mathrsfs,amsmath,amsthm"?>
 <?latexml RelaxNGSchema="LaTeXML"?>
@@ -20,8 +20,8 @@
     <title><tag close=" ">1</tag>Introduction</title>
     <para xml:id="S1.p1">
       <p>In this note we present proofs of the Poincaré normal form theorem and the Poincaré-Dulac normal form theorem for
-formal vector fields. Other accounts in the literature do not explicitly work out the proofs by induction of these theorems.
-<!--  %**** poincaredulac.tex Line 25 **** -->Our presentation is a more precise and detailed version of the presentation in <cite class="ltx_citemacro_cite">[<bibref bibrefs="analytic" separator="," yyseparator=","/>, §§3–5]</cite>. These topics are also covered in <cite class="ltx_citemacro_cite">[<bibref bibrefs="encyclopedia" separator="," yyseparator=","/>, §I.3]</cite>, <cite class="ltx_citemacro_cite">[<bibref bibrefs="arnold1988" separator="," yyseparator=","/>, Chapter 5]</cite>, and <cite class="ltx_citemacro_cite">[<bibref bibrefs="poisson" separator="," yyseparator=","/>, §A.5]</cite>.
+<!--  %**** poincaredulac.tex Line 25 **** -->formal vector fields. Other accounts in the literature do not explicitly work out the proofs by induction of these theorems.
+Our presentation is a more precise and detailed version of the presentation in <cite class="ltx_citemacro_cite">[<bibref bibrefs="analytic" separator="," yyseparator=","/>, §§3–5]</cite>. These topics are also covered in <cite class="ltx_citemacro_cite">[<bibref bibrefs="encyclopedia" separator="," yyseparator=","/>, §I.3]</cite>, <cite class="ltx_citemacro_cite">[<bibref bibrefs="arnold1988" separator="," yyseparator=","/>, Chapter 5]</cite>, and <cite class="ltx_citemacro_cite">[<bibref bibrefs="poisson" separator="," yyseparator=","/>, §A.5]</cite>.
 The history of the problem
 of normalization of vector fields is presented by Yakovenko in review 96a:34021 in Mathematical Reviews. The computation of normal forms is discussed in <cite class="ltx_citemacro_cite">[<bibref bibrefs="scheurle" separator="," yyseparator=","/>]</cite> and <cite class="ltx_citemacro_cite">[<bibref bibrefs="wiggins" separator="," yyseparator=","/>, Chapter 19]</cite>.</p>
     </para>
@@ -597,9 +597,10 @@ vector fields to their Poincaré normal form and Poincaré-Dulac normal form.</p
               <XMTok font="fraktur" role="UNKNOWN">g</XMTok>
             </XMApp>
           </XMath>
-        </Math>.</p>
+        </Math>.
+<!--  %**** poincaredulac.tex Line 50 **** --></p>
     </para>
-<!--  %**** poincaredulac.tex Line 50 **** -->    <para xml:id="S2.p3">
+    <para xml:id="S2.p3">
       <p>Let <Math mode="inline" tex="\mathfrak{m}\subset\mathbb{C}[[x]]" text="m subset-of C * delimited-[]@(delimited-[]@(x))" xml:id="S2.p3.m1">
           <XMath>
             <XMApp>
@@ -1285,9 +1286,10 @@ in the variables <Math mode="inline" tex="x_{1},\ldots,x_{n}" text="list@(x _ 1,
               <XMTok font="fraktur" role="UNKNOWN">g</XMTok>
             </XMApp>
           </XMath>
-        </Math>.</p>
+        </Math>.
+<!--  %**** poincaredulac.tex Line 75 **** --></p>
     </para>
-<!--  %**** poincaredulac.tex Line 75 **** -->    <para xml:id="S2.p6">
+    <para xml:id="S2.p6">
       <p>For a formal vector field <Math mode="inline" tex="F" text="F" xml:id="S2.p6.m1">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">F</XMTok>
@@ -1507,121 +1509,121 @@ in the variables <Math mode="inline" tex="x_{1},\ldots,x_{n}" text="list@(x _ 1,
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 1</text></tag>.</title>
       <para xml:id="Thmtheorem1.p1">
-        <p><text font="italic">If <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem1.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">H</XMTok>
-              </XMath>
-            </Math> is a formal map and <Math mode="inline" tex="\frac{\partial H}{\partial x}(0)" text="(partial-differential@(H) / partial-differential@(x)) * 0" xml:id="Thmtheorem1.p1.m2">
-              <XMath>
+        <p>If <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem1.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">H</XMTok>
+            </XMath>
+          </Math> is a formal map and <Math mode="inline" tex="\frac{\partial H}{\partial x}(0)" text="(partial-differential@(H) / partial-differential@(x)) * 0" xml:id="Thmtheorem1.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                <XMApp>
+                  <XMTok mathstyle="text" meaning="divide" role="FRACOP"/>
+                  <XMApp>
+                    <XMTok fontsize="70%" meaning="partial-differential" name="partial" role="OPERATOR">∂</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">H</XMTok>
+                  </XMApp>
+                  <XMApp>
+                    <XMTok fontsize="70%" meaning="partial-differential" name="partial" role="OPERATOR">∂</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">x</XMTok>
+                  </XMApp>
+                </XMApp>
+                <XMDual>
+                  <XMRef idref="Thmtheorem1.p1.m2.1"/>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">(</XMTok>
+                    <XMTok meaning="0" role="NUMBER" xml:id="Thmtheorem1.p1.m2.1">0</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math> is invertible, then there is a formal map <Math mode="inline" tex="H^{-1}" text="H ^ (- 1)" xml:id="Thmtheorem1.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">H</XMTok>
+                <XMApp>
+                  <XMTok fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
+                  <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math> such that <Math mode="inline" tex="H(H^{-1}(x))=x" text="H * H ^ (- 1) * x = x" xml:id="Thmtheorem1.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
                 <XMApp>
                   <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                  <XMApp>
-                    <XMTok mathstyle="text" meaning="divide" role="FRACOP"/>
-                    <XMApp>
-                      <XMTok font="upright" fontsize="70%" meaning="partial-differential" name="partial" role="OPERATOR">∂</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">H</XMTok>
-                    </XMApp>
-                    <XMApp>
-                      <XMTok font="upright" fontsize="70%" meaning="partial-differential" name="partial" role="OPERATOR">∂</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">x</XMTok>
-                    </XMApp>
-                  </XMApp>
+                  <XMTok font="italic" role="UNKNOWN">H</XMTok>
                   <XMDual>
-                    <XMRef idref="Thmtheorem1.p1.m2.1"/>
+                    <XMRef idref="Thmtheorem1.p1.m4.2"/>
                     <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                      <XMTok font="upright" meaning="0" role="NUMBER" xml:id="Thmtheorem1.p1.m2.1">0</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMApp xml:id="Thmtheorem1.p1.m4.2">
+                        <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                        <XMApp>
+                          <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                          <XMTok font="italic" role="UNKNOWN">H</XMTok>
+                          <XMApp>
+                            <XMTok fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
+                            <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                          </XMApp>
+                        </XMApp>
+                        <XMDual>
+                          <XMRef idref="Thmtheorem1.p1.m4.1"/>
+                          <XMWrap>
+                            <XMTok role="OPEN" stretchy="false">(</XMTok>
+                            <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem1.p1.m4.1">x</XMTok>
+                            <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                          </XMWrap>
+                        </XMDual>
+                      </XMApp>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
                     </XMWrap>
                   </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> is invertible, then there is a formal map <Math mode="inline" tex="H^{-1}" text="H ^ (- 1)" xml:id="Thmtheorem1.p1.m3">
-              <XMath>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and <Math mode="inline" tex="H^{-1}(H(x))=x" text="H ^ (- 1) * H * x = x" xml:id="Thmtheorem1.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
                 <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">H</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
-                    <XMTok font="upright" fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
-                    <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math> such that <Math mode="inline" tex="H(H^{-1}(x))=x" text="H * H ^ (- 1) * x = x" xml:id="Thmtheorem1.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">H</XMTok>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem1.p1.m4.2"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMApp xml:id="Thmtheorem1.p1.m4.2">
-                          <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                          <XMApp>
-                            <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                            <XMTok role="UNKNOWN">H</XMTok>
-                            <XMApp>
-                              <XMTok font="upright" fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
-                              <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                            </XMApp>
-                          </XMApp>
-                          <XMDual>
-                            <XMRef idref="Thmtheorem1.p1.m4.1"/>
-                            <XMWrap>
-                              <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                              <XMTok role="UNKNOWN" xml:id="Thmtheorem1.p1.m4.1">x</XMTok>
-                              <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                            </XMWrap>
-                          </XMDual>
-                        </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> and <Math mode="inline" tex="H^{-1}(H(x))=x" text="H ^ (- 1) * H * x = x" xml:id="Thmtheorem1.p1.m5">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">H</XMTok>
                     <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">H</XMTok>
-                      <XMApp>
-                        <XMTok font="upright" fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
-                        <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                      </XMApp>
+                      <XMTok fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
+                      <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
                     </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem1.p1.m5.2"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMApp xml:id="Thmtheorem1.p1.m5.2">
-                          <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                          <XMTok role="UNKNOWN">H</XMTok>
-                          <XMDual>
-                            <XMRef idref="Thmtheorem1.p1.m5.1"/>
-                            <XMWrap>
-                              <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                              <XMTok role="UNKNOWN" xml:id="Thmtheorem1.p1.m5.1">x</XMTok>
-                              <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                            </XMWrap>
-                          </XMDual>
-                        </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
                   </XMApp>
-                  <XMTok role="UNKNOWN">x</XMTok>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem1.p1.m5.2"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMApp xml:id="Thmtheorem1.p1.m5.2">
+                        <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                        <XMTok font="italic" role="UNKNOWN">H</XMTok>
+                        <XMDual>
+                          <XMRef idref="Thmtheorem1.p1.m5.1"/>
+                          <XMWrap>
+                            <XMTok role="OPEN" stretchy="false">(</XMTok>
+                            <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem1.p1.m5.1">x</XMTok>
+                            <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                          </XMWrap>
+                        </XMDual>
+                      </XMApp>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>.</text></p>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <para xml:id="S2.p8">
@@ -1635,44 +1637,44 @@ in the variables <Math mode="inline" tex="x_{1},\ldots,x_{n}" text="list@(x _ 1,
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 2</text></tag>.</title>
       <para xml:id="Thmtheorem2.p1">
-        <p><text font="italic">If a formal vector field <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem2.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">F</XMTok>
-              </XMath>
-            </Math> has linearization <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem2.p1.m2">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> and <Math mode="inline" tex="A=QBQ^{-1}" text="A = Q * B * Q ^ (- 1)" xml:id="Thmtheorem2.p1.m3">
-              <XMath>
+        <p>If a formal vector field <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem2.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">F</XMTok>
+            </XMath>
+          </Math> has linearization <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem2.p1.m2">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> and <Math mode="inline" tex="A=QBQ^{-1}" text="A = Q * B * Q ^ (- 1)" xml:id="Thmtheorem2.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMTok font="italic" role="UNKNOWN">A</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMTok role="UNKNOWN">A</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">Q</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">B</XMTok>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">Q</XMTok>
-                    <XMTok role="UNKNOWN">B</XMTok>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">Q</XMTok>
                     <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">Q</XMTok>
-                      <XMApp>
-                        <XMTok font="upright" fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
-                        <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                      </XMApp>
+                      <XMTok fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
+                      <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
                     </XMApp>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math>, then
+              </XMApp>
+            </XMath>
+          </Math>, then
 <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem2.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">F</XMTok>
-              </XMath>
-            </Math> is equivalent to a formal vector field with linearization <Math mode="inline" tex="B" text="B" xml:id="Thmtheorem2.p1.m5">
-              <XMath>
-                <XMTok role="UNKNOWN">B</XMTok>
-              </XMath>
-            </Math>.</text></p>
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">F</XMTok>
+            </XMath>
+          </Math> is equivalent to a formal vector field with linearization <Math mode="inline" tex="B" text="B" xml:id="Thmtheorem2.p1.m5">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">B</XMTok>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
@@ -1782,7 +1784,7 @@ define <Math mode="inline" tex="F^{\prime}" text="F ^ prime" xml:id="S2.p9.m2">
                     <XMTok meaning="multirelation"/>
                     <XMApp>
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                      <XMApp>
+<!--  %**** poincaredulac.tex Line 100 **** -->                      <XMApp>
                         <XMTok mathstyle="display" meaning="divide" role="FRACOP"/>
                         <XMApp>
                           <XMTok meaning="partial-differential" name="partial" role="OPERATOR">∂</XMTok>
@@ -1856,7 +1858,7 @@ define <Math mode="inline" tex="F^{\prime}" text="F ^ prime" xml:id="S2.p9.m2">
                     <XMTok font="italic" role="UNKNOWN">B</XMTok>
                   </XMApp>
                   <XMTok role="PUNCT">,</XMTok>
-<!--  %**** poincaredulac.tex Line 100 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -2168,55 +2170,55 @@ so it follows that any nonresonant formal vector field with constant term <Math 
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 3</text></tag>.</title>
       <para xml:id="Thmtheorem3.p1">
-        <p><text font="italic">If <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem3.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">F</XMTok>
-              </XMath>
-            </Math> is a nonresonant formal vector field with constant term <Math mode="inline" tex="0" text="0" xml:id="Thmtheorem3.p1.m2">
-              <XMath>
-                <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-              </XMath>
-            </Math> and the linearization <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem3.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> of <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem3.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">F</XMTok>
-              </XMath>
-            </Math> is in Jordan normal form, then <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem3.p1.m5">
-              <XMath>
-                <XMTok role="UNKNOWN">F</XMTok>
-              </XMath>
-            </Math> is equivalent to the formal vector field <Math mode="inline" tex="F^{\prime}" text="F ^ prime" xml:id="Thmtheorem3.p1.m6">
-              <XMath>
+        <p>If <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem3.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">F</XMTok>
+            </XMath>
+          </Math> is a nonresonant formal vector field with constant term <Math mode="inline" tex="0" text="0" xml:id="Thmtheorem3.p1.m2">
+            <XMath>
+              <XMTok meaning="0" role="NUMBER">0</XMTok>
+            </XMath>
+          </Math> and the linearization <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem3.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> of <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem3.p1.m4">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">F</XMTok>
+            </XMath>
+          </Math> is in Jordan normal form, then <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem3.p1.m5">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">F</XMTok>
+            </XMath>
+          </Math> is equivalent to the formal vector field <Math mode="inline" tex="F^{\prime}" text="F ^ prime" xml:id="Thmtheorem3.p1.m6">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">F</XMTok>
+                <XMTok fontsize="70%" name="prime" role="SUPOP">′</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> defined by <Math mode="inline" tex="F^{\prime}x=Ax" text="F ^ prime * x = A * x" xml:id="Thmtheorem3.p1.m7">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
                 <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">F</XMTok>
-                  <XMTok font="upright" fontsize="70%" name="prime" role="SUPOP">′</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMApp>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">F</XMTok>
+                    <XMTok fontsize="70%" name="prime" role="SUPOP">′</XMTok>
+                  </XMApp>
+                  <XMTok font="italic" role="UNKNOWN">x</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> defined by <Math mode="inline" tex="F^{\prime}x=Ax" text="F ^ prime * x = A * x" xml:id="Thmtheorem3.p1.m7">
-              <XMath>
                 <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">F</XMTok>
-                      <XMTok font="upright" fontsize="70%" name="prime" role="SUPOP">′</XMTok>
-                    </XMApp>
-                    <XMTok role="UNKNOWN">x</XMTok>
-                  </XMApp>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">A</XMTok>
-                    <XMTok role="UNKNOWN">x</XMTok>
-                  </XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">A</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">x</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>.</text></p>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
@@ -2235,7 +2237,8 @@ Let <Math mode="inline" tex="F_{2}=F" text="F _ 2 = F" xml:id="S3.p2.m1">
                 <XMTok font="italic" role="UNKNOWN">F</XMTok>
               </XMApp>
             </XMath>
-          </Math>. We can write</p>
+          </Math>. We can write
+<!--  %**** poincaredulac.tex Line 125 **** --></p>
         <equation xml:id="S3.Ex9">
           <Math mode="display" tex="F_{2}(x)=Ax+\sum_{j=2}^{\infty}V_{2}^{j}(x)" text="F _ 2 * x = A * x + ((sum _ (j = 2)) ^ infinity)@((V _ 2) ^ j * x)" xml:id="S3.Ex9.m1">
             <XMath>
@@ -2245,7 +2248,7 @@ Let <Math mode="inline" tex="F_{2}=F" text="F _ 2 = F" xml:id="S3.p2.m1">
                   <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
                     <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-<!--  %**** poincaredulac.tex Line 125 **** -->                    <XMTok font="italic" role="UNKNOWN">F</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">F</XMTok>
                     <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
                   </XMApp>
                   <XMDual>
@@ -3595,7 +3598,7 @@ Then the terms <Math mode="inline" tex="V^{j}_{m+1}" text="(V ^ j) _ (m + 1)" xm
               </XMApp>
             </XMath>
           </Math> by (<ref labelref="LABEL:Fm1"/>), the formal vector fields
-<Math mode="inline" tex="F_{m},F_{m+1}" text="list@(F _ m, F _ (m + 1))" xml:id="S3.p4.m7">
+<!--  %**** poincaredulac.tex Line 175 **** --><Math mode="inline" tex="F_{m},F_{m+1}" text="list@(F _ m, F _ (m + 1))" xml:id="S3.p4.m7">
             <XMath>
               <XMDual>
                 <XMApp>
@@ -3622,8 +3625,7 @@ Then the terms <Math mode="inline" tex="V^{j}_{m+1}" text="(V ^ j) _ (m + 1)" xm
                 </XMWrap>
               </XMDual>
             </XMath>
-          </Math> are equivalent.
-<!--  %**** poincaredulac.tex Line 175 **** --></p>
+          </Math> are equivalent.</p>
       </para>
       <para xml:id="S3.p5">
         <p>Then
@@ -4428,124 +4430,124 @@ before <Math mode="inline" tex="x^{\alpha}x_{j+1}e_{j+1}" text="x ^ alpha * x _ 
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 4</text></tag>.</title>
       <para xml:id="Thmtheorem4.p1">
-        <p><text font="italic">If <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem4.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> is in Jordan normal form, then in the ordered basis <Math mode="inline" tex="F_{k,\alpha}" text="F _ (list@(k, alpha))" xml:id="Thmtheorem4.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">F</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="list"/>
-                      <XMRef idref="Thmtheorem4.p1.m2.1"/>
-                      <XMRef idref="Thmtheorem4.p1.m2.2"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok fontsize="70%" role="UNKNOWN" xml:id="Thmtheorem4.p1.m2.1">k</XMTok>
-                      <XMTok font="upright" fontsize="70%" role="PUNCT">,</XMTok>
-                      <XMTok fontsize="70%" name="alpha" role="UNKNOWN" xml:id="Thmtheorem4.p1.m2.2">α</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                </XMApp>
-              </XMath>
-            </Math> of <Math mode="inline" tex="\mathscr{D}_{m}" text="D _ m" xml:id="Thmtheorem4.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok font="script upright" role="UNKNOWN">D</XMTok>
-                  <XMTok fontsize="70%" role="UNKNOWN">m</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, <Math mode="inline" tex="\operatorname{ad}_{A}|_{\mathscr{D}_{m}}" text="evaluated-at@(ad _ A, D _ m)" xml:id="Thmtheorem4.p1.m4">
-              <XMath>
+        <p>If <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem4.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> is in Jordan normal form, then in the ordered basis <Math mode="inline" tex="F_{k,\alpha}" text="F _ (list@(k, alpha))" xml:id="Thmtheorem4.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">F</XMTok>
                 <XMDual>
                   <XMApp>
-                    <XMTok meaning="evaluated-at"/>
-                    <XMRef idref="Thmtheorem4.p1.m4.2"/>
-                    <XMRef idref="Thmtheorem4.p1.m4.1"/>
+                    <XMTok meaning="list"/>
+                    <XMRef idref="Thmtheorem4.p1.m2.1"/>
+                    <XMRef idref="Thmtheorem4.p1.m2.2"/>
                   </XMApp>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMWrap>
-                      <XMApp xml:id="Thmtheorem4.p1.m4.2">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok font="upright" role="OPFUNCTION" scriptpos="post">ad</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN">A</XMTok>
-                      </XMApp>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">|</XMTok>
-                    </XMWrap>
-                    <XMApp xml:id="Thmtheorem4.p1.m4.1">
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post2"/>
-                      <XMTok font="script upright" fontsize="70%" role="UNKNOWN">D</XMTok>
-                      <XMTok fontsize="50%" role="UNKNOWN">m</XMTok>
-                    </XMApp>
-                  </XMApp>
+                  <XMWrap>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN" xml:id="Thmtheorem4.p1.m2.1">k</XMTok>
+                    <XMTok fontsize="70%" role="PUNCT">,</XMTok>
+                    <XMTok font="italic" fontsize="70%" name="alpha" role="UNKNOWN" xml:id="Thmtheorem4.p1.m2.2">α</XMTok>
+                  </XMWrap>
                 </XMDual>
-              </XMath>
-            </Math> is a lower triangular matrix with diagonal entries
+              </XMApp>
+            </XMath>
+          </Math> of <Math mode="inline" tex="\mathscr{D}_{m}" text="D _ m" xml:id="Thmtheorem4.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="script" role="UNKNOWN">D</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">m</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, <Math mode="inline" tex="\operatorname{ad}_{A}|_{\mathscr{D}_{m}}" text="evaluated-at@(ad _ A, D _ m)" xml:id="Thmtheorem4.p1.m4">
+            <XMath>
+              <XMDual>
+                <XMApp>
+                  <XMTok meaning="evaluated-at"/>
+                  <XMRef idref="Thmtheorem4.p1.m4.2"/>
+                  <XMRef idref="Thmtheorem4.p1.m4.1"/>
+                </XMApp>
+                <XMApp>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMWrap>
+                    <XMApp xml:id="Thmtheorem4.p1.m4.2">
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok role="OPFUNCTION" scriptpos="post">ad</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">A</XMTok>
+                    </XMApp>
+                    <XMTok role="CLOSE" stretchy="false">|</XMTok>
+                  </XMWrap>
+                  <XMApp xml:id="Thmtheorem4.p1.m4.1">
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post2"/>
+                    <XMTok font="script" fontsize="70%" role="UNKNOWN">D</XMTok>
+                    <XMTok font="italic" fontsize="50%" role="UNKNOWN">m</XMTok>
+                  </XMApp>
+                </XMApp>
+              </XMDual>
+            </XMath>
+          </Math> is a lower triangular matrix with diagonal entries
 <Math mode="inline" tex="\langle\lambda,\alpha\rangle-\lambda_{k}" text="list@(lambda, alpha) - lambda _ k" xml:id="Thmtheorem4.p1.m5">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="minus" role="ADDOP">-</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="list"/>
-                      <XMRef idref="Thmtheorem4.p1.m5.1"/>
-                      <XMRef idref="Thmtheorem4.p1.m5.2"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" name="langle" role="OPEN" stretchy="false">⟨</XMTok>
-                      <XMTok name="lambda" role="UNKNOWN" xml:id="Thmtheorem4.p1.m5.1">λ</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok name="alpha" role="UNKNOWN" xml:id="Thmtheorem4.p1.m5.2">α</XMTok>
-                      <XMTok font="upright" name="rangle" role="CLOSE" stretchy="false">⟩</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok name="lambda" role="UNKNOWN">λ</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">k</XMTok>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math>, and if <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem4.p1.m6">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> if diagonal then <Math mode="inline" tex="\operatorname{ad}_{A}|_{\mathscr{D}_{m}}" text="evaluated-at@(ad _ A, D _ m)" xml:id="Thmtheorem4.p1.m7">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="minus" role="ADDOP">-</XMTok>
                 <XMDual>
                   <XMApp>
-                    <XMTok meaning="evaluated-at"/>
-                    <XMRef idref="Thmtheorem4.p1.m7.2"/>
-                    <XMRef idref="Thmtheorem4.p1.m7.1"/>
+                    <XMTok meaning="list"/>
+                    <XMRef idref="Thmtheorem4.p1.m5.1"/>
+                    <XMRef idref="Thmtheorem4.p1.m5.2"/>
                   </XMApp>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMWrap>
-                      <XMApp xml:id="Thmtheorem4.p1.m7.2">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok font="upright" role="OPFUNCTION" scriptpos="post">ad</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN">A</XMTok>
-                      </XMApp>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">|</XMTok>
-                    </XMWrap>
-                    <XMApp xml:id="Thmtheorem4.p1.m7.1">
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post2"/>
-                      <XMTok font="script upright" fontsize="70%" role="UNKNOWN">D</XMTok>
-                      <XMTok fontsize="50%" role="UNKNOWN">m</XMTok>
-                    </XMApp>
-                  </XMApp>
+                  <XMWrap>
+                    <XMTok name="langle" role="OPEN" stretchy="false">⟨</XMTok>
+                    <XMTok font="italic" name="lambda" role="UNKNOWN" xml:id="Thmtheorem4.p1.m5.1">λ</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" name="alpha" role="UNKNOWN" xml:id="Thmtheorem4.p1.m5.2">α</XMTok>
+                    <XMTok name="rangle" role="CLOSE" stretchy="false">⟩</XMTok>
+                  </XMWrap>
                 </XMDual>
-              </XMath>
-            </Math> is diagonal.</text></p>
+                <XMApp>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" name="lambda" role="UNKNOWN">λ</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">k</XMTok>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math>, and if <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem4.p1.m6">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> if diagonal then <Math mode="inline" tex="\operatorname{ad}_{A}|_{\mathscr{D}_{m}}" text="evaluated-at@(ad _ A, D _ m)" xml:id="Thmtheorem4.p1.m7">
+            <XMath>
+              <XMDual>
+                <XMApp>
+                  <XMTok meaning="evaluated-at"/>
+                  <XMRef idref="Thmtheorem4.p1.m7.2"/>
+                  <XMRef idref="Thmtheorem4.p1.m7.1"/>
+                </XMApp>
+                <XMApp>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMWrap>
+                    <XMApp xml:id="Thmtheorem4.p1.m7.2">
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok role="OPFUNCTION" scriptpos="post">ad</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">A</XMTok>
+                    </XMApp>
+                    <XMTok role="CLOSE" stretchy="false">|</XMTok>
+                  </XMWrap>
+                  <XMApp xml:id="Thmtheorem4.p1.m7.1">
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post2"/>
+                    <XMTok font="script" fontsize="70%" role="UNKNOWN">D</XMTok>
+                    <XMTok font="italic" fontsize="50%" role="UNKNOWN">m</XMTok>
+                  </XMApp>
+                </XMApp>
+              </XMDual>
+            </XMath>
+          </Math> is diagonal.</p>
       </para>
     </theorem>
-    <proof>
-      <title class="ltx_runin" font="italic"><!--  %**** poincaredulac.tex Line 200 **** -->Proof.</title>
+<!--  %**** poincaredulac.tex Line 200 **** -->    <proof>
+      <title class="ltx_runin" font="italic">Proof.</title>
       <para xml:id="S3.p8">
         <p>Let <Math mode="inline" tex="A" text="A" xml:id="S3.p8.m1">
             <XMath>
@@ -5195,7 +5197,7 @@ hence</p>
             </XMath>
           </Math>
         </equation>
-        <p>Then <Math mode="inline" tex="\operatorname{ad}_{\Lambda}F_{k,\alpha}(x)=\frac{\partial F_{k,\alpha}}{%&#10;\partial x}(x)Ax-AF_{k,\alpha}(x)=(\langle\lambda,\alpha\rangle-\lambda_{k})F_%&#10;{k,\alpha}(x)" text="(ad _ Lambda)@(F _ (list@(k, alpha))) * x = (partial-differential@(F _ (list@(k, alpha))) / partial-differential@(x)) * x * A * x - A * F _ (list@(k, alpha)) * x = (list@(lambda, alpha) - lambda _ k) * F _ (list@(k, alpha)) * x" xml:id="S3.p9.m9">
+<!--  %**** poincaredulac.tex Line 225 **** -->        <p>Then <Math mode="inline" tex="\operatorname{ad}_{\Lambda}F_{k,\alpha}(x)=\frac{\partial F_{k,\alpha}}{%&#10;\partial x}(x)Ax-AF_{k,\alpha}(x)=(\langle\lambda,\alpha\rangle-\lambda_{k})F_%&#10;{k,\alpha}(x)" text="(ad _ Lambda)@(F _ (list@(k, alpha))) * x = (partial-differential@(F _ (list@(k, alpha))) / partial-differential@(x)) * x * A * x - A * F _ (list@(k, alpha)) * x = (list@(lambda, alpha) - lambda _ k) * F _ (list@(k, alpha)) * x" xml:id="S3.p9.m9">
             <XMath>
               <XMApp>
                 <XMTok meaning="multirelation"/>
@@ -5274,7 +5276,7 @@ hence</p>
                     </XMDual>
                     <XMTok font="italic" role="UNKNOWN">A</XMTok>
                     <XMTok font="italic" role="UNKNOWN">x</XMTok>
-<!--  %**** poincaredulac.tex Line 225 **** -->                  </XMApp>
+                  </XMApp>
                   <XMApp>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
                     <XMTok font="italic" role="UNKNOWN">A</XMTok>
@@ -6010,57 +6012,57 @@ than the weight of <Math mode="inline" tex="F_{k,\alpha}" text="F _ (list@(k, al
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Corollary 5</text></tag>.</title>
       <para xml:id="Thmtheorem5.p1">
-        <p><text font="italic">If <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem5.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> is in Jordan normal form and <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem5.p1.m2">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> is nonresonant, then <Math mode="inline" tex="\operatorname{ad}_{A}|_{\mathscr{D}_{m}}:\mathscr{D}_{m}\to\mathscr{D}_{m}" text="evaluated-at@(ad _ A, D _ m) colon D _ m to D _ m" xml:id="Thmtheorem5.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="evaluated-at"/>
-                      <XMRef idref="Thmtheorem5.p1.m3.2"/>
-                      <XMRef idref="Thmtheorem5.p1.m3.1"/>
-                    </XMApp>
-                    <XMApp>
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMWrap>
-                        <XMApp xml:id="Thmtheorem5.p1.m3.2">
-                          <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                          <XMTok font="upright" role="OPFUNCTION" scriptpos="post">ad</XMTok>
-                          <XMTok fontsize="70%" role="UNKNOWN">A</XMTok>
-                        </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">|</XMTok>
-                      </XMWrap>
-                      <XMApp xml:id="Thmtheorem5.p1.m3.1">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post2"/>
-                        <XMTok font="script upright" fontsize="70%" role="UNKNOWN">D</XMTok>
-                        <XMTok fontsize="50%" role="UNKNOWN">m</XMTok>
-                      </XMApp>
-                    </XMApp>
-                  </XMDual>
+        <p>If <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem5.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> is in Jordan normal form and <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem5.p1.m2">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> is nonresonant, then <Math mode="inline" tex="\operatorname{ad}_{A}|_{\mathscr{D}_{m}}:\mathscr{D}_{m}\to\mathscr{D}_{m}" text="evaluated-at@(ad _ A, D _ m) colon D _ m to D _ m" xml:id="Thmtheorem5.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMDual>
                   <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMApp>
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="script upright" role="UNKNOWN">D</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">m</XMTok>
-                    </XMApp>
-                    <XMApp>
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="script upright" role="UNKNOWN">D</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">m</XMTok>
+                    <XMTok meaning="evaluated-at"/>
+                    <XMRef idref="Thmtheorem5.p1.m3.2"/>
+                    <XMRef idref="Thmtheorem5.p1.m3.1"/>
+                  </XMApp>
+                  <XMApp>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMWrap>
+                      <XMApp xml:id="Thmtheorem5.p1.m3.2">
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                        <XMTok role="OPFUNCTION" scriptpos="post">ad</XMTok>
+                        <XMTok font="italic" fontsize="70%" role="UNKNOWN">A</XMTok>
+                      </XMApp>
+                      <XMTok role="CLOSE" stretchy="false">|</XMTok>
+                    </XMWrap>
+                    <XMApp xml:id="Thmtheorem5.p1.m3.1">
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post2"/>
+                      <XMTok font="script" fontsize="70%" role="UNKNOWN">D</XMTok>
+                      <XMTok font="italic" fontsize="50%" role="UNKNOWN">m</XMTok>
                     </XMApp>
                   </XMApp>
+                </XMDual>
+                <XMApp>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMApp>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="script" role="UNKNOWN">D</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">m</XMTok>
+                  </XMApp>
+                  <XMApp>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="script" role="UNKNOWN">D</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">m</XMTok>
+                  </XMApp>
                 </XMApp>
-              </XMath>
-            </Math> is a linear isomorphism.</text></p>
+              </XMApp>
+            </XMath>
+          </Math> is a linear isomorphism.</p>
       </para>
     </theorem>
   </section>
@@ -6169,7 +6171,7 @@ the matrix <Math mode="inline" tex="\operatorname{ad}_{A}|_{\mathscr{D}_{m}}" te
                   <XMTok meaning="equals" role="RELOP">=</XMTok>
                   <XMApp>
                     <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok font="script" role="UNKNOWN">D</XMTok>
+<!--  %**** poincaredulac.tex Line 250 **** -->                    <XMTok font="script" role="UNKNOWN">D</XMTok>
                     <XMTok font="italic" fontsize="70%" role="UNKNOWN">m</XMTok>
                   </XMApp>
                   <XMApp>
@@ -6204,7 +6206,7 @@ the matrix <Math mode="inline" tex="\operatorname{ad}_{A}|_{\mathscr{D}_{m}}" te
                   </XMApp>
                 </XMApp>
                 <XMTok role="PUNCT">;</XMTok>
-<!--  %**** poincaredulac.tex Line 250 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -6266,95 +6268,95 @@ the matrix <Math mode="inline" tex="\operatorname{ad}_{A}|_{\mathscr{D}_{m}}" te
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 6</text></tag>.</title>
       <para xml:id="Thmtheorem6.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem6.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">F</XMTok>
-              </XMath>
-            </Math> be a formal vector field with constant term <Math mode="inline" tex="0" text="0" xml:id="Thmtheorem6.p1.m2">
-              <XMath>
-                <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-              </XMath>
-            </Math> whose linearization <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem6.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> is in Jordan normal form
+        <p>Let <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem6.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">F</XMTok>
+            </XMath>
+          </Math> be a formal vector field with constant term <Math mode="inline" tex="0" text="0" xml:id="Thmtheorem6.p1.m2">
+            <XMath>
+              <XMTok meaning="0" role="NUMBER">0</XMTok>
+            </XMath>
+          </Math> whose linearization <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem6.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> is in Jordan normal form
 and let <Math mode="inline" tex="\mathscr{N}_{m}" text="N _ m" xml:id="Thmtheorem6.p1.m4">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="script" role="UNKNOWN">N</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">m</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> satisfy
+<Math mode="inline" tex="\mathscr{D}_{m}=\mathscr{N}_{m}+\operatorname{ad}_{A}(\mathscr{D}_{m})" text="D _ m = N _ m + (ad _ A)@(D _ m)" xml:id="Thmtheorem6.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
                 <XMApp>
                   <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok font="script upright" role="UNKNOWN">N</XMTok>
-                  <XMTok fontsize="70%" role="UNKNOWN">m</XMTok>
+                  <XMTok font="script" role="UNKNOWN">D</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">m</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> satisfy
-<Math mode="inline" tex="\mathscr{D}_{m}=\mathscr{N}_{m}+\operatorname{ad}_{A}(\mathscr{D}_{m})" text="D _ m = N _ m + (ad _ A)@(D _ m)" xml:id="Thmtheorem6.p1.m5">
-              <XMath>
                 <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
+                  <XMTok meaning="plus" role="ADDOP">+</XMTok>
                   <XMApp>
                     <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok font="script upright" role="UNKNOWN">D</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">m</XMTok>
+                    <XMTok font="script" role="UNKNOWN">N</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">m</XMTok>
                   </XMApp>
-                  <XMApp>
-                    <XMTok font="upright" meaning="plus" role="ADDOP">+</XMTok>
+                  <XMDual>
                     <XMApp>
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="script upright" role="UNKNOWN">N</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">m</XMTok>
+                      <XMRef idref="Thmtheorem6.p1.m5.1"/>
+                      <XMRef idref="Thmtheorem6.p1.m5.2"/>
                     </XMApp>
-                    <XMDual>
-                      <XMApp>
-                        <XMRef idref="Thmtheorem6.p1.m5.1"/>
-                        <XMRef idref="Thmtheorem6.p1.m5.2"/>
+                    <XMApp>
+                      <XMApp xml:id="Thmtheorem6.p1.m5.1">
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                        <XMTok role="OPFUNCTION" scriptpos="post">ad</XMTok>
+                        <XMTok font="italic" fontsize="70%" role="UNKNOWN">A</XMTok>
                       </XMApp>
-                      <XMApp>
-                        <XMApp xml:id="Thmtheorem6.p1.m5.1">
+                      <XMWrap>
+                        <XMTok role="OPEN" stretchy="false">(</XMTok>
+                        <XMApp xml:id="Thmtheorem6.p1.m5.2">
                           <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                          <XMTok font="upright" role="OPFUNCTION" scriptpos="post">ad</XMTok>
-                          <XMTok fontsize="70%" role="UNKNOWN">A</XMTok>
+                          <XMTok font="script" role="UNKNOWN">D</XMTok>
+                          <XMTok font="italic" fontsize="70%" role="UNKNOWN">m</XMTok>
                         </XMApp>
-                        <XMWrap>
-                          <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                          <XMApp xml:id="Thmtheorem6.p1.m5.2">
-                            <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                            <XMTok font="script upright" role="UNKNOWN">D</XMTok>
-                            <XMTok fontsize="70%" role="UNKNOWN">m</XMTok>
-                          </XMApp>
-                          <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                        </XMWrap>
-                      </XMApp>
-                    </XMDual>
-                  </XMApp>
+                        <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                      </XMWrap>
+                    </XMApp>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>. Then <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem6.p1.m6">
-              <XMath>
-                <XMTok role="UNKNOWN">F</XMTok>
-              </XMath>
-            </Math> is equivalent to a formal vector
+              </XMApp>
+            </XMath>
+          </Math>. Then <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem6.p1.m6">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">F</XMTok>
+            </XMath>
+          </Math> is equivalent to a formal vector
 field with constant term <Math mode="inline" tex="0" text="0" xml:id="Thmtheorem6.p1.m7">
-              <XMath>
-                <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-              </XMath>
-            </Math> and linearization <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem6.p1.m8">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> whose nonlinear terms of degree <Math mode="inline" tex="m" text="m" xml:id="Thmtheorem6.p1.m9">
-              <XMath>
-                <XMTok role="UNKNOWN">m</XMTok>
-              </XMath>
-            </Math> belong to <Math mode="inline" tex="\mathscr{N}_{m}" text="N _ m" xml:id="Thmtheorem6.p1.m10">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok font="script upright" role="UNKNOWN">N</XMTok>
-                  <XMTok fontsize="70%" role="UNKNOWN">m</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>.</text></p>
+            <XMath>
+              <XMTok meaning="0" role="NUMBER">0</XMTok>
+            </XMath>
+          </Math> and linearization <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem6.p1.m8">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> whose nonlinear terms of degree <Math mode="inline" tex="m" text="m" xml:id="Thmtheorem6.p1.m9">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">m</XMTok>
+            </XMath>
+          </Math> belong to <Math mode="inline" tex="\mathscr{N}_{m}" text="N _ m" xml:id="Thmtheorem6.p1.m10">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="script" role="UNKNOWN">N</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">m</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
@@ -6938,9 +6940,10 @@ field with constant term <Math mode="inline" tex="0" text="0" xml:id="Thmtheorem
                 </XMDual>
               </XMApp>
             </XMath>
-          </Math>.</p>
+          </Math>.
+<!--  %**** poincaredulac.tex Line 275 **** --></p>
       </para>
-<!--  %**** poincaredulac.tex Line 275 **** -->      <para xml:id="S4.p3">
+      <para xml:id="S4.p3">
         <p>Let <Math mode="inline" tex="U^{j}_{m+1}\in\mathscr{D}_{j}" text="(U ^ j) _ (m + 1) element-of D _ j" xml:id="S4.p3.m1">
             <XMath>
               <XMApp>
@@ -7996,10 +7999,10 @@ we can check that <Math mode="inline" tex="H" text="H" xml:id="S4.p5.m9">
               </XMApp>
             </XMath>
           </Math>.
-∎</p>
+<!--  %**** poincaredulac.tex Line 300 **** -->∎</p>
       </para>
     </proof>
-<!--  %**** poincaredulac.tex Line 300 **** -->    <para xml:id="S4.p6">
+    <para xml:id="S4.p6">
       <p>If <Math mode="inline" tex="\lambda_{k}=\langle\lambda,\alpha\rangle" text="lambda _ k = list@(lambda, alpha)" xml:id="S4.p6.m1">
           <XMath>
             <XMApp>
@@ -8245,15 +8248,15 @@ are resonant monomial vectors with respect to <Math mode="inline" tex="A" text="
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 7</text></tag>.</title>
       <para xml:id="Thmtheorem7.p1">
-        <p><text font="italic">A formal vector field with constant term <Math mode="inline" tex="0" text="0" xml:id="Thmtheorem7.p1.m1">
-              <XMath>
-                <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-              </XMath>
-            </Math> whose linearization is in Jordan normal form is equivalent to a formal vector field with constant term <Math mode="inline" tex="0" text="0" xml:id="Thmtheorem7.p1.m2">
-              <XMath>
-                <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-              </XMath>
-            </Math> and the same linearization whose nonlinear terms are resonant monomial vectors.</text></p>
+        <p>A formal vector field with constant term <Math mode="inline" tex="0" text="0" xml:id="Thmtheorem7.p1.m1">
+            <XMath>
+              <XMTok meaning="0" role="NUMBER">0</XMTok>
+            </XMath>
+          </Math> whose linearization is in Jordan normal form is equivalent to a formal vector field with constant term <Math mode="inline" tex="0" text="0" xml:id="Thmtheorem7.p1.m2">
+            <XMath>
+              <XMTok meaning="0" role="NUMBER">0</XMTok>
+            </XMath>
+          </Math> and the same linearization whose nonlinear terms are resonant monomial vectors.</p>
       </para>
     </theorem>
     <proof>
@@ -8725,7 +8728,7 @@ Therefore <Math mode="inline" tex="\mathscr{D}_{m}=\mathscr{N}_{m}+\operatorname
               <XMTok font="italic" role="UNKNOWN">m</XMTok>
             </XMath>
           </Math> belong to
-<Math mode="inline" tex="\mathscr{N}_{m}" text="N _ m" xml:id="S4.p9.m11">
+<!--  %**** poincaredulac.tex Line 325 **** --><Math mode="inline" tex="\mathscr{N}_{m}" text="N _ m" xml:id="S4.p9.m11">
             <XMath>
               <XMApp>
                 <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -8738,7 +8741,7 @@ Therefore <Math mode="inline" tex="\mathscr{D}_{m}=\mathscr{N}_{m}+\operatorname
               <XMTok font="italic" role="UNKNOWN">m</XMTok>
             </XMath>
           </Math>, completing the proof.
-<!--  %**** poincaredulac.tex Line 325 **** -->∎</p>
+∎</p>
       </para>
     </proof>
   </section>
@@ -8858,94 +8861,94 @@ Therefore <Math mode="inline" tex="\mathscr{D}_{m}=\mathscr{N}_{m}+\operatorname
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 8</text></tag>.</title>
       <para xml:id="Thmtheorem8.p1">
-        <p><text font="italic">If <Math mode="inline" tex="\lambda\in\mathfrak{P}" text="lambda element-of P" xml:id="Thmtheorem8.p1.m1">
-              <XMath>
+        <p>If <Math mode="inline" tex="\lambda\in\mathfrak{P}" text="lambda element-of P" xml:id="Thmtheorem8.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="lambda" role="UNKNOWN">λ</XMTok>
+                <XMTok font="fraktur" role="UNKNOWN">P</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, then for all <Math mode="inline" tex="M&gt;0" text="M &gt; 0" xml:id="Thmtheorem8.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
+                <XMTok font="italic" role="UNKNOWN">M</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> there are only finitely many <Math mode="inline" tex="\alpha\in\mathbb{Z}^{n}_{\geq 0}" text="alpha element-of (Z ^ n) _ (absent &gt;= 0)" xml:id="Thmtheorem8.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="alpha" role="UNKNOWN">α</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="lambda" role="UNKNOWN">λ</XMTok>
-                  <XMTok font="fraktur upright" role="UNKNOWN">P</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, then for all <Math mode="inline" tex="M&gt;0" text="M &gt; 0" xml:id="Thmtheorem8.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than" role="RELOP">&gt;</XMTok>
-                  <XMTok role="UNKNOWN">M</XMTok>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> there are only finitely many <Math mode="inline" tex="\alpha\in\mathbb{Z}^{n}_{\geq 0}" text="alpha element-of (Z ^ n) _ (absent &gt;= 0)" xml:id="Thmtheorem8.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="alpha" role="UNKNOWN">α</XMTok>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
                   <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="blackboard upright" role="UNKNOWN">Z</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                    </XMApp>
-                    <XMApp>
-                      <XMTok font="upright" fontsize="70%" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                      <XMTok meaning="absent"/>
-                      <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                    </XMApp>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="blackboard" role="UNKNOWN">Z</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                  </XMApp>
+                  <XMApp>
+                    <XMTok fontsize="70%" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                    <XMTok meaning="absent"/>
+                    <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math>
+              </XMApp>
+            </XMath>
+          </Math>
 and <Math mode="inline" tex="1\leq k\leq n" text="1 less= k less= n" xml:id="Thmtheorem8.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok meaning="multirelation"/>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok role="UNKNOWN">k</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok role="UNKNOWN">n</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> such that <Math mode="inline" tex="|\lambda_{k}-\langle\alpha,\lambda\rangle|\leq M" text="absolute-value@(lambda _ k - list@(alpha, lambda)) less= M" xml:id="Thmtheorem8.p1.m5">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="absolute-value"/>
-                      <XMRef idref="Thmtheorem8.p1.m5.3"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                      <XMApp xml:id="Thmtheorem8.p1.m5.3">
-                        <XMTok font="upright" meaning="minus" role="ADDOP">-</XMTok>
-                        <XMApp>
-                          <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                          <XMTok name="lambda" role="UNKNOWN">λ</XMTok>
-                          <XMTok fontsize="70%" role="UNKNOWN">k</XMTok>
-                        </XMApp>
-                        <XMDual>
-                          <XMApp>
-                            <XMTok meaning="list"/>
-                            <XMRef idref="Thmtheorem8.p1.m5.1"/>
-                            <XMRef idref="Thmtheorem8.p1.m5.2"/>
-                          </XMApp>
-                          <XMWrap>
-                            <XMTok font="upright" name="langle" role="OPEN" stretchy="false">⟨</XMTok>
-                            <XMTok name="alpha" role="UNKNOWN" xml:id="Thmtheorem8.p1.m5.1">α</XMTok>
-                            <XMTok font="upright" role="PUNCT">,</XMTok>
-                            <XMTok name="lambda" role="UNKNOWN" xml:id="Thmtheorem8.p1.m5.2">λ</XMTok>
-                            <XMTok font="upright" name="rangle" role="CLOSE" stretchy="false">⟩</XMTok>
-                          </XMWrap>
-                        </XMDual>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="multirelation"/>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" role="UNKNOWN">k</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" role="UNKNOWN">n</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> such that <Math mode="inline" tex="|\lambda_{k}-\langle\alpha,\lambda\rangle|\leq M" text="absolute-value@(lambda _ k - list@(alpha, lambda)) less= M" xml:id="Thmtheorem8.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="absolute-value"/>
+                    <XMRef idref="Thmtheorem8.p1.m5.3"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                    <XMApp xml:id="Thmtheorem8.p1.m5.3">
+                      <XMTok meaning="minus" role="ADDOP">-</XMTok>
+                      <XMApp>
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                        <XMTok font="italic" name="lambda" role="UNKNOWN">λ</XMTok>
+                        <XMTok font="italic" fontsize="70%" role="UNKNOWN">k</XMTok>
                       </XMApp>
-                      <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                  <XMTok role="UNKNOWN">M</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>.</text></p>
+                      <XMDual>
+                        <XMApp>
+                          <XMTok meaning="list"/>
+                          <XMRef idref="Thmtheorem8.p1.m5.1"/>
+                          <XMRef idref="Thmtheorem8.p1.m5.2"/>
+                        </XMApp>
+                        <XMWrap>
+                          <XMTok name="langle" role="OPEN" stretchy="false">⟨</XMTok>
+                          <XMTok font="italic" name="alpha" role="UNKNOWN" xml:id="Thmtheorem8.p1.m5.1">α</XMTok>
+                          <XMTok role="PUNCT">,</XMTok>
+                          <XMTok font="italic" name="lambda" role="UNKNOWN" xml:id="Thmtheorem8.p1.m5.2">λ</XMTok>
+                          <XMTok name="rangle" role="CLOSE" stretchy="false">⟩</XMTok>
+                        </XMWrap>
+                      </XMDual>
+                    </XMApp>
+                    <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                  </XMWrap>
+                </XMDual>
+                <XMTok font="italic" role="UNKNOWN">M</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
@@ -9295,7 +9298,8 @@ an <Math mode="inline" tex="\mathbb{R}" text="R" xml:id="S5.p2.m2">
             <XMath>
               <XMTok font="italic" role="UNKNOWN">k</XMTok>
             </XMath>
-          </Math>,</p>
+          </Math>,
+<!--  %**** poincaredulac.tex Line 350 **** --></p>
         <equation xml:id="S5.Ex24">
           <Math mode="display" tex="\|\ell\||\lambda_{k}-\langle\alpha,\lambda\rangle|\geq|\ell(\lambda_{k}-%&#10;\langle\alpha,\lambda\rangle)|\geq\ell(\lambda_{k}-\langle\alpha,\lambda%&#10;\rangle)\geq\ell(\lambda_{k})+r|\alpha|\geq-R+r|\alpha|." text="norm@(ell) * absolute-value@(lambda _ k - list@(alpha, lambda)) &gt;= absolute-value@(ell * (lambda _ k - list@(alpha, lambda))) &gt;= ell * (lambda _ k - list@(alpha, lambda)) &gt;= ell * lambda _ k + r * absolute-value@(alpha) &gt;= (- R) + r * absolute-value@(alpha)" xml:id="S5.Ex24.m1">
             <XMath>
@@ -9312,7 +9316,7 @@ an <Math mode="inline" tex="\mathbb{R}" text="R" xml:id="S5.p2.m2">
                           <XMRef idref="S5.Ex24.m1.1"/>
                         </XMApp>
                         <XMWrap>
-<!--  %**** poincaredulac.tex Line 350 **** -->                          <XMTok meaning="parallel-to" name="||" role="VERTBAR">∥</XMTok>
+                          <XMTok meaning="parallel-to" name="||" role="VERTBAR">∥</XMTok>
                           <XMTok name="ell" role="UNKNOWN" xml:id="S5.Ex24.m1.1">ℓ</XMTok>
                           <XMTok meaning="parallel-to" name="||" role="VERTBAR">∥</XMTok>
                         </XMWrap>
@@ -9695,93 +9699,93 @@ corollary to the above theorem.</p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Corollary 9</text></tag>.</title>
       <para xml:id="Thmtheorem9.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem9.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">F</XMTok>
-              </XMath>
-            </Math> be a formal vector field with constant term <Math mode="inline" tex="0" text="0" xml:id="Thmtheorem9.p1.m2">
-              <XMath>
-                <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-              </XMath>
-            </Math> whose linearization <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem9.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math> is in Jordan normal form, let <Math mode="inline" tex="\lambda_{1},\ldots,\lambda_{n}" text="list@(lambda _ 1, ldots, lambda _ n)" xml:id="Thmtheorem9.p1.m4">
-              <XMath>
+        <p>Let <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem9.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">F</XMTok>
+            </XMath>
+          </Math> be a formal vector field with constant term <Math mode="inline" tex="0" text="0" xml:id="Thmtheorem9.p1.m2">
+            <XMath>
+              <XMTok meaning="0" role="NUMBER">0</XMTok>
+            </XMath>
+          </Math> whose linearization <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem9.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math> is in Jordan normal form, let <Math mode="inline" tex="\lambda_{1},\ldots,\lambda_{n}" text="list@(lambda _ 1, ldots, lambda _ n)" xml:id="Thmtheorem9.p1.m4">
+            <XMath>
+              <XMDual>
+                <XMApp>
+                  <XMTok meaning="list"/>
+                  <XMRef idref="Thmtheorem9.p1.m4.2"/>
+                  <XMRef idref="Thmtheorem9.p1.m4.1"/>
+                  <XMRef idref="Thmtheorem9.p1.m4.3"/>
+                </XMApp>
+                <XMWrap>
+                  <XMApp xml:id="Thmtheorem9.p1.m4.2">
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" name="lambda" role="UNKNOWN">λ</XMTok>
+                    <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                  </XMApp>
+                  <XMTok role="PUNCT">,</XMTok>
+                  <XMTok name="ldots" role="ID" xml:id="Thmtheorem9.p1.m4.1">…</XMTok>
+                  <XMTok role="PUNCT">,</XMTok>
+                  <XMApp xml:id="Thmtheorem9.p1.m4.3">
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" name="lambda" role="UNKNOWN">λ</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                  </XMApp>
+                </XMWrap>
+              </XMDual>
+            </XMath>
+          </Math> be the eigenvalues of <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem9.p1.m5">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">A</XMTok>
+            </XMath>
+          </Math>, and let <Math mode="inline" tex="\lambda=(\lambda_{1},\ldots,\lambda_{n})" text="lambda = vector@(lambda _ 1, ldots, lambda _ n)" xml:id="Thmtheorem9.p1.m6">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMTok font="italic" name="lambda" role="UNKNOWN">λ</XMTok>
                 <XMDual>
                   <XMApp>
-                    <XMTok meaning="list"/>
-                    <XMRef idref="Thmtheorem9.p1.m4.2"/>
-                    <XMRef idref="Thmtheorem9.p1.m4.1"/>
-                    <XMRef idref="Thmtheorem9.p1.m4.3"/>
+                    <XMTok meaning="vector"/>
+                    <XMRef idref="Thmtheorem9.p1.m6.2"/>
+                    <XMRef idref="Thmtheorem9.p1.m6.1"/>
+                    <XMRef idref="Thmtheorem9.p1.m6.3"/>
                   </XMApp>
                   <XMWrap>
-                    <XMApp xml:id="Thmtheorem9.p1.m4.2">
+                    <XMTok role="OPEN" stretchy="false">(</XMTok>
+                    <XMApp xml:id="Thmtheorem9.p1.m6.2">
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok name="lambda" role="UNKNOWN">λ</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                      <XMTok font="italic" name="lambda" role="UNKNOWN">λ</XMTok>
+                      <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
                     </XMApp>
-                    <XMTok font="upright" role="PUNCT">,</XMTok>
-                    <XMTok font="upright" name="ldots" role="ID" xml:id="Thmtheorem9.p1.m4.1">…</XMTok>
-                    <XMTok font="upright" role="PUNCT">,</XMTok>
-                    <XMApp xml:id="Thmtheorem9.p1.m4.3">
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok name="ldots" role="ID" xml:id="Thmtheorem9.p1.m6.1">…</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMApp xml:id="Thmtheorem9.p1.m6.3">
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok name="lambda" role="UNKNOWN">λ</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
+                      <XMTok font="italic" name="lambda" role="UNKNOWN">λ</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
                     </XMApp>
+                    <XMTok role="CLOSE" stretchy="false">)</XMTok>
                   </XMWrap>
                 </XMDual>
-              </XMath>
-            </Math> be the eigenvalues of <Math mode="inline" tex="A" text="A" xml:id="Thmtheorem9.p1.m5">
-              <XMath>
-                <XMTok role="UNKNOWN">A</XMTok>
-              </XMath>
-            </Math>, and let <Math mode="inline" tex="\lambda=(\lambda_{1},\ldots,\lambda_{n})" text="lambda = vector@(lambda _ 1, ldots, lambda _ n)" xml:id="Thmtheorem9.p1.m6">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMTok name="lambda" role="UNKNOWN">λ</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="vector"/>
-                      <XMRef idref="Thmtheorem9.p1.m6.2"/>
-                      <XMRef idref="Thmtheorem9.p1.m6.1"/>
-                      <XMRef idref="Thmtheorem9.p1.m6.3"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                      <XMApp xml:id="Thmtheorem9.p1.m6.2">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok name="lambda" role="UNKNOWN">λ</XMTok>
-                        <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                      </XMApp>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok font="upright" name="ldots" role="ID" xml:id="Thmtheorem9.p1.m6.1">…</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMApp xml:id="Thmtheorem9.p1.m6.3">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok name="lambda" role="UNKNOWN">λ</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                      </XMApp>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                </XMApp>
-              </XMath>
-            </Math>. If <Math mode="inline" tex="\lambda\in\mathfrak{P}" text="lambda element-of P" xml:id="Thmtheorem9.p1.m7">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="lambda" role="UNKNOWN">λ</XMTok>
-                  <XMTok font="fraktur upright" role="UNKNOWN">P</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, then there are only finitely many nonlinear terms in the Poincaré-Dulac normal form of <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem9.p1.m8">
-              <XMath>
-                <XMTok role="UNKNOWN">F</XMTok>
-              </XMath>
-            </Math>.</text></p>
+              </XMApp>
+            </XMath>
+          </Math>. If <Math mode="inline" tex="\lambda\in\mathfrak{P}" text="lambda element-of P" xml:id="Thmtheorem9.p1.m7">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="lambda" role="UNKNOWN">λ</XMTok>
+                <XMTok font="fraktur" role="UNKNOWN">P</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, then there are only finitely many nonlinear terms in the Poincaré-Dulac normal form of <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem9.p1.m8">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">F</XMTok>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
   </section>
@@ -9804,7 +9808,7 @@ corollary to the above theorem.</p>
                   <XMTok meaning="equals" role="RELOP">=</XMTok>
                   <XMApp>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok font="italic" role="UNKNOWN">F</XMTok>
+<!--  %**** poincaredulac.tex Line 375 **** -->                    <XMTok font="italic" role="UNKNOWN">F</XMTok>
                     <XMDual>
                       <XMRef idref="S6.Ex25.m1.4"/>
                       <XMWrap>
@@ -9870,7 +9874,7 @@ corollary to the above theorem.</p>
                           <XMTok role="CLOSE" stretchy="true">]</XMTok>
                         </XMWrap>
                       </XMDual>
-<!--  %**** poincaredulac.tex Line 375 **** -->                    </XMApp>
+                    </XMApp>
                     <XMDual>
                       <XMRef idref="S6.Ex25.m1.3"/>
                       <XMWrap>
@@ -10784,8 +10788,7 @@ For <Math mode="inline" tex="j\geq 3" text="j &gt;= 3" xml:id="S6.p3.m5">
           </XMath>
         </Math>
       </equation>
-      <p>which is
-<!--  %**** poincaredulac.tex Line 400 **** --></p>
+<!--  %**** poincaredulac.tex Line 400 **** -->      <p>which is</p>
       <equationgroup class="ltx_eqn_eqnarray" xml:id="S7.EGx1">
         <equation xml:id="S6.Ex28">
           <MathFork>
@@ -12296,13 +12299,13 @@ For <Math mode="inline" tex="j\geq 3" text="j &gt;= 3" xml:id="S6.p3.m5">
               <XMWrap>
                 <XMApp xml:id="S6.Ex31.m1.4">
                   <XMTok meaning="equals" role="RELOP">=</XMTok>
-<!--  %**** poincaredulac.tex Line 425 **** -->                  <XMApp>
+                  <XMApp>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
                     <XMApp>
                       <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
                       <XMApp>
                         <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok font="italic" role="UNKNOWN">V</XMTok>
+<!--  %**** poincaredulac.tex Line 425 **** -->                        <XMTok font="italic" role="UNKNOWN">V</XMTok>
                         <XMTok fontsize="70%" meaning="3" role="NUMBER">3</XMTok>
                       </XMApp>
                       <XMTok fontsize="70%" meaning="5" role="NUMBER">5</XMTok>
@@ -14793,12 +14796,12 @@ Then (<ref labelref="LABEL:determinedby"/>) is</p>
                   </XMDual>
                 </XMApp>
                 <XMTok name="cdots" role="ID">⋯</XMTok>
-              </XMApp>
+<!--  %**** poincaredulac.tex Line 475 **** -->              </XMApp>
             </XMApp>
           </XMath>
         </Math>
       </equation>
-<!--  %**** poincaredulac.tex Line 475 **** -->      <p>It follows that <Math mode="inline" tex="V_{5}^{5}(x)=V_{4}^{5}(x)=\begin{bmatrix}-30x_{1}^{5}\\&#10;-30x_{2}^{5}\end{bmatrix}" text="(V _ 5) ^ 5 * x = (V _ 4) ^ 5 * x = matrix[[- 30 * (x _ 1) ^ 5], [- 30 * (x _ 2) ^ 5]]" xml:id="S6.p5.m5">
+      <p>It follows that <Math mode="inline" tex="V_{5}^{5}(x)=V_{4}^{5}(x)=\begin{bmatrix}-30x_{1}^{5}\\&#10;-30x_{2}^{5}\end{bmatrix}" text="(V _ 5) ^ 5 * x = (V _ 4) ^ 5 * x = matrix[[- 30 * (x _ 1) ^ 5], [- 30 * (x _ 2) ^ 5]]" xml:id="S6.p5.m5">
           <XMath>
             <XMApp>
               <XMTok meaning="multirelation"/>
@@ -15949,7 +15952,7 @@ of degree <Math mode="inline" tex="120" text="120" xml:id="S6.p7.m10">
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
                     <XMApp>
                       <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="italic" role="UNKNOWN">H</XMTok>
+<!--  %**** poincaredulac.tex Line 500 **** -->                      <XMTok font="italic" role="UNKNOWN">H</XMTok>
                       <XMDual>
                         <XMRef idref="S6.Ex37.m1.3"/>
                         <XMWrap>
@@ -16501,7 +16504,8 @@ of degree <Math mode="inline" tex="120" text="120" xml:id="S6.p7.m10">
       </equation>
     </para>
     <para xml:id="S6.p8">
-      <p><text font="bold">Second example.</text> We will determine the Poincaré-Dulac normal form for the formal vector field</p>
+      <p><text font="bold">Second example.</text> We will determine the Poincaré-Dulac normal form for the formal vector field
+<!--  %**** poincaredulac.tex Line 525 **** --></p>
       <equation xml:id="S6.Ex39">
         <Math mode="display" tex="F(x)=\begin{bmatrix}3&amp;0\\&#10;0&amp;1\end{bmatrix}\begin{bmatrix}x_{1}\\&#10;x_{2}\end{bmatrix}+\begin{bmatrix}x_{1}^{2}\\&#10;x_{2}^{2}\end{bmatrix}," text="F * x = matrix[[3, 0], [0, 1]] * matrix[[x _ 1], [x _ 2]] + matrix[[(x _ 1) ^ 2], [(x _ 2) ^ 2]]" xml:id="S6.Ex39.m1">
           <XMath>
@@ -16512,7 +16516,7 @@ of degree <Math mode="inline" tex="120" text="120" xml:id="S6.p7.m10">
                   <XMTok meaning="equals" role="RELOP">=</XMTok>
                   <XMApp>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
-<!--  %**** poincaredulac.tex Line 525 **** -->                    <XMTok font="italic" role="UNKNOWN">F</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">F</XMTok>
                     <XMDual>
                       <XMRef idref="S6.Ex39.m1.4"/>
                       <XMWrap>
@@ -18782,11 +18786,12 @@ is</p>
           </XMath>
         </Math>
       </equation>
-      <p>The weights of these basis vectors are respectively</p>
+      <p>The weights of these basis vectors are respectively
+<!--  %**** poincaredulac.tex Line 575 **** --></p>
       <equation xml:id="S6.Ex43">
         <Math mode="display" tex="\begin{split}&amp;\displaystyle 2w_{1}=3.46\ldots,w_{1}+w_{2}=3.14\ldots,2w_{2}=2.%&#10;82\ldots,3w_{2}-w_{1}=2.51\ldots,\\&#10;&amp;\displaystyle 3w_{1}-w_{2}=3.78\ldots,2w_{1}=3.46\ldots,w_{1}+w_{2}=3.14%&#10;\ldots,2w_{2}=2.82\ldots.\end{split}" text="formulae@(2 * w _ 1 = 3.46 * ldots, formulae@(w _ 1 + w _ 2 = 3.14 * ldots, formulae@(2 * w _ 2 = 2.82 * ldots, formulae@(3 * w _ 2 - w _ 1 = 2.51 * ldots, formulae@(3 * w _ 1 - w _ 2 = 3.78 * ldots, formulae@(2 * w _ 1 = 3.46 * ldots, formulae@(w _ 1 + w _ 2 = 3.14 * ldots, 2 * w _ 2 = 2.82 * ldots)))))))" xml:id="S6.Ex43.m1">
           <XMath>
-<!--  %**** poincaredulac.tex Line 575 **** -->            <XMDual>
+            <XMDual>
               <XMDual>
                 <XMRef idref="S6.Ex43.m1.67"/>
                 <XMWrap>

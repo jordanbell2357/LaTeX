@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/staging/eisenstein"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/mathematics/eisenstein"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
 <?latexml package="hyperref"?>
@@ -11,7 +11,7 @@
   <creator role="author">
     <personname>Jordan Bell<break/><text font="typewriter">jordan.bell@gmail.com<break/></text>Department of Mathematics, University of Toronto</personname>
   </creator>
-  <date role="creation">January 19, 2022</date>
+  <date role="creation">January 22, 2022</date>
 <!--  %**** eisenstein.tex Line 25 **** -->  <section inlist="toc" xml:id="S1">
     <tags>
       <tag>1</tag>
@@ -615,7 +615,8 @@ It follows that if <Math mode="inline" tex="K" text="K" xml:id="S1.p1.m9">
           </XMath>
         </Math>
       </equation>
-      <p>and hence</p>
+      <p>and hence
+<!--  %**** eisenstein.tex Line 50 **** --></p>
       <equation xml:id="S1.Ex3">
         <Math mode="display" tex="\left|\frac{y^{s}}{|m\tau+n|^{2s}}\right|=\frac{y^{\sigma}}{|m\tau+n|^{2\sigma%&#10;}}\leq\frac{y^{\sigma}}{(C_{K}(m^{2}+n^{2}))^{\sigma}}." text="absolute-value@(y ^ s / (absolute-value@(m * tau + n)) ^ (2 * s)) = y ^ sigma / (absolute-value@(m * tau + n)) ^ (2 * sigma) less= y ^ sigma / (C _ K * (m ^ 2 + n ^ 2)) ^ sigma" xml:id="S1.Ex3.m1">
           <XMath>
@@ -630,7 +631,7 @@ It follows that if <Math mode="inline" tex="K" text="K" xml:id="S1.p1.m9">
                       <XMRef idref="S1.Ex3.m1.4"/>
                     </XMApp>
                     <XMWrap>
-<!--  %**** eisenstein.tex Line 50 **** -->                      <XMTok role="VERTBAR" stretchy="true">|</XMTok>
+                      <XMTok role="VERTBAR" stretchy="true">|</XMTok>
                       <XMApp xml:id="S1.Ex3.m1.4">
                         <XMTok mathstyle="display" meaning="divide" role="FRACOP"/>
                         <XMApp>
@@ -1099,27 +1100,27 @@ It follows that if <Math mode="inline" tex="K" text="K" xml:id="S1.p1.m9">
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 1</text></tag>.</title>
       <para xml:id="Thmtheorem1.p1">
-        <p><text font="italic">For all <Math mode="inline" tex="\tau\in\mathbb{H}" text="tau element-of H" xml:id="Thmtheorem1.p1.m1">
-              <XMath>
+        <p>For all <Math mode="inline" tex="\tau\in\mathbb{H}" text="tau element-of H" xml:id="Thmtheorem1.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="tau" role="UNKNOWN">τ</XMTok>
+                <XMTok font="blackboard" role="UNKNOWN">H</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and <Math mode="inline" tex="\mathrm{Re}\,s&gt;1" text="Re * s &gt; 1" xml:id="Thmtheorem1.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="tau" role="UNKNOWN">τ</XMTok>
-                  <XMTok font="blackboard upright" role="UNKNOWN">H</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok role="UNKNOWN" rpadding="1.7pt">Re</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">s</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> and <Math mode="inline" tex="\mathrm{Re}\,s&gt;1" text="Re * s &gt; 1" xml:id="Thmtheorem1.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than" role="RELOP">&gt;</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok font="upright" role="UNKNOWN" rpadding="1.7pt">Re</XMTok>
-                    <XMTok role="UNKNOWN">s</XMTok>
-                  </XMApp>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,</text></p>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,</p>
         <equation xml:id="S1.Ex6">
           <Math mode="display" tex="G(\tau,s)=\zeta(2s)E(\tau,s)." text="G * open-interval@(tau, s) = zeta * 2 * s * E * open-interval@(tau, s)" xml:id="S1.Ex6.m1">
             <XMath>
@@ -1300,7 +1301,8 @@ It follows that if <Math mode="inline" tex="K" text="K" xml:id="S1.p1.m9">
                 </XMDual>
               </XMApp>
             </XMath>
-          </Math>,</p>
+          </Math>,
+<!--  %**** eisenstein.tex Line 75 **** --></p>
         <equation xml:id="S1.Ex7">
           <Math mode="display" tex="\gcd\left(\frac{m}{\nu},\frac{n}{\nu}\right)=1." text="gcd@(m / nu, n / nu) = 1" xml:id="S1.Ex7.m1">
             <XMath>
@@ -1316,7 +1318,7 @@ It follows that if <Math mode="inline" tex="K" text="K" xml:id="S1.p1.m9">
                         <XMRef idref="S1.Ex7.m1.3"/>
                       </XMApp>
                       <XMApp>
-<!--  %**** eisenstein.tex Line 75 **** -->                        <XMTok meaning="gcd" role="OPFUNCTION" scriptpos="mid" xml:id="S1.Ex7.m1.1">gcd</XMTok>
+                        <XMTok meaning="gcd" role="OPFUNCTION" scriptpos="mid" xml:id="S1.Ex7.m1.1">gcd</XMTok>
                         <XMWrap>
                           <XMTok role="OPEN" stretchy="true">(</XMTok>
                           <XMApp xml:id="S1.Ex7.m1.2">
@@ -2288,74 +2290,74 @@ It follows that if <Math mode="inline" tex="K" text="K" xml:id="S1.p1.m9">
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 2</text></tag>.</title>
       <para xml:id="Thmtheorem2.p1">
-        <p><text font="italic">For <Math mode="inline" tex="\begin{pmatrix}a&amp;b\\&#10;c&amp;d\end{pmatrix}\in\mathrm{SL}_{2}(\mathbb{Z})" text="matrix[[a, b], [c, d]] element-of SL _ 2 * Z" xml:id="Thmtheorem2.p1.m1">
-              <XMath>
+        <p>For <Math mode="inline" tex="\begin{pmatrix}a&amp;b\\&#10;c&amp;d\end{pmatrix}\in\mathrm{SL}_{2}(\mathbb{Z})" text="matrix[[a, b], [c, d]] element-of SL _ 2 * Z" xml:id="Thmtheorem2.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMDual>
+                  <XMRef idref="Thmtheorem2.p1.m1.1"/>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="true">(</XMTok>
+                    <XMArray meaning="matrix" xml:id="Thmtheorem2.p1.m1.1">
+                      <XMRow>
+                        <XMCell align="center">
+                          <XMTok font="italic" role="UNKNOWN">a</XMTok>
+                        </XMCell>
+                        <XMCell align="center">
+                          <XMTok font="italic" role="UNKNOWN">b</XMTok>
+                        </XMCell>
+                      </XMRow>
+                      <XMRow>
+                        <XMCell align="center">
+                          <XMTok font="italic" role="UNKNOWN">c</XMTok>
+                        </XMCell>
+                        <XMCell align="center">
+                          <XMTok font="italic" role="UNKNOWN">d</XMTok>
+                        </XMCell>
+                      </XMRow>
+                    </XMArray>
+                    <XMTok role="CLOSE" stretchy="true">)</XMTok>
+                  </XMWrap>
+                </XMDual>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMApp>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok role="UNKNOWN">SL</XMTok>
+                    <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+                  </XMApp>
                   <XMDual>
-                    <XMRef idref="Thmtheorem2.p1.m1.1"/>
+                    <XMRef idref="Thmtheorem2.p1.m1.2"/>
                     <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="true">(</XMTok>
-                      <XMArray meaning="matrix" xml:id="Thmtheorem2.p1.m1.1">
-                        <XMRow>
-                          <XMCell align="center">
-                            <XMTok role="UNKNOWN">a</XMTok>
-                          </XMCell>
-                          <XMCell align="center">
-                            <XMTok role="UNKNOWN">b</XMTok>
-                          </XMCell>
-                        </XMRow>
-                        <XMRow>
-                          <XMCell align="center">
-                            <XMTok role="UNKNOWN">c</XMTok>
-                          </XMCell>
-                          <XMCell align="center">
-                            <XMTok role="UNKNOWN">d</XMTok>
-                          </XMCell>
-                        </XMRow>
-                      </XMArray>
-                      <XMTok font="upright" role="CLOSE" stretchy="true">)</XMTok>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="blackboard" role="UNKNOWN" xml:id="Thmtheorem2.p1.m1.2">Z</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
                     </XMWrap>
                   </XMDual>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="upright" role="UNKNOWN">SL</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem2.p1.m1.2"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok font="blackboard upright" role="UNKNOWN" xml:id="Thmtheorem2.p1.m1.2">Z</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
                 </XMApp>
-              </XMath>
-            </Math>, <Math mode="inline" tex="\tau\in\mathbb{H}" text="tau element-of H" xml:id="Thmtheorem2.p1.m2">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math>, <Math mode="inline" tex="\tau\in\mathbb{H}" text="tau element-of H" xml:id="Thmtheorem2.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="tau" role="UNKNOWN">τ</XMTok>
+                <XMTok font="blackboard" role="UNKNOWN">H</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, and <Math mode="inline" tex="\mathrm{Re}\,s&gt;1" text="Re * s &gt; 1" xml:id="Thmtheorem2.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="tau" role="UNKNOWN">τ</XMTok>
-                  <XMTok font="blackboard upright" role="UNKNOWN">H</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok role="UNKNOWN" rpadding="1.7pt">Re</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">s</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>, and <Math mode="inline" tex="\mathrm{Re}\,s&gt;1" text="Re * s &gt; 1" xml:id="Thmtheorem2.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than" role="RELOP">&gt;</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok font="upright" role="UNKNOWN" rpadding="1.7pt">Re</XMTok>
-                    <XMTok role="UNKNOWN">s</XMTok>
-                  </XMApp>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,</text></p>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,</p>
         <equation xml:id="S2.Ex12">
           <Math mode="display" tex="G\left(\frac{a\tau+b}{c\tau+d},s\right)=G(\tau,s)." text="G * open-interval@((a * tau + b) / (c * tau + d), s) = G * open-interval@(tau, s)" xml:id="S2.Ex12.m1">
             <XMath>
@@ -2429,8 +2431,8 @@ It follows that if <Math mode="inline" tex="K" text="K" xml:id="S1.p1.m9">
         </equation>
       </para>
     </theorem>
-    <proof>
-      <title class="ltx_runin" font="italic"><!--  %**** eisenstein.tex Line 100 **** -->Proof.</title>
+<!--  %**** eisenstein.tex Line 100 **** -->    <proof>
+      <title class="ltx_runin" font="italic">Proof.</title>
       <para xml:id="S2.p1">
         <equation xml:id="S2.Ex13">
           <Math mode="display" tex="\frac{a\tau+b}{c\tau+d}=\frac{a\tau+b}{c\tau+d}\cdot\frac{c\overline{\tau}+d}{%&#10;c\overline{\tau}+d}=\frac{ac|\tau|^{2}+ad\tau+bc\overline{\tau}+bd}{|c\tau+d|^%&#10;{2}}," text="(a * tau + b) / (c * tau + d) = ((a * tau + b) / (c * tau + d)) cdot ((c * overline@(tau) + d) / (c * overline@(tau) + d)) = (a * c * (absolute-value@(tau)) ^ 2 + a * d * tau + b * c * overline@(tau) + b * d) / (absolute-value@(c * tau + d)) ^ 2" xml:id="S2.Ex13.m1">
@@ -3732,7 +3734,7 @@ It follows that if <Math mode="inline" tex="K" text="K" xml:id="S1.p1.m9">
             </XMath>
           </Math>
         </equation>
-        <p>is a bijection <Math mode="inline" tex="\mathbb{Z}^{2}\setminus\{(0,0)\}\to\mathbb{Z}^{2}\setminus\{(0,0)\}" text="Z ^ 2 set-minus set@(open-interval@(0, 0)) to Z ^ 2 set-minus set@(open-interval@(0, 0))" xml:id="S2.p1.m7">
+<!--  %**** eisenstein.tex Line 125 **** -->        <p>is a bijection <Math mode="inline" tex="\mathbb{Z}^{2}\setminus\{(0,0)\}\to\mathbb{Z}^{2}\setminus\{(0,0)\}" text="Z ^ 2 set-minus set@(open-interval@(0, 0)) to Z ^ 2 set-minus set@(open-interval@(0, 0))" xml:id="S2.p1.m7">
             <XMath>
               <XMApp>
                 <XMTok name="to" role="ARROW">→</XMTok>
@@ -3802,8 +3804,7 @@ It follows that if <Math mode="inline" tex="K" text="K" xml:id="S1.p1.m9">
                 </XMApp>
               </XMApp>
             </XMath>
-          </Math>, so
-<!--  %**** eisenstein.tex Line 125 **** --></p>
+          </Math>, so</p>
         <equation xml:id="S2.Ex19">
           <Math mode="display" tex="\sum_{(0,0)\neq(m,n)\in\mathbb{Z}^{2}}\frac{1}{|(ma+nb)\tau+mb+nd|^{2s}}=\sum_%&#10;{(0,0)\neq(\mu,\nu)\in\mathbb{Z}^{2}}\frac{1}{|\mu\tau+\nu|^{2s}}," text="(sum _ (open-interval@(0, 0) not-equals open-interval@(m, n) element-of Z ^ 2))@(1 / (absolute-value@((m * a + n * b) * tau + m * b + n * d)) ^ (2 * s)) = (sum _ (open-interval@(0, 0) not-equals open-interval@(mu, nu) element-of Z ^ 2))@(1 / (absolute-value@(mu * tau + nu)) ^ (2 * s))" xml:id="S2.Ex19.m1">
             <XMath>
@@ -4137,27 +4138,27 @@ It follows that if <Math mode="inline" tex="K" text="K" xml:id="S1.p1.m9">
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 3</text></tag>.</title>
       <para xml:id="Thmtheorem3.p1">
-        <p><text font="italic">If <Math mode="inline" tex="\tau\in\mathbb{H}" text="tau element-of H" xml:id="Thmtheorem3.p1.m1">
-              <XMath>
+        <p>If <Math mode="inline" tex="\tau\in\mathbb{H}" text="tau element-of H" xml:id="Thmtheorem3.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="tau" role="UNKNOWN">τ</XMTok>
+                <XMTok font="blackboard" role="UNKNOWN">H</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and <Math mode="inline" tex="\mathrm{Re}\,s&gt;1" text="Re * s &gt; 1" xml:id="Thmtheorem3.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="tau" role="UNKNOWN">τ</XMTok>
-                  <XMTok font="blackboard upright" role="UNKNOWN">H</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok role="UNKNOWN" rpadding="1.7pt">Re</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">s</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> and <Math mode="inline" tex="\mathrm{Re}\,s&gt;1" text="Re * s &gt; 1" xml:id="Thmtheorem3.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than" role="RELOP">&gt;</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok font="upright" role="UNKNOWN" rpadding="1.7pt">Re</XMTok>
-                    <XMTok role="UNKNOWN">s</XMTok>
-                  </XMApp>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, then</text></p>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, then</p>
         <equationgroup class="ltx_eqn_align" xml:id="S5.EGx3">
           <equation xml:id="S3.Ex21">
             <MathFork>
@@ -4698,7 +4699,7 @@ It follows that if <Math mode="inline" tex="K" text="K" xml:id="S1.p1.m9">
             </MathFork>
           </equation>
         </equationgroup>
-        <p><text font="italic">where</text></p>
+        <p>where</p>
         <equation xml:id="S3.Ex23">
           <Math mode="display" tex="F_{s-\frac{1}{2}}(w)=\left(\frac{2w}{\pi}\right)^{1/2}K_{s-\frac{1}{2}}(w)." text="F _ (s - 1 / 2) * w = ((2 * w) / pi) ^ (1 / 2) * K _ (s - 1 / 2) * w" xml:id="S3.Ex23.m1">
             <XMath>
@@ -5217,7 +5218,8 @@ for all <Math mode="inline" tex="x\in\mathbb{R}" text="x element-of R" xml:id="S
                 <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
               </XMApp>
             </XMath>
-          </Math>,</p>
+          </Math>,
+<!--  %**** eisenstein.tex Line 175 **** --></p>
         <equation xml:id="S3.Ex26">
           <Math mode="display" tex="\sum_{n\in\mathbb{Z}}f(x+n)=\sum_{k\in\mathbb{Z}}\widehat{f}(k)e^{2\pi ikx}," text="(sum _ (n element-of Z))@(f * (x + n)) = (sum _ (k element-of Z))@(widehat@(f) * k * e ^ (2 * pi * i * k * x))" xml:id="S3.Ex26.m1">
             <XMath>
@@ -5229,7 +5231,7 @@ for all <Math mode="inline" tex="x\in\mathbb{R}" text="x element-of R" xml:id="S
                     <XMApp>
                       <XMApp scriptpos="mid">
                         <XMTok role="SUBSCRIPTOP" scriptpos="mid1"/>
-<!--  %**** eisenstein.tex Line 175 **** -->                        <XMTok mathstyle="display" meaning="sum" role="SUMOP" scriptpos="mid">∑</XMTok>
+                        <XMTok mathstyle="display" meaning="sum" role="SUMOP" scriptpos="mid">∑</XMTok>
                         <XMApp>
                           <XMTok fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
                           <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
@@ -5907,7 +5909,8 @@ for all <Math mode="inline" tex="x\in\mathbb{R}" text="x element-of R" xml:id="S
                 </XMApp>
               </XMApp>
             </XMath>
-          </Math> we get</p>
+          </Math> we get
+<!--  %**** eisenstein.tex Line 200 **** --></p>
         <equationgroup class="ltx_eqn_align" xml:id="S5.EGx4">
           <equation xml:id="S3.Ex31">
             <MathFork>
@@ -10007,7 +10010,7 @@ For <Math mode="inline" tex="\mathrm{Re}\,b&gt;\frac{1}{2}\mathrm{Re}\,a&gt;0" t
             </MathFork>
           </equation>
         </equationgroup>
-<!--  %**** eisenstein.tex Line 250 **** -->      </para>
+      </para>
       <para xml:id="S3.p5">
         <p>We now express <Math mode="inline" tex="G(\tau,s)" text="G * open-interval@(tau, s)" xml:id="S3.p5.m1">
             <XMath>
@@ -12262,10 +12265,10 @@ and <Math mode="inline" tex="\mathrm{Re}\,s&gt;1" text="Re * s &gt; 1" xml:id="S
           </equation>
         </equationgroup>
         <p>completing the proof.
-∎</p>
+<!--  %**** eisenstein.tex Line 275 **** -->∎</p>
       </para>
     </proof>
-<!--  %**** eisenstein.tex Line 275 **** -->    <para xml:id="S3.p6">
+    <para xml:id="S3.p6">
       <p>We use the above Fourier expansion to establish that for all <Math mode="inline" tex="t\in\mathbb{H}" text="t element-of H" xml:id="S3.p6.m1">
           <XMath>
             <XMApp>
@@ -12346,57 +12349,57 @@ The meromorphic continuation and functional equation of <Math mode="inline" tex=
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 4</text></tag>.</title>
       <para xml:id="Thmtheorem4.p1">
-        <p><text font="italic">For any <Math mode="inline" tex="\tau\in\mathbb{H}" text="tau element-of H" xml:id="Thmtheorem4.p1.m1">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="tau" role="UNKNOWN">τ</XMTok>
-                  <XMTok font="blackboard upright" role="UNKNOWN">H</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, <Math mode="inline" tex="G(\tau,s)" text="G * open-interval@(tau, s)" xml:id="Thmtheorem4.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                  <XMTok role="UNKNOWN">G</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="open-interval"/>
-                      <XMRef idref="Thmtheorem4.p1.m2.1"/>
-                      <XMRef idref="Thmtheorem4.p1.m2.2"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                      <XMTok name="tau" role="UNKNOWN" xml:id="Thmtheorem4.p1.m2.1">τ</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem4.p1.m2.2">s</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                </XMApp>
-              </XMath>
-            </Math> has a meromorphic continuation to <Math mode="inline" tex="\mathbb{C}" text="C" xml:id="Thmtheorem4.p1.m3">
-              <XMath>
-                <XMTok font="blackboard upright" role="UNKNOWN">C</XMTok>
-              </XMath>
-            </Math> whose only pole is at <Math mode="inline" tex="s=1" text="s = 1" xml:id="Thmtheorem4.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMTok role="UNKNOWN">s</XMTok>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, which is a simple pole with residue
+        <p>For any <Math mode="inline" tex="\tau\in\mathbb{H}" text="tau element-of H" xml:id="Thmtheorem4.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="tau" role="UNKNOWN">τ</XMTok>
+                <XMTok font="blackboard" role="UNKNOWN">H</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, <Math mode="inline" tex="G(\tau,s)" text="G * open-interval@(tau, s)" xml:id="Thmtheorem4.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                <XMTok font="italic" role="UNKNOWN">G</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="open-interval"/>
+                    <XMRef idref="Thmtheorem4.p1.m2.1"/>
+                    <XMRef idref="Thmtheorem4.p1.m2.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">(</XMTok>
+                    <XMTok font="italic" name="tau" role="UNKNOWN" xml:id="Thmtheorem4.p1.m2.1">τ</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem4.p1.m2.2">s</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math> has a meromorphic continuation to <Math mode="inline" tex="\mathbb{C}" text="C" xml:id="Thmtheorem4.p1.m3">
+            <XMath>
+              <XMTok font="blackboard" role="UNKNOWN">C</XMTok>
+            </XMath>
+          </Math> whose only pole is at <Math mode="inline" tex="s=1" text="s = 1" xml:id="Thmtheorem4.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMTok font="italic" role="UNKNOWN">s</XMTok>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, which is a simple pole with residue
 <Math mode="inline" tex="\frac{\pi}{2}" text="pi / 2" xml:id="Thmtheorem4.p1.m5">
-              <XMath>
-                <XMApp>
-                  <XMTok mathstyle="text" meaning="divide" role="FRACOP"/>
-                  <XMTok fontsize="70%" name="pi" role="UNKNOWN">π</XMTok>
-                  <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>. The function</text></p>
+            <XMath>
+              <XMApp>
+                <XMTok mathstyle="text" meaning="divide" role="FRACOP"/>
+                <XMTok font="italic" fontsize="70%" name="pi" role="UNKNOWN">π</XMTok>
+                <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>. The function</p>
         <equation xml:id="S3.Ex55">
           <Math mode="display" tex="\mathcal{G}(\tau,s)=\pi^{-s}\Gamma(s)G(\tau,s)" text="G * open-interval@(tau, s) = pi ^ (- s) * Gamma * s * G * open-interval@(tau, s)" xml:id="S3.Ex55.m1">
             <XMath>
@@ -12459,7 +12462,7 @@ The meromorphic continuation and functional equation of <Math mode="inline" tex=
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">satisfies the functional equation</text></p>
+        <p>satisfies the functional equation</p>
         <equation xml:id="S3.Ex56">
           <Math mode="display" tex="\mathcal{G}(\tau,1-s)=\mathcal{G}(\tau,s)." text="G * open-interval@(tau, 1 - s) = G * open-interval@(tau, s)" xml:id="S3.Ex56.m1">
             <XMath>
@@ -12518,7 +12521,7 @@ The meromorphic continuation and functional equation of <Math mode="inline" tex=
       </para>
     </theorem>
     <proof>
-      <title class="ltx_runin" font="italic">Proof.</title>
+      <title class="ltx_runin" font="italic"><!--  %**** eisenstein.tex Line 300 **** -->Proof.</title>
       <para xml:id="S3.p7">
         <p>For <Math mode="inline" tex="\nu\in\mathbb{C}" text="nu element-of C" xml:id="S3.p7.m1">
             <XMath>
@@ -12529,7 +12532,7 @@ The meromorphic continuation and functional equation of <Math mode="inline" tex=
               </XMApp>
             </XMath>
           </Math>
-<!--  %**** eisenstein.tex Line 300 **** -->and for <Math mode="inline" tex="w&gt;0" text="w &gt; 0" xml:id="S3.p7.m2">
+and for <Math mode="inline" tex="w&gt;0" text="w &gt; 0" xml:id="S3.p7.m2">
             <XMath>
               <XMApp>
                 <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
@@ -14925,7 +14928,8 @@ and together with <Math mode="inline" tex="\Lambda(1-w)=\Lambda(w)" text="Lambda
                 </XMApp>
               </XMApp>
             </XMath>
-          </Math> this yields</p>
+          </Math> this yields
+<!--  %**** eisenstein.tex Line 350 **** --></p>
         <equationgroup class="ltx_eqn_align" xml:id="S5.EGx12">
           <equation xml:id="S3.Ex69">
             <MathFork>
@@ -16528,7 +16532,7 @@ Theorem <ref labelref="LABEL:Gfunctional"/> shows that <Math mode="inline" tex="
         </Math>
       </equation>
     </para>
-    <para xml:id="S4.p2">
+<!--  %**** eisenstein.tex Line 375 **** -->    <para xml:id="S4.p2">
       <p>We define the <text font="bold">Dedekind eta function</text> <Math mode="inline" tex="\eta:\mathbb{H}\to\mathbb{C}" text="eta colon H to C" xml:id="S4.p2.m1">
           <XMath>
             <XMApp>
@@ -16541,8 +16545,7 @@ Theorem <ref labelref="LABEL:Gfunctional"/> shows that <Math mode="inline" tex="
               </XMApp>
             </XMApp>
           </XMath>
-        </Math> by
-<!--  %**** eisenstein.tex Line 375 **** --></p>
+        </Math> by</p>
       <equation xml:id="S4.Ex78">
         <Math mode="display" tex="\eta(\tau)=e^{\frac{\pi i\tau}{12}}\prod_{n=1}^{\infty}(1-q^{n}),\qquad\tau\in%&#10;\mathbb{H}," text="formulae@(eta * tau = e ^ ((pi * i * tau) / 12) * ((product _ (n = 1)) ^ infinity)@(1 - q ^ n), tau element-of H)" xml:id="S4.Ex78.m1">
           <XMath>
@@ -16727,26 +16730,26 @@ Theorem <ref labelref="LABEL:Gfunctional"/> shows that <Math mode="inline" tex="
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 5</text></tag>.</title>
       <para xml:id="Thmtheorem5.p1">
-        <p><text font="italic">For <Math mode="inline" tex="\tau=x+iy\in\mathbb{H}" text="tau = x + i * y element-of H" xml:id="Thmtheorem5.p1.m1">
-              <XMath>
+        <p>For <Math mode="inline" tex="\tau=x+iy\in\mathbb{H}" text="tau = x + i * y element-of H" xml:id="Thmtheorem5.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="multirelation"/>
+                <XMTok font="italic" name="tau" role="UNKNOWN">τ</XMTok>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
                 <XMApp>
-                  <XMTok meaning="multirelation"/>
-                  <XMTok name="tau" role="UNKNOWN">τ</XMTok>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
+                  <XMTok meaning="plus" role="ADDOP">+</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">x</XMTok>
                   <XMApp>
-                    <XMTok font="upright" meaning="plus" role="ADDOP">+</XMTok>
-                    <XMTok role="UNKNOWN">x</XMTok>
-                    <XMApp>
-                      <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                      <XMTok role="UNKNOWN">i</XMTok>
-                      <XMTok role="UNKNOWN">y</XMTok>
-                    </XMApp>
+                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">i</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">y</XMTok>
                   </XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok font="blackboard upright" role="UNKNOWN">H</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>,</text></p>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="blackboard" role="UNKNOWN">H</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,</p>
         <equation xml:id="S4.Ex79">
           <Math mode="display" tex="G(\tau,s)=\frac{\pi}{2}\left(\frac{1}{s-1}+C(\tau)+O(|s-1|)\right),\qquad s\to&#10;1," text="formulae@(G * open-interval@(tau, s) = (pi / 2) * (1 / (s - 1) + C * tau + O * absolute-value@(s - 1)), s to 1)" xml:id="S4.Ex79.m1">
             <XMath>
@@ -16860,7 +16863,7 @@ Theorem <ref labelref="LABEL:Gfunctional"/> shows that <Math mode="inline" tex="
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">with</text></p>
+        <p>with</p>
         <equation xml:id="S4.Ex80">
           <Math mode="display" tex="C(\tau)=2\gamma-2\log 2-\log y-4\log|\eta(\tau)|." text="C * tau = 2 * gamma - 2 * logarithm@(2) - logarithm@(y) - 4 * logarithm@(absolute-value@(eta * tau))" xml:id="S4.Ex80.m1">
             <XMath>
@@ -18223,12 +18226,12 @@ as <Math mode="inline" tex="s\to 1" text="s to 1" xml:id="S4.p3.m1">
                     </XMApp>
                   </XMApp>
                   <XMTok role="PUNCT">,</XMTok>
-                </XMWrap>
+<!--  %**** eisenstein.tex Line 425 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** eisenstein.tex Line 425 **** -->        <p>for <Math mode="inline" tex="|z-\frac{1}{2}|&lt;\frac{1}{2}" text="absolute-value@(z - 1 / 2) less 1 / 2" xml:id="S4.p3.m4">
+        <p>for <Math mode="inline" tex="|z-\frac{1}{2}|&lt;\frac{1}{2}" text="absolute-value@(z - 1 / 2) less 1 / 2" xml:id="S4.p3.m4">
             <XMath>
               <XMApp>
                 <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
@@ -19823,7 +19826,8 @@ as <Math mode="inline" tex="s\to 1" text="s to 1" xml:id="S4.p3.m1">
             </MathFork>
           </equation>
         </equationgroup>
-        <p>Taking the exponential and using</p>
+        <p>Taking the exponential and using
+<!--  %**** eisenstein.tex Line 450 **** --></p>
         <equation xml:id="S4.Ex98">
           <Math mode="display" tex="e^{w}=1+w+O(|w|^{2}),\qquad w\to 0," text="formulae@(e ^ w = 1 + w + O * (absolute-value@(w)) ^ 2, w to 0)" xml:id="S4.Ex98.m1">
             <XMath>
@@ -19841,7 +19845,7 @@ as <Math mode="inline" tex="s\to 1" text="s to 1" xml:id="S4.p3.m1">
                         <XMTok meaning="equals" role="RELOP">=</XMTok>
                         <XMApp>
                           <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-<!--  %**** eisenstein.tex Line 450 **** -->                          <XMTok font="italic" role="UNKNOWN">e</XMTok>
+                          <XMTok font="italic" role="UNKNOWN">e</XMTok>
                           <XMTok font="italic" fontsize="70%" role="UNKNOWN">w</XMTok>
                         </XMApp>
                         <XMApp>
@@ -21126,12 +21130,12 @@ as <Math mode="inline" tex="s\to 1" text="s to 1" xml:id="S4.p3.m1">
                     </XMWrap>
                   </XMDual>
                   <XMTok role="PUNCT">,</XMTok>
-                </XMWrap>
+<!--  %**** eisenstein.tex Line 475 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** eisenstein.tex Line 475 **** -->        <p>and</p>
+        <p>and</p>
         <equation xml:id="S4.Ex106">
           <Math mode="display" tex="\sigma_{-2s+1}(n)=\sum_{d|n}d^{-2s+1}=\sum_{d|n}(d^{-1}+O(|s-1|))=\sigma_{-1}(%&#10;n)+O(|s-1|),\qquad s\to 1." text="formulae@(sigma _ ((- 2 * s) + 1) * n = (sum _ (conditional@(d, n)))@(d ^ ((- 2 * s) + 1)) = (sum _ (conditional@(d, n)))@(d ^ (- 1) + O * absolute-value@(s - 1)) = sigma _ (- 1) * n + O * absolute-value@(s - 1), s to 1)" xml:id="S4.Ex106.m1">
             <XMath>
@@ -22043,7 +22047,7 @@ that for all <Math mode="inline" tex="t&gt;0" text="t &gt; 0" xml:id="S4.p4.m1">
             </MathFork>
           </equation>
         </equationgroup>
-<!--  %**** eisenstein.tex Line 500 **** -->        <p>This implies that the constant term in the Laurent expansion of <Math mode="inline" tex="G(\tau,s)" text="G * open-interval@(tau, s)" xml:id="S4.p4.m3">
+        <p>This implies that the constant term in the Laurent expansion of <Math mode="inline" tex="G(\tau,s)" text="G * open-interval@(tau, s)" xml:id="S4.p4.m3">
             <XMath>
               <XMApp>
                 <XMTok meaning="times" role="MULOP">⁢</XMTok>
@@ -24601,7 +24605,7 @@ from a computational point of view</text>,
 <ref class="ltx_url" font="typewriter" href="http://www.cams.aub.edu.lb/events/confs/modular2012/files/lecture_notes_spectral_theory.pdf">http://www.cams.aub.edu.lb/events/confs/modular2012/files/lecture_notes_spectral_theory.pdf</ref>; cf. Anton Deitmar, <text font="italic">Automorphic Forms</text>,
 p. 54, Lemma 2.7.3.</note></p>
     </para>
-    <para xml:id="S5.p2">
+<!--  %**** eisenstein.tex Line 575 **** -->    <para xml:id="S5.p2">
       <p>Let <Math mode="inline" tex="(0,0)\neq(m,n)\in\mathbb{Z}^{2}" text="open-interval@(0, 0) not-equals open-interval@(m, n) element-of Z ^ 2" xml:id="S5.p2.m1">
           <XMath>
             <XMApp>
@@ -24667,8 +24671,7 @@ p. 54, Lemma 2.7.3.</note></p>
               </XMApp>
             </XMApp>
           </XMath>
-        </Math> by
-<!--  %**** eisenstein.tex Line 575 **** --></p>
+        </Math> by</p>
       <equation xml:id="S5.Ex130">
         <Math mode="display" tex="f(x,y)=y^{s}|mx+n+imy|^{-2s}=y^{s}(mx+n+imy)^{-s}(mx+n-imy)^{-s}." text="f * open-interval@(x, y) = y ^ s * (absolute-value@(m * x + n + i * m * y)) ^ (- 2 * s) = y ^ s * (m * x + n + i * m * y) ^ (- s) * ((m * x + n) - i * m * y) ^ (- s)" xml:id="S5.Ex130.m1">
           <XMath>
@@ -26684,8 +26687,7 @@ p. 54, Lemma 2.7.3.</note></p>
           </MathFork>
         </equation>
       </equationgroup>
-      <p>from which we have
-<!--  %**** eisenstein.tex Line 600 **** --></p>
+<!--  %**** eisenstein.tex Line 600 **** -->      <p>from which we have</p>
       <equationgroup class="ltx_eqn_align" xml:id="S5.EGx23">
         <equation xml:id="S5.Ex141">
           <MathFork>
@@ -29221,7 +29223,8 @@ p. 54, Lemma 2.7.3.</note></p>
           </XMath>
         </Math>
       </equation>
-      <p>and</p>
+      <p>and
+<!--  %**** eisenstein.tex Line 625 **** --></p>
       <equationgroup class="ltx_eqn_align" xml:id="S5.EGx26">
         <equation xml:id="S5.Ex154">
           <MathFork>
@@ -33156,5 +33159,5 @@ pp. 207–210, Chapter 4, Appendix.</note> Therefore, for <Math mode="inline" t
           </XMath>
         </Math> is real analytic.</p>
     </para>
-  </section>
+<!--  %**** eisenstein.tex Line 675 **** -->  </section>
 </document>

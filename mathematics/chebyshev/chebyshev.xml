@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/math/chebyshev"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/mathematics/chebyshev"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
 <!--  %**** chebyshev.tex Line 25 **** --><?latexml RelaxNGSchema="LaTeXML"?>
@@ -17,7 +17,7 @@
       <tag role="refnum">1</tag>
       <tag role="typerefnum">§1</tag>
     </tags>
-    <title><tag close=" ">1</tag>Chebyshev polynomials of first kind</title>
+    <title><tag close=" ">1</tag>First kind</title>
     <para xml:id="S1.p1">
       <p>On the one hand,</p>
       <equationgroup class="ltx_eqn_align" xml:id="S3.EGx1">
@@ -4115,7 +4115,7 @@ this is true for all <Math mode="inline" tex="z" text="z" xml:id="S1.p3.m4">
       <tag role="refnum">2</tag>
       <tag role="typerefnum">§2</tag>
     </tags>
-    <title><tag close=" ">2</tag>Chebyshev polynomials of second kind</title>
+    <title><tag close=" ">2</tag>Second kind</title>
     <para xml:id="S2.p1">
       <p>Define</p>
       <equation labels="LABEL:Un" xml:id="S2.E2">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/staging/voronoi"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/mathematics/voronoi"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,graphicx,subfig,mathrsfs,amsthm"?>
 <?latexml RelaxNGSchema="LaTeXML"?>
@@ -19,7 +19,7 @@
     </tags>
     <title><tag close=" ">1</tag>Mellin transform</title>
     <para xml:id="S1.p1">
-      <p>The <text font="italic">Mellin transform</text> of <Math mode="inline" tex="f:(0,\infty)\to\mathbb{C}" text="f colon open-interval@(0, infinity) to C" xml:id="S1.p1.m1">
+      <p>The <text font="bold">Mellin transform</text> of <Math mode="inline" tex="f:(0,\infty)\to\mathbb{C}" text="f colon open-interval@(0, infinity) to C" xml:id="S1.p1.m1">
           <XMath>
             <XMApp>
               <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -116,7 +116,7 @@
           </XMath>
         </Math>
       </equation>
-      <p>For example, <Math mode="inline" tex="s\mapsto\Gamma(s)" text="s maps-to Gamma * s" xml:id="S1.p1.m2">
+<!--  %**** voronoi.tex Line 25 **** -->      <p>For example, <Math mode="inline" tex="s\mapsto\Gamma(s)" text="s maps-to Gamma * s" xml:id="S1.p1.m2">
           <XMath>
             <XMApp>
               <XMTok meaning="maps-to" name="mapsto" role="ARROW">↦</XMTok>
@@ -150,8 +150,7 @@
               </XMApp>
             </XMApp>
           </XMath>
-        </Math>.
-<!--  %**** voronoi.tex Line 25 **** --></p>
+        </Math>.</p>
     </para>
     <para xml:id="S1.p2">
       <p>Suppose that <Math mode="inline" tex="f" text="f" xml:id="S1.p2.m1">
@@ -480,11 +479,11 @@ summation formula.</p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 1</text></tag>.</title>
       <para xml:id="Thmtheorem1.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="a" text="a" xml:id="Thmtheorem1.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">a</XMTok>
-              </XMath>
-            </Math> be arithmetic function and define</text></p>
+        <p>Let <Math mode="inline" tex="a" text="a" xml:id="Thmtheorem1.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">a</XMTok>
+            </XMath>
+          </Math> be arithmetic function and define</p>
         <equation xml:id="S2.Ex3">
           <Math mode="display" tex="L(a,s)=\sum_{n=1}^{\infty}a(n)n^{-s},\qquad\Re(s)&gt;1." text="formulae@(L * open-interval@(a, s) = ((sum _ (n = 1)) ^ infinity)@(a * n * n ^ (- s)), real-part@(s) &gt; 1)" xml:id="S2.Ex3.m1">
             <XMath>
@@ -576,81 +575,81 @@ summation formula.</p>
                     </XMWrap>
                   </XMDual>
                   <XMTok role="PERIOD">.</XMTok>
-                </XMWrap>
+<!--  %**** voronoi.tex Line 50 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** voronoi.tex Line 50 **** -->        <p><text font="italic">Suppose that <Math mode="inline" tex="L(a,s)" text="L * open-interval@(a, s)" xml:id="Thmtheorem1.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                  <XMTok role="UNKNOWN">L</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="open-interval"/>
-                      <XMRef idref="Thmtheorem1.p1.m2.1"/>
-                      <XMRef idref="Thmtheorem1.p1.m2.2"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem1.p1.m2.1">a</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem1.p1.m2.2">s</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                </XMApp>
-              </XMath>
-            </Math> has an analytic continuation to <Math mode="inline" tex="\mathbb{C}" text="C" xml:id="Thmtheorem1.p1.m3">
-              <XMath>
-                <XMTok font="blackboard upright" role="UNKNOWN">C</XMTok>
-              </XMath>
-            </Math> whose only possible pole
+        <p>Suppose that <Math mode="inline" tex="L(a,s)" text="L * open-interval@(a, s)" xml:id="Thmtheorem1.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                <XMTok font="italic" role="UNKNOWN">L</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="open-interval"/>
+                    <XMRef idref="Thmtheorem1.p1.m2.1"/>
+                    <XMRef idref="Thmtheorem1.p1.m2.2"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">(</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem1.p1.m2.1">a</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem1.p1.m2.2">s</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math> has an analytic continuation to <Math mode="inline" tex="\mathbb{C}" text="C" xml:id="Thmtheorem1.p1.m3">
+            <XMath>
+              <XMTok font="blackboard" role="UNKNOWN">C</XMTok>
+            </XMath>
+          </Math> whose only possible pole
 is at <Math mode="inline" tex="s=1" text="s = 1" xml:id="Thmtheorem1.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMTok role="UNKNOWN">s</XMTok>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>.
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMTok font="italic" role="UNKNOWN">s</XMTok>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.
 Suppose also that there are <Math mode="inline" tex="A,a_{1},\ldots,a_{g}&gt;0" text="list@(A, a _ 1, ldots, a _ g) &gt; 0" xml:id="Thmtheorem1.p1.m5">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than" role="RELOP">&gt;</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="list"/>
-                      <XMRef idref="Thmtheorem1.p1.m5.1"/>
-                      <XMRef idref="Thmtheorem1.p1.m5.3"/>
-                      <XMRef idref="Thmtheorem1.p1.m5.2"/>
-                      <XMRef idref="Thmtheorem1.p1.m5.4"/>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="list"/>
+                    <XMRef idref="Thmtheorem1.p1.m5.1"/>
+                    <XMRef idref="Thmtheorem1.p1.m5.3"/>
+                    <XMRef idref="Thmtheorem1.p1.m5.2"/>
+                    <XMRef idref="Thmtheorem1.p1.m5.4"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem1.p1.m5.1">A</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMApp xml:id="Thmtheorem1.p1.m5.3">
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="italic" role="UNKNOWN">a</XMTok>
+                      <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
                     </XMApp>
-                    <XMWrap>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem1.p1.m5.1">A</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMApp xml:id="Thmtheorem1.p1.m5.3">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">a</XMTok>
-                        <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                      </XMApp>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok font="upright" name="ldots" role="ID" xml:id="Thmtheorem1.p1.m5.2">…</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMApp xml:id="Thmtheorem1.p1.m5.4">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">a</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN">g</XMTok>
-                      </XMApp>
-                    </XMWrap>
-                  </XMDual>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> such that
-for</text></p>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok name="ldots" role="ID" xml:id="Thmtheorem1.p1.m5.2">…</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMApp xml:id="Thmtheorem1.p1.m5.4">
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="italic" role="UNKNOWN">a</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">g</XMTok>
+                    </XMApp>
+                  </XMWrap>
+                </XMDual>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> such that
+for</p>
         <equation xml:id="S2.Ex4">
           <Math mode="display" tex="\gamma(s)=A^{s}\prod_{j=1}^{g}\Gamma(a_{j}s)," text="gamma * s = A ^ s * ((product _ (j = 1)) ^ g)@(Gamma * a _ j * s)" xml:id="S2.Ex4.m1">
             <XMath>
@@ -742,8 +741,8 @@ for</text></p>
                 </XMDual>
               </XMApp>
             </XMath>
-          </Math><text font="italic">
-satisfies the functional equation</text></p>
+          </Math>
+satisfies the functional equation</p>
         <equation xml:id="S2.Ex5">
           <Math mode="display" tex="\gamma(s)L(a,s)=\gamma(1-s)L(a,1-s)." text="gamma * s * L * open-interval@(a, s) = gamma * (1 - s) * L * open-interval@(a, 1 - s)" xml:id="S2.Ex5.m1">
             <XMath>
@@ -821,34 +820,34 @@ satisfies the functional equation</text></p>
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">Let <Math mode="inline" tex="f\in\mathscr{S}(\mathbb{R})" text="f element-of S * R" xml:id="Thmtheorem1.p1.m7">
-              <XMath>
+        <p>Let <Math mode="inline" tex="f\in\mathscr{S}(\mathbb{R})" text="f element-of S * R" xml:id="Thmtheorem1.p1.m7">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">f</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">f</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok font="script upright" role="UNKNOWN">S</XMTok>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem1.p1.m7.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok font="blackboard upright" role="UNKNOWN" xml:id="Thmtheorem1.p1.m7.1">R</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="script" role="UNKNOWN">S</XMTok>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem1.p1.m7.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="blackboard" role="UNKNOWN" xml:id="Thmtheorem1.p1.m7.1">R</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> and define for <Math mode="inline" tex="x&gt;0" text="x &gt; 0" xml:id="Thmtheorem1.p1.m8">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than" role="RELOP">&gt;</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,</text></p>
+              </XMApp>
+            </XMath>
+          </Math> and define for <Math mode="inline" tex="x&gt;0" text="x &gt; 0" xml:id="Thmtheorem1.p1.m8">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,</p>
         <equation xml:id="S2.Ex6">
           <Math mode="display" tex="K(x)=\frac{1}{2\pi i}\int_{\Re(s)=\frac{3}{2}}\frac{\gamma(s)}{\gamma(1-s)}x^{%&#10;-s}ds,\qquad g(x)=\int_{0}^{\infty}f(y)K(xy)dy." text="formulae@(K * x = (1 / (2 * pi * i)) * (integral _ (real-part@(s) = 3 / 2))@(((gamma * s) / (gamma * (1 - s))) * x ^ (- s) * differential-d@(s)), g * x = ((integral _ 0) ^ infinity)@(f * y * K * x * y * differential-d@(y)))" xml:id="S2.Ex6.m1">
             <XMath>
@@ -1028,7 +1027,7 @@ satisfies the functional equation</text></p>
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">Then,</text></p>
+        <p>Then,</p>
         <equation xml:id="S2.Ex7">
           <Math mode="display" tex="\sum_{n=1}^{\infty}a(n)f(n)=f(0)L(a,0)+\mathrm{Res}_{s=1}\mathscr{M}(f)(s)L(a,%&#10;s)+\sum_{n=1}^{\infty}a(n)g(n)." text="((sum _ (n = 1)) ^ infinity)@(a * n * f * n) = f * 0 * L * open-interval@(a, 0) + Res _ (s = 1) * M * f * s * L * open-interval@(a, s) + ((sum _ (n = 1)) ^ infinity)@(a * n * g * n)" xml:id="S2.Ex7.m1">
             <XMath>
@@ -1192,8 +1191,8 @@ satisfies the functional equation</text></p>
         </equation>
       </para>
     </theorem>
-    <proof>
-      <title class="ltx_runin" font="italic"><!--  %**** voronoi.tex Line 75 **** -->Proof.</title>
+<!--  %**** voronoi.tex Line 75 **** -->    <proof>
+      <title class="ltx_runin" font="italic">Proof.</title>
       <para xml:id="S2.p3">
         <p>Since <Math mode="inline" tex="f" text="f" xml:id="S2.p3.m1">
             <XMath>
@@ -2373,7 +2372,7 @@ and the residue of <Math mode="inline" tex="F(s)L(a,s)" text="F * s * L * open-i
                   <XMApp xml:id="S2.Ex13.m1.6">
                     <XMTok meaning="multirelation"/>
                     <XMApp>
-                      <XMTok meaning="minus" role="ADDOP">-</XMTok>
+<!--  %**** voronoi.tex Line 100 **** -->                      <XMTok meaning="minus" role="ADDOP">-</XMTok>
                       <XMApp>
                         <XMTok meaning="times" role="MULOP">⁢</XMTok>
                         <XMTok font="script" role="UNKNOWN">M</XMTok>
@@ -2487,7 +2486,7 @@ and the residue of <Math mode="inline" tex="F(s)L(a,s)" text="F * s * L * open-i
                     </XMApp>
                   </XMApp>
                   <XMTok role="PUNCT">,</XMTok>
-<!--  %**** voronoi.tex Line 100 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -3976,8 +3975,8 @@ and the residue of <Math mode="inline" tex="F(s)L(a,s)" text="F * s * L * open-i
             </MathFork>
           </equation>
         </equationgroup>
-      </para>
-<!--  %**** voronoi.tex Line 125 **** -->      <para xml:id="S2.p5">
+<!--  %**** voronoi.tex Line 125 **** -->      </para>
+      <para xml:id="S2.p5">
         <p>Furthermore, define</p>
         <equation xml:id="S2.Ex20">
           <Math mode="display" tex="J(x)=\frac{1}{2\pi i}\int_{\Re(s)=\frac{3}{2}}\frac{1}{1-s}\frac{\gamma(s)}{%&#10;\gamma(1-s)}x^{1-s}ds," text="J * x = (1 / (2 * pi * i)) * (integral _ (real-part@(s) = 3 / 2))@((1 / (1 - s)) * ((gamma * s) / (gamma * (1 - s))) * x ^ (1 - s) * differential-d@(s))" xml:id="S2.Ex20.m1">
@@ -7161,7 +7160,7 @@ and the residue of <Math mode="inline" tex="F(s)L(a,s)" text="F * s * L * open-i
                   <XMTok meaning="equals" role="RELOP">=</XMTok>
                   <XMApp>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok font="italic" name="gamma" role="UNKNOWN">γ</XMTok>
+<!--  %**** voronoi.tex Line 175 **** -->                    <XMTok font="italic" name="gamma" role="UNKNOWN">γ</XMTok>
                     <XMDual>
                       <XMRef idref="S2.Ex38.m1.1"/>
                       <XMWrap>
@@ -7211,7 +7210,7 @@ and the residue of <Math mode="inline" tex="F(s)L(a,s)" text="F * s * L * open-i
                   </XMApp>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-<!--  %**** voronoi.tex Line 175 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -8544,8 +8543,7 @@ and the residue of <Math mode="inline" tex="F(s)L(a,s)" text="F * s * L * open-i
           </MathFork>
         </equation>
       </equationgroup>
-      <p>Therefore
-<!--  %**** voronoi.tex Line 200 **** --></p>
+<!--  %**** voronoi.tex Line 200 **** -->      <p>Therefore</p>
       <equation xml:id="S2.Ex48">
         <Math mode="display" tex="K(x)=\frac{1}{2\pi i}\int_{\Re(s)=\frac{3}{2}}\frac{\gamma(s)}{\gamma(1-s)}x^{%&#10;-s}ds=\frac{1}{2\pi i}\int_{\Re(s)=\frac{3}{2}}\cos\frac{\pi s}{2}\cdot 2(2\pi%&#10;)^{-s}\Gamma(s)x^{-s}ds" text="K * x = (1 / (2 * pi * i)) * (integral _ (real-part@(s) = 3 / 2))@(((gamma * s) / (gamma * (1 - s))) * x ^ (- s) * differential-d@(s)) = (1 / (2 * pi * i)) * (integral _ (real-part@(s) = 3 / 2))@(cosine@(((pi * s) / 2) cdot 2) * (2 * pi) ^ (- s) * Gamma * s * x ^ (- s) * differential-d@(s))" xml:id="S2.Ex48.m1">
           <XMath>
@@ -9267,9 +9265,10 @@ and the residue of <Math mode="inline" tex="F(s)L(a,s)" text="F * s * L * open-i
             </XMApp>
           </XMath>
         </Math> is even, this is the
-<text font="bold">Poisson summation formula</text>.</p>
+<text font="bold">Poisson summation formula</text>.
+<!--  %**** voronoi.tex Line 225 **** --></p>
     </para>
-<!--  %**** voronoi.tex Line 225 **** -->    <para xml:id="S2.p7">
+    <para xml:id="S2.p7">
       <p>Take <Math mode="inline" tex="a(n)=d(n)" text="a * n = d * n" xml:id="S2.p7.m1">
           <XMath>
             <XMApp>
@@ -10051,7 +10050,8 @@ and the residue of <Math mode="inline" tex="F(s)L(a,s)" text="F * s * L * open-i
           </MathFork>
         </equation>
       </equationgroup>
-      <p>Taking as given two identities for Bessel functions</p>
+      <p>Taking as given two identities for Bessel functions
+<!--  %**** voronoi.tex Line 250 **** --></p>
       <equation xml:id="S2.Ex59">
         <Math mode="display" tex="\int_{0}^{\infty}x^{s-1}K_{0}(4\pi x^{1/2})dx=\frac{1}{2}(2\pi)^{-2s}\Gamma(s)%&#10;^{2}" text="((integral _ 0) ^ infinity)@(x ^ (s - 1) * K _ 0 * 4 * pi * x ^ (1 / 2) * differential-d@(x)) = (1 / 2) * (2 * pi) ^ (- 2 * s) * Gamma * s ^ 2" xml:id="S2.Ex59.m1">
           <XMath>
@@ -10062,7 +10062,7 @@ and the residue of <Math mode="inline" tex="F(s)L(a,s)" text="F * s * L * open-i
                   <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
                   <XMApp>
                     <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-<!--  %**** voronoi.tex Line 250 **** -->                    <XMTok mathstyle="display" meaning="integral" name="int" role="INTOP">∫</XMTok>
+                    <XMTok mathstyle="display" meaning="integral" name="int" role="INTOP">∫</XMTok>
                     <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
                   </XMApp>
                   <XMTok fontsize="70%" meaning="infinity" name="infty" role="ID">∞</XMTok>
@@ -11128,12 +11128,12 @@ and the residue of <Math mode="inline" tex="F(s)L(a,s)" text="F * s * L * open-i
                   </XMApp>
                 </XMApp>
                 <XMTok role="PUNCT">,</XMTok>
-              </XMWrap>
+<!--  %**** voronoi.tex Line 275 **** -->              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
       </equation>
-<!--  %**** voronoi.tex Line 275 **** -->      <p>we have</p>
+      <p>we have</p>
       <equation xml:id="S2.Ex66">
         <Math mode="display" tex="\mathrm{Res}_{s=1}\mathscr{M}(f)(s)\zeta^{2}(s)=2\gamma+\log x," text="Res _ (s = 1) * M * f * s * zeta ^ 2 * s = 2 * gamma + logarithm@(x)" xml:id="S2.Ex66.m1">
           <XMath>
@@ -11993,9 +11993,10 @@ We define <Math mode="inline" tex="P_{m}(x)=B_{m}(\{x\})" text="P _ m * x = B _ 
               </XMApp>
             </XMApp>
           </XMath>
-        </Math>, the <text font="bold">Bernoulli functions</text>.</p>
+        </Math>, the <text font="bold">Bernoulli functions</text>.
+<!--  %**** voronoi.tex Line 300 **** --></p>
     </para>
-<!--  %**** voronoi.tex Line 300 **** -->  </section>
+  </section>
   <section inlist="toc" xml:id="S4">
     <tags>
       <tag>4</tag>
@@ -12006,7 +12007,7 @@ We define <Math mode="inline" tex="P_{m}(x)=B_{m}(\{x\})" text="P _ m * x = B _ 
     <para xml:id="S4.p1">
       <p>The following result is proved by Wigert <cite class="ltx_citemacro_cite">[<bibref bibrefs="wigert" separator="," yyseparator=","/>]</cite>. Our proof follows Titchmarsh <cite class="ltx_citemacro_cite">[<bibref bibrefs="zeta" separator="," yyseparator=","/>, p. 163, Theorem 7.15]</cite>. Cf. Landau <cite class="ltx_citemacro_cite">[<bibref bibrefs="landau" separator="," yyseparator=","/>]</cite>.</p>
     </para>
-    <theorem class="ltx_theorem_theorem" inlist="thm theorem:theorem" labels="LABEL:wigert" xml:id="Thmtheorem2">
+    <theorem class="ltx_theorem_theorem" inlist="thm theorem:theorem" xml:id="Thmtheorem2">
       <tags>
         <tag>Theorem 2</tag>
         <tag role="refnum">2</tag>
@@ -12014,32 +12015,32 @@ We define <Math mode="inline" tex="P_{m}(x)=B_{m}(\{x\})" text="P _ m * x = B _ 
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 2</text></tag>.</title>
       <para xml:id="Thmtheorem2.p1">
-        <p><text font="italic">For <Math mode="inline" tex="\lambda&lt;\frac{1}{2}\pi" text="lambda less (1 / 2) * pi" xml:id="Thmtheorem2.p1.m1">
-              <XMath>
+        <p>For <Math mode="inline" tex="\lambda&lt;\frac{1}{2}\pi" text="lambda less (1 / 2) * pi" xml:id="Thmtheorem2.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok font="italic" name="lambda" role="UNKNOWN">λ</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok name="lambda" role="UNKNOWN">λ</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok mathstyle="text" meaning="divide" role="FRACOP"/>
-                      <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                    </XMApp>
-                    <XMTok name="pi" role="UNKNOWN">π</XMTok>
+                    <XMTok mathstyle="text" meaning="divide" role="FRACOP"/>
+                    <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                    <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
                   </XMApp>
+                  <XMTok font="italic" name="pi" role="UNKNOWN">π</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> and <Math mode="inline" tex="N\geq 1" text="N &gt;= 1" xml:id="Thmtheorem2.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMTok role="UNKNOWN">N</XMTok>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,</text></p>
-        <equation xml:id="S4.Ex70">
+              </XMApp>
+            </XMath>
+          </Math> and <Math mode="inline" tex="N\geq 1" text="N &gt;= 1" xml:id="Thmtheorem2.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMTok font="italic" role="UNKNOWN">N</XMTok>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,</p>
+        <equation labels="LABEL:wigert" xml:id="S4.Ex70">
           <Math mode="display" tex="\sum_{n=1}^{\infty}d(n)e^{-nz}=\frac{\gamma}{z}-\frac{\log z}{z}+\frac{1}{4}-%&#10;\sum_{n=0}^{N-1}\frac{B_{2n+2}^{2}}{(2n+2)!(2n+2)}z^{2n+1}+O(|z|^{2N})" text="((sum _ (n = 1)) ^ infinity)@(d * n * e ^ (- n * z)) = (((gamma / z - logarithm@(z) / z) + 1 / 4) - ((sum _ (n = 0)) ^ (N - 1))@(((B _ (2 * n + 2)) ^ 2 / ((2 * n + 2)factorial * (2 * n + 2))) * z ^ (2 * n + 1))) + O * (absolute-value@(z)) ^ (2 * N)" xml:id="S4.Ex70.m1">
             <XMath>
               <XMApp>
@@ -12240,36 +12241,36 @@ We define <Math mode="inline" tex="P_{m}(x)=B_{m}(\{x\})" text="P _ m * x = B _ 
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">as <Math mode="inline" tex="z\to 0" text="z to 0" xml:id="Thmtheorem2.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                  <XMTok role="UNKNOWN">z</XMTok>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> in any angle <Math mode="inline" tex="|\arg z|\leq\lambda" text="absolute-value@(argument@(z)) less= lambda" xml:id="Thmtheorem2.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="absolute-value"/>
-                      <XMRef idref="Thmtheorem2.p1.m4.1"/>
+        <p>as <Math mode="inline" tex="z\to 0" text="z to 0" xml:id="Thmtheorem2.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok name="to" role="ARROW">→</XMTok>
+                <XMTok font="italic" role="UNKNOWN">z</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> in any angle <Math mode="inline" tex="|\arg z|\leq\lambda" text="absolute-value@(argument@(z)) less= lambda" xml:id="Thmtheorem2.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="absolute-value"/>
+                    <XMRef idref="Thmtheorem2.p1.m4.1"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                    <XMApp xml:id="Thmtheorem2.p1.m4.1">
+                      <XMTok meaning="argument" role="OPFUNCTION">arg</XMTok>
+                      <XMTok font="italic" role="UNKNOWN">z</XMTok>
                     </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                      <XMApp xml:id="Thmtheorem2.p1.m4.1">
-                        <XMTok font="upright" meaning="argument" role="OPFUNCTION">arg</XMTok>
-                        <XMTok role="UNKNOWN">z</XMTok>
-                      </XMApp>
-                      <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                  <XMTok name="lambda" role="UNKNOWN">λ</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>.</text></p>
+                    <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                  </XMWrap>
+                </XMDual>
+                <XMTok font="italic" name="lambda" role="UNKNOWN">λ</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
@@ -14774,12 +14775,12 @@ hence the residue of <Math mode="inline" tex="F" text="F" xml:id="S4.p4.m6">
                     </XMWrap>
                   </XMDual>
                   <XMTok role="PERIOD">.</XMTok>
-                </XMWrap>
+<!--  %**** voronoi.tex Line 375 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** voronoi.tex Line 375 **** -->      </para>
+      </para>
       <para xml:id="S4.p6">
         <p>Let <Math mode="inline" tex="M&gt;0" text="M &gt; 0" xml:id="S4.p6.m1">
             <XMath>
@@ -15467,8 +15468,8 @@ For <Math mode="inline" tex="s=\sigma+it" text="s = sigma + i * t" xml:id="S4.p6
             </XMath>
           </Math>
         </equation>
-        <p>As well <cite class="ltx_citemacro_cite">[<bibref bibrefs="zeta" separator="," yyseparator=","/>, p. 95]</cite>,
-<!--  %**** voronoi.tex Line 400 **** -->there is some <Math mode="inline" tex="K&gt;0" text="K &gt; 0" xml:id="S4.p6.m13">
+<!--  %**** voronoi.tex Line 400 **** -->        <p>As well <cite class="ltx_citemacro_cite">[<bibref bibrefs="zeta" separator="," yyseparator=","/>, p. 95]</cite>,
+there is some <Math mode="inline" tex="K&gt;0" text="K &gt; 0" xml:id="S4.p6.m13">
             <XMath>
               <XMApp>
                 <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
@@ -16447,11 +16448,11 @@ Likewise,</p>
                   </XMWrap>
                 </XMDual>
                 <XMTok meaning="0" role="NUMBER">0</XMTok>
-              </XMApp>
+<!--  %**** voronoi.tex Line 425 **** -->              </XMApp>
             </XMath>
           </Math>
         </equation>
-<!--  %**** voronoi.tex Line 425 **** -->        <p>as <Math mode="inline" tex="M\to\infty" text="M to infinity" xml:id="S4.p6.m19">
+        <p>as <Math mode="inline" tex="M\to\infty" text="M to infinity" xml:id="S4.p6.m19">
             <XMath>
               <XMApp>
                 <XMTok name="to" role="ARROW">→</XMTok>
@@ -17208,7 +17209,8 @@ Likewise,</p>
               </XMApp>
             </XMath>
           </Math> is continuous on the path of integration.
-The second integral satisfies</p>
+The second integral satisfies
+<!--  %**** voronoi.tex Line 450 **** --></p>
         <equationgroup class="ltx_eqn_align" xml:id="S5.EGx14">
           <equation xml:id="S4.Ex97">
             <MathFork>
@@ -18623,7 +18625,7 @@ as <Math mode="inline" tex="B_{2}=\frac{1}{6},B_{4}=-\frac{1}{30},B_{6}=\frac{1}
                       <XMTok role="SUPERSCRIPTOP" scriptpos="mid1"/>
                       <XMApp scriptpos="mid">
                         <XMTok role="SUBSCRIPTOP" scriptpos="mid1"/>
-                        <XMTok mathstyle="display" meaning="sum" role="SUMOP" scriptpos="mid">∑</XMTok>
+<!--  %**** voronoi.tex Line 475 **** -->                        <XMTok mathstyle="display" meaning="sum" role="SUMOP" scriptpos="mid">∑</XMTok>
                         <XMApp>
                           <XMTok fontsize="70%" meaning="equals" role="RELOP">=</XMTok>
                           <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
@@ -18684,7 +18686,7 @@ as <Math mode="inline" tex="B_{2}=\frac{1}{6},B_{4}=-\frac{1}{30},B_{6}=\frac{1}
                           <XMTok meaning="1" role="NUMBER">1</XMTok>
                           <XMTok meaning="4" role="NUMBER">4</XMTok>
                         </XMApp>
-<!--  %**** voronoi.tex Line 475 **** -->                      </XMApp>
+                      </XMApp>
                       <XMApp>
                         <XMTok mathstyle="display" meaning="divide" role="FRACOP"/>
                         <XMTok font="italic" role="UNKNOWN">z</XMTok>
@@ -18776,9 +18778,8 @@ as <Math mode="inline" tex="B_{2}=\frac{1}{6},B_{4}=-\frac{1}{30},B_{6}=\frac{1}
     <para xml:id="S5.p8">
       <p>Bettin and Conrey <cite class="ltx_citemacro_cite">[<bibref bibrefs="bettin" separator="," yyseparator=","/>]</cite></p>
     </para>
-    <para xml:id="S5.p9">
-      <p>Chandrasekharan and Narasimhan <cite class="ltx_citemacro_cite">[<bibref bibrefs="hecke" separator="," yyseparator=","/>]</cite>
-<!--  %**** voronoi.tex Line 500 **** --></p>
+<!--  %**** voronoi.tex Line 500 **** -->    <para xml:id="S5.p9">
+      <p>Chandrasekharan and Narasimhan <cite class="ltx_citemacro_cite">[<bibref bibrefs="hecke" separator="," yyseparator=","/>]</cite></p>
     </para>
     <para xml:id="S5.p10">
       <p>Chandrasekharan <cite class="ltx_citemacro_cite">[<bibref bibrefs="chandra" separator="," yyseparator=","/>, Chapter VIII]</cite></p>

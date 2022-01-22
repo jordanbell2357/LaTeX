@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/staging/progressivelymeasurable"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/mathematics/progressivelymeasurable"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
 <?latexml RelaxNGSchema="LaTeXML"?>
@@ -288,24 +288,24 @@ A Hitchhiker’s Guide</text>, third ed., p. 153, Lemma 4.51.</note></p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 1</text></tag>.</title>
       <para xml:id="Thmtheorem1.p1">
-        <p><text font="italic">If <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem1.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> is a stochastic process with state space <Math mode="inline" tex="E" text="E" xml:id="Thmtheorem1.p1.m2">
-              <XMath>
-                <XMTok role="UNKNOWN">E</XMTok>
-              </XMath>
-            </Math> and all the paths of <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem1.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> are left-continuous, then <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem1.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> is
-jointly measurable.</text></p>
+        <p>If <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem1.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> is a stochastic process with state space <Math mode="inline" tex="E" text="E" xml:id="Thmtheorem1.p1.m2">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">E</XMTok>
+            </XMath>
+          </Math> and all the paths of <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem1.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> are left-continuous, then <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem1.p1.m4">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> is
+jointly measurable.</p>
       </para>
     </theorem>
     <proof>
@@ -1625,42 +1625,42 @@ it is the coarsest <Math mode="inline" tex="\sigma" text="sigma" xml:id="S3.p2.m
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 2</text></tag>.</title>
       <para xml:id="Thmtheorem2.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="\mathscr{F}_{I}=(\mathscr{F}_{t})_{t\in I}" text="F _ I = F _ t _ (t element-of I)" xml:id="Thmtheorem2.p1.m1">
-              <XMath>
+        <p>Let <Math mode="inline" tex="\mathscr{F}_{I}=(\mathscr{F}_{t})_{t\in I}" text="F _ I = F _ t _ (t element-of I)" xml:id="Thmtheorem2.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="script" role="UNKNOWN">F</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">I</XMTok>
+                </XMApp>
+                <XMApp>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem2.p1.m1.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMApp xml:id="Thmtheorem2.p1.m1.1">
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                        <XMTok font="script" role="UNKNOWN">F</XMTok>
+                        <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+                      </XMApp>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                   <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok font="script upright" role="UNKNOWN">F</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">I</XMTok>
-                  </XMApp>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem2.p1.m1.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMApp xml:id="Thmtheorem2.p1.m1.1">
-                          <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                          <XMTok font="script upright" role="UNKNOWN">F</XMTok>
-                          <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                        </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                    <XMApp>
-                      <XMTok font="upright" fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">I</XMTok>
-                    </XMApp>
+                    <XMTok fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">I</XMTok>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math> be a filtration of <Math mode="inline" tex="\mathscr{F}" text="F" xml:id="Thmtheorem2.p1.m2">
-              <XMath>
-                <XMTok font="script upright" role="UNKNOWN">F</XMTok>
-              </XMath>
-            </Math>.</text></p>
+              </XMApp>
+            </XMath>
+          </Math> be a filtration of <Math mode="inline" tex="\mathscr{F}" text="F" xml:id="Thmtheorem2.p1.m2">
+            <XMath>
+              <XMTok font="script" role="UNKNOWN">F</XMTok>
+            </XMath>
+          </Math>.</p>
         <enumerate xml:id="S3.I1">
           <item xml:id="S3.I1.i1">
             <tags>
@@ -1688,11 +1688,11 @@ it is the coarsest <Math mode="inline" tex="\sigma" text="sigma" xml:id="S3.p2.m
                       </XMDual>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> is a </text><Math mode="inline" tex="\sigma" text="sigma" xml:id="S3.I1.i1.p1.m2">
+                </Math> is a <Math mode="inline" tex="\sigma" text="sigma" xml:id="S3.I1.i1.p1.m2">
                   <XMath>
                     <XMTok font="italic" name="sigma" role="UNKNOWN">σ</XMTok>
                   </XMath>
-                </Math><text font="italic">-subalgebra of </text><Math mode="inline" tex="\mathscr{B}_{I}\otimes\mathscr{F}" text="B _ I tensor-product F" xml:id="S3.I1.i1.p1.m3">
+                </Math>-subalgebra of <Math mode="inline" tex="\mathscr{B}_{I}\otimes\mathscr{F}" text="B _ I tensor-product F" xml:id="S3.I1.i1.p1.m3">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="tensor-product" name="otimes" role="MULOP">⊗</XMTok>
@@ -1704,12 +1704,12 @@ it is the coarsest <Math mode="inline" tex="\sigma" text="sigma" xml:id="S3.p2.m
                       <XMTok font="script" role="UNKNOWN">F</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">, and is the
-</text><Math mode="inline" tex="\sigma" text="sigma" xml:id="S3.I1.i1.p1.m4">
+                </Math>, and is the
+<Math mode="inline" tex="\sigma" text="sigma" xml:id="S3.I1.i1.p1.m4">
                   <XMath>
                     <XMTok font="italic" name="sigma" role="UNKNOWN">σ</XMTok>
                   </XMath>
-                </Math><text font="italic">-algebra generated by the collection of functions </text><Math mode="inline" tex="I\times\Omega\to E" text="I * Omega to E" xml:id="S3.I1.i1.p1.m5">
+                </Math>-algebra generated by the collection of functions <Math mode="inline" tex="I\times\Omega\to E" text="I * Omega to E" xml:id="S3.I1.i1.p1.m5">
                   <XMath>
                     <XMApp>
                       <XMTok name="to" role="ARROW">→</XMTok>
@@ -1721,8 +1721,8 @@ it is the coarsest <Math mode="inline" tex="\sigma" text="sigma" xml:id="S3.p2.m
                       <XMTok font="italic" role="UNKNOWN">E</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> that
-are progressively measurable with respect to the filtration </text><Math mode="inline" tex="\mathscr{F}_{I}" text="F _ I" xml:id="S3.I1.i1.p1.m6">
+                </Math> that
+are progressively measurable with respect to the filtration <Math mode="inline" tex="\mathscr{F}_{I}" text="F _ I" xml:id="S3.I1.i1.p1.m6">
                   <XMath>
                     <XMApp>
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -1730,7 +1730,7 @@ are progressively measurable with respect to the filtration </text><Math mode="i
                       <XMTok font="italic" fontsize="70%" role="UNKNOWN">I</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">:</text></p>
+                </Math>:</p>
               <equation xml:id="S3.Ex9">
                 <Math mode="display" tex="\mathrm{Prog}(\mathscr{F}_{I})=\sigma(\mathscr{M}^{0}(\mathscr{F}_{I}))." text="Prog * F _ I = sigma * M ^ 0 * F _ I" xml:id="S3.Ex9.m1">
                   <XMath>
@@ -1802,7 +1802,7 @@ are progressively measurable with respect to the filtration </text><Math mode="i
               <tag role="typerefnum">item 2</tag>
             </tags>
             <para xml:id="S3.I1.i2.p1">
-              <p><text font="italic">If </text><Math mode="inline" tex="X:I\times\Omega\to E" text="X colon I * Omega to E" xml:id="S3.I1.i2.p1.m1">
+              <p>If <Math mode="inline" tex="X:I\times\Omega\to E" text="X colon I * Omega to E" xml:id="S3.I1.i2.p1.m1">
                   <XMath>
                     <XMApp>
                       <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -1818,8 +1818,8 @@ are progressively measurable with respect to the filtration </text><Math mode="i
                       </XMApp>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> is progressively measurable with respect to the filtration
-</text><Math mode="inline" tex="\mathscr{F}_{I}" text="F _ I" xml:id="S3.I1.i2.p1.m2">
+                </Math> is progressively measurable with respect to the filtration
+<Math mode="inline" tex="\mathscr{F}_{I}" text="F _ I" xml:id="S3.I1.i2.p1.m2">
                   <XMath>
                     <XMApp>
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -1827,7 +1827,7 @@ are progressively measurable with respect to the filtration </text><Math mode="i
                       <XMTok font="italic" fontsize="70%" role="UNKNOWN">I</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">, then the stochastic process </text><Math mode="inline" tex="(X_{t})_{t\in I}" text="X _ t _ (t element-of I)" xml:id="S3.I1.i2.p1.m3">
+                </Math>, then the stochastic process <Math mode="inline" tex="(X_{t})_{t\in I}" text="X _ t _ (t element-of I)" xml:id="S3.I1.i2.p1.m3">
                   <XMath>
                     <XMApp>
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -1850,7 +1850,7 @@ are progressively measurable with respect to the filtration </text><Math mode="i
                       </XMApp>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> is jointly measurable and is adapted to the filtration.</text></p>
+                </Math> is jointly measurable and is adapted to the filtration.</p>
             </para>
           </item>
         </enumerate>
@@ -3770,62 +3770,62 @@ p. 267, Lemma 7.1.2.</note></p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 3</text></tag>.</title>
       <para xml:id="Thmtheorem3.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="(\mathscr{F}_{t})_{t\in I}" text="F _ t _ (t element-of I)" xml:id="Thmtheorem3.p1.m1">
-              <XMath>
+        <p>Let <Math mode="inline" tex="(\mathscr{F}_{t})_{t\in I}" text="F _ t _ (t element-of I)" xml:id="Thmtheorem3.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMDual>
+                  <XMRef idref="Thmtheorem3.p1.m1.1"/>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">(</XMTok>
+                    <XMApp xml:id="Thmtheorem3.p1.m1.1">
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="script" role="UNKNOWN">F</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+                    </XMApp>
+                    <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                  </XMWrap>
+                </XMDual>
                 <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMDual>
-                    <XMRef idref="Thmtheorem3.p1.m1.1"/>
-                    <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                      <XMApp xml:id="Thmtheorem3.p1.m1.1">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok font="script upright" role="UNKNOWN">F</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                      </XMApp>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                  <XMApp>
-                    <XMTok font="upright" fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">I</XMTok>
-                  </XMApp>
+                  <XMTok fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">I</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> be a filtration of <Math mode="inline" tex="\mathscr{F}" text="F" xml:id="Thmtheorem3.p1.m2">
-              <XMath>
-                <XMTok font="script upright" role="UNKNOWN">F</XMTok>
-              </XMath>
-            </Math>. If <Math mode="inline" tex="(X_{t})_{t\in I}" text="X _ t _ (t element-of I)" xml:id="Thmtheorem3.p1.m3">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math> be a filtration of <Math mode="inline" tex="\mathscr{F}" text="F" xml:id="Thmtheorem3.p1.m2">
+            <XMath>
+              <XMTok font="script" role="UNKNOWN">F</XMTok>
+            </XMath>
+          </Math>. If <Math mode="inline" tex="(X_{t})_{t\in I}" text="X _ t _ (t element-of I)" xml:id="Thmtheorem3.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMDual>
+                  <XMRef idref="Thmtheorem3.p1.m3.1"/>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">(</XMTok>
+                    <XMApp xml:id="Thmtheorem3.p1.m3.1">
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+                    </XMApp>
+                    <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                  </XMWrap>
+                </XMDual>
                 <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMDual>
-                    <XMRef idref="Thmtheorem3.p1.m3.1"/>
-                    <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                      <XMApp xml:id="Thmtheorem3.p1.m3.1">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">X</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                      </XMApp>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                  <XMApp>
-                    <XMTok font="upright" fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">I</XMTok>
-                  </XMApp>
+                  <XMTok fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">I</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> is a stochastic
+              </XMApp>
+            </XMath>
+          </Math> is a stochastic
 process that is adapted to this filtration and all its paths are left-continuous, then <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem3.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> is progressively measurable with respect to this filtration.</text></p>
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> is progressively measurable with respect to this filtration.</p>
       </para>
     </theorem>
     <proof>
@@ -4798,107 +4798,107 @@ Let</p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 4</text></tag>.</title>
       <para xml:id="Thmtheorem4.p1">
-        <p><text font="italic">If <Math mode="inline" tex="\mathscr{F}_{I}=(\mathscr{F}_{t})_{t\in I}" text="F _ I = F _ t _ (t element-of I)" xml:id="Thmtheorem4.p1.m1">
-              <XMath>
+        <p>If <Math mode="inline" tex="\mathscr{F}_{I}=(\mathscr{F}_{t})_{t\in I}" text="F _ I = F _ t _ (t element-of I)" xml:id="Thmtheorem4.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok font="script upright" role="UNKNOWN">F</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">I</XMTok>
-                  </XMApp>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem4.p1.m1.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMApp xml:id="Thmtheorem4.p1.m1.1">
-                          <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                          <XMTok font="script upright" role="UNKNOWN">F</XMTok>
-                          <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                        </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                    <XMApp>
-                      <XMTok font="upright" fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">I</XMTok>
-                    </XMApp>
-                  </XMApp>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="script" role="UNKNOWN">F</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">I</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> is a filtration of <Math mode="inline" tex="\mathscr{F}" text="F" xml:id="Thmtheorem4.p1.m2">
-              <XMath>
-                <XMTok font="script upright" role="UNKNOWN">F</XMTok>
-              </XMath>
-            </Math>,
-<Math mode="inline" tex="(X_{t})_{t\in I}" text="X _ t _ (t element-of I)" xml:id="Thmtheorem4.p1.m3">
-              <XMath>
                 <XMApp>
                   <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
                   <XMDual>
-                    <XMRef idref="Thmtheorem4.p1.m3.1"/>
+                    <XMRef idref="Thmtheorem4.p1.m1.1"/>
                     <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                      <XMApp xml:id="Thmtheorem4.p1.m3.1">
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMApp xml:id="Thmtheorem4.p1.m1.1">
                         <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">X</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
+                        <XMTok font="script" role="UNKNOWN">F</XMTok>
+                        <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
                       </XMApp>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
                     </XMWrap>
                   </XMDual>
                   <XMApp>
-                    <XMTok font="upright" fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">I</XMTok>
+                    <XMTok fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">I</XMTok>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math> is a stochastic process that is progressively measurable with respect to <Math mode="inline" tex="\mathscr{F}_{I}" text="F _ I" xml:id="Thmtheorem4.p1.m4">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math> is a filtration of <Math mode="inline" tex="\mathscr{F}" text="F" xml:id="Thmtheorem4.p1.m2">
+            <XMath>
+              <XMTok font="script" role="UNKNOWN">F</XMTok>
+            </XMath>
+          </Math>,
+<Math mode="inline" tex="(X_{t})_{t\in I}" text="X _ t _ (t element-of I)" xml:id="Thmtheorem4.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMDual>
+                  <XMRef idref="Thmtheorem4.p1.m3.1"/>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">(</XMTok>
+                    <XMApp xml:id="Thmtheorem4.p1.m3.1">
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+                    </XMApp>
+                    <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                  </XMWrap>
+                </XMDual>
                 <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok font="script upright" role="UNKNOWN">F</XMTok>
-                  <XMTok fontsize="70%" role="UNKNOWN">I</XMTok>
+                  <XMTok fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">I</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>,
+              </XMApp>
+            </XMath>
+          </Math> is a stochastic process that is progressively measurable with respect to <Math mode="inline" tex="\mathscr{F}_{I}" text="F _ I" xml:id="Thmtheorem4.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="script" role="UNKNOWN">F</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">I</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,
 and <Math mode="inline" tex="T" text="T" xml:id="Thmtheorem4.p1.m5">
-              <XMath>
-                <XMTok role="UNKNOWN">T</XMTok>
-              </XMath>
-            </Math> is a stopping time with respect to <Math mode="inline" tex="\mathscr{F}_{I}" text="F _ I" xml:id="Thmtheorem4.p1.m6">
-              <XMath>
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">T</XMTok>
+            </XMath>
+          </Math> is a stopping time with respect to <Math mode="inline" tex="\mathscr{F}_{I}" text="F _ I" xml:id="Thmtheorem4.p1.m6">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="script" role="UNKNOWN">F</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">I</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, then <Math mode="inline" tex="X_{T}" text="X _ T" xml:id="Thmtheorem4.p1.m7">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">T</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> is measurable <Math mode="inline" tex="\mathscr{F}_{T}\to\mathscr{E}" text="F _ T to E" xml:id="Thmtheorem4.p1.m8">
+            <XMath>
+              <XMApp>
+                <XMTok name="to" role="ARROW">→</XMTok>
                 <XMApp>
                   <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok font="script upright" role="UNKNOWN">F</XMTok>
-                  <XMTok fontsize="70%" role="UNKNOWN">I</XMTok>
+                  <XMTok font="script" role="UNKNOWN">F</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">T</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>, then <Math mode="inline" tex="X_{T}" text="X _ T" xml:id="Thmtheorem4.p1.m7">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">X</XMTok>
-                  <XMTok fontsize="70%" role="UNKNOWN">T</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> is measurable <Math mode="inline" tex="\mathscr{F}_{T}\to\mathscr{E}" text="F _ T to E" xml:id="Thmtheorem4.p1.m8">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok font="script upright" role="UNKNOWN">F</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">T</XMTok>
-                  </XMApp>
-                  <XMTok font="script upright" role="UNKNOWN">E</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>.</text></p>
+                <XMTok font="script" role="UNKNOWN">E</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
@@ -5769,93 +5769,93 @@ p. 9, Proposition 2.18.</note></p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 5</text></tag>.</title>
       <para xml:id="Thmtheorem5.p1">
-        <p><text font="italic">If <Math mode="inline" tex="(X_{t})_{t\in I}" text="X _ t _ (t element-of I)" xml:id="Thmtheorem5.p1.m1">
-              <XMath>
+        <p>If <Math mode="inline" tex="(X_{t})_{t\in I}" text="X _ t _ (t element-of I)" xml:id="Thmtheorem5.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMDual>
+                  <XMRef idref="Thmtheorem5.p1.m1.1"/>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">(</XMTok>
+                    <XMApp xml:id="Thmtheorem5.p1.m1.1">
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+                    </XMApp>
+                    <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                  </XMWrap>
+                </XMDual>
+                <XMApp>
+                  <XMTok fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">I</XMTok>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math> is a stochastic process that is progressively measurable with respect
+to a filtration <Math mode="inline" tex="\mathscr{F}_{I}=(\mathscr{F}_{t})_{t\in I}" text="F _ I = F _ t _ (t element-of I)" xml:id="Thmtheorem5.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMApp>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="script" role="UNKNOWN">F</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">I</XMTok>
+                </XMApp>
                 <XMApp>
                   <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
                   <XMDual>
-                    <XMRef idref="Thmtheorem5.p1.m1.1"/>
+                    <XMRef idref="Thmtheorem5.p1.m2.1"/>
                     <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                      <XMApp xml:id="Thmtheorem5.p1.m1.1">
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMApp xml:id="Thmtheorem5.p1.m2.1">
                         <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">X</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
+                        <XMTok font="script" role="UNKNOWN">F</XMTok>
+                        <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
                       </XMApp>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
                     </XMWrap>
                   </XMDual>
                   <XMApp>
-                    <XMTok font="upright" fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">I</XMTok>
+                    <XMTok fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">I</XMTok>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math> is a stochastic process that is progressively measurable with respect
-to a filtration <Math mode="inline" tex="\mathscr{F}_{I}=(\mathscr{F}_{t})_{t\in I}" text="F _ I = F _ t _ (t element-of I)" xml:id="Thmtheorem5.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok font="script upright" role="UNKNOWN">F</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">I</XMTok>
-                  </XMApp>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem5.p1.m2.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMApp xml:id="Thmtheorem5.p1.m2.1">
-                          <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                          <XMTok font="script upright" role="UNKNOWN">F</XMTok>
-                          <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                        </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                    <XMApp>
-                      <XMTok font="upright" fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">I</XMTok>
-                    </XMApp>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math> and
+              </XMApp>
+            </XMath>
+          </Math> and
 <Math mode="inline" tex="T" text="T" xml:id="Thmtheorem5.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">T</XMTok>
-              </XMath>
-            </Math> is a stopping time with respect
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">T</XMTok>
+            </XMath>
+          </Math> is a stopping time with respect
 to <Math mode="inline" tex="\mathscr{F}_{I}" text="F _ I" xml:id="Thmtheorem5.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok font="script upright" role="UNKNOWN">F</XMTok>
-                  <XMTok fontsize="70%" role="UNKNOWN">I</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, then
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="script" role="UNKNOWN">F</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">I</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, then
 <Math mode="inline" tex="X^{T}" text="X ^ T" xml:id="Thmtheorem5.p1.m5">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">X</XMTok>
-                  <XMTok fontsize="70%" role="UNKNOWN">T</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> is progressively measurable with respect to <Math mode="inline" tex="\mathscr{F}_{I}" text="F _ I" xml:id="Thmtheorem5.p1.m6">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok font="script upright" role="UNKNOWN">F</XMTok>
-                  <XMTok fontsize="70%" role="UNKNOWN">I</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>.</text></p>
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">T</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> is progressively measurable with respect to <Math mode="inline" tex="\mathscr{F}_{I}" text="F _ I" xml:id="Thmtheorem5.p1.m6">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="script" role="UNKNOWN">F</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">I</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>

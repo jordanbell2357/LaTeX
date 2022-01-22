@@ -39,8 +39,8 @@
 \maketitle
 
 \section{Fourier transforms of measures}
-Let $m_n$ be {\em normalized Lebesgue measure} on $\mathbb{R}^n$: $dm_n(x) = (2\pi)^{-n/2} dx$. 
-If $\mu$ is a finite  positive Borel  measure on $\mathbb{R}^n$, the {\em Fourier transform of $\mu$} is the function
+Let $m_n$ be \textbf{normalized Lebesgue measure} on $\mathbb{R}^n$: $dm_n(x) = (2\pi)^{-n/2} dx$. 
+If $\mu$ is a finite  positive Borel  measure on $\mathbb{R}^n$, the \textbf{Fourier transform of $\mu$} is the function
 $\hat{\mu}:\mathbb{R}^n \to \mathbb{C}$ defined by
 \[
 \hat{\mu}(\xi) = \int_{\mathbb{R}^n} e^{-i\xi \cdot x} d\mu(x), \qquad \xi \in \mathbb{R}^n.
@@ -94,7 +94,7 @@ defined by $\Lambda e_i=\lambda_i e_i$. Define
 \[
 d\mu(x) = \sqrt{\det \Lambda} \exp\left(-\frac{1}{2} x\cdot \Lambda x \right) dm_n(x),
 \]
-called a {\em Gaussian measure}. 
+called a \textbf{Gaussian measure}. 
 
 
 \begin{theorem}
@@ -174,7 +174,7 @@ This shows that the Radon-Nikodym derivative of $(T_h)_*\mu$ with respect to $\m
 
 
 \section{Positive-definite functions}
-We say that a function $\phi:\mathbb{R}^n \to \mathbb{C}$ is {\em positive-definite}
+We say that a function $\phi:\mathbb{R}^n \to \mathbb{C}$ is \textbf{positive-definite}
 if $x_1,\ldots,x_r \in \mathbb{R}^n$ and $c_1,\ldots,c_r \in
 \mathbb{C}$ imply
 that
@@ -193,12 +193,12 @@ and using this with $c_2=1$ and for appropriate $c_1$ gives
 |\phi(x)| \leq \phi(0).
 \]
 
-For $f,g \in L^1(\mathbb{R}^n)$, the {\em convolution of $f$ and $g$} is the function $f*g:\mathbb{R}^n \to \mathbb{C}$ defined by
+For $f,g \in L^1(\mathbb{R}^n)$, the \textbf{convolution of $f$ and $g$} is the function $f*g:\mathbb{R}^n \to \mathbb{C}$ defined by
 \[
 (f*g)(x) = \int_{\mathbb{R}^n} f(y)g(x-y) dm_n(y), \qquad x \in \mathbb{R}^n,
 \]
-and $\norm{f*g}_{L^1} \leq \norm{f}_{L^1} \norm{g}_{L^1}$, a case of {\em Young's inequality}.
-For $f:\mathbb{R}^n \to \mathbb{C}$, we denote by $\supp f$ the {\em essential support} of $f$; if $f$ is continuous, then $\supp f$ is the closure of the set
+and $\norm{f*g}_{L^1} \leq \norm{f}_{L^1} \norm{g}_{L^1}$, a case of \textbf{Young's inequality}.
+For $f:\mathbb{R}^n \to \mathbb{C}$, we denote by $\supp f$ the \textbf{essential support} of $f$; if $f$ is continuous, then $\supp f$ is the closure of the set
 $\{x \in \mathbb{R}^n: f(x) \neq 0\}$.
 A fact that we will use later is\footnote{Gerald B. Folland, {\em Real
 Analysis: Modern Techniques and their Applications}, second ed., p.~240, Proposition 8.6.}
@@ -318,7 +318,7 @@ It is straightforward to prove that the Fourier transform of a finite positive B
 \int_{\mathbb{R}^n} \left| \sum_{j=1}^n c_j e^{i\xi_j\cdot x} \right|^2 d\mu(x),
 \]
 which is finite and nonnegative because $\mu$ is finite and positive respectively. We have established already that the
-Fourier transform of a finite positive Borel measure $\mu$ on $\mathbb{R}^n$ is continuous and satisfies $\hat{\mu}(0)=1$. {\em Bochner's theorem}
+Fourier transform of a finite positive Borel measure $\mu$ on $\mathbb{R}^n$ is continuous and satisfies $\hat{\mu}(0)=1$. \textbf{Bochner's theorem}
 is the statement that a function with these three properties is indeed the Fourier transform of a finite positive Borel measure.
 Our proof of the following theorem follows Folland.\footnote{Gerald B. Folland, {\em A Course in Abstract Harmonic Analysis}, p.~95, Theorem 4.18.}
 
@@ -346,7 +346,7 @@ For $f,g \in L^1(\mathbb{R}^n)$, define
 \[
 \inner{f}{g}_\phi = \int_{\mathbb{R}^n} (g^* * f) \phi dm_n.
 \]
-One checks that this is a positive Hermitian form; {\em positive} means that $\inner{f}{f}_\phi \geq 0$ for all $f \in L^1(\mathbb{R}^n)$, and this
+One checks that this is a positive Hermitian form; \textbf{positive} means that $\inner{f}{f}_\phi \geq 0$ for all $f \in L^1(\mathbb{R}^n)$, and this
 is given to us by Corollary \ref{positivecor}.
 Using the Cauchy-Schwarz inequality,\footnote{Jean Dieudonne, {\em Foundations of Modern Analysis}, 1969, p.~117, Theorem 6.2.1.}
 \[
@@ -385,7 +385,7 @@ since $\norm{\phi}_\infty = \phi(0) =1$.
 
 With convolution as multiplication, $L^1(\mathbb{R}^n)$ is a commutative Banach algebra, and the Gelfand
 transform is an algebra homomorphism $L^1(\mathbb{R}^n) \to C_0(\mathbb{R}^n)$ that satisfies\footnote{Gerald B. Folland,
-{\em A Course in Abstract Harmonic Analysis}, p.~15, Theorem 1.30. Namely, this is the {\em Gelfand-Naimark theorem}.}
+{\em A Course in Abstract Harmonic Analysis}, p.~15, Theorem 1.30. Namely, this is the \textbf{Gelfand-Naimark theorem}.}
 \[
 \norm{\hat{g}}_\infty = \lim_{k \to \infty} \norm{g^{(k)}}_{L^1}^{1/k}, \qquad g \in L^1(\mathbb{R}^n);
 \]
@@ -421,7 +421,7 @@ there is a regular complex Borel measure $\mu$ on $\mathbb{R}^n$ such that
 \[
 \Phi(g) = \int_{\mathbb{R}^n} g d\mu, \qquad g \in C_0(\mathbb{R}^n),
 \]
-and $\norm{\mu}=\norm{\Phi}$; $\norm{\mu}$ is the {\em total variation norm} of $\mu$, $\norm{\mu}=|\mu|(\mathbb{R}^n)$.
+and $\norm{\mu}=\norm{\Phi}$; $\norm{\mu}$ is the \textbf{total variation norm} of $\mu$, $\norm{\mu}=|\mu|(\mathbb{R}^n)$.
 Then for $f \in L^1(\mathbb{R}^n)$ we have
 \begin{eqnarray*}
 \int_{\mathbb{R}^n} f\phi dm_n&=&\Phi(\hat{f})\\

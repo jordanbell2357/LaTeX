@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/staging/cube"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/mathematics/cube"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
 <?latexml package="hyperref" options="draft"?>
@@ -309,7 +309,7 @@
           </XMath>
         </Math>
       </equation>
-      <p>and for <Math mode="inline" tex="q=\infty" text="q = infinity" xml:id="S1.p1.m5">
+<!--  %**** cube.tex Line 50 **** -->      <p>and for <Math mode="inline" tex="q=\infty" text="q = infinity" xml:id="S1.p1.m5">
           <XMath>
             <XMApp>
               <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -317,8 +317,7 @@
               <XMTok meaning="infinity" name="infty" role="ID">∞</XMTok>
             </XMApp>
           </XMath>
-        </Math> let
-<!--  %**** cube.tex Line 50 **** --></p>
+        </Math> let</p>
       <equation xml:id="S1.Ex4">
         <Math mode="display" tex="|x|_{\infty}=\max_{1\leq j\leq n}|x_{j}|." text="(absolute-value@(x)) _ infinity = (maximum _ (1 less= j less= n))@(absolute-value@(x _ j))" xml:id="S1.Ex4.m1">
           <XMath>
@@ -519,27 +518,27 @@ We calculate the volume of the unit ball with the <Math mode="inline" tex="\ell^
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 1</text></tag>.</title>
       <para xml:id="Thmtheorem1.p1">
-        <p><text font="italic">For <Math mode="inline" tex="n\geq 1" text="n &gt;= 1" xml:id="Thmtheorem1.p1.m1">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMTok role="UNKNOWN">n</XMTok>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> and
+        <p>For <Math mode="inline" tex="n\geq 1" text="n &gt;= 1" xml:id="Thmtheorem1.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMTok font="italic" role="UNKNOWN">n</XMTok>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and
 for <Math mode="inline" tex="1\leq q&lt;\infty" text="1 less= q less infinity" xml:id="Thmtheorem1.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok meaning="multirelation"/>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok role="UNKNOWN">q</XMTok>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok font="upright" meaning="infinity" name="infty" role="ID">∞</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,</text></p>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="multirelation"/>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" role="UNKNOWN">q</XMTok>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok meaning="infinity" name="infty" role="ID">∞</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,</p>
         <equation xml:id="S1.Ex6">
           <Math mode="display" tex="\lambda_{n}(B_{q}^{n})=\frac{(2\Gamma(\frac{1}{q}+1))^{n}}{\Gamma(\frac{n}{q}+%&#10;1)}." text="lambda _ n * (B _ q) ^ n = (2 * Gamma * (1 / q + 1)) ^ n / (Gamma * (n / q + 1))" xml:id="S1.Ex6.m1">
             <XMath>
@@ -809,7 +808,7 @@ For <Math mode="inline" tex="n=1" text="n = 1" xml:id="S1.p3.m3">
                               <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
                             </XMApp>
                             <XMTok role="CLOSE" stretchy="false">)</XMTok>
-                          </XMWrap>
+<!--  %**** cube.tex Line 75 **** -->                          </XMWrap>
                         </XMDual>
                       </XMApp>
                     </XMApp>
@@ -821,7 +820,7 @@ For <Math mode="inline" tex="n=1" text="n = 1" xml:id="S1.p3.m3">
                     </XMApp>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-<!--  %**** cube.tex Line 75 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -3412,7 +3411,8 @@ and using the beta function <Math mode="inline" tex="B(a,b)=\int_{0}^{1}u^{a-1}(
                 </XMApp>
               </XMApp>
             </XMath>
-          </Math>,</p>
+          </Math>,
+<!--  %**** cube.tex Line 100 **** --></p>
         <equation xml:id="S1.Ex17">
           <Math mode="display" tex="\frac{1}{q}B\left(\frac{1}{q},\frac{n}{q}+1\right)=\frac{1}{q}\frac{\Gamma%&#10;\left(\frac{1}{q}\right)\Gamma\left(\frac{n}{q}+1\right)}{\Gamma\left(\frac{1}%&#10;{q}+\frac{n}{q}+1\right)}=\frac{\Gamma\left(\frac{1}{q}+1\right)\Gamma\left(%&#10;\frac{n}{q}+1\right)}{\Gamma\left(\frac{n+1}{q}+1\right)}." text="(1 / q) * B * open-interval@(1 / q, n / q + 1) = (1 / q) * ((Gamma * (1 / q) * Gamma * (n / q + 1)) / (Gamma * (1 / q + n / q + 1))) = (Gamma * (1 / q + 1) * Gamma * (n / q + 1)) / (Gamma * ((n + 1) / q + 1))" xml:id="S1.Ex17.m1">
             <XMath>
@@ -3423,7 +3423,7 @@ and using the beta function <Math mode="inline" tex="B(a,b)=\int_{0}^{1}u^{a-1}(
                     <XMTok meaning="multirelation"/>
                     <XMApp>
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
-<!--  %**** cube.tex Line 100 **** -->                      <XMApp>
+                      <XMApp>
                         <XMTok mathstyle="display" meaning="divide" role="FRACOP"/>
                         <XMTok meaning="1" role="NUMBER">1</XMTok>
                         <XMTok font="italic" role="UNKNOWN">q</XMTok>
@@ -4377,7 +4377,7 @@ and <Math mode="inline" tex="B_{\infty}^{n}" text="(B _ infinity) ^ n" xml:id="S
           </XMath>
         </Math>.</p>
     </para>
-  </section>
+<!--  %**** cube.tex Line 125 **** -->  </section>
   <section inlist="toc" xml:id="S2">
     <tags>
       <tag>2</tag>
@@ -4386,7 +4386,7 @@ and <Math mode="inline" tex="B_{\infty}^{n}" text="(B _ infinity) ^ n" xml:id="S
       <tag role="typerefnum">§2</tag>
     </tags>
     <title><tag close=" ">2</tag>Intersection of a hyperplane and the cube</title>
-<!--  %**** cube.tex Line 125 **** -->    <para xml:id="S2.p1">
+    <para xml:id="S2.p1">
       <p>Let <Math mode="inline" tex="\xi\in S^{n-1}" text="xi element-of S ^ (n - 1)" xml:id="S2.p1.m1">
           <XMath>
             <XMApp>
@@ -4676,31 +4676,31 @@ and <Math mode="inline" tex="B_{\infty}^{n}" text="(B _ infinity) ^ n" xml:id="S
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 2</text></tag>.</title>
       <para xml:id="Thmtheorem2.p1">
-        <p><text font="italic">For <Math mode="inline" tex="\xi\in S^{n-1}" text="xi element-of S ^ (n - 1)" xml:id="Thmtheorem2.p1.m1">
-              <XMath>
+        <p>For <Math mode="inline" tex="\xi\in S^{n-1}" text="xi element-of S ^ (n - 1)" xml:id="Thmtheorem2.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="xi" role="UNKNOWN">ξ</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="xi" role="UNKNOWN">ξ</XMTok>
+                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">S</XMTok>
                   <XMApp>
-                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">S</XMTok>
-                    <XMApp>
-                      <XMTok font="upright" fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                    </XMApp>
+                    <XMTok fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                    <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math> and <Math mode="inline" tex="t\in\mathbb{R}" text="t element-of R" xml:id="Thmtheorem2.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">t</XMTok>
-                  <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,</text></p>
+              </XMApp>
+            </XMath>
+          </Math> and <Math mode="inline" tex="t\in\mathbb{R}" text="t element-of R" xml:id="Thmtheorem2.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">t</XMTok>
+                <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,</p>
         <equation xml:id="S2.Ex24">
           <Math mode="display" tex="A_{\xi}(t)=\frac{2^{n}}{\pi}\int_{0}^{\infty}\cos tr\cdot\prod_{i=1}^{n}\frac{%&#10;2}{\xi_{i}r}\sin\xi_{i}rdr." text="A _ xi * t = (2 ^ n / pi) * ((integral _ 0) ^ infinity)@(cosine@(t * r) cdot ((product _ (i = 1)) ^ n)@((2 / (xi _ i * r)) * sine@(xi _ i * r * d * r)))" xml:id="S2.Ex24.m1">
             <XMath>
@@ -6491,12 +6491,12 @@ and <Math mode="inline" tex="B_{\infty}^{n}" text="(B _ infinity) ^ n" xml:id="S
                     </XMApp>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-                </XMWrap>
+<!--  %**** cube.tex Line 175 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** cube.tex Line 175 **** -->        <p>By the Fourier inversion theorem, using that <Math mode="inline" tex="\widehat{A}_{\xi}" text="(widehat@(A)) _ xi" xml:id="S2.p2.m2">
+        <p>By the Fourier inversion theorem, using that <Math mode="inline" tex="\widehat{A}_{\xi}" text="(widehat@(A)) _ xi" xml:id="S2.p2.m2">
             <XMath>
               <XMApp>
                 <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -7552,12 +7552,12 @@ If <Math mode="inline" tex="f:\mathbb{R}^{n}\to\mathbb{C}" text="f colon R ^ n t
                   </XMWrap>
                 </XMDual>
                 <XMTok role="PUNCT">,</XMTok>
-              </XMWrap>
+<!--  %**** cube.tex Line 200 **** -->              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
       </equation>
-<!--  %**** cube.tex Line 200 **** -->      <p>is a tempered distribution.</p>
+      <p>is a tempered distribution.</p>
     </para>
     <theorem class="ltx_theorem_lemma" inlist="thm theorem:lemma" xml:id="Thmtheorem3">
       <tags>
@@ -7568,55 +7568,55 @@ If <Math mode="inline" tex="f:\mathbb{R}^{n}\to\mathbb{C}" text="f colon R ^ n t
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 3</text></tag>.</title>
       <para xml:id="Thmtheorem3.p1">
-        <p><text font="italic">For <Math mode="inline" tex="1\leq q\leq\infty" text="1 less= q less= infinity" xml:id="Thmtheorem3.p1.m1">
-              <XMath>
-                <XMApp>
-                  <XMTok meaning="multirelation"/>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok role="UNKNOWN">q</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok font="upright" meaning="infinity" name="infty" role="ID">∞</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> and for <Math mode="inline" tex="0&lt;h&lt;n" text="0 less h less n" xml:id="Thmtheorem3.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok meaning="multirelation"/>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok role="UNKNOWN">h</XMTok>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok role="UNKNOWN">n</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,
+        <p>For <Math mode="inline" tex="1\leq q\leq\infty" text="1 less= q less= infinity" xml:id="Thmtheorem3.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="multirelation"/>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" role="UNKNOWN">q</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok meaning="infinity" name="infty" role="ID">∞</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and for <Math mode="inline" tex="0&lt;h&lt;n" text="0 less h less n" xml:id="Thmtheorem3.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="multirelation"/>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok font="italic" role="UNKNOWN">h</XMTok>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok font="italic" role="UNKNOWN">n</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,
 <Math mode="inline" tex="|x|_{q}^{-h}" text="((absolute-value@(x)) _ q) ^ (- h)" xml:id="Thmtheorem3.p1.m3">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
                 <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMDual>
-                      <XMApp>
-                        <XMTok meaning="absolute-value"/>
-                        <XMRef idref="Thmtheorem3.p1.m3.1"/>
-                      </XMApp>
-                      <XMWrap>
-                        <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem3.p1.m3.1">x</XMTok>
-                        <XMTok font="upright" role="VERTBAR" stretchy="false">|</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                    <XMTok fontsize="70%" role="UNKNOWN">q</XMTok>
-                  </XMApp>
-                  <XMApp>
-                    <XMTok font="upright" fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">h</XMTok>
-                  </XMApp>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMDual>
+                    <XMApp>
+                      <XMTok meaning="absolute-value"/>
+                      <XMRef idref="Thmtheorem3.p1.m3.1"/>
+                    </XMApp>
+                    <XMWrap>
+                      <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem3.p1.m3.1">x</XMTok>
+                      <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                    </XMWrap>
+                  </XMDual>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">q</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> is a tempered distribution.</text></p>
+                <XMApp>
+                  <XMTok fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">h</XMTok>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math> is a tempered distribution.</p>
       </para>
     </theorem>
     <proof>
@@ -9003,7 +9003,7 @@ for <Math mode="inline" tex="1\leq q\leq 2" text="1 less= q less= 2" xml:id="S3.
             </MathFork>
           </equation>
         </equationgroup>
-<!--  %**** cube.tex Line 225 **** -->        <p>For <Math mode="inline" tex="2\leq q\leq\infty" text="2 less= q less= infinity" xml:id="S3.p2.m6">
+        <p>For <Math mode="inline" tex="2\leq q\leq\infty" text="2 less= q less= infinity" xml:id="S3.p2.m6">
             <XMath>
               <XMApp>
                 <XMTok meaning="multirelation"/>
@@ -10168,7 +10168,7 @@ and let <Math mode="inline" tex="\gamma_{q}=\widehat{c}_{q}" text="gamma _ q = (
           </XMath>
         </Math>
       </equation>
-      <p>Define <Math mode="inline" tex="f_{q,h}(x)=|x|_{q}^{-h}" text="f _ (list@(q, h)) * x = ((absolute-value@(x)) _ q) ^ (- h)" xml:id="S3.p4.m2">
+<!--  %**** cube.tex Line 250 **** -->      <p>Define <Math mode="inline" tex="f_{q,h}(x)=|x|_{q}^{-h}" text="f _ (list@(q, h)) * x = ((absolute-value@(x)) _ q) ^ (- h)" xml:id="S3.p4.m2">
           <XMath>
             <XMApp>
               <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -10224,7 +10224,7 @@ and let <Math mode="inline" tex="\gamma_{q}=\widehat{c}_{q}" text="gamma _ q = (
             </XMApp>
           </XMath>
         </Math>.
-<!--  %**** cube.tex Line 250 **** -->We calculate the Fourier transform of the tempered distribution <Math mode="inline" tex="f_{q,h}" text="f _ (list@(q, h))" xml:id="S3.p4.m3">
+We calculate the Fourier transform of the tempered distribution <Math mode="inline" tex="f_{q,h}" text="f _ (list@(q, h))" xml:id="S3.p4.m3">
           <XMath>
             <XMApp>
               <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -10261,30 +10261,30 @@ p. 9, Lemma 2.1.</note></p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 4</text></tag>.</title>
       <para xml:id="Thmtheorem4.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="0&lt;h&lt;n" text="0 less h less n" xml:id="Thmtheorem4.p1.m1">
-              <XMath>
-                <XMApp>
-                  <XMTok meaning="multirelation"/>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok role="UNKNOWN">h</XMTok>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok role="UNKNOWN">n</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>.
+        <p>Let <Math mode="inline" tex="0&lt;h&lt;n" text="0 less h less n" xml:id="Thmtheorem4.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="multirelation"/>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok font="italic" role="UNKNOWN">h</XMTok>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok font="italic" role="UNKNOWN">n</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.
 For <Math mode="inline" tex="1\leq q&lt;\infty" text="1 less= q less infinity" xml:id="Thmtheorem4.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok meaning="multirelation"/>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok role="UNKNOWN">q</XMTok>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok font="upright" meaning="infinity" name="infty" role="ID">∞</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,</text></p>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="multirelation"/>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" role="UNKNOWN">q</XMTok>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok meaning="infinity" name="infty" role="ID">∞</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,</p>
         <equation xml:id="S3.Ex55">
           <Math mode="display" tex="\widehat{f}_{q,h}(\xi)=\frac{q}{\Gamma(h/q)}\int_{0}^{\infty}t^{n-h-1}\prod_{j%&#10;=1}^{n}\gamma_{q}(t\xi_{j})dt," text="(widehat@(f)) _ (list@(q, h)) * xi = (q / (Gamma * (h / q))) * ((integral _ 0) ^ infinity)@(t ^ (n - h - 1) * ((product _ (j = 1)) ^ n)@(gamma _ q * t * xi _ j * d * t))" xml:id="S3.Ex55.m1">
             <XMath>
@@ -10418,15 +10418,15 @@ For <Math mode="inline" tex="1\leq q&lt;\infty" text="1 less= q less infinity" x
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">and for <Math mode="inline" tex="q=\infty" text="q = infinity" xml:id="Thmtheorem4.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMTok role="UNKNOWN">q</XMTok>
-                  <XMTok font="upright" meaning="infinity" name="infty" role="ID">∞</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,</text></p>
+        <p>and for <Math mode="inline" tex="q=\infty" text="q = infinity" xml:id="Thmtheorem4.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMTok font="italic" role="UNKNOWN">q</XMTok>
+                <XMTok meaning="infinity" name="infty" role="ID">∞</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,</p>
         <equation xml:id="S3.Ex56">
           <Math mode="display" tex="\widehat{f}_{\infty,h}(\xi)=2^{n}h\int_{0}^{\infty}t^{n-h-1}\prod_{j=1}^{n}%&#10;\frac{\sin t\xi_{j}}{t\xi_{j}}dt" text="(widehat@(f)) _ (list@(infinity, h)) * xi = 2 ^ n * h * ((integral _ 0) ^ infinity)@(t ^ (n - h - 1) * ((product _ (j = 1)) ^ n)@((sine@(t * xi _ j) / (t * xi _ j)) * d * t))" xml:id="S3.Ex56.m1">
             <XMath>
@@ -11390,9 +11390,10 @@ For <Math mode="inline" tex="x\neq 0" text="x not-equals 0" xml:id="S3.p5.m2">
                 </XMApp>
               </XMApp>
             </XMath>
-          </Math>.</p>
+          </Math>.
+<!--  %**** cube.tex Line 275 **** --></p>
       </para>
-<!--  %**** cube.tex Line 275 **** -->      <para xml:id="S3.p6">
+      <para xml:id="S3.p6">
         <p>For <Math mode="inline" tex="z&gt;0" text="z &gt; 0" xml:id="S3.p6.m1">
             <XMath>
               <XMApp>
@@ -14313,7 +14314,8 @@ For <Math mode="inline" tex="x\neq 0" text="x not-equals 0" xml:id="S3.p5.m2">
                 </XMApp>
               </XMApp>
             </XMath>
-          </Math>,</p>
+          </Math>,
+<!--  %**** cube.tex Line 300 **** --></p>
         <equationgroup class="ltx_eqn_align" xml:id="S4.EGx12">
           <equation xml:id="S3.Ex72">
             <MathFork>
@@ -14915,87 +14917,87 @@ p. 4, Lemma 1.4.</note></p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 5</text></tag>.</title>
       <para xml:id="Thmtheorem5.p1">
-        <p><text font="italic">For <Math mode="inline" tex="1\leq q\leq 2" text="1 less= q less= 2" xml:id="Thmtheorem5.p1.m1">
-              <XMath>
+        <p>For <Math mode="inline" tex="1\leq q\leq 2" text="1 less= q less= 2" xml:id="Thmtheorem5.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="multirelation"/>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok font="italic" role="UNKNOWN">q</XMTok>
+                <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
+                <XMTok meaning="2" role="NUMBER">2</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, <Math mode="inline" tex="\gamma_{q}(\sqrt{z})&gt;0" text="gamma _ q * square-root@(z) &gt; 0" xml:id="Thmtheorem5.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
                 <XMApp>
-                  <XMTok meaning="multirelation"/>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok role="UNKNOWN">q</XMTok>
-                  <XMTok font="upright" meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
-                  <XMTok font="upright" meaning="2" role="NUMBER">2</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, <Math mode="inline" tex="\gamma_{q}(\sqrt{z})&gt;0" text="gamma _ q * square-root@(z) &gt; 0" xml:id="Thmtheorem5.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than" role="RELOP">&gt;</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" name="gamma" role="UNKNOWN">γ</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">q</XMTok>
+                  </XMApp>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem5.p1.m2.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMApp xml:id="Thmtheorem5.p1.m2.1">
+                        <XMTok meaning="square-root"/>
+                        <XMTok font="italic" role="UNKNOWN">z</XMTok>
+                      </XMApp>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
+                </XMApp>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, and
+<Math mode="inline" tex="z\mapsto\log\gamma_{q}(\sqrt{z})" text="z maps-to logarithm@(gamma _ q) * square-root@(z)" xml:id="Thmtheorem5.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="maps-to" name="mapsto" role="ARROW">↦</XMTok>
+                <XMTok font="italic" role="UNKNOWN">z</XMTok>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMApp>
+                    <XMTok meaning="logarithm" role="OPFUNCTION">log</XMTok>
                     <XMApp>
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok name="gamma" role="UNKNOWN">γ</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">q</XMTok>
+                      <XMTok font="italic" name="gamma" role="UNKNOWN">γ</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">q</XMTok>
                     </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem5.p1.m2.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMApp xml:id="Thmtheorem5.p1.m2.1">
-                          <XMTok meaning="square-root"/>
-                          <XMTok role="UNKNOWN">z</XMTok>
-                        </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
                   </XMApp>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, and
-<Math mode="inline" tex="z\mapsto\log\gamma_{q}(\sqrt{z})" text="z maps-to logarithm@(gamma _ q) * square-root@(z)" xml:id="Thmtheorem5.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="maps-to" name="mapsto" role="ARROW">↦</XMTok>
-                  <XMTok role="UNKNOWN">z</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok font="upright" meaning="logarithm" role="OPFUNCTION">log</XMTok>
-                      <XMApp>
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok name="gamma" role="UNKNOWN">γ</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN">q</XMTok>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem5.p1.m3.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMApp xml:id="Thmtheorem5.p1.m3.1">
+                        <XMTok meaning="square-root"/>
+                        <XMTok font="italic" role="UNKNOWN">z</XMTok>
                       </XMApp>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem5.p1.m3.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMApp xml:id="Thmtheorem5.p1.m3.1">
-                          <XMTok meaning="square-root"/>
-                          <XMTok role="UNKNOWN">z</XMTok>
-                        </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>
+              </XMApp>
+            </XMath>
+          </Math>
 is convex on <Math mode="inline" tex="\mathbb{R}_{\geq 0}" text="R _ (absent &gt;= 0)" xml:id="Thmtheorem5.p1.m4">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
                 <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" fontsize="70%" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                    <XMTok meaning="absent"/>
-                    <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                  </XMApp>
+                  <XMTok fontsize="70%" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                  <XMTok meaning="absent"/>
+                  <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>.</text></p>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
@@ -15140,7 +15142,7 @@ is convex on <Math mode="inline" tex="\mathbb{R}_{\geq 0}" text="R _ (absent &gt
                           <XMTok meaning="times" role="MULOP">⁢</XMTok>
                           <XMApp>
                             <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                            <XMTok font="italic" role="UNKNOWN">g</XMTok>
+<!--  %**** cube.tex Line 325 **** -->                            <XMTok font="italic" role="UNKNOWN">g</XMTok>
                             <XMDual>
                               <XMRef idref="S4.Ex74.m1.3"/>
                               <XMWrap>
@@ -15196,7 +15198,7 @@ is convex on <Math mode="inline" tex="\mathbb{R}_{\geq 0}" text="R _ (absent &gt
                         </XMApp>
                       </XMApp>
                       <XMTok role="PUNCT" rpadding="20.0pt">,</XMTok>
-<!--  %**** cube.tex Line 325 **** -->                      <XMApp xml:id="S4.Ex74.m1.8.2">
+                      <XMApp xml:id="S4.Ex74.m1.8.2">
                         <XMTok meaning="equals" role="RELOP">=</XMTok>
                         <XMApp>
                           <XMTok meaning="times" role="MULOP">⁢</XMTok>
@@ -16519,7 +16521,8 @@ there is a Borel probability measure <Math mode="inline" tex="\mu" text="mu" xml
               </XMDual>
             </XMath>
           </Math>
-such that</p>
+such that
+<!--  %**** cube.tex Line 350 **** --></p>
         <equation xml:id="S4.Ex81">
           <Math mode="display" tex="\exp(-z^{q/2})=\int_{[0,\infty)}e^{-zt}d\mu_{q}(t),\qquad z\in[0,\infty)." text="formulae@(exponential@(- z ^ (q / 2)) = (integral _ (closed-open-interval@(0, infinity)))@(e ^ (- z * t) * differential-d@(mu _ q) * t), z element-of closed-open-interval@(0, infinity))" xml:id="S4.Ex81.m1">
             <XMath>
@@ -16541,7 +16544,7 @@ such that</p>
                             <XMRef idref="S4.Ex81.m1.7.1.1"/>
                           </XMApp>
                           <XMApp>
-<!--  %**** cube.tex Line 350 **** -->                            <XMTok meaning="exponential" role="OPFUNCTION" xml:id="S4.Ex81.m1.3">exp</XMTok>
+                            <XMTok meaning="exponential" role="OPFUNCTION" xml:id="S4.Ex81.m1.3">exp</XMTok>
                             <XMWrap>
                               <XMTok role="OPEN" stretchy="false">(</XMTok>
                               <XMApp xml:id="S4.Ex81.m1.7.1.1">

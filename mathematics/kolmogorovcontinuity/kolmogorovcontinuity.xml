@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/staging/kolmogorovcontinuity"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/mathematics/kolmogorovcontinuity"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
 <?latexml package="hyperref" options="draft"?>
@@ -246,23 +246,23 @@ for each <Math mode="inline" tex="t\in I" text="t element-of I" xml:id="S1.p1.m1
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 1</text></tag>.</title>
       <para xml:id="Thmtheorem1.p1">
-        <p><text font="italic">If <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem1.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> is a modification of <Math mode="inline" tex="Y" text="Y" xml:id="Thmtheorem1.p1.m2">
-              <XMath>
-                <XMTok role="UNKNOWN">Y</XMTok>
-              </XMath>
-            </Math>, then <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem1.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> and <Math mode="inline" tex="Y" text="Y" xml:id="Thmtheorem1.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">Y</XMTok>
-              </XMath>
-            </Math> have the same finite-dimensional distributions.</text></p>
+        <p>If <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem1.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> is a modification of <Math mode="inline" tex="Y" text="Y" xml:id="Thmtheorem1.p1.m2">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">Y</XMTok>
+            </XMath>
+          </Math>, then <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem1.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> and <Math mode="inline" tex="Y" text="Y" xml:id="Thmtheorem1.p1.m4">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">Y</XMTok>
+            </XMath>
+          </Math> have the same finite-dimensional distributions.</p>
       </para>
     </theorem>
     <proof>
@@ -445,12 +445,12 @@ for each <Math mode="inline" tex="t\in I" text="t element-of I" xml:id="S1.p1.m1
                     </XMWrap>
                   </XMDual>
                   <XMTok role="PERIOD">.</XMTok>
-                </XMWrap>
+<!--  %**** kolmogorovcontinuity.tex Line 50 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** kolmogorovcontinuity.tex Line 50 **** -->        <p>If <Math mode="inline" tex="\omega\in A\setminus B" text="omega element-of A set-minus B" xml:id="S1.p2.m4">
+        <p>If <Math mode="inline" tex="\omega\in A\setminus B" text="omega element-of A set-minus B" xml:id="S1.p2.m4">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -1071,7 +1071,7 @@ A stochastic process <Math mode="inline" tex="(X_{t})_{t\in\mathbb{R}_{\geq 0}}"
             </XMApp>
           </XMath>
         </Math>, the <text font="bold">path</text>
-<Math mode="inline" tex="t\mapsto X_{t}(\omega)" text="t maps-to X _ t * omega" xml:id="S2.p1.m6">
+<!--  %**** kolmogorovcontinuity.tex Line 75 **** --><Math mode="inline" tex="t\mapsto X_{t}(\omega)" text="t maps-to X _ t * omega" xml:id="S2.p1.m6">
           <XMath>
             <XMApp>
               <XMTok meaning="maps-to" name="mapsto" role="ARROW">↦</XMTok>
@@ -1110,8 +1110,7 @@ A stochastic process <Math mode="inline" tex="(X_{t})_{t\in\mathbb{R}_{\geq 0}}"
               <XMTok font="italic" role="UNKNOWN">E</XMTok>
             </XMApp>
           </XMath>
-        </Math>.
-<!--  %**** kolmogorovcontinuity.tex Line 75 **** --></p>
+        </Math>.</p>
     </para>
     <para xml:id="S2.p2">
       <p>A <text font="bold">dyadic rational</text> is an element of</p>
@@ -1354,92 +1353,92 @@ spaces are equivalence classes of functions, but it does make sense to say that 
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 2</text></tag> (Kolmogorov continuity theorem).</title>
       <para xml:id="Thmtheorem2.p1">
-        <p><text font="italic">Suppose that <Math mode="inline" tex="(\Omega,\mathscr{F},P,(X_{t})_{t\in\mathbb{R}_{\geq 0}})" text="vector@(Omega, F, P, X _ t _ (t element-of R _ (absent &gt;= 0)))" xml:id="Thmtheorem2.p1.m1">
-              <XMath>
-                <XMDual>
-                  <XMApp>
-                    <XMTok meaning="vector"/>
-                    <XMRef idref="Thmtheorem2.p1.m1.1"/>
-                    <XMRef idref="Thmtheorem2.p1.m1.2"/>
-                    <XMRef idref="Thmtheorem2.p1.m1.3"/>
-                    <XMRef idref="Thmtheorem2.p1.m1.4"/>
-                  </XMApp>
-                  <XMWrap>
-                    <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                    <XMTok font="upright" name="Omega" role="UNKNOWN" xml:id="Thmtheorem2.p1.m1.1">Ω</XMTok>
-                    <XMTok font="upright" role="PUNCT">,</XMTok>
-                    <XMTok font="script upright" role="UNKNOWN" xml:id="Thmtheorem2.p1.m1.2">F</XMTok>
-                    <XMTok font="upright" role="PUNCT">,</XMTok>
-                    <XMTok role="UNKNOWN" xml:id="Thmtheorem2.p1.m1.3">P</XMTok>
-                    <XMTok font="upright" role="PUNCT">,</XMTok>
-                    <XMApp xml:id="Thmtheorem2.p1.m1.4">
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMDual>
-                        <XMRef idref="Thmtheorem2.p1.m1.4.1"/>
-                        <XMWrap>
-                          <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                          <XMApp xml:id="Thmtheorem2.p1.m1.4.1">
-                            <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                            <XMTok role="UNKNOWN">X</XMTok>
-                            <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                          </XMApp>
-                          <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                        </XMWrap>
-                      </XMDual>
+        <p>Suppose that <Math mode="inline" tex="(\Omega,\mathscr{F},P,(X_{t})_{t\in\mathbb{R}_{\geq 0}})" text="vector@(Omega, F, P, X _ t _ (t element-of R _ (absent &gt;= 0)))" xml:id="Thmtheorem2.p1.m1">
+            <XMath>
+              <XMDual>
+                <XMApp>
+                  <XMTok meaning="vector"/>
+                  <XMRef idref="Thmtheorem2.p1.m1.1"/>
+                  <XMRef idref="Thmtheorem2.p1.m1.2"/>
+                  <XMRef idref="Thmtheorem2.p1.m1.3"/>
+                  <XMRef idref="Thmtheorem2.p1.m1.4"/>
+                </XMApp>
+                <XMWrap>
+                  <XMTok role="OPEN" stretchy="false">(</XMTok>
+                  <XMTok name="Omega" role="UNKNOWN" xml:id="Thmtheorem2.p1.m1.1">Ω</XMTok>
+                  <XMTok role="PUNCT">,</XMTok>
+                  <XMTok font="script" role="UNKNOWN" xml:id="Thmtheorem2.p1.m1.2">F</XMTok>
+                  <XMTok role="PUNCT">,</XMTok>
+                  <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem2.p1.m1.3">P</XMTok>
+                  <XMTok role="PUNCT">,</XMTok>
+                  <XMApp xml:id="Thmtheorem2.p1.m1.4">
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMDual>
+                      <XMRef idref="Thmtheorem2.p1.m1.4.1"/>
+                      <XMWrap>
+                        <XMTok role="OPEN" stretchy="false">(</XMTok>
+                        <XMApp xml:id="Thmtheorem2.p1.m1.4.1">
+                          <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                          <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                          <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+                        </XMApp>
+                        <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                      </XMWrap>
+                    </XMDual>
+                    <XMApp>
+                      <XMTok fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
                       <XMApp>
-                        <XMTok font="upright" fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post2"/>
+                        <XMTok font="blackboard" fontsize="70%" role="UNKNOWN">R</XMTok>
                         <XMApp>
-                          <XMTok role="SUBSCRIPTOP" scriptpos="post2"/>
-                          <XMTok font="blackboard upright" fontsize="70%" role="UNKNOWN">R</XMTok>
-                          <XMApp>
-                            <XMTok font="upright" fontsize="50%" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                            <XMTok meaning="absent"/>
-                            <XMTok font="upright" fontsize="50%" meaning="0" role="NUMBER">0</XMTok>
-                          </XMApp>
+                          <XMTok fontsize="50%" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                          <XMTok meaning="absent"/>
+                          <XMTok fontsize="50%" meaning="0" role="NUMBER">0</XMTok>
                         </XMApp>
                       </XMApp>
                     </XMApp>
-                    <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
+                  </XMApp>
+                  <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                </XMWrap>
+              </XMDual>
+            </XMath>
+          </Math> is a stochastic process with state space
+<Math mode="inline" tex="\mathbb{R}^{d}" text="R ^ d" xml:id="Thmtheorem2.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">d</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>. If there are <Math mode="inline" tex="\alpha,\beta,c&gt;0" text="list@(alpha, beta, c) &gt; 0" xml:id="Thmtheorem2.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
+                <XMDual>
+                  <XMApp>
+                    <XMTok meaning="list"/>
+                    <XMRef idref="Thmtheorem2.p1.m3.1"/>
+                    <XMRef idref="Thmtheorem2.p1.m3.2"/>
+                    <XMRef idref="Thmtheorem2.p1.m3.3"/>
+                  </XMApp>
+                  <XMWrap>
+                    <XMTok font="italic" name="alpha" role="UNKNOWN" xml:id="Thmtheorem2.p1.m3.1">α</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" name="beta" role="UNKNOWN" xml:id="Thmtheorem2.p1.m3.2">β</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem2.p1.m3.3">c</XMTok>
                   </XMWrap>
                 </XMDual>
-              </XMath>
-            </Math> is a stochastic process with state space
-<Math mode="inline" tex="\mathbb{R}^{d}" text="R ^ d" xml:id="Thmtheorem2.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                  <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                  <XMTok fontsize="70%" role="UNKNOWN">d</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>. If there are <Math mode="inline" tex="\alpha,\beta,c&gt;0" text="list@(alpha, beta, c) &gt; 0" xml:id="Thmtheorem2.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than" role="RELOP">&gt;</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="list"/>
-                      <XMRef idref="Thmtheorem2.p1.m3.1"/>
-                      <XMRef idref="Thmtheorem2.p1.m3.2"/>
-                      <XMRef idref="Thmtheorem2.p1.m3.3"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok name="alpha" role="UNKNOWN" xml:id="Thmtheorem2.p1.m3.1">α</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok name="beta" role="UNKNOWN" xml:id="Thmtheorem2.p1.m3.2">β</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok role="UNKNOWN" xml:id="Thmtheorem2.p1.m3.3">c</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> such that</text></p>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> such that</p>
         <equation labels="LABEL:kolmogorov" xml:id="S2.E1">
           <tags>
             <tag>(1)</tag>
-            <tag role="autoref"><text font="italic">Equation 1</text></tag>
+            <tag role="autoref">Equation 1</tag>
             <tag role="refnum">1</tag>
           </tags>
           <Math mode="display" tex="E(|X_{t}-X_{s}|^{\alpha})\leq c|t-s|^{1+\beta},\qquad s,t\in\mathbb{R}_{\geq 0}," text="formulae@(E * (absolute-value@(X _ t - X _ s)) ^ alpha less= list@(c * (absolute-value@(t - s)) ^ (1 + beta), s), t element-of R _ (absent &gt;= 0))" xml:id="S2.E1.m1">
@@ -1555,7 +1554,7 @@ spaces are equivalence classes of functions, but it does make sense to say that 
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">then the stochastic process has a continuous modification that itself satisfies (<ref labelref="LABEL:kolmogorov"/>).</text></p>
+        <p>then the stochastic process has a continuous modification that itself satisfies (<ref labelref="LABEL:kolmogorov"/>).</p>
       </para>
     </theorem>
     <proof>
@@ -2929,12 +2928,12 @@ there is some <Math mode="inline" tex="m_{0}(\omega)" text="m _ 0 * omega" xml:i
                     </XMApp>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-                </XMWrap>
+<!--  %**** kolmogorovcontinuity.tex Line 150 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** kolmogorovcontinuity.tex Line 150 **** -->        <p>Let <Math mode="inline" tex="m=m(s,t)" text="m = m * open-interval@(s, t)" xml:id="S2.p5.m3">
+        <p>Let <Math mode="inline" tex="m=m(s,t)" text="m = m * open-interval@(s, t)" xml:id="S2.p5.m3">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -3765,12 +3764,12 @@ sequences <Math mode="inline" tex="\sigma_{j},\tau_{j}\in\{0,1\}" text="list@(si
                     </XMApp>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-                </XMWrap>
+<!--  %**** kolmogorovcontinuity.tex Line 175 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** kolmogorovcontinuity.tex Line 175 **** -->        <p>Thus <Math mode="inline" tex="|i_{0}-j_{0}|&lt;2" text="absolute-value@(i _ 0 - j _ 0) less 2" xml:id="S2.p5.m13">
+        <p>Thus <Math mode="inline" tex="|i_{0}-j_{0}|&lt;2" text="absolute-value@(i _ 0 - j _ 0) less 2" xml:id="S2.p5.m13">
             <XMath>
               <XMApp>
                 <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
@@ -4464,7 +4463,7 @@ by (<ref labelref="LABEL:393"/>) we have</p>
             </XMath>
           </Math>
         </equation>
-        <p>Because the sequence <Math mode="inline" tex="\sigma_{j}" text="sigma _ j" xml:id="S2.p5.m24">
+<!--  %**** kolmogorovcontinuity.tex Line 200 **** -->        <p>Because the sequence <Math mode="inline" tex="\sigma_{j}" text="sigma _ j" xml:id="S2.p5.m24">
             <XMath>
               <XMApp>
                 <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -4488,8 +4487,7 @@ by (<ref labelref="LABEL:393"/>) we have</p>
             <XMath>
               <XMTok font="italic" role="UNKNOWN">s</XMTok>
             </XMath>
-          </Math>. Thus
-<!--  %**** kolmogorovcontinuity.tex Line 200 **** --></p>
+          </Math>. Thus</p>
         <equation xml:id="S2.Ex24">
           <Math mode="display" tex="\sum_{n=1}^{\infty}(X_{s_{n}}(\omega)-X_{s_{n-1}}(\omega))=X_{s}(\omega)-X_{s_%&#10;{0}}(\omega)," text="((sum _ (n = 1)) ^ infinity)@(X _ s _ n * omega - X _ s _ (n - 1) * omega) = X _ s * omega - X _ s _ 0 * omega" xml:id="S2.Ex24.m1">
             <XMath>
@@ -5725,7 +5723,8 @@ By (<ref labelref="LABEL:maximalm"/>), <Math mode="inline" tex="2^{-(m+1)}&lt;|t
               </XMApp>
             </XMath>
           </Math>,
-hence</p>
+hence
+<!--  %**** kolmogorovcontinuity.tex Line 225 **** --></p>
         <equation labels="LABEL:398" xml:id="S2.E5">
           <tags>
             <tag>(5)</tag>
@@ -5745,7 +5744,7 @@ hence</p>
                         <XMRef idref="S2.E5.m1.3.1"/>
                       </XMApp>
                       <XMWrap>
-<!--  %**** kolmogorovcontinuity.tex Line 225 **** -->                        <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+                        <XMTok role="VERTBAR" stretchy="false">|</XMTok>
                         <XMApp xml:id="S2.E5.m1.3.1">
                           <XMTok meaning="minus" role="ADDOP">-</XMTok>
                           <XMApp>
@@ -8444,7 +8443,7 @@ and
                     <XMTok meaning="multirelation"/>
                     <XMApp>
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="italic" role="UNKNOWN">C</XMTok>
+<!--  %**** kolmogorovcontinuity.tex Line 275 **** -->                      <XMTok font="italic" role="UNKNOWN">C</XMTok>
                       <XMTok font="italic" fontsize="70%" name="gamma" role="UNKNOWN">γ</XMTok>
                     </XMApp>
                     <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -8484,7 +8483,7 @@ and
                     </XMApp>
                   </XMApp>
                   <XMTok role="PUNCT">,</XMTok>
-<!--  %**** kolmogorovcontinuity.tex Line 275 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -9157,12 +9156,12 @@ For <Math mode="inline" tex="\omega\in N_{\gamma}" text="omega element-of N _ ga
                     </XMWrap>
                   </XMDual>
                   <XMTok role="PERIOD">.</XMTok>
-                </XMWrap>
+<!--  %**** kolmogorovcontinuity.tex Line 300 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** kolmogorovcontinuity.tex Line 300 **** -->        <p>Then for each <Math mode="inline" tex="\omega\in\Omega" text="omega element-of Omega" xml:id="S2.p6.m63">
+        <p>Then for each <Math mode="inline" tex="\omega\in\Omega" text="omega element-of Omega" xml:id="S2.p6.m63">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -9845,7 +9844,7 @@ measurable functions <Math mode="inline" tex="\Omega\to\mathbb{R}^{d}" text="Ome
               </XMApp>
             </XMath>
           </Math>.
-That is, <Math mode="inline" tex="P\{Y_{t}=X_{t}\}=1" xml:id="S2.p7.m26">
+<!--  %**** kolmogorovcontinuity.tex Line 325 **** -->That is, <Math mode="inline" tex="P\{Y_{t}=X_{t}\}=1" xml:id="S2.p7.m26">
             <XMath>
               <XMTok font="italic" role="UNKNOWN">P</XMTok>
               <XMWrap>
@@ -9891,7 +9890,7 @@ That is, <Math mode="inline" tex="P\{Y_{t}=X_{t}\}=1" xml:id="S2.p7.m26">
               <XMTok font="italic" role="UNKNOWN">X</XMTok>
             </XMath>
           </Math>, completing the proof.
-<!--  %**** kolmogorovcontinuity.tex Line 325 **** -->∎</p>
+∎</p>
       </para>
     </proof>
   </section>
@@ -10488,9 +10487,10 @@ if there is some <Math mode="inline" tex="0&lt;\epsilon_{x_{0}}&lt;1" text="0 le
             <tag role="autoref">footnote 7</tag>
             <tag role="refnum">7</tag>
             <tag role="typerefnum">footnote 7</tag>
-          </tags>Achim Klenke, <text font="italic">Probability Theory: A Comprehensive Course</text>, p. 448, Lemma 21.3.</note></p>
+          </tags>Achim Klenke, <text font="italic">Probability Theory: A Comprehensive Course</text>, p. 448, Lemma 21.3.</note>
+<!--  %**** kolmogorovcontinuity.tex Line 350 **** --></p>
     </para>
-<!--  %**** kolmogorovcontinuity.tex Line 350 **** -->    <theorem class="ltx_theorem_lemma" inlist="thm theorem:lemma" xml:id="Thmtheorem3">
+    <theorem class="ltx_theorem_lemma" inlist="thm theorem:lemma" xml:id="Thmtheorem3">
       <tags>
         <tag>Lemma 3</tag>
         <tag role="autoref">3</tag>
@@ -10499,65 +10499,65 @@ if there is some <Math mode="inline" tex="0&lt;\epsilon_{x_{0}}&lt;1" text="0 le
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 3</text></tag>.</title>
       <para xml:id="Thmtheorem3.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="V" text="V" xml:id="Thmtheorem3.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">V</XMTok>
-              </XMath>
-            </Math> be a nonempty subset of <Math mode="inline" tex="\mathbb{R}_{\geq 0}" text="R _ (absent &gt;= 0)" xml:id="Thmtheorem3.p1.m2">
-              <XMath>
+        <p>Let <Math mode="inline" tex="V" text="V" xml:id="Thmtheorem3.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">V</XMTok>
+            </XMath>
+          </Math> be a nonempty subset of <Math mode="inline" tex="\mathbb{R}_{\geq 0}" text="R _ (absent &gt;= 0)" xml:id="Thmtheorem3.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
                 <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" fontsize="70%" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                    <XMTok meaning="absent"/>
-                    <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                  </XMApp>
+                  <XMTok fontsize="70%" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                  <XMTok meaning="absent"/>
+                  <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>, let <Math mode="inline" tex="0&lt;\gamma&lt;1" text="0 less gamma less 1" xml:id="Thmtheorem3.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok meaning="multirelation"/>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok name="gamma" role="UNKNOWN">γ</XMTok>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, and let
+              </XMApp>
+            </XMath>
+          </Math>, let <Math mode="inline" tex="0&lt;\gamma&lt;1" text="0 less gamma less 1" xml:id="Thmtheorem3.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="multirelation"/>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok font="italic" name="gamma" role="UNKNOWN">γ</XMTok>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, and let
 <Math mode="inline" tex="f:V\to\mathbb{R}^{d}" text="f colon V to R ^ d" xml:id="Thmtheorem3.p1.m4">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" role="UNKNOWN">f</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok role="UNKNOWN">f</XMTok>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">V</XMTok>
                   <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">V</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">d</XMTok>
-                    </XMApp>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">d</XMTok>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math> be locally <Math mode="inline" tex="\gamma" text="gamma" xml:id="Thmtheorem3.p1.m5">
-              <XMath>
-                <XMTok name="gamma" role="UNKNOWN">γ</XMTok>
-              </XMath>
-            </Math>-Hölder continuous.</text></p>
+              </XMApp>
+            </XMath>
+          </Math> be locally <Math mode="inline" tex="\gamma" text="gamma" xml:id="Thmtheorem3.p1.m5">
+            <XMath>
+              <XMTok font="italic" name="gamma" role="UNKNOWN">γ</XMTok>
+            </XMath>
+          </Math>-Hölder continuous.</p>
         <enumerate xml:id="S3.I1">
           <item xml:id="S3.I1.i1">
             <tags>
               <tag>1.</tag>
-              <tag role="autoref"><text font="italic">item 1</text></tag>
+              <tag role="autoref">item 1</tag>
               <tag role="refnum">1</tag>
               <tag role="typerefnum">item 1</tag>
             </tags>
             <para xml:id="S3.I1.i1.p1">
-              <p><text font="italic">If </text><Math mode="inline" tex="0&lt;\gamma^{\prime}&lt;\gamma" text="0 less gamma ^ prime less gamma" xml:id="S3.I1.i1.p1.m1">
+              <p>If <Math mode="inline" tex="0&lt;\gamma^{\prime}&lt;\gamma" text="0 less gamma ^ prime less gamma" xml:id="S3.I1.i1.p1.m1">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="multirelation"/>
@@ -10572,11 +10572,11 @@ if there is some <Math mode="inline" tex="0&lt;\epsilon_{x_{0}}&lt;1" text="0 le
                       <XMTok font="italic" name="gamma" role="UNKNOWN">γ</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> then </text><Math mode="inline" tex="f" text="f" xml:id="S3.I1.i1.p1.m2">
+                </Math> then <Math mode="inline" tex="f" text="f" xml:id="S3.I1.i1.p1.m2">
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">f</XMTok>
                   </XMath>
-                </Math><text font="italic"> is locally </text><Math mode="inline" tex="\gamma^{\prime}" text="gamma ^ prime" xml:id="S3.I1.i1.p1.m3">
+                </Math> is locally <Math mode="inline" tex="\gamma^{\prime}" text="gamma ^ prime" xml:id="S3.I1.i1.p1.m3">
                   <XMath>
                     <XMApp>
                       <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
@@ -10584,45 +10584,45 @@ if there is some <Math mode="inline" tex="0&lt;\epsilon_{x_{0}}&lt;1" text="0 le
                       <XMTok fontsize="70%" name="prime" role="SUPOP">′</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic">-Hölder continuous.</text></p>
+                </Math>-Hölder continuous.</p>
             </para>
           </item>
           <item xml:id="S3.I1.i2">
             <tags>
               <tag>2.</tag>
-              <tag role="autoref"><text font="italic">item 2</text></tag>
+              <tag role="autoref">item 2</tag>
               <tag role="refnum">2</tag>
               <tag role="typerefnum">item 2</tag>
             </tags>
             <para xml:id="S3.I1.i2.p1">
-              <p><text font="italic">If </text><Math mode="inline" tex="V" text="V" xml:id="S3.I1.i2.p1.m1">
+              <p>If <Math mode="inline" tex="V" text="V" xml:id="S3.I1.i2.p1.m1">
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">V</XMTok>
                   </XMath>
-                </Math><text font="italic"> is compact, then </text><Math mode="inline" tex="f" text="f" xml:id="S3.I1.i2.p1.m2">
+                </Math> is compact, then <Math mode="inline" tex="f" text="f" xml:id="S3.I1.i2.p1.m2">
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">f</XMTok>
                   </XMath>
-                </Math><text font="italic"> is uniformly </text><Math mode="inline" tex="\gamma" text="gamma" xml:id="S3.I1.i2.p1.m3">
+                </Math> is uniformly <Math mode="inline" tex="\gamma" text="gamma" xml:id="S3.I1.i2.p1.m3">
                   <XMath>
                     <XMTok font="italic" name="gamma" role="UNKNOWN">γ</XMTok>
                   </XMath>
-                </Math><text font="italic">-Hölder continuous.</text></p>
+                </Math>-Hölder continuous.</p>
             </para>
           </item>
           <item xml:id="S3.I1.i3">
             <tags>
               <tag>3.</tag>
-              <tag role="autoref"><text font="italic">item 3</text></tag>
+              <tag role="autoref">item 3</tag>
               <tag role="refnum">3</tag>
               <tag role="typerefnum">item 3</tag>
             </tags>
             <para xml:id="S3.I1.i3.p1">
-              <p><text font="italic">If </text><Math mode="inline" tex="V" text="V" xml:id="S3.I1.i3.p1.m1">
+              <p>If <Math mode="inline" tex="V" text="V" xml:id="S3.I1.i3.p1.m1">
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">V</XMTok>
                   </XMath>
-                </Math><text font="italic"> is an interval of length </text><Math mode="inline" tex="T&gt;0" text="T &gt; 0" xml:id="S3.I1.i3.p1.m2">
+                </Math> is an interval of length <Math mode="inline" tex="T&gt;0" text="T &gt; 0" xml:id="S3.I1.i3.p1.m2">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
@@ -10630,7 +10630,7 @@ if there is some <Math mode="inline" tex="0&lt;\epsilon_{x_{0}}&lt;1" text="0 le
                       <XMTok meaning="0" role="NUMBER">0</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> and there is some </text><Math mode="inline" tex="\epsilon&gt;0" text="epsilon &gt; 0" xml:id="S3.I1.i3.p1.m3">
+                </Math> and there is some <Math mode="inline" tex="\epsilon&gt;0" text="epsilon &gt; 0" xml:id="S3.I1.i3.p1.m3">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="greater-than" role="RELOP">&gt;</XMTok>
@@ -10638,12 +10638,12 @@ if there is some <Math mode="inline" tex="0&lt;\epsilon_{x_{0}}&lt;1" text="0 le
                       <XMTok meaning="0" role="NUMBER">0</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> and some </text><Math mode="inline" tex="C" text="C" xml:id="S3.I1.i3.p1.m4">
+                </Math> and some <Math mode="inline" tex="C" text="C" xml:id="S3.I1.i3.p1.m4">
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">C</XMTok>
                   </XMath>
-                </Math><text font="italic"> such that for all
-</text><Math mode="inline" tex="s,t\in V" text="list@(s, t) element-of V" xml:id="S3.I1.i3.p1.m5">
+                </Math> such that for all
+<Math mode="inline" tex="s,t\in V" text="list@(s, t) element-of V" xml:id="S3.I1.i3.p1.m5">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -10662,7 +10662,7 @@ if there is some <Math mode="inline" tex="0&lt;\epsilon_{x_{0}}&lt;1" text="0 le
                       <XMTok font="italic" role="UNKNOWN">V</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> with </text><Math mode="inline" tex="|t-s|\leq\epsilon" text="absolute-value@(t - s) less= epsilon" xml:id="S3.I1.i3.p1.m6">
+                </Math> with <Math mode="inline" tex="|t-s|\leq\epsilon" text="absolute-value@(t - s) less= epsilon" xml:id="S3.I1.i3.p1.m6">
                   <XMath>
                     <XMApp>
                       <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
@@ -10684,11 +10684,11 @@ if there is some <Math mode="inline" tex="0&lt;\epsilon_{x_{0}}&lt;1" text="0 le
                       <XMTok font="italic" name="epsilon" role="UNKNOWN">ϵ</XMTok>
                     </XMApp>
                   </XMath>
-                </Math><text font="italic"> we have</text></p>
+                </Math> we have</p>
               <equation labels="LABEL:epsilon" xml:id="S3.E8">
                 <tags>
                   <tag>(8)</tag>
-                  <tag role="autoref"><text font="italic">Equation 8</text></tag>
+                  <tag role="autoref">Equation 8</tag>
                   <tag role="refnum">8</tag>
                 </tags>
                 <Math mode="display" tex="|f(t)-f(s)|\leq C|t-s|^{\gamma}," text="absolute-value@(f * t - f * s) less= C * (absolute-value@(t - s)) ^ gamma" xml:id="S3.E8.m1">
@@ -10765,7 +10765,7 @@ if there is some <Math mode="inline" tex="0&lt;\epsilon_{x_{0}}&lt;1" text="0 le
                   </XMath>
                 </Math>
               </equation>
-              <p><text font="italic">then</text></p>
+              <p>then</p>
               <equation xml:id="S3.Ex45">
                 <Math mode="display" tex="|f(t)-f(s)|\leq C\left\lceil\frac{T}{\epsilon}\right\rceil^{1-\gamma}|t-s|^{%&#10;\gamma},\qquad s,t\in V." text="formulae@(absolute-value@(f * t - f * s) less= list@(C * (ceiling@(T / epsilon)) ^ (1 - gamma) * (absolute-value@(t - s)) ^ gamma, s), t element-of V)" xml:id="S3.Ex45.m1">
                   <XMath>
@@ -11117,7 +11117,7 @@ if there is some <Math mode="inline" tex="0&lt;\epsilon_{x_{0}}&lt;1" text="0 le
             </XMath>
           </Math>
         </equation>
-        <p>showing that <Math mode="inline" tex="f" text="f" xml:id="S3.p3.m5">
+<!--  %**** kolmogorovcontinuity.tex Line 375 **** -->        <p>showing that <Math mode="inline" tex="f" text="f" xml:id="S3.p3.m5">
             <XMath>
               <XMTok font="italic" role="UNKNOWN">f</XMTok>
             </XMath>
@@ -11129,8 +11129,7 @@ if there is some <Math mode="inline" tex="0&lt;\epsilon_{x_{0}}&lt;1" text="0 le
                 <XMTok fontsize="70%" name="prime" role="SUPOP">′</XMTok>
               </XMApp>
             </XMath>
-          </Math>-Hölder continuous.
-<!--  %**** kolmogorovcontinuity.tex Line 375 **** --></p>
+          </Math>-Hölder continuous.</p>
       </para>
       <para xml:id="S3.p4">
         <p>With the metric inherited from <Math mode="inline" tex="\mathbb{R}_{\geq 0}" text="R _ (absent &gt;= 0)" xml:id="S3.p4.m1">
@@ -11711,7 +11710,7 @@ Let</p>
             </XMath>
           </Math>
         </equation>
-        <p>For <Math mode="inline" tex="s,t\in V" text="list@(s, t) element-of V" xml:id="S3.p4.m26">
+<!--  %**** kolmogorovcontinuity.tex Line 400 **** -->        <p>For <Math mode="inline" tex="s,t\in V" text="list@(s, t) element-of V" xml:id="S3.p4.m26">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -11753,7 +11752,7 @@ Let</p>
               </XMApp>
             </XMath>
           </Math>, i.e.
-<!--  %**** kolmogorovcontinuity.tex Line 400 **** --><Math mode="inline" tex="s\in B_{\delta}(t)" text="s element-of B _ delta * t" xml:id="S3.p4.m28">
+<Math mode="inline" tex="s\in B_{\delta}(t)" text="s element-of B _ delta * t" xml:id="S3.p4.m28">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -13109,7 +13108,7 @@ Let</p>
             </MathFork>
           </equation>
         </equationgroup>
-<!--  %**** kolmogorovcontinuity.tex Line 425 **** -->        <p>∎</p>
+        <p>∎</p>
       </para>
     </proof>
     <para xml:id="S3.p6">
@@ -13130,152 +13129,152 @@ process that satisfies (<ref labelref="LABEL:kolmogorov"/>) when almost all of i
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 4</text></tag>.</title>
       <para xml:id="Thmtheorem4.p1">
-        <p><text font="italic">If a stochastic process <Math mode="inline" tex="(X_{t})_{t\in\mathbb{R}_{\geq 0}}" text="X _ t _ (t element-of R _ (absent &gt;= 0))" xml:id="Thmtheorem4.p1.m1">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMDual>
-                    <XMRef idref="Thmtheorem4.p1.m1.1"/>
-                    <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                      <XMApp xml:id="Thmtheorem4.p1.m1.1">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">X</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                      </XMApp>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                  <XMApp>
-                    <XMTok font="upright" fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                    <XMApp>
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post2"/>
-                      <XMTok font="blackboard upright" fontsize="70%" role="UNKNOWN">R</XMTok>
-                      <XMApp>
-                        <XMTok font="upright" fontsize="50%" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                        <XMTok meaning="absent"/>
-                        <XMTok font="upright" fontsize="50%" meaning="0" role="NUMBER">0</XMTok>
-                      </XMApp>
-                    </XMApp>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math> with state space <Math mode="inline" tex="\mathbb{R}^{d}" text="R ^ d" xml:id="Thmtheorem4.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                  <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                  <XMTok fontsize="70%" role="UNKNOWN">d</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> satisfies (<ref labelref="LABEL:kolmogorov"/>) and for almost every
-<Math mode="inline" tex="\omega\in\Omega" text="omega element-of Omega" xml:id="Thmtheorem4.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="omega" role="UNKNOWN">ω</XMTok>
-                  <XMTok font="upright" name="Omega" role="UNKNOWN">Ω</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> the map <Math mode="inline" tex="t\mapsto X_{t}(\omega)" text="t maps-to X _ t * omega" xml:id="Thmtheorem4.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="maps-to" name="mapsto" role="ARROW">↦</XMTok>
-                  <XMTok role="UNKNOWN">t</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
+        <p>If a stochastic process <Math mode="inline" tex="(X_{t})_{t\in\mathbb{R}_{\geq 0}}" text="X _ t _ (t element-of R _ (absent &gt;= 0))" xml:id="Thmtheorem4.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMDual>
+                  <XMRef idref="Thmtheorem4.p1.m1.1"/>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">(</XMTok>
+                    <XMApp xml:id="Thmtheorem4.p1.m1.1">
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">X</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
+                      <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
                     </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem4.p1.m4.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok name="omega" role="UNKNOWN" xml:id="Thmtheorem4.p1.m4.1">ω</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                  </XMWrap>
+                </XMDual>
+                <XMApp>
+                  <XMTok fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+                  <XMApp>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post2"/>
+                    <XMTok font="blackboard" fontsize="70%" role="UNKNOWN">R</XMTok>
+                    <XMApp>
+                      <XMTok fontsize="50%" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                      <XMTok meaning="absent"/>
+                      <XMTok fontsize="50%" meaning="0" role="NUMBER">0</XMTok>
+                    </XMApp>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math> is continuous <Math mode="inline" tex="\mathbb{R}_{\geq 0}\to\mathbb{R}^{d}" text="R _ (absent &gt;= 0) to R ^ d" xml:id="Thmtheorem4.p1.m5">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math> with state space <Math mode="inline" tex="\mathbb{R}^{d}" text="R ^ d" xml:id="Thmtheorem4.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">d</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> satisfies (<ref labelref="LABEL:kolmogorov"/>) and for almost every
+<Math mode="inline" tex="\omega\in\Omega" text="omega element-of Omega" xml:id="Thmtheorem4.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="omega" role="UNKNOWN">ω</XMTok>
+                <XMTok name="Omega" role="UNKNOWN">Ω</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> the map <Math mode="inline" tex="t\mapsto X_{t}(\omega)" text="t maps-to X _ t * omega" xml:id="Thmtheorem4.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="maps-to" name="mapsto" role="ARROW">↦</XMTok>
+                <XMTok font="italic" role="UNKNOWN">t</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="to" role="ARROW">→</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
                     <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                    <XMApp>
-                      <XMTok font="upright" fontsize="70%" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                      <XMTok meaning="absent"/>
-                      <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                    </XMApp>
+                    <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
                   </XMApp>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem4.p1.m4.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" name="omega" role="UNKNOWN" xml:id="Thmtheorem4.p1.m4.1">ω</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math> is continuous <Math mode="inline" tex="\mathbb{R}_{\geq 0}\to\mathbb{R}^{d}" text="R _ (absent &gt;= 0) to R ^ d" xml:id="Thmtheorem4.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok name="to" role="ARROW">→</XMTok>
+                <XMApp>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
                   <XMApp>
-                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                    <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">d</XMTok>
+                    <XMTok fontsize="70%" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                    <XMTok meaning="absent"/>
+                    <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math>, then
+                <XMApp>
+                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">d</XMTok>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math>, then
 for almost every <Math mode="inline" tex="\omega\in\Omega" text="omega element-of Omega" xml:id="Thmtheorem4.p1.m6">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="omega" role="UNKNOWN">ω</XMTok>
-                  <XMTok font="upright" name="Omega" role="UNKNOWN">Ω</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="omega" role="UNKNOWN">ω</XMTok>
+                <XMTok name="Omega" role="UNKNOWN">Ω</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,
 for every <Math mode="inline" tex="0&lt;\gamma&lt;\frac{\beta}{\alpha}" text="0 less gamma less beta / alpha" xml:id="Thmtheorem4.p1.m7">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="multirelation"/>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok font="italic" name="gamma" role="UNKNOWN">γ</XMTok>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
                 <XMApp>
-                  <XMTok meaning="multirelation"/>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok name="gamma" role="UNKNOWN">γ</XMTok>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMApp>
-                    <XMTok mathstyle="text" meaning="divide" role="FRACOP"/>
-                    <XMTok fontsize="70%" name="beta" role="UNKNOWN">β</XMTok>
-                    <XMTok fontsize="70%" name="alpha" role="UNKNOWN">α</XMTok>
-                  </XMApp>
+                  <XMTok mathstyle="text" meaning="divide" role="FRACOP"/>
+                  <XMTok font="italic" fontsize="70%" name="beta" role="UNKNOWN">β</XMTok>
+                  <XMTok font="italic" fontsize="70%" name="alpha" role="UNKNOWN">α</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>,
+              </XMApp>
+            </XMath>
+          </Math>,
 the map <Math mode="inline" tex="t\mapsto X_{t}(\omega)" text="t maps-to X _ t * omega" xml:id="Thmtheorem4.p1.m8">
-              <XMath>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="maps-to" name="mapsto" role="ARROW">↦</XMTok>
+                <XMTok font="italic" role="UNKNOWN">t</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="maps-to" name="mapsto" role="ARROW">↦</XMTok>
-                  <XMTok role="UNKNOWN">t</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">X</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem4.p1.m8.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok name="omega" role="UNKNOWN" xml:id="Thmtheorem4.p1.m8.1">ω</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
                   </XMApp>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem4.p1.m8.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" name="omega" role="UNKNOWN" xml:id="Thmtheorem4.p1.m8.1">ω</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> is locally
+              </XMApp>
+            </XMath>
+          </Math> is locally
 <Math mode="inline" tex="\gamma" text="gamma" xml:id="Thmtheorem4.p1.m9">
-              <XMath>
-                <XMTok name="gamma" role="UNKNOWN">γ</XMTok>
-              </XMath>
-            </Math>-Hölder continuous.</text></p>
+            <XMath>
+              <XMTok font="italic" name="gamma" role="UNKNOWN">γ</XMTok>
+            </XMath>
+          </Math>-Hölder continuous.</p>
       </para>
     </theorem>
     <proof>
@@ -15031,8 +15030,7 @@ so by (<ref labelref="LABEL:3913"/>),</p>
             </MathFork>
           </equation>
         </equationgroup>
-        <p>thus
-<!--  %**** kolmogorovcontinuity.tex Line 475 **** --></p>
+<!--  %**** kolmogorovcontinuity.tex Line 475 **** -->        <p>thus</p>
         <equation xml:id="S3.Ex60">
           <Math mode="display" tex="|X_{t}(\omega)-X_{s}(\omega)|\leq C_{\gamma}|t-s|^{\gamma}," text="absolute-value@(X _ t * omega - X _ s * omega) less= C _ gamma * (absolute-value@(t - s)) ^ gamma" xml:id="S3.Ex60.m1">
             <XMath>
@@ -15358,8 +15356,8 @@ For <Math mode="inline" tex="\omega\in\Omega\setminus M" text="omega element-of 
           </tags>Nikolai Nikolaevich Chentsov,
 1930–1993,
 obituary in Russian Math. Surveys <text font="bold">48</text> (1993), no. 2, 161–166.</note>
-It does not merely state that for any
-<!--  %**** kolmogorovcontinuity.tex Line 500 **** --><Math mode="inline" tex="0&lt;\gamma&lt;\frac{\beta}{\alpha}" text="0 less gamma less beta / alpha" xml:id="S3.p9.m1">
+<!--  %**** kolmogorovcontinuity.tex Line 500 **** -->It does not merely state that for any
+<Math mode="inline" tex="0&lt;\gamma&lt;\frac{\beta}{\alpha}" text="0 less gamma less beta / alpha" xml:id="S3.p9.m1">
           <XMath>
             <XMApp>
               <XMTok meaning="multirelation"/>
@@ -15416,106 +15414,106 @@ p. 339, Corollary 39.5.</note></p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 5</text></tag> (Kolmogorov-Chentsov theorem).</title>
       <para xml:id="Thmtheorem5.p1">
-        <p><text font="italic">If a stochastic process <Math mode="inline" tex="(X_{t})_{t\in\mathbb{R}_{\geq 0}}" text="X _ t _ (t element-of R _ (absent &gt;= 0))" xml:id="Thmtheorem5.p1.m1">
-              <XMath>
+        <p>If a stochastic process <Math mode="inline" tex="(X_{t})_{t\in\mathbb{R}_{\geq 0}}" text="X _ t _ (t element-of R _ (absent &gt;= 0))" xml:id="Thmtheorem5.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMDual>
+                  <XMRef idref="Thmtheorem5.p1.m1.1"/>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">(</XMTok>
+                    <XMApp xml:id="Thmtheorem5.p1.m1.1">
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="italic" role="UNKNOWN">X</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+                    </XMApp>
+                    <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                  </XMWrap>
+                </XMDual>
                 <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+                  <XMApp>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post2"/>
+                    <XMTok font="blackboard" fontsize="70%" role="UNKNOWN">R</XMTok>
+                    <XMApp>
+                      <XMTok fontsize="50%" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                      <XMTok meaning="absent"/>
+                      <XMTok fontsize="50%" meaning="0" role="NUMBER">0</XMTok>
+                    </XMApp>
+                  </XMApp>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math> with state space <Math mode="inline" tex="\mathbb{R}^{d}" text="R ^ d" xml:id="Thmtheorem5.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">d</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> satisfies (<ref labelref="LABEL:kolmogorov"/>),
+then <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem5.p1.m3">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">X</XMTok>
+            </XMath>
+          </Math> has a modification <Math mode="inline" tex="Y" text="Y" xml:id="Thmtheorem5.p1.m4">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">Y</XMTok>
+            </XMath>
+          </Math> such that for all <Math mode="inline" tex="\omega\in\Omega" text="omega element-of Omega" xml:id="Thmtheorem5.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="omega" role="UNKNOWN">ω</XMTok>
+                <XMTok name="Omega" role="UNKNOWN">Ω</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and <Math mode="inline" tex="0&lt;\gamma&lt;\frac{\beta}{\alpha}" text="0 less gamma less beta / alpha" xml:id="Thmtheorem5.p1.m6">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="multirelation"/>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok font="italic" name="gamma" role="UNKNOWN">γ</XMTok>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMApp>
+                  <XMTok mathstyle="text" meaning="divide" role="FRACOP"/>
+                  <XMTok font="italic" fontsize="70%" name="beta" role="UNKNOWN">β</XMTok>
+                  <XMTok font="italic" fontsize="70%" name="alpha" role="UNKNOWN">α</XMTok>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math>,
+the path <Math mode="inline" tex="t\mapsto Y_{t}(\omega)" text="t maps-to Y _ t * omega" xml:id="Thmtheorem5.p1.m7">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="maps-to" name="mapsto" role="ARROW">↦</XMTok>
+                <XMTok font="italic" role="UNKNOWN">t</XMTok>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMApp>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="italic" role="UNKNOWN">Y</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+                  </XMApp>
                   <XMDual>
-                    <XMRef idref="Thmtheorem5.p1.m1.1"/>
+                    <XMRef idref="Thmtheorem5.p1.m7.1"/>
                     <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                      <XMApp xml:id="Thmtheorem5.p1.m1.1">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">X</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                      </XMApp>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" name="omega" role="UNKNOWN" xml:id="Thmtheorem5.p1.m7.1">ω</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
                     </XMWrap>
                   </XMDual>
-                  <XMApp>
-                    <XMTok font="upright" fontsize="70%" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                    <XMApp>
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post2"/>
-                      <XMTok font="blackboard upright" fontsize="70%" role="UNKNOWN">R</XMTok>
-                      <XMApp>
-                        <XMTok font="upright" fontsize="50%" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                        <XMTok meaning="absent"/>
-                        <XMTok font="upright" fontsize="50%" meaning="0" role="NUMBER">0</XMTok>
-                      </XMApp>
-                    </XMApp>
-                  </XMApp>
                 </XMApp>
-              </XMath>
-            </Math> with state space <Math mode="inline" tex="\mathbb{R}^{d}" text="R ^ d" xml:id="Thmtheorem5.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                  <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                  <XMTok fontsize="70%" role="UNKNOWN">d</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> satisfies (<ref labelref="LABEL:kolmogorov"/>),
-then <Math mode="inline" tex="X" text="X" xml:id="Thmtheorem5.p1.m3">
-              <XMath>
-                <XMTok role="UNKNOWN">X</XMTok>
-              </XMath>
-            </Math> has a modification <Math mode="inline" tex="Y" text="Y" xml:id="Thmtheorem5.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">Y</XMTok>
-              </XMath>
-            </Math> such that for all <Math mode="inline" tex="\omega\in\Omega" text="omega element-of Omega" xml:id="Thmtheorem5.p1.m5">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="omega" role="UNKNOWN">ω</XMTok>
-                  <XMTok font="upright" name="Omega" role="UNKNOWN">Ω</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> and <Math mode="inline" tex="0&lt;\gamma&lt;\frac{\beta}{\alpha}" text="0 less gamma less beta / alpha" xml:id="Thmtheorem5.p1.m6">
-              <XMath>
-                <XMApp>
-                  <XMTok meaning="multirelation"/>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok name="gamma" role="UNKNOWN">γ</XMTok>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMApp>
-                    <XMTok mathstyle="text" meaning="divide" role="FRACOP"/>
-                    <XMTok fontsize="70%" name="beta" role="UNKNOWN">β</XMTok>
-                    <XMTok fontsize="70%" name="alpha" role="UNKNOWN">α</XMTok>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math>,
-the path <Math mode="inline" tex="t\mapsto Y_{t}(\omega)" text="t maps-to Y _ t * omega" xml:id="Thmtheorem5.p1.m7">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="maps-to" name="mapsto" role="ARROW">↦</XMTok>
-                  <XMTok role="UNKNOWN">t</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok role="UNKNOWN">Y</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem5.p1.m7.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok name="omega" role="UNKNOWN" xml:id="Thmtheorem5.p1.m7.1">ω</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math> is locally <Math mode="inline" tex="\gamma" text="gamma" xml:id="Thmtheorem5.p1.m8">
-              <XMath>
-                <XMTok name="gamma" role="UNKNOWN">γ</XMTok>
-              </XMath>
-            </Math>-Hölder continuous.</text></p>
+              </XMApp>
+            </XMath>
+          </Math> is locally <Math mode="inline" tex="\gamma" text="gamma" xml:id="Thmtheorem5.p1.m8">
+            <XMath>
+              <XMTok font="italic" name="gamma" role="UNKNOWN">γ</XMTok>
+            </XMath>
+          </Math>-Hölder continuous.</p>
       </para>
     </theorem>
     <proof>
@@ -15702,7 +15700,7 @@ For <Math mode="inline" tex="t\in\mathbb{R}_{\geq 0}" text="t element-of R _ (ab
             </XMath>
           </Math>
         </equation>
-        <p>i.e. <Math mode="inline" tex="Y_{t}=1_{\Omega\setminus M}Z_{t}" text="Y _ t = 1 _ (Omega set-minus M) * Z _ t" xml:id="S3.p10.m10">
+<!--  %**** kolmogorovcontinuity.tex Line 525 **** -->        <p>i.e. <Math mode="inline" tex="Y_{t}=1_{\Omega\setminus M}Z_{t}" text="Y _ t = 1 _ (Omega set-minus M) * Z _ t" xml:id="S3.p10.m10">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -15747,7 +15745,7 @@ For <Math mode="inline" tex="t\in\mathbb{R}_{\geq 0}" text="t element-of R _ (ab
               </XMApp>
             </XMath>
           </Math>, and so
-<!--  %**** kolmogorovcontinuity.tex Line 525 **** --><Math mode="inline" tex="(Y_{t})_{t\in\mathbb{R}_{\geq 0}}" text="Y _ t _ (t element-of R _ (absent &gt;= 0))" xml:id="S3.p10.m12">
+<Math mode="inline" tex="(Y_{t})_{t\in\mathbb{R}_{\geq 0}}" text="Y _ t _ (t element-of R _ (absent &gt;= 0))" xml:id="S3.p10.m12">
             <XMath>
               <XMApp>
                 <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>

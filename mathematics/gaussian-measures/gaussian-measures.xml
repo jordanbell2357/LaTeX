@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/math/gaussian-measures"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/mathematics/gaussian-measures"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
 <?latexml RelaxNGSchema="LaTeXML"?>
@@ -876,7 +876,7 @@ Applications</text>, second ed., p. 322, Theorem 10.11.</note></p>
       <tag role="refnum">3</tag>
       <tag role="typerefnum">§3</tag>
     </tags>
-    <title><tag close=" ">3</tag>1-dimension</title>
+    <title><tag close=" ">3</tag>Gaussian measures on <text font="bold">R</text></title>
     <para xml:id="S3.p1">
       <p>For real <Math mode="inline" tex="a" text="a" xml:id="S3.p1.m1">
           <XMath>
@@ -8621,7 +8621,7 @@ all <Math mode="inline" tex="\omega\in\Omega" text="omega element-of Omega" xml:
       <tag role="refnum">4</tag>
       <tag role="typerefnum">§4</tag>
     </tags>
-    <title><tag close=" ">4</tag><text font="italic">n</text>-dimensions</title>
+    <title><tag close=" ">4</tag><text font="bold">R<sup><text font="medium">n</text></sup></text></title>
     <para xml:id="S4.p1">
       <p>If <Math mode="inline" tex="\mu" text="mu" xml:id="S4.p1.m1">
           <XMath>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/staging/hermiteoperator"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/mathematics/hermiteoperator"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
 <?latexml package="hyperref" options="draft"?>
@@ -283,7 +283,7 @@ because each <Math mode="inline" tex="|\cdot|_{p}" xml:id="S1.p1.m9">
             <XMTok role="CLOSE" stretchy="false">}</XMTok>
           </XMath>
         </Math> is a separating family of seminorms.
-With the topology induced by this family of seminorms, <Math mode="inline" tex="\mathscr{S}" text="S" xml:id="S1.p1.m11">
+<!--  %**** hermiteoperator.tex Line 50 **** -->With the topology induced by this family of seminorms, <Math mode="inline" tex="\mathscr{S}" text="S" xml:id="S1.p1.m11">
           <XMath>
             <XMTok font="script" role="UNKNOWN">S</XMTok>
           </XMath>
@@ -292,7 +292,7 @@ With the topology induced by this family of seminorms, <Math mode="inline" tex="
             <tag role="autoref">footnote 1</tag>
             <tag role="refnum">1</tag>
             <tag role="typerefnum">footnote 1</tag>
-          </tags><!--  %**** hermiteoperator.tex Line 50 **** -->Walter
+          </tags>Walter
 Rudin, <text font="italic">Functional Analysis</text>, second ed., p. 184, Theorem 7.4.</note>
 Furthermore, <Math mode="inline" tex="D:\mathscr{S}\to\mathscr{S}" text="D colon S to S" xml:id="S1.p1.m12">
           <XMath>
@@ -625,7 +625,7 @@ is <Math mode="inline" tex="\{e_{\phi}:\phi\in\mathscr{S}\}" text="conditional-s
           </XMath>
         </Math>.</p>
     </para>
-  </section>
+<!--  %**** hermiteoperator.tex Line 75 **** -->  </section>
   <section inlist="toc" labels="LABEL:L2norms" xml:id="S2">
     <tags>
       <tag>2</tag>
@@ -634,7 +634,7 @@ is <Math mode="inline" tex="\{e_{\phi}:\phi\in\mathscr{S}\}" text="conditional-s
       <tag role="typerefnum">§2</tag>
     </tags>
     <title><tag close=" ">2</tag><text font="italic">L<sup>2</sup></text> norms</title>
-<!--  %**** hermiteoperator.tex Line 75 **** -->    <para xml:id="S2.p1">
+    <para xml:id="S2.p1">
       <p>For <Math mode="inline" tex="p\geq 0" text="p &gt;= 0" xml:id="S2.p1.m1">
           <XMath>
             <XMApp>
@@ -1079,24 +1079,24 @@ is <Math mode="inline" tex="\{e_{\phi}:\phi\in\mathscr{S}\}" text="conditional-s
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 1</text></tag>.</title>
       <para xml:id="Thmtheorem1.p1">
-        <p><text font="italic">For each <Math mode="inline" tex="p\geq 1" text="p &gt;= 1" xml:id="Thmtheorem1.p1.m1">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMTok role="UNKNOWN">p</XMTok>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, for all
+        <p>For each <Math mode="inline" tex="p\geq 1" text="p &gt;= 1" xml:id="Thmtheorem1.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMTok font="italic" role="UNKNOWN">p</XMTok>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, for all
 <Math mode="inline" tex="\phi\in\mathscr{S}" text="phi element-of S" xml:id="Thmtheorem1.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="phi" role="UNKNOWN">ϕ</XMTok>
-                  <XMTok font="script upright" role="UNKNOWN">S</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,</text></p>
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="phi" role="UNKNOWN">ϕ</XMTok>
+                <XMTok font="script" role="UNKNOWN">S</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,</p>
         <equation xml:id="S2.Ex7">
           <Math mode="display" tex="\frac{1}{p\sqrt{\pi}}|\phi|_{p-1}\leq[\phi]_{p}\leq\sqrt{(p+1)\pi}|\phi|_{p+1}." text="(1 / (p * square-root@(pi))) * (absolute-value@(phi)) _ (p - 1) less= (delimited-[]@(phi)) _ p less= square-root@((p + 1) * pi) * (absolute-value@(phi)) _ (p + 1)" xml:id="S2.Ex7.m1">
             <XMath>
@@ -1206,8 +1206,8 @@ is <Math mode="inline" tex="\{e_{\phi}:\phi\in\mathscr{S}\}" text="conditional-s
         </equation>
       </para>
     </theorem>
-    <proof>
-      <title class="ltx_runin" font="italic"><!--  %**** hermiteoperator.tex Line 100 **** -->Proof.</title>
+<!--  %**** hermiteoperator.tex Line 100 **** -->    <proof>
+      <title class="ltx_runin" font="italic">Proof.</title>
       <para xml:id="S2.p3">
         <p>For <Math mode="inline" tex="0\leq k\leq p" text="0 less= k less= p" xml:id="S2.p3.m1">
             <XMath>
@@ -4882,7 +4882,7 @@ We remark that the Hermite functions belong to <Math mode="inline" tex="\mathscr
             <XMTok font="script" role="UNKNOWN">S</XMTok>
           </XMath>
         </Math>.
-For <Math mode="inline" tex="n&lt;0" text="n less 0" xml:id="S3.p1.m8">
+<!--  %**** hermiteoperator.tex Line 150 **** -->For <Math mode="inline" tex="n&lt;0" text="n less 0" xml:id="S3.p1.m8">
           <XMath>
             <XMApp>
               <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
@@ -4890,8 +4890,7 @@ For <Math mode="inline" tex="n&lt;0" text="n less 0" xml:id="S3.p1.m8">
               <XMTok meaning="0" role="NUMBER">0</XMTok>
             </XMApp>
           </XMath>
-        </Math> we define
-<!--  %**** hermiteoperator.tex Line 150 **** --></p>
+        </Math> we define</p>
       <equation xml:id="S3.Ex26">
         <Math mode="display" tex="h_{n}=0," text="h _ n = 0" xml:id="S3.Ex26.m1">
           <XMath>
@@ -5286,7 +5285,7 @@ For <Math mode="inline" tex="n&lt;0" text="n less 0" xml:id="S3.p1.m8">
             </XMApp>
           </XMath>
         </Math>,
-<Math mode="inline" tex="T^{p}" text="T ^ p" xml:id="S3.p3.m9">
+<!--  %**** hermiteoperator.tex Line 175 **** --><Math mode="inline" tex="T^{p}" text="T ^ p" xml:id="S3.p3.m9">
           <XMath>
             <XMApp>
               <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
@@ -5349,8 +5348,7 @@ For <Math mode="inline" tex="n&lt;0" text="n less 0" xml:id="S3.p1.m8">
               </XMApp>
             </XMApp>
           </XMath>
-        </Math>.
-<!--  %**** hermiteoperator.tex Line 175 **** --></p>
+        </Math>.</p>
     </para>
     <para xml:id="S3.p4">
       <p>We define the <text font="bold">creation operator</text> <Math mode="inline" tex="B:\mathscr{S}\to\mathscr{S}" text="B colon S to S" xml:id="S3.p4.m1">
@@ -5866,7 +5864,7 @@ Using the creation operator, we can write the Hermite functions as</p>
                         <XMApp>
                           <XMTok font="italic" meaning="differential-d" role="DIFFOP">d</XMTok>
                           <XMTok font="italic" role="UNKNOWN">x</XMTok>
-                        </XMApp>
+<!--  %**** hermiteoperator.tex Line 200 **** -->                        </XMApp>
                       </XMApp>
                     </XMApp>
                   </XMApp>
@@ -5909,7 +5907,7 @@ Using the creation operator, we can write the Hermite functions as</p>
                   </XMApp>
                 </XMApp>
                 <XMTok role="PUNCT">,</XMTok>
-<!--  %**** hermiteoperator.tex Line 200 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -6520,23 +6518,23 @@ Using the creation operator, we can write the Hermite functions as</p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 2</text></tag>.</title>
       <para xml:id="Thmtheorem2.p1">
-        <p><text font="italic">For <Math mode="inline" tex="p\geq 0" text="p &gt;= 0" xml:id="Thmtheorem2.p1.m1">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMTok role="UNKNOWN">p</XMTok>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> and for <Math mode="inline" tex="\phi\in\mathscr{S}" text="phi element-of S" xml:id="Thmtheorem2.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="phi" role="UNKNOWN">ϕ</XMTok>
-                  <XMTok font="script upright" role="UNKNOWN">S</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,</text></p>
+        <p>For <Math mode="inline" tex="p\geq 0" text="p &gt;= 0" xml:id="Thmtheorem2.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMTok font="italic" role="UNKNOWN">p</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and for <Math mode="inline" tex="\phi\in\mathscr{S}" text="phi element-of S" xml:id="Thmtheorem2.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="phi" role="UNKNOWN">ϕ</XMTok>
+                <XMTok font="script" role="UNKNOWN">S</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,</p>
         <equation xml:id="S3.Ex41">
           <Math mode="display" tex="B^{p}\phi=2^{p/2}\sum_{n=0}^{\infty}\left(\frac{(n+p)!}{n!}\right)^{1/2}(\phi,%&#10;h_{n+p})_{L^{2}}h_{n}" text="B ^ p * phi = 2 ^ (p / 2) * ((sum _ (n = 0)) ^ infinity)@(((n + p)factorial / nfactorial) ^ (1 / 2) * (open-interval@(phi, h _ (n + p))) _ (L ^ 2) * h _ n)" xml:id="S3.Ex41.m1">
             <XMath>
@@ -6657,8 +6655,7 @@ Using the creation operator, we can write the Hermite functions as</p>
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">and
-<!--  %**** hermiteoperator.tex Line 225 **** --></text></p>
+<!--  %**** hermiteoperator.tex Line 225 **** -->        <p>and</p>
         <equation xml:id="S3.Ex42">
           <Math mode="display" tex="C^{p}\phi=2^{p/2}\sum_{n=0}^{\infty}(\phi,h_{n-p})_{L^{2}}\left(\frac{n!}{(n-p%&#10;)!}\right)^{1/2}h_{n}." text="C ^ p * phi = 2 ^ (p / 2) * ((sum _ (n = 0)) ^ infinity)@((open-interval@(phi, h _ (n - p))) _ (L ^ 2) * (nfactorial / (n - p)factorial) ^ (1 / 2) * h _ n)" xml:id="S3.Ex42.m1">
             <XMath>
@@ -7793,7 +7790,7 @@ Using the creation operator, we can write the Hermite functions as</p>
                           <XMRef idref="S3.Ex48.m1.6.1"/>
                         </XMApp>
                         <XMWrap>
-                          <XMTok role="OPEN" stretchy="false">(</XMTok>
+<!--  %**** hermiteoperator.tex Line 250 **** -->                          <XMTok role="OPEN" stretchy="false">(</XMTok>
                           <XMTok font="italic" name="phi" role="UNKNOWN" xml:id="S3.Ex48.m1.2">ϕ</XMTok>
                           <XMTok role="PUNCT">,</XMTok>
                           <XMApp xml:id="S3.Ex48.m1.6.1">
@@ -8826,7 +8823,7 @@ Using the creation operator, we can write the Hermite functions as</p>
       </equation>
       <p>and one proves the following using the above.</p>
     </para>
-    <theorem class="ltx_theorem_lemma" inlist="thm theorem:lemma" xml:id="Thmtheorem3">
+<!--  %**** hermiteoperator.tex Line 275 **** -->    <theorem class="ltx_theorem_lemma" inlist="thm theorem:lemma" xml:id="Thmtheorem3">
       <tags>
         <tag>Lemma 3</tag>
         <tag role="autoref">3</tag>
@@ -8835,15 +8832,15 @@ Using the creation operator, we can write the Hermite functions as</p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 3</text></tag>.</title>
       <para xml:id="Thmtheorem3.p1">
-        <p><text font="italic">For <Math mode="inline" tex="n\geq 0" text="n &gt;= 0" xml:id="Thmtheorem3.p1.m1">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMTok role="UNKNOWN">n</XMTok>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>,</text></p>
+        <p>For <Math mode="inline" tex="n\geq 0" text="n &gt;= 0" xml:id="Thmtheorem3.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMTok font="italic" role="UNKNOWN">n</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,</p>
         <equation xml:id="S3.Ex55">
           <Math mode="display" tex="\mathscr{F}h_{n}=(-i)^{n}h_{n}." text="F * h _ n = (- i) ^ n * h _ n" xml:id="S3.Ex55.m1">
             <XMath>
@@ -9250,7 +9247,7 @@ restriction to <Math mode="inline" tex="\mathscr{S}" text="S" xml:id="S3.p10.m2"
       <tag role="typerefnum">§4</tag>
     </tags>
     <title><tag close=" ">4</tag>Hermite operator</title>
-    <para xml:id="S4.p1">
+<!--  %**** hermiteoperator.tex Line 300 **** -->    <para xml:id="S4.p1">
       <p>For <Math mode="inline" tex="p\geq 0" text="p &gt;= 0" xml:id="S4.p1.m1">
           <XMath>
             <XMApp>
@@ -9282,8 +9279,7 @@ restriction to <Math mode="inline" tex="\mathscr{S}" text="S" xml:id="S3.p10.m2"
               </XMApp>
             </XMApp>
           </XMath>
-        </Math>, we define
-<!--  %**** hermiteoperator.tex Line 300 **** --></p>
+        </Math>, we define</p>
       <equation xml:id="S4.Ex58">
         <Math mode="display" tex="\left\|f\right\|_{p}^{2}=\sum_{n=0}^{\infty}(2n+2)^{2p}|(f,h_{n})_{L^{2}}|^{2}." text="((norm@(f)) _ p) ^ 2 = ((sum _ (n = 0)) ^ infinity)@((2 * n + 2) ^ (2 * p) * (absolute-value@((open-interval@(f, h _ n)) _ (L ^ 2))) ^ 2)" xml:id="S4.Ex58.m1">
           <XMath>
@@ -9689,36 +9685,36 @@ restriction to <Math mode="inline" tex="\mathscr{S}" text="S" xml:id="S3.p10.m2"
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 4</text></tag>.</title>
       <para xml:id="Thmtheorem4.p1">
-        <p><text font="italic">For <Math mode="inline" tex="\phi\in\mathscr{S}" text="phi element-of S" xml:id="Thmtheorem4.p1.m1">
-              <XMath>
+        <p>For <Math mode="inline" tex="\phi\in\mathscr{S}" text="phi element-of S" xml:id="Thmtheorem4.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="phi" role="UNKNOWN">ϕ</XMTok>
+                <XMTok font="script" role="UNKNOWN">S</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, for each <Math mode="inline" tex="p\geq 0" text="p &gt;= 0" xml:id="Thmtheorem4.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMTok font="italic" role="UNKNOWN">p</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, <Math mode="inline" tex="\phi\in\mathscr{S}_{p}" text="phi element-of S _ p" xml:id="Thmtheorem4.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" name="phi" role="UNKNOWN">ϕ</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="phi" role="UNKNOWN">ϕ</XMTok>
-                  <XMTok font="script upright" role="UNKNOWN">S</XMTok>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="script" role="UNKNOWN">S</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">p</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>, for each <Math mode="inline" tex="p\geq 0" text="p &gt;= 0" xml:id="Thmtheorem4.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMTok role="UNKNOWN">p</XMTok>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, <Math mode="inline" tex="\phi\in\mathscr{S}_{p}" text="phi element-of S _ p" xml:id="Thmtheorem4.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok name="phi" role="UNKNOWN">ϕ</XMTok>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok font="script upright" role="UNKNOWN">S</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">p</XMTok>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math>,
-and</text></p>
+              </XMApp>
+            </XMath>
+          </Math>,
+and</p>
         <equation xml:id="S4.Ex62">
           <Math mode="display" tex="\left\|\phi\right\|_{p}=\left\|A^{p}\phi\right\|_{L^{2}}." text="(norm@(phi)) _ p = (norm@(A ^ p * phi)) _ (L ^ 2)" xml:id="S4.Ex62.m1">
             <XMath>
@@ -9778,8 +9774,8 @@ and</text></p>
         </equation>
       </para>
     </theorem>
-    <proof>
-      <title class="ltx_runin" font="italic"><!--  %**** hermiteoperator.tex Line 325 **** -->Proof.</title>
+<!--  %**** hermiteoperator.tex Line 325 **** -->    <proof>
+      <title class="ltx_runin" font="italic">Proof.</title>
       <para xml:id="S4.p2">
         <p><Math mode="inline" tex="A^{p}\phi\in\mathscr{S}" text="A ^ p * phi element-of S" xml:id="S4.p2.m1">
             <XMath>
@@ -11774,7 +11770,7 @@ as <Math mode="inline" tex="Ah_{n}=(2n+2)h_{n}" text="A * h _ n = (2 * n + 2) * 
           </XMath>
         </Math>
       </equation>
-      <p>If <Math mode="inline" tex="f_{i}\in\mathscr{S}_{p}" text="f _ i element-of S _ p" xml:id="S4.p3.m4">
+<!--  %**** hermiteoperator.tex Line 350 **** -->      <p>If <Math mode="inline" tex="f_{i}\in\mathscr{S}_{p}" text="f _ i element-of S _ p" xml:id="S4.p3.m4">
           <XMath>
             <XMApp>
               <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -11801,7 +11797,7 @@ as <Math mode="inline" tex="Ah_{n}=(2n+2)h_{n}" text="A * h _ n = (2 * n + 2) * 
             </XMApp>
           </XMath>
         </Math>,
-<!--  %**** hermiteoperator.tex Line 350 **** -->then as <Math mode="inline" tex="\left\|T^{-p}f_{i}-T^{-p}f_{j}\right\|_{L^{2}}=\left\|f_{i}-f_{j}\right\|_{p}" text="(norm@(T ^ (- p) * f _ i - T ^ (- p) * f _ j)) _ (L ^ 2) = (norm@(f _ i - f _ j)) _ p" xml:id="S4.p3.m6">
+then as <Math mode="inline" tex="\left\|T^{-p}f_{i}-T^{-p}f_{j}\right\|_{L^{2}}=\left\|f_{i}-f_{j}\right\|_{p}" text="(norm@(T ^ (- p) * f _ i - T ^ (- p) * f _ j)) _ (L ^ 2) = (norm@(f _ i - f _ j)) _ p" xml:id="S4.p3.m6">
           <XMath>
             <XMApp>
               <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -12409,51 +12405,52 @@ map.<note mark="3" role="footnote" xml:id="footnote3"><tags>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 5</text></tag>.</title>
       <para xml:id="Thmtheorem5.p1">
-        <p><text font="italic">For <Math mode="inline" tex="p&lt;q" text="p less q" xml:id="Thmtheorem5.p1.m1">
-              <XMath>
+        <p>For <Math mode="inline" tex="p&lt;q" text="p less q" xml:id="Thmtheorem5.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
+                <XMTok font="italic" role="UNKNOWN">p</XMTok>
+                <XMTok font="italic" role="UNKNOWN">q</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, the inclusion map <Math mode="inline" tex="i_{q,p}:\mathscr{S}_{q}\to\mathscr{S}_{p}" text="i _ (list@(q, p)) colon S _ q to S _ p" xml:id="Thmtheorem5.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="less-than" role="RELOP">&lt;</XMTok>
-                  <XMTok role="UNKNOWN">p</XMTok>
-                  <XMTok role="UNKNOWN">q</XMTok>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">i</XMTok>
+                  <XMDual>
+                    <XMApp>
+                      <XMTok meaning="list"/>
+                      <XMRef idref="Thmtheorem5.p1.m2.1"/>
+                      <XMRef idref="Thmtheorem5.p1.m2.2"/>
+                    </XMApp>
+                    <XMWrap>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN" xml:id="Thmtheorem5.p1.m2.1">q</XMTok>
+                      <XMTok fontsize="70%" role="PUNCT">,</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN" xml:id="Thmtheorem5.p1.m2.2">p</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>, the inclusion map <Math mode="inline" tex="i_{q,p}:\mathscr{S}_{q}\to\mathscr{S}_{p}" text="i _ (list@(q, p)) colon S _ q to S _ p" xml:id="Thmtheorem5.p1.m2">
-              <XMath>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
+                  <XMTok name="to" role="ARROW">→</XMTok>
                   <XMApp>
                     <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">i</XMTok>
-                    <XMDual>
-                      <XMApp>
-                        <XMTok meaning="list"/>
-                        <XMRef idref="Thmtheorem5.p1.m2.1"/>
-                        <XMRef idref="Thmtheorem5.p1.m2.2"/>
-                      </XMApp>
-                      <XMWrap>
-                        <XMTok fontsize="70%" role="UNKNOWN" xml:id="Thmtheorem5.p1.m2.1">q</XMTok>
-                        <XMTok font="upright" fontsize="70%" role="PUNCT">,</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN" xml:id="Thmtheorem5.p1.m2.2">p</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok font="script" role="UNKNOWN">S</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">q</XMTok>
                   </XMApp>
                   <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMApp>
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="script upright" role="UNKNOWN">S</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">q</XMTok>
-                    </XMApp>
-                    <XMApp>
-                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="script upright" role="UNKNOWN">S</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">p</XMTok>
-                    </XMApp>
+                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                    <XMTok font="script" role="UNKNOWN">S</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">p</XMTok>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math> is
-a Hilbert-Schmidt operator, with Hilbert-Schmidt norm</text></p>
+              </XMApp>
+            </XMath>
+          </Math> is
+a Hilbert-Schmidt operator, with Hilbert-Schmidt norm
+<!--  %**** hermiteoperator.tex Line 375 **** --></p>
         <equation xml:id="S4.Ex75">
           <Math mode="display" tex="\left\|i_{q,p}\right\|_{\mathrm{HS}}=2^{-q+p}\sqrt{\zeta(2q-2p)}." text="(norm@(i _ (list@(q, p)))) _ HS = 2 ^ ((- q) + p) * square-root@(zeta * (2 * q - 2 * p))" xml:id="S4.Ex75.m1">
             <XMath>
@@ -12470,7 +12467,7 @@ a Hilbert-Schmidt operator, with Hilbert-Schmidt norm</text></p>
                           <XMRef idref="S4.Ex75.m1.4.1"/>
                         </XMApp>
                         <XMWrap>
-<!--  %**** hermiteoperator.tex Line 375 **** -->                          <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
+                          <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
                           <XMApp xml:id="S4.Ex75.m1.4.1">
                             <XMTok role="SUBSCRIPTOP" scriptpos="post2"/>
                             <XMTok font="italic" role="UNKNOWN">i</XMTok>
@@ -13533,7 +13530,7 @@ a Hilbert-Schmidt operator, with Hilbert-Schmidt norm</text></p>
                         <XMTok meaning="times" role="MULOP">⁢</XMTok>
                         <XMApp>
                           <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                          <XMTok font="italic" role="UNKNOWN">f</XMTok>
+<!--  %**** hermiteoperator.tex Line 400 **** -->                          <XMTok font="italic" role="UNKNOWN">f</XMTok>
                           <XMTok font="italic" fontsize="70%" role="UNKNOWN">N</XMTok>
                         </XMApp>
                         <XMDual>
@@ -13612,7 +13609,7 @@ a Hilbert-Schmidt operator, with Hilbert-Schmidt norm</text></p>
                   </XMWrap>
                 </XMDual>
                 <XMTok role="PUNCT">,</XMTok>
-<!--  %**** hermiteoperator.tex Line 400 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -13848,67 +13845,67 @@ and <Math mode="inline" tex="N" text="N" xml:id="S5.p2.m10">
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 6</text></tag>.</title>
       <para xml:id="Thmtheorem6.p1">
-        <p><text font="italic">If <Math mode="inline" tex="p\geq 1" text="p &gt;= 1" xml:id="Thmtheorem6.p1.m1">
-              <XMath>
+        <p>If <Math mode="inline" tex="p\geq 1" text="p &gt;= 1" xml:id="Thmtheorem6.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMTok font="italic" role="UNKNOWN">p</XMTok>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and <Math mode="inline" tex="f\in\mathscr{S}_{p}" text="f element-of S _ p" xml:id="Thmtheorem6.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">f</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMTok role="UNKNOWN">p</XMTok>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="script" role="UNKNOWN">S</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">p</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> and <Math mode="inline" tex="f\in\mathscr{S}_{p}" text="f element-of S _ p" xml:id="Thmtheorem6.p1.m2">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math>, then there is some <Math mode="inline" tex="F\in C_{b}^{p-1}(\mathbb{R})" text="F element-of (C _ b) ^ (p - 1) * R" xml:id="Thmtheorem6.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">F</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">f</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok font="script upright" role="UNKNOWN">S</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">p</XMTok>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math>, then there is some <Math mode="inline" tex="F\in C_{b}^{p-1}(\mathbb{R})" text="F element-of (C _ b) ^ (p - 1) * R" xml:id="Thmtheorem6.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">F</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
                     <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMApp>
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">C</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN">b</XMTok>
-                      </XMApp>
-                      <XMApp>
-                        <XMTok font="upright" fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN">p</XMTok>
-                        <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                      </XMApp>
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="italic" role="UNKNOWN">C</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">b</XMTok>
                     </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem6.p1.m3.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok font="blackboard upright" role="UNKNOWN" xml:id="Thmtheorem6.p1.m3.1">R</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMApp>
+                      <XMTok fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">p</XMTok>
+                      <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                    </XMApp>
                   </XMApp>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem6.p1.m3.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="blackboard" role="UNKNOWN" xml:id="Thmtheorem6.p1.m3.1">R</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> such that
+              </XMApp>
+            </XMath>
+          </Math> such that
 <Math mode="inline" tex="f" text="f" xml:id="Thmtheorem6.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">f</XMTok>
-              </XMath>
-            </Math> is equal almost everywhere to <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem6.p1.m5">
-              <XMath>
-                <XMTok role="UNKNOWN">F</XMTok>
-              </XMath>
-            </Math>.</text></p>
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">f</XMTok>
+            </XMath>
+          </Math> is equal almost everywhere to <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem6.p1.m5">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">F</XMTok>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
@@ -16668,7 +16665,7 @@ We assert that <Math mode="inline" tex="F=f" text="F = f" xml:id="S5.p3.m14">
             </MathFork>
           </equation>
         </equationgroup>
-<!--  %**** hermiteoperator.tex Line 450 **** -->        <p>and for <Math mode="inline" tex="N\geq M+2" text="N &gt;= M + 2" xml:id="S5.p4.m2">
+        <p>and for <Math mode="inline" tex="N\geq M+2" text="N &gt;= M + 2" xml:id="S5.p4.m2">
             <XMath>
               <XMApp>
                 <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
@@ -17961,62 +17958,62 @@ in <Math mode="inline" tex="L^{2}(\lambda)" text="L ^ 2 * lambda" xml:id="S5.p5.
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 7</text></tag>.</title>
       <para xml:id="Thmtheorem7.p1">
-        <p><text font="italic">For <Math mode="inline" tex="p\geq 1" text="p &gt;= 1" xml:id="Thmtheorem7.p1.m1">
-              <XMath>
+        <p>For <Math mode="inline" tex="p\geq 1" text="p &gt;= 1" xml:id="Thmtheorem7.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMTok font="italic" role="UNKNOWN">p</XMTok>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and <Math mode="inline" tex="f\in\mathscr{S}_{p}" text="f element-of S _ p" xml:id="Thmtheorem7.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">f</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMTok role="UNKNOWN">p</XMTok>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="script" role="UNKNOWN">S</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">p</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> and <Math mode="inline" tex="f\in\mathscr{S}_{p}" text="f element-of S _ p" xml:id="Thmtheorem7.p1.m2">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math>, <Math mode="inline" tex="f_{N}^{\prime}" text="(f _ N) ^ prime" xml:id="Thmtheorem7.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">f</XMTok>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok font="script upright" role="UNKNOWN">S</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">p</XMTok>
-                  </XMApp>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">N</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>, <Math mode="inline" tex="f_{N}^{\prime}" text="(f _ N) ^ prime" xml:id="Thmtheorem7.p1.m3">
-              <XMath>
+                <XMTok fontsize="70%" name="prime" role="SUPOP">′</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> is a Cauchy sequence in <Math mode="inline" tex="L^{2}(\lambda)" text="L ^ 2 * lambda" xml:id="Thmtheorem7.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="times" role="MULOP">⁢</XMTok>
                 <XMApp>
                   <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">f</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">N</XMTok>
-                  </XMApp>
-                  <XMTok font="upright" fontsize="70%" name="prime" role="SUPOP">′</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">L</XMTok>
+                  <XMTok fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> is a Cauchy sequence in <Math mode="inline" tex="L^{2}(\lambda)" text="L ^ 2 * lambda" xml:id="Thmtheorem7.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                  <XMApp>
-                    <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">L</XMTok>
-                    <XMTok font="upright" fontsize="70%" meaning="2" role="NUMBER">2</XMTok>
-                  </XMApp>
-                  <XMDual>
-                    <XMRef idref="Thmtheorem7.p1.m4.1"/>
-                    <XMWrap>
-                      <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                      <XMTok name="lambda" role="UNKNOWN" xml:id="Thmtheorem7.p1.m4.1">λ</XMTok>
-                      <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                    </XMWrap>
-                  </XMDual>
-                </XMApp>
-              </XMath>
-            </Math>.</text></p>
+                <XMDual>
+                  <XMRef idref="Thmtheorem7.p1.m4.1"/>
+                  <XMWrap>
+                    <XMTok role="OPEN" stretchy="false">(</XMTok>
+                    <XMTok font="italic" name="lambda" role="UNKNOWN" xml:id="Thmtheorem7.p1.m4.1">λ</XMTok>
+                    <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                  </XMWrap>
+                </XMDual>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
     <proof>
-      <title class="ltx_runin" font="italic">Proof.</title>
+      <title class="ltx_runin" font="italic"><!--  %**** hermiteoperator.tex Line 475 **** -->Proof.</title>
       <para xml:id="S5.p6">
         <p>Because <Math mode="inline" tex="f_{N}\in\mathscr{S}" text="f _ N element-of S" xml:id="S5.p6.m1">
             <XMath>
@@ -18030,8 +18027,7 @@ in <Math mode="inline" tex="L^{2}(\lambda)" text="L ^ 2 * lambda" xml:id="S5.p5.
                 <XMTok font="script" role="UNKNOWN">S</XMTok>
               </XMApp>
             </XMath>
-          </Math>,
-<!--  %**** hermiteoperator.tex Line 475 **** --></p>
+          </Math>,</p>
         <equation xml:id="S5.Ex99">
           <Math mode="display" tex="f_{N}^{\prime}=Df_{N}=\frac{B-C}{2}f_{N}." text="(f _ N) ^ prime = D * f _ N = ((B - C) / 2) * f _ N" xml:id="S5.Ex99.m1">
             <XMath>
@@ -20236,7 +20232,7 @@ in <Math mode="inline" tex="L^{2}(\lambda)" text="L ^ 2 * lambda" xml:id="S5.p5.
                     </XMApp>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-<!--  %**** hermiteoperator.tex Line 500 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -20449,130 +20445,130 @@ and <Math mode="inline" tex="F^{\prime}\in\mathscr{S}_{p-1}" text="F ^ prime ele
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 8</text></tag>.</title>
       <para xml:id="Thmtheorem8.p1">
-        <p><text font="italic">For <Math mode="inline" tex="p\geq 1" text="p &gt;= 1" xml:id="Thmtheorem8.p1.m1">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMTok role="UNKNOWN">p</XMTok>
-                  <XMTok font="upright" meaning="1" role="NUMBER">1</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> and <Math mode="inline" tex="f\in\mathscr{S}_{p}" text="f element-of S _ p" xml:id="Thmtheorem8.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">f</XMTok>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok font="script upright" role="UNKNOWN">S</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">p</XMTok>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math>,
-there is some <Math mode="inline" tex="F\in C_{b}^{0}(\mathbb{R})" text="F element-of (C _ b) ^ 0 * R" xml:id="Thmtheorem8.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">F</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMApp>
-                      <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                      <XMApp>
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok role="UNKNOWN">C</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN">b</XMTok>
-                      </XMApp>
-                      <XMTok font="upright" fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
-                    </XMApp>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem8.p1.m3.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok font="blackboard upright" role="UNKNOWN" xml:id="Thmtheorem8.p1.m3.1">R</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math>
-such that <Math mode="inline" tex="f" text="f" xml:id="Thmtheorem8.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">f</XMTok>
-              </XMath>
-            </Math> is equal almost everywhere to <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem8.p1.m5">
-              <XMath>
-                <XMTok role="UNKNOWN">F</XMTok>
-              </XMath>
-            </Math>,
-<Math mode="inline" tex="F" text="F" xml:id="Thmtheorem8.p1.m6">
-              <XMath>
-                <XMTok role="UNKNOWN">F</XMTok>
-              </XMath>
-            </Math> is differentiable almost everywhere,
-<Math mode="inline" tex="f_{N}^{\prime}" text="(f _ N) ^ prime" xml:id="Thmtheorem8.p1.m7">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">f</XMTok>
-                    <XMTok fontsize="70%" role="UNKNOWN">N</XMTok>
-                  </XMApp>
-                  <XMTok font="upright" fontsize="70%" name="prime" role="SUPOP">′</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> converges to <Math mode="inline" tex="F^{\prime}" text="F ^ prime" xml:id="Thmtheorem8.p1.m8">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">F</XMTok>
-                  <XMTok font="upright" fontsize="70%" name="prime" role="SUPOP">′</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> in the norm
-<Math mode="inline" tex="\left\|\cdot\right\|_{L^{2}}" xml:id="Thmtheorem8.p1.m9">
-              <XMath>
-                <XMTok font="upright" role="VERTBAR" stretchy="true">∥</XMTok>
-                <XMTok font="upright" name="cdot" role="MULOP">⋅</XMTok>
+        <p>For <Math mode="inline" tex="p\geq 1" text="p &gt;= 1" xml:id="Thmtheorem8.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMTok font="italic" role="UNKNOWN">p</XMTok>
+                <XMTok meaning="1" role="NUMBER">1</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and <Math mode="inline" tex="f\in\mathscr{S}_{p}" text="f element-of S _ p" xml:id="Thmtheorem8.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">f</XMTok>
                 <XMApp>
                   <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok font="upright" role="VERTBAR" stretchy="true">∥</XMTok>
-                  <XMApp>
-                    <XMTok role="SUPERSCRIPTOP" scriptpos="post2"/>
-                    <XMTok fontsize="70%" role="UNKNOWN">L</XMTok>
-                    <XMTok font="upright" fontsize="50%" meaning="2" role="NUMBER">2</XMTok>
-                  </XMApp>
+                  <XMTok font="script" role="UNKNOWN">S</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">p</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>, and
-<Math mode="inline" tex="F^{\prime}\in\mathscr{S}_{p-1}" text="F ^ prime element-of S _ (p - 1)" xml:id="Thmtheorem8.p1.m10">
-              <XMath>
+              </XMApp>
+            </XMath>
+          </Math>,
+there is some <Math mode="inline" tex="F\in C_{b}^{0}(\mathbb{R})" text="F element-of (C _ b) ^ 0 * R" xml:id="Thmtheorem8.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">F</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
                   <XMApp>
                     <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                    <XMTok role="UNKNOWN">F</XMTok>
-                    <XMTok font="upright" fontsize="70%" name="prime" role="SUPOP">′</XMTok>
-                  </XMApp>
-                  <XMApp>
-                    <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                    <XMTok font="script upright" role="UNKNOWN">S</XMTok>
                     <XMApp>
-                      <XMTok font="upright" fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
-                      <XMTok fontsize="70%" role="UNKNOWN">p</XMTok>
-                      <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="italic" role="UNKNOWN">C</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">b</XMTok>
                     </XMApp>
+                    <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
+                  </XMApp>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem8.p1.m3.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="blackboard" role="UNKNOWN" xml:id="Thmtheorem8.p1.m3.1">R</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math>
+such that <Math mode="inline" tex="f" text="f" xml:id="Thmtheorem8.p1.m4">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">f</XMTok>
+            </XMath>
+          </Math> is equal almost everywhere to <Math mode="inline" tex="F" text="F" xml:id="Thmtheorem8.p1.m5">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">F</XMTok>
+            </XMath>
+          </Math>,
+<Math mode="inline" tex="F" text="F" xml:id="Thmtheorem8.p1.m6">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">F</XMTok>
+            </XMath>
+          </Math> is differentiable almost everywhere,
+<Math mode="inline" tex="f_{N}^{\prime}" text="(f _ N) ^ prime" xml:id="Thmtheorem8.p1.m7">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                <XMApp>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">N</XMTok>
+                </XMApp>
+                <XMTok fontsize="70%" name="prime" role="SUPOP">′</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> converges to <Math mode="inline" tex="F^{\prime}" text="F ^ prime" xml:id="Thmtheorem8.p1.m8">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">F</XMTok>
+                <XMTok fontsize="70%" name="prime" role="SUPOP">′</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> in the norm
+<Math mode="inline" tex="\left\|\cdot\right\|_{L^{2}}" xml:id="Thmtheorem8.p1.m9">
+            <XMath>
+              <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
+              <XMTok name="cdot" role="MULOP">⋅</XMTok>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
+                <XMApp>
+                  <XMTok role="SUPERSCRIPTOP" scriptpos="post2"/>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN">L</XMTok>
+                  <XMTok fontsize="50%" meaning="2" role="NUMBER">2</XMTok>
+                </XMApp>
+              </XMApp>
+            </XMath>
+          </Math>, and
+<Math mode="inline" tex="F^{\prime}\in\mathscr{S}_{p-1}" text="F ^ prime element-of S _ (p - 1)" xml:id="Thmtheorem8.p1.m10">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMApp>
+                  <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="italic" role="UNKNOWN">F</XMTok>
+                  <XMTok fontsize="70%" name="prime" role="SUPOP">′</XMTok>
+                </XMApp>
+                <XMApp>
+                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                  <XMTok font="script" role="UNKNOWN">S</XMTok>
+                  <XMApp>
+                    <XMTok fontsize="70%" meaning="minus" role="ADDOP">-</XMTok>
+                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">p</XMTok>
+                    <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
                   </XMApp>
                 </XMApp>
-              </XMath>
-            </Math>.</text></p>
+              </XMApp>
+            </XMath>
+          </Math>.</p>
       </para>
     </theorem>
-    <proof>
-      <title class="ltx_runin" font="italic"><!--  %**** hermiteoperator.tex Line 525 **** -->Proof.</title>
+<!--  %**** hermiteoperator.tex Line 525 **** -->    <proof>
+      <title class="ltx_runin" font="italic">Proof.</title>
       <para xml:id="S5.p8">
         <p>Lemma <ref labelref="LABEL:cauchyL2"/> tells us that <Math mode="inline" tex="f_{N}^{\prime}" text="(f _ N) ^ prime" xml:id="S5.p8.m1">
             <XMath>
@@ -21609,8 +21605,8 @@ For <Math mode="inline" tex="x\leq y" text="x less= y" xml:id="S5.p8.m6">
             </XMath>
           </Math>
         </equation>
-        <p>By the <text font="bold">Lebesgue differentiation theorem</text>,
-<!--  %**** hermiteoperator.tex Line 550 **** -->for almost all <Math mode="inline" tex="x\in\mathbb{R}" text="x element-of R" xml:id="S5.p8.m11">
+<!--  %**** hermiteoperator.tex Line 550 **** -->        <p>By the <text font="bold">Lebesgue differentiation theorem</text>,
+for almost all <Math mode="inline" tex="x\in\mathbb{R}" text="x element-of R" xml:id="S5.p8.m11">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>

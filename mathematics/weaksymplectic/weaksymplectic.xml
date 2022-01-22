@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/staging/weaksymplectic"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/mathematics/weaksymplectic"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
 <?latexml RelaxNGSchema="LaTeXML"?>
@@ -1434,7 +1434,7 @@ It follows from the open mapping theorem that if <Math mode="inline" tex="T:E\to
                       <XMRef idref="S2.Ex6.m1.3"/>
                     </XMApp>
                     <XMWrap>
-                      <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
+<!--  %**** weaksymplectic.tex Line 100 **** -->                      <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
                       <XMTok font="italic" role="UNKNOWN" xml:id="S2.Ex6.m1.3">T</XMTok>
                       <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
                     </XMWrap>
@@ -1534,7 +1534,7 @@ It follows from the open mapping theorem that if <Math mode="inline" tex="T:E\to
                           </XMDual>
                         </XMApp>
                         <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
-<!--  %**** weaksymplectic.tex Line 100 **** -->                      </XMWrap>
+                      </XMWrap>
                     </XMDual>
                   </XMApp>
                   <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
@@ -2007,7 +2007,7 @@ we denote by <Math mode="inline" tex="\mathrm{GL}(E;F)" text="GL * list@(E, F)" 
       <tag role="typerefnum">§3</tag>
     </tags>
     <title><tag close=" ">3</tag>Differentiable functions</title>
-    <para xml:id="S3.p1">
+<!--  %**** weaksymplectic.tex Line 125 **** -->    <para xml:id="S3.p1">
       <p>Let <Math mode="inline" tex="E" text="E" xml:id="S3.p1.m1">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">E</XMTok>
@@ -2025,7 +2025,7 @@ we denote by <Math mode="inline" tex="\mathrm{GL}(E;F)" text="GL * list@(E, F)" 
             <XMTok font="italic" role="UNKNOWN">E</XMTok>
           </XMath>
         </Math>.
-<!--  %**** weaksymplectic.tex Line 125 **** -->For <Math mode="inline" tex="a\in U" text="a element-of U" xml:id="S3.p1.m5">
+For <Math mode="inline" tex="a\in U" text="a element-of U" xml:id="S3.p1.m5">
           <XMath>
             <XMApp>
               <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -2796,7 +2796,7 @@ We call <Math mode="inline" tex="f^{\prime}:U\to\mathscr{L}(E;F)" text="f ^ prim
         </Math>
       </equation>
     </para>
-    <para xml:id="S3.p5">
+<!--  %**** weaksymplectic.tex Line 150 **** -->    <para xml:id="S3.p5">
       <p>For Banach spaces <Math mode="inline" tex="E" text="E" xml:id="S3.p5.m1">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">E</XMTok>
@@ -2806,7 +2806,7 @@ We call <Math mode="inline" tex="f^{\prime}:U\to\mathscr{L}(E;F)" text="f ^ prim
             <XMTok font="italic" role="UNKNOWN">F</XMTok>
           </XMath>
         </Math>,
-<!--  %**** weaksymplectic.tex Line 150 **** -->let <Math mode="inline" tex="\phi:\mathrm{GL}(E;F)\to\mathscr{L}(F;E)" text="phi colon GL * list@(E, F) to L * list@(F, E)" xml:id="S3.p5.m3">
+let <Math mode="inline" tex="\phi:\mathrm{GL}(E;F)\to\mathscr{L}(F;E)" text="phi colon GL * list@(E, F) to L * list@(F, E)" xml:id="S3.p5.m3">
           <XMath>
             <XMApp>
               <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -3896,7 +3896,7 @@ by</p>
             </XMApp>
           </XMath>
         </Math>. We say that
-<Math mode="inline" tex="A" text="A" xml:id="S5.p3.m5">
+<!--  %**** weaksymplectic.tex Line 200 **** --><Math mode="inline" tex="A" text="A" xml:id="S5.p3.m5">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">A</XMTok>
           </XMath>
@@ -3924,7 +3924,7 @@ by</p>
             </XMApp>
           </XMath>
         </Math>.
-<!--  %**** weaksymplectic.tex Line 200 **** -->One proves that a linear operator <Math mode="inline" tex="A" text="A" xml:id="S5.p3.m8">
+One proves that a linear operator <Math mode="inline" tex="A" text="A" xml:id="S5.p3.m8">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">A</XMTok>
           </XMath>
@@ -5068,12 +5068,12 @@ We have</p>
                   <XMTok meaning="0" role="NUMBER">0</XMTok>
                 </XMApp>
                 <XMTok role="PUNCT">,</XMTok>
-              </XMWrap>
+<!--  %**** weaksymplectic.tex Line 225 **** -->              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
       </equation>
-<!--  %**** weaksymplectic.tex Line 225 **** -->      <p>i.e. <Math mode="inline" tex="T^{*}\omega" text="T ^ * * omega" xml:id="S5.p4.m10">
+      <p>i.e. <Math mode="inline" tex="T^{*}\omega" text="T ^ * * omega" xml:id="S5.p4.m10">
           <XMath>
             <XMApp>
               <XMTok meaning="times" role="MULOP">⁢</XMTok>
@@ -5864,7 +5864,7 @@ Jerrold E. Marsden and Thomas J. R. Hughes, <text font="italic">Mathematical Fou
           </XMath>
         </Math>
       </equation>
-      <p>Moreover, for <Math mode="inline" tex="u,v\in\mathscr{D}(A)" text="list@(u, v) element-of D * A" xml:id="S5.p5.m14">
+<!--  %**** weaksymplectic.tex Line 250 **** -->      <p>Moreover, for <Math mode="inline" tex="u,v\in\mathscr{D}(A)" text="list@(u, v) element-of D * A" xml:id="S5.p5.m14">
           <XMath>
             <XMApp>
               <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -5894,8 +5894,7 @@ Jerrold E. Marsden and Thomas J. R. Hughes, <text font="italic">Mathematical Fou
               </XMApp>
             </XMApp>
           </XMath>
-        </Math> we have
-<!--  %**** weaksymplectic.tex Line 250 **** --></p>
+        </Math> we have</p>
       <equationgroup class="ltx_eqn_align" xml:id="S10.EGx3">
         <equation xml:id="S5.Ex26">
           <MathFork>
@@ -7541,7 +7540,7 @@ That is, <Math mode="inline" tex="(D^{2}H)(u)(e)(f)=(D^{2}H)(u)(f)(e)" text="D ^
                       <XMTok meaning="equals" role="RELOP">=</XMTok>
                       <XMApp>
                         <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                        <XMTok font="italic" name="omega" role="UNKNOWN">ω</XMTok>
+<!--  %**** weaksymplectic.tex Line 275 **** -->                        <XMTok font="italic" name="omega" role="UNKNOWN">ω</XMTok>
                         <XMDual>
                           <XMApp>
                             <XMTok meaning="open-interval"/>
@@ -7615,7 +7614,7 @@ That is, <Math mode="inline" tex="(D^{2}H)(u)(e)(f)=(D^{2}H)(u)(f)(e)" text="D ^
                   </XMWrap>
                 </XMDual>
                 <XMTok role="PUNCT">,</XMTok>
-<!--  %**** weaksymplectic.tex Line 275 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -8191,7 +8190,7 @@ Suppose that <Math mode="inline" tex="A" text="A" xml:id="S6.p1.m7">
             <XMTok font="italic" role="UNKNOWN">t</XMTok>
           </XMath>
         </Math>, and let
-<Math mode="inline" tex="H" text="H" xml:id="S6.p1.m11">
+<!--  %**** weaksymplectic.tex Line 300 **** --><Math mode="inline" tex="H" text="H" xml:id="S6.p1.m11">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">H</XMTok>
           </XMath>
@@ -8203,8 +8202,7 @@ Suppose that <Math mode="inline" tex="A" text="A" xml:id="S6.p1.m7">
             <tag>14</tag>
             <tag role="refnum">14</tag>
             <tag role="typerefnum">footnote 14</tag>
-          </tags>Jerrold E. Marsden and Thomas J. R. Hughes, <text font="italic">Mathematical Foundations of Elasticity</text>, p. 256, Proposition 2.6.</note>
-<!--  %**** weaksymplectic.tex Line 300 **** --></p>
+          </tags>Jerrold E. Marsden and Thomas J. R. Hughes, <text font="italic">Mathematical Foundations of Elasticity</text>, p. 256, Proposition 2.6.</note></p>
     </para>
     <theorem class="ltx_theorem_theorem" inlist="thm theorem:theorem" labels="LABEL:flow" xml:id="Thmtheorem1">
       <tags>
@@ -8214,53 +8212,53 @@ Suppose that <Math mode="inline" tex="A" text="A" xml:id="S6.p1.m7">
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 1</text></tag>.</title>
       <para xml:id="Thmtheorem1.p1">
-        <p><text font="italic">For each <Math mode="inline" tex="t\geq 0" text="t &gt;= 0" xml:id="Thmtheorem1.p1.m1">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMTok role="UNKNOWN">t</XMTok>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>, <Math mode="inline" tex="U_{t}" text="U _ t" xml:id="Thmtheorem1.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                  <XMTok role="UNKNOWN">U</XMTok>
-                  <XMTok fontsize="70%" role="UNKNOWN">t</XMTok>
-                </XMApp>
-              </XMath>
-            </Math> is a canonical transformation.</text></p>
+        <p>For each <Math mode="inline" tex="t\geq 0" text="t &gt;= 0" xml:id="Thmtheorem1.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMTok font="italic" role="UNKNOWN">t</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>, <Math mode="inline" tex="U_{t}" text="U _ t" xml:id="Thmtheorem1.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                <XMTok font="italic" role="UNKNOWN">U</XMTok>
+                <XMTok font="italic" fontsize="70%" role="UNKNOWN">t</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> is a canonical transformation.</p>
       </para>
       <para xml:id="Thmtheorem1.p2">
-        <p><text font="italic">For each <Math mode="inline" tex="t\geq 0" text="t &gt;= 0" xml:id="Thmtheorem1.p2.m1">
-              <XMath>
+        <p>For each <Math mode="inline" tex="t\geq 0" text="t &gt;= 0" xml:id="Thmtheorem1.p2.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
+                <XMTok font="italic" role="UNKNOWN">t</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math> and for each <Math mode="inline" tex="x\in\mathscr{D}(A)" text="x element-of D * A" xml:id="Thmtheorem1.p2.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">x</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
-                  <XMTok role="UNKNOWN">t</XMTok>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="script" role="UNKNOWN">D</XMTok>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem1.p2.m2.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem1.p2.m2.1">A</XMTok>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> and for each <Math mode="inline" tex="x\in\mathscr{D}(A)" text="x element-of D * A" xml:id="Thmtheorem1.p2.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">x</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok font="script upright" role="UNKNOWN">D</XMTok>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem1.p2.m2.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem1.p2.m2.1">A</XMTok>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math>,</text></p>
+              </XMApp>
+            </XMath>
+          </Math>,</p>
         <equation xml:id="S6.Ex37">
           <Math mode="display" tex="H(U_{t}x)=H(x)." text="H * U _ t * x = H * x" xml:id="S6.Ex37.m1">
             <XMath>
@@ -9082,7 +9080,7 @@ that <Math mode="inline" tex="A" text="A" xml:id="S6.p2.m8">
             </MathFork>
           </equation>
         </equationgroup>
-<!--  %**** weaksymplectic.tex Line 325 **** -->        <p>This implies that <Math mode="inline" tex="\omega(U_{t}u,U_{t}v)=\omega(U_{0}u,U_{0}v)=\omega(u,v)" text="omega * open-interval@(U _ t * u, U _ t * v) = omega * open-interval@(U _ 0 * u, U _ 0 * v) = omega * open-interval@(u, v)" xml:id="S6.p2.m10">
+        <p>This implies that <Math mode="inline" tex="\omega(U_{t}u,U_{t}v)=\omega(U_{0}u,U_{0}v)=\omega(u,v)" text="omega * open-interval@(U _ t * u, U _ t * v) = omega * open-interval@(U _ 0 * u, U _ 0 * v) = omega * open-interval@(u, v)" xml:id="S6.p2.m10">
             <XMath>
               <XMApp>
                 <XMTok meaning="multirelation"/>
@@ -9982,7 +9980,7 @@ Then <Math mode="inline" tex="U_{t}u\in\mathscr{D}(A)" text="U _ t * u element-o
                         <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
                         <XMTok font="italic" role="UNKNOWN" xml:id="S6.Ex46.m1.5">u</XMTok>
                         <XMTok role="VERTBAR" stretchy="true">∥</XMTok>
-                      </XMWrap>
+<!--  %**** weaksymplectic.tex Line 350 **** -->                      </XMWrap>
                     </XMDual>
                   </XMApp>
                   <XMTok meaning="less-than-or-equals" name="leq" role="RELOP">≤</XMTok>
@@ -10029,7 +10027,7 @@ Then <Math mode="inline" tex="U_{t}u\in\mathscr{D}(A)" text="U _ t * u element-o
                   </XMApp>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-<!--  %**** weaksymplectic.tex Line 350 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -10870,12 +10868,12 @@ for which on the one hand,</p>
                   </XMApp>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-              </XMWrap>
+<!--  %**** weaksymplectic.tex Line 375 **** -->              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
       </equation>
-<!--  %**** weaksymplectic.tex Line 375 **** -->      <p>It follows that <Math mode="inline" tex="V" text="V" xml:id="S7.p1.m7">
+      <p>It follows that <Math mode="inline" tex="V" text="V" xml:id="S7.p1.m7">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">V</XMTok>
           </XMath>
@@ -11007,71 +11005,71 @@ for all <Math mode="inline" tex="w\in W" text="w element-of W" xml:id="S7.p1.m14
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 2</text></tag>.</title>
       <para xml:id="Thmtheorem2.p1">
-        <p><text font="italic">Let <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem2.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">H</XMTok>
-              </XMath>
-            </Math> be a real Hilbert space with inner product <Math mode="inline" tex="\left\langle\cdot,\cdot\right\rangle:H\times H\to\mathbb{R}" text="list@(cdot, cdot) colon H * H to R" xml:id="Thmtheorem2.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMDual>
-                    <XMApp>
-                      <XMTok meaning="list"/>
-                      <XMRef idref="Thmtheorem2.p1.m2.1"/>
-                      <XMRef idref="Thmtheorem2.p1.m2.2"/>
-                    </XMApp>
-                    <XMWrap>
-                      <XMTok font="upright" name="langle" role="OPEN" stretchy="true">⟨</XMTok>
-                      <XMTok font="upright" name="cdot" role="MULOP" xml:id="Thmtheorem2.p1.m2.1">⋅</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok font="upright" name="cdot" role="MULOP" xml:id="Thmtheorem2.p1.m2.2">⋅</XMTok>
-                      <XMTok font="upright" name="rangle" role="CLOSE" stretchy="true">⟩</XMTok>
-                    </XMWrap>
-                  </XMDual>
+        <p>Let <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem2.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">H</XMTok>
+            </XMath>
+          </Math> be a real Hilbert space with inner product <Math mode="inline" tex="\left\langle\cdot,\cdot\right\rangle:H\times H\to\mathbb{R}" text="list@(cdot, cdot) colon H * H to R" xml:id="Thmtheorem2.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMDual>
                   <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMApp>
-                      <XMTok font="upright" meaning="times" role="MULOP">×</XMTok>
-                      <XMTok role="UNKNOWN">H</XMTok>
-                      <XMTok role="UNKNOWN">H</XMTok>
-                    </XMApp>
-                    <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
+                    <XMTok meaning="list"/>
+                    <XMRef idref="Thmtheorem2.p1.m2.1"/>
+                    <XMRef idref="Thmtheorem2.p1.m2.2"/>
                   </XMApp>
+                  <XMWrap>
+                    <XMTok name="langle" role="OPEN" stretchy="true">⟨</XMTok>
+                    <XMTok name="cdot" role="MULOP" xml:id="Thmtheorem2.p1.m2.1">⋅</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok name="cdot" role="MULOP" xml:id="Thmtheorem2.p1.m2.2">⋅</XMTok>
+                    <XMTok name="rangle" role="CLOSE" stretchy="true">⟩</XMTok>
+                  </XMWrap>
+                </XMDual>
+                <XMApp>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMApp>
+                    <XMTok meaning="times" role="MULOP">×</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">H</XMTok>
+                    <XMTok font="italic" role="UNKNOWN">H</XMTok>
+                  </XMApp>
+                  <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>
+              </XMApp>
+            </XMath>
+          </Math>
 and let <Math mode="inline" tex="\omega" text="omega" xml:id="Thmtheorem2.p1.m3">
-              <XMath>
-                <XMTok name="omega" role="UNKNOWN">ω</XMTok>
-              </XMath>
-            </Math> be a weak symplectic
+            <XMath>
+              <XMTok font="italic" name="omega" role="UNKNOWN">ω</XMTok>
+            </XMath>
+          </Math> be a weak symplectic
 form on <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem2.p1.m4">
-              <XMath>
-                <XMTok role="UNKNOWN">H</XMTok>
-              </XMath>
-            </Math>. Then there is a complex structure <Math mode="inline" tex="J:H\to H" text="J colon H to H" xml:id="Thmtheorem2.p1.m5">
-              <XMath>
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">H</XMTok>
+            </XMath>
+          </Math>. Then there is a complex structure <Math mode="inline" tex="J:H\to H" text="J colon H to H" xml:id="Thmtheorem2.p1.m5">
+            <XMath>
+              <XMApp>
+                <XMTok name="colon" role="METARELOP">:</XMTok>
+                <XMTok font="italic" role="UNKNOWN">J</XMTok>
                 <XMApp>
-                  <XMTok font="upright" name="colon" role="METARELOP">:</XMTok>
-                  <XMTok role="UNKNOWN">J</XMTok>
-                  <XMApp>
-                    <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                    <XMTok role="UNKNOWN">H</XMTok>
-                    <XMTok role="UNKNOWN">H</XMTok>
-                  </XMApp>
+                  <XMTok name="to" role="ARROW">→</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">H</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">H</XMTok>
                 </XMApp>
-              </XMath>
-            </Math> and a real inner product
+              </XMApp>
+            </XMath>
+          </Math> and a real inner product
 <Math mode="inline" tex="s" text="s" xml:id="Thmtheorem2.p1.m6">
-              <XMath>
-                <XMTok role="UNKNOWN">s</XMTok>
-              </XMath>
-            </Math> on <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem2.p1.m7">
-              <XMath>
-                <XMTok role="UNKNOWN">H</XMTok>
-              </XMath>
-            </Math> such that</text></p>
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">s</XMTok>
+            </XMath>
+          </Math> on <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem2.p1.m7">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">H</XMTok>
+            </XMath>
+          </Math> such that</p>
         <equation xml:id="S7.Ex53">
           <Math mode="display" tex="s(x,y)=-\omega(Jx,y),\qquad x,y\in H" text="formulae@(s * open-interval@(x, y) = list@(- omega * open-interval@(J * x, y), x), y element-of H)" xml:id="S7.Ex53.m1">
             <XMath>
@@ -11150,11 +11148,11 @@ form on <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem2.p1.m4">
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">is a real inner product on the real vector space <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem2.p1.m8">
-              <XMath>
-                <XMTok role="UNKNOWN">H</XMTok>
-              </XMath>
-            </Math>, and</text></p>
+        <p>is a real inner product on the real vector space <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem2.p1.m8">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">H</XMTok>
+            </XMath>
+          </Math>, and</p>
         <equation xml:id="S7.Ex54">
           <Math mode="display" tex="h(x,y)=s(x,y)-i\omega(x,y),\qquad x,y\in H" text="formulae@(h * open-interval@(x, y) = list@(s * open-interval@(x, y) - i * omega * open-interval@(x, y), x), y element-of H)" xml:id="S7.Ex54.m1">
             <XMath>
@@ -11248,18 +11246,18 @@ form on <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem2.p1.m4">
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">is a complex inner product on <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem2.p1.m9">
-              <XMath>
-                <XMTok role="UNKNOWN">H</XMTok>
-              </XMath>
-            </Math> with the complex structure <Math mode="inline" tex="J" text="J" xml:id="Thmtheorem2.p1.m10">
-              <XMath>
-                <XMTok role="UNKNOWN">J</XMTok>
-              </XMath>
-            </Math>.</text></p>
+        <p>is a complex inner product on <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem2.p1.m9">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">H</XMTok>
+            </XMath>
+          </Math> with the complex structure <Math mode="inline" tex="J" text="J" xml:id="Thmtheorem2.p1.m10">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">J</XMTok>
+            </XMath>
+          </Math>.</p>
       </para>
       <para xml:id="Thmtheorem2.p2">
-        <p><text font="italic">Furthermore, the following are equivalent:</text></p>
+        <p>Furthermore, the following are equivalent:</p>
         <enumerate xml:id="S7.I1">
           <item xml:id="S7.I1.i1">
             <tags>
@@ -11268,11 +11266,11 @@ form on <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem2.p1.m4">
               <tag role="typerefnum">item 1</tag>
             </tags>
             <para xml:id="S7.I1.i1.p1">
-              <p><text font="italic">The norm induced by </text><Math mode="inline" tex="h" text="h" xml:id="S7.I1.i1.p1.m1">
+              <p>The norm induced by <Math mode="inline" tex="h" text="h" xml:id="S7.I1.i1.p1.m1">
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">h</XMTok>
                   </XMath>
-                </Math><text font="italic"> is equivalent with the norm induced by </text><Math mode="inline" tex="\left\langle\cdot,\cdot\right\rangle" text="list@(cdot, cdot)" xml:id="S7.I1.i1.p1.m2">
+                </Math> is equivalent with the norm induced by <Math mode="inline" tex="\left\langle\cdot,\cdot\right\rangle" text="list@(cdot, cdot)" xml:id="S7.I1.i1.p1.m2">
                   <XMath>
                     <XMDual>
                       <XMApp>
@@ -11289,7 +11287,7 @@ form on <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem2.p1.m4">
                       </XMWrap>
                     </XMDual>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.</p>
             </para>
           </item>
           <item xml:id="S7.I1.i2">
@@ -11299,11 +11297,11 @@ form on <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem2.p1.m4">
               <tag role="typerefnum">item 2</tag>
             </tags>
             <para xml:id="S7.I1.i2.p1">
-              <p><text font="italic">The norm induced by </text><Math mode="inline" tex="s" text="s" xml:id="S7.I1.i2.p1.m1">
+              <p>The norm induced by <Math mode="inline" tex="s" text="s" xml:id="S7.I1.i2.p1.m1">
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">s</XMTok>
                   </XMath>
-                </Math><text font="italic"> is equivalent with the norm induced by </text><Math mode="inline" tex="\left\langle\cdot,\cdot\right\rangle" text="list@(cdot, cdot)" xml:id="S7.I1.i2.p1.m2">
+                </Math> is equivalent with the norm induced by <Math mode="inline" tex="\left\langle\cdot,\cdot\right\rangle" text="list@(cdot, cdot)" xml:id="S7.I1.i2.p1.m2">
                   <XMath>
                     <XMDual>
                       <XMApp>
@@ -11320,7 +11318,8 @@ form on <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem2.p1.m4">
                       </XMWrap>
                     </XMDual>
                   </XMath>
-                </Math><text font="italic">.</text></p>
+                </Math>.
+<!--  %**** weaksymplectic.tex Line 400 **** --></p>
             </para>
           </item>
           <item xml:id="S7.I1.i3">
@@ -11334,12 +11333,11 @@ form on <Math mode="inline" tex="H" text="H" xml:id="Thmtheorem2.p1.m4">
                   <XMath>
                     <XMTok font="italic" name="omega" role="UNKNOWN">ω</XMTok>
                   </XMath>
-                </Math><text font="italic"> is a strong symplectic form on the real Hilbert space </text><Math mode="inline" tex="H" text="H" xml:id="S7.I1.i3.p1.m2">
+                </Math> is a strong symplectic form on the real Hilbert space <Math mode="inline" tex="H" text="H" xml:id="S7.I1.i3.p1.m2">
                   <XMath>
                     <XMTok font="italic" role="UNKNOWN">H</XMTok>
                   </XMath>
-                </Math><text font="italic">.
-</text><!--  %**** weaksymplectic.tex Line 400 **** --></p>
+                </Math>.</p>
             </para>
           </item>
         </enumerate>
@@ -11847,7 +11845,7 @@ such that</p>
                 <XMWrap>
                   <XMApp xml:id="S7.Ex56.m1.1">
                     <XMTok meaning="equals" role="RELOP">=</XMTok>
-                    <XMTok font="italic" role="UNKNOWN">A</XMTok>
+<!--  %**** weaksymplectic.tex Line 425 **** -->                    <XMTok font="italic" role="UNKNOWN">A</XMTok>
                     <XMApp>
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
                       <XMTok font="italic" role="UNKNOWN">U</XMTok>
@@ -11855,7 +11853,7 @@ such that</p>
                     </XMApp>
                   </XMApp>
                   <XMTok role="PUNCT">,</XMTok>
-<!--  %**** weaksymplectic.tex Line 425 **** -->                </XMWrap>
+                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -12430,9 +12428,10 @@ This means that <Math mode="inline" tex="U" text="U" xml:id="S7.p3.m25">
             <XMath>
               <XMTok font="italic" role="UNKNOWN">J</XMTok>
             </XMath>
-          </Math> is a canonical transformation.</p>
+          </Math> is a canonical transformation.
+<!--  %**** weaksymplectic.tex Line 450 **** --></p>
       </para>
-<!--  %**** weaksymplectic.tex Line 450 **** -->      <para xml:id="S7.p5">
+      <para xml:id="S7.p5">
         <p><Math mode="inline" tex="s:H\times H\to\mathbb{R}" text="s colon H * H to R" xml:id="S7.p5.m1">
             <XMath>
               <XMApp>
@@ -13098,7 +13097,8 @@ Therefore
                 <XMTok font="italic" role="UNKNOWN">H</XMTok>
               </XMApp>
             </XMath>
-          </Math>, by</p>
+          </Math>, by
+<!--  %**** weaksymplectic.tex Line 475 **** --></p>
         <equation xml:id="S7.Ex63">
           <Math mode="display" tex="h(x,y)=s(x,y)-i\omega(x,y)=\left\langle Px,y\right\rangle-i\omega(x,y)=\left%&#10;\langle Px,y\right\rangle-i\left\langle Ax,y\right\rangle." text="h * open-interval@(x, y) = s * open-interval@(x, y) - i * omega * open-interval@(x, y) = list@(P * x, y) - i * omega * open-interval@(x, y) = list@(P * x, y) - i * list@(A * x, y)" xml:id="S7.Ex63.m1">
             <XMath>
@@ -13109,7 +13109,7 @@ Therefore
                     <XMTok meaning="multirelation"/>
                     <XMApp>
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
-<!--  %**** weaksymplectic.tex Line 475 **** -->                      <XMTok font="italic" role="UNKNOWN">h</XMTok>
+                      <XMTok font="italic" role="UNKNOWN">h</XMTok>
                       <XMDual>
                         <XMApp>
                           <XMTok meaning="open-interval"/>
@@ -14938,7 +14938,7 @@ Because <Math mode="inline" tex="s" text="s" xml:id="S7.p6.m6">
             </XMath>
           </Math>
         </equation>
-        <p>showing that <Math mode="inline" tex="h" text="h" xml:id="S7.p6.m9">
+<!--  %**** weaksymplectic.tex Line 500 **** -->        <p>showing that <Math mode="inline" tex="h" text="h" xml:id="S7.p6.m9">
             <XMath>
               <XMTok font="italic" role="UNKNOWN">h</XMTok>
             </XMath>
@@ -14950,8 +14950,7 @@ Because <Math mode="inline" tex="s" text="s" xml:id="S7.p6.m6">
                 <XMTok font="italic" role="UNKNOWN">H</XMTok>
               </XMApp>
             </XMath>
-          </Math>,
-<!--  %**** weaksymplectic.tex Line 500 **** --></p>
+          </Math>,</p>
         <equation xml:id="S7.Ex75">
           <Math mode="display" tex="h(x,x)=s(x,x)-i\omega(x,x)=s(x,x)\geq 0." text="h * open-interval@(x, x) = s * open-interval@(x, x) - i * omega * open-interval@(x, x) = s * open-interval@(x, x) &gt;= 0" xml:id="S7.Ex75.m1">
             <XMath>
@@ -16820,12 +16819,12 @@ where <Math mode="inline" tex="J" text="J" xml:id="S8.p2.m9">
                   </XMWrap>
                 </XMDual>
                 <XMTok role="PERIOD">.</XMTok>
-              </XMWrap>
+<!--  %**** weaksymplectic.tex Line 550 **** -->              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
       </equation>
-<!--  %**** weaksymplectic.tex Line 550 **** -->      <p>If <Math mode="inline" tex="\psi:I\to E" text="psi colon I to E" xml:id="S8.p2.m12">
+      <p>If <Math mode="inline" tex="\psi:I\to E" text="psi colon I to E" xml:id="S8.p2.m12">
           <XMath>
             <XMApp>
               <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -17484,7 +17483,7 @@ If <Math mode="inline" tex="(s,x),(t,\sigma(s,x)),(t+s,x)\in\Sigma_{v}" text="li
                   <XMTok meaning="equals" role="RELOP">=</XMTok>
                   <XMApp>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok font="italic" name="sigma" role="UNKNOWN">σ</XMTok>
+<!--  %**** weaksymplectic.tex Line 575 **** -->                    <XMTok font="italic" name="sigma" role="UNKNOWN">σ</XMTok>
                     <XMDual>
                       <XMApp>
                         <XMTok meaning="open-interval"/>
@@ -17541,7 +17540,7 @@ If <Math mode="inline" tex="(s,x),(t,\sigma(s,x)),(t+s,x)\in\Sigma_{v}" text="li
                   </XMApp>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-<!--  %**** weaksymplectic.tex Line 575 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -18033,7 +18032,7 @@ We define</p>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
                     <XMApp>
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="script" role="UNKNOWN">A</XMTok>
+<!--  %**** weaksymplectic.tex Line 600 **** -->                      <XMTok font="script" role="UNKNOWN">A</XMTok>
                       <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
                     </XMApp>
                     <XMDual>
@@ -18078,7 +18077,7 @@ We define</p>
                   <XMTok font="italic" role="UNKNOWN">F</XMTok>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-<!--  %**** weaksymplectic.tex Line 600 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -20369,7 +20368,7 @@ then<note mark="28" role="footnote" xml:id="footnote28"><tags>
                     <XMDual>
                       <XMRef idref="S9.Ex95.m1.1.1"/>
                       <XMWrap>
-                        <XMTok role="OPEN" stretchy="false">(</XMTok>
+<!--  %**** weaksymplectic.tex Line 650 **** -->                        <XMTok role="OPEN" stretchy="false">(</XMTok>
                         <XMApp xml:id="S9.Ex95.m1.1.1">
                           <XMTok meaning="and" name="wedge" role="ADDOP">∧</XMTok>
                           <XMTok font="italic" role="UNKNOWN">f</XMTok>
@@ -20398,7 +20397,7 @@ then<note mark="28" role="footnote" xml:id="footnote28"><tags>
                   </XMApp>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-<!--  %**** weaksymplectic.tex Line 650 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -20955,7 +20954,7 @@ In particular, a <Math mode="inline" tex="C^{k}" text="C ^ k" xml:id="S9.p7.m11"
             </XMApp>
           </XMath>
         </Math>.
-We denote by <Math mode="inline" tex="\Omega_{p}^{(k)}(U,\mathbb{R})" text="(Omega _ p) ^ k * open-interval@(U, R)" xml:id="S9.p7.m15">
+<!--  %**** weaksymplectic.tex Line 675 **** -->We denote by <Math mode="inline" tex="\Omega_{p}^{(k)}(U,\mathbb{R})" text="(Omega _ p) ^ k * open-interval@(U, R)" xml:id="S9.p7.m15">
           <XMath>
             <XMApp>
               <XMTok meaning="times" role="MULOP">⁢</XMTok>
@@ -21000,7 +20999,7 @@ We denote by <Math mode="inline" tex="\Omega_{p}^{(k)}(U,\mathbb{R})" text="(Ome
             </XMApp>
           </XMath>
         </Math> differential
-<!--  %**** weaksymplectic.tex Line 675 **** --><Math mode="inline" tex="p" text="p" xml:id="S9.p7.m17">
+<Math mode="inline" tex="p" text="p" xml:id="S9.p7.m17">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">p</XMTok>
           </XMath>
@@ -21619,7 +21618,7 @@ the derivative is the <Math mode="inline" tex="C^{k-1}" text="C ^ (k - 1)" xml:i
                 <XMDual>
                   <XMRef idref="S9.Ex100.m1.6"/>
                   <XMWrap>
-                    <XMTok role="OPEN" stretchy="false">(</XMTok>
+<!--  %**** weaksymplectic.tex Line 700 **** -->                    <XMTok role="OPEN" stretchy="false">(</XMTok>
                     <XMApp xml:id="S9.Ex100.m1.6">
                       <XMTok meaning="times" role="MULOP">⁢</XMTok>
                       <XMTok font="italic" role="UNKNOWN">d</XMTok>
@@ -21666,7 +21665,7 @@ the derivative is the <Math mode="inline" tex="C^{k-1}" text="C ^ (k - 1)" xml:i
                       <XMTok font="italic" fontsize="70%" role="UNKNOWN">p</XMTok>
                     </XMApp>
                     <XMTok role="CLOSE" stretchy="false">)</XMTok>
-<!--  %**** weaksymplectic.tex Line 700 **** -->                  </XMWrap>
+                  </XMWrap>
                 </XMDual>
               </XMApp>
               <XMApp>
@@ -22395,8 +22394,8 @@ with <Math mode="inline" tex="k\geq 1" text="k &gt;= 1" xml:id="S9.p12.m3">
           </XMath>
         </Math>
       </equation>
-    </para>
-<!--  %**** weaksymplectic.tex Line 725 **** -->    <para xml:id="S9.p13">
+<!--  %**** weaksymplectic.tex Line 725 **** -->    </para>
+    <para xml:id="S9.p13">
       <p>For <Math mode="inline" tex="\alpha\in\Omega_{p}^{(}{k)}(U,\mathbb{R})" xml:id="S9.p13.m1">
           <XMath>
             <XMTok font="italic" name="alpha" role="UNKNOWN">α</XMTok>
@@ -22991,7 +22990,7 @@ and <Math mode="inline" tex="\beta\in\Omega_{q}^{(k)}(U,\mathbb{R})" text="beta 
           </XMath>
         </Math>
       </equation>
-      <p>which is an element of <Math mode="inline" tex="\Omega_{p+q}^{(k)}(V,\mathbb{R})" text="(Omega _ (p + q)) ^ k * open-interval@(V, R)" xml:id="S9.p14.m12">
+<!--  %**** weaksymplectic.tex Line 750 **** -->      <p>which is an element of <Math mode="inline" tex="\Omega_{p+q}^{(k)}(V,\mathbb{R})" text="(Omega _ (p + q)) ^ k * open-interval@(V, R)" xml:id="S9.p14.m12">
           <XMath>
             <XMApp>
               <XMTok meaning="times" role="MULOP">⁢</XMTok>
@@ -23032,7 +23031,7 @@ and <Math mode="inline" tex="\beta\in\Omega_{q}^{(k)}(U,\mathbb{R})" text="beta 
             </XMApp>
           </XMath>
         </Math>. It also satisfies,
-<!--  %**** weaksymplectic.tex Line 750 **** -->if <Math mode="inline" tex="\phi:V\to U" text="phi colon V to U" xml:id="S9.p14.m13">
+if <Math mode="inline" tex="\phi:V\to U" text="phi colon V to U" xml:id="S9.p14.m13">
           <XMath>
             <XMApp>
               <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -23765,7 +23764,7 @@ We call <Math mode="inline" tex="\iota_{v}\alpha" text="iota _ v * alpha" xml:id
             </XMath>
           </Math></text>.</p>
     </para>
-    <para xml:id="S10.p2">
+<!--  %**** weaksymplectic.tex Line 775 **** -->    <para xml:id="S10.p2">
       <p>It can be proved that if <Math mode="inline" tex="\alpha\in\Omega_{p}^{(k)}(U,\mathbb{R})" text="alpha element-of (Omega _ p) ^ k * open-interval@(U, R)" xml:id="S10.p2.m1">
           <XMath>
             <XMApp>
@@ -23807,7 +23806,7 @@ We call <Math mode="inline" tex="\iota_{v}\alpha" text="iota _ v * alpha" xml:id
             </XMApp>
           </XMath>
         </Math>
-<!--  %**** weaksymplectic.tex Line 775 **** -->and <Math mode="inline" tex="\beta\in\Omega_{q}^{(k)}(U,\mathbb{R})" text="beta element-of (Omega _ q) ^ k * open-interval@(U, R)" xml:id="S10.p2.m2">
+and <Math mode="inline" tex="\beta\in\Omega_{q}^{(k)}(U,\mathbb{R})" text="beta element-of (Omega _ q) ^ k * open-interval@(U, R)" xml:id="S10.p2.m2">
           <XMath>
             <XMApp>
               <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -24335,12 +24334,11 @@ derivative of <Math mode="inline" tex="\alpha" text="alpha" xml:id="S10.p3.m5">
             <XMTok font="italic" role="UNKNOWN">E</XMTok>
           </XMath>
         </Math>,
-we say that <Math mode="inline" tex="v" text="v" xml:id="S10.p4.m6">
+<!--  %**** weaksymplectic.tex Line 800 **** -->we say that <Math mode="inline" tex="v" text="v" xml:id="S10.p4.m6">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">v</XMTok>
           </XMath>
-        </Math> is a <text font="bold">symplectic vector field</text> if
-<!--  %**** weaksymplectic.tex Line 800 **** --></p>
+        </Math> is a <text font="bold">symplectic vector field</text> if</p>
       <equation xml:id="S10.Ex113">
         <Math mode="display" tex="\mathscr{L}_{v}\omega=0." text="L _ v * omega = 0" xml:id="S10.Ex113.m1">
           <XMath>
