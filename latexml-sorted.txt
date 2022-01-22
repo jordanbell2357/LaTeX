@@ -44,7 +44,7 @@ The Hilbert transform on $$\mathbb{R}$$@hilberttransform
 The Kolmogorov continuity theorem, Hölder continuity, and the Kolmogorov-Chentsov theorem@kolmogorovcontinuity
 The Lindeberg central limit theorem@lindeberg
 The Poincaré-Dulac normal form theorem for formal vector fields@poincaredulac
-The Pontryagin duals of $$\mathbb{Q}/\mathbb{Z}$ and $\mathbb{Q}$ and the adeles@Qdual
+The Pontryagin duals of $$\mathbb{Q}/\mathbb{Z}$$ and $\mathbb{Q}$$ and the adeles@Qdual
 The Voronoi summation formula@voronoi
 The Wiener algebra and Wiener's lemma@wieneralgebra
 The cross-polytope, the ball, and the cube@cube

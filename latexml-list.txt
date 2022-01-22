@@ -17,7 +17,7 @@ Hermite functions@hermitefunctions
 Hensel’s lemma, valuations, and $$p$$-adic numbers@padic
 Measure theory and Perron-Frobenius operators for continued fractions@perron-frobenius
 Infinite product measures@productmeasure
-The Pontryagin duals of $$\mathbb{Q}/\mathbb{Z}$ and $\mathbb{Q}$ and the adeles@Qdual
+The Pontryagin duals of $$\mathbb{Q}/\mathbb{Z}$$ and $\mathbb{Q}$$ and the adeles@Qdual
 The Voronoi summation formula@voronoi
 Fréchet derivatives and Gâteaux derivatives@frechetderivatives
 Nonholomorphic Eisenstein series, the Kronecker limit formula, and the hyperbolic Laplacian@eisenstein
