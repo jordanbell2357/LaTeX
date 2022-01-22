@@ -1,0 +1,3 @@
+awk '{ split($0, w, "@"); printf("[%s](/LaTeXML/mathematics/%s)\n", w[1], w[2]); }' latexml-list.txt
+
+awk '{ sub("\r$", ""); print }' latexml-list.txt > latexml-list-unix.txt
