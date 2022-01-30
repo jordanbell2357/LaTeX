@@ -1,5 +1,3 @@
-# LaTeXML
+# LaTeX
 
-Conversions of notes of mine from LaTeX to HTML
-
-Using [LaTeXML](https://math.nist.gov/~BMiller/LaTeXML/)
+Converting LaTeX documents to HTML using LaTeXML [LaTeXML](https://math.nist.gov/~BMiller/LaTeXML/), [Pnadoc](https://pandoc.org/demos.html), and [TeX4ht](https://tug.org/tex4ht/), and displaying math with [MathJax](https://www.mathjax.org/), [MathML](https://www.w3.org/Math/), and [KaTeX](https://katex.org/)
