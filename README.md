@@ -6,9 +6,12 @@ Converting LaTeX documents to HTML using LaTeXML [LaTeXML](https://math.nist.gov
 
 - https://www.tablesgenerator.com/markdown_tables
 
-## Docs
+## Markdown
 
 - https://www.markdownguide.org/
+- https://commonmark.org/help/tutorial/index.html
+- https://jaantollander.com/post/scientific-writing-with-markdown/
+- https://pypi.org/project/latex2markdown/
 
 ## Links
 
