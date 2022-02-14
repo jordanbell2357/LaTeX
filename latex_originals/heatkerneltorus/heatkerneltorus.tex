@@ -1,7 +1,7 @@
 \documentclass{article}
 \usepackage{amsmath,amssymb,graphicx,subfig,mathrsfs,amsthm}
 %\usepackage{tikz-cd}
-\usepackage{hyperref}
+\usepackage[draft]{hyperref}
 \newcommand{\innerL}[2]{\langle #1, #2 \rangle_{L^2}}
 \newcommand{\inner}[2]{\langle #1, #2 \rangle}
 \def\Re{\ensuremath{\mathrm{Re}}\,}
@@ -22,8 +22,8 @@
 \newtheorem{definition}[theorem]{Definition}
 \begin{document}
 \title{The heat kernel on the torus}
-\author{Jordan Bell\\ \texttt{jordan.bell@gmail.com}\\Department of Mathematics, University of Toronto}
-\date{\today}
+\author{Jordan Bell}
+\date{October 7, 2014}
 \maketitle
 
 \section{Heat kernel on $\mathbb{T}$}
@@ -91,7 +91,7 @@ For $t>0$ and $x \in \mathbb{R}$,
 Let $x=2\pi m+\theta$ with $|\theta| \leq \pi$, so that $\norm{x}=\norm{\theta}=|\theta|$, and $g_t(x)=g_t(\theta)$.
 Using Lemma \ref{coshlemma} and the fact that $\cosh y \geq 1$, we get
 \[
-g_t(\theta) \geq \exp\left(-\frac{\theta^2}{4t} \right) \sqrt{\frac{\pi}{t}} ½ \left(1+2\sum_{k \geq 1} \exp\left(-\frac{\pi^2 k^2}{t}\right)  \right)
+g_t(\theta) \geq \exp\left(-\frac{\theta^2}{4t} \right) \sqrt{\frac{\pi}{t}} \left(1+2\sum_{k \geq 1} \exp\left(-\frac{\pi^2 k^2}{t}\right)  \right)
 =\exp\left(-\frac{\theta^2}{4t} \right) g_t(0),
 \]
 hence 
