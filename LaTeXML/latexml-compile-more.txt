@@ -41,3 +41,18 @@ latexmlpost kolmogorovcontinuity.xml --destination=index.html --javascript="http
 latexml --destination=LLN.xml LLN.tex
 
 latexmlpost LLN.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=laplacemethod.xml laplacemethod.tex
+
+latexmlpost laplacemethod.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=levyinequality.xml levyinequality.tex
+
+latexmlpost levyinequality.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=legendretransform.xml legendretransform.tex
+
+latexmlpost legendretransform.xml --destination=index.html --css="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" --javascript="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" --javascript="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+
+latexmlpost levyinequality.xml --destination=index.html --css="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" --javascript="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" --javascript="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" --navigationtoc=context --css=LaTeXML-navbar-left.css
