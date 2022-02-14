@@ -1,0 +1,1 @@
+pandoc holomorphicfourier.tex -s --katex   -o index.html

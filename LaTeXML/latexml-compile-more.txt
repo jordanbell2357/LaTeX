@@ -117,3 +117,60 @@ latexmlpost stonecech.xml --destination=index.html --javascript="https://cdn.jsd
 latexml --destination=sturm-liouville.xml sturm-liouville.tex
 
 latexmlpost sturm-liouville.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+latexml --destination=inhomogeneousheatT.xml inhomogeneousheatT.tex
+
+latexmlpost inhomogeneousheatT.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=parseval.xml parseval.tex
+
+latexmlpost parseval.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=heatkerneltorus.xml heatkerneltorus.tex
+
+latexmlpost heatkerneltorus.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=holomorphicfourier.xml holomorphicfourier.tex
+
+latexmlpost holomorphicfourier.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+latexml --destination=secantseries.xml secantseries.tex
+
+latexmlpost secantseries.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+latexml --destination=schwartzspace.xml schwartzspace.tex
+
+latexmlpost schwartzspace.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=segalbargmann.xml segalbargmann.tex
+
+latexmlpost segalbargmann.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=L1sinenorms.xml L1sinenorms.tex
+
+latexmlpost L1sinenorms.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=pvm.xml pvm.tex
+
+latexmlpost pvm.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=fluideuler.xml fluideuler.tex
+
+latexmlpost fluideuler.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=polya-vinogradov.xml polya-vinogradov.tex
+
+latexmlpost polya-vinogradov.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+latexml --destination=rademacher-functions.xml rademacher-functions.tex
+
+latexmlpost rademacher-functions.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --includestyles --preload=tikz.sty.ltxml --destination=profinite.xml profinite.tex
+
+latexmlpost profinite.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+
+
+
+
