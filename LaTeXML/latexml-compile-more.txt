@@ -5,3 +5,39 @@ latexmlpost LCA.xml --destination=index.html --javascript="https://cdn.jsdelivr.
 latexml --destination=CK.xml CK.tex
 
 latexmlpost CK.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+latexml --destination=diophantinevectors.xml diophantinevectors.tex
+
+latexmlpost diophantinevectors.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+latexml --destination=helly.xml helly.tex
+
+latexmlpost helly.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+latexml --destination=hamiltonjacobi.xml hamiltonjacobi.tex
+
+latexmlpost hamiltonjacobi.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=integraloperators.xml integraloperators.tex
+
+latexmlpost integraloperators.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=fandmriesz.xml fandmriesz.tex
+
+latexmlpost fandmriesz.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=kam.xml kam.tex
+
+latexmlpost kam.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=kolmogorov.xml kolmogorov.tex
+
+latexmlpost kolmogorov.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+latexml --destination=kolmogorovcontinuity.xml kolmogorovcontinuity.tex
+
+latexmlpost kolmogorovcontinuity.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=LLN.xml LLN.tex
+
+latexmlpost LLN.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
