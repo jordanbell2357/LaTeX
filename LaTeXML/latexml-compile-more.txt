@@ -166,10 +166,63 @@ latexml --destination=rademacher-functions.xml rademacher-functions.tex
 
 latexmlpost rademacher-functions.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
 
-latexml --includestyles --preload=tikz.sty.ltxml --destination=profinite.xml profinite.tex
+latexml --destination=smoothgerms.xml smoothgerms.tex
 
-latexmlpost profinite.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+latexmlpost smoothgerms.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
 
+latexml --destination=schrodinger1d.xml schrodinger1d.tex
+
+latexmlpost schrodinger1d.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=Ckspaces.xml Ckspaces.tex
+
+latexmlpost Ckspaces.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=randomtrig.xml randomtrig.tex
+
+latexmlpost randomtrig.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+latexml --destination=smalldivisors.xml smalldivisors.tex
+
+latexmlpost smalldivisors.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexmlpost .xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=sobolev1d.xml sobolev1d.tex
+
+latexmlpost sobolev1d.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+latexml --destination=sphericalmeasure.xml sphericalmeasure.tex
+
+latexmlpost sphericalmeasure.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=stationaryphase.xml stationaryphase.tex
+
+latexmlpost stationaryphase.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=subdifferentials.xml subdifferentials.tex
+
+latexmlpost subdifferentials.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=SVD.xml SVD.tex
+
+latexmlpost SVD.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=totalvariation.xml totalvariation.tex
+
+latexmlpost totalvariation.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=testfunctions-sobolevlemma.xml testfunctions-sobolevlemma.tex
+
+latexmlpost testfunctions-sobolevlemma.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=traceclass.xml traceclass.tex
+
+latexmlpost traceclass.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=vinogradov-estimate.xml vinogradov-estimate.tex
+
+latexmlpost vinogradov-estimate.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
 
 
 
