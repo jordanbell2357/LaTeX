@@ -334,7 +334,7 @@ latexmlpost sinesum.xml --destination=index.html --javascript="https://cdn.jsdel
 
 latexml --destination=profinite.xml profinite.tex
 
-latexmlpost profinite.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+latexmlpost profinite.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --css=andy-navbar.css --css=normalize.css --urlstyle=file --javascript=andy-navbar.js
 
 
 
@@ -342,7 +342,7 @@ latexmlpost profinite.xml --destination=index.html --javascript="https://cdn.jsd
 
 
 
-latexmlpost notes-latexml.xml --dest=YourSubfolderName/notes.html --split --splitat=section --navigationtoc=context --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --css=andy-navbar.css --css=normalize.css --urlstyle=file --timestamp=0 --javascript=andy-navbar.js
+latexmlpost notes-latexml.xml --dest=YourSubfolderName/notes.html --split --splitat=section --navigationtoc=context --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --css=andy-navbar.css --css=normalize.css --urlstyle=file --javascript=andy-navbar.js
 
 
 

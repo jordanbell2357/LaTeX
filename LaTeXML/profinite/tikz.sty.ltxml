@@ -1,1 +1,0 @@
-InputDefinitions('tikz', type => 'sty', noltxml => 1);
