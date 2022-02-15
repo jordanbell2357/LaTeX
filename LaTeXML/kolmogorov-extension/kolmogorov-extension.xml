@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeX/latex_originals/kolmogorov"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeX/LaTeXML/kolmogorov-extension"?>
 <?latexml class="article"?>
-<?latexml package="amsmath,amssymb,graphicx,subfig,mathrsfs,amsthm,siunitx"?>
+<?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
 <?latexml RelaxNGSchema="LaTeXML"?>
 <document xmlns="http://dlmf.nist.gov/LaTeXML" class="ltx_authors_1line">
   <resource src="LaTeXML.css" type="text/css"/>
@@ -295,7 +295,7 @@ such that (i) <Math mode="inline" tex="\emptyset\in\mathscr{S}" text="empty-set 
             </XMApp>
           </XMath>
         </Math> then
-<!--  %**** kolmogorov.tex Line 50 **** -->there are pairwise disjoint <Math mode="inline" tex="S_{1},\ldots,S_{n}\in\mathscr{S}" text="list@(S _ 1, ldots, S _ n) element-of S" xml:id="S1.p3.m9">
+<!--  %**** kolmogorov-extension.tex Line 50 **** -->there are pairwise disjoint <Math mode="inline" tex="S_{1},\ldots,S_{n}\in\mathscr{S}" text="list@(S _ 1, ldots, S _ n) element-of S" xml:id="S1.p3.m9">
           <XMath>
             <XMApp>
               <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -817,7 +817,7 @@ talked about <Math mode="inline" tex="\mu_{0}:\mathscr{S}\to[0,\infty]" text="mu
                 </XMApp>
               </XMath>
             </Math> is countably
-<!--  %**** kolmogorov.tex Line 75 **** -->additive. Then there is one and only one measure on <Math mode="inline" tex="\sigma(\mathscr{S})" text="sigma * S" xml:id="Thmtheorem2.p1.m5">
+<!--  %**** kolmogorov-extension.tex Line 75 **** -->additive. Then there is one and only one measure on <Math mode="inline" tex="\sigma(\mathscr{S})" text="sigma * S" xml:id="Thmtheorem2.p1.m5">
               <XMath>
                 <XMApp>
                   <XMTok meaning="times" role="MULOP">⁢</XMTok>
@@ -1190,7 +1190,7 @@ supposing that
           </XMath>
         </Math>
       </equation>
-<!--  %**** kolmogorov.tex Line 100 **** -->      <p>the cartesian product of the sets <Math mode="inline" tex="X_{i}" text="X _ i" xml:id="S2.p2.m2">
+<!--  %**** kolmogorov-extension.tex Line 100 **** -->      <p>the cartesian product of the sets <Math mode="inline" tex="X_{i}" text="X _ i" xml:id="S2.p2.m2">
           <XMath>
             <XMApp>
               <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -1568,7 +1568,7 @@ family of projection maps.</p>
                   </XMApp>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-<!--  %**** kolmogorov.tex Line 125 **** -->              </XMWrap>
+<!--  %**** kolmogorov-extension.tex Line 125 **** -->              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -1902,7 +1902,7 @@ and this collection generates the product <Math mode="inline" tex="\sigma" text=
             </Math>.</text></p>
       </para>
     </theorem>
-<!--  %**** kolmogorov.tex Line 150 **** -->    <para xml:id="S2.p6">
+<!--  %**** kolmogorov-extension.tex Line 150 **** -->    <para xml:id="S2.p6">
       <p>The product <Math mode="inline" tex="\sigma" text="sigma" xml:id="S2.p6.m1">
           <XMath>
             <XMTok font="italic" name="sigma" role="UNKNOWN">σ</XMTok>
@@ -2135,7 +2135,7 @@ set</text>.</p>
         </equation>
       </para>
     </theorem>
-<!--  %**** kolmogorov.tex Line 175 **** -->    <para xml:id="S3.p2">
+<!--  %**** kolmogorov-extension.tex Line 175 **** -->    <para xml:id="S3.p2">
       <p>A separable metrizable space is second-countable, so we can apply the following theorem to such spaces.</p>
     </para>
     <theorem class="ltx_theorem_theorem" inlist="thm theorem:theorem" labels="LABEL:secondcountable" xml:id="Thmtheorem7">
@@ -2453,7 +2453,7 @@ for each <Math mode="inline" tex="i\in\mathbb{N}" text="i element-of N" xml:id="
             </XMath>
           </Math>, and
 so by (<ref labelref="LABEL:initialgen"/>),
-<!--  %**** kolmogorov.tex Line 200 **** --></p>
+<!--  %**** kolmogorov-extension.tex Line 200 **** --></p>
         <equation xml:id="S3.Ex11">
           <Math mode="display" tex="\bigotimes_{i\in\mathbb{N}}\mathscr{B}_{X_{i}}=\sigma(\mathscr{G})." text="(tensor-product _ (i element-of N))@(B _ X _ i) = sigma * G" xml:id="S3.Ex11.m1">
             <XMath>
@@ -2840,7 +2840,7 @@ that a collection <Math mode="inline" tex="\mathscr{E}" text="E" xml:id="S5.p1.m
             </XMApp>
           </XMath>
         </Math>. Usually one speaks about a collection of sets having the finite intersection property in the following setting:
-<!--  %**** kolmogorov.tex Line 225 **** -->A topological space <Math mode="inline" tex="Y" text="Y" xml:id="S5.p1.m10">
+<!--  %**** kolmogorov-extension.tex Line 225 **** -->A topological space <Math mode="inline" tex="Y" text="Y" xml:id="S5.p1.m10">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">Y</XMTok>
           </XMath>
@@ -3021,7 +3021,7 @@ If there is a compact class <Math mode="inline" tex="\mathscr{C}\subset\mathscr{
                           <XMTok meaning="times" role="MULOP">⁢</XMTok>
                           <XMApp>
                             <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-<!--  %**** kolmogorov.tex Line 250 **** -->                            <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
+<!--  %**** kolmogorov-extension.tex Line 250 **** -->                            <XMTok font="italic" name="mu" role="UNKNOWN">μ</XMTok>
                             <XMTok fontsize="70%" meaning="0" role="NUMBER">0</XMTok>
                           </XMApp>
                           <XMDual>
@@ -3341,7 +3341,7 @@ produced in Lemma <ref labelref="LABEL:countablegen"/>, hence is itself a compac
               <XMTok font="script" role="UNKNOWN">S</XMTok>
             </XMath>
           </Math>, which
-<!--  %**** kolmogorov.tex Line 275 **** -->by Lemma <ref labelref="LABEL:semiringgen"/> is the algebra generated by <Math mode="inline" tex="\mathscr{S}" text="S" xml:id="S5.p5.m6">
+<!--  %**** kolmogorov-extension.tex Line 275 **** -->by Lemma <ref labelref="LABEL:semiringgen"/> is the algebra generated by <Math mode="inline" tex="\mathscr{S}" text="S" xml:id="S5.p5.m6">
             <XMath>
               <XMTok font="script" role="UNKNOWN">S</XMTok>
             </XMath>
@@ -4181,7 +4181,7 @@ There are pairwise disjoint
               </XMApp>
             </XMath>
           </Math>
-<!--  %**** kolmogorov.tex Line 300 **** -->such that, respectively, <Math mode="inline" tex="S_{i}\in A_{n}" text="S _ i element-of A _ n" xml:id="S5.p8.m10">
+<!--  %**** kolmogorov-extension.tex Line 300 **** -->such that, respectively, <Math mode="inline" tex="S_{i}\in A_{n}" text="S _ i element-of A _ n" xml:id="S5.p8.m10">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -5208,7 +5208,7 @@ and there are pairwise disjoint <Math mode="inline" tex="S_{1},\ldots,S_{k}\in\m
                                 </XMDual>
                               </XMApp>
                               <XMTok role="CLOSE" stretchy="false">)</XMTok>
-<!--  %**** kolmogorov.tex Line 325 **** -->                            </XMWrap>
+<!--  %**** kolmogorov-extension.tex Line 325 **** -->                            </XMWrap>
                           </XMDual>
                         </XMApp>
                       </XMApp>
@@ -5803,7 +5803,7 @@ The collection <Math mode="inline" tex="D" text="D" xml:id="S6.p1.m2">
           </XMath>
         </Math>, ordered by set
 inclusion, is a directed set.
-<!--  %**** kolmogorov.tex Line 350 **** -->Suppose that for each <Math mode="inline" tex="F\in D" text="F element-of D" xml:id="S6.p1.m4">
+<!--  %**** kolmogorov-extension.tex Line 350 **** -->Suppose that for each <Math mode="inline" tex="F\in D" text="F element-of D" xml:id="S6.p1.m4">
           <XMath>
             <XMApp>
               <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -6389,7 +6389,7 @@ each <Math mode="inline" tex="F\in D" text="F element-of D" xml:id="Thmtheorem11
       </para>
     </theorem>
     <proof>
-      <title class="ltx_runin" font="italic"><!--  %**** kolmogorov.tex Line 375 **** -->Proof.</title>
+      <title class="ltx_runin" font="italic"><!--  %**** kolmogorov-extension.tex Line 375 **** -->Proof.</title>
       <para xml:id="S6.p3">
         <p>Define</p>
         <equation xml:id="S6.Ex19">
@@ -6973,7 +6973,7 @@ We have thus proved that if an intersection of countably many members of <Math m
               </XMApp>
             </XMath>
           </Math> is empty then some intersection
-<!--  %**** kolmogorov.tex Line 400 **** -->of finitely many of these is empty, showing that <Math mode="inline" tex="\mathscr{C}^{0}" text="C ^ 0" xml:id="S6.p3.m20">
+<!--  %**** kolmogorov-extension.tex Line 400 **** -->of finitely many of these is empty, showing that <Math mode="inline" tex="\mathscr{C}^{0}" text="C ^ 0" xml:id="S6.p3.m20">
             <XMath>
               <XMApp>
                 <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
@@ -7790,7 +7790,7 @@ using <Math mode="inline" tex="{P_{G,F}}_{*}\mu_{G}=\mu_{F}" text="P _ (list@(G,
                     </XMApp>
                   </XMApp>
                   <XMTok role="PUNCT">,</XMTok>
-<!--  %**** kolmogorov.tex Line 425 **** -->                </XMWrap>
+<!--  %**** kolmogorov-extension.tex Line 425 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -8730,7 +8730,7 @@ let <Math mode="inline" tex="\epsilon&gt;0" text="epsilon &gt; 0" xml:id="S6.p6.
               </XMApp>
             </XMath>
           </Math>, and we set
-<!--  %**** kolmogorov.tex Line 450 **** --></p>
+<!--  %**** kolmogorov-extension.tex Line 450 **** --></p>
         <equation xml:id="S6.Ex32">
           <Math mode="display" tex="C=\bigcap_{i\in F}C_{i}\times X_{I\setminus\{i\}}=\left(\prod_{i\in F}C_{i}%&#10;\right)\times X_{I\setminus F}," text="C = (intersection _ (i element-of F))@(C _ i * X _ (I set-minus set@(i))) = (product _ (i element-of F))@(C _ i) * X _ (I set-minus F)" xml:id="S6.Ex32.m1">
             <XMath>
@@ -9953,7 +9953,7 @@ because <Math mode="inline" tex="\mu_{0}" text="mu _ 0" xml:id="S6.p6.m17">
                     </XMApp>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-<!--  %**** kolmogorov.tex Line 475 **** -->                </XMWrap>
+<!--  %**** kolmogorov-extension.tex Line 475 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -10534,7 +10534,7 @@ by the assertion of uniqueness in Carathéodory’s theorem, <Math mode="inline"
         </Math>
       </equation>
       <p>A <text font="bold">Polish space</text> is a topological space that is homeomorphic to a complete separable metric space, and
-<!--  %**** kolmogorov.tex Line 500 **** -->it is a fact that a finite Borel measure on a Polish space is tight.<note mark="9" role="footnote" xml:id="footnote9"><tags>
+<!--  %**** kolmogorov-extension.tex Line 500 **** -->it is a fact that a finite Borel measure on a Polish space is tight.<note mark="9" role="footnote" xml:id="footnote9"><tags>
             <tag>9</tag>
             <tag role="refnum">9</tag>
             <tag role="typerefnum">footnote 9</tag>
@@ -10887,7 +10887,7 @@ space then implies that it is tight, which we can write as</p>
 ∎</p>
       </para>
     </proof>
-<!--  %**** kolmogorov.tex Line 525 **** -->    <para xml:id="S6.p10">
+<!--  %**** kolmogorov-extension.tex Line 525 **** -->    <para xml:id="S6.p10">
       <p>If the index set <Math mode="inline" tex="I" text="I" xml:id="S6.p10.m1">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">I</XMTok>

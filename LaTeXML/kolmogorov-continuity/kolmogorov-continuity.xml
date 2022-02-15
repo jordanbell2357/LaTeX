@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeX/latex_originals/kolmogorovcontinuity"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeX/LaTeXML/kolmogorov-continuity"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
 <?latexml package="hyperref" options="draft"?>
@@ -12,7 +12,7 @@
     <personname>Jordan Bell</personname>
   </creator>
   <date role="creation">June 11, 2015</date>
-<!--  %**** kolmogorovcontinuity.tex Line 25 **** -->  <section inlist="toc" xml:id="S1">
+<!--  %**** kolmogorov-continuity.tex Line 25 **** -->  <section inlist="toc" xml:id="S1">
     <tags>
       <tag>1</tag>
       <tag role="autoref">section 1</tag>
@@ -450,7 +450,7 @@ for each <Math mode="inline" tex="t\in I" text="t element-of I" xml:id="S1.p1.m1
             </XMath>
           </Math>
         </equation>
-<!--  %**** kolmogorovcontinuity.tex Line 50 **** -->        <p>If <Math mode="inline" tex="\omega\in A\setminus B" text="omega element-of A set-minus B" xml:id="S1.p2.m4">
+<!--  %**** kolmogorov-continuity.tex Line 50 **** -->        <p>If <Math mode="inline" tex="\omega\in A\setminus B" text="omega element-of A set-minus B" xml:id="S1.p2.m4">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -1116,7 +1116,7 @@ A stochastic process <Math mode="inline" tex="(X_{t})_{t\in\mathbb{R}_{\geq 0}}"
             </XMApp>
           </XMath>
         </Math>.
-<!--  %**** kolmogorovcontinuity.tex Line 75 **** --></p>
+<!--  %**** kolmogorov-continuity.tex Line 75 **** --></p>
     </para>
     <para xml:id="S2.p2">
       <p>A <text font="bold">dyadic rational</text> is an element of</p>
@@ -1555,7 +1555,7 @@ spaces are equivalence classes of functions, but it does make sense to say that 
                     </XMWrap>
                   </XMDual>
                   <XMTok role="PUNCT">,</XMTok>
-<!--  %**** kolmogorovcontinuity.tex Line 100 **** -->                </XMWrap>
+<!--  %**** kolmogorov-continuity.tex Line 100 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -2939,7 +2939,7 @@ there is some <Math mode="inline" tex="m_{0}(\omega)" text="m _ 0 * omega" xml:i
             </XMath>
           </Math>
         </equation>
-<!--  %**** kolmogorovcontinuity.tex Line 150 **** -->        <p>Let <Math mode="inline" tex="m=m(s,t)" text="m = m * open-interval@(s, t)" xml:id="S2.p5.m3">
+<!--  %**** kolmogorov-continuity.tex Line 150 **** -->        <p>Let <Math mode="inline" tex="m=m(s,t)" text="m = m * open-interval@(s, t)" xml:id="S2.p5.m3">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
@@ -3775,7 +3775,7 @@ sequences <Math mode="inline" tex="\sigma_{j},\tau_{j}\in\{0,1\}" text="list@(si
             </XMath>
           </Math>
         </equation>
-<!--  %**** kolmogorovcontinuity.tex Line 175 **** -->        <p>Thus <Math mode="inline" tex="|i_{0}-j_{0}|&lt;2" text="absolute-value@(i _ 0 - j _ 0) less 2" xml:id="S2.p5.m13">
+<!--  %**** kolmogorov-continuity.tex Line 175 **** -->        <p>Thus <Math mode="inline" tex="|i_{0}-j_{0}|&lt;2" text="absolute-value@(i _ 0 - j _ 0) less 2" xml:id="S2.p5.m13">
             <XMath>
               <XMApp>
                 <XMTok meaning="less-than" role="RELOP">&lt;</XMTok>
@@ -4494,7 +4494,7 @@ by (<ref labelref="LABEL:393"/>) we have</p>
               <XMTok font="italic" role="UNKNOWN">s</XMTok>
             </XMath>
           </Math>. Thus
-<!--  %**** kolmogorovcontinuity.tex Line 200 **** --></p>
+<!--  %**** kolmogorov-continuity.tex Line 200 **** --></p>
         <equation xml:id="S2.Ex24">
           <Math mode="display" tex="\sum_{n=1}^{\infty}(X_{s_{n}}(\omega)-X_{s_{n-1}}(\omega))=X_{s}(\omega)-X_{s_%&#10;{0}}(\omega)," text="((sum _ (n = 1)) ^ infinity)@(X _ s _ n * omega - X _ s _ (n - 1) * omega) = X _ s * omega - X _ s _ 0 * omega" xml:id="S2.Ex24.m1">
             <XMath>
@@ -5750,7 +5750,7 @@ hence</p>
                         <XMRef idref="S2.E5.m1.3.1"/>
                       </XMApp>
                       <XMWrap>
-<!--  %**** kolmogorovcontinuity.tex Line 225 **** -->                        <XMTok role="VERTBAR" stretchy="false">|</XMTok>
+<!--  %**** kolmogorov-continuity.tex Line 225 **** -->                        <XMTok role="VERTBAR" stretchy="false">|</XMTok>
                         <XMApp xml:id="S2.E5.m1.3.1">
                           <XMTok meaning="minus" role="ADDOP">-</XMTok>
                           <XMApp>
@@ -8489,7 +8489,7 @@ and
                     </XMApp>
                   </XMApp>
                   <XMTok role="PUNCT">,</XMTok>
-<!--  %**** kolmogorovcontinuity.tex Line 275 **** -->                </XMWrap>
+<!--  %**** kolmogorov-continuity.tex Line 275 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -9167,7 +9167,7 @@ For <Math mode="inline" tex="\omega\in N_{\gamma}" text="omega element-of N _ ga
             </XMath>
           </Math>
         </equation>
-<!--  %**** kolmogorovcontinuity.tex Line 300 **** -->        <p>Then for each <Math mode="inline" tex="\omega\in\Omega" text="omega element-of Omega" xml:id="S2.p6.m63">
+<!--  %**** kolmogorov-continuity.tex Line 300 **** -->        <p>Then for each <Math mode="inline" tex="\omega\in\Omega" text="omega element-of Omega" xml:id="S2.p6.m63">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -9901,7 +9901,7 @@ That is, <Math mode="inline" tex="P\{Y_{t}=X_{t}\}=1" xml:id="S2.p7.m26">
               <XMTok font="italic" role="UNKNOWN">X</XMTok>
             </XMath>
           </Math>, completing the proof.
-<!--  %**** kolmogorovcontinuity.tex Line 325 **** -->∎</p>
+<!--  %**** kolmogorov-continuity.tex Line 325 **** -->∎</p>
       </para>
     </proof>
   </section>
@@ -10500,7 +10500,7 @@ if there is some <Math mode="inline" tex="0&lt;\epsilon_{x_{0}}&lt;1" text="0 le
             <tag role="typerefnum">footnote 9</tag>
           </tags>Achim Klenke, <text font="italic">Probability Theory: A Comprehensive Course</text>, p. 448, Lemma 21.3.</note></p>
     </para>
-<!--  %**** kolmogorovcontinuity.tex Line 350 **** -->    <theorem class="ltx_theorem_lemma" inlist="thm theorem:lemma" xml:id="Thmtheorem3">
+<!--  %**** kolmogorov-continuity.tex Line 350 **** -->    <theorem class="ltx_theorem_lemma" inlist="thm theorem:lemma" xml:id="Thmtheorem3">
       <tags>
         <tag>Lemma 3</tag>
         <tag role="autoref">3</tag>
@@ -11140,7 +11140,7 @@ if there is some <Math mode="inline" tex="0&lt;\epsilon_{x_{0}}&lt;1" text="0 le
               </XMApp>
             </XMath>
           </Math>-Hölder continuous.
-<!--  %**** kolmogorovcontinuity.tex Line 375 **** --></p>
+<!--  %**** kolmogorov-continuity.tex Line 375 **** --></p>
       </para>
       <para xml:id="S3.p4">
         <p>With the metric inherited from <Math mode="inline" tex="\mathbb{R}_{\geq 0}" text="R _ (absent &gt;= 0)" xml:id="S3.p4.m1">
@@ -11763,7 +11763,7 @@ Let</p>
               </XMApp>
             </XMath>
           </Math>, i.e.
-<!--  %**** kolmogorovcontinuity.tex Line 400 **** --><Math mode="inline" tex="s\in B_{\delta}(t)" text="s element-of B _ delta * t" xml:id="S3.p4.m28">
+<!--  %**** kolmogorov-continuity.tex Line 400 **** --><Math mode="inline" tex="s\in B_{\delta}(t)" text="s element-of B _ delta * t" xml:id="S3.p4.m28">
             <XMath>
               <XMApp>
                 <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -13119,7 +13119,7 @@ Let</p>
             </MathFork>
           </equation>
         </equationgroup>
-<!--  %**** kolmogorovcontinuity.tex Line 425 **** -->        <p>∎</p>
+<!--  %**** kolmogorov-continuity.tex Line 425 **** -->        <p>∎</p>
       </para>
     </proof>
     <para xml:id="S3.p6">
@@ -13593,7 +13593,7 @@ there is some <Math mode="inline" tex="m_{k}(\omega)" text="m _ k * omega" xml:i
                     </XMApp>
                   </XMApp>
                   <XMTok role="PUNCT">,</XMTok>
-<!--  %**** kolmogorovcontinuity.tex Line 450 **** -->                </XMWrap>
+<!--  %**** kolmogorov-continuity.tex Line 450 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
@@ -15042,7 +15042,7 @@ so by (<ref labelref="LABEL:3913"/>),</p>
           </equation>
         </equationgroup>
         <p>thus
-<!--  %**** kolmogorovcontinuity.tex Line 475 **** --></p>
+<!--  %**** kolmogorov-continuity.tex Line 475 **** --></p>
         <equation xml:id="S3.Ex60">
           <Math mode="display" tex="|X_{t}(\omega)-X_{s}(\omega)|\leq C_{\gamma}|t-s|^{\gamma}," text="absolute-value@(X _ t * omega - X _ s * omega) less= C _ gamma * (absolute-value@(t - s)) ^ gamma" xml:id="S3.Ex60.m1">
             <XMath>
@@ -15369,7 +15369,7 @@ For <Math mode="inline" tex="\omega\in\Omega\setminus M" text="omega element-of 
 1930–1993,
 obituary in Russian Math. Surveys <text font="bold">48</text> (1993), no. 2, 161–166.</note>
 It does not merely state that for any
-<!--  %**** kolmogorovcontinuity.tex Line 500 **** --><Math mode="inline" tex="0&lt;\gamma&lt;\frac{\beta}{\alpha}" text="0 less gamma less beta / alpha" xml:id="S3.p9.m1">
+<!--  %**** kolmogorov-continuity.tex Line 500 **** --><Math mode="inline" tex="0&lt;\gamma&lt;\frac{\beta}{\alpha}" text="0 less gamma less beta / alpha" xml:id="S3.p9.m1">
           <XMath>
             <XMApp>
               <XMTok meaning="multirelation"/>
@@ -15757,7 +15757,7 @@ For <Math mode="inline" tex="t\in\mathbb{R}_{\geq 0}" text="t element-of R _ (ab
               </XMApp>
             </XMath>
           </Math>, and so
-<!--  %**** kolmogorovcontinuity.tex Line 525 **** --><Math mode="inline" tex="(Y_{t})_{t\in\mathbb{R}_{\geq 0}}" text="Y _ t _ (t element-of R _ (absent &gt;= 0))" xml:id="S3.p10.m12">
+<!--  %**** kolmogorov-continuity.tex Line 525 **** --><Math mode="inline" tex="(Y_{t})_{t\in\mathbb{R}_{\geq 0}}" text="Y _ t _ (t element-of R _ (absent &gt;= 0))" xml:id="S3.p10.m12">
             <XMath>
               <XMApp>
                 <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>

@@ -30,13 +30,13 @@ latexml --destination=kam.xml kam.tex
 
 latexmlpost kam.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
 
-latexml --destination=kolmogorov.xml kolmogorov.tex
+latexml --destination=kolmogorov-extension.xml kolmogorov-extension.tex
 
-latexmlpost kolmogorov.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+latexmlpost kolmogorov-extension.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
 
-latexml --destination=kolmogorovcontinuity.xml kolmogorovcontinuity.tex
+latexml --destination=kolmogorov-continuity.xml kolmogorov-continuity.tex
 
-latexmlpost kolmogorovcontinuity.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+latexmlpost kolmogorov-continuity.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
 
 latexml --destination=LLN.xml LLN.tex
 
