@@ -324,6 +324,16 @@ latexml --destination=modularforms.xml modularforms.tex
 
 latexmlpost modularforms.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
 
+latexml --destination=uup-compressedsensing.xml uup-compressedsensing.tex
+
+latexmlpost uup-compressedsensing.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+latexml --destination=sinesum.xml sinesum.tex
+
+latexmlpost sinesum.xml --bibtex --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+
+
 
 
 
