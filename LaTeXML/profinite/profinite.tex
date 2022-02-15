@@ -1,6 +1,5 @@
 \documentclass{article}
-\usepackage{amsmath,amssymb,subfig,mathrsfs,amsthm}
-\usepackage{tikz-cd}
+\usepackage{amsmath,amssymb,subfig,mathrsfs,amsthm,graphicx}
 \usepackage[draft]{hyperref}
 \newcommand{\inner}[2]{\left\langle #1, #2 \right\rangle}
 \newcommand{\tr}{\ensuremath\mathrm{tr}\,} 
@@ -271,14 +270,12 @@ $\mathbb{R}/p^n \mathbb{Z}$ is  a compact abelian group.
  \]
  be the projection map. The following diagram commutes:
  
- \begin{center}
-\begin{tikzcd}
-\mathbb{R} \arrow{r}{\id} \arrow{d}{\pi_n}
-&\mathbb{R} \arrow{d}{\pi_m}\\
-\mathbb{R}/p^n\mathbb{Z} \arrow{r}{\varphi_{n,m}} &\mathbb{R}/p^m\mathbb{Z}
-\end{tikzcd}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.4\textwidth]{tikz}
 \end{center}
- 
+\end{figure}
+
 It is immediate that the compact abelian groups $\mathbb{R}/p^n$ and the morphisms $\varphi_{n,m}$, $n \geq m$,
 are an inverse system. We call the inverse limit of this sytem the \textbf{$p$-adic solenoid}, denoted
 $\mathbb{T}_p$, with morphisms $\varphi_n:\mathbb{T}_p \to \mathbb{R}/p^n \mathbb{Z}$.\footnote{There are few books that present the $p$-adic solenoid. Two are Alain M. Robert, {\em A Course in $p$-adic Analysis}, p.~54, Appendix to Chapter 1, and

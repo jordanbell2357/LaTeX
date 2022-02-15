@@ -330,11 +330,19 @@ latexmlpost uup-compressedsensing.xml --destination=index.html --javascript="htt
 
 latexml --destination=sinesum.xml sinesum.tex
 
-latexmlpost sinesum.xml --bibtex --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+latexmlpost sinesum.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+latexml --destination=profinite.xml profinite.tex
+
+latexmlpost profinite.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
 
 
 
 
+
+
+
+latexmlpost notes-latexml.xml --dest=YourSubfolderName/notes.html --split --splitat=section --navigationtoc=context --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --css=andy-navbar.css --css=normalize.css --urlstyle=file --timestamp=0 --javascript=andy-navbar.js
 
 
 

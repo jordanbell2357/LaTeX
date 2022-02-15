@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeX/latex_originals/profinite"?>
 <?latexml class="article"?>
-<?latexml package="amsmath,amssymb,subfig,mathrsfs,amsthm"?>
-<?latexml package="tikz-cd"?>
+<?latexml package="amsmath,amssymb,subfig,mathrsfs,amsthm,graphicx"?>
 <?latexml package="hyperref" options="draft"?>
 <?latexml RelaxNGSchema="LaTeXML"?>
 <document xmlns="http://dlmf.nist.gov/LaTeXML" class="ltx_authors_1line">
@@ -21,8 +20,7 @@
     <personname>Jordan Bell</personname>
   </creator>
   <date role="creation">December 3, 2017</date>
-<!--  %**** profinite.tex Line 25 **** -->  <ERROR class="undefined">\@EveryShipout@Init</ERROR>
-  <section inlist="toc" xml:id="S1">
+<!--  %**** profinite.tex Line 25 **** -->  <section inlist="toc" xml:id="S1">
     <tags>
       <tag>1</tag>
       <tag role="autoref">section 1</tag>
@@ -409,8 +407,7 @@ morphism <Math mode="inline" tex="\psi:Y\to X" text="psi colon Y to X" xml:id="S
           <XMath>
             <XMTok font="italic" role="UNKNOWN">i</XMTok>
           </XMath>
-        </Math>,
-<!--  %**** profinite.tex Line 50 **** --></p>
+        </Math>,</p>
       <equation xml:id="S1.Ex3">
         <Math mode="display" tex="\pi_{i}\circ\psi=\psi_{i}." text="pi _ i compose psi = psi _ i" xml:id="S1.Ex3.m1">
           <XMath>
@@ -423,7 +420,7 @@ morphism <Math mode="inline" tex="\psi:Y\to X" text="psi colon Y to X" xml:id="S
                     <XMTok meaning="compose" name="circ" role="MULOP">∘</XMTok>
                     <XMApp>
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                      <XMTok font="italic" name="pi" role="UNKNOWN">π</XMTok>
+<!--  %**** profinite.tex Line 50 **** -->                      <XMTok font="italic" name="pi" role="UNKNOWN">π</XMTok>
                       <XMTok font="italic" fontsize="70%" role="UNKNOWN">i</XMTok>
                     </XMApp>
                     <XMTok font="italic" name="psi" role="UNKNOWN">ψ</XMTok>
@@ -1084,7 +1081,7 @@ limit by <Math mode="inline" tex="\widehat{\mathbb{Z}}" text="widehat@(Z)" xml:i
                     <XMTok meaning="compose" name="circ" role="MULOP">∘</XMTok>
                     <XMApp>
                       <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-<!--  %**** profinite.tex Line 100 **** -->                      <XMTok font="italic" name="phi" role="UNKNOWN">ϕ</XMTok>
+                      <XMTok font="italic" name="phi" role="UNKNOWN">ϕ</XMTok>
                       <XMDual>
                         <XMApp>
                           <XMTok meaning="list"/>
@@ -1126,7 +1123,7 @@ limit by <Math mode="inline" tex="\widehat{\mathbb{Z}}" text="widehat@(Z)" xml:i
                   </XMDual>
                 </XMApp>
                 <XMTok role="PUNCT">,</XMTok>
-              </XMWrap>
+<!--  %**** profinite.tex Line 100 **** -->              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -1574,9 +1571,10 @@ We prove that the image of <Math mode="inline" tex="\mathbb{Z}" text="Z" xml:id=
             <tag role="autoref">footnote 6</tag>
             <tag role="refnum">6</tag>
             <tag role="typerefnum">footnote 6</tag>
-          </tags><!--  %**** profinite.tex Line 125 **** -->Brian Osserman,
+          </tags>Brian Osserman,
 <text font="italic">Inverse limits and profinite groups</text>,
-<ref class="ltx_url" font="typewriter" href="https://www.math.ucdavis.edu/~osserman/classes/250C/notes/profinite.pdf">https://www.math.ucdavis.edu/~osserman/classes/250C/notes/profinite.pdf</ref></note></p>
+<ref class="ltx_url" font="typewriter" href="https://www.math.ucdavis.edu/~osserman/classes/250C/notes/profinite.pdf">https://www.math.ucdavis.edu/~osserman/classes/250C/notes/profinite.pdf</ref></note>
+<!--  %**** profinite.tex Line 125 **** --></p>
     </para>
     <theorem class="ltx_theorem_theorem" inlist="thm theorem:theorem" xml:id="Thmtheorem1">
       <tags>
@@ -3202,7 +3200,7 @@ We call <Math mode="inline" tex="\mathbb{Z}_{p}" text="Z _ p" xml:id="S4.p1.m11"
               <XMTok font="medium italic" role="UNKNOWN">p</XMTok>
             </XMath>
           </Math>-adic integers</text>. It is compact and totally disconnected.
-<!--  %**** profinite.tex Line 175 **** -->Furthermore, because each limitand <Math mode="inline" tex="\mathbb{Z}/p^{n}" text="Z / p ^ n" xml:id="S4.p1.m13">
+Furthermore, because each limitand <Math mode="inline" tex="\mathbb{Z}/p^{n}" text="Z / p ^ n" xml:id="S4.p1.m13">
           <XMath>
             <XMApp>
               <XMTok meaning="divide" role="MULOP">/</XMTok>
@@ -3215,7 +3213,7 @@ We call <Math mode="inline" tex="\mathbb{Z}_{p}" text="Z _ p" xml:id="S4.p1.m11"
             </XMApp>
           </XMath>
         </Math> is metrizable by the discrete metric, the countable direct product
-<Math mode="inline" tex="\prod_{n=1}^{\infty}\mathbb{Z}/p^{n}" text="((product _ (n = 1)) ^ infinity)@(Z / p ^ n)" xml:id="S4.p1.m14">
+<!--  %**** profinite.tex Line 175 **** --><Math mode="inline" tex="\prod_{n=1}^{\infty}\mathbb{Z}/p^{n}" text="((product _ (n = 1)) ^ infinity)@(Z / p ^ n)" xml:id="S4.p1.m14">
           <XMath>
             <XMApp>
               <XMApp>
@@ -3688,8 +3686,7 @@ and <Math mode="inline" tex="v_{3}(11)=0" text="v _ 3 * 11 = 0" xml:id="S5.p1.m6
               <XMTok meaning="0" role="NUMBER">0</XMTok>
             </XMApp>
           </XMath>
-        </Math>. The <text font="bold">Chinese remainder theorem</text> states that
-<!--  %**** profinite.tex Line 200 **** --></p>
+        </Math>. The <text font="bold">Chinese remainder theorem</text> states that</p>
       <equation xml:id="S5.Ex20">
         <Math mode="display" tex="\mathbb{Z}/n\cong\prod_{p}\mathbb{Z}/p^{v_{p}(n)}." text="Z / n approximately-equals (product _ p)@(Z / p ^ (v _ p * n))" xml:id="S5.Ex20.m1">
           <XMath>
@@ -3700,7 +3697,7 @@ and <Math mode="inline" tex="v_{3}(11)=0" text="v _ 3 * 11 = 0" xml:id="S5.p1.m6
                   <XMTok meaning="approximately-equals" name="cong" role="RELOP">≅</XMTok>
                   <XMApp>
                     <XMTok meaning="divide" role="MULOP">/</XMTok>
-                    <XMTok font="blackboard" role="UNKNOWN">Z</XMTok>
+<!--  %**** profinite.tex Line 200 **** -->                    <XMTok font="blackboard" role="UNKNOWN">Z</XMTok>
                     <XMTok font="italic" role="UNKNOWN">n</XMTok>
                   </XMApp>
                   <XMApp>
@@ -4104,12 +4101,12 @@ we say that a family of group homomorphisms <Math mode="inline" tex="\psi_{i}:A_
                   </XMApp>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-<!--  %**** profinite.tex Line 225 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
       </equation>
-    </para>
+<!--  %**** profinite.tex Line 225 **** -->    </para>
     <para xml:id="S6.p3">
       <p>An abelian group <Math mode="inline" tex="A" text="A" xml:id="S6.p3.m1">
           <XMath>
@@ -4496,7 +4493,7 @@ if <Math mode="inline" tex="G_{i}" text="G _ i" xml:id="S7.p2.m1">
             </XMApp>
           </XMath>
         </Math>, then
-<!--  %**** profinite.tex Line 250 **** -->the Pontryagin dual of the inverse limit is isomorphic to the direct limit of the Pontryagin duals of the <Math mode="inline" tex="G_{i}" text="G _ i" xml:id="S7.p2.m4">
+the Pontryagin dual of the inverse limit is isomorphic to the direct limit of the Pontryagin duals of the <Math mode="inline" tex="G_{i}" text="G _ i" xml:id="S7.p2.m4">
           <XMath>
             <XMApp>
               <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -4505,7 +4502,7 @@ if <Math mode="inline" tex="G_{i}" text="G _ i" xml:id="S7.p2.m1">
             </XMApp>
           </XMath>
         </Math>, and that the
-direct limit is equal to the union of the images of the Pontryagin duals.<note mark="9" role="footnote" xml:id="footnote9"><tags>
+<!--  %**** profinite.tex Line 250 **** -->direct limit is equal to the union of the images of the Pontryagin duals.<note mark="9" role="footnote" xml:id="footnote9"><tags>
             <tag>9</tag>
             <tag role="autoref">footnote 9</tag>
             <tag role="refnum">9</tag>
@@ -4916,20 +4913,11 @@ For <Math mode="inline" tex="n\geq m" text="n &gt;= m" xml:id="S8.p1.m5">
       </equation>
       <p>be the projection map. The following diagram commutes:</p>
     </para>
-<!--  %**** profinite.tex Line 275 **** -->    <ERROR class="ltx_centering undefined">{tikzcd}</ERROR>
-    <para align="center" xml:id="S8.p2">
-      <p><text font="blackboard">R</text> <ERROR class="undefined">\arrow</ERROR>r<Math mode="inline" tex="\mathrm{$}{id}" text="i * d" xml:id="S8.p2.m1">
-          <XMath>
-            <XMApp>
-              <XMTok meaning="times" role="MULOP">⁢</XMTok>
-              <XMTok font="italic" role="UNKNOWN">i</XMTok>
-              <XMTok font="italic" role="UNKNOWN">d</XMTok>
-            </XMApp>
-          </XMath>
-        </Math> <ERROR class="undefined">\arrow</ERROR>d<text font="italic">π</text>_n
-&amp;<text font="blackboard">R</text> <ERROR class="undefined">\arrow</ERROR>d<text font="italic">π</text>_m</p>
-      <p><text font="blackboard">R</text>/p^n<text font="blackboard">Z</text> <ERROR class="undefined">\arrow</ERROR>r<text font="italic">φ</text>_n,m &amp;<text font="blackboard">R</text>/p^m<text font="blackboard">Z</text></p>
-      <p>It is immediate that the compact abelian groups <Math mode="inline" tex="\mathbb{R}/p^{n}" text="R / p ^ n" xml:id="S8.p2.m2">
+    <figure placement="h" xml:id="S8.fig1">
+<!--  %**** profinite.tex Line 275 **** -->      <graphics candidates="tikz.aux,tikz.dvi,tikz.log,tikz.pdf,tikz.tex" class="ltx_centering" graphic="tikz" options="width=173.448pt" xml:id="S8.g1"/>
+    </figure>
+    <para xml:id="S8.p2">
+      <p>It is immediate that the compact abelian groups <Math mode="inline" tex="\mathbb{R}/p^{n}" text="R / p ^ n" xml:id="S8.p2.m1">
           <XMath>
             <XMApp>
               <XMTok meaning="divide" role="MULOP">/</XMTok>
@@ -4941,7 +4929,7 @@ For <Math mode="inline" tex="n\geq m" text="n &gt;= m" xml:id="S8.p1.m5">
               </XMApp>
             </XMApp>
           </XMath>
-        </Math> and the morphisms <Math mode="inline" tex="\varphi_{n,m}" text="varphi _ (list@(n, m))" xml:id="S8.p2.m3">
+        </Math> and the morphisms <Math mode="inline" tex="\varphi_{n,m}" text="varphi _ (list@(n, m))" xml:id="S8.p2.m2">
           <XMath>
             <XMApp>
               <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -4949,18 +4937,18 @@ For <Math mode="inline" tex="n\geq m" text="n &gt;= m" xml:id="S8.p1.m5">
               <XMDual>
                 <XMApp>
                   <XMTok meaning="list"/>
-                  <XMRef idref="S8.p2.m3.1"/>
-                  <XMRef idref="S8.p2.m3.2"/>
+                  <XMRef idref="S8.p2.m2.1"/>
+                  <XMRef idref="S8.p2.m2.2"/>
                 </XMApp>
                 <XMWrap>
-                  <XMTok font="italic" fontsize="70%" role="UNKNOWN" xml:id="S8.p2.m3.1">n</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN" xml:id="S8.p2.m2.1">n</XMTok>
                   <XMTok fontsize="70%" role="PUNCT">,</XMTok>
-                  <XMTok font="italic" fontsize="70%" role="UNKNOWN" xml:id="S8.p2.m3.2">m</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN" xml:id="S8.p2.m2.2">m</XMTok>
                 </XMWrap>
               </XMDual>
             </XMApp>
           </XMath>
-        </Math>, <Math mode="inline" tex="n\geq m" text="n &gt;= m" xml:id="S8.p2.m4">
+        </Math>, <Math mode="inline" tex="n\geq m" text="n &gt;= m" xml:id="S8.p2.m3">
           <XMath>
             <XMApp>
               <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
@@ -4969,12 +4957,12 @@ For <Math mode="inline" tex="n\geq m" text="n &gt;= m" xml:id="S8.p1.m5">
             </XMApp>
           </XMath>
         </Math>,
-are an inverse system. We call the inverse limit of this sytem the <Math mode="inline" tex="p" text="p" xml:id="S8.p2.m5">
+are an inverse system. We call the inverse limit of this sytem the <Math mode="inline" tex="p" text="p" xml:id="S8.p2.m4">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">p</XMTok>
           </XMath>
         </Math><text font="bold">-adic solenoid</text>, denoted
-<Math mode="inline" tex="\mathbb{T}_{p}" text="T _ p" xml:id="S8.p2.m6">
+<Math mode="inline" tex="\mathbb{T}_{p}" text="T _ p" xml:id="S8.p2.m5">
           <XMath>
             <XMApp>
               <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -4982,7 +4970,7 @@ are an inverse system. We call the inverse limit of this sytem the <Math mode="i
               <XMTok font="italic" fontsize="70%" role="UNKNOWN">p</XMTok>
             </XMApp>
           </XMath>
-        </Math>, with morphisms <Math mode="inline" tex="\varphi_{n}:\mathbb{T}_{p}\to\mathbb{R}/p^{n}\mathbb{Z}" text="varphi _ n colon T _ p to (R / p ^ n) * Z" xml:id="S8.p2.m7">
+        </Math>, with morphisms <Math mode="inline" tex="\varphi_{n}:\mathbb{T}_{p}\to\mathbb{R}/p^{n}\mathbb{Z}" text="varphi _ n colon T _ p to (R / p ^ n) * Z" xml:id="S8.p2.m6">
           <XMath>
             <XMApp>
               <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -5029,7 +5017,7 @@ are an inverse system. We call the inverse limit of this sytem the <Math mode="i
               </XMath>
             </Math>-adic Analysis</text>, p. 54, Appendix to Chapter 1, and
 Karl A. Hofmann and Sidney A. Morris, <text font="italic">The Lie Theory of Connected Pro-Lie Groups</text>, p. 589, Example 14.4.</note>
-<Math mode="inline" tex="\mathbb{T}_{p}" text="T _ p" xml:id="S8.p2.m8">
+<Math mode="inline" tex="\mathbb{T}_{p}" text="T _ p" xml:id="S8.p2.m7">
           <XMath>
             <XMApp>
               <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -5038,7 +5026,9 @@ Karl A. Hofmann and Sidney A. Morris, <text font="italic">The Lie Theory of Conn
             </XMApp>
           </XMath>
         </Math> is a compact abelian group.</p>
-      <p>One proves that each morphism <Math mode="inline" tex="\varphi_{n}:\mathbb{T}_{p}\to\mathbb{R}/p^{n}\mathbb{Z}" text="varphi _ n colon T _ p to (R / p ^ n) * Z" xml:id="S8.p2.m9">
+    </para>
+    <para xml:id="S8.p3">
+      <p>One proves that each morphism <Math mode="inline" tex="\varphi_{n}:\mathbb{T}_{p}\to\mathbb{R}/p^{n}\mathbb{Z}" text="varphi _ n colon T _ p to (R / p ^ n) * Z" xml:id="S8.p3.m1">
           <XMath>
             <XMApp>
               <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -5071,11 +5061,11 @@ Karl A. Hofmann and Sidney A. Morris, <text font="italic">The Lie Theory of Conn
             </XMApp>
           </XMath>
         </Math> is onto.
-We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p2.m10">
+We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p3.m2">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">p</XMTok>
           </XMath>
-        </Math>-adic solenoid to the <Math mode="inline" tex="p" text="p" xml:id="S8.p2.m11">
+        </Math>-adic solenoid to the <Math mode="inline" tex="p" text="p" xml:id="S8.p3.m3">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">p</XMTok>
           </XMath>
@@ -5089,7 +5079,7 @@ We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p2.m10">
                 <XMTok role="UNKNOWN">p</XMTok>
               </XMath>
             </Math>-adic Analysis</text>, p. 55, Appendix A.1.</note>
-<Math mode="inline" tex="\mathbb{Z}\subset\mathbb{R}" text="Z subset-of R" xml:id="S8.p2.m12">
+<Math mode="inline" tex="\mathbb{Z}\subset\mathbb{R}" text="Z subset-of R" xml:id="S8.p3.m4">
           <XMath>
             <XMApp>
               <XMTok meaning="subset-of" name="subset" role="RELOP">⊂</XMTok>
@@ -5097,7 +5087,7 @@ We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p2.m10">
               <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
             </XMApp>
           </XMath>
-        </Math> implies that <Math mode="inline" tex="\mathbb{Z}/p^{n}=\mathbb{Z}/p^{n}\mathbb{Z}\subset\mathbb{R}/p^{n}\mathbb{Z}" text="Z / p ^ n = (Z / p ^ n) * Z subset-of (R / p ^ n) * Z" xml:id="S8.p2.m13">
+        </Math> implies that <Math mode="inline" tex="\mathbb{Z}/p^{n}=\mathbb{Z}/p^{n}\mathbb{Z}\subset\mathbb{R}/p^{n}\mathbb{Z}" text="Z / p ^ n = (Z / p ^ n) * Z subset-of (R / p ^ n) * Z" xml:id="S8.p3.m5">
           <XMath>
             <XMApp>
               <XMTok meaning="multirelation"/>
@@ -5140,7 +5130,7 @@ We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p2.m10">
               </XMApp>
             </XMApp>
           </XMath>
-        </Math>. We model <Math mode="inline" tex="\mathbb{Z}_{p}" text="Z _ p" xml:id="S8.p2.m14">
+        </Math>. We model <Math mode="inline" tex="\mathbb{Z}_{p}" text="Z _ p" xml:id="S8.p3.m6">
           <XMath>
             <XMApp>
               <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -5149,7 +5139,7 @@ We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p2.m10">
             </XMApp>
           </XMath>
         </Math> as a subset of the direct product
-<Math mode="inline" tex="\prod\mathbb{Z}/p^{n}" text="product@(Z / p ^ n)" xml:id="S8.p2.m15">
+<Math mode="inline" tex="\prod\mathbb{Z}/p^{n}" text="product@(Z / p ^ n)" xml:id="S8.p3.m7">
           <XMath>
             <XMApp>
               <XMTok mathstyle="text" meaning="product" name="prod" role="SUMOP" scriptpos="post">∏</XMTok>
@@ -5164,7 +5154,7 @@ We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p2.m10">
               </XMApp>
             </XMApp>
           </XMath>
-        </Math> and model <Math mode="inline" tex="\mathbb{T}_{p}" text="T _ p" xml:id="S8.p2.m16">
+        </Math> and model <Math mode="inline" tex="\mathbb{T}_{p}" text="T _ p" xml:id="S8.p3.m8">
           <XMath>
             <XMApp>
               <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -5173,7 +5163,7 @@ We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p2.m10">
             </XMApp>
           </XMath>
         </Math> as a subset of the direct product
-<Math mode="inline" tex="\prod\mathbb{R}/p^{n}\mathbb{Z}" text="product@((R / p ^ n) * Z)" xml:id="S8.p2.m17">
+<Math mode="inline" tex="\prod\mathbb{R}/p^{n}\mathbb{Z}" text="product@((R / p ^ n) * Z)" xml:id="S8.p3.m9">
           <XMath>
             <XMApp>
               <XMTok mathstyle="text" meaning="product" name="prod" role="SUMOP" scriptpos="post">∏</XMTok>
@@ -5194,7 +5184,7 @@ We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p2.m10">
           </XMath>
         </Math>, and thus the statement of the following theorem makes sense.</p>
     </para>
-    <theorem class="ltx_centering ltx_theorem_theorem" inlist="thm theorem:theorem" xml:id="Thmtheorem3">
+    <theorem class="ltx_theorem_theorem" inlist="thm theorem:theorem" xml:id="Thmtheorem3">
       <tags>
         <tag>Theorem 3</tag>
         <tag role="autoref">Theorem 3</tag>
@@ -5233,6 +5223,5 @@ We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p2.m10">
           </Math><text font="italic">.</text></p>
       </para>
     </theorem>
-<!--  %**** profinite.tex Line 300 **** -->    <pagination class="ltx_centering" role="newpage"/>
   </section>
 </document>
