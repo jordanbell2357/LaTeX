@@ -1,38 +1,38 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: ising.aux
-The style file: amsplain.bst
+The style file: plain.bst
 Database file #1: ising.bib
 You've used 6 entries,
-            2213 wiz_defined-function locations,
-            542 strings with 4562 characters,
-and the built_in function-call counts, 1489 in all, are:
-= -- 124
+            2118 wiz_defined-function locations,
+            540 strings with 4644 characters,
+and the built_in function-call counts, 1510 in all, are:
+= -- 146
 > -- 42
 < -- 2
 + -- 20
 - -- 12
-* -- 108
-:= -- 246
-add.period$ -- 6
+* -- 85
+:= -- 261
+add.period$ -- 19
 call.type$ -- 6
-change.case$ -- 24
+change.case$ -- 21
 chr.to.int$ -- 0
 cite$ -- 6
-duplicate$ -- 71
-empty$ -- 153
+duplicate$ -- 66
+empty$ -- 143
 format.name$ -- 12
-if$ -- 308
+if$ -- 314
 int.to.chr$ -- 0
 int.to.str$ -- 6
-missing$ -- 14
-newline$ -- 28
+missing$ -- 8
+newline$ -- 34
 num.names$ -- 12
-pop$ -- 39
+pop$ -- 32
 preamble$ -- 1
 purify$ -- 18
 quote$ -- 0
-skip$ -- 34
+skip$ -- 40
 stack$ -- 0
 substring$ -- 82
 swap$ -- 9
@@ -43,4 +43,4 @@ type$ -- 18
 warning$ -- 0
 while$ -- 16
 width$ -- 7
-write$ -- 63
+write$ -- 70

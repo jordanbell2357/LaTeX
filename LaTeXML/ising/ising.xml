@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeX/latex_originals/ising"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeX/LaTeXML/ising"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,graphicx,subfig"?>
 <?latexml RelaxNGSchema="LaTeXML"?>
@@ -3168,7 +3168,7 @@ that the limit Gibbs measures gives different measures to the set <Math mode="in
       <p>Minlos <cite class="ltx_citemacro_cite">[<bibref bibrefs="minlos" separator="," yyseparator=","/>]</cite>, Sinai <cite class="ltx_citemacro_cite">[<bibref bibrefs="MR691854" separator="," yyseparator=","/>]</cite>, Cipra <cite class="ltx_citemacro_cite">[<bibref bibrefs="MR936054" separator="," yyseparator=","/>]</cite>, Simon <cite class="ltx_citemacro_cite">[<bibref bibrefs="simon" separator="," yyseparator=","/>]</cite>, Le Ny <cite class="ltx_citemacro_cite">[<bibref bibrefs="ny" separator="," yyseparator=","/>]</cite>, Kadanoff <cite class="ltx_citemacro_cite">[<bibref bibrefs="kadanoff" separator="," yyseparator=","/>]</cite>.</p>
     </para>
   </section>
-  <bibliography bibstyle="amsplain" citestyle="numbers" files="ising" xml:id="bib">
+  <bibliography bibstyle="plain" citestyle="numbers" files="ising" xml:id="bib">
     <title>References</title>
   </bibliography>
 </document>
