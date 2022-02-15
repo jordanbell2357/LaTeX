@@ -1,6 +1,5 @@
 \documentclass{article}
 \usepackage{amsmath,amssymb,graphicx,subfig,mathrsfs,amsthm}
-\usepackage{tikz-cd}
 \newcommand{\inner}[2]{\langle #1, #2 \rangle}
 \newcommand{\Res}{\textrm{Res}} 
 \newcommand{\SO}{\textrm{SO}} 
@@ -196,7 +195,7 @@ of the Lie algebra of symplectic vector fields. It is a fact that the vector spa
 of Hamiltonian vector
 fields is isomorphic to the vector space $H_{\textrm{dR}}^1(M)$; this is why if $H_{\textrm{dR}}^1(M)=\{0\}$ (in particular if $M$ is simply connected) then any symplectic vector field on $M$ is Hamiltonian.
 
-\section{Tautological $1$-form}
+\section{Tautological 1-form}
 Let $Q$ be a smooth manifold and let $\pi:T^*Q \to Q$, $\pi(q,p)=q$. For $x=(q,p) \in T^*Q$, we have
 \[
 d_x \pi: T_x T^* Q \to T_q Q.
@@ -248,14 +247,13 @@ for $x=(q,p)$ by
 \[
 F^\sharp(q,p)=(F(q),(d_{F(q)} (F^{-1}))^*(p)).
 \]
-We call $F^\sharp:T^*Q \to T^*Q$ the {\em cotangent lift} of $F:Q \to Q$. It is a fact that it is a diffeomorphism. It is apparent that the diagram
+We call $F^\sharp:T^*Q \to T^*Q$ the {\em cotangent lift} of $F:Q \to Q$. It is a fact that it is a diffeomorphism. It is apparent that the following diagram commutes:
+
+\begin{figure}
 \begin{center}
-\begin{tikzcd}
-T^*Q \arrow{r}{F^\sharp} \arrow{d}{\pi} & T^*Q \arrow{d}{\pi} \\
-Q \arrow{r}{F} & Q
-\end{tikzcd}
+\includegraphics[width=0.4\textwidth]{tikz}
 \end{center}
-commutes.
+\end{figure}
 
 
 The pull-back of $\theta$ by $F^\sharp$ satisfies, for $x=(q,p) \in T^*Q$ and $(\zeta,\eta)=F^\sharp(q,p) \in T^*Q$,
