@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeX/latex_originals/profinite"?>
-<?latexml package="tikz.sty.ltxml"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,subfig,mathrsfs,amsthm"?>
 <?latexml package="tikz-cd"?>
 <?latexml package="hyperref" options="draft"?>
 <?latexml RelaxNGSchema="LaTeXML"?>
-<document xmlns="http://dlmf.nist.gov/LaTeXML" xmlns:svg="http://www.w3.org/2000/svg" class="ltx_authors_1line">
+<document xmlns="http://dlmf.nist.gov/LaTeXML" class="ltx_authors_1line">
   <resource src="LaTeXML.css" type="text/css"/>
   <resource src="ltx-article.css" type="text/css"/>
   <title>The profinite completion of the integers, the <Math mode="inline" tex="p" text="p" xml:id="m1">
@@ -4917,217 +4916,20 @@ For <Math mode="inline" tex="n\geq m" text="n &gt;= m" xml:id="S8.p1.m5">
       </equation>
       <p>be the projection map. The following diagram commutes:</p>
     </para>
-<!--  %**** profinite.tex Line 275 **** -->    <para align="center" xml:id="S8.p2">
-      <picture height="32.5pt" tex="{\hbox to91.05pt{\vbox to32.48pt{\pgfpicture\makeatletter\hbox to 0.0pt{%&#10;\pgfsys@beginscope{}\definecolor{pgfstrokecolor}{rgb}{0,0,0}%&#10;\pgfsys@color@rgb@stroke{0}{0}{0}{}\pgfsys@color@rgb@fill{0}{0}{0}{}%&#10;\pgfsys@setlinewidth{0.4pt}{}\nullfont\hbox to 0.0pt{\pgfsys@beginscope{}{{}}%&#10;\hbox{\hbox{{\pgfsys@beginscope{}{\offinterlineskip{}{}{{{}}{{}}{{}}{{}}}{{{}}%&#10;}{{}{}{{&#10;{}{}}}{&#10;{}{}}&#10;{{}{{}}}{{}{}}{}{{}{}}&#10;{&#10;}{{{{}}\pgfsys@beginscope{}\pgfsys@transformcm{1.0}{0.0}{0.0}{1.0}{0.0pt}{0.0%&#10;pt}{}\hbox{\vbox{\halign{\cr}{\hskip 7.499886pt\hbox{{\pgfsys@beginscope{}{{}}%&#10;\hbox{\hbox{{\pgfsys@beginscope{}{{}{}{{&#10;{}{}}}{&#10;{}{}}&#10;{{}{{}}}{{}{}}{}{{}{}}&#10;{&#10;}{{{{}}\pgfsys@beginscope{}\pgfsys@transformcm{1.0}{0.0}{0.0}{1.0}{-7.499886pt%&#10;}{-2.499962pt}{}\hbox{{\definecolor{pgfstrokecolor}{rgb}{0,0,0}%&#10;\pgfsys@color@rgb@stroke{0}{0}{0}{}\pgfsys@color@rgb@fill{0}{0}{0}{}\hbox{${%&#10;\mathbb{R}}$}&#10;}}{}{}\pgfsys@endscope}}}&#10;{}{}{}\pgfsys@endscope}}}&#10;{}\pgfsys@endscope{}}}}&amp;\hskip 7.499886pt&amp;{\hskip 31.499886pt\hbox{{%&#10;\pgfsys@beginscope{}{{}}\hbox{\hbox{{\pgfsys@beginscope{}{{}{}{{&#10;{}{}}}{&#10;{}{}}&#10;{{}{{}}}{{}{}}{}{{}{}}&#10;{&#10;}{{{{}}\pgfsys@beginscope{}\pgfsys@transformcm{1.0}{0.0}{0.0}{1.0}{-7.499886pt%&#10;}{-2.499962pt}{}\hbox{{\definecolor{pgfstrokecolor}{rgb}{0,0,0}%&#10;\pgfsys@color@rgb@stroke{0}{0}{0}{}\pgfsys@color@rgb@fill{0}{0}{0}{}\hbox{${%&#10;\mathbb{R}}$}&#10;}}{}{}\pgfsys@endscope}}}&#10;{}{}{}\pgfsys@endscope}}}&#10;{}\pgfsys@endscope}}}&amp;\hskip 7.499886pt\cr\omit\span\@@LTX@noalign{\vskip 18.0%&#10;pt}\omit\cr{\hskip 20.849682pt\hbox{{\pgfsys@beginscope{}{{}}\hbox{\hbox{{%&#10;\pgfsys@beginscope{}{{}{}{{&#10;{}{}}}{&#10;{}{}}&#10;{{}{{}}}{{}{}}{}{{}{}}&#10;{&#10;}{{{{}}\pgfsys@beginscope{}\pgfsys@transformcm{1.0}{0.0}{0.0}{1.0}{-20.849682%&#10;pt}{-3.479947pt}{}\hbox{{\definecolor{pgfstrokecolor}{rgb}{0,0,0}%&#10;\pgfsys@color@rgb@stroke{0}{0}{0}{}\pgfsys@color@rgb@fill{0}{0}{0}{}\hbox{${%&#10;\mathbb{R}/p^{n}\mathbb{Z}}$}&#10;}}{}{}\pgfsys@endscope}}}&#10;{}{}{}\pgfsys@endscope}}}&#10;{}\pgfsys@endscope}}}&amp;\hskip 20.849682pt&amp;{\hskip 44.849682pt\hbox{{%&#10;\pgfsys@beginscope{}{{}}\hbox{\hbox{{\pgfsys@beginscope{}{{}{}{{&#10;{}{}}}{&#10;{}{}}&#10;{{}{{}}}{{}{}}{}{{}{}}&#10;{&#10;}{{{{}}\pgfsys@beginscope{}\pgfsys@transformcm{1.0}{0.0}{0.0}{1.0}{-20.849682%&#10;pt}{-3.479947pt}{}\hbox{{\definecolor{pgfstrokecolor}{rgb}{0,0,0}%&#10;\pgfsys@color@rgb@stroke{0}{0}{0}{}\pgfsys@color@rgb@fill{0}{0}{0}{}\hbox{${%&#10;\mathbb{R}/p^{m}\mathbb{Z}}$}&#10;}}{}{}\pgfsys@endscope}}}&#10;{}{}{}\pgfsys@endscope}}}&#10;{}\pgfsys@endscope}}}&amp;\hskip 20.849682pt}}}{}{}\pgfsys@endscope}}}{{{{}}}{{}}{%&#10;{}}{{}}{{}}}}&#10;{}\pgfsys@endscope}}}&#10;{&#10;{}{}{}}{}{&#10;{}{}{}}&#10;{{{{{}}{&#10;{}{}}{}{}{{}{}}}}}{}{{{{{}}{&#10;{}{}}{}{}{{}{}}}}}{{}}{}{}{}\pgfsys@beginscope{}\pgfsys@setlinewidth{0.0pt}{}{%&#10;}{{&#10;{\pgfsys@beginscope{}&#10;\pgfsys@setdash{}{0.0pt}{}\pgfsys@roundcap{}\pgfsys@roundjoin{}{}&#10;{}{}{}&#10;{}{}{}&#10;\pgfsys@moveto{0.0pt}{0.0pt}\pgfsys@curveto{0.0pt}{0.0pt}{0.0pt}{0.0pt}{0.0pt}%&#10;{0.0pt}\pgfsys@curveto{0.0pt}{0.0pt}{0.0pt}{0.0pt}{0.0pt}{0.0pt}\pgfsys@stroke%&#10;{}{}{}{}\pgfsys@endscope}}&#10;}{}{}{{}}{}{}{{}}\pgfsys@moveto{28.549566pt}{27.979847pt}\pgfsys@lineto{78.849%&#10;16pt}{27.979847pt}\pgfsys@stroke\pgfsys@invoke{ }{{}{{}}{}{}{{}}{{{}}}}{{}{{}}%&#10;{}{}{{}}{{{}}{{{}}{\pgfsys@beginscope{}\pgfsys@transformcm{1.0}{0.0}{0.0}{1.0}%&#10;{78.84916pt}{27.979847pt}{}\pgfsys@invoke{  }{}{}\pgfsys@endscope}}{{}}}}&#10;{}{}\pgfsys@endscope {&#10;{}{}{}}{}{&#10;{}{}{}}&#10;{{{{{}}{&#10;{}{}}{}{}{{}{}}}}}{}{{{{{}}{&#10;{}{}}{}{}{{}{}}}}}{{}}{}{}{}\pgfsys@beginscope{}\pgfsys@setlinewidth{0.0pt}{}{%&#10;}{}{}{}{{}}{}{}{{}}\pgfsys@moveto{20.849681pt}{23.279916pt}\pgfsys@lineto{20.8%&#10;49682pt}{5.679916pt}\pgfsys@stroke\pgfsys@invoke{ }{{}{{}}{}{}{{}}{{{}}}}{{}{{%&#10;}}{}{}{{}}{{{}}{{{}}{\pgfsys@beginscope{}\pgfsys@transformcm{0.0}{-1.0}{1.0}{0%&#10;.0}{20.849682pt}{5.679916pt}{}\pgfsys@invoke{  }{}{}\pgfsys@endscope}}{{}}}}&#10;{}{}\pgfsys@endscope {&#10;{}{}{}}{}{&#10;{}{}{}}&#10;{{{{{}}{&#10;{}{}}{}{}{{}{}}}}}{}{{{{{}}{&#10;{}{}}{}{}{{}{}}}}}{{}}{}{}{}\pgfsys@beginscope{}\pgfsys@setlinewidth{0.0pt}{}{%&#10;}{}{}{}{{}}{}{}{{}}\pgfsys@moveto{86.549046pt}{23.279916pt}\pgfsys@lineto{86.5%&#10;49046pt}{5.679916pt}\pgfsys@stroke\pgfsys@invoke{ }{{}{{}}{}{}{{}}{{{}}}}{{}{{%&#10;}}{}{}{{}}{{{}}{{{}}{\pgfsys@beginscope{}\pgfsys@transformcm{0.0}{-1.0}{1.0}{0%&#10;.0}{86.549046pt}{5.679916pt}{}\pgfsys@invoke{  }{}{}\pgfsys@endscope}}{{}}}}&#10;{}{}\pgfsys@endscope {&#10;{}{}{}}{}{&#10;{}{}{}}&#10;{{{{{}}{&#10;{}{}}{}{}{{}{}}}}}{}{{{{{}}{&#10;{}{}}{}{}{{}{}}}}}{{}}{}{}{}\pgfsys@beginscope{}\pgfsys@setlinewidth{0.0pt}{}{%&#10;}{}{}{}{{}}{}{}{{}}\pgfsys@moveto{41.899364pt}{0.0pt}\pgfsys@lineto{65.499364%&#10;pt}{0.0pt}\pgfsys@stroke\pgfsys@invoke{ }{{}{{}}{}{}{{}}{{{}}}}{{}{{}}{}{}{{}}%&#10;{{{}}{{{}}{\pgfsys@beginscope{}\pgfsys@transformcm{1.0}{0.0}{0.0}{1.0}{65.4993%&#10;64pt}{0.0pt}{}\pgfsys@invoke{  }{}{}\pgfsys@endscope}}{{}}}}&#10;{}{}\pgfsys@endscope &#10;{}\pgfsys@endscope{}{}{}\hss}\pgfsys@discardpath{}{}{}{}\pgfsys@endscope\hss}%&#10;\endpgfpicture}}" width="91.0pt" xml:id="S8.p2.pic1">
-        <svg:svg height="44.94" overflow="visible" version="1.1" viewBox="-3.46 -3.46 125.98 44.94" width="125.98">
-          <svg:g transform="matrix(1 0 0 -1 0 38.02)">
-            <svg:g>
-              <svg:g stroke="#000000">
-                <svg:g fill="#000000">
-                  <svg:g color="#000000" stroke-width="0.4pt">
-                    <svg:g>
-                      <svg:g>
-                        <svg:g>
-                          <svg:g transform="matrix(1 0 0 1 0 0)">
-                            <svg:g class="ltx_tikzmatrix">
-                              <svg:g class="ltx_tikzmatrix_row">
-                                <svg:g class="ltx_tikzmatrix_col ltx_align_right">
-                                  <svg:g>
-                                    <svg:g>
-                                      <svg:g>
-                                        <svg:g transform="matrix(1 0 0 1 -10.38 -3.46)">
-                                          <svg:g class="ltx_svg_fog" transform="matrix(1 0 0 -1 0 12.45)">
-                                            <svg:switch>
-                                              <svg:foreignObject color="#000000" height="100%" overflow="visible" width="20.76"><p/></svg:foreignObject>
-                                              <svg:g stroke="#000000">
-                                                <svg:g fill="#000000">
-                                                  <svg:switch>
-                                                    <svg:foreignObject height="9.0pt" width="7.5pt"><Math mode="inline" tex="{\mathbb{R}}" text="R" xml:id="S8.p2.pic1.m1">
-                                                        <XMath>
-                                                          <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
-                                                        </XMath>
-                                                      </Math></svg:foreignObject>
-                                                  </svg:switch>
-                                                </svg:g>
-                                              </svg:g>
-                                            </svg:switch>
-                                          </svg:g>
-                                        </svg:g>
-                                      </svg:g>
-                                    </svg:g>
-                                  </svg:g>
-                                  <svg:g class="ltx_tikzmatrix_col ltx_align_left"/>
-                                  <svg:g class="ltx_tikzmatrix_col ltx_align_right">
-                                    <svg:g>
-                                      <svg:g>
-                                        <svg:g>
-                                          <svg:g transform="matrix(1 0 0 1 -10.38 -3.46)">
-                                            <svg:g class="ltx_svg_fog" transform="matrix(1 0 0 -1 0 12.45)">
-                                              <svg:switch>
-                                                <svg:foreignObject color="#000000" height="100%" overflow="visible" width="20.76"><p/></svg:foreignObject>
-                                                <svg:g stroke="#000000">
-                                                  <svg:g fill="#000000">
-                                                    <svg:switch>
-                                                      <svg:foreignObject height="9.0pt" width="7.5pt"><Math mode="inline" tex="{\mathbb{R}}" text="R" xml:id="S8.p2.pic1.m2">
-                                                          <XMath>
-                                                            <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
-                                                          </XMath>
-                                                        </Math></svg:foreignObject>
-                                                    </svg:switch>
-                                                  </svg:g>
-                                                </svg:g>
-                                              </svg:switch>
-                                            </svg:g>
-                                          </svg:g>
-                                        </svg:g>
-                                      </svg:g>
-                                    </svg:g>
-                                    <svg:g class="ltx_tikzmatrix_col ltx_align_left"/>
-                                  </svg:g>
-                                  <svg:g class="ltx_tikzmatrix_row">
-                                    <svg:g class="ltx_tikzmatrix_col ltx_align_right">
-                                      <svg:g>
-                                        <svg:g>
-                                          <svg:g>
-                                            <svg:g transform="matrix(1 0 0 1 -28.85 -4.82)">
-                                              <svg:g class="ltx_svg_fog" transform="matrix(1 0 0 -1 0 15.17)">
-                                                <svg:switch>
-                                                  <svg:foreignObject color="#000000" height="100%" overflow="visible" width="57.7"><p/></svg:foreignObject>
-                                                  <svg:g stroke="#000000">
-                                                    <svg:g fill="#000000">
-                                                      <svg:switch>
-                                                        <svg:foreignObject height="11.0pt" width="34.2pt"><Math mode="inline" tex="{\mathbb{R}/p^{n}\mathbb{Z}}" text="(R / p ^ n) * Z" xml:id="S8.p2.pic1.m3">
-                                                            <XMath>
-                                                              <XMApp>
-                                                                <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                                                                <XMApp>
-                                                                  <XMTok meaning="divide" role="MULOP">/</XMTok>
-                                                                  <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
-                                                                  <XMApp>
-                                                                    <XMTok role="SUPERSCRIPTOP" scriptpos="post2"/>
-                                                                    <XMTok font="italic" role="UNKNOWN">p</XMTok>
-                                                                    <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
-                                                                  </XMApp>
-                                                                </XMApp>
-                                                                <XMTok font="blackboard" role="UNKNOWN">Z</XMTok>
-                                                              </XMApp>
-                                                            </XMath>
-                                                          </Math></svg:foreignObject>
-                                                      </svg:switch>
-                                                    </svg:g>
-                                                  </svg:g>
-                                                </svg:switch>
-                                              </svg:g>
-                                            </svg:g>
-                                          </svg:g>
-                                        </svg:g>
-                                      </svg:g>
-                                      <svg:g class="ltx_tikzmatrix_col ltx_align_left"/>
-                                      <svg:g class="ltx_tikzmatrix_col ltx_align_right">
-                                        <svg:g>
-                                          <svg:g>
-                                            <svg:g>
-                                              <svg:g transform="matrix(1 0 0 1 -28.85 -4.82)">
-                                                <svg:g class="ltx_svg_fog" transform="matrix(1 0 0 -1 0 15.17)">
-                                                  <svg:switch>
-                                                    <svg:foreignObject color="#000000" height="100%" overflow="visible" width="57.7"><p/></svg:foreignObject>
-                                                    <svg:g stroke="#000000">
-                                                      <svg:g fill="#000000">
-                                                        <svg:switch>
-                                                          <svg:foreignObject height="11.0pt" width="34.2pt"><Math mode="inline" tex="{\mathbb{R}/p^{m}\mathbb{Z}}" text="(R / p ^ m) * Z" xml:id="S8.p2.pic1.m4">
-                                                              <XMath>
-                                                                <XMApp>
-                                                                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                                                                  <XMApp>
-                                                                    <XMTok meaning="divide" role="MULOP">/</XMTok>
-                                                                    <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
-                                                                    <XMApp>
-                                                                      <XMTok role="SUPERSCRIPTOP" scriptpos="post2"/>
-                                                                      <XMTok font="italic" role="UNKNOWN">p</XMTok>
-                                                                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">m</XMTok>
-                                                                    </XMApp>
-                                                                  </XMApp>
-                                                                  <XMTok font="blackboard" role="UNKNOWN">Z</XMTok>
-                                                                </XMApp>
-                                                              </XMath>
-                                                            </Math></svg:foreignObject>
-                                                        </svg:switch>
-                                                      </svg:g>
-                                                    </svg:g>
-                                                  </svg:switch>
-                                                </svg:g>
-                                              </svg:g>
-                                            </svg:g>
-                                          </svg:g>
-                                        </svg:g>
-                                        <svg:g class="ltx_tikzmatrix_col ltx_align_left"/>
-                                      </svg:g>
-                                    </svg:g>
-                                  </svg:g>
-                                </svg:g>
-                              </svg:g>
-                              <svg:g>
-                                <svg:g stroke-width="0.0pt">
-                                  <svg:g>
-                                    <svg:g stroke-dasharray="none" stroke-dashoffset="0.0pt">
-                                      <svg:g stroke-linecap="round">
-                                        <svg:g stroke-linejoin="round"/>
-                                      </svg:g>
-                                    </svg:g>
-                                  </svg:g>
-                                  <svg:path d="M 39.5 38.72 L 109.1 38.72" style="fill:none"/>
-                                  <svg:g>
-                                    <svg:g transform="matrix(1 0 0 1 109.1 38.72)">
-                                      <svg:path d="M 0 0 C 0 0 0 0 0 0 C 0 0 0 0 0 0" style="fill:none"/>
-                                    </svg:g>
-                                  </svg:g>
-                                </svg:g>
-                              </svg:g>
-                              <svg:g>
-                                <svg:g stroke-width="0.0pt">
-                                  <svg:path d="M 28.85 32.21 L 28.85 7.86" style="fill:none"/>
-                                  <svg:g>
-                                    <svg:g transform="matrix(0 -1 1 0 28.85 7.86)">
-                                      <svg:path d="M 0 0 C 0 0 0 0 0 0 C 0 0 0 0 0 0" style="fill:none"/>
-                                    </svg:g>
-                                  </svg:g>
-                                </svg:g>
-                              </svg:g>
-                              <svg:g>
-                                <svg:g stroke-width="0.0pt">
-                                  <svg:path d="M 119.76 32.21 L 119.76 7.86" style="fill:none"/>
-                                  <svg:g>
-                                    <svg:g transform="matrix(0 -1 1 0 119.76 7.86)">
-                                      <svg:path d="M 0 0 C 0 0 0 0 0 0 C 0 0 0 0 0 0" style="fill:none"/>
-                                    </svg:g>
-                                  </svg:g>
-                                </svg:g>
-                              </svg:g>
-                              <svg:g>
-                                <svg:g stroke-width="0.0pt">
-                                  <svg:path d="M 57.98 0 L 90.63 0" style="fill:none"/>
-                                  <svg:g>
-                                    <svg:g transform="matrix(1 0 0 1 90.63 0)">
-                                      <svg:path d="M 0 0 C 0 0 0 0 0 0 C 0 0 0 0 0 0" style="fill:none"/>
-                                    </svg:g>
-                                  </svg:g>
-                                </svg:g>
-                              </svg:g>
-                            </svg:g>
-                          </svg:g>
-                        </svg:g>
-                      </svg:g>
-                    </svg:g>
-                  </svg:g>
-                </svg:g>
-              </svg:g>
-            </svg:g>
-          </svg:g>
-        </svg:svg>
-      </picture>
-    </para>
-    <para xml:id="S8.p3">
-      <p>It is immediate that the compact abelian groups <Math mode="inline" tex="\mathbb{R}/p^{n}" text="R / p ^ n" xml:id="S8.p3.m1">
+<!--  %**** profinite.tex Line 275 **** -->    <ERROR class="ltx_centering undefined">{tikzcd}</ERROR>
+    <para align="center" xml:id="S8.p2">
+      <p><text font="blackboard">R</text> <ERROR class="undefined">\arrow</ERROR>r<Math mode="inline" tex="\mathrm{$}{id}" text="i * d" xml:id="S8.p2.m1">
+          <XMath>
+            <XMApp>
+              <XMTok meaning="times" role="MULOP">⁢</XMTok>
+              <XMTok font="italic" role="UNKNOWN">i</XMTok>
+              <XMTok font="italic" role="UNKNOWN">d</XMTok>
+            </XMApp>
+          </XMath>
+        </Math> <ERROR class="undefined">\arrow</ERROR>d<text font="italic">π</text>_n
+&amp;<text font="blackboard">R</text> <ERROR class="undefined">\arrow</ERROR>d<text font="italic">π</text>_m</p>
+      <p><text font="blackboard">R</text>/p^n<text font="blackboard">Z</text> <ERROR class="undefined">\arrow</ERROR>r<text font="italic">φ</text>_n,m &amp;<text font="blackboard">R</text>/p^m<text font="blackboard">Z</text></p>
+      <p>It is immediate that the compact abelian groups <Math mode="inline" tex="\mathbb{R}/p^{n}" text="R / p ^ n" xml:id="S8.p2.m2">
           <XMath>
             <XMApp>
               <XMTok meaning="divide" role="MULOP">/</XMTok>
@@ -5139,7 +4941,7 @@ For <Math mode="inline" tex="n\geq m" text="n &gt;= m" xml:id="S8.p1.m5">
               </XMApp>
             </XMApp>
           </XMath>
-        </Math> and the morphisms <Math mode="inline" tex="\varphi_{n,m}" text="varphi _ (list@(n, m))" xml:id="S8.p3.m2">
+        </Math> and the morphisms <Math mode="inline" tex="\varphi_{n,m}" text="varphi _ (list@(n, m))" xml:id="S8.p2.m3">
           <XMath>
             <XMApp>
               <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -5147,18 +4949,18 @@ For <Math mode="inline" tex="n\geq m" text="n &gt;= m" xml:id="S8.p1.m5">
               <XMDual>
                 <XMApp>
                   <XMTok meaning="list"/>
-                  <XMRef idref="S8.p3.m2.1"/>
-                  <XMRef idref="S8.p3.m2.2"/>
+                  <XMRef idref="S8.p2.m3.1"/>
+                  <XMRef idref="S8.p2.m3.2"/>
                 </XMApp>
                 <XMWrap>
-                  <XMTok font="italic" fontsize="70%" role="UNKNOWN" xml:id="S8.p3.m2.1">n</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN" xml:id="S8.p2.m3.1">n</XMTok>
                   <XMTok fontsize="70%" role="PUNCT">,</XMTok>
-                  <XMTok font="italic" fontsize="70%" role="UNKNOWN" xml:id="S8.p3.m2.2">m</XMTok>
+                  <XMTok font="italic" fontsize="70%" role="UNKNOWN" xml:id="S8.p2.m3.2">m</XMTok>
                 </XMWrap>
               </XMDual>
             </XMApp>
           </XMath>
-        </Math>, <Math mode="inline" tex="n\geq m" text="n &gt;= m" xml:id="S8.p3.m3">
+        </Math>, <Math mode="inline" tex="n\geq m" text="n &gt;= m" xml:id="S8.p2.m4">
           <XMath>
             <XMApp>
               <XMTok meaning="greater-than-or-equals" name="geq" role="RELOP">≥</XMTok>
@@ -5167,12 +4969,12 @@ For <Math mode="inline" tex="n\geq m" text="n &gt;= m" xml:id="S8.p1.m5">
             </XMApp>
           </XMath>
         </Math>,
-are an inverse system. We call the inverse limit of this sytem the <Math mode="inline" tex="p" text="p" xml:id="S8.p3.m4">
+are an inverse system. We call the inverse limit of this sytem the <Math mode="inline" tex="p" text="p" xml:id="S8.p2.m5">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">p</XMTok>
           </XMath>
         </Math><text font="bold">-adic solenoid</text>, denoted
-<Math mode="inline" tex="\mathbb{T}_{p}" text="T _ p" xml:id="S8.p3.m5">
+<Math mode="inline" tex="\mathbb{T}_{p}" text="T _ p" xml:id="S8.p2.m6">
           <XMath>
             <XMApp>
               <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -5180,7 +4982,7 @@ are an inverse system. We call the inverse limit of this sytem the <Math mode="i
               <XMTok font="italic" fontsize="70%" role="UNKNOWN">p</XMTok>
             </XMApp>
           </XMath>
-        </Math>, with morphisms <Math mode="inline" tex="\varphi_{n}:\mathbb{T}_{p}\to\mathbb{R}/p^{n}\mathbb{Z}" text="varphi _ n colon T _ p to (R / p ^ n) * Z" xml:id="S8.p3.m6">
+        </Math>, with morphisms <Math mode="inline" tex="\varphi_{n}:\mathbb{T}_{p}\to\mathbb{R}/p^{n}\mathbb{Z}" text="varphi _ n colon T _ p to (R / p ^ n) * Z" xml:id="S8.p2.m7">
           <XMath>
             <XMApp>
               <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -5227,7 +5029,7 @@ are an inverse system. We call the inverse limit of this sytem the <Math mode="i
               </XMath>
             </Math>-adic Analysis</text>, p. 54, Appendix to Chapter 1, and
 Karl A. Hofmann and Sidney A. Morris, <text font="italic">The Lie Theory of Connected Pro-Lie Groups</text>, p. 589, Example 14.4.</note>
-<Math mode="inline" tex="\mathbb{T}_{p}" text="T _ p" xml:id="S8.p3.m7">
+<Math mode="inline" tex="\mathbb{T}_{p}" text="T _ p" xml:id="S8.p2.m8">
           <XMath>
             <XMApp>
               <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -5236,9 +5038,7 @@ Karl A. Hofmann and Sidney A. Morris, <text font="italic">The Lie Theory of Conn
             </XMApp>
           </XMath>
         </Math> is a compact abelian group.</p>
-    </para>
-    <para xml:id="S8.p4">
-      <p>One proves that each morphism <Math mode="inline" tex="\varphi_{n}:\mathbb{T}_{p}\to\mathbb{R}/p^{n}\mathbb{Z}" text="varphi _ n colon T _ p to (R / p ^ n) * Z" xml:id="S8.p4.m1">
+      <p>One proves that each morphism <Math mode="inline" tex="\varphi_{n}:\mathbb{T}_{p}\to\mathbb{R}/p^{n}\mathbb{Z}" text="varphi _ n colon T _ p to (R / p ^ n) * Z" xml:id="S8.p2.m9">
           <XMath>
             <XMApp>
               <XMTok name="colon" role="METARELOP">:</XMTok>
@@ -5271,11 +5071,11 @@ Karl A. Hofmann and Sidney A. Morris, <text font="italic">The Lie Theory of Conn
             </XMApp>
           </XMath>
         </Math> is onto.
-We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p4.m2">
+We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p2.m10">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">p</XMTok>
           </XMath>
-        </Math>-adic solenoid to the <Math mode="inline" tex="p" text="p" xml:id="S8.p4.m3">
+        </Math>-adic solenoid to the <Math mode="inline" tex="p" text="p" xml:id="S8.p2.m11">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">p</XMTok>
           </XMath>
@@ -5289,7 +5089,7 @@ We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p4.m2">
                 <XMTok role="UNKNOWN">p</XMTok>
               </XMath>
             </Math>-adic Analysis</text>, p. 55, Appendix A.1.</note>
-<Math mode="inline" tex="\mathbb{Z}\subset\mathbb{R}" text="Z subset-of R" xml:id="S8.p4.m4">
+<Math mode="inline" tex="\mathbb{Z}\subset\mathbb{R}" text="Z subset-of R" xml:id="S8.p2.m12">
           <XMath>
             <XMApp>
               <XMTok meaning="subset-of" name="subset" role="RELOP">⊂</XMTok>
@@ -5297,7 +5097,7 @@ We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p4.m2">
               <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
             </XMApp>
           </XMath>
-        </Math> implies that <Math mode="inline" tex="\mathbb{Z}/p^{n}=\mathbb{Z}/p^{n}\mathbb{Z}\subset\mathbb{R}/p^{n}\mathbb{Z}" text="Z / p ^ n = (Z / p ^ n) * Z subset-of (R / p ^ n) * Z" xml:id="S8.p4.m5">
+        </Math> implies that <Math mode="inline" tex="\mathbb{Z}/p^{n}=\mathbb{Z}/p^{n}\mathbb{Z}\subset\mathbb{R}/p^{n}\mathbb{Z}" text="Z / p ^ n = (Z / p ^ n) * Z subset-of (R / p ^ n) * Z" xml:id="S8.p2.m13">
           <XMath>
             <XMApp>
               <XMTok meaning="multirelation"/>
@@ -5340,7 +5140,7 @@ We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p4.m2">
               </XMApp>
             </XMApp>
           </XMath>
-        </Math>. We model <Math mode="inline" tex="\mathbb{Z}_{p}" text="Z _ p" xml:id="S8.p4.m6">
+        </Math>. We model <Math mode="inline" tex="\mathbb{Z}_{p}" text="Z _ p" xml:id="S8.p2.m14">
           <XMath>
             <XMApp>
               <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -5349,7 +5149,7 @@ We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p4.m2">
             </XMApp>
           </XMath>
         </Math> as a subset of the direct product
-<Math mode="inline" tex="\prod\mathbb{Z}/p^{n}" text="product@(Z / p ^ n)" xml:id="S8.p4.m7">
+<Math mode="inline" tex="\prod\mathbb{Z}/p^{n}" text="product@(Z / p ^ n)" xml:id="S8.p2.m15">
           <XMath>
             <XMApp>
               <XMTok mathstyle="text" meaning="product" name="prod" role="SUMOP" scriptpos="post">∏</XMTok>
@@ -5364,7 +5164,7 @@ We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p4.m2">
               </XMApp>
             </XMApp>
           </XMath>
-        </Math> and model <Math mode="inline" tex="\mathbb{T}_{p}" text="T _ p" xml:id="S8.p4.m8">
+        </Math> and model <Math mode="inline" tex="\mathbb{T}_{p}" text="T _ p" xml:id="S8.p2.m16">
           <XMath>
             <XMApp>
               <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
@@ -5373,7 +5173,7 @@ We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p4.m2">
             </XMApp>
           </XMath>
         </Math> as a subset of the direct product
-<Math mode="inline" tex="\prod\mathbb{R}/p^{n}\mathbb{Z}" text="product@((R / p ^ n) * Z)" xml:id="S8.p4.m9">
+<Math mode="inline" tex="\prod\mathbb{R}/p^{n}\mathbb{Z}" text="product@((R / p ^ n) * Z)" xml:id="S8.p2.m17">
           <XMath>
             <XMApp>
               <XMTok mathstyle="text" meaning="product" name="prod" role="SUMOP" scriptpos="post">∏</XMTok>
@@ -5394,7 +5194,7 @@ We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p4.m2">
           </XMath>
         </Math>, and thus the statement of the following theorem makes sense.</p>
     </para>
-    <theorem class="ltx_theorem_theorem" inlist="thm theorem:theorem" xml:id="Thmtheorem3">
+    <theorem class="ltx_centering ltx_theorem_theorem" inlist="thm theorem:theorem" xml:id="Thmtheorem3">
       <tags>
         <tag>Theorem 3</tag>
         <tag role="autoref">Theorem 3</tag>
@@ -5433,6 +5233,6 @@ We now relate the <Math mode="inline" tex="p" text="p" xml:id="S8.p4.m2">
           </Math><text font="italic">.</text></p>
       </para>
     </theorem>
-<!--  %**** profinite.tex Line 300 **** -->    <pagination role="newpage"/>
+<!--  %**** profinite.tex Line 300 **** -->    <pagination class="ltx_centering" role="newpage"/>
   </section>
 </document>

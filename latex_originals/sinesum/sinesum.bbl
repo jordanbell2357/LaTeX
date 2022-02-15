@@ -1,15 +1,10 @@
-\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
-\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
-% \MRhref is called by the amsart/book/proc definition of \MR.
-\providecommand{\MRhref}[2]{%
-  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
-}
-\providecommand{\href}[2]{#2}
 \begin{thebibliography}{1}
 
 \bibitem{polya}
-George P\'olya and G\'abor Szeg{\H o}, \emph{Problems and theorems in analysis,
-  volume {II}}, Die Grundlehren der mathematischen Wissenschaften, vol. 216,
-  Springer, 1976, Translated from the German by C. E. Billigheimer.
+George P\'olya and G\'abor Szeg{\H o}.
+\newblock {\em Problems and theorems in analysis, volume {II}}, volume 216 of
+  {\em Die Grundlehren der mathematischen Wissenschaften}.
+\newblock Springer, 1976.
+\newblock Translated from the German by C. E. Billigheimer.
 
 \end{thebibliography}
