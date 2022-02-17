@@ -1,7 +1,0 @@
-sort -o sorted.txt list.txt
-
-awk '{ split($0, w, "@"); printf("[%s](/LaTeXML/mathematics/%s)\n", w[1], w[2]); }' sorted.txt > html.txt
-
-awk '{ split($0, w, "@"); printf("[PDF](/LaTeXML/mathematics/%s/%s.pdf)\n", w[2], w[2]); }' sorted.txt > pdf.txt
-
-awk '{ split($0, w, "@"); printf("<tr><td><a href=\"/LaTeX/LaTeXML/%s\">%s</a></td><td><a href=\"/LaTeX/LaTeXML/%s/%s.pdf\">PDF</a></td></tr>\n", w[2], w[1], w[2], w[2]); }' sorted.txt > html.txt
