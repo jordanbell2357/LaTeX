@@ -54,7 +54,7 @@ The Dirac delta distribution and Green's functions@dirac
 Locally compact abelian groups@LCA
 $C[0,1]$: the Faber-Schauder basis, the Riesz representation theorem, and the Borel $\sigma$-algebra@CK
 $C^k$ spaces and spaces of test functions@Ckspaces
-What is a Costas array?costas
+What is a Costas array?@costas
 Diophantine vectors@diophantinevectors
 The theorem of F. and M. Riesz@fandmriesz
 The inclusion map from the integers to the reals and universal properties of the floor and ceiling functions@flooruniversal
