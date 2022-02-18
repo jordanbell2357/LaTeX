@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/mathematics/weaksymplectic"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeX/LaTeXML/weaksymplectic"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
 <?latexml RelaxNGSchema="LaTeXML"?>
@@ -20356,7 +20356,7 @@ then<note mark="28" role="footnote" xml:id="footnote28"><tags>
           </tags>Henri Cartan,
 <text font="italic">Differential Forms</text>, p. 15, Proposition 1.5.2.</note></p>
       <equation xml:id="S9.Ex95">
-        <Math mode="display" tex="(f\wedge g)\wedge h=f\wedge(f\wedge h)." text="f and g and h = f and f and h" xml:id="S9.Ex95.m1">
+        <Math mode="display" tex="(f\wedge g)\wedge h=f\wedge(g\wedge h)." text="f and g and h = f and g and h" xml:id="S9.Ex95.m1">
           <XMath>
             <XMDual>
               <XMRef idref="S9.Ex95.m1.1"/>
@@ -20388,7 +20388,7 @@ then<note mark="28" role="footnote" xml:id="footnote28"><tags>
                         <XMTok role="OPEN" stretchy="false">(</XMTok>
                         <XMApp xml:id="S9.Ex95.m1.1.2">
                           <XMTok meaning="and" name="wedge" role="ADDOP">∧</XMTok>
-                          <XMTok font="italic" role="UNKNOWN">f</XMTok>
+                          <XMTok font="italic" role="UNKNOWN">g</XMTok>
                           <XMTok font="italic" role="UNKNOWN">h</XMTok>
                         </XMApp>
                         <XMTok role="CLOSE" stretchy="false">)</XMTok>
