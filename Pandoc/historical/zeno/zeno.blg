@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: zeno.aux
+The style file: amsplain.bst
+Database file #1: zeno.bib
+Reallocated field_info (elt_size=4) to 10025 items from 5000.
+You've used 261 entries,
+            2213 wiz_defined-function locations,
+            1720 strings with 33663 characters,
+and the built_in function-call counts, 72613 in all, are:
+= -- 6210
+> -- 2247
+< -- 70
++ -- 943
+- -- 626
+* -- 4969
+:= -- 11321
+add.period$ -- 261
+call.type$ -- 261
+change.case$ -- 1080
+chr.to.int$ -- 0
+cite$ -- 261
+duplicate$ -- 3928
+empty$ -- 7479
+format.name$ -- 626
+if$ -- 16008
+int.to.chr$ -- 0
+int.to.str$ -- 261
+missing$ -- 677
+newline$ -- 793
+num.names$ -- 611
+pop$ -- 1752
+preamble$ -- 1
+purify$ -- 807
+quote$ -- 0
+skip$ -- 2426
+stack$ -- 0
+substring$ -- 3854
+swap$ -- 872
+text.length$ -- 70
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 708
+warning$ -- 0
+while$ -- 775
+width$ -- 264
+write$ -- 2452

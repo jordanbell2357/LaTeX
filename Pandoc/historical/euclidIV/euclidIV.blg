@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: euclidIV.aux
+The style file: amsplain.bst
+Database file #1: euclidIV.bib
+You've used 22 entries,
+            2213 wiz_defined-function locations,
+            618 strings with 6291 characters,
+and the built_in function-call counts, 4795 in all, are:
+= -- 349
+> -- 155
+< -- 6
++ -- 69
+- -- 44
+* -- 295
+:= -- 801
+add.period$ -- 22
+call.type$ -- 22
+change.case$ -- 91
+chr.to.int$ -- 0
+cite$ -- 22
+duplicate$ -- 275
+empty$ -- 535
+format.name$ -- 44
+if$ -- 1026
+int.to.chr$ -- 0
+int.to.str$ -- 22
+missing$ -- 65
+newline$ -- 76
+num.names$ -- 41
+pop$ -- 165
+preamble$ -- 1
+purify$ -- 68
+quote$ -- 0
+skip$ -- 142
+stack$ -- 0
+substring$ -- 113
+swap$ -- 30
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 44
+warning$ -- 0
+while$ -- 40
+width$ -- 24
+write$ -- 202

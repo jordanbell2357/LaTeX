@@ -1,0 +1,305 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{10}
+
+\bibitem{CLT}
+William~J. Adams, \emph{The life and times of the central limit theorem},
+  second ed., History of Mathematics, vol.~35, American Mathematical Society,
+  Providence, RI, 2009.
+
+\bibitem{apostol}
+Tom~M. Apostol, \emph{An elementary view of {E}uler's summation formula}, Amer.
+  Math. Monthly \textbf{106} (1999), no.~5, 409--418.
+
+\bibitem{MR728820}
+D.~H. Arnold, \emph{The m\'ecanique physique of {S}im\'eon {D}enis {P}oisson:
+  the evolution and isolation in {F}rance of his approach to physical theory
+  (1800--1840). {IX}. {P}oisson's closing synthesis: trait\'e de physique
+  math\'ematique}, Arch. Hist. Exact Sci. \textbf{29} (1983), no.~1, 73--94.
+
+\bibitem{MR728819}
+\bysame, \emph{The m\'ecanique physique of {S}im\'eon {D}enis {P}oisson: the
+  evolution and isolation in {F}rance of his approach to physical theory
+  (1800--1840). {VIII}. {A}pplications of the m\'ecanique physique}, Arch.
+  Hist. Exact Sci. \textbf{29} (1983), no.~1, 53--72.
+
+\bibitem{arnold}
+\bysame, \emph{The m\'ecanique physique of {S}im\'eon {D}enis {P}oisson: the
+  evolution and isolation in {F}rance of his approach to physical theory
+  (1800--1840). {X}. {S}ome perspective on {P}oisson's contributions to the
+  emergence of mathematical physics}, Arch. Hist. Exact Sci. \textbf{29}
+  (1984), no.~4, 287--307.
+
+\bibitem{bellhouse}
+David~R. Bellhouse, \emph{Abraham {D}e {M}oivre: setting the stage for
+  classical probability and its applications}, CRC Press, 2011.
+
+\bibitem{boole}
+George Boole, \emph{A treatise on the calculus of finite differences}, third
+  ed., Macmillan, London, 1880.
+
+\bibitem{bourbaki}
+Nicolas Bourbaki, \emph{Elements of mathematics: Functions of a real variable,
+  elementary theory}, Springer, 2004, Translated from the French by Philip
+  Spain.
+
+\bibitem{cirikov}
+M.~V. {\v{C}}irikov, \emph{Sur l'histoire des s\'eries asymptotiques},
+  Istor.-Mat. Issled. \textbf{13} (1960), 441--472.
+
+\bibitem{dale}
+Andrew~I. Dale, \emph{{T}homas {B}ayes's work on infinite series}, Historia
+  Math. \textbf{18} (1991), no.~4, 312--327.
+
+\bibitem{dale2003}
+\bysame, \emph{Most honourable remembrance: The life and work of {T}homas
+  {B}ayes}, Sources and Studies in the History of Mathematics and Physical
+  Sciences, Springer, 2003.
+
+\bibitem{domingues}
+Jo\~{a}o~Caramalho Domingues, \emph{Lacroix and the calculus}, Science Network
+  Historical Studies, vol.~35, Birkh\"auser, 2008.
+
+\bibitem{duistermaat}
+J.~J. Duistermaat and J.~A.~C. Kolk, \emph{Distributions: theory and
+  applications}, Birkh\"auser, 2010, Translated from the Dutch by J. P. van
+  Braam Houckgeest.
+
+\bibitem{dutka1984}
+Jacques Dutka, \emph{The early history of the hypergeometric function}, Arch.
+  Hist. Exact Sci. \textbf{31} (1984), no.~1, 15--34.
+
+\bibitem{dutka1991}
+\bysame, \emph{The early history of the factorial function}, Arch. Hist. Exact
+  Sci. \textbf{43} (1991), no.~3, 225--249.
+
+\bibitem{dutka1996}
+\bysame, \emph{On the summation of some divergent series of {E}uler and the
+  zeta functions}, Arch. Hist. Exact Sci. \textbf{50} (1996), no.~2, 187--200.
+
+\bibitem{estrada}
+Ricardo Estrada and Ram~P. Kanwal, \emph{A distributional approach to
+  asymptotics: Theory and applications}, second ed., Birkh\"auser, 2002.
+
+\bibitem{commerciumII}
+E.~A. Fellmann and G.~K. Mikhajlov (eds.), \emph{Leonhardi {E}uleri {O}pera
+  omnia. {S}eries quarta {A}: {C}ommercium epistolicum. {V}olumen secundum:
+  {B}riefwechsel von {L}eonhard {E}uler mit {J}ohann {I} {B}ernoulli und
+  {N}iklaus {I} {B}ernoulli}, Birkh\"auser, Basel, 1998.
+
+\bibitem{MR885530}
+Emil~A. Fellmann, \emph{Infinite series in the correspondence of {L}eonhard
+  {E}uler and {J}ohn {I} {B}ernoulli}, Bull. Soc. Math. Belg. S\'er. A
+  \textbf{38} (1986), 191--200 (1987). \MR{885530 (88f:01011)}
+
+\bibitem{ferraro1998}
+Giovanni Ferraro, \emph{Some aspects of {E}uler's theory of series:
+  Inexplicable functions and the {E}uler-{M}aclaurin summation formula},
+  Historia Math. \textbf{25} (1998), no.~3, 290--317.
+
+\bibitem{ferraro1999}
+\bysame, \emph{The first modern definition of the sum of a divergent series: an
+  aspect of the rise of 20th century mathematics}, Arch. Hist. Exact Sci.
+  \textbf{54} (1999), no.~2, 101--135.
+
+\bibitem{ferraro2008}
+\bysame, \emph{The rise and development of the theory of series up to the early
+  1820s}, Sources and Studies in the History of Mathematics and Physical
+  Sciences, Springer, 2008.
+
+\bibitem{goldstine}
+Herman~H. Goldstine, \emph{A history of numerical analysis from the 16th
+  through the 19th century}, Studies in the History of Mathematics and Physical
+  Sciences, vol.~2, Springer, 1977.
+
+\bibitem{MR704406}
+I.~A. Golovinski{\u\i}, \emph{The {E}uler-{B}oole summation formula},
+  Istor.-Mat. Issled. (1982), no.~26, 52--91. \MR{704406 (84k:01029)}
+
+\bibitem{gould}
+H.~W. Gould, \emph{Euler's formula for $n$th differences of powers}, Amer.
+  Math. Monthly \textbf{85} (1978), no.~6, 450--467.
+
+\bibitem{cotes}
+Ronald Gowing, \emph{Roger {C}otes, natural philosopher}, Cambridge University
+  Press, 1983.
+
+\bibitem{MR1447973}
+Judith~V. Grabiner, \emph{Was {N}ewton's calculus a dead end? {T}he continental
+  influence of {M}aclaurin's treatise of fluxions}, Amer. Math. Monthly
+  \textbf{104} (1997), no.~5, 393--410.
+
+\bibitem{gusev}
+A.~N. Gusev, \emph{The derivation of the summation formula in {E}uler's
+  writings}, Jaroslav. Gos. Ped. Inst. U\v cen. Zap. Vyp. \textbf{60} (1968),
+  50--54.
+
+\bibitem{havil}
+Julian Havil, \emph{Gamma: exploring {E}uler's constant}, Princeton University
+  Press, 2003.
+
+\bibitem{hildebrand}
+F.~B. Hildebrand, \emph{Introduction to numerical analysis}, second ed., Dover
+  Publications, 1987.
+
+\bibitem{MR0085983}
+Jos.~E. Hofmann, \emph{Zur {E}ntwicklungsgeschichte der {E}ulerschen
+  {S}ummenformel}, Math. Z. \textbf{67} (1957), 139--146. \MR{0085983
+  (19,108a)}
+
+\bibitem{paris}
+Joseph~E. Hofmann, \emph{Leibniz in {P}aris 1672--1676: his growth to
+  mathematical maturity}, Cambridge University Press, 1974, Translated from the
+  German by A. Prag and D. T. Whiteside.
+
+\bibitem{jeffreys}
+Harold Jeffreys, \emph{Asymptotic approximations and notation}, Bull. Inst.
+  Math. Appl. \textbf{10} (1974), no.~9-10, 334--339.
+
+\bibitem{jordan}
+Charles Jordan, \emph{Calculus of finite differences}, third ed., Chelsea
+  Publishing Company, 1965.
+
+\bibitem{knuth}
+Donald~E. Knuth, \emph{The art of computer programming, vol. {I}: Fundamental
+  algorithms}, third ed., Addison-Wesley, 1997.
+
+\bibitem{kolmogorov}
+A.~N. Kolmogorov and A.~P. Yushkevich (eds.), \emph{Mathematics of the 19th
+  century, volume 3}, Birkh\"auser, 1998.
+
+\bibitem{kress}
+Raimer Kress, \emph{Numerical analysis}, Graduate Texts in Mathematics, vol.
+  181, Springer, 1998.
+
+\bibitem{langton}
+Stacy~G. Langton, \emph{Some combinatorics in {J}acob {B}ernoulli's {\it {a}rs
+  conjectandi}}, Euler at 300, MAA Spectrum, Mathematical Association of
+  America, Washington, DC, 2007, pp.~191--202.
+
+\bibitem{lihin}
+V.~V. Lihin, \emph{First investigations in the theory of summation of
+  functions}, History {M}ethodology {N}atur. {S}ci., {N}o. {V}, {M}ath.
+  ({R}ussian), Izdat. Moskov. Univ., Moscow, 1966, pp.~219--227.
+
+\bibitem{MR795457}
+Stella Mills, \emph{The independent derivations by {L}eonhard {E}uler and
+  {C}olin {M}aclaurin of the {E}uler-{M}aclaurin summation formula}, Arch.
+  Hist. Exact Sci. \textbf{33} (1985), no.~1-3, 1--13.
+
+\bibitem{milne}
+L.~M. Milne-Thomson, \emph{The calculus of finite differences}, second ed., AMS
+  Chelsea Publishing, Providence, RI, 2000.
+
+\bibitem{multiplicative}
+Hugh~L. Montgomery and Robert~C. Vaughan, \emph{Multiplicative number theory
+  {I}: Classical theory}, Cambridge Studies in Advanced Mathematics, vol.~97,
+  Cambridge University Press, 2007.
+
+\bibitem{MR0257441}
+Alexander Ostrowski, \emph{Note on {P}oisson's treatment of the
+  {E}uler-{M}aclaurin formula}, Comment. Math. Helv. \textbf{44} (1969),
+  202--206.
+
+\bibitem{ostrowski}
+\bysame, \emph{On the remainder term of the {E}uler-{M}aclaurin formula}, J.
+  Reine Angew. Math. \textbf{239/240} (1969), 268--286.
+
+\bibitem{pearson}
+Karl Pearson, \emph{The history of statistics in the 17th and 18th centuries
+  against the changing background of intellectual, scientific and religious
+  thought}, Macmillan, 1978.
+
+\bibitem{pengelley}
+David~J. Pengelley, \emph{Dances between continuous and discrete: {E}uler's
+  summation formula}, Euler at 300, MAA Spectrum, Mathematical Association of
+  America, Washington, DC, 2007, pp.~169--189.
+
+\bibitem{petrova}
+S.~S. Petrova, \emph{Euler-{M}aclaurin's summation formula, and asymptotic
+  series}, Istor. Metodol. Estestv. Nauk (1989), no.~36, 103--108.
+
+\bibitem{roy}
+Ranjan Roy, \emph{Sources in the development of mathematics}, Cambridge
+  University Press, Cambridge, 2011, Infinite series and products from the
+  fifteenth to the twenty-first century. \MR{2807493 (2012f:01002)}
+
+\bibitem{runge}
+C.~Runge and Fr.~A. Willers, \emph{{Numerische und graphische Quadratur und
+  Integration gew\"ohnlicher partieller Differentialgleichungen}},
+  Encyklop\"adie der Mathematischen Wissenschaften mit Einschluss ihrer
+  Anwendungen, Band II, 3. Teil, 1. H\"alfte (H.~Burkhardt, M.~Wirtinger,
+  R.~Fricke, and E.~Hilb, eds.), B. G. Teubner, Leipzig, 1909--1921,
+  pp.~47--176.
+
+\bibitem{schneider}
+Ivo Schneider, \emph{Der {M}athematiker {A}braham de {M}oivre (1667--1754)},
+  Arch. History Exact Sci. \textbf{5} (1968), no.~3-4, 177--317.
+
+\bibitem{sheynin}
+O.~B. Sheynin, \emph{S. {D}. {P}oisson's work in probability}, Arch. History
+  Exact Sci. \textbf{18} (1977/78), no.~3, 245--300.
+
+\bibitem{sorenson}
+Henrik~Kragh S{\o}rensen, \emph{Throwing some light on the vast darkness that
+  is analysis: {N}iels {H}enrik {A}bel's critical revision and the concept of
+  absolute convergence}, Centaurus \textbf{52} (2010), no.~1, 38--72.
+
+\bibitem{I9}
+Andreas Speiser (ed.), \emph{Leonhardi euleri opera omnia. series prima,
+  volumen nonum: Introductio in analysin infinitorum, tomus secundus}, Orell
+  F\"ussli, Z\"urich, 1945.
+
+\bibitem{stackel}
+Paul St\"ackel, \emph{{Eine vergessene Abhandlung Leonhard Eulers \"uber die
+  Summe der reziproken Quadrate der nat\"urlichen Zahlen}}, Bibliotheca
+  mathematica, 3. Folge \textbf{8} (1907), 37--60.
+
+\bibitem{todhunter}
+Isaac Todhunter, \emph{A history of the mathematical theory of probability:
+  From the time of {P}ascal to that of {L}aplace}, Macmillan, Cambridge and
+  London, 1865.
+
+\bibitem{tweddle1988}
+Ian Tweddle, \emph{James {S}tirling}, Scottish Academic Press, Edinburgh, 1988,
+  ``This about series and such things''.
+
+\bibitem{tweddle1992}
+\bysame, \emph{James {S}tirling's early work on acceleration of convergence},
+  Arch. Hist. Exact Sci. \textbf{45} (1992), no.~2, 105--125.
+
+\bibitem{tweddle2003}
+\bysame, \emph{James {S}tirling's {\it {m}ethodus differentialis}: An annotated
+  translation of {S}tirling's text}, Sources and Studies in the History of
+  Mathematics and Physical Sciences, Springer, 2003.
+
+\bibitem{tweddle2007}
+\bysame, \emph{Mac{L}aurin's physical dissertations}, Sources and Studies in
+  the History of Mathematics and Physical Sciences, Springer, 2007.
+
+\bibitem{varadarajan}
+V.~S. Varadarajan, \emph{Euler through time: a new look at old themes},
+  American Mathematical Society, Providence, RI, 2006.
+
+\bibitem{varadarajan2007}
+\bysame, \emph{Euler and his work on infinite series}, Bull. Amer. Math. Soc.
+  (N.S.) \textbf{44} (2007), no.~4, 515--539.
+
+\bibitem{whitesideIV}
+D.~T. Whiteside (ed.), \emph{The mathematical papers of {I}saac {N}ewton,
+  volume {IV}: 1674--1684}, Cambridge University Press, 1971.
+
+\bibitem{whitesideVIII}
+D.~T. Whiteside (ed.), \emph{The mathematical papers of {I}saac {N}ewton,
+  volume {VIII}: 1697--1722}, Cambridge University Press, 1981.
+
+\bibitem{whittaker}
+E.~T. Whittaker and G.~Robinson, \emph{The calculus of observations: a treatise
+  on numerical mathematics}, Blackie and Son, London, 1924.
+
+\end{thebibliography}

@@ -1,0 +1,339 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{10}
+
+\bibitem{barker}
+Andrew Barker, \emph{Greek musical writings, vol. {II}: Harmonic and acoustic
+  theory}, Cambridge Readings in the Literature of Music, Cambridge University
+  Press, 2004.
+
+\bibitem{bellhouse}
+D.~R. Bellhouse, \emph{{\em De Vetula}: A medieval manuscript containing
+  probability calculations}, International Statistical Review \textbf{68}
+  (2000), no.~2, 123--136.
+
+\bibitem{chaucer}
+Larry~D. Benson (ed.), \emph{{The Riverside Chaucer}}, third ed., Oxford
+  University Press, 2008.
+
+\bibitem{firmicus}
+Jean~Rhys Bram, \emph{{Ancient Astrology, Theory and Practice. Matheseos Libri
+  VIII by Firmicus Maternus}}, Noyes Press, Park Ridge, NJ, 1975.
+
+\bibitem{phoenix}
+R.~van~den Broek, \emph{The myth of the phoenix according to classical and
+  early {C}hristian traditions}, \'Etudes pr\'eliminaires aux religions
+  orientales dans l'Empire romain, vol.~24, E. J. Brill, Leiden, 1972.
+
+\bibitem{essentiis}
+Charles Burnett, \emph{{Hermann of Carinthia {\em De essentiis}: a critical
+  edition with translation and commentary}}, Studien und Texte Zur
+  Geistesgeschichte des Mittelalters, vol.~15, E. J. Brill, Leiden, 1982.
+
+\bibitem{burton}
+Dan Burton (ed.), \emph{{Nicole Oresme's {\em De Visione Stellarum}}}, Medieval
+  and Early Modern Science, vol.~7, Brill, Leiden, 2007.
+
+\bibitem{mensurandi}
+H.~L.~L. Busard, \emph{{Johannes de Muris, {\em De arte mensurandi}}},
+  Boethius, vol.~41, Franz Steiner Verlag, Stuttgart, 1998.
+
+\bibitem{busard2010}
+H.~L.~L. Busard (ed.), \emph{{Nicole Oresme, {\em Questiones super geometriam
+  Euclidis}}}, Franz Steiner Verlag, Stuttgart, 2010.
+
+\bibitem{clagett1968}
+Marshall Clagett, \emph{{Nicole Oresme and the medieval geometry of qualities
+  and motions: A treatise on the uniformity and difformity of intensities known
+  as {\em Tractatus de configurationibus qualitatum et motuum}}}, University of
+  Wisconsin Publications in Medieval Science, vol.~12, University of Wisconsin
+  Press, 1968.
+
+\bibitem{dictionary}
+\bysame, \emph{Nicole {O}resme}, Dictionary of Scientific Biography, Volume 10:
+  S. G. Navashin--W. Piso (Charles~Coulston Gillispie, ed.), Charles Scribner's
+  Sons, New York, 1970, pp.~223--230.
+
+\bibitem{timaeus}
+F.~M. Cornford, \emph{Plato's cosmology: the {{\em Timaeus}} of {P}lato
+  translated, with a running commentary}, Kegan Paul, London, 1937.
+
+\bibitem{courtenay}
+William~J. Courtenay, \emph{The early career of {N}icole {O}resme}, Isis
+  \textbf{91} (2000), no.~3, 542--548.
+
+\bibitem{hipparchus}
+D.~R. Dicks, \emph{The geographical fragments of {H}ipparchus}, University of
+  London, Athlone Press, 1960.
+
+\bibitem{dicks}
+\bysame, \emph{Early {G}reek astronomy to {A}ristotle}, Aspects of Greek and
+  Roman Life, Thames and Hudson, 1970.
+
+\bibitem{alcinous}
+John Dillon, \emph{{Alcinous: {\em The Handbook of Platonism}}}, Clarendon
+  Later Ancient Philosophers, Clarendon Press, Oxford, 1993.
+
+\bibitem{dodds}
+E.~R. Dodds, \emph{{Proclus: {\em The elements of theology}}}, second ed.,
+  Clarendon Press, Oxford, 1963.
+
+\bibitem{fowler}
+D.~H. Fowler, \emph{Ratio in early {G}reek mathematics}, Bull. Amer. Math. Soc.
+  (N.S.) \textbf{1} (1979), no.~6, 807--846.
+
+\bibitem{fowler1999}
+David Fowler, \emph{The mathematics of {P}lato's {A}cademy: a new
+  reconstruction}, second ed., Clarendon Press, Oxford, 1999.
+
+\bibitem{franklin}
+James Franklin, \emph{The science of conjecture: Evidence and probability
+  before {P}ascal}, John Hopkins University Press, 2001.
+
+\bibitem{gee2013}
+Emma Gee, \emph{Aratus and the astronomical tradition}, Oxford University
+  Press, 2013.
+
+\bibitem{gee}
+\bysame, \emph{Cicero's poetry}, The Cambridge Companion to Cicero (C.~E.~W.
+  Steel, ed.), Cambridge University Press, 2013, pp.~88--106.
+
+\bibitem{manilius}
+G.~P. Goold, \emph{{Manilius: {\em Astronomica}}}, Loeb Classical Library, no.
+  469, Harvard University Press, 1977.
+
+\bibitem{grant1960}
+Edward Grant, \emph{{Nicole Oresme and his {\em De proportionibus
+  proportionum}}}, Isis \textbf{51} (1960), no.~3, 293--314.
+
+\bibitem{proportionibus}
+Edward Grant (ed.), \emph{{Nicole Oresme, {\em De proportionibus proportionum}
+  and {\em Ad pauca respicientes}}}, University of Wisconsin Publications in
+  Medieval Science, vol.~8, University of Wisconsin Press, 1966.
+
+\bibitem{grant1971}
+Edward Grant (ed.), \emph{{Nicole Oresme and the kinematics of circular motion,
+  {\em Tractatus de commensurabilitate vel incommensurabilitate motuum celi}}},
+  University of Wisconsin Publications in Medieval Science, vol.~15, University
+  of Wisconsin Press, 1971.
+
+\bibitem{grant1974}
+Edward Grant (ed.), \emph{A source book in medieval science}, Harvard
+  University Press, 1974.
+
+\bibitem{ivor}
+Ivor Grattan-Guinness, \emph{Numbers, magnitudes, ratios, and proportions in
+  {E}uclid's {{\em Elements}}: How did he handle them?}, Historia Math.
+  \textbf{23} (1996), 355--375.
+
+\bibitem{hansen}
+Bert Hansen, \emph{{Nicole Oresme and the marvels of nature: a study of his
+  {\em De causis mirabilium} with critical edition, translation, and
+  commentary}}, Studies and Texts, vol.~68, Pontifical Institute of Mediaeval
+  Studies, Toronto, 1985.
+
+\bibitem{constellations}
+Robin Hard, \emph{{Eratosthenes and Hyginus: Constellation Myths, with Aratus's
+  {\em Phaenomena}}}, Oxford World's Classics, Oxford University Press, 2015.
+
+\bibitem{aristarchus}
+T.~L. Heath, \emph{Aristarchus of {S}amos, the ancient {C}opernicus}, Clarendon
+  Press, Oxford, 1913.
+
+\bibitem{euclidII}
+\bysame, \emph{The thirteen books of {E}uclid's {E}lements, volume {II}:
+  {B}ooks {III}-{IX}}, second ed., Dover Publications, 1956.
+
+\bibitem{euclidIII}
+\bysame, \emph{The thirteen books of {E}uclid's {E}lements, volume {III}:
+  {B}ooks {X}-{XIII}}, second ed., Dover Publications, 1956.
+
+\bibitem{greekI}
+\bysame, \emph{A history of {G}reek mathematics, volume {I}}, Dover
+  Publications, 1981.
+
+\bibitem{philolaus}
+Carl~A. Huffman, \emph{Philolaus of {C}roton: {P}ythagorean and {P}resocratic},
+  Cambridge University Press, 2006.
+
+\bibitem{hugonnard}
+Henri Hugonnard-Roche, \emph{{Modalit\'es et argumentation chez Nicole
+  Oresme}}, Nicolas Oresme. Tradition et innovation chez un intellectuel du
+  XIVe si\`ecle (P.~Souffrin and A.~Ph. Segons, eds.), Les Belles Lettres,
+  Paris, 1988, pp.~145--163.
+
+\bibitem{ineichen}
+Robert Ineichen, \emph{``{E}s ist wie bei den {S}pielen''---{N}icole {O}resme
+  und sein {B}eitrag in der {V}orgeschichte der {S}tochastik}, NTM (N.S.)
+  \textbf{9} (2001), no.~3, 137--151.
+
+\bibitem{cassiodorus}
+Leslie~Webber Jones (ed.), \emph{{Cassiodorus: {\em An introduction to divine
+  and human readings}}}, Records of Civilization, Sources and Studies, vol.~40,
+  Columbia University Press, 1946.
+
+\bibitem{kaye}
+Joel Kaye, \emph{A history of balance, 1250--1375: The emergence of a new model
+  of equilibrium and its impact on thought}, Cambridge University Press, 2014.
+
+\bibitem{kerenyi}
+C.~Ker\'enyi, \emph{The gods of the {G}reeks}, Thames and Hudson, London, 1951.
+
+\bibitem{heraclitus}
+G.~S. Kirk, \emph{{Heraclitus: {\em The Cosmic Fragments}}}, Cambridge
+  University Press, 1962.
+
+\bibitem{knorr}
+W.~R. Knorr, \emph{On the term {\em ratio} in early mathematics}, Ratio. VII
+  Colloquio Internazionale del Lessico Intellettuale Europeo (M.~Fattori and
+  M.~L. Bianchi, eds.), L. S. Olschki, Florence, 1994, pp.~1--35.
+
+\bibitem{moraliaVII}
+Phillip H.~De Lacy and Benedict Einarson, \emph{{Plutarch: {\em Moralia},
+  volume VII}}, Loeb Classical Library, no. 405, Harvard University Press,
+  1959.
+
+\bibitem{longsedleyI}
+A.~A. Long and D.~N. Sedley, \emph{The {H}ellenistic philosophers. {V}olume 1:
+  Translations of the principal sources, with philosophical commentary},
+  Cambridge University Press, 1987.
+
+\bibitem{dahlberg}
+Guillaume~de Lorris and Jean~de Meun, \emph{The romance of the rose}, Princeton
+  University Press, 1971, Translated by Charles Dahlberg.
+
+\bibitem{tacitus}
+Roland Mayer (ed.), \emph{{Tacitus: {\em Dialogus de oratoribus}}}, Cambridge
+  Greek and Latin Classics, Cambridge University Press, 2001.
+
+\bibitem{ciel}
+Albert~D. Menut and J.~Denomy, Alexander (eds.), \emph{{Nicole Oresme, {\em Le
+  Livre du ciel et du monde}}}, University of Wisconsin Publications in
+  Medieval Science, vol.~11, University of Wisconsin Press, 1968.
+
+\bibitem{meusnier}
+Norbert Meusnier, \emph{\`{A} propos d'une controverse au sujet de
+  l'interpr\'etation d'un th\'eor\`eme ``probabiliste'' de {N}icole {O}resme},
+  J. \'Electron. Hist. Probab. Stat. \textbf{3} (2007), no.~1, 5.
+
+\bibitem{minar}
+Edwin~L. Minar~Jr., \emph{Cosmic periods in the philosophy of {E}mpedocles},
+  Essays in Ancient Greek Philosophy I (John~P. Anton and George~L. Kustas,
+  eds.), State University of New York Press, 2007, pp.~39--58.
+
+\bibitem{murdoch1963}
+John~E. Murdoch, \emph{The medieval language of proportions: Elements of the
+  interaction with {G}reek foundations and the development of new mathematical
+  techniques}, Scientific Change (A.~C. Crombie, ed.), Heinemann, London, 1963.
+
+\bibitem{neugebauer}
+Otto Neugebauer, \emph{A history of ancient mathematical astronomy}, Studies in
+  the History of Mathematics and Physical Sciences, vol.~1, Springer, 1975.
+
+\bibitem{north}
+John North, \emph{Stars, minds and fate: Essays in ancient and medieval
+  cosmology}, Bloomsbury Academic, 2003.
+
+\bibitem{wallingford}
+\bysame, \emph{God's clockmaker: {R}ichard of {W}allingford and the invention
+  of time}, Hambledon and London, London, 2004.
+
+\bibitem{obrien}
+Denis O'Brien, \emph{Empedocles' cosmic cycle}, Cambridge Classical Studies,
+  Cambridge University Press, 1969.
+
+\bibitem{censorinus}
+Holt~N. Parker, \emph{{Censorinus: {\em The birthday book}}}, University of
+  Chicago Press, 2007.
+
+\bibitem{pedersen}
+Olaf Pedersen, \emph{Early physics and astronomy: A historical introduction},
+  Cambridge University Press, 1993.
+
+\bibitem{pesic2014}
+Peter Pesic, \emph{Music and the making of modern science}, The MIT Press,
+  2014.
+
+\bibitem{pliny}
+H.~Rackham, \emph{{Pliny: {\em Natural History}, Books 1--2}}, Loeb Classical
+  Library, no. 330, Harvard University Press, 1949.
+
+\bibitem{tetrabiblos}
+F.~E. Robbins, \emph{{Ptolemy: {\em Tetrabiblos}}}, Loeb Classical Library, no.
+  435, Harvard University Press, 1940.
+
+\bibitem{gellius}
+John~C. Rolfe, \emph{{Aulus Gellius: {\em Attic Nights}, Books 14--20}}, Loeb
+  Classical Library, no. 212, Harvard University Press, 1927.
+
+\bibitem{blasius}
+Sabine Rommevaux, \emph{{L'irrationalit\'e de la diagonale et du c\^ot\'e d'un
+  m\^eme carr\'e dans les {\em Questions} de Biaise de Parme sur le {\em
+  Trait\'e des rapports de Bradwardine}}}, Revue d'histoire des sciences
+  \textbf{56} (2003), no.~2, 401--418.
+
+\bibitem{small}
+Robin Small, \emph{Incommensurability and recurrence: From {O}resme to
+  {S}immel}, Journal of the History of Ideas \textbf{52} (1991), no.~1,
+  121--137.
+
+\bibitem{macrobius}
+William~Harris Stahl, \emph{{Macrobius: {\em Commentary on the Dream of
+  Scipio}}}, Records of Civilization, Sources and Studies, vol.~48, Columbia
+  University Press, 1952.
+
+\bibitem{strobel}
+August Strobel, \emph{{Weltenjahr, gro{\ss}e Konjunktion und Messiasstern. Ein
+  themageschichtlicher \"Uberblick}}, {Aufstieg und Niedergang der r\"omischen
+  Welt, II.20.1. Religion (Hellenistisches Judentum in r\"omischer Zeit,
+  ausgenommen Philon und Josephus)} (Wolfgang Haase and Hildegard Temporini,
+  eds.), de Gruyter, 1987, pp.~988--1187.
+
+\bibitem{szabo}
+\'Arp\'ad Szab\'o, \emph{The beginnings of {G}reek mathematics}, Sythese
+  Historical Library, vol.~17, D. Reidel Publishing Company, Dordrecht, 1978,
+  Translated from the German by A. M. Ungar.
+
+\bibitem{isidore}
+{The {\em Etymologies} of Isidore of Seville}, \emph{Stephen a. barney and w.
+  j. lewis and j. a. beach and oliver berghof}, Cambridge University Press,
+  2006.
+
+\bibitem{magicIII}
+Lynn Thorndike, \emph{A history of magic and experimental science, volume
+  {III}}, Columbia University Press, 1934.
+
+\bibitem{travis}
+Peter~W. Travis, \emph{Chaucer's {{\em Chronographiae}}, the confounded reader,
+  and fourteenth-century measurements of time}, Disputatio \textbf{2} (1997),
+  1--34.
+
+\bibitem{veenstra}
+Jan~R. Veenstra, \emph{{Magic and divination at the courts of Burgundy and
+  France: text and content of Lauren Pignon's {\em Contre les devineurs}
+  (1411)}}, Brill's Studies in Intellectual History, vol.~83, Brill, Leiden,
+  1998.
+
+\bibitem{vonplato1993}
+Jan von Plato, \emph{Oresme's proof of the density of rotations of a circle
+  through an irrational angle}, Historia Math. \textbf{20} (1993), no.~4,
+  428--433.
+
+\bibitem{walbankII}
+F.~W. Walbank, \emph{{A Historical Commentary on Polybius, Volume II:
+  Commentary on Books VII--XVIII}}, Clarendon Press, Oxford, 1967.
+
+\bibitem{bede}
+Faith Wallis, \emph{Bede: {\em The Reckoning of Time}}, Translated Texts for
+  Historians, vol.~29, Liverpool University Press, 1999.
+
+\bibitem{aelian}
+N.~G. Wilson, \emph{{Aelian: {\em Historical Miscellany}}}, Loeb Classical
+  Library, no. 486, Harvard University Press, 1997.
+
+\end{thebibliography}

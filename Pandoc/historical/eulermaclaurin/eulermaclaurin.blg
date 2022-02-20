@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: eulermaclaurin.aux
+The style file: amsplain.bst
+Database file #1: eulermaclaurin.bib
+You've used 64 entries,
+            2213 wiz_defined-function locations,
+            860 strings with 12249 characters,
+and the built_in function-call counts, 16757 in all, are:
+= -- 1488
+> -- 473
+< -- 5
++ -- 220
+- -- 134
+* -- 1284
+:= -- 2655
+add.period$ -- 64
+call.type$ -- 64
+change.case$ -- 270
+chr.to.int$ -- 0
+cite$ -- 64
+duplicate$ -- 793
+empty$ -- 1716
+format.name$ -- 134
+if$ -- 3564
+int.to.chr$ -- 0
+int.to.str$ -- 64
+missing$ -- 155
+newline$ -- 202
+num.names$ -- 123
+pop$ -- 366
+preamble$ -- 1
+purify$ -- 199
+quote$ -- 0
+skip$ -- 437
+stack$ -- 0
+substring$ -- 1135
+swap$ -- 108
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 192
+warning$ -- 0
+while$ -- 185
+width$ -- 66
+write$ -- 591

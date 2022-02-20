@@ -1,0 +1,37 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{1}
+
+\bibitem{chadwick}
+John Chadwick, \emph{The {Mycenaean} world}, Cambridge University Press, 1976.
+
+\bibitem{corolla}
+Arthur Evans, \emph{{Minoan weights and mediums of currency, from Crete,
+  Mycenae and Cyprus}}, {Corolla Numismatica. Numismatic Essays in Honour of
+  Barclay V. Head} (G.~F. Hill, ed.), Oxford University Press, 1906,
+  pp.~336--367.
+
+\bibitem{knossosIV2}
+\bysame, \emph{{The Palace of Minos: a comparative account of the successive
+  stages of the early Cretan civilization as illustrated by the discoveries at
+  Knossos. Volume IV: Part 2}}, Macmillan and Co., London, 1935.
+
+\bibitem{glotz}
+Gustave Glotz, \emph{{The \AE{}gean Civilization}}, Kegan Paul, 2003.
+
+\bibitem{petruso}
+Karl~M. Petruso, \emph{Marks on some {Minoan} balance weights and their
+  interpretation}, Kadmos: Zeitschrift f\"ur vor- und fr\"uhgriechische
+  Epigraphik \textbf{17} (1978), no.~1, 26--42.
+
+\bibitem{ventris}
+Michael Ventris and John Chadwick, \emph{{Documents in Mycenaean Greek: Three
+  Hundred Selected Tablets from Knossos, Pylos and Mycenae with Commentary and
+  Vocabulary}}, second ed., Cambridge University Press, 1973.
+
+\end{thebibliography}

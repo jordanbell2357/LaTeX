@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: waves.aux
+The style file: amsplain.bst
+Database file #1: waves.bib
+You've used 53 entries,
+            2213 wiz_defined-function locations,
+            769 strings with 9467 characters,
+and the built_in function-call counts, 12194 in all, are:
+= -- 956
+> -- 389
+< -- 2
++ -- 182
+- -- 111
+* -- 760
+:= -- 2015
+add.period$ -- 53
+call.type$ -- 53
+change.case$ -- 223
+chr.to.int$ -- 0
+cite$ -- 53
+duplicate$ -- 653
+empty$ -- 1324
+format.name$ -- 111
+if$ -- 2616
+int.to.chr$ -- 0
+int.to.str$ -- 53
+missing$ -- 152
+newline$ -- 169
+num.names$ -- 102
+pop$ -- 378
+preamble$ -- 1
+purify$ -- 164
+quote$ -- 0
+skip$ -- 381
+stack$ -- 0
+substring$ -- 459
+swap$ -- 69
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 120
+warning$ -- 0
+while$ -- 116
+width$ -- 55
+write$ -- 472

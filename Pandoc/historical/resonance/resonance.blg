@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: resonance.aux
+The style file: amsplain.bst
+Database file #1: resonance.bib
+You've used 173 entries,
+            2213 wiz_defined-function locations,
+            1377 strings with 24197 characters,
+and the built_in function-call counts, 45269 in all, are:
+= -- 3912
+> -- 1345
+< -- 19
++ -- 604
+- -- 381
+* -- 3270
+:= -- 7227
+add.period$ -- 173
+call.type$ -- 173
+change.case$ -- 711
+chr.to.int$ -- 0
+cite$ -- 173
+duplicate$ -- 2247
+empty$ -- 4672
+format.name$ -- 381
+if$ -- 9697
+int.to.chr$ -- 0
+int.to.str$ -- 173
+missing$ -- 434
+newline$ -- 529
+num.names$ -- 365
+pop$ -- 1102
+preamble$ -- 1
+purify$ -- 535
+quote$ -- 0
+skip$ -- 1278
+stack$ -- 0
+substring$ -- 2790
+swap$ -- 340
+text.length$ -- 19
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 498
+warning$ -- 0
+while$ -- 507
+width$ -- 176
+write$ -- 1537

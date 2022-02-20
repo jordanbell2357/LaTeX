@@ -1,0 +1,55 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{1}
+
+\bibitem{nicomachus}
+Martin~Luther D'Ooge, Frank~Egleston Robbins, and Louis~Charles Karpinski,
+  \emph{{Nicomachus of Gerasa: {\em Introduction to arithmetic}}}, Macmillan,
+  New York, 1926.
+
+\bibitem{householder}
+Fred~W. Householder, \emph{{The {\em Syntax} of Apollonius Dyscolus}}, Studies
+  in the History of the Language Sciences, vol.~23, John Benjamins Publishing
+  Company, 1981.
+
+\bibitem{tekhne}
+Alan Kemp, \emph{The {{\em Tekhn\={e} Grammatik\={e}} of Dionysius Thrax:
+  English} translation with introduction and notes}, The History of Linguistics
+  in the Classical Period (Daniel~J. Taylor, ed.), Studies in the History of
+  the Language Sciences, vol.~46, John Benjamins Publishing Company, 1987,
+  pp.~169--190.
+
+\bibitem{kuhner}
+Raphael K\"uhner, \emph{{Ausf\"uhrliche Grammatik der griechischen Sprache.
+  Erster Teil: Elementar - und Formenlehre. Dritte Auflage in zwei B\"anden, in
+  neuer Bearbeitung besorgt von Dr. Friedrich Blass. Erster Band}}, Hahnsche
+  Buchhandlung, Hannover, 1890.
+
+\bibitem{LS1}
+A.~A. Long and D.~N. Sedley, \emph{The {H}ellenistic philosophers. {V}olume 1:
+  Translations of the principal sources, with philosophical commentary},
+  Cambridge University Press, 1987.
+
+\bibitem{comp}
+W.~Rhys~Roberts, \emph{{Dionysius of Halicarnassus, On Literary Composition}},
+  Macmillian, London, 1910.
+
+\bibitem{smyth}
+Herbert~Weir Smyth, \emph{Greek grammar}, Harvard University Press, 1956,
+  Revised by Gordon M. Messing.
+
+\bibitem{uhlig}
+Gustav Uhlig (ed.), \emph{{Dionysii Thracis ars grammatica}}, B. G. Teubner,
+  Lipsiae, 1883.
+
+\bibitem{waterfieldmeno}
+Robin Waterfield, \emph{Plato: {{\em Meno}} and other dialogues. {{\em
+  Charmides, Laches, Lysis, Meno}}}, Oxford World's Classics, Oxford University
+  Press, 2005, Translated with an introduction and notes.
+
+\end{thebibliography}

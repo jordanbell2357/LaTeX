@@ -1,0 +1,224 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{10}
+
+\bibitem{allen1960}
+R.~E. Allen, \emph{Participation and predication in {P}lato's middle
+  dialogues}, Philosophical Review \textbf{69} (1960), no.~2, 147--164.
+
+\bibitem{euthyphro}
+\bysame, \emph{Plato's {{\em Euthyphro}} and the earlier theory of forms},
+  Routledge, 2014.
+
+\bibitem{barnes2009}
+Jonathan Barnes, \emph{Truth, etc.}, Oxford University Press, 2009.
+
+\bibitem{barnes}
+\bysame, \emph{Bits and pieces}, Method and Metaphysics: Essays in Ancient
+  Philosophy I (Jonathan Barnes, ed.), Oxford University Press, 2011,
+  pp.~429--483.
+
+\bibitem{black}
+Max Black, \emph{The elusiveness of sets}, The Review of Metaphysics
+  \textbf{24} (1971), no.~4, 614--636.
+
+\bibitem{socratics}
+George Boys-Stones and Christopher Rowe, \emph{The circle of {S}ocrates:
+  Readings in the first-generation {S}ocratics}, Hackett Publishing, 2013.
+
+\bibitem{cherniss}
+Harold Cherniss, \emph{The philosophical economy of the theory of ideas},
+  American Journal of Philology \textbf{57} (1936), no.~4, 445--456.
+
+\bibitem{LCL427}
+\bysame, \emph{{Plutarch, Moralia, Volume XIII: Part 1}}, Loeb Classical
+  Library, no. 427, Harvard University Press, 1976.
+
+\bibitem{clegg}
+Jerry~S. Clegg, \emph{Self-predication and linguistic reference in {P}lato's
+  theory of the forms}, Phronesis \textbf{18} (1973), no.~1, 26--43.
+
+\bibitem{cohen}
+Paul~J. Cohen, \emph{Set theory and the continuum hypothesis}, Dover
+  Publications, 2008.
+
+\bibitem{cornfordtimaeus}
+Francis~Macdonald Cornford, \emph{Plato's cosmology: The {{\em Timaeus} of
+  Plato}, translated with a running commentary}, Kegan Paul, London, 1937.
+
+\bibitem{cornfordparmenides}
+\bysame, \emph{{Plato and Parmenides: Parmenides' {\em Way of Truth} and
+  Plato's {\em Parmenides}, translated with an introduction and a running
+  commentary}}, Kegan Paul, London, 1939.
+
+\bibitem{cornfordrepublic}
+\bysame, \emph{The {{\em Republic}} of {P}lato, translated with introduction
+  and notes}, Oxford University Press, 1941.
+
+\bibitem{cornfordtheaetetus}
+\bysame, \emph{Plato's theory of knowledge: the {{\em Theaetetus} and the {\em
+  Sophist}}, translated, with commentary}, Dover Publications, 2003.
+
+\bibitem{coxon}
+A.~H. Coxon, \emph{The philosophy of forms: An analytical and historical
+  commentary on {P}lato's {\em parmenides}}, Van Gorcum, Assen, The
+  Netherlands, 1999.
+
+\bibitem{dauben}
+Joseph~Warren Dauben, \emph{Georg {C}antor: his mathematics and philosophy of
+  the infinite}, Princeton University Press, 1990.
+
+\bibitem{ebbinghaus}
+Heinz-Dieter Ebbinghaus, \emph{Ernst {Z}ermelo: An approach to his life and
+  work}, Springer, 2007.
+
+\bibitem{edwards}
+Douglas Edwards, \emph{Properties}, Polity Press, Cambridge, 2014.
+
+\bibitem{ellerman}
+David~P. Ellerman, \emph{Category theory and concrete universals}, Erkenntnis
+  \textbf{28} (1988), no.~3, 409--429.
+
+\bibitem{ewaldII}
+William Ewald (ed.), \emph{From {K}ant to {H}ilbert: A source book in the
+  foundations of mathematics, volume {II}}, Clarendon Press, Oxford, 1996.
+
+\bibitem{forster}
+Thomas Forster, \emph{Logic, induction and sets}, London Mathematical Society
+  Student Texsts, vol.~56, Cambridge University Press, 2003.
+
+\bibitem{graeser}
+Andreas Graeser, \emph{The fog dispelled: Two studies in {P}lato's later
+  thought}, Franz Steiner Verlag, Stuttgart, 2010, Translated by Ann M.
+  Hentschel.
+
+\bibitem{grube}
+G.~M.~A. Grube, \emph{Plato's thought}, Hackett Publishing Company, 1980.
+
+\bibitem{cynic}
+Robin Hard, \emph{Diogenes the {C}ynic: Sayings and anecdotes, with other
+  popular moralists}, Oxford World's Classics, Oxford University Press, 2012.
+
+\bibitem{harte}
+Verity Harte, \emph{Plato on parts and wholes: The metaphysics of structure},
+  Oxford University Press, 2005.
+
+\bibitem{heinaman}
+Robert Heinaman, \emph{Self-predication in {P}lato's middle dialogues},
+  Phronesis \textbf{34} (1989), no.~1, 56--79.
+
+\bibitem{horky}
+Phillip~Sidney Horky, \emph{Plato and {P}ythagoreanism}, Oxford University
+  Press, 2013.
+
+\bibitem{jech}
+Thomas Jech, \emph{Set theory: The third millennium edition, revised and
+  expanded}, Springer Monographs in Mathematics, Springer, 2006.
+
+\bibitem{kanamori}
+Akihiro Kanamori, \emph{Zermelo and set theory}, Bulletin of Symbolic Logic
+  \textbf{10} (2004), no.~4, 487--553.
+
+\bibitem{klein}
+Jacob Klein, \emph{Greek mathematical thought and the origin of algebra}, Dover
+  Publications, 1992, Translated by Eva Brann.
+
+\bibitem{kneale}
+William Kneale and Martha Kneale, \emph{The development of logic}, Clarendon
+  Press, Oxford, 1962.
+
+\bibitem{kramer}
+Hans~Joachim Kr\"amer, \emph{Plato's unwritten doctrine}, The Other {P}lato:
+  The {T}\"ubingen Interpretation of {P}lato's Inner-Academic Teachings (Dmitri
+  Nikulin, ed.), SUNY Series in Ancient Greek Philosophy, State University of
+  New York Press, 2012, pp.~65--81.
+
+\bibitem{kunen}
+Kenneth Kunen, \emph{Set theory: an introduction to independence proofs},
+  Studies in Logic and the Foundations of Mathematics, vol. 102, North-Holland,
+  1980.
+
+\bibitem{malcolm}
+John Malcolm, \emph{Plato on the self-predication of forms: Early and middle
+  dialogues}, Clarendon Press, Oxford, 1991.
+
+\bibitem{mates}
+Benson Mates, \emph{Identity and predication in {P}lato}, The Logic of Being:
+  Historical Studies (Simo Knuuttila and Jaakko Hintikka, eds.), vol.~28, D.
+  Reidel Publishing Company, Dordrecht, 1986, pp.~29--47.
+
+\bibitem{meinwald}
+Constance~C. Meinwald, \emph{Good-bye to the third man}, The Cambridge
+  Companion to Plato (Richard Kraut, ed.), Cambridge University Press, 1992,
+  pp.~365--396.
+
+\bibitem{moore}
+Gregory~H. Moore, \emph{Zermelo's axiom of choice: Its origins, development,
+  and influence}, Dover Publications, 2013.
+
+\bibitem{nehamas}
+Alexander Nehamas, \emph{Self-predication and {P}lato's theory of forms},
+  American Philosophical Quarterly \textbf{16} (1979), no.~2, 93--103.
+
+\bibitem{nehamas1982}
+\bysame, \emph{Participation and predication in {P}lato's later thought},
+  Review of Metaphysics \textbf{36} (1982), 343--374.
+
+\bibitem{rickless}
+Samuel~C. Rickless, \emph{Plato's forms in transition: A reading of the
+  {P}armenides}, Cambridge University Press, 2009.
+
+\bibitem{ross}
+David Ross, \emph{Plato's theory of ideas}, second ed., Clarendon Press,
+  Oxford, 1953.
+
+\bibitem{russell}
+Bertrand Russell, \emph{The philosophy of logical atomism}, Routledge, 2010.
+
+\bibitem{sayre}
+Kenneth~M. Sayre, \emph{Plato's late ontology: A riddle resolved}, Princeton
+  University Press, 1983.
+
+\bibitem{sedley}
+David Sedley, \emph{{Plato's {\em Cratylus}}}, Cambridge Studies in the
+  Dialogues of Plato, Cambridge University Press, 2003.
+
+\bibitem{stillwell}
+John~C. Stillwell, \emph{Roads to infinity: The mathematics of truth and
+  proof}, A K Peters, 2010.
+
+\bibitem{taylor}
+A.~E. Taylor, \emph{Plato: The man and his work}, fourth ed., Routledge, 2013.
+
+\bibitem{taylorprotagoras}
+C.~C.~W. Taylor, \emph{Plato: {{\em Protagoras}}}, Oxford World's Classics,
+  Oxford University Press, 1996.
+
+\bibitem{vlastos1981}
+Gregory Vlastos, \emph{On a proposed redefinition of ``self-predication'' in
+  {P}lato}, Phronesis \textbf{26} (1981), no.~1, 76--79.
+
+\bibitem{waterfieldphaedrus}
+Robin Waterfield, \emph{Plato: {{\em Phaedrus}}}, Oxford World's Classics,
+  Oxford University Press, 2002, Translated with an introduction and notes.
+
+\bibitem{waterfieldmeno}
+\bysame, \emph{Plato: {{\em Meno}} and other dialogues. {{\em Charmides,
+  Laches, Lysis, Meno}}}, Oxford World's Classics, Oxford University Press,
+  2005, Translated with an introduction and notes.
+
+\bibitem{zalta}
+Edward~N. Zalta, \emph{Abstract objects: An introduction to axiomatic
+  metaphysics}, Synthese Library, vol. 160, D. Reidel Publishing Company, 1983.
+
+\bibitem{zermelo1930}
+Ernst Zermelo, \emph{{\"Uber Grenzzahlen und Mengenbereiche. Neue
+  Untersuchungen \"uber die Grundlagen der Mengenlehre}}, Fundamenta
+  Mathematicae \textbf{16} (1930), 29--47.
+
+\end{thebibliography}

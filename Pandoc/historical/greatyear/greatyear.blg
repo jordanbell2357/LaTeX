@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: greatyear.aux
+The style file: amsplain.bst
+Database file #1: greatyear.bib
+You've used 73 entries,
+            2213 wiz_defined-function locations,
+            891 strings with 12864 characters,
+and the built_in function-call counts, 17999 in all, are:
+= -- 1445
+> -- 567
+< -- 21
++ -- 248
+- -- 158
+* -- 1241
+:= -- 2934
+add.period$ -- 73
+call.type$ -- 73
+change.case$ -- 301
+chr.to.int$ -- 0
+cite$ -- 73
+duplicate$ -- 969
+empty$ -- 1916
+format.name$ -- 158
+if$ -- 3863
+int.to.chr$ -- 0
+int.to.str$ -- 73
+missing$ -- 192
+newline$ -- 229
+num.names$ -- 162
+pop$ -- 488
+preamble$ -- 1
+purify$ -- 223
+quote$ -- 0
+skip$ -- 514
+stack$ -- 0
+substring$ -- 795
+swap$ -- 149
+text.length$ -- 21
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 182
+warning$ -- 0
+while$ -- 185
+width$ -- 75
+write$ -- 670

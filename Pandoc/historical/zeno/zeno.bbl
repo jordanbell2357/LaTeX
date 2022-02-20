@@ -1,0 +1,1217 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{100}
+
+\bibitem{abraham}
+William~E. Abraham, \emph{The nature of {Z}eno's argument against plurality in
+  {DK 29 B 1}}, Phronesis \textbf{17} (1972), no.~1, 40--52.
+
+\bibitem{adams2010}
+Marilyn~McCord Adams, \emph{Some later medieval theories of the {E}ucharist:
+  {T}homas {A}quinas, {G}iles of {R}ome, {D}uns {S}cotus, and {W}illiam
+  {O}ckham}, Oxford University Press, 2010.
+
+\bibitem{alkindi}
+Peter Adamson, \emph{Al-kindi}, Great Medieval Thinkers, Oxford University
+  Press, 2007.
+
+\bibitem{algra}
+Keimpe Algra, \emph{Concepts of space in {G}reek thought}, Philosophia Antiqua:
+  A Series of Studies on Ancient Philosophy, vol. LXV, E. J. Brill, Leiden,
+  1995.
+
+\bibitem{allen}
+R.~E. Allen, \emph{Plato's {{\em Parmenides}}}, revised ed., Yale University
+  Press, 1997.
+
+\bibitem{annas}
+Julia Annas and Jonathan Barnes (eds.), \emph{Sextus {E}mpiricus: {\em
+  {O}utlines of Scepticism}}, Cambridge Texts in the History of Philosophy,
+  Cambridge University Press, 2000.
+
+\bibitem{aquinas}
+Thomas Aquinas, \emph{{Commentary on Aristotle's {\em Physics}}}, Routledge \&
+  Kegan Paul, London, 1963, Translated from the Latin by Richard J. Blackwell,
+  Richard J. Spath, and W. Edmund Thirlkel.
+
+\bibitem{waterfield2008}
+Aristotle, \emph{Physics}, Oxford World's Classics, Oxford University Press,
+  2008, Translated by Robin Waterfield.
+
+\bibitem{confessions}
+Saint Augustine, \emph{Confessions}, Oxford World's Classics, Oxford University
+  Press, 2009, Translated from the Latin by Henry Chadwick.
+
+\bibitem{barker}
+Andrew Barker, \emph{Greek musical writings, vol. {II}: Harmonic and acoustic
+  theory}, Cambridge Readings in the Literature of Music, Cambridge University
+  Press, 2004.
+
+\bibitem{barnes}
+Jonathan Barnes, \emph{The {P}resocratic philosophers}, Arguments of the
+  Philosophers, Routledge \& Kegan Paul, 1982.
+
+\bibitem{bett}
+Richard Bett, \emph{Sextus empiricus: {\em {A}gainst the Physicists}},
+  Cambridge University Press, 2012.
+
+\bibitem{saxe}
+Jo\"el Biard, \emph{Albert de {S}axe et les sophismes de l'infini}, Sophisms in
+  Medieval Logic and Grammar (Stephen Read, ed.), Nijhoff International
+  Philosophy Series, vol.~48, Springer, 1993, pp.~288--303.
+
+\bibitem{blasius}
+\bysame, \emph{Blasius of {P}arma facing atomist assumptions}, Atomism in Late
+  Medieval Philosophy and Theology (Christophe Grellard and Aur\'elien Robert,
+  eds.), Brill, 2009, pp.~221--234.
+
+\bibitem{blank}
+D.~L. Blank, \emph{{Sextus Empiricus: {\em Against the grammarians}}},
+  Clarendon Later Ancient Philosophers, Clarendon Press, Oxford, 1998.
+
+\bibitem{bobzien}
+Susanne Bobzien, \emph{Determinism and freedom in {S}toic philosophy}, Oxford
+  University Press, 2001.
+
+\bibitem{bolotin}
+David Bolotin, \emph{An approach to {A}ristotle's physics}, State University of
+  New York Press, 1997.
+
+\bibitem{bostock1972}
+David Bostock, \emph{Aristotle, {Z}eno, and the potential infinite},
+  Proceedings of the Aristotelian Society \textbf{73} (1972/1973), 37--51.
+
+\bibitem{bostock1991}
+David Bostock, \emph{{Aristotle on continuity in {\em Physics} VI}},
+  Aristotle's {\em Physics}: A Collection of Essays (Lindsay Judson, ed.),
+  Clarendon Press, Oxford, 1991, pp.~179--212.
+
+\bibitem{boyer}
+Carl~B. Boyer, \emph{The history of the calculus and its conceptual
+  development}, Dover Publications, 1959.
+
+\bibitem{academica}
+Charles Brittain, \emph{{Cicero: {\em On Academic Scepticism}}}, Hackett
+  Publishing Company, 2006.
+
+\bibitem{brower-toland}
+Susan Brower-Toland, \emph{Instantaneous change and the physics of
+  sanctification: ``quasi-{A}ristotelianism'' in {H}enry of {G}hent's
+  {Q}uodlibet {XV} q. 13}, Journal of the History of Philosophy \textbf{40}
+  (2002), no.~1, 19--46.
+
+\bibitem{brown}
+Stephen Brown, \emph{{Walter Burley, Peter Aureoli and Gregory of Rimini}},
+  Medieval Philosophy (John Marenbon, ed.), Routledge History of Philosophy,
+  vol.~3, Routledge, 1998, pp.~368--385.
+
+\bibitem{baconI}
+Robert~Belle Burke, \emph{{The {\em Opus Majus} of Roger Bacon, volume I}},
+  University of Pennsylvania Press, 1928.
+
+\bibitem{burkert}
+Walter Burkert, \emph{Lore and science in ancient {P}ythagoreanism}, Harvard
+  University Press, 1972, Translated from the German by Edwin L. Minar, Jr.
+
+\bibitem{spade}
+Walter Burley, \emph{On the purity of the art of logic: the shorter and longer
+  treatises}, Yale University Press, 2000, Translated from the Latin by Paul
+  Vincent Spade.
+
+\bibitem{essentiis}
+Charles Burnett, \emph{{Hermann of Carinthia {\em De essentiis}: a critical
+  edition with translation and commentary}}, Studien und Texte Zur
+  Geistesgeschichte des Mittelalters, vol.~15, E. J. Brill, Leiden, 1982.
+
+\bibitem{burnyeat}
+M.~F. Burnyeat, \emph{The sceptic in his place and time}, Philosophy in
+  History: Essays in the Historiography of Philosophy (Richard Rorty, Jerome~B.
+  Schneewind, and Quentin Skinner, eds.), Cambridge University Press, 1984,
+  pp.~225--254.
+
+\bibitem{demuris}
+H.~L.~L. Busard, \emph{{Johannes de Muris, {\em De arte mensurandi}}},
+  Boethius, vol.~41, Franz Steiner Verlag, Stuttgart, 1998.
+
+\bibitem{cajori1920}
+Florian Cajori, \emph{The purpose of {Z}eno's arguments on motion}, Isis
+  \textbf{3} (1920), no.~1, 7--20.
+
+\bibitem{oresme2013}
+Stefano Caroti, Jean Celeyrette, Stefan Kirschner, and Edmond Mazet,
+  \emph{{Nicole Oresme, {\em Questiones super Physicam} (Books I--VII)}},
+  Studien und Texte Zur Geistesgeschichte des Mittelalters, vol. 112, Brill,
+  Leiden, 2013.
+
+\bibitem{charlton}
+William Charlton, \emph{Aristotle's potential infinities}, Aristotle's {\em
+  Physics}: A Collection of Essays (Lindsay Judson, ed.), Clarendon Press,
+  Oxford, 1991, pp.~129--149.
+
+\bibitem{cherniss}
+Harold Cherniss, \emph{Aristotle's criticism of {P}resocratic philosophy},
+  Johns Hopkins University Press, 1935.
+
+\bibitem{moraliaXIII}
+\bysame, \emph{Plutarch's {\em moralia}, volume {XIII}, part {II}}, Loeb
+  Classical Library, vol. 470, Harvard University Press, 1976.
+
+\bibitem{chihara}
+Charles~S. Chihara, \emph{On the possibility of completing an infinite
+  process}, The Philosophical Review \textbf{74} (1965), no.~1, 74--87.
+
+\bibitem{cleary}
+John~J. Cleary, \emph{Aristotle and mathematics: aporetic method in cosmology
+  and metaphysics}, Philosophia Antiqua: A Series of Studies on Ancient
+  Philosophy, vol. LXVII, E. J. Brill, Leiden, 1995.
+
+\bibitem{cleve}
+Felix~M. Cleve, \emph{The giants of pre-sophistic {G}reek philosophy: an
+  attempt to reconstruct their thoughts}, Martinus Nijhoff, The Hague, 1965.
+
+\bibitem{johndee}
+Nicholas Clulee, \emph{John {D}ee's natural philosophy: between science and
+  religion}, Routledge, 2013.
+
+\bibitem{conway}
+Pierre Conway, \emph{Faith views the universe: A {T}homistic perspective},
+  University Press of America, 1997.
+
+\bibitem{coope2005}
+Ursula Coope, \emph{Time for {A}ristotle: {{\em Physics} IV.10--14}}, Oxford
+  Aristotle Studies, Clarendon Press, Oxford, 2005.
+
+\bibitem{timaeus}
+F.~M. Cornford, \emph{Plato's cosmology: the {{\em Timaeus}} of {P}lato
+  translated, with a running commentary}, Kegan Paul, London, 1937.
+
+\bibitem{parmenides}
+\bysame, \emph{{Plato and Parmenides: Parmenides' {\em Way of Truth} and
+  Plato's {\em Parmenides} translated with an introduction and a running
+  commentary}}, Routledge \& Kegan Paul, London, 1964.
+
+\bibitem{religion}
+\bysame, \emph{From religion to philosophy: A study in the origins of {W}estern
+  speculation}, Princeton University Press, 1991.
+
+\bibitem{courtenay1978}
+William~J. Courtenay, \emph{Adam {W}odeham: An introduction to his life and
+  writings}, E. J. Brill, Leiden, 1978.
+
+\bibitem{coxon}
+A.~H. Coxon, \emph{The fragments of {P}armenides}, Parmenides Publishing, Las
+  Vegas, 2009, Revised and expanded edition.
+
+\bibitem{kalam}
+William~Lane Craig and James~D. Sinclair, \emph{The {\em kalam} cosmological
+  argument}, The Blackwell Companion to Natural Theology (William~Lane Craig
+  and J.~P. Moreland, eds.), Wiley-Blackwell, 2012, pp.~101--201.
+
+\bibitem{rimini}
+Richard Cross, \emph{Infinity, continuity, and composition: The contribution of
+  {G}regory of {R}imini}, Medieval Philosophy and Theology \textbf{7} (1998),
+  no.~1, 89--110.
+
+\bibitem{monism}
+Patricia Curd, \emph{The legacy of {P}armenides: {E}leatic monism and later
+  {P}resocratic thought}, Princeton University Press, 1998.
+
+\bibitem{curd2007}
+\bysame, \emph{Anaxagoras of {C}lazomenae: Fragments and testomonia}, Phoenix
+  Presocratics, vol.~6, University of Toronto Press, 2007.
+
+\bibitem{dales1984}
+Richard~C. Dales, \emph{Henry of {H}arclay on the infinite}, Journal for the
+  History of Ideas \textbf{45} (1984), no.~2, 295--301.
+
+\bibitem{dales}
+\bysame, \emph{Medieval discussions of the eternity of the world}, E. J. Brill,
+  Leiden, 1990.
+
+\bibitem{davenport}
+Anne~A. Davenport, \emph{Measure of a different greatness: The intensive
+  infinite, 1250--1650}, Studien und Texte zur Geistesgeschichte des
+  Mittelalters, vol.~67, Brill, 1999.
+
+\bibitem{hispanus}
+L.~M. de~Rijk and Joke Spruyt, \emph{{Peter of Spain (Petrus Hispanus
+  Portugalensis): {\em Syncategoreumata}}}, Studien und Texte Zur
+  Geistesgeschichte des Mittelalters, vol.~30, E. J. Brill, Leiden, 1992.
+
+\bibitem{dijksterhuis}
+E.~J. Dijksterhuis, \emph{Archimedes}, Princeton University Press, 1987,
+  Translated by C. Dikshoorn.
+
+\bibitem{syrianus13to14}
+John Dillon and Dominic O'Meara, \emph{{Syrianus: On Aristotle Metaphysics
+  13--14}}, Ancient Commentators on Aristotle, Bloomsbury, 2006.
+
+\bibitem{dillon}
+John~M. Dillon, \emph{{The Middle Platonists, 80 B.C. to A.D. 220}}, revised
+  ed., Cornell University Press, 1977.
+
+\bibitem{heirs}
+\bysame, \emph{The heirs of {P}lato: A study of the {O}ld {A}cademy (347--274
+  {BC})}, Clarendon Press, Oxford, 2003.
+
+\bibitem{dodds}
+E.~R. Dodds, \emph{{Proclus: {\em The elements of theology}}}, second ed.,
+  Clarendon Press, Oxford, 1963.
+
+\bibitem{dolnikowski}
+Edith~Wilks Dolnikowski, \emph{Thomas {B}radwardine: A view of time and a
+  vision of eternity in fourteenth-century thought}, Studies in the History of
+  Christian Thought, vol.~65, E. J. Brill, Leiden, 1995.
+
+\bibitem{megariker}
+Klaus D\"oring, \emph{{Die Megariker: Kommentierte Sammlung der Testimonien}},
+  Studien zur antiken Philosophie, vol.~2, B. R. Gr\"uner N. V., Amsterdam,
+  1972.
+
+\bibitem{drozdek}
+Adam Drozdek, \emph{In the beginning was the {\em apeiron}: Infinity in {G}reek
+  philosophy}, Palingenesia. Schriftenreihe fur Klassische
+  Altertumswissenschaft, vol.~94, Franz Steiner Verlag, 2008.
+
+\bibitem{etudes}
+Pierre Duhem, \emph{{\'E}tudes sur {L}\'eonard de {V}inci, troisi\`eme s\'erie:
+  {L}es pr\'ecurseurs parisiens de {G}alil\'ee}, Librairie scientifique A.
+  Hermann et fils, Paris, 1913.
+
+\bibitem{ariew}
+\bysame, \emph{Medieval cosmology: theories of infinity, place, time, void, and
+  the plurality of worlds}, University of Chicago Press, 1985, Edited and
+  translated by Roger Ariew, abridged from {\em Le Syst\`eme du monde}.
+
+\bibitem{eldredge}
+Laurence Eldredge, \emph{Late medieval discussions of the continuum and the
+  point of the {M}iddle {E}nglish {P}atience}, Vivarium \textbf{17} (1979),
+  no.~2, 90--115.
+
+\bibitem{faris}
+J.~A. Faris, \emph{The paradoxes of {Z}eno}, Avebury Series in Philosophy,
+  Avebury, 1996.
+
+\bibitem{fox}
+Rory Fox, \emph{Time and eternity in mid-thirteenth-century thought}, Oxford
+  Theological Monographs, Oxford University Press, 2006.
+
+\bibitem{freeman}
+Kathleen Freeman, \emph{The pre-{S}ocratic philosophers}, Basil Blackwell,
+  Oxford, 1946.
+
+\bibitem{ancilla}
+\bysame, \emph{Ancilla to the pre-{S}ocratic philosophers}, Harvard University
+  Press, 1983.
+
+\bibitem{friedlander}
+Paul Friedl\"ander, \emph{Plato: an introduction}, Princeton University Press,
+  1973, Translated by Hans Meyerhoff.
+
+\bibitem{twostudies}
+David~J. Furley, \emph{Two studies in the {G}reek atomists}, Princeton
+  University Press, 1967.
+
+\bibitem{furley1982}
+\bysame, \emph{The {G}reek commentators' treatment of {A}ristotle's theory of
+  the continuum}, Infinity and Continuity in Ancient and Medieval Thought
+  (Norman Kretzmann, ed.), Cornell University Press, 1982, pp.~17--36.
+
+\bibitem{gaiser}
+Konrad Gaiser, \emph{{Platons ungeschriebene Lehre. Studien zur systematischen
+  und geschichtlichen Begr\"undung der Wissenschaften in der Platonischen
+  Schule}}, third ed., Klett-Cotta, Stuttgart, 1998.
+
+\bibitem{auvergne}
+Griet Galle, \emph{{Peter of Auvergne, Questions on Aristotle's {\em De
+  caelo}}}, Leuven University Press, 2003.
+
+\bibitem{galle}
+\bysame, \emph{Peter of {A}uvergne: {Q}uestions on {A}ristotle's {{\em De
+  caelo}}. {A} critical edition with an interpretative essay}, De Wulf-Mansion
+  Centre, Ancient and Medieval Philosophy, vol. XXIX, Leuven University Press,
+  2003.
+
+\bibitem{gallop}
+David Gallop, \emph{Parmenides of {E}lea: Fragments}, Phoenix Presocratics,
+  vol.~1, University of Toronto Press, 2000.
+
+\bibitem{gaskin}
+Richard Gaskin, \emph{The sea battle and the master argument: {A}ristotle and
+  {D}iodorus {C}ronus on the metaphysics of the future}, Quellen und Studien
+  zur Philosophie, vol.~40, Walter de Gruyter, 1995.
+
+\bibitem{glasner}
+Ruth Glasner, \emph{Averroes' physics: A turning point in medieval natural
+  philosophy}, Oxford University Press, 2009.
+
+\bibitem{goddu}
+Andr\'e Goddu, \emph{The physics of william of ockham}, Studien und Texte zur
+  Geistesgeschichte des Mittelalters, vol.~16, Brill, 1984.
+
+\bibitem{goldstein}
+Helen~Tunik Goldstein (ed.), \emph{Averroes' questions in physics}, The New
+  Synthese Historical Library, vol.~39, Kluwer Academic Publishers, 1991.
+
+\bibitem{goodenough}
+Erwin~R. Goodenough, \emph{A neo-{P}ythagorean source in {P}hilo {J}udaeus},
+  Yale Classical Studies (Austin~M. Harmon, ed.), vol.~3, Yale University
+  Press, 1932, pp.~115--164.
+
+\bibitem{goodman}
+L.~E. Goodman, \emph{Time in {I}slam}, Religion and Time (Anindita~Niyogi
+  Balslev and J.~N. Mohanty, eds.), Studies in the History of Religions,
+  vol.~54, E. J. Brill, Leiden, 1992, pp.~138--162.
+
+\bibitem{gould}
+Josiah~B. Gould, \emph{The philosophy of {C}hrysippus}, Philosophia Antiqua: A
+  Series of Monographs on Ancient Philosophy, vol. XVII, E. J. Brill, Leiden,
+  1970.
+
+\bibitem{graeser}
+Andreas Graeser, \emph{Plotinus and the {S}toics: A preliminary study}, E. J.
+  Brill, Leiden, 1972.
+
+\bibitem{graham}
+Daniel~W. Graham, \emph{Empedocles and {A}naxagoras: Responses to
+  {P}armenides}, The Cambridge Companion to Early Greek Philosophy (A.~A. Long,
+  ed.), Cambridge University Press, 1999, pp.~159--180.
+
+\bibitem{grant1974}
+Edward Grant (ed.), \emph{A source book in medieval science}, Harvard
+  University Press, 1974.
+
+\bibitem{grunbaum}
+Adolf Gr\"unbaum, \emph{Can an infinitude of operations be performed in a
+  finite time?}, British J. Philos. Sci. \textbf{20} (1969), 203--218.
+
+\bibitem{numenius}
+Kenneth~Sylvan Guthrie, \emph{Numenius of {A}pamea, the father of
+  neo-{P}latonism: Works, biography, message, sources, and influence}, George
+  Bell and Sons, London, 1917.
+
+\bibitem{sylvanguthrie}
+\bysame, \emph{The {P}ythagorean sourcebook and library}, Phanes Press, Grand
+  Rapids, MI, 1987.
+
+\bibitem{HGPII}
+W.~K.~C. Guthrie, \emph{A history of {G}reek philosophy, volume {II}: The
+  {P}resocratic tradition from {P}armenides to {D}emocritus}, Cambridge
+  University Press, 1965.
+
+\bibitem{hallamaa}
+Olli Hallamaa, \emph{Continuum, infinity and analysis in theology}, Raum und
+  Raumvorstellungen im Mittelalter (Jan A.~von Aertsen and Andreas Speer,
+  eds.), Miscellanea Mediaevalia, vol.~25, Walter de Gruyter, 1997,
+  pp.~375--388.
+
+\bibitem{sceptics}
+R.~J. Hankinson, \emph{The {S}ceptics}, Arguments of the Philosophers,
+  Routledge, 1995.
+
+\bibitem{hankinson}
+\bysame, \emph{Cause and explanation in ancient {G}reek thought}, Oxford
+  University Press, 2001.
+
+\bibitem{harvey}
+Warren~Zev Harvey, \emph{Physics and metaphysics in {H}asdai {C}rescas},
+  Amstedam Studies in Jewish Thought, vol.~6, J. C. Gieben, Amsterdam, 1998.
+
+\bibitem{hasper}
+Pieter~Sjoerd Hasper, \emph{Zeno unlimited}, Oxford Studies in Ancient
+  Philosophy \textbf{30} (2006), 49--85.
+
+\bibitem{heatharchimedes}
+Thomas Heath, \emph{The works of {A}rchimedes}, Cambridge University Press,
+  1897.
+
+\bibitem{HGMI}
+\bysame, \emph{A history of {G}reek mathematics, volume {I}}, Clarendon Press,
+  Oxford, 1921.
+
+\bibitem{HGMII}
+\bysame, \emph{A history of {G}reek mathematics, volume {II}}, Clarendon Press,
+  Oxford, 1921.
+
+\bibitem{heatharistotle}
+\bysame, \emph{Mathematics in {A}ristotle}, Claredon Press, Oxford, 1949.
+
+\bibitem{henry2001}
+John Henry, \emph{Void space, mathematical realism and {F}rancesco {P}atrizi da
+  {C}herso's use of atomistic arguments}, Late Medieval and Early Modern
+  Corpuscular Matter Theories (Christoph L\"uthy, John~E. Murdoch, and
+  William~R. Newman, eds.), Medieval and Early Modern Science, vol.~1, Brill,
+  Leiden, 2001, pp.~133--161.
+
+\bibitem{hett}
+W.~S. Hett, \emph{Aristotle. minor works}, Loeb Classical Library, vol. 307,
+  Harvard University Press, 1936.
+
+\bibitem{hoenen}
+M.~J. F.~M. Hoenen, \emph{Marsilius of {I}nghen: Divine knowledge in late
+  medieval thought}, E. J. Brill, Leiden, 1993.
+
+\bibitem{horky}
+Phillip~Sidney Horky, \emph{Plato and {P}ythagoreanism}, Oxford University
+  Press, 2013.
+
+\bibitem{archytas}
+Carl~A. Huffman, \emph{Archtas of {T}arentum: {P}ythagorean, philosopher and
+  mathematician king}, Cambridge University Press, 2005.
+
+\bibitem{philolaus}
+\bysame, \emph{Philolaus of {C}roton: {P}ythagorean and {P}resocratic},
+  Cambridge University Press, 2006.
+
+\bibitem{hussey}
+Edward Hussey, \emph{Pythagoreans and {E}leatics}, From the Beginning to Plato
+  (C.~C.~W. Taylor, ed.), Routledge History of Philosophy, vol.~1, Routledge,
+  1997, pp.~117--160.
+
+\bibitem{immerwahr}
+John Immerwahr, \emph{An interpretation of {Z}eno's stadium paradox}, Phronesis
+  \textbf{23} (1978), no.~1, 22--26.
+
+\bibitem{inwood-gerson}
+Brad Inwood and L.~P. Gerson, \emph{Hellenistic philosophy: Introductory
+  readings}, second ed., Hackett Publishing Company, 1997.
+
+\bibitem{inwood}
+Michael Inwood, \emph{Aristotle on the reality of time}, Aristotle's {\em
+  Physics}: A Collection of Essays (Lindsay Judson, ed.), Clarendon Press,
+  Oxford, 1991, pp.~151--178.
+
+\bibitem{jung}
+El\.{z}bieta Jung and Robert Podko\'nski, \emph{Richard {K}ilvington on
+  continuity}, Atomism in Late Medieval Philosophy and Theology (Christophe
+  Grellard and Aur\'elien Robert, eds.), Brill, 2009, pp.~65--84.
+
+\bibitem{kaye}
+Joel Kaye, \emph{Economy and nature in the fourteenth century: Money, market
+  exchange, and the emergence of scientific thought}, Cambridge Studies in
+  Medieval Life and Thought: Fourth Series, vol.~35, Cambridge University
+  Press, 1998.
+
+\bibitem{kidd}
+I.~G. Kidd, \emph{Posidonius, volume {II}. {T}he commentary: i. {T}estimonia
+  and fragments 1--149}, Cambridge Classical Texts and Commentaries, vol. 14a,
+  Cambridge University Press, 1988.
+
+\bibitem{abelard}
+Peter King, \emph{The metaphysics of {P}eter {A}belard}, The Cambridge
+  Companion to Abelard (Jeffrey~E. Brower and Kevin Guilfoy, eds.), Cambridge
+  University Press, 2004, pp.~65--125.
+
+\bibitem{kirk}
+G.~S. Kirk, J.~E. Raven, and M.~Schofield, \emph{The {P}resocratic
+  philosophers: A critical history with a selection of texts}, second ed.,
+  Cambridge University Press, 1983.
+
+\bibitem{knorr1982}
+Wilbur~R. Knorr, \emph{Infinity and continuity: the interaction of mathematics
+  and philosophy in antiquity}, Infinity and Continuity in Ancient and Medieval
+  Thought (Norman Kretzmann, ed.), Cornell University Press, 1982,
+  pp.~112--145.
+
+\bibitem{knuutila}
+Simo Knuuttila, \emph{Time and creation in {A}ugustine}, The Cambridge
+  Companion to Augustine (David~Vincent Meconi and Eleonore Stump, eds.),
+  Cambridge University Press, second ed., 2014, pp.~81--97.
+
+\bibitem{albus}
+Simo Knuuttila and Anja~Inkeri Lehtinen, \emph{Plato in infinitum remisse
+  incipit esse albus}, Essays in Honour of Jaakko Hintikka (Esa Saarinen, Risto
+  Hilpinen, Ilkka Niiniluoto, and Merrill~Provence Hintikka, eds.), Synthese
+  Library, vol. 124, D. Reidel Publishing Company, Dordrecht, 1979,
+  pp.~309--329.
+
+\bibitem{kohler}
+George Kohler, \emph{Medieval infinities in mathematics and the contribution of
+  {G}ersonides}, History of Philosophy Quarterly \textbf{23} (2006), no.~2,
+  95--116.
+
+\bibitem{konstan}
+David Konstan, \emph{Problems in {E}picurean physics}, Essays in Ancient Greek
+  Philosophy, volume II (John~P. Anton and Anthony Preus, eds.), State
+  University of New York Press, 1983, pp.~431--464.
+
+\bibitem{simplicius6}
+David Konstan (ed.), \emph{Simplicius: {O}n {A}ristotle {P}hysics 6}, Ancient
+  Commentators on Aristotle, Bloomsbury, 2014.
+
+\bibitem{kouremenos1995}
+Theokritos Kouremenos, \emph{Aristotle on mathematical infinity}, Palingenesia,
+  vol.~58, Franz Steiner Verlag, Stuttgart, 1995.
+
+\bibitem{kretzmann1982}
+Norman Kretzmann, \emph{Continuity, contrariety, contradiction, and change},
+  Infinity and Continuity in Ancient and Medieval Thought (Norman Kretzmann,
+  ed.), Cornell University Press, 1982, pp.~270--296.
+
+\bibitem{kilvington}
+Norman Kretzmann and Barbara~Ensign Kretzmann, \emph{The sophismata of
+  {R}ichard {K}ilvington}, Cambridge University Press, 1990.
+
+\bibitem{lagerlund}
+Henrik Lagerlund (ed.), \emph{Encyclopedia of medieval philosophy: Philosophy
+  between 500 and 1500}, Springer, 2011.
+
+\bibitem{lear}
+Jonathan Lear, \emph{A note on {Z}eno's arrow}, Phronesis \textbf{26} (1981),
+  no.~2, 91--104.
+
+\bibitem{lee}
+H.~D.~P. Lee, \emph{Zeno of {E}lea; a text, with translation and notes},
+  Cambridge University Press, 1936.
+
+\bibitem{xenophanes}
+J.~H. Lesher, \emph{Xenophanes of {C}olophon: Fragments}, Phoenix Presocratics,
+  vol.~4, University of Toronto Press, 1992.
+
+\bibitem{lettinck}
+Paul Lettinck, \emph{Aristotle's {{\em Physics}} and its reception in the
+  {A}rabic world}, Aristoteles Semitico-Latinus, vol.~7, E. J. Brill, Leiden,
+  1994.
+
+\bibitem{levin}
+Flora~R. Levin, \emph{Greek reflections on the nature of music}, Cambridge
+  University Press, 2009.
+
+\bibitem{lewis2005}
+Neil Lewis, \emph{Robert {G}rosseteste and the continuum}, Albertus Magnus und
+  die Anf\"ange der Aristoteles-Rezeption im lateinischen Mittelalter (Ludger,
+  Honnefelder, Rega Wood, Mechthild Dreyer, and Marc-Aeilko Aris, eds.),
+  Aschendorff Verlag, M\"unster, 2005, pp.~159--188.
+
+\bibitem{lewis2012}
+\bysame, \emph{Robert {G}rosseteste and {R}ichard {R}ufus of {C}ornwall on
+  unequal infinites}, Robert Grosseteste: His Thought and Its Impact (Jack~P.
+  Cunningham, ed.), Pontifical Institute of Mediaeval Studies, Toronto, 2012,
+  pp.~227--256.
+
+\bibitem{lloyd1966}
+G.~E.~R. Lloyd, \emph{Polarity and analogy: Two types of argumentation in early
+  {G}reek thought}, Cambridge University Press, 1966.
+
+\bibitem{lloyd1968}
+\bysame, \emph{Plato as a natural scientist}, Journal of Hellenic Studies
+  \textbf{88} (1968), 78--92.
+
+\bibitem{lloyd1979}
+\bysame, \emph{Magic, reason and experience: studies in the origin and
+  development of {G}reek science}, Cambridge University Press, 1979.
+
+\bibitem{lohr2001}
+Charles Lohr, \emph{Ramon {L}ull's theory of the continuous and discrete}, Late
+  Medieval and Early Modern Corpuscular Matter Theories (Christoph L\"uthy,
+  John~E. Murdoch, and William~R. Newman, eds.), Medieval and Early Modern
+  Science, vol.~1, Brill, Leiden, 2001, pp.~75--90.
+
+\bibitem{longsedleyI}
+A.~A. Long and D.~N. Sedley, \emph{The {H}ellenistic philosophers. {V}olume 1:
+  Translations of the principal sources, with philosophical commentary},
+  Cambridge University Press, 1987.
+
+\bibitem{longeway}
+John Longeway, \emph{{William Heytesbury, {\em On maxima and minima}. Chapter 5
+  of {\em Rules for solving sophismata}, with an anonymous fourteenth-century
+  discussion}}, Synthese Historical Library, vol.~26, D. Reidel Publishing
+  Company, Dordrecht, 1984.
+
+\bibitem{melville}
+Lucretius, \emph{On the nature of the universe}, Oxford World's Classics,
+  Oxford University Press, 2009, Translated from the Latin by Ronald Melville.
+
+\bibitem{luria}
+S.~Luria, \emph{{Die Infinitesimaltheorie der antike Atomisten}}, Quellen und
+  Studien zur Geschichte der Mathematik, Abteilung B \textbf{2} (1932),
+  106--185.
+
+\bibitem{alfarabi}
+Muhsin Mahdi, \emph{Alfarabi's philosophy of {P}lato and {A}ristotle}, revised
+  ed., Cornell University Press, 2001.
+
+\bibitem{maierI}
+Anneliese Maier, \emph{{Die Vorl\"aufer Galileis im 14. Jahrhundert}}, Edizioni
+  di Storia e Letteratura, Rome, 1949, Studien zur Naturphilosophie der
+  Sp\"atscholastik, 1. Band.
+
+\bibitem{maierIII}
+\bysame, \emph{{An der Grenze von Scholastik und Naturwissenschaft}}, second
+  ed., Edizioni di Storia e Letteratura, Rome, 1952, Studien zur
+  Naturphilosophie der Sp\"atscholastik, 3. Band.
+
+\bibitem{maierII}
+\bysame, \emph{{Zwei Grundprobleme der scholastischen Naturphilosophie}}, third
+  ed., Edizioni di Storia e Letteratura, Rome, 1968, Studien zur
+  Naturphilosophie der Sp\"atscholastik, 2. Band.
+
+\bibitem{mantello}
+F.~A.~C. Mantello and A.~G. Rigg (eds.), \emph{Medieval latin: An introduction
+  and bibliographical guide}, The Catholic University of America Press, 1996.
+
+\bibitem{maspero}
+Lucas~Francisco Mateo-Seco and Giulio Maspero (eds.), \emph{The {B}rill
+  dictionary of {G}regory of {N}yssa}, Supplements to Vigiliae Christianae,
+  vol.~99, E. J. Brill, Leiden, 2009.
+
+\bibitem{matson}
+Wallace~I. Matson, \emph{Zeno moves!}, Essays in Ancient Greek Philosophy VI:
+  Before Plato (Anthony Preus, ed.), SUNY Press, 2001.
+
+\bibitem{trinity815}
+Gareth~B. Matthews (ed.), \emph{{Augustine: {\em On the Trinity}, Books
+  8--15}}, Cambridge Texts in the History of Philosophy, Cambridge University
+  Press, 2002, Translated by Stephen McKenna.
+
+\bibitem{mcginnis}
+Jon McGinnis, \emph{Avicenna}, Great Medieval Thinkers, Oxford University
+  Press, 2010.
+
+\bibitem{reisman}
+Jon McGinnis and David~C. Reisman, \emph{Classical {A}rabic philosophy: An
+  anthology of sources}, Hackett Publishing, 2007.
+
+\bibitem{mckirahan}
+Richard~D. Mckirahan~Jr., \emph{Parmenides and {M}elissus}, The Cambridge
+  Companion to Early Greek Philosophy (A.~A. Long, ed.), Cambridge University
+  Press, 1999, pp.~134--158.
+
+\bibitem{villanovaII}
+Michael~R. McVaugh (ed.), \emph{{Arnaldi de Villanova Opera medica omnia, II:
+  Aphorismi de gradibus}}, Universitat de Barcelona, 1975.
+
+\bibitem{meijering}
+E.~P. Meijering, \emph{{Hilary of Poitiers on the Trinity: {\em De Trinitate}
+  1, 1-19, 2, 3}}, Philosophia Patrum, vol.~6, E. J. Brill, Leiden, 1982.
+
+\bibitem{mendell}
+Henry Mendell, \emph{What's location got to do with it? {P}lace, space, and the
+  infinite in classical {G}reek mathematics}, Mathematizing Space: The Objects
+  of Geometry from Antiquity to the Early Modern Age (Vincenzo~De Risi, ed.),
+  Trends in the History of Science, Birkh\"auser, 2015, pp.~15--64.
+
+\bibitem{miller1982}
+Fred~D. Miller~Jr., \emph{Aristotle against the atomists}, Infinity and
+  Continuity in Ancient and Medieval Thought (Norman Kretzmann, ed.), Cornell
+  University Press, 1982, pp.~87--111.
+
+\bibitem{milton}
+J.~R. Milton, \emph{The limitations of ancient atomism}, Science and
+  Mathematics in Ancient Greek Culture (C.~J. Tuplin and T.~E. Rihll, eds.),
+  Oxford University Press, 2002.
+
+\bibitem{molland2001}
+George Molland, \emph{Roger {B}acon's corpuscular tendencies (and some of
+  {G}rosseteste's too)}, Late Medieval and Early Modern Corpuscular Matter
+  Theories (Christoph L\"uthy, John~E. Murdoch, and William~R. Newman, eds.),
+  Medieval and Early Modern Science, vol.~1, Brill, Leiden, 2001, pp.~57--73.
+
+\bibitem{morison2002}
+Benjamin Morison, \emph{On location: {A}ristotle's concept of place}, Oxford
+  Aristotle Studies, Clarendon Press, Oxford, 2002.
+
+\bibitem{proclus}
+Glenn~R. Morrow and John~M. Dillon (eds.), \emph{{Proclus' Commentary on
+  Plato's {\em Parmenides}}}, Princeton University Press, 1987.
+
+\bibitem{mourelatos}
+Alexander P.~D. Mourelatos, \emph{The route of {P}armenides}, Yale University
+  Press, 1970.
+
+\bibitem{mueller1982}
+Ian Mueller, \emph{Aristotle and the quadrature of the circle}, Infinity and
+  Continuity in Ancient and Medieval Thought (Norman Kretzmann, ed.), Cornell
+  University Press, 1982, pp.~146--164.
+
+\bibitem{mueller2003}
+\bysame, \emph{Greek arithmetic, geometry and harmonics: {T}hales to {P}lato},
+  From the Beginning to Plato (C.~C.~W. Taylor, ed.), Routledge History of
+  Philosophy, vol.~1, Routledge, 1997, pp.~249--297.
+
+\bibitem{murdoch1963}
+John~E. Murdoch, \emph{The medieval language of proportions: Elements of the
+  interaction with {G}reek foundations and the development of new mathematical
+  techniques}, Scientific Change (A.~C. Crombie, ed.), Heinemann, London, 1963.
+
+\bibitem{murdoch1975}
+\bysame, \emph{From social into intellectual factors: An aspect of the unitary
+  character of late medieval learning}, The Cultural Context of Medieval
+  Learning (John~Emery Murdoch and Edith~Dudley Sylla, eds.), Boston Studies in
+  the Philosophy of Science, vol.~26, D. Reidel Publishing Company, Dordrecht,
+  1975, pp.~271--348.
+
+\bibitem{harclay}
+\bysame, \emph{Henry of {H}arclay and the infinite}, {Studi sul XIV secolo in
+  memoria di Anneliese Maier} (Agostino~Paravicini Bagliani and Alfonso
+  Maier\'u, eds.), Edizioni di Storia e Letteratura, Rome, 1981, pp.~219--261.
+
+\bibitem{murdoch1982}
+\bysame, \emph{William of {O}ckham and the logic of infinity and continuity},
+  Infinity and Continuity in Ancient and Medieval Thought (Norman Kretzmann,
+  ed.), Cornell University Press, 1982, pp.~165--207.
+
+\bibitem{murdoch2001}
+\bysame, \emph{The medieval and {R}enaissance tradition of {\em minima
+  naturalia}}, Late Medieval and Early Modern Corpuscular Matter Theories
+  (Christoph L\"uthy, John~E. Murdoch, and William~R. Newman, eds.), Medieval
+  and Early Modern Science, vol.~1, Brill, Leiden, 2001, pp.~91--131.
+
+\bibitem{indivisibles}
+\bysame, \emph{Beyond {A}ristotle: indivisibles and infinite divisibility in
+  the later {M}iddle {A}ges}, Atomism in Late Medieval Philosophy and Theology
+  (Christophe Grellard and Aur\'elien Robert, eds.), Brill, 2009, pp.~15--38.
+
+\bibitem{synan}
+John~E. Murdoch and Edward~A. Synan, \emph{Two questions on the continuum:
+  {W}alter {C}hatton (?), {O.F.M.} and {A}dam {W}odeham, {O.F.M.}}, Franciscan
+  Studies \textbf{26} (1966), no.~1, 212--288.
+
+\bibitem{buridan}
+John~E. Murdoch and Johannes M. M.~H. Thijssen, \emph{John {B}uridan on
+  infinity}, The Metaphysics and Natural Philosophy of John Buridan (J.~M.
+  M.~H. Thijssen and Jack Zupko, eds.), Medieval and Early Modern Science,
+  vol.~2, Brill, 2000, pp.~127--150.
+
+\bibitem{nasr}
+Seyyed Nasr, \emph{An introduction to {I}slamic cosmological doctrines}, State
+  University of New York Press, 1993.
+
+\bibitem{normore1982}
+Calvin~G. Normore, \emph{Walter {B}urley on continuity}, Infinity and
+  Continuity in Ancient and Medieval Thought (Norman Kretzmann, ed.), Cornell
+  University Press, 1982, pp.~258--269.
+
+\bibitem{odaly}
+Gerard O'Daly, \emph{Augustine's philosophy of mind}, University of California
+  Press, 1987.
+
+\bibitem{omeara}
+Dominic~J. O'Meara, \emph{Pythagoras revived: Mathematics and philosophy in
+  late antiquity}, Clarendon Press, Oxford, 1989.
+
+\bibitem{opsomer}
+Jan Opsomer, \emph{The integration of {A}ristotelian physics in a {N}eoplatonic
+  context: {P}roclus on movers and divisibility}, Physics and Philosophy of
+  Nature in Greek Neoplatonism (Riccardo Chiaradonna and Franco Trabattoni,
+  eds.), Philosophia Antiqua: A Series of Studies on Ancient Philosophy, vol.
+  115, Brill, Leiden, 2009, pp.~189--229.
+
+\bibitem{owen}
+G.~E.~L. Owen, \emph{Zeno and the mathematicians}, Proceedings of the
+  Aristotelian Society \textbf{58} (1957--1958), 199--222.
+
+\bibitem{palmer}
+John Palmer, \emph{Parmenides and {P}resocratic philosophy}, Oxford University
+  Press, 2009.
+
+\bibitem{pasnau}
+Robert Pasnau, \emph{Metaphysical themes 1274--1671}, Oxford University Press,
+  2011.
+
+\bibitem{antiphon}
+Gerard~J. Pendrick, \emph{Antiphon the {S}ophist: the fragments}, Cambridge
+  Classical Texts and Commentaries, vol.~39, Cambridge University Press, 2002.
+
+\bibitem{polansky}
+Ronald Polansky, \emph{Aristotle's {\em {d}e anima}: a critical commentary},
+  Cambridge University Press, 2007.
+
+\bibitem{porro}
+Pasquale Porro, \emph{Angelic measures: {\em Aevum} and discrete time}, The
+  Medieval Concept of Time: The Scholastic Debate and its Reception in Early
+  Modern Philosophy (Pasquale Porro, ed.), Studien und Texte Zur
+  Geistesgeschichte des Mittelalters, vol.~75, E. J. Brill, Leiden, 2001,
+  pp.~131--160.
+
+\bibitem{possekel}
+Ute Possekel, \emph{Evidence of {G}reek philosophical concepts in the writings
+  of {E}phrem the {S}yrian}, Corpus Scriptorum Christianorum Orientalium, vol.
+  580, Peeters Publishers, Louvain, 1999.
+
+\bibitem{rashed}
+Marwan Rashed, \emph{Natural philosophy}, The Cambridge Companion to Arabic
+  Philosophy (Peter Adamson and Richard~C. Taylor, eds.), Cambridge University
+  Press, 2005, pp.~287--307.
+
+\bibitem{rashed2009}
+\bysame, \emph{{Th\={a}bit ibn {Q}urra, la {\em Physique} d'Aristote et le
+  meilleur des mondes}}, Th\={a}bit ibn {Q}urra: Science and Philosophy in
+  Ninth-Century Baghdad (Roshdi Rashed, ed.), Walter de Gruyter, 2009,
+  pp.~675--714.
+
+\bibitem{rashed2000}
+Roshdi Rashed, \emph{Al-sijz\={i} and maimonides: A mathematical and
+  philosophical commentary on {P}roposition {II}--14 in {A}pollonius' {{\em
+  Conic Sections}}}, Maimonides and the Sciences (Robert~S. Cohen and Hillel
+  Levine, eds.), Boston Studies in the Philosophy of Science, vol. 211, Kluwer
+  Academic Publishers, 2000, pp.~159--172.
+
+\bibitem{raven}
+J.~E. Raven, \emph{{Pythagoreans and Eleatics}}, Cambridge University Press,
+  1948.
+
+\bibitem{roark}
+Tony Roark, \emph{Aristotle on time: a study of the {\em {p}hysics}}, Cambridge
+  University Press, 2011.
+
+\bibitem{gaon}
+Samuel Rosenblatt, \emph{{Saadia Gaon, {\em The Book of Beliefs and
+  Opinions}}}, Yale Judaica Series, vol.~1, Yale University Press, 1948.
+
+\bibitem{ross}
+David Ross, \emph{Aristotle}, fifth ed., Methuen, London, 1966.
+
+\bibitem{gersonides}
+Tamar Rudavsky, \emph{Creation, time and infinity in {G}ersonides}, Journal of
+  the History of Philosophy \textbf{26} (1988), no.~1, 25--44.
+
+\bibitem{rudavsky}
+\bysame, \emph{Time matters: time, creation, and cosmology in medieval {J}ewish
+  philosophy}, State University of New York Press, 2000.
+
+\bibitem{russo}
+Lucio Russo, \emph{The forgotten revolution}, Springer, 2004, Translated from
+  the Italian by Silvio Levy.
+
+\bibitem{sambursky}
+Samuel Sambursky, \emph{Physics of the {S}toics}, Routledge and Kegan Paul,
+  London, 1959.
+
+\bibitem{sambursky1962}
+\bysame, \emph{The physical world of late antiquity}, Routledge and Kegan Paul,
+  London, 1962.
+
+\bibitem{sambursky1963}
+\bysame, \emph{The physical world of the {G}reeks}, Routledge and Kegan Paul,
+  London, 1963.
+
+\bibitem{sarnowsky}
+J\"urgen Sarnowsky, \emph{{Die aristotelisch-scholastische Theorie der
+  Bewegung. Studien zum Kommentar Alberts von Sachsen zur Physik des
+  Aristoteles}}, Beiträge zur Geschichte der Philosophie und Theologie des
+  Mittelalters. Neue Folge, vol.~32, Aschendorff, M\"unster, 1989.
+
+\bibitem{schofield}
+Malcolm Schofield, \emph{An essay on {A}naxagoras}, Cambridge University Press,
+  1980.
+
+\bibitem{diodorus}
+David Sedley, \emph{Diodorus {C}ronus and {H}ellenistic philosophy},
+  Proceedings of the Cambridge Philological Society (New Series) \textbf{23}
+  (1977), 74--120.
+
+\bibitem{sedley}
+\bysame, \emph{Parmenides and {M}elissus}, The Cambridge Companion to Early
+  Greek Philosophy (A.~A. Long, ed.), Cambridge University Press, 1999,
+  pp.~113--133.
+
+\bibitem{stoicgod}
+\bysame, \emph{The origins of {S}toic {G}od}, Traditions of Theology: Studies
+  in Hellenistic Theology, its Background and Aftermath (Dorothea Frede and
+  Andr\'e Laks, eds.), Philosophia Antiqua, vol.~89, E. J. Brill, Leiden, 2001,
+  pp.~41--84.
+
+\bibitem{GCI2}
+\bysame, \emph{{\em On generation and corruption} i.2}, Aristotle's {\em {O}n
+  generation and corruption} I (Frans~de Haas and Jaap Mansfeld, eds.),
+  Symposium Aristotelicum, no.~15, Oxford University Press, 2004, pp.~65--90.
+
+\bibitem{selin}
+Helaine Selin (ed.), \emph{Encyclopaedia of the history of science, technology,
+  and medicine in non-western cultures}, Springer, 2008.
+
+\bibitem{quaestiones11}
+Robert~W. Sharples, \emph{Alexander of {A}phrodisias {{\em Quaestiones}}
+  1.1--2.15}, Duckworth, London, 1992.
+
+\bibitem{quaestiones216}
+\bysame, \emph{Alexander of {A}phrodisias {{\em Quaestiones}} 2.16--3.15},
+  Duckworth, London, 1994.
+
+\bibitem{theophrastus}
+\bysame, \emph{Theophrastus of {E}resus: Sources for his life, writings,
+  thought and influence. {C}ommentary, volume 3.1: Sources on physics},
+  Philosophia Antiqua: A Series of Studies on Ancient Philosophy, vol. LXXIX,
+  Brill, Leiden, 1998.
+
+\bibitem{eudemus}
+\bysame, \emph{Eudemus' {{\em Physics}}: change, place and time}, Eudemus of
+  Rhodes (Istv\'an Bodn\'ar and William~F. Fortenbaugh, eds.), Rutgers
+  University Studies in Classical Humanities, vol.~XI, Transaction Publishers,
+  2002, pp.~107--126.
+
+\bibitem{heraclides}
+\bysame, \emph{``{U}njointed masses'': a note on {H}eraclides' physical
+  theory}, Heraclides of Pontus: Discussion (William~W. Fortenbaugh and
+  Elizabeth Pender, eds.), Rutgers University Studies in Classical Humanities,
+  vol.~XV, Transaction Publishers, 2009, pp.~139--154.
+
+\bibitem{strato}
+\bysame, \emph{Strato of {L}ampsacus: the sources, texts and translations},
+  Strato of Lampsacus: Text, Translation, and Discussion (Marie-Laurence
+  Desclos and William~W. Fortenbaugh, eds.), Rutgers University Studies in
+  Classical Humanities, vol. XVI, Transaction Publishers, 2011, pp.~5--229.
+
+\bibitem{praxiphanes}
+\bysame, \emph{{``Praxiphanes of Rhodes held the same opinions as
+  Theophrastus'' (Epiphanius, {\em De fide} 9.38)}}, Praxiphanes of Mytilene
+  and Chamaeleon of Heraclea: Text, Translation, and Discussion (Andrea
+  Martano, Elisabetta Matelli, and David Mirhady, eds.), Rutgers University
+  Studies in Classical Humanities, vol. XVIII, Transaction Publishers, 2012,
+  pp.~463--476.
+
+\bibitem{sirat}
+Colette Sirat, \emph{A history of {J}ewish philosophy in the middle ages},
+  Cambridge University Press, 1985.
+
+\bibitem{snell}
+Bruno Snell, \emph{The discovery of the mind: the {G}reek origins of {E}uropean
+  thought}, Harper, New York, 1960, Translated from the German by T. G.
+  Rosenmeyer.
+
+\bibitem{solmsen}
+Friedrich Solmsen, \emph{Aristotle's system of the physical world: a comparison
+  with his predecessors}, Cornell University Press, 1960.
+
+\bibitem{experiments}
+\bysame, \emph{Intellectual experiments of the {G}reek {E}nlightenment},
+  Princeton University Press, 1975.
+
+\bibitem{sorabji1982}
+Richard Sorabji, \emph{Time and time atoms}, Infinity and Continuity in Ancient
+  and Medieval Thought (Norman Kretzmann, ed.), Cornell University Press, 1982,
+  pp.~37--86.
+
+\bibitem{sorabji}
+\bysame, \emph{Time, creation and the continuum: theories in antiquity and the
+  {E}arly {M}iddle {A}ges}, University of Chicago Press, 1983.
+
+\bibitem{sorabji2004}
+Richard Sorabji (ed.), \emph{The philosophy of the commentators, 200--600 {AD}.
+  {A} sourcebook. {V}olume 2. {P}hysics}, Duckworth, London, 2004.
+
+\bibitem{spade1982}
+Paul~Vincent Spade, \emph{Quasi-{A}ristotelianism}, Infinity and Continuity in
+  Ancient and Medieval Thought (Norman Kretzmann, ed.), Cornell University
+  Press, 1982, pp.~297--307.
+
+\bibitem{storms}
+Godfrid Storms, \emph{Anglo-{S}axon magic}, Martinus Nijhoff, The Hague, 1949.
+
+\bibitem{stump1982}
+Eleonore Stump, \emph{Theology and physics in {\em {d}e sacramento altaris}:
+  {O}ckham's theory of indivisibles}, Infinity and Continuity in Ancient and
+  Medieval Thought (Norman Kretzmann, ed.), Cornell University Press, 1982,
+  pp.~207--230.
+
+\bibitem{sweeney}
+Leo Sweeney, \emph{Infinity in the {P}resocratics: a bibliographical and
+  philosophical study}, Martinus Nijhoff, The Hague, 1972.
+
+\bibitem{sweeney1992}
+\bysame, \emph{Divine infinity in {G}reek and medieval thought}, Peter Lang,
+  New York, 1992.
+
+\bibitem{sylla1982}
+Edith~Dudley Sylla, \emph{Infinite indivisibles and continuity in
+  fourteenth-century theories of alteration}, Infinity and Continuity in
+  Ancient and Medieval Thought (Norman Kretzmann, ed.), Cornell University
+  Press, 1982, pp.~231--257.
+
+\bibitem{burley}
+\bysame, \emph{Walter {B}urley's {{\em Physics}} commentaries and the
+  mathematics of alteration}, Early Science and Medicine \textbf{6} (2001),
+  no.~3, 149--184.
+
+\bibitem{szabo}
+\'Arp\'ad Szab\'o, \emph{The beginnings of {G}reek mathematics}, Sythese
+  Historical Library, vol.~17, D. Reidel Publishing Company, Dordrecht, 1978,
+  Translated from the German by A. M. Ungar.
+
+\bibitem{tatakis}
+Basil Tatakis, \emph{Byzantine philosophy}, Hackett Publishing Company, 2003,
+  Translated by Nicholas J. Moutafakis.
+
+\bibitem{taylor}
+A.~E. Taylor, \emph{Plato: The man and his work}, fourth ed., Routledge, 2013.
+
+\bibitem{taylor2010}
+C.~C.~W. Taylor, \emph{{The Atomists: Leucippus and Democritus. Fragments}},
+  Phoenix Presocratics, vol.~5, University of Toronto Press, 2010.
+
+\bibitem{teske}
+Roland~J. Teske, \emph{{William of Auvergne: {\em The universe of creatures}}},
+  Mediaeval Philosophical Texts in Translation, no.~35, Marquette University
+  Press, 1998.
+
+\bibitem{thakkar}
+Mark Thakkar, \emph{Mathematics in fourteenth-century theology}, The Oxford
+  Handbook of the History of Mathematics (Eleanor Robson and Jacqueline
+  Stedall, eds.), Oxford University Press, 2009, pp.~619--638.
+
+\bibitem{chrysippus}
+Robert~B. Todd, \emph{Chrysippus on infinite divisibility ({D}iogenes
+  {L}aertius {VII}.150)}, Apeiron \textbf{7} (1973), no.~1, 21--29.
+
+\bibitem{alexander}
+\bysame, \emph{Alexander of {A}phrodisias on {S}toic physics: A study of the
+  {D}e mixtione with preliminary essays, text, translation and commentary},
+  Philosophia Antiqua: A Series of Monographs on Ancient Philosophy, vol.
+  XXVIII, E. J. Brill, Leiden, 1976.
+
+\bibitem{riminiIII}
+A.~Damasus Trapp and Venicio Marcolino (eds.), \emph{{Gregorii Ariminensis OESA
+  Lectura super primum et secundum Sententiarum, tomus III: Super primum (Dist.
+  19--48)}}, Walter de Gruyter, 1984.
+
+\bibitem{trifogli1993}
+Cecilia Trifogli, \emph{Giles of {R}ome on the instant of change}, Synthese
+  \textbf{96} (1993), no.~1, 93--114.
+
+\bibitem{trifogli}
+\bysame, \emph{Oxford physics in the thirteenth century (ca.~1250--1270):
+  motion, infinity, place and time}, Studien und Texte zur Geistesgeschichte
+  des Mittelalters, vol. LXXII, Brill, Leiden, 2000.
+
+\bibitem{trifogli2004}
+\bysame, \emph{Duns {S}cotus and the medieval debate about the continuum},
+  Medioevo \textbf{24} (2004), 233--266.
+
+\bibitem{kilwardby}
+\bysame, \emph{Robert {K}ilwardby on time}, A Companion to the Philosophy of
+  Robert Kilwardby (Henrik Lagerlund and Paul Thom, eds.), Brill's Companions
+  to the Christian Tradition, vol.~37, Brill, Leiden, 2012, pp.~209--238.
+
+\bibitem{trifogli2013}
+\bysame, \emph{Motion and time}, A Companion to Walter Burley: Late Medieval
+  Logician and Metaphysician (Alessandro Conti, ed.), Brill's Companions to the
+  Christian Tradition, vol.~41, E. J. Brill, Leiden, 2013, pp.~267--300.
+
+\bibitem{tummers}
+Paul M. J.~E. Tummers, \emph{Geometry and theology in the {XIII}th century: An
+  example of their interrelation as found in the {M}s {A}dmont 442. {T}he
+  influence of {W}illiam of {A}uxerre?}, Vivarium \textbf{18} (1980), no.~2,
+  112--142.
+
+\bibitem{snyder}
+David Twetten, Steven Baldner, and Steven~C. Snyder, \emph{Albert's physics}, A
+  Companion to Albert the Great: Theology, Philosophy, and the Sciences (Irven
+  Resnick, ed.), Brill, 2013, pp.~173--219.
+
+\bibitem{corollaries}
+J.~O. Urmson, \emph{Simplicius: {C}orollaries on place and time}, Ancient
+  Commentators on Aristotle, Bloomsbury, 2014.
+
+\bibitem{asclepiades}
+J.~T. Vallance, \emph{The lost theory of {A}sclepiades of {B}ithynia},
+  Clarendon Press, Oxford, 1990.
+
+\bibitem{lycopolis}
+P.~W. van~der Horst and J.~Mansfeld, \emph{An {A}lexandrian {P}latonist against
+  dualism: {A}lexander of {L}ycopolis' treatise `{C}ritique of the doctrines of
+  {M}anichaeus'}, E. J. Brill, Leiden, 1974.
+
+\bibitem{vanwinden}
+J.~C.~M. van Winden, \emph{Calcidius on matter: His doctrine and sources}, E.
+  J. Brill, Leiden, 1965.
+
+\bibitem{vlastos1965}
+Gregory Vlastos, \emph{Minimal parts in {E}picurean atomism}, Isis \textbf{56}
+  (1965), no.~2, 121--147.
+
+\bibitem{vlastos1966}
+\bysame, \emph{A note on {Z}eno's {A}rrow}, Phronesis \textbf{11} (1966),
+  no.~1, 3--18.
+
+\bibitem{race}
+\bysame, \emph{Zeno's race course}, Journal of the History of Philosophy
+  \textbf{4} (1966), no.~2, 95--108.
+
+\bibitem{vlastos1971}
+\bysame, \emph{A {Z}enonian argument against plurality}, Essays in Ancient
+  Greek Philosophy (John~P. Anton and George~L. Kustas, eds.), SUNY Press,
+  1971, pp.~119--144.
+
+\bibitem{wagner}
+Michael~F. Wagner, \emph{Plotinus on the nature of physical reality}, The
+  Cambridge Companion to Plotinus (Lloyd~P. Gerson, ed.), Cambridge University
+  Press, 1996, pp.~130--170.
+
+\bibitem{wallis}
+R.~T. Wallis, \emph{Neoplatonism}, Duckworth, London, 1972.
+
+\bibitem{iamblichus}
+Robin Waterfield, \emph{Iamblichus: {\em The Theology of Arithmetic}}, Phanes
+  Press, Grand Rapids, MI, 1988.
+
+\bibitem{waterfield2009}
+\bysame, \emph{The first philosophers: The {P}resocratics and {S}ophists},
+  Oxford World's Classics, Oxford University Press, 2009.
+
+\bibitem{wear}
+Sarah~Klitenic Wear, \emph{The teachings of {S}yrianus on {P}lato's {{\em
+  Timaeus}} and {{\em Parmenides}}}, Ancient Mediterranean and Medieval Texts
+  and Contexts: Studies in Platonism, Neoplatonism, and the Platonic Tradition,
+  vol.~10, Brill, Leiden, 2011.
+
+\bibitem{wehrliVIII}
+Fritz Wehrli, \emph{{Die Schule des Aristoteles: Texte und Kommentar. Heft
+  VIII: Eudemos von Rhodos}}, Benno Schwabe \& Co., Basel, 1955.
+
+\bibitem{white}
+Michael~J. White, \emph{The continuous and the discrete: Ancient physical
+  theories from a contemporary perspective}, Clarendon Press, Oxford, 1992.
+
+\bibitem{white2003}
+\bysame, \emph{Stoic natural philosophy (physics and cosmology)}, The Cambridge
+  Companion to the Stoics (Brad Inwood, ed.), Cambridge University Press, 2003,
+  pp.~124--152.
+
+\bibitem{whittaker}
+John Whittaker, \emph{Philological comments on the {N}eoplatonic notion of
+  infinity}, The Significance of Neoplatonism (R.~Baine Harris, ed.), Studies
+  in Neoplatonism, vol.~1, State University of New York Press, 1976,
+  pp.~155--172.
+
+\bibitem{wildberg}
+Christian Wildberg, \emph{Philoponus: {{\em Against Aristotle, on the eternity
+  of the world}}}, Ancient Commentators on Aristotle, Duckworth, 1987.
+
+\bibitem{wilson}
+Curtis Wilson, \emph{William of {H}eytesbury: Medieval logic and the rise of
+  mathematical physics}, University of Wisconsin Publications in Medieval
+  Science, vol.~3, University of Wisconsin Press, 1956.
+
+\bibitem{wippel}
+John~F. Wippel, \emph{The metaphysical thought of {G}odfrey of {F}ontaines: A
+  study in late thirteenth-century philosophy}, The Catholic University of
+  America Press, 1999.
+
+\bibitem{wolfson1929}
+Harry~Austryn Wolfson, \emph{Crescas' critique of {A}ristotle: Problems of
+  {A}ristotle's {P}hysics in {J}ewish and {A}rabic philosophy}, Harvard Semitic
+  Series, vol.~VI, Harvard University Press, 1929.
+
+\bibitem{wolfsonIV}
+\bysame, \emph{The philosophy of the {K}alam}, Structure and Growth of
+  Philosophic Systems from Plato to Spinoza, vol.~IV, Harvard University Press,
+  1976.
+
+\bibitem{wodeham}
+Rega Wood, \emph{Adam de {W}odeham: {T}ractatus de indivisibilibus. {A}
+  critical edition with introduction, translation, and textual notes}, Synthese
+  Historical Library, vol.~31, Kluwer Academic Publishers, 1988.
+
+\bibitem{zimmerman}
+Fritz~W. Zimmerman, \emph{{\em Kal\={a}m} and the {G}reeks}, Islamic Cultures,
+  Islamic Contexts: Essays in Honor of Professor Patricia Crone (Asad~Q. Ahmed,
+  Behnam Sadeghi, Robert~G. Hoyland, and Adam Silverstein, eds.), Islamic
+  History and Civilization, vol. 114, Brill, Leiden, 2014, pp.~343--363.
+
+\end{thebibliography}

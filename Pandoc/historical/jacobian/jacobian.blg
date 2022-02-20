@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: jacobian.aux
+The style file: amsplain.bst
+Database file #1: jacobian.bib
+You've used 20 entries,
+            2213 wiz_defined-function locations,
+            624 strings with 6314 characters,
+and the built_in function-call counts, 5430 in all, are:
+= -- 465
+> -- 177
+< -- 5
++ -- 74
+- -- 51
+* -- 406
+:= -- 885
+add.period$ -- 20
+call.type$ -- 20
+change.case$ -- 88
+chr.to.int$ -- 0
+cite$ -- 20
+duplicate$ -- 264
+empty$ -- 544
+format.name$ -- 51
+if$ -- 1152
+int.to.chr$ -- 0
+int.to.str$ -- 20
+missing$ -- 50
+newline$ -- 70
+num.names$ -- 46
+pop$ -- 123
+preamble$ -- 1
+purify$ -- 64
+quote$ -- 0
+skip$ -- 143
+stack$ -- 0
+substring$ -- 312
+swap$ -- 42
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 56
+warning$ -- 0
+while$ -- 60
+width$ -- 22
+write$ -- 194

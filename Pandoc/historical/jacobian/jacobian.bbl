@@ -1,0 +1,97 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{10}
+
+\bibitem{abeles}
+Francine~F. Abeles, \emph{Nineteenth century roots of quasideterminants},
+  Linear Algebra Appl. \textbf{435} (2011), no.~5, 1019--1024.
+
+\bibitem{bashmakova}
+I.~G. Bashmakova and A.~N. Rudakov, \emph{Algebra and algebraic number theory},
+  Mathematics of the 19th century, volume 1 (A.~N. Kolmogorov and A.~P.
+  Yushkevich, eds.), Birkh\"auser, 2001, pp.~35--136.
+
+\bibitem{brualdi}
+Richard~A. Brualdi and Hans Schneider, \emph{{Determinantal identities: Gauss,
+  Schur, Cauchy, Sylvester, Kronecker, Jacobi, Binet, Laplace, Muir, and
+  Cayley}}, Linear Algebra Appl. \textbf{52--53} (1983), 769--791.
+
+\bibitem{vorlesungen}
+A.~Clebsch (ed.), \emph{{C. G. J. Jacobi's Vorlesungen \"uber Dynamik}}, second
+  ed., G. Reimer, Berlin, 1884.
+
+\bibitem{coolidge}
+Julian~Lowell Coolidge, \emph{A history of geometrical methods}, Dover
+  Publications, 1963.
+
+\bibitem{crowe}
+Michael~J. Crowe, \emph{A history of vector analysis: The evolution of the idea
+  of a vectorial system}, Dover Publications, 2011.
+
+\bibitem{abregeI}
+Jean Dieudonn\'e (ed.), \emph{Abr\'eg\'e d'histoire des math\'ematiques
+  1700--1900, tome i}, Hermann, Paris, 1978.
+
+\bibitem{dorier}
+J.~L. Dorier, \emph{A general outline of the genesis of vector space theory},
+  Historia Math. \textbf{22} (1995), no.~3, 227--261.
+
+\bibitem{elstrodt}
+J\"urgen Elstrodt, \emph{{Ma{\ss}- und Integrationstheorie}}, sixth ed.,
+  Springer, 2009.
+
+\bibitem{fearnley-sander}
+Desmond Fearnley-Sander, \emph{{H}ermann {G}rassmann and the creation of linear
+  algebra}, Amer. Math. Monthly \textbf{86} (1979), no.~10, 809--817.
+
+\bibitem{grassmann}
+Hermann Grassmann, \emph{Extension theory}, History of Mathematics, vol.~19,
+  American Mathematical Society, 2000, Translated from the German by Lloyd
+  Kannenberg.
+
+\bibitem{hairer}
+Ernst Hairer, Syvert~P. N{\o}rsett, and Gerhard Wanner, \emph{Solving ordinary
+  differential equations {I}: Nonstiff problems}, second ed., Springer, 2008.
+
+\bibitem{emergence}
+Thomas Hawkins, \emph{Emergence of the theory of {L}ie groups: An essay in the
+  history of mathematics 1869--1926}, Sources and Studies in the History of
+  Mathematics and Physical Sciences, Springer, 2000.
+
+\bibitem{stackel}
+C.~G.~J. Jacobi, \emph{Ueber die {F}unctionaldeterminanten}, Ostwald's
+  Klassiker der exakten Wissenschaften, no.~78, Wilhelm Engelmann, Leipzig,
+  1896.
+
+\bibitem{routledge}
+Eberhard Knobloch, \emph{Determinants}, Companion Encyclopedia of the History
+  and Philosophy of the Mathematical Sciences (I.~Grattan-Guinness, ed.),
+  vol.~1, Routledge, 1994, pp.~766--774.
+
+\bibitem{koenigsberger}
+Leo Koenigsberger, \emph{{Carl Gustav Jacobi Jacobi}}, B. G. Teubner, Leipzig,
+  1904.
+
+\bibitem{may}
+Kenneth~O. May, \emph{Derivatives of determinants and other multilinear
+  functions}, Math. Mag. \textbf{38} (1965), no.~5, 307--308.
+
+\bibitem{prasolov}
+V.~V. Prasolov, \emph{Problems and theorems in linear algebra}, Translations of
+  Mathematical Monographs, vol. 134, American Mathematical Society, 1994,
+  Translated from the Russian by D. A. Leites.
+
+\bibitem{price}
+G.~B. Price, \emph{Some identities in the theory of determinants}, Amer. Math.
+  Monthly \textbf{54} (1947), no.~2, 75--90.
+
+\bibitem{ratcliffe}
+John~G. Ratcliffe, \emph{Foundations of hyperbolic manifolds}, second ed.,
+  Graduate Texts in Mathematics, vol. 149, Springer, 2006.
+
+\end{thebibliography}

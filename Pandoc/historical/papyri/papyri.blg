@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: papyri.aux
+The style file: amsplain.bst
+Database file #1: papyri.bib
+You've used 50 entries,
+            2213 wiz_defined-function locations,
+            818 strings with 11534 characters,
+and the built_in function-call counts, 13188 in all, are:
+= -- 1081
+> -- 494
+< -- 13
++ -- 200
+- -- 143
+* -- 1006
+:= -- 2156
+add.period$ -- 50
+call.type$ -- 50
+change.case$ -- 224
+chr.to.int$ -- 0
+cite$ -- 50
+duplicate$ -- 644
+empty$ -- 1337
+format.name$ -- 143
+if$ -- 2785
+int.to.chr$ -- 0
+int.to.str$ -- 50
+missing$ -- 115
+newline$ -- 160
+num.names$ -- 117
+pop$ -- 317
+preamble$ -- 1
+purify$ -- 173
+quote$ -- 0
+skip$ -- 324
+stack$ -- 0
+substring$ -- 677
+swap$ -- 82
+text.length$ -- 13
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 132
+warning$ -- 0
+while$ -- 131
+width$ -- 52
+write$ -- 468

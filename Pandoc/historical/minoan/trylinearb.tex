@@ -1,0 +1,45 @@
+% trylinearb.tex    Linear B font
+\documentclass{article}
+%%\documentclass[12pt]{article}
+\usepackage{linearb}
+
+\title{The Linear B Font}
+\author{}
+\date{}
+
+\renewcommand{\baselinestretch}{1.2}
+\begin{document}
+%%\maketitle
+    The numbers 1 to 9: \textlinb{\BNi{} \BNii{} \BNiii{} \BNiv{} \BNv{} \BNvi{} \BNvii{} \BNviii{} \BNix}
+
+    The numbers 10 to 90: \textlinb{\BNx{} \BNxx{} \BNxxx{} \BNxl{} \BNl{} \BNlx{} \BNlxx{} \BNlxxx{} \BNxc}
+
+    The numbers 100 to 900: \textlinb{\BNc{} \BNcc{} \BNccc{} \BNcd{} \BNd{} \BNdc{} \BNdcc{} \BNdccc{} \BNcm}
+
+    The number 1000: \textlinb{\BNm}
+    
+    \newcommand{\weights}{\BPwta\ \BPwtb\ \BPwtc\ \BPwtd\ \BPtalent}
+The system of weight measures: \textlinb{\weights} which transliterates as:
+                       \translitlinb{\weights}
+
+\newcommand{\fluids}{\BPvola\ \BPvolb\ \BPvolcd\ \BPvolcf}
+The system of fluid measures: \textlinb{\fluids} which transliterates as:
+                       \translitlinb{\fluids}
+
+\newcommand{\commodities}{\BPcloth\ \BPwool\ \BPwheat\ \BPbarley\
+                         \BPwine\ \BPolive\ \BPbronze\ \BPgold}
+Some commodities: \textlinb{\commodities} which transliterates as:
+                       \translitlinb{\commodities}
+
+\newcommand{\menhorses}{\BPman\ \BPwoman\ \BPhorse\ \BPfoal}
+Some people and animals: \textlinb{\menhorses}  which transliterates as:
+                         \translitlinb{\menhorses}
+
+\newcommand{\livestock}{\BPpig\ \BPboar\ \BPsow\
+                        \BPox\ \BPbull\ \BPcow\
+                        \BPsheep\ \BPram\ \BPewe\
+                        \BPgoat\ \BPbilly\ \BPnanny}
+Some livestock: \textlinb{\livestock}  which transliterates as:
+                         \translitlinb{\livestock}
+    
+\end{document}
