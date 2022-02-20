@@ -1,27 +1,14 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=latex 2021.11.22)  20 FEB 2022 04:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.24)  20 FEB 2022 04:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCo
-de"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.
-{\AddToHook{class/before}{\RequirePackage[#1,html]{tex4ht}}\let\HCode\documents
-tyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname tex4ht\e
-ndcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HCode}{\
-documentstyle[tex4ht]}}}\makeatother\HCode xhtml,,charset=utf-8,html5.a.b.c.\in
-put "\detokenize{minoan}"
-(./minoan.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/tex4ht.sty
-version 2021-09-14-14:11
-Package: tex4ht 
---------------------------------------
---- Note --- for _ at preamble, use the command line option `early_'
---------------------------------------
---------------------------------------
---- Note --- for ^ at preamble, use the command line option `early^'
---------------------------------------
-\tmp:toks=\toks16
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+**minoan.tex
+(./minoan.tex
+LaTeX2e <2021-11-15>
+L3 programming layer <2021-11-22>
+(c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size10.clo
+(c:/texlive/2021/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count183
@@ -35,22 +22,25 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/usepackage.4ht
-version 2021-08-24-17:04
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+)
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip49
+
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
+\@emptytoks=\toks16
 \ex@=\dimen139
-)) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen140
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
 \inf@bad=\count191
@@ -73,332 +63,33 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \dotsspace@=\muskip16
 \c@parentequation=\count198
 \dspbrk@lvl=\count199
-\tag@help=\toks18
+\tag@help=\toks17
 \row@=\count266
 \column@=\count267
 \maxfields@=\count268
-\andhelp@=\toks19
+\andhelp@=\toks18
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
 \tagshift@=\dimen144
 \tagwidth@=\dimen145
 \totwidth@=\dimen146
 \lineht@=\dimen147
-\@envbody=\toks20
+\@envbody=\toks19
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks21
+\mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/archaic/linearb.sty
+)
+(c:/texlive/2021/texmf-dist/tex/latex/archaic/linearb.sty
 Package: linearb 2005/06/22 v1.2 package for Linear B font
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/tex4ht.4ht
-version 2021-06-20-15:33
---------------------------------------
---- Note --- for additional information, use the command line option `info'
---------------------------------------
-::::::::::::::::::::::::::::::::::::::::::
- TeX4ht info is available in the log file 
-::::::::::::::::::::::::::::::::::::::::::
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/tex4ht.sty
-version 2021-09-14-14:11
-l.855 --- TeX4ht warning --- nonprimitive \everypar ---
---- needs --- tex4ht minoan ---
-\tmp:cnt=\count269
-\openout15 = `minoan.tmp'.
-
-(./minoan.tmp)
-\tmp:dim=\skip52
-(./minoan.xref)
-\:refout=\write3
-\openout3 = `minoan.xref'.
-
-(/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-11-09-10:26
---------------------------------------
---- Note --- to remove the <?xml version=...?> processing instruction use the c
-ommand line option `no-VERSION'
---------------------------------------
---------------------------------------
---- Note --- to remove the DOCTYPE declaration use the command line option `no-
-DOCTYPE'
---------------------------------------
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/unicode.4ht
-version 2021-06-19-14:11
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-04-16-13:27
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html5.4ht
-version 2021-11-09-10:26
 )
---------------------------------------
---- Note --- for marking of the base font, use the command line option `fonts+'
-
---------------------------------------
---------------------------------------
---- Note --- for non active _, use the command line option `no_'
---------------------------------------
---------------------------------------
---- Note --- for _ of catcode 13, use the command line option `_13'
---------------------------------------
---------------------------------------
---- Note --- for non active ^, use the command line option `no^'
---------------------------------------
---------------------------------------
---- Note --- for ^ of catcode 13, use the command line option `^13'
---------------------------------------
-(/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-11-09-10:26
---------------------------------------
---- Note --- to ignore CSS font decoration, use the `NoFonts' command line opti
-on
---------------------------------------
---------------------------------------
---- Note --- for jpg bitmaps of pictures, use the `jpg' command line option. (C
-haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
-hes of tex4ht.c) 
---------------------------------------
---------------------------------------
---- Note --- for gif bitmaps of pictures, use the `gif' command line option. (C
-haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
-hes of tex4ht.c) 
---------------------------------------
---------------------------------------
---- Note --- for content and toc in 2 frames, use the command line option `fram
-es'
---------------------------------------
---------------------------------------
---- Note --- for content, toc, and footnotes in 3 frames, use the command line 
-option `frames-fn'
---------------------------------------
---------------------------------------
---- Note --- for file extension name xht, use the command line option `xht'
---------------------------------------
-TeX4ht package options: xhtml,charset=utf-8,html5,html
---------------------------------------
---- Note --- To print a timestamp, use the command line option timestamp
---------------------------------------
---------------------------------------
---- Note --- to ignore CSS code, use the command line option `-css
---------------------------------------
---------------------------------------
---- Note --- for inline CSS code, use the command line option `css-in'
---------------------------------------
---------------------------------------
---- Note --- for pop ups on mouse over, use the command line option `mouseover'
-
---------------------------------------
---------------------------------------
---- Note --- for addressing images in a subdirectory, use the command line opti
-on `imgdir:.../'
---------------------------------------
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/unicode.4ht
-version 2021-06-19-14:11
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-04-16-13:27
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html5.4ht
-version 2021-11-09-10:26
---------------------------------------
---- Note --- To print a timestamp, use the command line option timestamp
---------------------------------------
-)
-\:tokwrite=\toks22
-\:tokpage=\toks23
---------------------------------------
---- Note --- for back links to toc, use the command line option `sections+'
---------------------------------------
---------------------------------------
---- Note --- for linear crosslinks of pages, use the command line option `next'
-
---------------------------------------
-\openout15 = `minoan.4ct'.
-
-\:tocout=\write4
-\openout4 = `minoan.4tc'.
-
-(/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-11-09-10:26
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/unicode.4ht
-version 2021-06-19-14:11
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-04-16-13:27
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html5.4ht
-version 2021-11-09-10:26
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/latex.4ht
-version 2021-06-25-13:51
-LaTeX Info: Redefining \_ on input line 173.
-LaTeX Info: Redefining \, on input line 792.
-LaTeX Info: Redefining \; on input line 793.
-LaTeX Info: Redefining \! on input line 794.
-LaTeX Info: Redefining \: on input line 795.
-LaTeX Info: Redefining \> on input line 796.
---------------------------------------
---- Note --- for links into captions, instead of float heads, use the command l
-ine option `refcaption'
---------------------------------------
-(/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-11-09-10:26
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/unicode.4ht
-version 2021-06-19-14:11
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-04-16-13:27
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html5.4ht
-version 2021-11-09-10:26
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-11-09-10:26
---------------------------------------
---- Note --- For mini tocs immediately aftter the header use the command line o
-ption `minitoc<'
---------------------------------------
---------------------------------------
---- Note --- for enumerated list elements with valued data, use the command lin
-e option `enumerate+'
---------------------------------------
---------------------------------------
---- Note --- for enumerated list elements li's with value attributes, use the c
-ommand line option `enumerate-'
---------------------------------------
---------------------------------------
---- Note --- for CSS2 code, use the command line option `css2'
---------------------------------------
---------------------------------------
---- Note --- for pictorial tabular, use the command line option `pic-tabular'
---------------------------------------
---------------------------------------
---- Note --- for bitmap fbox'es, use the command line option `pic-fbox'
---------------------------------------
---------------------------------------
---- Note --- for bitmap framebox'es, use the command line option `pic-framebox'
-
---------------------------------------
---------------------------------------
---- Note --- for inline footnotes use command line option `fn-in'
---------------------------------------
---------------------------------------
---- Note --- for tracing of latex font commands, use the command line option `f
-onts'
---------------------------------------
---------------------------------------
---- Note --- for width specifications of tabular p entries, use the `p-width' c
-ommand line option or a configuration similar to \Configure{HColWidth}{\HCode{ 
-style="width:\HColWidth"}}
---------------------------------------
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/unicode.4ht
-version 2021-06-19-14:11
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-04-16-13:27
---------------------------------------
---- Note --- for pictorial eqnarray, use the command line option `pic-eqnarray'
-
---------------------------------------
---------------------------------------
---- Note --- for pictorial array, use the command line option `pic-array'
---------------------------------------
---------------------------------------
---- Note --- for pictorial $...$ environments, use the command line option `pic
--m' (not recommended!!)
---------------------------------------
---------------------------------------
---- Note --- for pictorial $...$ and $$...$$ environments with latex alt, use t
-he command line option `pic-m+' (not safe!!)
---------------------------------------
---------------------------------------
---- Note --- for pictorial array, use the command line option `pic-array'
---------------------------------------
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html5.4ht
-version 2021-11-09-10:26
-)) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/fontmath.4ht
-version 2018-11-06-15:55
-(/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-11-09-10:26
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/unicode.4ht
-version 2021-06-19-14:11
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-04-16-13:27
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html5.4ht
-version 2021-11-09-10:26
-)) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/article.4ht
-version 2021-05-16-09:21
-(/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-11-09-10:26
---------------------------------------
---- Note --- for automatic sectioning pagination, use the command line option `
-1', `2', `3', '4', '5', '6', or '7'
---------------------------------------
---------------------------------------
---- Note --- for files named derived from section titles, use the command line 
-option `sec-filename'
---------------------------------------
---------------------------------------
---- Note --- for i-columns index, use the command line option `index=i' (e.g., 
-index=2)
---------------------------------------
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/unicode.4ht
-version 2021-06-19-14:11
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-04-16-13:27
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html5.4ht
-version 2021-11-09-10:26
-)) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/amsmath.4ht
-version 2019-12-29-14:17
-\tmp:muskip=\muskip17
-(/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-11-09-10:26
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/unicode.4ht
-version 2021-06-19-14:11
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-04-16-13:27
-LaTeX Info: Redefining \[ on input line 504.
-LaTeX Info: Redefining \] on input line 504.
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html5.4ht
-version 2021-11-09-10:26
-)) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/amstext.4ht
-version 2009-05-21-09:32
-(/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-11-09-10:26
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/unicode.4ht
-version 2021-06-19-14:11
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-04-16-13:27
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html5.4ht
-version 2021-11-09-10:26
-)) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/amsbsy.4ht
-version 2009-05-21-09:32
-(/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-11-09-10:26
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/unicode.4ht
-version 2021-06-19-14:11
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-04-16-13:27
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html5.4ht
-version 2021-11-09-10:26
-)) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/amsopn.4ht
-version 2009-05-21-09:32
-(/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-11-09-10:26
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/unicode.4ht
-version 2021-06-19-14:11
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-04-16-13:27
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html5.4ht
-version 2021-11-09-10:26
-)) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4.4ht
-version 2021-11-09-10:26
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/unicode.4ht
-version 2021-06-19-14:11
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html4-math.4ht
-version 2021-04-16-13:27
-) (/usr/local/texlive/2021/texmf-dist/tex/generic/tex4ht/html5.4ht
-version 2021-11-09-10:26
-)) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-File: l3backend-dvips.def 2021-10-18 L3 backend support: dvips
+(c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count269
 \l__pdf_internal_box=\box52
-\g__pdf_backend_object_int=\count270
-\l__pdf_backend_content_box=\box53
-\l__pdf_backend_model_box=\box54
-\g__pdf_backend_annotation_int=\count271
-\g__pdf_backend_link_int=\count272
-\g__pdf_backend_link_sf_int=\count273
-) (./minoan.aux)
+)
+(./minoan.aux)
 \openout1 = `minoan.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -415,43 +106,58 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
---- file minoan.css ---
-[1
+ [1
 
-] [2]
-l. 22 Writing minoan.idv[1] (minoan0x.png)
-[3] [4]
-l. 90 Writing minoan.idv[2] (minoan1x.png)
-[5] [6] [7] [8]
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Overfull \hbox (4.83266pt too wide) in paragraph at lines 121--127
+\OT1/cmr/m/n/10 the Dik-taean Cave--weighing 73\TS1/cmr/m/n/10 ·\OT1/cmr/m/n/10
+ 62 grammes (1,136\TS1/cmr/m/n/10 ·\OT1/cmr/m/n/10 5 grains), Fig. 639,
+ []
+
+[3] [4] [5]
 LaTeX Font Info:    Trying to load font information for T1+linb on input line 2
 59.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/archaic/t1linb.fd
+ (c:/texlive/2021/texmf-dist/tex/latex/archaic/t1linb.fd
 File: t1linb.fd 1999/06/20 v1.0 Linear B font definition
-)
-l. 262 Writing minoan.idv[3] (minoan2x.png)
-l. 263 Writing minoan.idv[4] (minoan3x.png)
-[9] [10] [11]
-l. 476 Writing minoan.idv[5] (minoan4x.png)
-l. 481 Writing minoan.idv[6] (minoan5x.png)
-l. 483 Writing minoan.idv[7] (minoan6x.png)
-l. 485 Writing minoan.idv[8] (minoan7x.png)
-l. 488 Writing minoan.idv[9] (minoan8x.png)
-l. 489 Writing minoan.idv[10] (minoan9x.png)
+) [6]
+Overfull \hbox (1.7774pt too wide) in paragraph at lines 328--332
+[]\OT1/cmr/m/n/10 BM 1897,0401.1399, Enkomi, hematite weight, ``cor-re-spond-in
+g to three Egyp-
+ []
 
-LaTeX Warning: Citation `CAHII1' on page 12 undefined on input line 494.
+[7] [8] [9]
 
-[12] [13] (./minoan.bbl [14]) [15] (./minoan.aux)
+LaTeX Warning: Citation `CAHII1' on page 10 undefined on input line 494.
+
+[10] (./minoan.bbl) [11] (./minoan.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5569 strings out of 478372
- 69304 string characters out of 5848552
- 501437 words of memory out of 5000000
- 23582 multiletter control sequences out of 15000+600000
- 409876 words of font info for 50 fonts, out of 8000000 for 9000
+ 1365 strings out of 478353
+ 19038 string characters out of 5852100
+ 323916 words of memory out of 5000000
+ 19531 multiletter control sequences out of 15000+600000
+ 409708 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,6n,81p,915b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,6n,62p,428b,191s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2021/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2
+021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2021/texmf
+-dist/fonts/type1/public/archaic/linb10.pfb><c:/texlive/2021/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm1000.pfb>
+Output written on minoan.pdf (11 pages, 184903 bytes).
+PDF statistics:
+ 101 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on minoan.dvi (15 pages, 56232 bytes).
