@@ -16,5 +16,7 @@ latexml --destination=jacobian.xml jacobian.tex
 
 latexmlpost jacobian.xml --destination=index.html
 
+pandoc --biblatex --bibliography=greekweights.bib greekweights.tex --katex -o index.html
+
 
 
