@@ -22,6 +22,12 @@ pandoc greekweights.tex --katex -o index.html
 pandoc -F pandoc-citeproc --csl="APA" --bibliography=bibliography.bib \
   -o document.pdf document.md
 # or using biblatex and the traditionalist workflow.
-pandoc --katex --standalone --biblatex --bibliography=greekweights.bib greekweights.tex -o index.html
+pandoc --katex --standalone greekweights.tex -o index.html --biblatex --bibliography=/home/jordan/GitHub/LaTeX/Pandoc/historical/greekweights/greekweights.bib
+
+pandoc greekweights.tex -f latex -t html -s -o index.html --bibliography greekweights.bib --katex
+
+pandoc -F citeproc --csl="APA" --bibliography=greekweights.bib -o index.html --katex greekweights.tex
+
+pandoc greekweights.bib --citeproc --csl ieee.csl -s -o greekweights.html
 
 
