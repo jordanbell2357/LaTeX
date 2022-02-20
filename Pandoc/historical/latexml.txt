@@ -1,3 +1,20 @@
 latexml --destination=greekweights.xml greekweights.tex
 
 latexmlpost greekweights.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+pandoc greekweights.tex -s --katex --bibliography=greekweights.bib -o index.html
+
+latexml --destination=eulermaclaurin.xml eulermaclaurin.tex
+
+latexmlpost eulermaclaurin.xml --destination=index.html
+
+latexml --destination=induction.xml induction.tex
+
+latexmlpost induction.xml --destination=index.html
+
+latexml --destination=jacobian.xml jacobian.tex
+
+latexmlpost jacobian.xml --destination=index.html
+
+
+
