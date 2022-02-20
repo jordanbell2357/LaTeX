@@ -18,5 +18,10 @@ latexmlpost jacobian.xml --destination=index.html
 
 pandoc greekweights.tex --katex -o index.html
 
+# Using the CSL transform
+pandoc -F pandoc-citeproc --csl="APA" --bibliography=bibliography.bib \
+  -o document.pdf document.md
+# or using biblatex and the traditionalist workflow.
+pandoc --katex --standalone --biblatex --bibliography=greekweights.bib greekweights.tex -o index.html
 
 
