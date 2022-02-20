@@ -1,251 +1,306 @@
-\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
-\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
-% \MRhref is called by the amsart/book/proc definition of \MR.
-\providecommand{\MRhref}[2]{%
-  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
-}
-\providecommand{\href}[2]{#2}
 \begin{thebibliography}{10}
 
 \bibitem{GMPI}
-Isabella Andorlini (ed.), \emph{{Greek medical papyri I}}, Istituto
-  papirologico G. Vitelli, Firenze, 2001.
+Isabella Andorlini, editor.
+\newblock {\em {Greek medical papyri I}}.
+\newblock Istituto papirologico G. Vitelli, Firenze, 2001.
 
 \bibitem{baillet}
-Jules Baillet, \emph{{Le papyrus math\'ematique d'Akhm{\^\i}m}}, M\'emoires
-  publi\'es par les membres de la Mission arch\'eologique fran\c{c}aise au
-  Caire, tome neuvi\`eme, I\textsuperscript{er} fascicule (U.~Bouriant, ed.),
-  Ernest Leroux, Paris, 1892, pp.~i--ii, 1--89.
+Jules Baillet.
+\newblock {Le papyrus math\'ematique d'Akhm{\^\i}m}.
+\newblock In U.~Bouriant, editor, {\em M\'emoires publi\'es par les membres de
+  la Mission arch\'eologique fran\c{c}aise au Caire, tome neuvi\`eme,
+  I\textsuperscript{er} fascicule}, pages i--ii, 1--89. Ernest Leroux, Paris,
+  1892.
 
 \bibitem{benoit}
-Paul Benoit, Karine Chemla, and Jim Ritter (eds.), \emph{Histoire de fractions,
-  fractions d'histoire}, Science Networks Historical Studies, vol.~10,
-  Birkh\"auser, 1992.
+Paul Benoit, Karine Chemla, and Jim Ritter, editors.
+\newblock {\em Histoire de fractions, fractions d'histoire}, volume~10 of {\em
+  Science Networks Historical Studies}.
+\newblock Birkh\"auser, 1992.
 
 \bibitem{boncompagni}
-Baldassarre Boncompagni (ed.), \emph{{Scritti di Leonardo Pisano, matematico
-  del secolo decimoterzo. Volume I, Il Liber abbaci di Leonardo Pisano
-  pubblicato secondo la lezione del Codice Magliabechiano C. I, 2616, Badia
-  Fiorentina, no. 73}}, Tipografia delle scienze matematiche e fisiche, Roma,
-  1857.
+Baldassarre Boncompagni, editor.
+\newblock {\em {Scritti di Leonardo Pisano, matematico del secolo decimoterzo.
+  Volume I, Il Liber abbaci di Leonardo Pisano pubblicato secondo la lezione
+  del Codice Magliabechiano C. I, 2616, Badia Fiorentina, no. 73}}.
+\newblock Tipografia delle scienze matematiche e fisiche, Roma, 1857.
 
 \bibitem{louvre1973}
-Bernard Boyaval, \emph{{Tablettes math\'ematiques du Mus\'ee du Louvre}}, Revue
-  arch\'eologique, nouvelle s\'erie (1973), no.~2, 243--260.
+Bernard Boyaval.
+\newblock {Tablettes math\'ematiques du Mus\'ee du Louvre}.
+\newblock {\em Revue arch\'eologique, nouvelle s\'erie}, (2):243--260, 1973.
 
 \bibitem{louvre1977}
-\bysame, \emph{{Le cahier de Papnouthion et les autres cahiers scolaires
-  grecs}}, Revue arch\'eologique, nouvelle s\'erie (1977), no.~2, 215--230.
+Bernard Boyaval.
+\newblock {Le cahier de Papnouthion et les autres cahiers scolaires grecs}.
+\newblock {\em Revue arch\'eologique, nouvelle s\'erie}, (2):215--230, 1977.
 
 \bibitem{louvre1984}
-William Brashear, \emph{{Corrections \`a des tablettes arithm\'etiques du
-  Louvre}}, Revue des \'etudes grecques \textbf{97} (1984), no.~460--461,
-  214--217.
+William Brashear.
+\newblock {Corrections \`a des tablettes arithm\'etiques du Louvre}.
+\newblock {\em Revue des \'etudes grecques}, 97(460--461):214--217, 1984.
 
 \bibitem{beatty13}
-William Brashear, Wolf-Peter Funk, James~M. Robinson, and Richard Smith (eds.),
-  \emph{{The Chester Beatty codex Ac. 1390: mathematical school exercises in
-  Greek and John 10:7--13:38 in Subachmimic}}, Chester Beatty Monographs,
-  no.~13, Peeters, Leuven - Paris, 1990.
+William Brashear, Wolf-Peter Funk, James~M. Robinson, and Richard Smith,
+  editors.
+\newblock {\em {The Chester Beatty codex Ac. 1390: mathematical school
+  exercises in Greek and John 10:7--13:38 in Subachmimic}}.
+\newblock Number~13 in Chester Beatty Monographs. Peeters, Leuven - Paris,
+  1990.
 
 \bibitem{louvre1983}
-Patrice Cauderlier, \emph{{Cinq tablettes en bois au Mus\'ee du Louvre}}, Revue
-  arch\'eologique, nouvelle s\'erie (1983), no.~2, 259--280.
+Patrice Cauderlier.
+\newblock {Cinq tablettes en bois au Mus\'ee du Louvre}.
+\newblock {\em Revue arch\'eologique, nouvelle s\'erie}, (2):259--280, 1983.
 
 \bibitem{chace}
-Arnold~Buffum Chace, Henry~Parker Manning, and Raymond~Clare Archibald,
-  \emph{{The Rhind Mathematical Papyrus, British Museum 10057 and 10058. Volume
-  I. Free translation and commentary}}, Mathematical Association of America,
-  1927.
+Arnold~Buffum Chace, Henry~Parker Manning, and Raymond~Clare Archibald.
+\newblock {\em {The Rhind Mathematical Papyrus, British Museum 10057 and 10058.
+  Volume I. Free translation and commentary}}.
+\newblock Mathematical Association of America, 1927.
 
 \bibitem{egyptian3}
-Marshall Clagett, \emph{{Ancient Egyptian Science: A Source Book. Volume Three:
-  Ancient Egyptian Mathematics}}, Memoirs of the American Philosophical
-  Society, vol. 232, American Philosophical Society, Philadelphia, 1999.
+Marshall Clagett.
+\newblock {\em {Ancient Egyptian Science: A Source Book. Volume Three: Ancient
+  Egyptian Mathematics}}, volume 232 of {\em Memoirs of the American
+  Philosophical Society}.
+\newblock American Philosophical Society, Philadelphia, 1999.
 
 \bibitem{crawford}
-D.~S. Crawford, \emph{A mathematical tablet}, Aegyptus \textbf{33} (1953),
-  no.~2, 222--240.
+D.~S. Crawford.
+\newblock A mathematical tablet.
+\newblock {\em Aegyptus}, 33(2):222--240, 1953.
 
 \bibitem{wadisarga}
-W.~E. Crum and H.~I. Bell (eds.), \emph{{Wadi Sarga. Coptic and Greek texts
-  from the excavations undertaken by the Byzantine Research Account}}, Coptica.
-  Consilio et impensis Instituti Rask-Oerstediani edita. III, Gyldendalske
-  Boghandel-Nordisk Forlag, Hauniae, 1922.
+W.~E. Crum and H.~I. Bell, editors.
+\newblock {\em {Wadi Sarga. Coptic and Greek texts from the excavations
+  undertaken by the Byzantine Research Account}}.
+\newblock Coptica. Consilio et impensis Instituti Rask-Oerstediani edita. III.
+  Gyldendalske Boghandel-Nordisk Forlag, Hauniae, 1922.
 
 \bibitem{epiphaniusII}
-W.~E. Crum and H.~G. {Evelyn White} (eds.), \emph{{The Monastery of Epiphanius
-  at Thebes. Part II, Coptic ostraca and papyri}}, Publications of the
-  Metropolitan Museum of Art Egyptian Expedition, Metropolitan Museum of Art,
-  New York, 1926.
+W.~E. Crum and H.~G. {Evelyn White}, editors.
+\newblock {\em {The Monastery of Epiphanius at Thebes. Part II, Coptic ostraca
+  and papyri}}.
+\newblock Publications of the Metropolitan Museum of Art Egyptian Expedition.
+  Metropolitan Museum of Art, New York, 1926.
 
 \bibitem{hibeh}
-D.~H. Fowler and E.~G. Turner, \emph{Hibeh papyrus i 27: an early example of
-  {G}reek arithmetical notation}, Historia Math. \textbf{10} (1983), no.~3,
-  344--359.
+D.~H. Fowler and E.~G. Turner.
+\newblock Hibeh papyrus i 27: an early example of {G}reek arithmetical
+  notation.
+\newblock {\em Historia Math.}, 10(3):344--359, 1983.
 
 \bibitem{gillings}
-Richard~J. Gillings, \emph{Mathematics in the time of the {P}haraohs}, Dover
-  Publications, 1982.
+Richard~J. Gillings.
+\newblock {\em Mathematics in the time of the {P}haraohs}.
+\newblock Dover Publications, 1982.
 
 \bibitem{POxyIV}
-Bernard~P. Grenfell and Arthur~S. Hunt (eds.), \emph{{The Oxyrhynchus Papyri,
-  Part IV}}, Egypt Exploration Fund, London, 1904.
+Bernard~P. Grenfell and Arthur~S. Hunt, editors.
+\newblock {\em {The Oxyrhynchus Papyri, Part IV}}.
+\newblock Egypt Exploration Fund, London, 1904.
 
 \bibitem{phibehI}
-Bernard~P. Grenfell and Arthur~S. Hunt (eds.), \emph{{The Hibeh Papyri, Part
-  I}}, Egypt Exploration Fund, London, 1906.
+Bernard~P. Grenfell and Arthur~S. Hunt, editors.
+\newblock {\em {The Hibeh Papyri, Part I}}.
+\newblock Egypt Exploration Fund, London, 1906.
 
 \bibitem{griffith1898}
-F.~Ll. Griffith (ed.), \emph{The {Petrie Papyri}. {Hieratic} papyri from
-  {Kahun} and {Gurob} (principally of the {Middle Kingdom}). {Text}}, Bernard
-  Quaritch, London, 1898.
+F.~Ll. Griffith, editor.
+\newblock {\em The {Petrie Papyri}. {Hieratic} Papyri from {Kahun} and {Gurob}
+  (principally of the {Middle Kingdom}). {Text}}.
+\newblock Bernard Quaritch, London, 1898.
 
 \bibitem{koln7}
-Michael Gronewald and Klaus Maresch (eds.), \emph{{K\"olner Papyri (P. K\"oln),
-  Band 7}}, Abhandlungen der Rheinisch-Westf\"alischen Akademie der
-  Wissenschaften. Sonderreihe Papyrologica Coloniensia, vol. VII, Springer
-  Fachmedien Wiesbaden, 1991.
+Michael Gronewald and Klaus Maresch, editors.
+\newblock {\em {K\"olner Papyri (P. K\"oln), Band 7}}, volume VII of {\em
+  Abhandlungen der Rheinisch-Westf\"alischen Akademie der Wissenschaften.
+  Sonderreihe Papyrologica Coloniensia}.
+\newblock Springer Fachmedien Wiesbaden, 1991.
 
 \bibitem{MPERXV}
-Hermann Harrauer and Peter~J. Sijpesteijn (eds.), \emph{{Neue Texte aus dem
-  antiken Unterricht. Textband}}, Mitteilungen aus der Papyrussammlung der
-  \"Osterreichischen Nationalbibliothek (Papyrus Erzherzog Rainer). Neue Serie,
-  XV. Folge, Verlag Br\"uder Hollinek, Wien, 1985.
+Hermann Harrauer and Peter~J. Sijpesteijn, editors.
+\newblock {\em {Neue Texte aus dem antiken Unterricht. Textband}}.
+\newblock Mitteilungen aus der Papyrussammlung der \"Osterreichischen
+  Nationalbibliothek (Papyrus Erzherzog Rainer). Neue Serie, XV. Folge. Verlag
+  Br\"uder Hollinek, Wien, 1985.
 
 \bibitem{MSRI}
-Friedrich Hultsch, \emph{{Metrologicorum scriptorum reliquiae. Volumen I quo
-  scriptores Graeci continentur}}, Bibliotheca scriptorum Graecorum et
-  Romanorum Teubneriana, B. G. Teubner, Lipsiae, 1864.
+Friedrich Hultsch.
+\newblock {\em {Metrologicorum scriptorum reliquiae. Volumen I quo scriptores
+  Graeci continentur}}.
+\newblock Bibliotheca scriptorum Graecorum et Romanorum Teubneriana. B. G.
+  Teubner, Lipsiae, 1864.
 
 \bibitem{LCL266}
-A.~S. Hunt and C.~C. Edgar, \emph{Select papyri, volume {I}: Private affairs},
-  Loeb Classical Library, no. 266, Harvard University Press, 1932.
+A.~S. Hunt and C.~C. Edgar.
+\newblock {\em Select Papyri, Volume {I}: Private affairs}.
+\newblock Number 266 in Loeb Classical Library. Harvard University Press, 1932.
 
 \bibitem{LCL284}
-\bysame, \emph{Select papyri, volume {II}: Official documents}, Loeb Classical
-  Library, no. 282, Harvard University Press, 1934.
+A.~S. Hunt and C.~C. Edgar.
+\newblock {\em Select Papyri, Volume {II}: Official documents}.
+\newblock Number 282 in Loeb Classical Library. Harvard University Press, 1934.
 
 \bibitem{knorr1982}
-Wilbur Knorr, \emph{Techniques of fractions in ancient {E}gypt and {G}reece},
-  Historia Math. \textbf{9} (1982), no.~2, 133--171.
+Wilbur Knorr.
+\newblock Techniques of fractions in ancient {E}gypt and {G}reece.
+\newblock {\em Historia Math.}, 9(2):133--171, 1982.
 
 \bibitem{galeniXIV}
-Karl~Gottlob K\"uhn (ed.), \emph{{Claudii Galeni Opera omnia. Tomus XIV}},
-  Prostat in officina libraria Car. Cnoblochii, Lipsiae, 1827.
+Karl~Gottlob K\"uhn, editor.
+\newblock {\em {Claudii Galeni Opera omnia. Tomus XIV}}.
+\newblock Prostat in officina libraria Car. Cnoblochii, Lipsiae, 1827.
 
 \bibitem{naphtali}
-Naphtali Lewis, \emph{Life in {Egypt} under {Roman} rule}, Clarendon Press,
-  Oxford, 1983.
+Naphtali Lewis.
+\newblock {\em Life in {Egypt} under {Roman} Rule}.
+\newblock Clarendon Press, Oxford, 1983.
 
 \bibitem{ppetrIII}
-John~P. Mahaffy and J.~Gilbart Smyly (eds.), \emph{{The Flinders Petrie Papyri,
-  part III}}, Royal Irish Academy, Cunningham Memoirs, no.~XI, Academy House,
+John~P. Mahaffy and J.~Gilbart Smyly, editors.
+\newblock {\em {The Flinders Petrie Papyri, part III}}.
+\newblock Number~XI in Royal Irish Academy, Cunningham Memoirs. Academy House,
   Dublin, 1905.
 
 \bibitem{marrou}
-H.~I. Marrou, \emph{A history of education in antiquity}, Sheed and Ward, New
-  York, 1956, Translated by George Lamb.
+H.~I. Marrou.
+\newblock {\em A History of Education in Antiquity}.
+\newblock Sheed and Ward, New York, 1956.
+\newblock Translated by George Lamb.
 
 \bibitem{pyaleI}
-John~F. Oates, Alan~E. Samuel, and C.~Bradford Welles, \emph{{Yale Papyri in
-  the Beinecke Rare Book and Manuscript Library I}}, American Studies in
-  Papyrology, vol.~2, American Society of Papyrologists, New Haven and Toronto,
-  1967.
+John~F. Oates, Alan~E. Samuel, and C.~Bradford Welles.
+\newblock {\em {Yale Papyri in the Beinecke Rare Book and Manuscript Library
+  I}}, volume~2 of {\em American Studies in Papyrology}.
+\newblock American Society of Papyrologists, New Haven and Toronto, 1967.
 
 \bibitem{pack}
-Roger~A. Pack (ed.), \emph{{The Greek and Latin Literary Texts from Greco-Roman
-  Egypt}}, second ed., University of Michigan Press, 1965.
+Roger~A. Pack, editor.
+\newblock {\em {The Greek and Latin Literary Texts from Greco-Roman Egypt}}.
+\newblock University of Michigan Press, second edition, 1965.
 
 \bibitem{DMP}
-Richard~A. Parker, \emph{Demotic mathematical papyri}, Brown Egyptological
-  Studies, no.~7, Brown University Press, 1972.
+Richard~A. Parker.
+\newblock {\em Demotic Mathematical Papyri}.
+\newblock Number~7 in Brown Egyptological Studies. Brown University Press,
+  1972.
 
 \bibitem{Tvarie}
-Rosario Pintaudi and Peter~J. Sijpesteijn (eds.), \emph{Tavolette lignee e
-  cerate da varie collezioni}, Papyrologica fiorentina, vol.~18, Edizioni
-  Gonnelli, Firenze, 1989, con i contributi di R. S. Bagnall, P. Cauderlier, A.
-  E. Hanson, S. Pernigotti.
+Rosario Pintaudi and Peter~J. Sijpesteijn, editors.
+\newblock {\em Tavolette lignee e cerate da varie collezioni}, volume~18 of
+  {\em Papyrologica fiorentina}.
+\newblock Edizioni Gonnelli, Firenze, 1989.
+\newblock con i contributi di R. S. Bagnall, P. Cauderlier, A. E. Hanson, S.
+  Pernigotti.
 
 \bibitem{rhodes}
-P.~J. Rhodes and Robin Osborne (eds.), \emph{Greek historical inscriptions
-  404--323 {BC}. {Edited} with introduction, translations, and commentaries},
-  Oxford University Press, 2003.
+P.~J. Rhodes and Robin Osborne, editors.
+\newblock {\em Greek Historical Inscriptions 404--323 {BC}. {Edited} with
+  introduction, translations, and commentaries}.
+\newblock Oxford University Press, 2003.
 
 \bibitem{mich621}
-Frank~Egleston Robbins, \emph{A {Greco-Egyptian} mathematical papyrus},
-  Classical Philology \textbf{18} (1923), no.~4, 328--333.
+Frank~Egleston Robbins.
+\newblock A {Greco-Egyptian} mathematical papyrus.
+\newblock {\em Classical Philology}, 18(4):328--333, 1923.
 
 \bibitem{SB20}
-Hans-Albert Rupprecht (ed.), \emph{{Sammelbuch griechischer Urkunden aus
-  \"Agypten. 20. Band (Nr. 140069--15202)}}, Harrassowitz, Wiesbaden, 2001.
+Hans-Albert Rupprecht, editor.
+\newblock {\em {Sammelbuch griechischer Urkunden aus \"Agypten. 20. Band (Nr.
+  140069--15202)}}.
+\newblock Harrassowitz, Wiesbaden, 2001.
 
 \bibitem{abaci}
-L.~E. Sigler, \emph{{Fibonacci's Liber Abaci: A Translation into Modern English
-  of Leonardo Pisano's Book of Calculation}}, Sources and Studies in the
-  History of Mathematics and Physical Sciences, Springer, 2002.
+L.~E. Sigler.
+\newblock {\em {Fibonacci's Liber Abaci: A Translation into Modern English of
+  Leonardo Pisano's Book of Calculation}}.
+\newblock Sources and Studies in the History of Mathematics and Physical
+  Sciences. Springer, 2002.
 
 \bibitem{pmichXV}
-Peter~J. Sijpesteijn (ed.), \emph{{Michigan Papyri (P. Mich. XV)}}, Studia
-  Amstelodamensia ad epigraphicam, ius antiquum et papyrologicam pertinentia,
-  vol.~19, Terra Publishing, Zutphen, 1982.
+Peter~J. Sijpesteijn, editor.
+\newblock {\em {Michigan Papyri (P. Mich. XV)}}, volume~19 of {\em Studia
+  Amstelodamensia ad epigraphicam, ius antiquum et papyrologicam pertinentia}.
+\newblock Terra Publishing, Zutphen, 1982.
 
 \bibitem{sijpesteijn}
-\bysame, \emph{Varia papyrologica {II}}, Zeitschrift f\"ur Papyrologie und
-  Epigraphik \textbf{81} (1990), 245--251.
+Peter~J. Sijpesteijn.
+\newblock Varia papyrologica {II}.
+\newblock {\em Zeitschrift f\"ur Papyrologie und Epigraphik}, 81:245--251,
+  1990.
 
 \bibitem{smyly}
-J.~Gilbart Smyly, \emph{{The employment of the alphabet in Greek logistic}},
+J.~Gilbart Smyly.
+\newblock {The employment of the alphabet in Greek logistic}.
+\newblock In Paul Moriaud, Edouard Naville, and Paul Oltramare, editors, {\em
   {M\'elanges Nicole: Recueil de m\'emoires de philologie classique et
-  d'arch\'eologie offerts \`a Jules Nicole} (Paul Moriaud, Edouard Naville, and
-  Paul Oltramare, eds.), W. K\"undig \& Fils, Gen\`eve, 1905, pp.~515--530.
+  d'arch\'eologie offerts \`a Jules Nicole}}, pages 515--530. W. K\"undig \&
+  Fils, Gen\`eve, 1905.
 
 \bibitem{martianusII}
-William~Harris Stahl, Richard Johnson, and E.~L. Burge, \emph{{Martianus
-  Capella and the Seven Liberal Arts, volume II. The Marriage of Philology and
-  Mercury}}, Records of Civilization: Sources and Studies, no.~84, Columbia
+William~Harris Stahl, Richard Johnson, and E.~L. Burge.
+\newblock {\em {Martianus Capella and the Seven Liberal Arts, volume II. The
+  Marriage of Philology and Mercury}}.
+\newblock Number~84 in Records of Civilization: Sources and Studies. Columbia
   University Press, 1977.
 
 \bibitem{tod1912}
-Marcus~N. Tod, \emph{The {Greek} numeral notation}, The Annual of the British
-  School at Athens \textbf{18} (1911/1912), 98--132.
+Marcus~N. Tod.
+\newblock The {Greek} numeral notation.
+\newblock {\em The Annual of the British School at Athens}, 18:98--132,
+  1911/1912.
 
 \bibitem{tod1937}
-\bysame, \emph{The {Greek} acrophonic numerals}, The Annual of the British
-  School at Athens \textbf{37} (1936/1937), 236--258.
+Marcus~N. Tod.
+\newblock The {Greek} acrophonic numerals.
+\newblock {\em The Annual of the British School at Athens}, 37:236--258,
+  1936/1937.
 
 \bibitem{tod1950}
-\bysame, \emph{The alphabetic numeral system in {Attica}}, The Annual of the
-  British School at Athens \textbf{45} (1950), 126--139.
+Marcus~N. Tod.
+\newblock The alphabetic numeral system in {Attica}.
+\newblock {\em The Annual of the British School at Athens}, 45:126--139, 1950.
 
 \bibitem{vogel}
-Kurt Vogel, \emph{{Beitr\"age zur griechischen Logistik. Erster Teil}},
-  Sitzungsberichte der mathematisch-naturwissenschaftlichen Abteilung der
-  Bayerischen Akademie der Wissenschaften zu M\"unchen (1936), 357--472.
+Kurt Vogel.
+\newblock {Beitr\"age zur griechischen Logistik. Erster Teil}.
+\newblock {\em Sitzungsberichte der mathematisch-naturwissenschaftlichen
+  Abteilung der Bayerischen Akademie der Wissenschaften zu M\"unchen}, pages
+  357--472, 1936.
 
 \bibitem{ward}
-John Ward, \emph{Greek coins and their parent cities}, John Murray, London,
-  1902, Accompanied by a catalogue of the author's collection by G. F. Hill,
+John Ward.
+\newblock {\em Greek coins and their parent cities}.
+\newblock John Murray, London, 1902.
+\newblock Accompanied by a catalogue of the author's collection by G. F. Hill,
   M.A., of the British Museum.
 
 \bibitem{wilcken}
-Ulrich Wilcken, \emph{{Grundz\"uge und Chrestomathie der Papyruskunde. Erster
-  Band: Historischer Teil. Zweite H\"alfte: Chrestomathie}}, B. G. Teubner,
-  Leipzig-Berlin, 1912.
+Ulrich Wilcken.
+\newblock {\em {Grundz\"uge und Chrestomathie der Papyruskunde. Erster Band:
+  Historischer Teil. Zweite H\"alfte: Chrestomathie}}.
+\newblock B. G. Teubner, Leipzig-Berlin, 1912.
 
 \bibitem{pbrem}
-\bysame, \emph{{Die Bremer Papyri}}, Abhandlungen der Preussischen Akademie der
-  Wissenschaften, Jahrgang 1936. Phil.-hist. Klasse. Nr. 2, Verlag der Akademie
-  der Wissenschaften, in Kommission bei Walter de Gruyter, Berlin, 1936.
+Ulrich Wilcken.
+\newblock {\em {Die Bremer Papyri}}.
+\newblock Abhandlungen der Preussischen Akademie der Wissenschaften, Jahrgang
+  1936. Phil.-hist. Klasse. Nr. 2. Verlag der Akademie der Wissenschaften, in
+  Kommission bei Walter de Gruyter, Berlin, 1936.
 
 \bibitem{pmichIII}
-John~Garrett Winter (ed.), \emph{{Michigan Papyri, vol. III. Papyri in the
-  University of Michigan Collection: Miscellaneous Papyri}}, University of
-  Michigan Studies. Humanistic Series, vol.~40, University of Michigan Press,
-  1936.
+John~Garrett Winter, editor.
+\newblock {\em {Michigan Papyri, vol. III. Papyri in the University of Michigan
+  Collection: Miscellaneous Papyri}}, volume~40 of {\em University of Michigan
+  Studies. Humanistic Series}.
+\newblock University of Michigan Press, 1936.
 
 \bibitem{zalateo}
-Giorgio Zalateo, \emph{Papiri scolastici}, Aegyptus \textbf{41} (1961),
-  160--235.
+Giorgio Zalateo.
+\newblock Papiri scolastici.
+\newblock {\em Aegyptus}, 41:160--235, 1961.
 
 \end{thebibliography}

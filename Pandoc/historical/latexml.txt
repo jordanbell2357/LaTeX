@@ -30,4 +30,12 @@ pandoc -F citeproc --csl="APA" --bibliography=greekweights.bib -o index.html --k
 
 pandoc greekweights.bib --citeproc --csl ieee.csl -s -o greekweights.html
 
+pandoc --standalone --bibliography=greatyear.bib --citeproc -o greatyear.html greatyear.tex --metadata link-citations=true
 
+
+
+latexml --destination=greatyear.xml greatyear.tex
+
+latexmlpost greatyear.xml --destination=index.html
+
+latexml --destination=papyri.xml papyri.tex
