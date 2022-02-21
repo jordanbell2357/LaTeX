@@ -1,7 +1,0 @@
-pandoc --standalone -o index.html -f latex -t html themartingale.tex --metadata link-citations=true
-
-pandoc --standalone --bibliography=jacobian.bib --citeproc -o index.html -f latex -t html --katex jacobian.tex --metadata link-citations=true
-
-pandoc --standalone -o index.html -f latex -t html --katex li.tex
-
-pandoc --standalone -o index.html -f latex -t html --katex li.tex

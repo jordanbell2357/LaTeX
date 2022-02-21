@@ -1,3 +1,21 @@
+latexml --destination=logsin.xml logsin.tex
+
+latexmlpost logsin.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+latexml --destination=liouville.xml liouville.tex
+
+latexmlpost liouville.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+pandoc --standalone -o index.html -f latex -t html themartingale.tex --metadata link-citations=true
+
+pandoc --standalone --bibliography=jacobian.bib --citeproc -o index.html -f latex -t html --katex jacobian.tex --metadata link-citations=true
+
+latexml --destination=jacobian.xml jacobian.tex
+
+latexmlpost jacobian.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+pandoc --standalone -o index.html -f latex -t html --katex li.tex
+
 latexml --destination=greekweights.xml greekweights.tex
 
 latexmlpost greekweights.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
@@ -12,23 +30,14 @@ latexml --destination=induction.xml induction.tex
 
 latexmlpost induction.xml --destination=index.html
 
-latexml --destination=jacobian.xml jacobian.tex
 
-latexmlpost jacobian.xml --destination=index.html
 
 pandoc greekweights.tex --katex -o index.html
 
-# Using the CSL transform
-pandoc -F pandoc-citeproc --csl="APA" --bibliography=bibliography.bib \
-  -o document.pdf document.md
-# or using biblatex and the traditionalist workflow.
-pandoc --katex --standalone greekweights.tex -o index.html --biblatex --bibliography=/home/jordan/GitHub/LaTeX/Pandoc/historical/greekweights/greekweights.bib
+
 
 pandoc greekweights.tex -f latex -t html -s -o index.html --bibliography greekweights.bib --katex
 
-pandoc -F citeproc --csl="APA" --bibliography=greekweights.bib -o index.html --katex greekweights.tex
-
-pandoc greekweights.bib --citeproc --csl ieee.csl -s -o greekweights.html
 
 pandoc --standalone --bibliography=greatyear.bib --citeproc -o greatyear.html greatyear.tex --metadata link-citations=true
 
@@ -54,10 +63,5 @@ latexml --destination=waves.xml waves.tex
 
 latexmlpost waves.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
 
-pandoc --standalone --bibliography=logsin.bib --citeproc -o index.html -f latex -t html logsin.tex --metadata link-citations=true
 
-latexml --destination=logsin.xml logsin.tex
 
-latexmlpost logsin.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
-
-pandoc --standalone -o index.html -f latex -t html themartingale.tex --metadata link-citations=true
