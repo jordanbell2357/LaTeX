@@ -1,3 +1,15 @@
+latexml --destination=waves.xml waves.tex
+
+latexmlpost waves.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+latexml --destination=summable.xml summable.tex
+
+latexmlpost summable.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+latexml --destination=induction.xml induction.tex
+
+latexmlpost induction.xml --destination=index.html
+
 latexml --destination=logsin.xml logsin.tex
 
 latexmlpost logsin.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
@@ -14,54 +26,50 @@ latexml --destination=jacobian.xml jacobian.tex
 
 latexmlpost jacobian.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
 
-pandoc --standalone -o index.html -f latex -t html --katex li.tex
+latexml --destination=li.xml li.tex
+
+latexmlpost li.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
 
 latexml --destination=greekweights.xml greekweights.tex
 
 latexmlpost greekweights.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
 
-pandoc greekweights.tex -s --katex --bibliography=greekweights.bib -o index.html
-
 latexml --destination=eulermaclaurin.xml eulermaclaurin.tex
 
 latexmlpost eulermaclaurin.xml --destination=index.html
 
-latexml --destination=induction.xml induction.tex
-
-latexmlpost induction.xml --destination=index.html
-
-
-
-pandoc greekweights.tex --katex -o index.html
-
-
-
-pandoc greekweights.tex -f latex -t html -s -o index.html --bibliography greekweights.bib --katex
-
-
-pandoc --standalone --bibliography=greatyear.bib --citeproc -o greatyear.html greatyear.tex --metadata link-citations=true
-
-
+pandoc --standalone --bibliography=greatyear.bib --citeproc -o index.html greatyear.tex --metadata link-citations=true
 
 latexml --destination=greatyear.xml greatyear.tex
 
 latexmlpost greatyear.xml --destination=index.html
 
-latexml --destination=papyri.xml papyri.tex
-
-pandoc --standalone --bibliography=euclidIV.bib --citeproc -o index.html -f latex -t html euclidIV.tex --metadata link-citations=true
-
 latexml --destination=euclidIV.xml euclidIV.tex
 
 latexmlpost euclidIV.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+pandoc --standalone --bibliography=euclidIV.bib --citeproc -o index.html -f latex -t html euclidIV.tex --metadata link-citations=true
 
 latexml --destination=greeknumbers.xml greeknumbers.tex
 
 latexmlpost greeknumbers.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
 
-latexml --destination=waves.xml waves.tex
 
-latexmlpost waves.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+
+
+
+
+
+latexml --destination=papyri.xml papyri.tex
+
+
+
+
+
+
+
+
 
 
 
