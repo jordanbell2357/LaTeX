@@ -39,3 +39,15 @@ latexml --destination=greatyear.xml greatyear.tex
 latexmlpost greatyear.xml --destination=index.html
 
 latexml --destination=papyri.xml papyri.tex
+
+pandoc --standalone --bibliography=euclidIV.bib --citeproc -o index.html -f latex -t html euclidIV.tex --metadata link-citations=true
+
+latexml --destination=euclidIV.xml euclidIV.tex
+
+latexmlpost euclidIV.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+latexml --destination=greeknumbers.xml greeknumbers.tex
+
+latexmlpost greeknumbers.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+greeknumbers
