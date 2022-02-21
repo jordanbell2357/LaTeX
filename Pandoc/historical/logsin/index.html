@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Jordan Bell" />
+  <meta name="dcterms.date" content="2015-04-06" />
+  <title>\log\sin x</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title"><span class="math inline">log sin <em>x</em></span></h1>
+<p class="author">Jordan Bell</p>
+<p class="date">April 6, 2015</p>
+</header>
+<p>That <span class="math display">∫<sub>0</sub><sup>2<em>π</em></sup>log |1−<em>e</em><sup><em>i</em><em>θ</em></sup>|<em>d</em><em>θ</em> = 0.</span> is used in the proof of Jensen’s formula.</p>
+<p>Euler <span class="citation" data-cites="E393">(<a href="#ref-E393" role="doc-biblioref">Euler 1770, secs. 35–37</a>)</span> E393, <span class="citation" data-cites="E432">(<a href="#ref-E432" role="doc-biblioref">Euler 1773, sec. 21</a>)</span>, <span class="citation" data-cites="E499">(<a href="#ref-E499" role="doc-biblioref">Euler 1777</a>)</span> E499</p>
+<p>Class number formula</p>
+<p>Koyama and Kurokawa <span class="citation" data-cites="koyama">(<a href="#ref-koyama" role="doc-biblioref">Koyama and Kurokawa 2005</a>)</span></p>
+<p>Mathematical Fallacies, Flaws and Flimflam By E. J. Barbeau p. 105</p>
+<p>complex analysis: Rudin, Real and Complex, p. 307</p>
+<p>Theorie analytique, Fourier, Chapter III, Sect. III, p. 149, no. 183, Fourier series for logsin</p>
+<p>sect. 192 of Introductio in analysin, chap. 11</p>
+<p>cotangent series: E128</p>
+<p>Littrow</p>
+<p>Oeuvres completes de N. H. Abel, tome II, p. 92 Sur quelques integrales definies</p>
+<p>Archiv der Mathematik und Physik, Volume 4 Johann August Grunert 113-119 1844</p>
+<p>Isaac Todhunter pp. 65–66 §51 A Treatise on the Integral Calculus and Its Applications with Numerous Examples 1874 Macmillan and Co. Fourth ed.</p>
+<p>Methoden der mathematischen Physik, Volume 1 p. 88</p>
+<p>George Chrystal 367 Part 2</p>
+<p>Reihentheorie By Jakob Bernoulli Band 4</p>
+<p><span class="citation" data-cites="MR1700272">(<a href="#ref-MR1700272" role="doc-biblioref">Everest and Ward 1999, 8</a>)</span></p>
+<p>Examples of the processes of the differential and integral calculus By Duncan Farquharson Gregory 484-485, cites Ellis</p>
+<p>The Cauchy Method of Residues, Volume 2: Theory and Applications By D. S. Mitrinovic, Jovan D. Ke?ki? p. 68</p>
+<p>An Introduction to the Theory of Infinite Series By Thomas John I’Anson Bromwich p. 467</p>
+<p>N. Nielsen. Handbuch der theorie der Gammafunction. Druck und Verlag von B.G. Teubner, Leipzig, 1906</p>
+<p>Mémoires de l’Académie Impériale des Sciences, Littérature et Beaux-Arts de Turin, 1811-1812, vol 20, Georges Bidone, 231-344</p>
+<p>De calculo integralium exercitatio mathematica, Pietro Ferroni</p>
+<p>Vorlesungen über Geschichte der Trigonometrie, Volume 2, Anton Braunmuhl</p>
+<p>Foundations of Hyperbolic Manifolds, second ed., John Ratcliffe, references, p. 506 (Clausen function and Lobachevsky function)</p>
+<p>Traité élémentaire de calcul différentiel et de calcul intégral. Tome 2 Silvestre F. Lacroix p. 350</p>
+<p>A Synopsis of Elementary Results in Pure Mathematics: Containing ... By George Shoobridge Carr</p>
+<p>Die Euler’schen integrale bei unbeschränkter Variabilität der Arguments Hermann Hankel</p>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-beumer" class="csl-entry" role="doc-biblioentry">
+Beumer, M. G. 1961. <span>“Some Special Integrals.”</span> <em>Amer. Math. Monthly</em> 68 (7): 645–47.
+</div>
+<div id="ref-ellis" class="csl-entry" role="doc-biblioentry">
+Ellis, Robert Leslie. 1841. <span>“Note on the Definite Integral <span class="math inline">$\int_0^{\frac{\pi}{2}} \log(\sin \theta) d\theta$</span>.”</span> <em>Cambridge Mathematical Journal</em> II (XII): 282–83.
+</div>
+<div id="ref-E393" class="csl-entry" role="doc-biblioentry">
+Euler, Leonhard. 1770. <span>“De Summis Serierum Numeros <span>B</span>ernoullianos Involventium.”</span> <em>Novi Commentarii Academiae Scientiarum Imperialis Petropolitanae</em> 14: 129–67.
+</div>
+<div id="ref-E432" class="csl-entry" role="doc-biblioentry">
+———. 1773. <span>“Exercitationes Analyticae.”</span> <em>Novi Commentarii Academiae Scientiarum Imperialis Petropolitanae</em> 17: 173–204.
+</div>
+<div id="ref-E499" class="csl-entry" role="doc-biblioentry">
+———. 1777. <span>“De Integratione Formulae <span class="math inline">$\int \frac{dx lx}{\surd(1-xx)}$</span> Ab <span class="math inline"><em>x</em> = 0</span> Ad <span class="math inline"><em>x</em> = 1</span> Extensa.”</span> <em>Acta Academiae Scientarum Imperialis Petropolitinae</em>, no. II: 3–28.
+</div>
+<div id="ref-MR1700272" class="csl-entry" role="doc-biblioentry">
+Everest, Graham, and Thomas Ward. 1999. <em>Heights of Polynomials and Entropy in Algebraic Dynamics</em>. Universitext. London: Springer-Verlag London Ltd.
+</div>
+<div id="ref-katz" class="csl-entry" role="doc-biblioentry">
+Katz, Victor J. 1987. <span>“The Calculus of the Trigonometric Functions.”</span> <em>Historia Math.</em> 14: 311–24.
+</div>
+<div id="ref-koyama" class="csl-entry" role="doc-biblioentry">
+Koyama, Shin-Ya, and Nobushige Kurokawa. 2005. <span>“Euler’s Integrals and Multiple Sine Functions.”</span> <em>Proc. Amer. Math. Soc.</em> 133 (5): 1257–65.
+</div>
+<div id="ref-littrow" class="csl-entry" role="doc-biblioentry">
+Littrow, Joseph Johann von. 1820. <span>“De Summatione Serierum.”</span> <em>Mémoires de l’Académie Impériale Des Sciences de St. Pétersbourg</em> 7: 110–38.
+</div>
+<div id="ref-weil" class="csl-entry" role="doc-biblioentry">
+Weil, André. 1976. <em><span class="nocase">Elliptic functions according to Eisenstein and Kronecker</span></em>. Vol. 88. Ergebnisse Der Mathematik Und Ihrer Grenzgebiete. Springer.
+</div>
+</div>
+</body>
+</html>

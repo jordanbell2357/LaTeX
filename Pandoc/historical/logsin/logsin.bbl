@@ -1,49 +1,63 @@
-\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
-\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
-% \MRhref is called by the amsart/book/proc definition of \MR.
-\providecommand{\MRhref}[2]{%
-  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
-}
-\providecommand{\href}[2]{#2}
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{beumer}
+M.~G. Beumer.
+\newblock Some special integrals.
+\newblock {\em Amer. Math. Monthly}, 68(7):645--647, 1961.
 
 \bibitem{ellis}
-Robert~Leslie Ellis, \emph{Note on the definite integral
-  $\int_0^{\frac{\pi}{2}} \log(\sin \theta) d\theta$}, Cambridge Mathematical
-  Journal \textbf{II} (1841), no.~XII, 282--283.
+Robert~Leslie Ellis.
+\newblock Note on the definite integral $\int_0^{\frac{\pi}{2}} \log(\sin
+  \theta) d\theta$.
+\newblock {\em Cambridge Mathematical Journal}, II(XII):282--283, 1841.
 
 \bibitem{E393}
-Leonhard Euler, \emph{De summis serierum numeros {B}ernoullianos involventium},
-  Novi Commentarii Academiae Scientiarum Imperialis Petropolitanae \textbf{14}
-  (1770), 129--167, E393, Opera omnia I.15, pp. 91--130.
+Leonhard Euler.
+\newblock De summis serierum numeros {B}ernoullianos involventium.
+\newblock {\em Novi Commentarii Academiae Scientiarum Imperialis
+  Petropolitanae}, 14:129--167, 1770.
+\newblock E393, Opera omnia I.15, pp. 91--130.
 
 \bibitem{E432}
-\bysame, \emph{Exercitationes analyticae}, Novi Commentarii Academiae
-  Scientiarum Imperialis Petropolitanae \textbf{17} (1773), 173--204, E432,
-  Opera omnia I.15, pp. 131--167.
+Leonhard Euler.
+\newblock Exercitationes analyticae.
+\newblock {\em Novi Commentarii Academiae Scientiarum Imperialis
+  Petropolitanae}, 17:173--204, 1773.
+\newblock E432, Opera omnia I.15, pp. 131--167.
 
 \bibitem{E499}
-\bysame, \emph{De integratione formulae $\int \frac{dx lx}{\surd(1-xx)}$ ab
-  $x=0$ ad $x=1$ extensa}, Acta Academiae Scientarum Imperialis Petropolitinae
-  (1777), no.~II, 3--28, E499, Opera omnia I.18, pp. 23--50.
+Leonhard Euler.
+\newblock De integratione formulae $\int \frac{dx lx}{\surd(1-xx)}$ ab $x=0$ ad
+  $x=1$ extensa.
+\newblock {\em Acta Academiae Scientarum Imperialis Petropolitinae},
+  (II):3--28, 1777.
+\newblock E499, Opera omnia I.18, pp. 23--50.
 
 \bibitem{MR1700272}
-Graham Everest and Thomas Ward, \emph{Heights of polynomials and entropy in
-  algebraic dynamics}, Universitext, Springer-Verlag London Ltd., London, 1999.
+Graham Everest and Thomas Ward.
+\newblock {\em Heights of polynomials and entropy in algebraic dynamics}.
+\newblock Universitext. Springer-Verlag London Ltd., London, 1999.
+
+\bibitem{katz}
+Victor~J. Katz.
+\newblock The calculus of the trigonometric functions.
+\newblock {\em Historia Math.}, 14:311--324, 1987.
 
 \bibitem{koyama}
-Shin-Ya Koyama and Nobushige Kurokawa, \emph{Euler's integrals and multiple
-  sine functions}, Proc. Amer. Math. Soc. \textbf{133} (2005), no.~5,
-  1257--1265.
+Shin-Ya Koyama and Nobushige Kurokawa.
+\newblock Euler's integrals and multiple sine functions.
+\newblock {\em Proc. Amer. Math. Soc.}, 133(5):1257--1265, 2005.
 
 \bibitem{littrow}
-Joseph Johann~von Littrow, \emph{De summatione serierum}, M\'emoires de
-  l'Acad\'emie Imp\'eriale des Sciences de St. P\'etersbourg \textbf{7} (1820),
-  110--138.
+Joseph Johann~von Littrow.
+\newblock De summatione serierum.
+\newblock {\em M\'emoires de l'Acad\'emie Imp\'eriale des Sciences de St.
+  P\'etersbourg}, 7:110--138, 1820.
 
 \bibitem{weil}
-Andr\'e Weil, \emph{{Elliptic functions according to Eisenstein and
-  Kronecker}}, Ergebnisse der Mathematik und ihrer Grenzgebiete, vol.~88,
-  Springer, 1976.
+Andr\'e Weil.
+\newblock {\em {Elliptic functions according to Eisenstein and Kronecker}},
+  volume~88 of {\em Ergebnisse der Mathematik und ihrer Grenzgebiete}.
+\newblock Springer, 1976.
 
 \end{thebibliography}

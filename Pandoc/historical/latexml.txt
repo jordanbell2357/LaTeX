@@ -53,3 +53,11 @@ latexmlpost greeknumbers.xml --destination=index.html --javascript="https://cdn.
 latexml --destination=waves.xml waves.tex
 
 latexmlpost waves.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+pandoc --standalone --bibliography=logsin.bib --citeproc -o index.html -f latex -t html logsin.tex --metadata link-citations=true
+
+latexml --destination=logsin.xml logsin.tex
+
+latexmlpost logsin.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+pandoc --standalone -o index.html -f latex -t html themartingale.tex --metadata link-citations=true
