@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.24)  20 FEB 2022 04:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.24)  22 FEB 2022 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -92,72 +92,64 @@ File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 (./minoan.aux)
 \openout1 = `minoan.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
  [1
 
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Overfull \hbox (4.83266pt too wide) in paragraph at lines 121--127
+Overfull \hbox (4.83266pt too wide) in paragraph at lines 120--126
 \OT1/cmr/m/n/10 the Dik-taean Cave--weighing 73\TS1/cmr/m/n/10 ·\OT1/cmr/m/n/10
  62 grammes (1,136\TS1/cmr/m/n/10 ·\OT1/cmr/m/n/10 5 grains), Fig. 639,
  []
 
-[3] [4] [5]
+[3] [4]
 LaTeX Font Info:    Trying to load font information for T1+linb on input line 2
-59.
+58.
  (c:/texlive/2021/texmf-dist/tex/latex/archaic/t1linb.fd
 File: t1linb.fd 1999/06/20 v1.0 Linear B font definition
-) [6]
-Overfull \hbox (1.7774pt too wide) in paragraph at lines 328--332
+) [5]
+Overfull \hbox (1.7774pt too wide) in paragraph at lines 327--331
 []\OT1/cmr/m/n/10 BM 1897,0401.1399, Enkomi, hematite weight, ``cor-re-spond-in
 g to three Egyp-
  []
 
-[7] [8] [9]
-
-LaTeX Warning: Citation `CAHII1' on page 10 undefined on input line 494.
-
-[10] (./minoan.bbl) [11] (./minoan.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[6] [7] [8] (./minoan.bbl [9]) [10] (./minoan.aux) ) 
 Here is how much of TeX's memory you used:
- 1365 strings out of 478353
- 19038 string characters out of 5852100
- 323916 words of memory out of 5000000
- 19531 multiletter control sequences out of 15000+600000
- 409708 words of font info for 49 fonts, out of 8000000 for 9000
+ 1363 strings out of 478353
+ 19017 string characters out of 5852100
+ 327903 words of memory out of 5000000
+ 19530 multiletter control sequences out of 15000+600000
+ 409400 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,6n,62p,428b,191s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tex
-live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2021/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/
-texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2
-021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2021/texmf
--dist/fonts/type1/public/archaic/linb10.pfb><c:/texlive/2021/texmf-dist/fonts/t
-ype1/public/cm-super/sfrm1000.pfb>
-Output written on minoan.pdf (11 pages, 184903 bytes).
+ 54i,6n,62p,428b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist
+/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmcsc10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2
+021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pu
+blic/archaic/linb10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super
+/sfrm1000.pfb>
+Output written on minoan.pdf (10 pages, 174782 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

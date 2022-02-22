@@ -20,8 +20,6 @@ latexmlpost liouville.xml --destination=index.html --javascript="https://cdn.jsd
 
 pandoc --standalone -o index.html -f latex -t html themartingale.tex --metadata link-citations=true
 
-pandoc --standalone --bibliography=jacobian.bib --citeproc -o index.html -f latex -t html --katex jacobian.tex --metadata link-citations=true
-
 latexml --destination=jacobian.xml jacobian.tex
 
 latexmlpost jacobian.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
@@ -46,7 +44,7 @@ latexmlpost greatyear.xml --destination=index.html
 
 latexml --destination=euclidIV.xml euclidIV.tex
 
-latexmlpost euclidIV.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+latexmlpost euclidIV.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
 
 pandoc --standalone --bibliography=euclidIV.bib --citeproc -o index.html -f latex -t html euclidIV.tex --metadata link-citations=true
 
@@ -58,12 +56,43 @@ latexml --destination=pell.xml pell.tex
 
 latexmlpost pell.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
 
+pandoc --standalone --bibliography=pell.bib --citeproc -o index.html -f latex -t html pell.tex --metadata link-citations=true
 
+latexml --destination=resonance.xml resonance.tex
 
+latexmlpost resonance.xml --destination=index.html
 
+latexml --destination=zeno.xml zeno.tex
 
+latexmlpost zeno.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+pandoc --standalone --bibliography=balance-scales.bib --citeproc -o index.html -f latex -t html balance-scales.tex --metadata link-citations=true
+
+latexml --destination=platoforms.xml platoforms.tex
+
+latexmlpost platoforms.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
 
 latexml --destination=papyri.xml papyri.tex
+
+latexmlpost papyri.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+pandoc --standalone --bibliography=papyri.bib --citeproc -o index.html -f latex -t html --katex papyri.tex --metadata link-citations=true
+
+
+
+
+
+latexml --destination=minoan.xml minoan.tex
+
+latexmlpost minoan.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
+
+pandoc --standalone --bibliography=minoan.bib --citeproc -o index.html -f latex -t html --katex minoan.tex --metadata link-citations=true
+
+
+
+
+
+
 
 
 
