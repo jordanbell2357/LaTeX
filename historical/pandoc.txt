@@ -54,7 +54,9 @@ latexml --destination=greeknumbers.xml greeknumbers.tex
 
 latexmlpost greeknumbers.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
 
+latexml --destination=pell.xml pell.tex
 
+latexmlpost pell.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
 
 
 
