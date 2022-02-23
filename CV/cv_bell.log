@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.24)  6 JAN 2022 12:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.24)  23 FEB 2022 01:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**cv_bell_1.tex
-(./cv_bell_1.tex
+**cv_bell.tex
+(./cv_bell.tex
 LaTeX2e <2021-11-15>
 L3 programming layer <2021-11-22> (./res.cls
 Document Style `res' <26 Sep 89>.
@@ -188,7 +188,7 @@ File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [10pt].
 
-No file cv_bell_1.aux.
+No file cv_bell.aux.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
@@ -223,48 +223,43 @@ LaTeX Info: Redefining \ref on input line 32.
 LaTeX Info: Redefining \pageref on input line 32.
 LaTeX Info: Redefining \nameref on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 50.
+(Font)              <7> on input line 52.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 50.
+(Font)              <5> on input line 52.
 
 [1
 
-{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
-
- []
-
-[2] ) 
+[3] ) 
 Here is how much of TeX's memory you used:
- 7388 strings out of 478353
- 116796 string characters out of 5852100
- 421309 words of memory out of 5000000
- 25476 multiletter control sequences out of 15000+600000
- 405199 words of font info for 33 fonts, out of 8000000 for 9000
+ 7393 strings out of 478353
+ 116821 string characters out of 5852100
+ 421307 words of memory out of 5000000
+ 25479 multiletter control sequences out of 15000+600000
+ 405545 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,63p,378b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,63p,376b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/
 texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2
 021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsl10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmtt10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1
-000.pfb>
-Output written on cv_bell_1.pdf (2 pages, 91596 bytes).
+nts/cm/cmti10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+tt10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on cv_bell.pdf (3 pages, 115828 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
+ 77 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

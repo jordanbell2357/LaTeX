@@ -91,6 +91,11 @@ pandoc --standalone --bibliography=minoan.bib --citeproc -o index.html -f latex 
 
 
 
+latexml --destination=cv_bell.xml cv_bell.tex
+
+pandoc --standalone -o cv_bell.html -f latex -t html cv_bell.tex
+
+
 
 
 

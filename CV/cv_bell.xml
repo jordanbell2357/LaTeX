@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeX/resume"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeX/CV"?>
 <!--  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% --><!--  %Medium Length Graduate Curriculum Vitae --><!--  %LaTeX Template --><!--  %Version 1.1 (9/12/12) --><!--  %This template has been downloaded from: --><!--  %http://www.LaTeXTemplates.com --><!--  %Original author: --><!--  %Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/) --><!--  %Important note: --><!--  %This template requires the res.cls file to be in the same directory as the --><!--  %.tex file. The res.cls file provides the resume style used for structuring the --><!--  %document. --><!--  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% --><!--  %__ --><!--  %PACKAGES AND OTHER DOCUMENT CONFIGURATIONS --><!--  %__ --><?latexml class="res" options="margin, 10pt"?>
 <!--  %**** cv˙bell.tex Line 25 **** --><?latexml package="helvet"?>
-<?latexml package="hyperref"?>
+<?latexml package="hyperref" options="draft"?>
 <!--  %Text width of the document --><?latexml RelaxNGSchema="LaTeXML"?>
 <document xmlns="http://dlmf.nist.gov/LaTeXML">
   <resource src="LaTeXML.css" type="text/css"/>
   <resource src="ltx-article.css" type="text/css"/>
+  <title>CV</title>
+  <creator role="author">
+    <personname>Jordan Bell</personname>
+  </creator>
 <!--  %__ 
      %NAME AND ADDRESS SECTION
      %__-->  <para xml:id="p1">
@@ -20,8 +24,8 @@
   <para xml:id="p3">
     <p><ref class="ltx_href" font="typewriter" href="https://jordanbell.info/">jordanbell.info</ref><break/><text font="typewriter">jordan.bell@gmail.com<break/></text>545 Danforth Ave., Apt. 2<break/>Toronto ON M4K1P7<break/>416-528-3258</p>
   </para>
-<!--  %__ 
-     %**** cv˙bell.tex Line 50 ****-->  <ERROR class="undefined">{resume}</ERROR>
+<!--  %**** cv˙bell.tex Line 50 **** 
+     %__-->  <ERROR class="undefined">{resume}</ERROR>
 <!--  %__ 
      %OBJECTIVE SECTION
      %__
@@ -50,7 +54,8 @@
           </tags>
           <para xml:id="S1.I1.i1.p1">
             <p>Tutoring high school and university mathematics, and occassional sessions for
-probability, statistics, micro and macro economics, physics, and accounting at secondary and post-secondary level.</p>
+probability, statistics, micro and macro economics, physics, and accounting at secondary and post-secondary level.
+<!--  %**** cv˙bell.tex Line 75 **** --></p>
           </para>
         </item>
         <item itemsep="-2.0pt" xml:id="S1.I1.i2">
@@ -60,8 +65,7 @@ probability, statistics, micro and macro economics, physics, and accounting at s
             <tag role="typerefnum">2nd item</tag>
           </tags>
           <para xml:id="S1.I1.i2.p1">
-            <p>Comprehensive experience with Ontario secondary, IB, and AP curriculum for mathematics, physics, accounting, and economics, and with University of Toronto undergraduate mathematics courses from first year to fourth year, and substantial experience with first and second year probability, statistics and micro and macro economics courses.
-<!--  %**** cv˙bell.tex Line 75 **** --></p>
+            <p>Comprehensive experience with Ontario secondary, IB, and AP curriculum for mathematics, physics, accounting, and economics, and with University of Toronto undergraduate mathematics courses from first year to fourth year, and substantial experience with first and second year probability, statistics and micro and macro economics courses.</p>
           </para>
         </item>
       </itemize>
@@ -121,11 +125,12 @@ probability, statistics, micro and macro economics, physics, and accounting at s
       </itemize>
     </para>
     <para xml:id="S1.p7">
-      <p><text font="slanted">Teaching Assistant</text>  September 2009 - April 2013 <break/>Department of Mathematics, University of Toronto</p>
+      <p><text font="slanted">Teaching Assistant</text>  September 2009 - April 2013 <break/>Department of Mathematics, University of Toronto
+<!--  %**** cv˙bell.tex Line 100 **** --></p>
     </para>
     <para xml:id="S1.p8">
       <itemize xml:id="S1.I4">
-<!--  %**** cv˙bell.tex Line 100 **** -->        <item xml:id="S1.I4.i1">
+        <item xml:id="S1.I4.i1">
           <tags>
             <tag>•</tag>
             <tag role="autoref">item </tag>
@@ -178,9 +183,10 @@ probability, statistics, micro and macro economics, physics, and accounting at s
       <p><text font="slanted">Master of Science,</text> Mathematics <break/>University of Toronto, Toronto, June 2009<break/>Canada Graduate Scholarships – Master’s (CGS M)</p>
     </para>
     <para xml:id="S2.p4">
-      <p><text font="slanted">Bachelor of Mathematics,</text> Mathematics <break/>Carleton University, Ottawa, June 2007<break/>University Medal in Mathematics</p>
+      <p><text font="slanted">Bachelor of Mathematics,</text> Mathematics <break/>Carleton University, Ottawa, June 2007<break/>University Medal in Mathematics
+<!--  %**** cv˙bell.tex Line 125 **** --></p>
     </para>
-<!--  %**** cv˙bell.tex Line 125 **** -->  </section>
+  </section>
   <section inlist="toc" xml:id="S3">
     <tags>
       <tag>3</tag>
@@ -278,7 +284,8 @@ probability, statistics, micro and macro economics, physics, and accounting at s
             <tag role="typerefnum">9th item</tag>
           </tags>
           <para xml:id="S3.I1.i9.p1">
-            <p>Bell, Jordan, and Brett Stevens. “A Survey of Known Results and Research Areas for *n*-Queens.” <text font="italic">Discrete Mathematics</text> 309, no. 1 (2009): 1–31. <ref class="ltx_url" font="typewriter" href="https://doi.org/10.1016/j.disc.2007.12.043">https://doi.org/10.1016/j.disc.2007.12.043</ref></p>
+            <p>Bell, Jordan, and Brett Stevens. “A Survey of Known Results and Research Areas for *n*-Queens.” <text font="italic">Discrete Mathematics</text> 309, no. 1 (2009): 1–31. <ref class="ltx_url" font="typewriter" href="https://doi.org/10.1016/j.disc.2007.12.043">https://doi.org/10.1016/j.disc.2007.12.043</ref>
+<!--  %**** cv˙bell.tex Line 150 **** --></p>
           </para>
         </item>
         <item xml:id="S3.I1.i10">
@@ -292,8 +299,7 @@ probability, statistics, micro and macro economics, physics, and accounting at s
                 <XMath>
                   <XMTok font="italic" role="UNKNOWN">n</XMTok>
                 </XMath>
-              </Math>-Queens Solutions.” <text font="italic">Journal of Combinatorial Designs</text> 15, no. 3 (2007): 221–34. <ref class="ltx_url" font="typewriter" href="https://doi.org/10.1002/jcd.20143">https://doi.org/10.1002/jcd.20143</ref>
-<!--  %**** cv˙bell.tex Line 150 **** --></p>
+              </Math>-Queens Solutions.” <text font="italic">Journal of Combinatorial Designs</text> 15, no. 3 (2007): 221–34. <ref class="ltx_url" font="typewriter" href="https://doi.org/10.1002/jcd.20143">https://doi.org/10.1002/jcd.20143</ref></p>
           </para>
         </item>
         <item xml:id="S3.I1.i11">
@@ -342,7 +348,8 @@ Git, Jupyter, Visual Studio Code, ImageMagick, OpenShot, QGIS (accessing and tra
     </para>
     <para xml:id="S4.p3">
       <p><text font="slanted">Knowledge areas:</text>
-Time series analysis, differential equations, financial accounting, business KPI</p>
+Time series analysis, differential equations, financial accounting, business KPI
+<!--  %**** cv˙bell.tex Line 175 **** --></p>
     </para>
-<!--  %**** cv˙bell.tex Line 175 **** -->  </section>
+  </section>
 </document>
