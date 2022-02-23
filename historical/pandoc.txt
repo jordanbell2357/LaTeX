@@ -16,7 +16,7 @@ latexmlpost logsin.xml --destination=index.html --javascript="https://cdn.jsdeli
 
 latexml --destination=liouville.xml liouville.tex
 
-latexmlpost liouville.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+latexmlpost liouville.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
 
 pandoc --standalone -o index.html -f latex -t html themartingale.tex --metadata link-citations=true
 
@@ -64,7 +64,7 @@ latexmlpost resonance.xml --destination=index.html
 
 latexml --destination=zeno.xml zeno.tex
 
-latexmlpost zeno.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+latexmlpost zeno.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
 
 pandoc --standalone --bibliography=balance-scales.bib --citeproc -o index.html -f latex -t html balance-scales.tex --metadata link-citations=true
 
