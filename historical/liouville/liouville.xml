@@ -135,7 +135,7 @@ that with the operator norm</p>
       <tag role="typerefnum">§2</tag>
     </tags>
     <title><tag close=" ">2</tag>Autonomous differential equations</title>
-    <theorem class="ltx_theorem_lemma" inlist="thm theorem:lemma" labels="LABEL:detlemma" xml:id="Thmtheorem1">
+    <theorem class="ltx_theorem_lemma" inlist="thm theorem:lemma" xml:id="Thmtheorem1">
       <tags>
         <tag>Lemma 1</tag>
         <tag role="autoref">1</tag>
@@ -144,31 +144,31 @@ that with the operator norm</p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Lemma 1</text></tag>.</title>
       <para xml:id="Thmtheorem1.p1">
-        <p><text font="italic">If <Math mode="inline" tex="A\in\mathscr{B}(\mathbb{R}^{n})" text="A element-of B * R ^ n" xml:id="Thmtheorem1.p1.m1">
-              <XMath>
+        <p>If <Math mode="inline" tex="A\in\mathscr{B}(\mathbb{R}^{n})" text="A element-of B * R ^ n" xml:id="Thmtheorem1.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">A</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">A</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok font="script upright" role="UNKNOWN">B</XMTok>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem1.p1.m1.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMApp xml:id="Thmtheorem1.p1.m1.1">
-                          <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                          <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                          <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                        </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="script" role="UNKNOWN">B</XMTok>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem1.p1.m1.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMApp xml:id="Thmtheorem1.p1.m1.1">
+                        <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                        <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                        <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                      </XMApp>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>, then</text></p>
-        <equation xml:id="S2.Ex2">
+              </XMApp>
+            </XMath>
+          </Math>, then</p>
+        <equation labels="LABEL:detlemma" xml:id="S2.Ex2">
           <Math mode="display" tex="\det(I+\epsilon A+o(\epsilon))=1+\epsilon\textrm{tr}A+o(\epsilon)" text="determinant@(I + epsilon * A + o * epsilon) = 1 + epsilon * [tr] * A + o * epsilon" xml:id="S2.Ex2.m1">
             <XMath>
               <XMApp>
@@ -210,7 +210,7 @@ that with the operator norm</p>
                   <XMApp>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
                     <XMTok font="italic" name="epsilon" role="UNKNOWN">ϵ</XMTok>
-                    <XMText><text font="italic">tr</text></XMText>
+                    <XMText>tr</XMText>
                     <XMTok font="italic" role="UNKNOWN">A</XMTok>
                   </XMApp>
                   <XMApp>
@@ -230,18 +230,20 @@ that with the operator norm</p>
             </XMath>
           </Math>
         </equation>
-        <p><text font="italic">as <Math mode="inline" tex="\epsilon\to 0" text="epsilon to 0" xml:id="Thmtheorem1.p1.m2">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" name="to" role="ARROW">→</XMTok>
-                  <XMTok name="epsilon" role="UNKNOWN">ϵ</XMTok>
-                  <XMTok font="upright" meaning="0" role="NUMBER">0</XMTok>
-                </XMApp>
-              </XMath>
-            </Math>.</text></p>
+        <p>as <Math mode="inline" tex="\epsilon\to 0" text="epsilon to 0" xml:id="Thmtheorem1.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok name="to" role="ARROW">→</XMTok>
+                <XMTok font="italic" name="epsilon" role="UNKNOWN">ϵ</XMTok>
+                <XMTok meaning="0" role="NUMBER">0</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.
+
+<!--  %**** liouville.tex Line 50 **** --></p>
       </para>
     </theorem>
-<!--  %**** liouville.tex Line 50 **** -->    <proof>
+    <proof>
       <title class="ltx_runin" font="italic">Proof.</title>
       <para xml:id="S2.p1">
         <p>Let <Math mode="inline" tex="\lambda_{1},\ldots,\lambda_{n}" text="list@(lambda _ 1, ldots, lambda _ n)" xml:id="S2.p1.m1">
@@ -653,37 +655,38 @@ But</p>
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 2</text></tag>.</title>
       <para xml:id="Thmtheorem2.p1">
-        <p><text font="italic">If <Math mode="inline" tex="A\in\mathscr{B}(\mathbb{R}^{n})" text="A element-of B * R ^ n" xml:id="Thmtheorem2.p1.m1">
-              <XMath>
+        <p>If <Math mode="inline" tex="A\in\mathscr{B}(\mathbb{R}^{n})" text="A element-of B * R ^ n" xml:id="Thmtheorem2.p1.m1">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">A</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">A</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok font="script upright" role="UNKNOWN">B</XMTok>
-                    <XMDual>
-                      <XMRef idref="Thmtheorem2.p1.m1.1"/>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMApp xml:id="Thmtheorem2.p1.m1.1">
-                          <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                          <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                          <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                        </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="script" role="UNKNOWN">B</XMTok>
+                  <XMDual>
+                    <XMRef idref="Thmtheorem2.p1.m1.1"/>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMApp xml:id="Thmtheorem2.p1.m1.1">
+                        <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                        <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                        <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                      </XMApp>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math>, then</text></p>
+              </XMApp>
+            </XMath>
+          </Math>, then
+<!--  %**** liouville.tex Line 75 **** --></p>
         <equation xml:id="S2.Ex6">
           <Math mode="display" tex="\det e^{A}=e^{\textrm{tr}A}" text="determinant@(e ^ A) = e ^ ([tr] * A)" xml:id="S2.Ex6.m1">
             <XMath>
               <XMApp>
                 <XMTok meaning="equals" role="RELOP">=</XMTok>
                 <XMApp>
-<!--  %**** liouville.tex Line 75 **** -->                  <XMTok meaning="determinant" role="LIMITOP" scriptpos="mid">det</XMTok>
+                  <XMTok meaning="determinant" role="LIMITOP" scriptpos="mid">det</XMTok>
                   <XMApp>
                     <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
                     <XMTok font="italic" role="UNKNOWN">e</XMTok>
@@ -695,7 +698,7 @@ But</p>
                   <XMTok font="italic" role="UNKNOWN">e</XMTok>
                   <XMApp>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMText><text font="italic" fontsize="70%">tr</text></XMText>
+                    <XMText><text fontsize="70%">tr</text></XMText>
                     <XMTok font="italic" fontsize="70%" role="UNKNOWN">A</XMTok>
                   </XMApp>
                 </XMApp>
@@ -1204,12 +1207,12 @@ But</p>
                   </XMApp>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-              </XMWrap>
+<!--  %**** liouville.tex Line 100 **** -->              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
       </equation>
-<!--  %**** liouville.tex Line 100 **** -->      <p>For each <Math mode="inline" tex="t" text="t" xml:id="S2.p3.m3">
+      <p>For each <Math mode="inline" tex="t" text="t" xml:id="S2.p3.m3">
           <XMath>
             <XMTok font="italic" role="UNKNOWN">t</XMTok>
           </XMath>
@@ -1851,7 +1854,7 @@ which <Math mode="inline" tex="B_{0}(x)=x_{0}" text="B _ 0 * x = x _ 0" xml:id="
             </XMApp>
           </XMath>
         </Math>,
-and for each <Math mode="inline" tex="t\in I" text="t element-of I" xml:id="S3.p2.m2">
+<!--  %**** liouville.tex Line 125 **** -->and for each <Math mode="inline" tex="t\in I" text="t element-of I" xml:id="S3.p2.m2">
           <XMath>
             <XMApp>
               <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
@@ -1932,8 +1935,7 @@ and for each <Math mode="inline" tex="t\in I" text="t element-of I" xml:id="S3.p
               </XMApp>
             </XMApp>
           </XMath>
-        </Math>. Then
-<!--  %**** liouville.tex Line 125 **** --></p>
+        </Math>. Then</p>
       <equation xml:id="S3.Ex16">
         <Math mode="display" tex="\dot{\Phi}(t)e_{i}=\frac{d}{dt}(\Phi(t)e_{i})=\dot{\phi_{i}}(t)=A(t)\phi_{i}(t%&#10;),\qquad t\in I," text="formulae@(dot@(Phi) * t * e _ i = (d / (d * t)) * Phi * t * e _ i = dot@(phi _ i) * t = A * t * phi _ i * t, t element-of I)" xml:id="S3.Ex16.m1">
           <XMath>
@@ -2327,119 +2329,119 @@ is the function that assigns to each <Math mode="inline" tex="t\in I" text="t el
       </tags>
       <title class="ltx_runin"><tag><text font="bold">Theorem 3</text></tag>.</title>
       <para xml:id="Thmtheorem3.p1">
-        <p><text font="italic">Suppose that <Math mode="inline" tex="I" text="I" xml:id="Thmtheorem3.p1.m1">
-              <XMath>
-                <XMTok role="UNKNOWN">I</XMTok>
-              </XMath>
-            </Math> is an open interval and that <Math mode="inline" tex="A\in C(I,\mathscr{B}(\mathbb{R}^{n}))" text="A element-of C * open-interval@(I, B * R ^ n)" xml:id="Thmtheorem3.p1.m2">
-              <XMath>
+        <p>Suppose that <Math mode="inline" tex="I" text="I" xml:id="Thmtheorem3.p1.m1">
+            <XMath>
+              <XMTok font="italic" role="UNKNOWN">I</XMTok>
+            </XMath>
+          </Math> is an open interval and that <Math mode="inline" tex="A\in C(I,\mathscr{B}(\mathbb{R}^{n}))" text="A element-of C * open-interval@(I, B * R ^ n)" xml:id="Thmtheorem3.p1.m2">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMTok font="italic" role="UNKNOWN">A</XMTok>
                 <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
-                  <XMTok role="UNKNOWN">A</XMTok>
-                  <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">C</XMTok>
-                    <XMDual>
-                      <XMApp>
-                        <XMTok meaning="open-interval"/>
-                        <XMRef idref="Thmtheorem3.p1.m2.1"/>
-                        <XMRef idref="Thmtheorem3.p1.m2.2"/>
-                      </XMApp>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMTok role="UNKNOWN" xml:id="Thmtheorem3.p1.m2.1">I</XMTok>
-                        <XMTok font="upright" role="PUNCT">,</XMTok>
-                        <XMApp xml:id="Thmtheorem3.p1.m2.2">
-                          <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                          <XMTok font="script upright" role="UNKNOWN">B</XMTok>
-                          <XMDual>
-                            <XMRef idref="Thmtheorem3.p1.m2.2.1"/>
-                            <XMWrap>
-                              <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                              <XMApp xml:id="Thmtheorem3.p1.m2.2.1">
-                                <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
-                                <XMTok font="blackboard upright" role="UNKNOWN">R</XMTok>
-                                <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                              </XMApp>
-                              <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                            </XMWrap>
-                          </XMDual>
-                        </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
-                  </XMApp>
-                </XMApp>
-              </XMath>
-            </Math>.
-If <Math mode="inline" tex="\phi_{1},\ldots,\phi_{n}\in X" text="list@(phi _ 1, ldots, phi _ n) element-of X" xml:id="Thmtheorem3.p1.m3">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">C</XMTok>
                   <XMDual>
                     <XMApp>
-                      <XMTok meaning="list"/>
-                      <XMRef idref="Thmtheorem3.p1.m3.2"/>
-                      <XMRef idref="Thmtheorem3.p1.m3.1"/>
-                      <XMRef idref="Thmtheorem3.p1.m3.3"/>
+                      <XMTok meaning="open-interval"/>
+                      <XMRef idref="Thmtheorem3.p1.m2.1"/>
+                      <XMRef idref="Thmtheorem3.p1.m2.2"/>
                     </XMApp>
                     <XMWrap>
-                      <XMApp xml:id="Thmtheorem3.p1.m3.2">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok name="phi" role="UNKNOWN">ϕ</XMTok>
-                        <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMTok font="italic" role="UNKNOWN" xml:id="Thmtheorem3.p1.m2.1">I</XMTok>
+                      <XMTok role="PUNCT">,</XMTok>
+                      <XMApp xml:id="Thmtheorem3.p1.m2.2">
+                        <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                        <XMTok font="script" role="UNKNOWN">B</XMTok>
+                        <XMDual>
+                          <XMRef idref="Thmtheorem3.p1.m2.2.1"/>
+                          <XMWrap>
+                            <XMTok role="OPEN" stretchy="false">(</XMTok>
+                            <XMApp xml:id="Thmtheorem3.p1.m2.2.1">
+                              <XMTok role="SUPERSCRIPTOP" scriptpos="post1"/>
+                              <XMTok font="blackboard" role="UNKNOWN">R</XMTok>
+                              <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                            </XMApp>
+                            <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                          </XMWrap>
+                        </XMDual>
                       </XMApp>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMTok font="upright" name="ldots" role="ID" xml:id="Thmtheorem3.p1.m3.1">…</XMTok>
-                      <XMTok font="upright" role="PUNCT">,</XMTok>
-                      <XMApp xml:id="Thmtheorem3.p1.m3.3">
-                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                        <XMTok name="phi" role="UNKNOWN">ϕ</XMTok>
-                        <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                      </XMApp>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
                     </XMWrap>
                   </XMDual>
-                  <XMTok role="UNKNOWN">X</XMTok>
                 </XMApp>
-              </XMath>
-            </Math>,
-then the Wronskian <Math mode="inline" tex="W=W(\phi_{1},\ldots,\phi_{n})" text="W = W * vector@(phi _ 1, ldots, phi _ n)" xml:id="Thmtheorem3.p1.m4">
-              <XMath>
-                <XMApp>
-                  <XMTok font="upright" meaning="equals" role="RELOP">=</XMTok>
-                  <XMTok role="UNKNOWN">W</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>.
+If <Math mode="inline" tex="\phi_{1},\ldots,\phi_{n}\in X" text="list@(phi _ 1, ldots, phi _ n) element-of X" xml:id="Thmtheorem3.p1.m3">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="element-of" name="in" role="RELOP">∈</XMTok>
+                <XMDual>
                   <XMApp>
-                    <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok role="UNKNOWN">W</XMTok>
-                    <XMDual>
-                      <XMApp>
-                        <XMTok meaning="vector"/>
-                        <XMRef idref="Thmtheorem3.p1.m4.2"/>
-                        <XMRef idref="Thmtheorem3.p1.m4.1"/>
-                        <XMRef idref="Thmtheorem3.p1.m4.3"/>
-                      </XMApp>
-                      <XMWrap>
-                        <XMTok font="upright" role="OPEN" stretchy="false">(</XMTok>
-                        <XMApp xml:id="Thmtheorem3.p1.m4.2">
-                          <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                          <XMTok name="phi" role="UNKNOWN">ϕ</XMTok>
-                          <XMTok font="upright" fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
-                        </XMApp>
-                        <XMTok font="upright" role="PUNCT">,</XMTok>
-                        <XMTok font="upright" name="ldots" role="ID" xml:id="Thmtheorem3.p1.m4.1">…</XMTok>
-                        <XMTok font="upright" role="PUNCT">,</XMTok>
-                        <XMApp xml:id="Thmtheorem3.p1.m4.3">
-                          <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
-                          <XMTok name="phi" role="UNKNOWN">ϕ</XMTok>
-                          <XMTok fontsize="70%" role="UNKNOWN">n</XMTok>
-                        </XMApp>
-                        <XMTok font="upright" role="CLOSE" stretchy="false">)</XMTok>
-                      </XMWrap>
-                    </XMDual>
+                    <XMTok meaning="list"/>
+                    <XMRef idref="Thmtheorem3.p1.m3.2"/>
+                    <XMRef idref="Thmtheorem3.p1.m3.1"/>
+                    <XMRef idref="Thmtheorem3.p1.m3.3"/>
                   </XMApp>
+                  <XMWrap>
+                    <XMApp xml:id="Thmtheorem3.p1.m3.2">
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="italic" name="phi" role="UNKNOWN">ϕ</XMTok>
+                      <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                    </XMApp>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMTok name="ldots" role="ID" xml:id="Thmtheorem3.p1.m3.1">…</XMTok>
+                    <XMTok role="PUNCT">,</XMTok>
+                    <XMApp xml:id="Thmtheorem3.p1.m3.3">
+                      <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                      <XMTok font="italic" name="phi" role="UNKNOWN">ϕ</XMTok>
+                      <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                    </XMApp>
+                  </XMWrap>
+                </XMDual>
+                <XMTok font="italic" role="UNKNOWN">X</XMTok>
+              </XMApp>
+            </XMath>
+          </Math>,
+then the Wronskian <Math mode="inline" tex="W=W(\phi_{1},\ldots,\phi_{n})" text="W = W * vector@(phi _ 1, ldots, phi _ n)" xml:id="Thmtheorem3.p1.m4">
+            <XMath>
+              <XMApp>
+                <XMTok meaning="equals" role="RELOP">=</XMTok>
+                <XMTok font="italic" role="UNKNOWN">W</XMTok>
+                <XMApp>
+                  <XMTok meaning="times" role="MULOP">⁢</XMTok>
+                  <XMTok font="italic" role="UNKNOWN">W</XMTok>
+                  <XMDual>
+                    <XMApp>
+                      <XMTok meaning="vector"/>
+                      <XMRef idref="Thmtheorem3.p1.m4.2"/>
+                      <XMRef idref="Thmtheorem3.p1.m4.1"/>
+                      <XMRef idref="Thmtheorem3.p1.m4.3"/>
+                    </XMApp>
+                    <XMWrap>
+                      <XMTok role="OPEN" stretchy="false">(</XMTok>
+                      <XMApp xml:id="Thmtheorem3.p1.m4.2">
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                        <XMTok font="italic" name="phi" role="UNKNOWN">ϕ</XMTok>
+                        <XMTok fontsize="70%" meaning="1" role="NUMBER">1</XMTok>
+                      </XMApp>
+                      <XMTok role="PUNCT">,</XMTok>
+                      <XMTok name="ldots" role="ID" xml:id="Thmtheorem3.p1.m4.1">…</XMTok>
+                      <XMTok role="PUNCT">,</XMTok>
+                      <XMApp xml:id="Thmtheorem3.p1.m4.3">
+                        <XMTok role="SUBSCRIPTOP" scriptpos="post1"/>
+                        <XMTok font="italic" name="phi" role="UNKNOWN">ϕ</XMTok>
+                        <XMTok font="italic" fontsize="70%" role="UNKNOWN">n</XMTok>
+                      </XMApp>
+                      <XMTok role="CLOSE" stretchy="false">)</XMTok>
+                    </XMWrap>
+                  </XMDual>
                 </XMApp>
-              </XMath>
-            </Math> satisfies</text></p>
+              </XMApp>
+            </XMath>
+          </Math> satisfies</p>
         <equation xml:id="S3.Ex18">
           <Math mode="display" tex="\dot{W}(t)=(\textrm{tr}A(t))W(t),\qquad t\in I." text="formulae@(dot@(W) * t = [tr] * A * t * W * t, t element-of I)" xml:id="S3.Ex18.m1">
             <XMath>
@@ -2478,7 +2480,7 @@ then the Wronskian <Math mode="inline" tex="W=W(\phi_{1},\ldots,\phi_{n})" text=
                               <XMTok role="OPEN" stretchy="false">(</XMTok>
                               <XMApp xml:id="S3.Ex18.m1.4.1.1">
                                 <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                                <XMText><text font="italic">tr</text></XMText>
+                                <XMText>tr</XMText>
                                 <XMTok font="italic" role="UNKNOWN">A</XMTok>
                                 <XMDual>
                                   <XMRef idref="S3.Ex18.m1.2"/>
@@ -2517,9 +2519,9 @@ then the Wronskian <Math mode="inline" tex="W=W(\phi_{1},\ldots,\phi_{n})" text=
             </XMath>
           </Math>
         </equation>
-      </para>
+<!--  %**** liouville.tex Line 150 **** -->      </para>
     </theorem>
-<!--  %**** liouville.tex Line 150 **** -->    <proof>
+    <proof>
       <title class="ltx_runin" font="italic">Proof.</title>
       <para xml:id="S3.p3">
         <p>By (<ref labelref="LABEL:Phidot"/>), for each <Math mode="inline" tex="t\in I" text="t element-of I" xml:id="S3.p3.m1">
@@ -3920,12 +3922,12 @@ then the Wronskian <Math mode="inline" tex="W=W(\phi_{1},\ldots,\phi_{n})" text=
                     </XMApp>
                   </XMApp>
                   <XMTok role="PERIOD">.</XMTok>
-                </XMWrap>
+<!--  %**** liouville.tex Line 175 **** -->                </XMWrap>
               </XMDual>
             </XMath>
           </Math>
         </equation>
-<!--  %**** liouville.tex Line 175 **** -->        <p>∎</p>
+        <p>∎</p>
       </para>
     </proof>
     <para xml:id="S3.p4">
@@ -4445,7 +4447,7 @@ is locally Lipschitz, so by the existence and uniqueness theorem it follows that
                   <XMTok meaning="equals" role="RELOP">=</XMTok>
                   <XMApp>
                     <XMTok meaning="times" role="MULOP">⁢</XMTok>
-                    <XMTok font="italic" name="omega" role="UNKNOWN">ω</XMTok>
+<!--  %**** liouville.tex Line 200 **** -->                    <XMTok font="italic" name="omega" role="UNKNOWN">ω</XMTok>
                     <XMDual>
                       <XMApp>
                         <XMTok meaning="vector"/>
@@ -4518,7 +4520,7 @@ is locally Lipschitz, so by the existence and uniqueness theorem it follows that
                   </XMApp>
                 </XMApp>
                 <XMTok role="PERIOD">.</XMTok>
-<!--  %**** liouville.tex Line 200 **** -->              </XMWrap>
+              </XMWrap>
             </XMDual>
           </XMath>
         </Math>
@@ -5226,7 +5228,8 @@ Thus, for <Math mode="inline" tex="x_{1},\ldots,x_{n}\in\mathbb{R}^{n}" text="li
               </XMApp>
             </XMApp>
           </XMath>
-        </Math>, it follows that</p>
+        </Math>, it follows that
+<!--  %**** liouville.tex Line 225 **** --></p>
       <equation xml:id="S4.Ex38">
         <Math mode="display" tex="(\mathrm{adj}\,A)A=(\det A)I." text="adj * A * A = determinant@(A) * I" xml:id="S4.Ex38.m1">
           <XMath>
@@ -5240,7 +5243,7 @@ Thus, for <Math mode="inline" tex="x_{1},\ldots,x_{n}\in\mathbb{R}^{n}" text="li
                     <XMDual>
                       <XMRef idref="S4.Ex38.m1.1.1"/>
                       <XMWrap>
-<!--  %**** liouville.tex Line 225 **** -->                        <XMTok role="OPEN" stretchy="false">(</XMTok>
+                        <XMTok role="OPEN" stretchy="false">(</XMTok>
                         <XMApp xml:id="S4.Ex38.m1.1.1">
                           <XMTok meaning="times" role="MULOP">⁢</XMTok>
                           <XMTok role="UNKNOWN" rpadding="1.7pt">adj</XMTok>
@@ -6425,9 +6428,8 @@ equality,</p>
         </Math>
       </equation>
     </para>
-    <para xml:id="S4.p5">
-      <p>Kline p. 798, Jacobi <cite class="ltx_citemacro_cite">[<bibref bibrefs="jacobi1841a" separator="," yyseparator=","/>]</cite>, <cite class="ltx_citemacro_cite">[<bibref bibrefs="jacobi1845" separator="," yyseparator=","/>, §17]</cite>, Felix Klein, <text font="italic">19th century</text>, chapter V
-<!--  %**** liouville.tex Line 250 **** --></p>
+<!--  %**** liouville.tex Line 250 **** -->    <para xml:id="S4.p5">
+      <p>Kline p. 798, Jacobi <cite class="ltx_citemacro_cite">[<bibref bibrefs="jacobi1841a" separator="," yyseparator=","/>]</cite>, <cite class="ltx_citemacro_cite">[<bibref bibrefs="jacobi1845" separator="," yyseparator=","/>, §17]</cite>, Felix Klein, <text font="italic">19th century</text>, chapter V</p>
     </para>
   </section>
   <section inlist="toc" xml:id="S5">
@@ -8350,8 +8352,8 @@ We then have</p>
           </MathFork>
         </equation>
       </equationgroup>
-    </para>
-<!--  %**** liouville.tex Line 275 **** -->    <para xml:id="S5.p2">
+<!--  %**** liouville.tex Line 275 **** -->    </para>
+    <para xml:id="S5.p2">
       <p>Reynolds <cite class="ltx_citemacro_cite">[<bibref bibrefs="reynolds" separator="," yyseparator=","/>, pp. 12–13, art. 14]</cite></p>
     </para>
     <para xml:id="S5.p3">
@@ -8396,9 +8398,8 @@ We then have</p>
     <para xml:id="S8.p3">
       <p>Whittaker <cite class="ltx_citemacro_cite">[<bibref bibrefs="whittaker" separator="," yyseparator=","/>, p. 323, §148]</cite></p>
     </para>
-    <para xml:id="S8.p4">
-      <p>Hartman <cite class="ltx_citemacro_cite">[<bibref bibrefs="hartman" separator="," yyseparator=","/>, p. 91]</cite>
-<!--  %**** liouville.tex Line 300 **** --></p>
+<!--  %**** liouville.tex Line 300 **** -->    <para xml:id="S8.p4">
+      <p>Hartman <cite class="ltx_citemacro_cite">[<bibref bibrefs="hartman" separator="," yyseparator=","/>, p. 91]</cite></p>
     </para>
     <para xml:id="S8.p5">
       <p>Barrow-Green <cite class="ltx_citemacro_cite">[<bibref bibrefs="threebody" separator="," yyseparator=","/>, p. 83]</cite></p>
@@ -8434,9 +8435,10 @@ We then have</p>
       <p>Lenzen <cite class="ltx_citemacro_cite">[<bibref bibrefs="lenzen" separator="," yyseparator=","/>, p. 129]</cite></p>
     </para>
     <para xml:id="S8.p16">
-      <p><cite><bibref bibrefs="*" show="nothing"/></cite></p>
+      <p><cite><bibref bibrefs="*" show="nothing"/></cite>
+<!--  %**** liouville.tex Line 325 **** --></p>
     </para>
-<!--  %**** liouville.tex Line 325 **** -->  </section>
+  </section>
   <bibliography bibstyle="amsplain" citestyle="numbers" files="liouville" xml:id="bib">
     <title>References</title>
   </bibliography>
