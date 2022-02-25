@@ -1,778 +1,699 @@
-<!DOCTYPE html><html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-<title>Greek numbers</title>
-<!--Generated on Mon Feb 21 03:11:29 2022 by LaTeXML (version 0.8.4) http://dlmf.nist.gov/LaTeXML/.-->
-<!--Document created on March 4, 2017.-->
-
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="LaTeXML.css" type="text/css">
-<link rel="stylesheet" href="ltx-article.css" type="text/css">
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" type="text/javascript"></script>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Jordan Bell" />
+  <meta name="dcterms.date" content="2017-03-04" />
+  <title>Greek numbers</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
-<div class="ltx_page_main">
-<div class="ltx_page_content">
-<article class="ltx_document ltx_authors_1line">
-<h1 class="ltx_title ltx_title_document">Greek numbers</h1>
-<div class="ltx_authors">
-<span class="ltx_creator ltx_role_author">
-<span class="ltx_personname">Jordan Bell
-</span></span>
-</div>
-<div class="ltx_date ltx_role_creation">March 4, 2017</div>
-
-<div id="p1" class="ltx_para">
-<p class="ltx_p">One-tenth Ex. 16:36;
-Nu. 18:26, 28; He. 7:1–10.
-Two-tenths Lev. 23:13. Three tenths Lev. 14:10.
-One-hundredths Neh 5:11.
-One-third: appears fourteen times in Revelation, refers to one of three parts which was to be
-destroyed Rev. 8.
-One-third 2 S. 18:2, one-half Ex. 25:10, 17, one-fourth 1 S. 9:8,
-one-fifth Gen 47:24, one-sixth Ezk. 46:14.</p>
-</div>
-<div id="p2" class="ltx_para">
-<p class="ltx_p">Two-thirds “double portion” Dt. 21:17, 2 K. 2:9,
-four-fifths “four parts” Gen. 47:24, nine-tenths “nine parts” Neh 11:1.</p>
-</div>
-<div id="p3" class="ltx_para">
-<p class="ltx_p">Diogenes Laertius, <span class="ltx_text ltx_font_italic">Vitae philosophorum</span> 7.58 <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib80" title="The Hellenistic philosophers. Volume 1: translations of the principal sources, with philosophical commentary" class="ltx_ref">5</a>, p. 198]</cite>:</p>
-</div>
-<div id="p4" class="ltx_para">
-<blockquote class="ltx_quote">
-<p class="ltx_p">According to Diogenes [of Babylon] an appellative [προςηγορία] is a part of language
-which signifies a common quality, e.g. ‘man’, ‘horse’; a name [῎ονομα] is a part of
-language which indicates a peculiar quality, e.g. ‘Diogenes’, ‘Socrates’; a
-verb is a part of language which, according to Diogenes, signifies a non-compound
-predicate, or, as some say, a case-less constituent of a sentence
-which signifies something attachable to something or some things, e.g. ‘I
-write’, ‘I speak’.</p>
+<header id="title-block-header">
+<h1 class="title">Greek numbers</h1>
+<p class="author">Jordan Bell</p>
+<p class="date">March 4, 2017</p>
+</header>
+<p>One-tenth Ex. 16:36; Nu. 18:26, 28; He. 7:1–10. Two-tenths Lev. 23:13. Three tenths Lev. 14:10. One-hundredths Neh 5:11. One-third: appears fourteen times in Revelation, refers to one of three parts which was to be destroyed Rev. 8. One-third 2 S. 18:2, one-half Ex. 25:10, 17, one-fourth 1 S. 9:8, one-fifth Gen 47:24, one-sixth Ezk. 46:14.</p>
+<p>Two-thirds “double portion” Dt. 21:17, 2 K. 2:9, four-fifths “four parts” Gen. 47:24, nine-tenths “nine parts” Neh 11:1.</p>
+<p>Diogenes Laertius, <span><em>Vitae philosophorum</em></span> 7.58 <span class="citation" data-cites="LS1">(<a href="#ref-LS1" role="doc-biblioref">Long and Sedley 1987, 198</a>)</span>:</p>
+<blockquote>
+<p>According to Diogenes [of Babylon] an appellative [proshgor’ia] is a part of language which signifies a common quality, e.g. ‘man’, ‘horse’; a name [&gt;’onoma] is a part of language which indicates a peculiar quality, e.g. ‘Diogenes’, ‘Socrates’; a verb is a part of language which, according to Diogenes, signifies a non-compound predicate, or, as some say, a case-less constituent of a sentence which signifies something attachable to something or some things, e.g. ‘I write’, ‘I speak’.</p>
 </blockquote>
-</div>
-<div id="p5" class="ltx_para">
-<p class="ltx_p">Apollonius Dyscolus, <span class="ltx_text ltx_font_italic">Syntax</span> 32.2 <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib79" title="The Syntax of Apollonius Dyscolus" class="ltx_ref">2</a>]</cite></p>
-</div>
-<div id="p6" class="ltx_para">
-<p class="ltx_p">Dionysius of Halicarnassus, <span class="ltx_text ltx_font_italic">De compositione verborum</span> chap. II <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib81" title="Dionysius of Halicarnassus, On Literary Composition" class="ltx_ref">6</a>, pp. 71–73]</cite>:</p>
-</div>
-<div id="p7" class="ltx_para">
-<blockquote class="ltx_quote">
-<p class="ltx_p">Composition is, as the very name indicates, a certain
-arrangement of the parts of speech, or elements of diction,
-as some call them. These were reckoned as three only by
-Theodectes and Aristotle and the philosophers of those times,
-who regarded nouns [’ον´οματα], verbs [‛πήματα] and connectives [ςυνδέςμους]
-as the primary
-parts of speech. Their successors, particularly the leaders of
-the Stoic school, raised the number to four, separating the
-articles from the connectives. Then the later inquirers divided
-the appellatives from the substantives, and represented the
-primary parts of speech as five. Others detached the pronouns
-from the nouns, and so introduced a sixth element. Others,
-again, divided the adverbs [ἐπιρρήματα] from the verbs, the prepositions
-from the connectives and the participles from the appellatives [προςηγοριϰῶν];
-while others introduced still further subdivisions, and so
-multiplied the primary parts of speech. The subject would
-afford scope for quite a long discussion. Enough to say that
-the combination or juxtaposition of these primary parts, be
-they three, or four, or whatever may be their number, forms
-the so-called “members” (or clauses) of a sentence. Further,
-the fitting together of these clauses constitutes what are termed
-the “periods,” and these make up the complete discourse. The
-function of composition is to put words together in an appropriate
-order, to assign a suitable connexion to clauses, and to distribute
-the whole discourse properly into periods.</p>
+<p>Apollonius Dyscolus, <span><em>Syntax</em></span> 32.2 <span class="citation" data-cites="householder">(<a href="#ref-householder" role="doc-biblioref">Householder 1981</a>)</span></p>
+<p>Dionysius of Halicarnassus, <span><em>De compositione verborum</em></span> chap. II <span class="citation" data-cites="comp">(<a href="#ref-comp" role="doc-biblioref">Rhys Roberts 1910, 71–73</a>)</span>:</p>
+<blockquote>
+<p>Composition is, as the very name indicates, a certain arrangement of the parts of speech, or elements of diction, as some call them. These were reckoned as three only by Theodectes and Aristotle and the philosophers of those times, who regarded nouns [&gt;on’omata], verbs [&lt;p’hmata] and connectives [sund’esmous] as the primary parts of speech. Their successors, particularly the leaders of the Stoic school, raised the number to four, separating the articles from the connectives. Then the later inquirers divided the appellatives from the substantives, and represented the primary parts of speech as five. Others detached the pronouns from the nouns, and so introduced a sixth element. Others, again, divided the adverbs [&gt;epirr’hmata] from the verbs, the prepositions from the connectives and the participles from the appellatives [proshgorik wn]; while others introduced still further subdivisions, and so multiplied the primary parts of speech. The subject would afford scope for quite a long discussion. Enough to say that the combination or juxtaposition of these primary parts, be they three, or four, or whatever may be their number, forms the so-called “members” (or clauses) of a sentence. Further, the fitting together of these clauses constitutes what are termed the “periods,” and these make up the complete discourse. The function of composition is to put words together in an appropriate order, to assign a suitable connexion to clauses, and to distribute the whole discourse properly into periods.</p>
 </blockquote>
-</div>
-<div id="p8" class="ltx_para">
-<p class="ltx_p">Dionysius Thrax, <span class="ltx_text ltx_font_italic">Tekhne</span> XI <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib83" title="Dionysii Thracis ars grammatica" class="ltx_ref">8</a>, p. 23]</cite>, <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib84" title="The Tekhnē Grammatikē of Dionysius Thrax: English translation with introduction and notes" class="ltx_ref">3</a>, p. 176]</cite>:</p>
-</div>
-<div id="p9" class="ltx_para">
-<blockquote class="ltx_quote">
-<p class="ltx_p">There are eight parts of the sentence: noun [῎ονομα], verb, participle, article, pronoun, preposition,
-adverb [ἐπίρρημα], conjunction. For the appellative [προςηγορία] is a subspecies of the noun.</p>
+<p>Dionysius Thrax, <span><em>Tekhne</em></span> XI <span class="citation" data-cites="uhlig">(<a href="#ref-uhlig" role="doc-biblioref">Uhlig 1883, 23</a>)</span>, <span class="citation" data-cites="tekhne">(<a href="#ref-tekhne" role="doc-biblioref">Kemp 1987, 176</a>)</span>:</p>
+<blockquote>
+<p>There are eight parts of the sentence: noun [&gt;’onoma], verb, participle, article, pronoun, preposition, adverb [&gt;ep’irrhma], conjunction. For the appellative [proshgor’ia] is a subspecies of the noun.</p>
 </blockquote>
-</div>
-<div id="p10" class="ltx_para">
-<p class="ltx_p">Dionysius Thrax, <span class="ltx_text ltx_font_italic">Tekhne</span> XII <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib83" title="Dionysii Thracis ars grammatica" class="ltx_ref">8</a>, p. 33]</cite>, <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib84" title="The Tekhnē Grammatikē of Dionysius Thrax: English translation with introduction and notes" class="ltx_ref">3</a>, p. 178]</cite>:</p>
-</div>
-<div id="p11" class="ltx_para">
-<blockquote class="ltx_quote">
-<p class="ltx_p">There are the following subtypes of the noun (these also are referred to as ‘species’): proper, appellative [προςηγοριϰ´ον], attached [ἐπίϑετον],
-relative, quasi-relative, homonymous, synonymous, dionymous, eponymous, ethnic, interrogative, indefinite, anaphoric (also referred to by the names ‘similative’, ‘de?monstrative’, and ‘correlative’), collective, distributive, inclusive, onomatopoeic, generic, specific, ordinal [ἀριϑμητιϰ´ον],
-absolute, participatory.</p>
+<p>Dionysius Thrax, <span><em>Tekhne</em></span> XII <span class="citation" data-cites="uhlig">(<a href="#ref-uhlig" role="doc-biblioref">Uhlig 1883, 33</a>)</span>, <span class="citation" data-cites="tekhne">(<a href="#ref-tekhne" role="doc-biblioref">Kemp 1987, 178</a>)</span>:</p>
+<blockquote>
+<p>There are the following subtypes of the noun (these also are referred to as ‘species’): proper, appellative [proshgorik’on], attached [&gt;ep’ijeton], relative, quasi-relative, homonymous, synonymous, dionymous, eponymous, ethnic, interrogative, indefinite, anaphoric (also referred to by the names ‘similative’, ‘de?monstrative’, and ‘correlative’), collective, distributive, inclusive, onomatopoeic, generic, specific, ordinal [&gt;arijmhtik’on], absolute, participatory.</p>
 </blockquote>
-</div>
-<div id="p12" class="ltx_para">
-<p class="ltx_p">Dionysius Thrax, <span class="ltx_text ltx_font_italic">Tekhne</span> XII, <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib83" title="Dionysii Thracis ars grammatica" class="ltx_ref">8</a>, p. 44]</cite>, <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib84" title="The Tekhnē Grammatikē of Dionysius Thrax: English translation with introduction and notes" class="ltx_ref">3</a>, p. 180]</cite>:</p>
-</div>
-<div id="p13" class="ltx_para">
-<blockquote class="ltx_quote">
-<p class="ltx_p">Ταϰτιϰ`ον δέ ἐςτι τ`ο τάξιν δηλο῀υν, οἷον πρῶτος δε´υτερος τρίτος.
-’Αριϑμητιϰ`ον δέ ἐςτι τ`ο ἀριϑμ`ον ςημαῖνον, οἷον εἷς δ´υο τρεῖς.
-
-<br class="ltx_break">
-An ordinal noun is one which indicates order, such as ‘first, second,
-third’. A numeral noun is one which signifies number, such as ‘one, two,
-three’.</p>
+<p>Dionysius Thrax, <span><em>Tekhne</em></span> XII, <span class="citation" data-cites="uhlig">(<a href="#ref-uhlig" role="doc-biblioref">Uhlig 1883, 44</a>)</span>, <span class="citation" data-cites="tekhne">(<a href="#ref-tekhne" role="doc-biblioref">Kemp 1987, 180</a>)</span>:</p>
+<blockquote>
+<p>Taktik‘on d’e &gt;esti t‘o t’axin dhlo un, o &lt;ion pr wtos de’uteros tr’itos. &gt;Arijmhtik‘on d’e &gt;esti t‘o &gt;arijm‘on shma inon, o &lt;ion e &lt;is d’uo tre is.</p>
+<p>An ordinal noun is one which indicates order, such as ‘first, second, third’. A numeral noun is one which signifies number, such as ‘one, two, three’.</p>
 </blockquote>
-</div>
-<div id="p14" class="ltx_para">
-<p class="ltx_p">Dionysius Thrax, <span class="ltx_text ltx_font_italic">Tekhne</span> XIX <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib83" title="Dionysii Thracis ars grammatica" class="ltx_ref">8</a>, p. 72]</cite>, <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib84" title="The Tekhnē Grammatikē of Dionysius Thrax: English translation with introduction and notes" class="ltx_ref">3</a>, p. 183]</cite>:</p>
-</div>
-<div id="p15" class="ltx_para">
-<blockquote class="ltx_quote">
-<p class="ltx_p">An adverb [’Επίρρημά] is a part of the sentence which is uninflected; it qualifies
-verbs or is added to verbs.
-</p>
+<p>Dionysius Thrax, <span><em>Tekhne</em></span> XIX <span class="citation" data-cites="uhlig">(<a href="#ref-uhlig" role="doc-biblioref">Uhlig 1883, 72</a>)</span>, <span class="citation" data-cites="tekhne">(<a href="#ref-tekhne" role="doc-biblioref">Kemp 1987, 183</a>)</span>:</p>
+<blockquote>
+<p>An adverb [&gt;Ep’irrhm’a] is a part of the sentence which is uninflected; it qualifies verbs or is added to verbs.</p>
 </blockquote>
-</div>
-<div id="p16" class="ltx_para">
-<p class="ltx_p">Dionysius Thrax, <span class="ltx_text ltx_font_italic">Tekhne</span> XIX <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib83" title="Dionysii Thracis ars grammatica" class="ltx_ref">8</a>, p. 76]</cite>, <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib84" title="The Tekhnē Grammatikē of Dionysius Thrax: English translation with introduction and notes" class="ltx_ref">3</a>, p. 184]</cite>:</p>
-</div>
-<div id="p17" class="ltx_para">
-<blockquote class="ltx_quote">
-<p class="ltx_p">Τὰ δὲ ἀριϑμο῀υ δηλωτιϰά, οἷον δίς τρίς τετράϰις.
-
-<br class="ltx_break">
-Some signify number, for example <span class="ltx_text ltx_font_italic">dis</span> (twice), <span class="ltx_text ltx_font_italic">tris</span> (thrice), <span class="ltx_text ltx_font_italic">tetrakis</span>
-(four times).</p>
+<p>Dionysius Thrax, <span><em>Tekhne</em></span> XIX <span class="citation" data-cites="uhlig">(<a href="#ref-uhlig" role="doc-biblioref">Uhlig 1883, 76</a>)</span>, <span class="citation" data-cites="tekhne">(<a href="#ref-tekhne" role="doc-biblioref">Kemp 1987, 184</a>)</span>:</p>
+<blockquote>
+<p>T‘a d‘e &gt;arijmo u dhlwtik’a, o &lt;ion d’is tr’is tetr’akis.</p>
+<p>Some signify number, for example <span><em>dis</em></span> (twice), <span><em>tris</em></span> (thrice), <span><em>tetrakis</em></span> (four times).</p>
 </blockquote>
-</div>
-<div id="p18" class="ltx_para">
-<p class="ltx_p">onefold, twofold, threefold</p>
-</div>
-<div id="p19" class="ltx_para">
-<p class="ltx_p">firstly, secondly, thirdly</p>
-</div>
-<div id="p20" class="ltx_para">
-<p class="ltx_p">half, third, quarter, fifth</p>
-</div>
-<div id="p21" class="ltx_para">
-<p class="ltx_p">Kühner <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib74" title="Ausführliche Grammatik der griechischen Sprache. Erster Teil: Elementar - und Formenlehre. Dritte Auflage in zwei Bänden, in neuer Bearbeitung besorgt von Dr. Friedrich Blass. Erster Band" class="ltx_ref">4</a>, p. 621]</cite>, §181</p>
-</div>
-<div id="p22" class="ltx_para">
-<p class="ltx_p">cardinals, <span class="ltx_text ltx_font_italic">cardinalia</span>, ον´οματα αριϑμητιϰά: answers π´οςοι, “how many?”, one, two, three, four</p>
-</div>
-<div id="p23" class="ltx_para">
-<p class="ltx_p">ordinals, <span class="ltx_text ltx_font_italic">ordinalia</span>, ον´οματα ταϰτιϰά: answers π´οςτος, “which in order?”, first, second, third, fourth</p>
-</div>
-<div id="p24" class="ltx_para">
-<p class="ltx_p">numeral adverbs: answers “how many times?”, once, twice, thrice, four times</p>
-</div>
-<div id="p25" class="ltx_para">
-<p class="ltx_p">multiplicative adverbs how many parts: answers “into how many parts?”</p>
-</div>
-<div id="p26" class="ltx_para">
-<p class="ltx_p">substantive numerals: unit, pair, triply</p>
-</div>
-<div id="p27" class="ltx_para">
-<p class="ltx_p">multiplicatives, πολλαπλαςιαςτιϰά αριϑμητιϰά: the number of parts of which a whole is composed, answers “how many fold?”, single, double, triple, quadruple</p>
-</div>
-<div id="p28" class="ltx_para">
-<p class="ltx_p">proportionals, αναλογιϰά αριϑμητιϰά: answers “how many times more?”</p>
-</div>
-<div id="p29" class="ltx_para">
-<p class="ltx_p">fractions: half, third, fourth</p>
-</div>
-<div id="p30" class="ltx_para">
-<p class="ltx_p">numeral adverbs: firstly, secondly, thirdly: δε´υτερον, τρίτον</p>
-</div>
-<div id="p31" class="ltx_para">
-<p class="ltx_p">five ways, six ways: πενταχῶς, ἑξαχῶς</p>
-</div>
-<div id="p32" class="ltx_para">
-<p class="ltx_p">ποςαπλάςιον. <span class="ltx_text ltx_font_italic">Meno</span> 83b <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib75" title="Plato: Meno and other dialogues. Charmides, Laches, Lysis, Meno" class="ltx_ref">9</a>, p. 118]</cite>: “How many times as big is it?”</p>
-</div>
-<div id="p33" class="ltx_para">
-<p class="ltx_p">Smyth Art. 347 <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib78" title="Greek grammar" class="ltx_ref">7</a>]</cite>:</p>
-</div>
-<div id="p34" class="ltx_para">
-<table class="ltx_tabular ltx_guessed_headers ltx_align_middle">
-<thead class="ltx_thead">
-<tr class="ltx_tr">
-<th class="ltx_td ltx_th ltx_th_column ltx_th_row ltx_border_r"></th>
-<th class="ltx_td ltx_th ltx_th_column ltx_border_r"></th>
-<th class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_r">cardinals</th>
-<th class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_r">ordinals</th>
-<th class="ltx_td ltx_align_left ltx_th ltx_th_column">numeral adverb</th>
+<p>onefold, twofold, threefold</p>
+<p>firstly, secondly, thirdly</p>
+<p>half, third, quarter, fifth</p>
+<p>Kühner <span class="citation" data-cites="kuhner">(<a href="#ref-kuhner" role="doc-biblioref">Kühner 1890, 621</a>)</span>, §181</p>
+<p>cardinals, <span><em>cardinalia</em></span>, on’omata arijmhtik’a: answers p’osoi, “how many?”, one, two, three, four</p>
+<p>ordinals, <span><em>ordinalia</em></span>, on’omata taktik’a: answers p’ostos, “which in order?”, first, second, third, fourth</p>
+<p>numeral adverbs: answers “how many times?”, once, twice, thrice, four times</p>
+<p>multiplicative adverbs how many parts: answers “into how many parts?”</p>
+<p>substantive numerals: unit, pair, triply</p>
+<p>multiplicatives, pollaplasiastik’a arijmhtik’a: the number of parts of which a whole is composed, answers “how many fold?”, single, double, triple, quadruple</p>
+<p>proportionals, analogik’a arijmhtik’a: answers “how many times more?”</p>
+<p>fractions: half, third, fourth</p>
+<p>numeral adverbs: firstly, secondly, thirdly: de’uteron, tr’iton</p>
+<p>five ways, six ways: pentaq ws, &lt;exaq ws</p>
+<p>posapl’asion. <span><em>Meno</em></span> 83b <span class="citation" data-cites="waterfieldmeno">(<a href="#ref-waterfieldmeno" role="doc-biblioref">Waterfield 2005, 118</a>)</span>: “How many times as big is it?”</p>
+<p>Smyth Art. 347 <span class="citation" data-cites="smyth">(<a href="#ref-smyth" role="doc-biblioref">Smyth 1956</a>)</span>:</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;"></th>
+<th style="text-align: left;">cardinals</th>
+<th style="text-align: left;">ordinals</th>
+<th style="text-align: left;">numeral adverb</th>
 </tr>
 </thead>
-<tbody class="ltx_tbody">
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r ltx_border_t">1</th>
-<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t">α´</td>
-<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t">εἷς, μία, ἕν</td>
-<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t">πρὼτ-ος, -η, -ον</td>
-<td class="ltx_td ltx_align_left ltx_border_t">ἅπαξ</td>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">a’</td>
+<td style="text-align: left;">e &lt;is, m’ia, &lt;’en</td>
+<td style="text-align: left;">pr’wt-os, -h, -on</td>
+<td style="text-align: left;">&lt;’apax</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">2</th>
-<td class="ltx_td ltx_align_left ltx_border_r">β´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">δ´υο</td>
-<td class="ltx_td ltx_align_left ltx_border_r">δε´υτερος</td>
-<td class="ltx_td ltx_align_left">δίς</td>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">b’</td>
+<td style="text-align: left;">d’uo</td>
+<td style="text-align: left;">de’uteros</td>
+<td style="text-align: left;">d’is</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">3</th>
-<td class="ltx_td ltx_align_left ltx_border_r">γ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τρεῖς, τρία</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τρίτος</td>
-<td class="ltx_td ltx_align_left">τρίς</td>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">g’</td>
+<td style="text-align: left;">tre is, tr’ia</td>
+<td style="text-align: left;">tr’itos</td>
+<td style="text-align: left;">tr’is</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">4</th>
-<td class="ltx_td ltx_align_left ltx_border_r">δ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τέτταρες, τέτταρα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τέταρτος, -η, -ον</td>
-<td class="ltx_td ltx_align_left">τετράϰις</td>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">d’</td>
+<td style="text-align: left;">t’ettares, t’ettara</td>
+<td style="text-align: left;">t’etartos, -h, -on</td>
+<td style="text-align: left;">tetr’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">5</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ε´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">πέντε</td>
-<td class="ltx_td ltx_align_left ltx_border_r">πέμπτος</td>
-<td class="ltx_td ltx_align_left">πεντάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">e’</td>
+<td style="text-align: left;">p’ente</td>
+<td style="text-align: left;">p’emptos</td>
+<td style="text-align: left;">pent’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">6</th>
-<td class="ltx_td ltx_align_left ltx_border_r">Ϛ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἕξ</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἕϰτος</td>
-<td class="ltx_td ltx_align_left">ἑξάϰις</td>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">’</td>
+<td style="text-align: left;">&lt;’ex</td>
+<td style="text-align: left;">&lt;’ektos</td>
+<td style="text-align: left;">&lt;ex’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">7</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ζ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἑπτά</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἕβδομος</td>
-<td class="ltx_td ltx_align_left">ἑπτάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">z’</td>
+<td style="text-align: left;">&lt;ept’a</td>
+<td style="text-align: left;">&lt;’ebdomos</td>
+<td style="text-align: left;">&lt;ept’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">8</th>
-<td class="ltx_td ltx_align_left ltx_border_r">η´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">’οϰτὼ</td>
-<td class="ltx_td ltx_align_left ltx_border_r">῎ογδοος</td>
-<td class="ltx_td ltx_align_left">’οϰτάϰις</td>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">h’</td>
+<td style="text-align: left;">&gt;okt’w</td>
+<td style="text-align: left;">&gt;’ogdoos</td>
+<td style="text-align: left;">&gt;okt’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">9</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ϑ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἐννέα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἔνατος</td>
-<td class="ltx_td ltx_align_left">ἐνάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">j’</td>
+<td style="text-align: left;">&gt;enn’ea</td>
+<td style="text-align: left;">&gt;’enatos</td>
+<td style="text-align: left;">&gt;en’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">10</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ι´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">δέϰα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">δέϰατος, -η, -ον</td>
-<td class="ltx_td ltx_align_left">δεϰάϰις</td>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">i’</td>
+<td style="text-align: left;">d’eka</td>
+<td style="text-align: left;">d’ekatos, -h, -on</td>
+<td style="text-align: left;">dek’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">11</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ια´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἕνδεϰα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἑνδέϰατος</td>
-<td class="ltx_td ltx_align_left">ἑνδεϰάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">ia’</td>
+<td style="text-align: left;">&lt;’endeka</td>
+<td style="text-align: left;">&lt;end’ekatos</td>
+<td style="text-align: left;">&lt;endek’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">12</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ιβ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">δὼδεϰα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">δωδέϰατος</td>
-<td class="ltx_td ltx_align_left">δωδεϰάϰις</td>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">ib’</td>
+<td style="text-align: left;">d’wdeka</td>
+<td style="text-align: left;">dwd’ekatos</td>
+<td style="text-align: left;">dwdek’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">13</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ιγ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τρεῖς ϰαὶ δέϰα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τρίτος ϰαὶ δέϰατος</td>
-<td class="ltx_td ltx_align_left">τρειςϰαιδεϰάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">ig’</td>
+<td style="text-align: left;">tre is ka‘i d’eka</td>
+<td style="text-align: left;">tr’itos ka‘i d’ekatos</td>
+<td style="text-align: left;">treiskaidek’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">14</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ιδ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τέτταρες ϰαὶ δέϰα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τέταρτος ϰαὶ δέϰατος</td>
-<td class="ltx_td ltx_align_left">τετταρεςϰαιδεϰάϰις</td>
+<tr class="even">
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">id’</td>
+<td style="text-align: left;">t’ettares ka‘i d’eka</td>
+<td style="text-align: left;">t’etartos ka‘i d’ekatos</td>
+<td style="text-align: left;">tettareskaidek’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">15</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ιε´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">πεντεϰαίδεϰα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">πέμπτος ϰαὶ δέϰατος</td>
-<td class="ltx_td ltx_align_left">πεντεϰαιδεϰάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">ie’</td>
+<td style="text-align: left;">penteka’ideka</td>
+<td style="text-align: left;">p’emptos ka‘i d’ekatos</td>
+<td style="text-align: left;">pentekaidek’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">16</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ιϚ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἑϰϰαίδεϰα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἕϰτος ϰαὶ δέϰατος</td>
-<td class="ltx_td ltx_align_left">ἑϰϰαιδεϰάϰις</td>
+<tr class="even">
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">i’</td>
+<td style="text-align: left;">&lt;ekka’ideka</td>
+<td style="text-align: left;">&lt;’ektos ka‘i d’ekatos</td>
+<td style="text-align: left;">&lt;ekkaidek’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">17</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ιζ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἑπταϰαίδεϰα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἕβδομος ϰαὶ δέϰατος</td>
-<td class="ltx_td ltx_align_left">ἑπταϰαιδεϰάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">iz’</td>
+<td style="text-align: left;">&lt;eptaka’ideka</td>
+<td style="text-align: left;">&lt;’ebdomos ka‘i d’ekatos</td>
+<td style="text-align: left;">&lt;eptakaidek’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">18</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ιη´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">’οϰτωϰαίδεϰα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">῎ογδοος ϰαὶ δέϰατος</td>
-<td class="ltx_td ltx_align_left">’οϰτωϰαιδεϰάϰις</td>
+<tr class="even">
+<td style="text-align: left;">18</td>
+<td style="text-align: left;">ih’</td>
+<td style="text-align: left;">&gt;oktwka’ideka</td>
+<td style="text-align: left;">&gt;’ogdoos ka‘i d’ekatos</td>
+<td style="text-align: left;">&gt;oktwkaidek’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">19</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ιϑ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἐννεαϰαίδεϰα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἔνατος ϰαὶ δέϰατος</td>
-<td class="ltx_td ltx_align_left">ἐννεαϰαιδεϰάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">19</td>
+<td style="text-align: left;">ij’</td>
+<td style="text-align: left;">&gt;enneaka’ideka</td>
+<td style="text-align: left;">&gt;’enatos ka‘i d’ekatos</td>
+<td style="text-align: left;">&gt;enneakaidek’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">20</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ϰ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">εἴϰοςι</td>
-<td class="ltx_td ltx_align_left ltx_border_r">εἰϰοςτ´ος, -ή, -´ον</td>
-<td class="ltx_td ltx_align_left">εἰϰοςάϰις</td>
+<tr class="even">
+<td style="text-align: left;">20</td>
+<td style="text-align: left;">k’</td>
+<td style="text-align: left;">e&gt;’ikosi</td>
+<td style="text-align: left;">e&gt;ikost’os, -’h, -’on</td>
+<td style="text-align: left;">e&gt;ikos’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">21</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ϰα´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">εἷς ϰαὶ εἴϰοςι</td>
-<td class="ltx_td ltx_align_left ltx_border_r">πρῶτος ϰαὶ εἰϰοςτ´ος</td>
-<td class="ltx_td ltx_align_left">εἰϰοςάϰις ἅπαξ</td>
+<tr class="odd">
+<td style="text-align: left;">21</td>
+<td style="text-align: left;">ka’</td>
+<td style="text-align: left;">e &lt;is ka‘i e&gt;’ikosi</td>
+<td style="text-align: left;">pr wtos ka‘i e&gt;ikost’os</td>
+<td style="text-align: left;">e&gt;ikos’akis &lt;’apax</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">30</th>
-<td class="ltx_td ltx_align_left ltx_border_r">λ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τριᾱ´ϰοντα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τριᾱϰοςτ´ος</td>
-<td class="ltx_td ltx_align_left">τριᾱϰοντάϰις</td>
+<tr class="even">
+<td style="text-align: left;">30</td>
+<td style="text-align: left;">l’</td>
+<td style="text-align: left;">tri<span>ā</span>’konta</td>
+<td style="text-align: left;">triākost’os</td>
+<td style="text-align: left;">triākont’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">40</th>
-<td class="ltx_td ltx_align_left ltx_border_r">μ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τετταράϰοντα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τετταραϰοςτ´ος</td>
-<td class="ltx_td ltx_align_left">τετταραϰοντάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">40</td>
+<td style="text-align: left;">m’</td>
+<td style="text-align: left;">tettar’akonta</td>
+<td style="text-align: left;">tettarakost’os</td>
+<td style="text-align: left;">tettarakont’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">50</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ν´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">πεντήϰοντα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">πεντηϰοςτ´ος</td>
-<td class="ltx_td ltx_align_left">πεντηϰοντάϰις</td>
+<tr class="even">
+<td style="text-align: left;">50</td>
+<td style="text-align: left;">n’</td>
+<td style="text-align: left;">pent’hkonta</td>
+<td style="text-align: left;">penthkost’os</td>
+<td style="text-align: left;">penthkont’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">60</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ξ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἑξήϰοντα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἑξηϰοςτ´ος</td>
-<td class="ltx_td ltx_align_left">ἑξηϰοντάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">60</td>
+<td style="text-align: left;">x’</td>
+<td style="text-align: left;">&lt;ex’hkonta</td>
+<td style="text-align: left;">&lt;exhkost’os</td>
+<td style="text-align: left;">&lt;exhkont’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">70</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ο´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἑβδομήϰοντα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἑβδομηϰοςτ´ος</td>
-<td class="ltx_td ltx_align_left">ἑβδομηϰοντάϰις</td>
+<tr class="even">
+<td style="text-align: left;">70</td>
+<td style="text-align: left;">o’</td>
+<td style="text-align: left;">&lt;ebdom’hkonta</td>
+<td style="text-align: left;">&lt;ebdomhkost’os</td>
+<td style="text-align: left;">&lt;ebdomhkont’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">80</th>
-<td class="ltx_td ltx_align_left ltx_border_r">π´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">’ογδοήϰοντα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">’ογδοηϰοςτ´ος</td>
-<td class="ltx_td ltx_align_left">’ογδοηϰοντάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">80</td>
+<td style="text-align: left;">p’</td>
+<td style="text-align: left;">&gt;ogdo’hkonta</td>
+<td style="text-align: left;">&gt;ogdohkost’os</td>
+<td style="text-align: left;">&gt;ogdohkont’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">90</th>
-<td class="ltx_td ltx_align_left ltx_border_r">Ϟ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἐνενήϰοντα</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἐνενηϰοςτ´ος</td>
-<td class="ltx_td ltx_align_left">ἐνενηϰοντάϰις</td>
+<tr class="even">
+<td style="text-align: left;">90</td>
+<td style="text-align: left;">’</td>
+<td style="text-align: left;">&gt;enen’hkonta</td>
+<td style="text-align: left;">&gt;enenhkost’os</td>
+<td style="text-align: left;">&gt;enenhkont’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">100</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ρ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἑϰατ´ον</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἑϰατοςτ´ος, -ή, -´ον</td>
-<td class="ltx_td ltx_align_left">ἑϰατοντάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">r’</td>
+<td style="text-align: left;">&lt;ekat’on</td>
+<td style="text-align: left;">&lt;ekatost’os, -’h, -’on</td>
+<td style="text-align: left;">&lt;ekatont’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">200</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ς´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">διᾱϰ´οςι-οι, -αι, -α</td>
-<td class="ltx_td ltx_align_left ltx_border_r">διᾱϰοςιοςτ´ος</td>
-<td class="ltx_td ltx_align_left">διᾱϰοςιάϰις</td>
+<tr class="even">
+<td style="text-align: left;">200</td>
+<td style="text-align: left;">s’</td>
+<td style="text-align: left;">diāk’osi-oi, -ai, -a</td>
+<td style="text-align: left;">diākosiost’os</td>
+<td style="text-align: left;">diākosi’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">300</th>
-<td class="ltx_td ltx_align_left ltx_border_r">τ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τριᾱϰ´οςι-οι, -αι, -α</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τριᾱϰοςιοςτ´ος</td>
-<td class="ltx_td ltx_align_left">τριᾱϰοςιάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">300</td>
+<td style="text-align: left;">t’</td>
+<td style="text-align: left;">triāk’osi-oi, -ai, -a</td>
+<td style="text-align: left;">triākosiost’os</td>
+<td style="text-align: left;">triākosi’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">400</th>
-<td class="ltx_td ltx_align_left ltx_border_r">υ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τετραϰ´οςι-οι, -αι, -α</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τετραϰοςιοςτ´ος</td>
-<td class="ltx_td ltx_align_left">τετραϰοςιάϰις</td>
+<tr class="even">
+<td style="text-align: left;">400</td>
+<td style="text-align: left;">u’</td>
+<td style="text-align: left;">tetrak’osi-oi, -ai, -a</td>
+<td style="text-align: left;">tetrakosiost’os</td>
+<td style="text-align: left;">tetrakosi’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">500</th>
-<td class="ltx_td ltx_align_left ltx_border_r">φ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">πενταϰ´οςι-οι, -αι, -α</td>
-<td class="ltx_td ltx_align_left ltx_border_r">πενταϰοςιοςτ´ος</td>
-<td class="ltx_td ltx_align_left">πενταϰοςιάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">500</td>
+<td style="text-align: left;">f’</td>
+<td style="text-align: left;">pentak’osi-oi, -ai, -a</td>
+<td style="text-align: left;">pentakosiost’os</td>
+<td style="text-align: left;">pentakosi’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">600</th>
-<td class="ltx_td ltx_align_left ltx_border_r">χ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἑξαϰ´οςι-οι, -αι, -α</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἑξαϰοςιοςτ´ος</td>
-<td class="ltx_td ltx_align_left">ἑξαϰοςιάϰις</td>
+<tr class="even">
+<td style="text-align: left;">600</td>
+<td style="text-align: left;">q’</td>
+<td style="text-align: left;">&lt;exak’osi-oi, -ai, -a</td>
+<td style="text-align: left;">&lt;exakosiost’os</td>
+<td style="text-align: left;">&lt;exakosi’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">700</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ψ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἑπταϰ´οςι-οι, -αι, -α</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἑπταϰοςιοςτ´ος</td>
-<td class="ltx_td ltx_align_left">ἑπταϰοςιάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">700</td>
+<td style="text-align: left;">y’</td>
+<td style="text-align: left;">&lt;eptak’osi-oi, -ai, -a</td>
+<td style="text-align: left;">&lt;eptakosiost’os</td>
+<td style="text-align: left;">&lt;eptakosi’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">800</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ω´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">’οϰταϰ´οςι-οι, -αι, -α</td>
-<td class="ltx_td ltx_align_left ltx_border_r">’οϰταϰοςιοςτ´ος</td>
-<td class="ltx_td ltx_align_left">’οϰταϰοςιάϰις</td>
+<tr class="even">
+<td style="text-align: left;">800</td>
+<td style="text-align: left;">w’</td>
+<td style="text-align: left;">&gt;oktak’osi-oi, -ai, -a</td>
+<td style="text-align: left;">&gt;oktakosiost’os</td>
+<td style="text-align: left;">&gt;oktakosi’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">900</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ϡ´</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἐναϰ´οςιοι</td>
-<td class="ltx_td ltx_align_left ltx_border_r">ἐναϰοςιοςτ´ος</td>
-<td class="ltx_td ltx_align_left">ἐναϰοςιάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">900</td>
+<td style="text-align: left;">’</td>
+<td style="text-align: left;">&gt;enak’osioi</td>
+<td style="text-align: left;">&gt;enakosiost’os</td>
+<td style="text-align: left;">&gt;enakosi’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">1000</th>
-<td class="ltx_td ltx_align_left ltx_border_r">
-<sub class="ltx_sub">,</sub>α</td>
-<td class="ltx_td ltx_align_left ltx_border_r">χῑ´λι-οι, -αι, -α</td>
-<td class="ltx_td ltx_align_left ltx_border_r">χῑλιοςτ´ος, -ή, -´ον</td>
-<td class="ltx_td ltx_align_left">χῑλιάϰις</td>
+<tr class="even">
+<td style="text-align: left;">1000</td>
+<td style="text-align: left;"><sub>,</sub><span>a</span></td>
+<td style="text-align: left;">q<span>ī</span>’li-oi, -ai, -a</td>
+<td style="text-align: left;">qīliost’os, -’h, -’on</td>
+<td style="text-align: left;">qīli’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">2000</th>
-<td class="ltx_td ltx_align_left ltx_border_r">
-<sub class="ltx_sub">,</sub>β</td>
-<td class="ltx_td ltx_align_left ltx_border_r">διςχῑ´λι-οι, -αι, -α</td>
-<td class="ltx_td ltx_align_left ltx_border_r">διςχῑλιοςτ´ος</td>
-<td class="ltx_td ltx_align_left">διςχῑλιάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">2000</td>
+<td style="text-align: left;"><sub>,</sub><span>b</span></td>
+<td style="text-align: left;">disq<span>ī</span>’li-oi, -ai, -a</td>
+<td style="text-align: left;">disq<span>ī</span>liost’os</td>
+<td style="text-align: left;">disqīli’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">3000</th>
-<td class="ltx_td ltx_align_left ltx_border_r">
-<sub class="ltx_sub">,</sub>γ</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τριςχῑ´λι-οι, -αι, -α</td>
-<td class="ltx_td ltx_align_left ltx_border_r">τριςχῑλιοςτ´ος</td>
-<td class="ltx_td ltx_align_left">τριςχῑλιάϰις</td>
+<tr class="even">
+<td style="text-align: left;">3000</td>
+<td style="text-align: left;"><sub>,</sub><span>g</span></td>
+<td style="text-align: left;">trisq<span>ī</span>’li-oi, -ai, -a</td>
+<td style="text-align: left;">trisq<span>ī</span>liost’os</td>
+<td style="text-align: left;">trisqīli’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">10000</th>
-<td class="ltx_td ltx_align_left ltx_border_r">
-<sub class="ltx_sub">,</sub>ι</td>
-<td class="ltx_td ltx_align_left ltx_border_r">μῡ´ρι-οι, -αι, -α</td>
-<td class="ltx_td ltx_align_left ltx_border_r">μῡριοςτ´ος</td>
-<td class="ltx_td ltx_align_left">μῡριάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">10000</td>
+<td style="text-align: left;"><sub>,</sub><span>i</span></td>
+<td style="text-align: left;">mū’ri-oi, -ai, -a</td>
+<td style="text-align: left;">mūriost’os</td>
+<td style="text-align: left;">mūri’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">20000</th>
-<td class="ltx_td ltx_align_left ltx_border_r">
-<sub class="ltx_sub">,</sub>ϰ</td>
-<td class="ltx_td ltx_align_left ltx_border_r">διςμῡ´ριοι</td>
-<td class="ltx_td ltx_align_left ltx_border_r">διςμῡριοςτ´ος</td>
-<td class="ltx_td ltx_align_left">διςμῡριάϰις</td>
+<tr class="even">
+<td style="text-align: left;">20000</td>
+<td style="text-align: left;"><sub>,</sub><span>k</span></td>
+<td style="text-align: left;">dismū’rioi</td>
+<td style="text-align: left;">dismūriost’os</td>
+<td style="text-align: left;">dismūri’akis</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">100000</th>
-<td class="ltx_td ltx_align_left ltx_border_r">
-<sub class="ltx_sub">,</sub>ρ</td>
-<td class="ltx_td ltx_align_left ltx_border_r">δεϰαϰιςμῡ´ριοι</td>
-<td class="ltx_td ltx_align_left ltx_border_r">δεϰαϰιςμῡριοςτ´ος</td>
-<td class="ltx_td ltx_align_left">δεϰαϰιςμῡριάϰις</td>
+<tr class="odd">
+<td style="text-align: left;">100000</td>
+<td style="text-align: left;"><sub>,</sub><span>r</span></td>
+<td style="text-align: left;">dekakismū’rioi</td>
+<td style="text-align: left;">dekakismūriost’os</td>
+<td style="text-align: left;">dekakismūri’akis</td>
 </tr>
 </tbody>
 </table>
-</div>
-<div id="p35" class="ltx_para">
-<table class="ltx_tabular ltx_guessed_headers ltx_align_middle">
-<tbody class="ltx_tbody">
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">1</th>
-<td class="ltx_td ltx_align_left">ἅπαξ</td>
-<td class="ltx_td"></td>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">&lt;’apax</td>
+<td style="text-align: left;"></td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">2</th>
-<td class="ltx_td ltx_align_left">`̣ις</td>
-<td class="ltx_td ltx_align_left">δίχα</td>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">`̣is</td>
+<td style="text-align: left;">d’iqa</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">3</th>
-<td class="ltx_td ltx_align_left">τρίς</td>
-<td class="ltx_td ltx_align_left">τρίχα</td>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">tr’is</td>
+<td style="text-align: left;">tr’iqa</td>
 </tr>
 </tbody>
 </table>
-</div>
-<div id="p36" class="ltx_para">
-<table class="ltx_tabular ltx_guessed_headers ltx_align_middle">
-<tbody class="ltx_tbody">
-<tr class="ltx_tr">
-<td class="ltx_td"></td>
-<td class="ltx_td ltx_align_left">substantive numerals</td>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">substantive numerals</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">1</th>
-<td class="ltx_td ltx_align_left">μονάς</td>
+<tr class="even">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">mon’as</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">2</th>
-<td class="ltx_td ltx_align_left">δυάς</td>
+<tr class="odd">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">du’as</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">3</th>
-<td class="ltx_td ltx_align_left">τριάς</td>
+<tr class="even">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">tri’as</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">4</th>
-<td class="ltx_td ltx_align_left">τετράς</td>
+<tr class="odd">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">tetr’as</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">5</th>
-<td class="ltx_td ltx_align_left">πεντάς</td>
+<tr class="even">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">pent’as</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">6</th>
-<td class="ltx_td ltx_align_left">ἑξάς</td>
+<tr class="odd">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">&lt;ex’as</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">7</th>
-<td class="ltx_td ltx_align_left">ἑβδομάς</td>
+<tr class="even">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">&lt;ebdom’as</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">8</th>
-<td class="ltx_td ltx_align_left">’ογδοάς</td>
+<tr class="odd">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">&gt;ogdo’as</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">9</th>
-<td class="ltx_td ltx_align_left">ἐννεάς</td>
+<tr class="even">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">&gt;enne’as</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">10</th>
-<td class="ltx_td ltx_align_left">δεϰάς</td>
+<tr class="odd">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">dek’as</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">11</th>
-<td class="ltx_td ltx_align_left">ἑνδεϰάς</td>
+<tr class="even">
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">&lt;endek’as</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">12</th>
-<td class="ltx_td ltx_align_left">δοδεϰάς</td>
+<tr class="odd">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">dodek’as</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">20</th>
-<td class="ltx_td ltx_align_left">εἰϰάς</td>
+<tr class="even">
+<td style="text-align: left;">20</td>
+<td style="text-align: left;">e&gt;ik’as</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">40</th>
-<td class="ltx_td ltx_align_left">τεςςαραϰοντάς</td>
+<tr class="odd">
+<td style="text-align: left;">40</td>
+<td style="text-align: left;">tessarakont’as</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">100</th>
-<td class="ltx_td ltx_align_left">ἑϰατοντάς</td>
+<tr class="even">
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">&lt;ekatont’as</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">1000</th>
-<td class="ltx_td ltx_align_left">χιλιάς</td>
+<tr class="odd">
+<td style="text-align: left;">1000</td>
+<td style="text-align: left;">qili’as</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row">10000</th>
-<td class="ltx_td ltx_align_left">μυριάς</td>
+<tr class="even">
+<td style="text-align: left;">10000</td>
+<td style="text-align: left;">muri’as</td>
 </tr>
 </tbody>
 </table>
-</div>
-<div id="p37" class="ltx_para">
-<table class="ltx_tabular ltx_guessed_headers ltx_align_middle">
-<tbody class="ltx_tbody">
-<tr class="ltx_tr">
-<td class="ltx_td ltx_border_r"></td>
-<td class="ltx_td ltx_align_left ltx_border_r">multiplicatives</td>
-<td class="ltx_td ltx_align_left">proportionals</td>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">multiplicatives</td>
+<td style="text-align: left;">proportionals</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">1</th>
-<td class="ltx_td ltx_align_left ltx_border_r">ἁπλ´οος, -ο῀υς</td>
-<td class="ltx_td"></td>
+<tr class="even">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">&lt;apl’oos, -o us</td>
+<td style="text-align: left;"></td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">2</th>
-<td class="ltx_td ltx_align_left ltx_border_r">διπλ´οος, -ο῀υς</td>
-<td class="ltx_td ltx_align_left">διπλάςιος</td>
+<tr class="odd">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">dipl’oos, -o us</td>
+<td style="text-align: left;">dipl’asios</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">3</th>
-<td class="ltx_td ltx_align_left ltx_border_r">τριπλ´οος, -ο῀υς</td>
-<td class="ltx_td ltx_align_left">τριπλάςιος</td>
+<tr class="even">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">tripl’oos, -o us</td>
+<td style="text-align: left;">tripl’asios</td>
 </tr>
-<tr class="ltx_tr">
-<th class="ltx_td ltx_align_left ltx_th ltx_th_row ltx_border_r">4</th>
-<td class="ltx_td ltx_align_left ltx_border_r">τετραπλάςιος</td>
-<td class="ltx_td"></td>
+<tr class="odd">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">tetrapl’asios</td>
+<td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
-</div>
-<div id="p38" class="ltx_para">
-<p class="ltx_p">Nicomachus, <span class="ltx_text ltx_font_italic">Introductio arithmetica</span> I.18 <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib76" title="Nicomachus of Gerasa: Introduction to arithmetic" class="ltx_ref">1</a>, p. 214]</cite>:</p>
-</div>
-<div id="p39" class="ltx_para">
-<blockquote class="ltx_quote">
-<p class="ltx_p">Once more, then; the multiple [πολλαπλαςίων] is the species of the greater first and most original by nature, as straightway we shall see, and it is a
-number [ἀριϑμ`ος] which, when it is observed in comparison with another, contains the whole of that number more than once. For example, compared with unity, all the successive numbers beginning with 2 generate in their proper order the regular forms of the multiple; for 2, in the first place, is and is called the double, 3 triple, 4 quadruple, and so on;
-for ‘more than once’ means twice, or three times, and so on in succession as far as you like.</p>
+<p>Nicomachus, <span><em>Introductio arithmetica</em></span> I.18 <span class="citation" data-cites="nicomachus">(<a href="#ref-nicomachus" role="doc-biblioref">D’Ooge, Robbins, and Karpinski 1926, 214</a>)</span>:</p>
+<blockquote>
+<p>Once more, then; the multiple [pollaplas’iwn] is the species of the greater first and most original by nature, as straightway we shall see, and it is a number [&gt;arijm‘os] which, when it is observed in comparison with another, contains the whole of that number more than once. For example, compared with unity, all the successive numbers beginning with 2 generate in their proper order the regular forms of the multiple; for 2, in the first place, is and is called the double, 3 triple, 4 quadruple, and so on; for ‘more than once’ means twice, or three times, and so on in succession as far as you like.</p>
 </blockquote>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-nicomachus" class="csl-entry" role="doc-biblioentry">
+D’Ooge, Martin Luther, Frank Egleston Robbins, and Louis Charles Karpinski. 1926. <em><span class="nocase">Nicomachus of Gerasa: <span><em>Introduction to arithmetic</em></span></span></em>. New York: Macmillan.
 </div>
-<section id="bib" class="ltx_bibliography">
-<h2 class="ltx_title ltx_title_bibliography">References</h2>
-
-<ul id="bib.L1" class="ltx_biblist">
-<li id="bib.bib76" class="ltx_bibitem ltx_bib_book">
-<span class="ltx_tag ltx_bib_key ltx_role_refnum ltx_tag_bibitem">[1]</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_author">M. L. D’Ooge, F. E. Robbins, and L. C. Karpinski</span><span class="ltx_text ltx_bib_year"> (1926)</span>
-</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_title">Nicomachus of Gerasa: <span class="ltx_text ltx_font_italic">Introduction to arithmetic</span></span>.
-</span>
-<span class="ltx_bibblock"> <span class="ltx_text ltx_bib_publisher">Macmillan</span>, <span class="ltx_text ltx_bib_place">New York</span>.
-</span>
-<span class="ltx_bibblock ltx_bib_cited">Cited by: <a href="#p38" title="Greek numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title">Greek numbers</span></a>.
-</span>
-</li>
-<li id="bib.bib79" class="ltx_bibitem ltx_bib_book">
-<span class="ltx_tag ltx_bib_key ltx_role_refnum ltx_tag_bibitem">[2]</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_author">F. W. Householder</span><span class="ltx_text ltx_bib_year"> (1981)</span>
-</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_title">The <span class="ltx_text ltx_font_italic">Syntax</span> of Apollonius Dyscolus</span>.
-</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_series">Studies in the History of the Language Sciences</span>, Vol. <span class="ltx_text ltx_bib_volume">23</span>,  <span class="ltx_text ltx_bib_publisher">John Benjamins Publishing Company</span>.
-</span>
-<span class="ltx_bibblock ltx_bib_cited">Cited by: <a href="#p5" title="Greek numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title">Greek numbers</span></a>.
-</span>
-</li>
-<li id="bib.bib84" class="ltx_bibitem ltx_bib_incollection">
-<span class="ltx_tag ltx_bib_key ltx_role_refnum ltx_tag_bibitem">[3]</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_author">A. Kemp</span><span class="ltx_text ltx_bib_year"> (1987)</span>
-</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_title">The <span class="ltx_text ltx_font_italic">Tekhnē Grammatikē</span> of Dionysius Thrax: English translation with introduction and notes</span>.
-</span>
-<span class="ltx_bibblock">In <span class="ltx_text ltx_bib_inbook">The History of Linguistics in the Classical Period</span>,  <span class="ltx_text ltx_bib_editor">D. J. Taylor (Ed.)</span>,
-</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_series">Studies in the History of the Language Sciences</span>, Vol. <span class="ltx_text ltx_bib_volume">46</span>, <span class="ltx_text ltx_bib_pages"> pp. 169–190</span>.
-</span>
-<span class="ltx_bibblock ltx_bib_cited">Cited by: <a href="#p10" title="Greek numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title">Greek numbers</span></a>,
-<a href="#p12" title="Greek numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title">Greek numbers</span></a>,
-<a href="#p14" title="Greek numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title">Greek numbers</span></a>,
-<a href="#p16" title="Greek numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title">Greek numbers</span></a>,
-<a href="#p8" title="Greek numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title">Greek numbers</span></a>.
-</span>
-</li>
-<li id="bib.bib74" class="ltx_bibitem ltx_bib_book">
-<span class="ltx_tag ltx_bib_key ltx_role_refnum ltx_tag_bibitem">[4]</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_author">R. Kühner</span><span class="ltx_text ltx_bib_year"> (1890)</span>
-</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_title">Ausführliche Grammatik der griechischen Sprache. Erster Teil: Elementar - und Formenlehre. Dritte Auflage in zwei Bänden, in neuer Bearbeitung besorgt von Dr. Friedrich Blass. Erster Band</span>.
-</span>
-<span class="ltx_bibblock"> <span class="ltx_text ltx_bib_publisher">Hahnsche Buchhandlung</span>, <span class="ltx_text ltx_bib_place">Hannover</span>.
-</span>
-<span class="ltx_bibblock ltx_bib_cited">Cited by: <a href="#p21" title="Greek numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title">Greek numbers</span></a>.
-</span>
-</li>
-<li id="bib.bib80" class="ltx_bibitem ltx_bib_book">
-<span class="ltx_tag ltx_bib_key ltx_role_refnum ltx_tag_bibitem">[5]</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_author">A. A. Long and D. N. Sedley</span><span class="ltx_text ltx_bib_year"> (1987)</span>
-</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_title">The Hellenistic philosophers. Volume 1: translations of the principal sources, with philosophical commentary</span>.
-</span>
-<span class="ltx_bibblock"> <span class="ltx_text ltx_bib_publisher">Cambridge University Press</span>.
-</span>
-<span class="ltx_bibblock ltx_bib_cited">Cited by: <a href="#p3" title="Greek numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title">Greek numbers</span></a>.
-</span>
-</li>
-<li id="bib.bib81" class="ltx_bibitem ltx_bib_book">
-<span class="ltx_tag ltx_bib_key ltx_role_refnum ltx_tag_bibitem">[6]</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_author">W. Rhys Roberts</span><span class="ltx_text ltx_bib_year"> (1910)</span>
-</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_title">Dionysius of Halicarnassus, On Literary Composition</span>.
-</span>
-<span class="ltx_bibblock"> <span class="ltx_text ltx_bib_publisher">Macmillian</span>, <span class="ltx_text ltx_bib_place">London</span>.
-</span>
-<span class="ltx_bibblock ltx_bib_cited">Cited by: <a href="#p6" title="Greek numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title">Greek numbers</span></a>.
-</span>
-</li>
-<li id="bib.bib78" class="ltx_bibitem ltx_bib_book">
-<span class="ltx_tag ltx_bib_key ltx_role_refnum ltx_tag_bibitem">[7]</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_author">H. W. Smyth</span><span class="ltx_text ltx_bib_year"> (1956)</span>
-</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_title">Greek grammar</span>.
-</span>
-<span class="ltx_bibblock"> <span class="ltx_text ltx_bib_publisher">Harvard University Press</span>.
-</span>
-<span class="ltx_bibblock">Note: <span class="ltx_text ltx_bib_note">Revised by Gordon M. Messing</span>
-</span>
-<span class="ltx_bibblock ltx_bib_cited">Cited by: <a href="#p33" title="Greek numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title">Greek numbers</span></a>.
-</span>
-</li>
-<li id="bib.bib83" class="ltx_bibitem ltx_bib_book">
-<span class="ltx_tag ltx_bib_key ltx_role_refnum ltx_tag_bibitem">[8]</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_editor">G. Uhlig (Ed.)</span><span class="ltx_text ltx_bib_year"> (1883)</span>
-</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_title">Dionysii Thracis ars grammatica</span>.
-</span>
-<span class="ltx_bibblock"> <span class="ltx_text ltx_bib_publisher">B. G. Teubner</span>, <span class="ltx_text ltx_bib_place">Lipsiae</span>.
-</span>
-<span class="ltx_bibblock ltx_bib_cited">Cited by: <a href="#p10" title="Greek numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title">Greek numbers</span></a>,
-<a href="#p12" title="Greek numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title">Greek numbers</span></a>,
-<a href="#p14" title="Greek numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title">Greek numbers</span></a>,
-<a href="#p16" title="Greek numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title">Greek numbers</span></a>,
-<a href="#p8" title="Greek numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title">Greek numbers</span></a>.
-</span>
-</li>
-<li id="bib.bib75" class="ltx_bibitem ltx_bib_book">
-<span class="ltx_tag ltx_bib_key ltx_role_refnum ltx_tag_bibitem">[9]</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_author">R. Waterfield</span><span class="ltx_text ltx_bib_year"> (2005)</span>
-</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_title">Plato: <span class="ltx_text ltx_font_italic">Meno</span> and other dialogues. <span class="ltx_text ltx_font_italic">Charmides, Laches, Lysis, Meno</span></span>.
-</span>
-<span class="ltx_bibblock"><span class="ltx_text ltx_bib_series">Oxford World’s Classics</span>,  <span class="ltx_text ltx_bib_publisher">Oxford University Press</span>.
-</span>
-<span class="ltx_bibblock">Note: <span class="ltx_text ltx_bib_note">Translated with an introduction and notes</span>
-</span>
-<span class="ltx_bibblock ltx_bib_cited">Cited by: <a href="#p32" title="Greek numbers" class="ltx_ref"><span class="ltx_text ltx_ref_title">Greek numbers</span></a>.
-</span>
-</li>
-</ul>
-</section>
-</article>
+<div id="ref-householder" class="csl-entry" role="doc-biblioentry">
+Householder, Fred W. 1981. <em><span class="nocase">The <span><em>Syntax</em></span> of Apollonius Dyscolus</span></em>. Vol. 23. Studies in the History of the Language Sciences. John Benjamins Publishing Company.
 </div>
-<footer class="ltx_page_footer">
-<div class="ltx_page_logo">Generated  on Mon Feb 21 03:11:29 2022 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></a>
-</div></footer>
+<div id="ref-tekhne" class="csl-entry" role="doc-biblioentry">
+Kemp, Alan. 1987. <span>“The <span class="nocase"><span><em>Tekhnē Grammatikē</em></span> of Dionysius Thrax: English</span> Translation with Introduction and Notes.”</span> In <em>The History of Linguistics in the Classical Period</em>, edited by Daniel J. Taylor, 46:169–90. Studies in the History of the Language Sciences. John Benjamins Publishing Company.
+</div>
+<div id="ref-kuhner" class="csl-entry" role="doc-biblioentry">
+Kühner, Raphael. 1890. <em><span class="nocase">Ausführliche Grammatik der griechischen Sprache. Erster Teil: Elementar - und Formenlehre. Dritte Auflage in zwei Bänden, in neuer Bearbeitung besorgt von Dr. Friedrich Blass. Erster Band</span></em>. Hannover: Hahnsche Buchhandlung.
+</div>
+<div id="ref-LS1" class="csl-entry" role="doc-biblioentry">
+Long, A. A., and D. N. Sedley. 1987. <em>The <span>H</span>ellenistic Philosophers. <span>V</span>olume 1: Translations of the Principal Sources, with Philosophical Commentary</em>. Cambridge University Press.
+</div>
+<div id="ref-comp" class="csl-entry" role="doc-biblioentry">
+Rhys Roberts, W. 1910. <em><span class="nocase">Dionysius of Halicarnassus, On Literary Composition</span></em>. London: Macmillian.
+</div>
+<div id="ref-smyth" class="csl-entry" role="doc-biblioentry">
+Smyth, Herbert Weir. 1956. <em>Greek Grammar</em>. Harvard University Press.
+</div>
+<div id="ref-uhlig" class="csl-entry" role="doc-biblioentry">
+Uhlig, Gustav, ed. 1883. <em><span class="nocase">Dionysii Thracis ars grammatica</span></em>. Lipsiae: B. G. Teubner.
+</div>
+<div id="ref-waterfieldmeno" class="csl-entry" role="doc-biblioentry">
+Waterfield, Robin. 2005. <em>Plato: <span><em>Meno</em></span> and Other Dialogues. <span><em>Charmides, Laches, Lysis, Meno</em></span></em>. Oxford World’s Classics. Oxford University Press.
+</div>
 </div>
 </body>
 </html>

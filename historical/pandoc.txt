@@ -10,10 +10,6 @@ latexml --destination=induction.xml induction.tex
 
 latexmlpost induction.xml --destination=index.html
 
-latexml --destination=logsin.xml logsin.tex
-
-latexmlpost logsin.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
-
 latexml --destination=liouville.xml liouville.tex
 
 latexmlpost liouville.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML" --navigationtoc=context --css=LaTeXML-navbar-left.css
@@ -51,6 +47,8 @@ pandoc --standalone --bibliography=euclidIV.bib --citeproc -o index.html -f late
 latexml --destination=greeknumbers.xml greeknumbers.tex
 
 latexmlpost greeknumbers.xml --destination=index.html --javascript="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=MML_HTMLorMML"
+
+pandoc --standalone --bibliography=greeknumbers.bib --citeproc -o index.html -f latex -t html --katex greeknumbers.tex --metadata link-citations=true
 
 latexml --destination=pell.xml pell.tex
 
