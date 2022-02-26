@@ -1,0 +1,1 @@
+pandoc --standalone -o index.html -f latex -t html --katex nbdfilters.tex
