@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeXML/mathematics/Qdual"?>
+<?latexml searchpaths="/mnt/c/Users/Jordan/Documents/GitHub/LaTeX/mathematics/Qdual"?>
 <?latexml class="article"?>
 <?latexml package="amsmath,amssymb,mathrsfs,amsthm"?>
 <?latexml package="hyperref" options="draft"?>
@@ -19,7 +19,7 @@
       <XMath>
         <XMTok font="blackboard" role="UNKNOWN">Q</XMTok>
       </XMath>
-    </Math>, and the adeles</title>
+    </Math> and the adeles</title>
   <creator role="author">
     <personname>Jordan Bell</personname>
   </creator>
